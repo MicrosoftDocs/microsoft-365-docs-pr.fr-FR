@@ -1,0 +1,75 @@
+### YamlMime:YamlDocument
+ms.openlocfilehash: 07a77c646f8aef2440f415fdf143373cd249a641
+ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26867158"
+documentType: LandingData
+title: Ressources et documentation de l’ordinateur de bureau Microsoft
+metadata:
+  title: Documentation de l’ordinateur de bureau Microsoft
+  description: 
+  keywords: APPAREIL, application, gestion
+  author: trudyha
+  ms.author: trudyha
+  ms.date: 11/1/2018
+  ms.topic: landing-page
+  ms.devlang: na
+  ms.service: m365-md
+sections:
+- items:
+  - type: markdown
+    text: Le moyen le plus simple répondez aux demandes des utilisateurs et libérer de l’informatique.
+- items:
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 2
+    items:
+    - href: intro/index.md
+      html: <p>En savoir plus sur les nouveautés de Microsoft de bureau et comment il fonctionne.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_overview.svg
+      title: Qu’est-ce que le bureau géré Microsoft ?
+    - href: service-description/index.md
+      html: <p>Découvrez ce qui est inclus dans l’ordinateur de bureau Microsoft.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_get-started.svg
+      title: Description du service
+    - href: get-ready/index.md
+      html: <p>Découvrez comment préparer pour s’inscrire à l’ordinateur de bureau Microsoft.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_support.svg
+      title: Préparez-vous
+    - href: get-started/index.md
+      html: <p>Découvrez comment commander des appareils et ajouter des contacts.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_whats-new.svg
+      title: Prise en main
+    - href: working-with-managed-desktop/index.md
+      html: <p>Découvrez la gestion des applications.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_portal.svg
+      title: Utilisation du bureau géré Microsoft
+- title: Nouveaux articles et billets de blog
+  items:
+  - type: paragraph
+    text: Lisez les informations les toutes dernières que vous devez connaître.
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 2
+    items:
+    - href: https://www.microsoft.com/microsoft-365/blog/2018/09/17/collaborating-with-customers-and-partners-to-deliver-a-modern-desktop-microsoft-managed-desktop/
+      title: '[Blog] Collaboration avec les clients et partenaires pour fournir un bureau moderne'
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_architecture.svg
+    - href: https://www.cio.com/article/3307121/systems-management/microsoft-managed-desktop-all-your-windows-10-devices-managed-by-microsoft.html
+      title: '[Article] Bureau Microsoft Managed : Tous les 10 Windows appareils, gérés par Microsoft'
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_guide.svg
+- title: Vidéos
+  items:
+  - type: markdown
+    text: '>[!VIDEO https://www.youtube.com/embed/Pe75tc8YwKM]'
