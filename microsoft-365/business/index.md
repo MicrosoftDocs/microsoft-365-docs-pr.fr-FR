@@ -11,10 +11,10 @@ ms.prod: microsoft-365-business
 title: Ressources Microsoft 365 entreprise
 description: Découvrez comment planifier, déployer et utiliser Microsoft Office 365, Windows 10 et mobilité d’entreprise + sécurité ensemble dans votre entreprise une infrastructure intégrée et sécurisé qui permet le travail d’équipe et déverrouille la création.
 ms.openlocfilehash: 386c829a6b635b1b23301e838f05b0b84bbfb3b4
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26866951"
 ---
 <div id="main" class="v2">
@@ -173,7 +173,7 @@ ms.locfileid: "26866951"
                                                 <div class="cardText">
                                                     <h3>Vous avez besoin de la prise en charge ?</h3>
                                                      <P><a href="https://azure.microsoft.com/support/options/" target="_blank">Azure</a></p>
-                                                     <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Office 365</a></p>
+                                                     <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Office 365</a></p>
                                                      <P><a href="http://support.microsoft.com/products/windows" target="_blank">Windows 10</a></p>
                                                 </div>
                                             </div>
