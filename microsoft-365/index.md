@@ -10,10 +10,10 @@ title: Documentation Microsoft 365
 description: Recherchez de la documentation et des ressources pour Microsoft 365--une solution complète et intelligente, incluant Office 365, Windows 10 et Enterprise Mobility + Security, qui permet à chacun d’être créatif et de collaborer en toute sécurité.
 ms.date: 07/01/2018
 ms.openlocfilehash: b2c796fc35859128d4a65ea3587db082f8264abd
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26866851"
 ---
 <div id="main" class="v2">

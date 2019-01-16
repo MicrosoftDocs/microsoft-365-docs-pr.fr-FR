@@ -10,11 +10,11 @@ localization_priority: Normal
 audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 title: Ressources et documentation de Microsoft 365 Entreprise
-ms.openlocfilehash: b8c4fd137e96bf96595e1670ea63655839ffc332
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 0e758884c063aaa82b5c7fc55051925376f8688b
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26866844"
 ---
 <div id="main" class="v2">
@@ -98,7 +98,7 @@ ms.locfileid: "26866844"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Former vos utilisateurs</h3>
-                                                <P><a href="https://support.office.com/office-training-center" target="_blank">Office 365</a></p>
+                                                <P><a href="https://support.office.com/office-training-center" target="_blank">Office 365</a></p>
                                                 <P><a href="https://www.microsoft.com/itpro/windows-10/end-user-readiness" target="_blank">Windows 10</a></p>
                                                 <P><a href="https://docs.microsoft.com/intune-user-help/use-managed-devices-to-get-work-done" target="_blank">Intune &amp; application portail d’entreprise</a></p>
                                             </div>
@@ -119,7 +119,7 @@ ms.locfileid: "26866844"
                                                 <h3>Gérer Office 365</h3>
                                                 <P><a href="https://docs.microsoft.com/office365/enterprise/" target="_blank">Office 365 Entreprise</a></p>
                                                 <P><a href="https://support.office.com/office365admin" target="_blank">Office 365 Business</a></p>
-                                                <P><a href="https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus" target="_blank">Office 365 ProPlus</a></p>
+                                                <P><a href="https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus" target="_blank">Office 365 ProPlus</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -136,6 +136,7 @@ ms.locfileid: "26866844"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Gérer la mobilité d’entreprise + sécurité</h3>
+                                                <P><a href="https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security" target="_blank">Microsoft Cloud App Security</a></p>
                                                 <P><a href="https://docs.microsoft.com/intune/index" target="_blank">Microsoft Intune</a></p>                              <P><a href="https://docs.microsoft.com/azure/active-directory" target="_blank">Azure Active Directory</a></p>
                                                 <P><a href="https://docs.microsoft.com/azure/information-protection/" target="_blank">Azure Information Protection</a></p>
                                                 <P><a href="https://docs.microsoft.com/azure-advanced-threat-protection/" target="_blank">Protection contre les menaces avancées Azure</a></p>
@@ -179,7 +180,7 @@ ms.locfileid: "26866844"
                                                     <div class="cardText">
                                                         <h3>Autres produits Microsoft 365</h3>
                                                         <P><a href="https://docs.microsoft.com/microsoft-365/business/" target="_blank">Microsoft 365 Business</a></p>
-                                                        <P><a href="https://docs.microsoft.com/education/" target="_blank">Microsoft 365 Éducation</a></p>
+                                                        <P><a href="https://docs.microsoft.com/education/" target="_blank">Microsoft 365 Éducation</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -197,7 +198,7 @@ ms.locfileid: "26866844"
                                                     <div class="cardText">
                                                         <h3>Vous avez besoin de la prise en charge ?</h3>
                                                         <P><a href="https://azure.microsoft.com/support/options/" target="_blank">Azure</a></p>
-                                                        <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Office 365</a></p>
+                                                        <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Office 365</a></p>
                                                         <P><a href="http://support.microsoft.com/products/windows" target="_blank">Windows 10</a></p>
                                                     </div>
                                                 </div>
