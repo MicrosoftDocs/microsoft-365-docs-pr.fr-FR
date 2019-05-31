@@ -1,0 +1,37 @@
+- name: Gérer les achats et la facturation de commerce
+  href: index.md
+  expanded: true
+  items:
+    - name: Produits et services
+      expanded: true
+      items:
+        - name: Gérer les applications tierces
+          href: manage-saas-apps.md
+        - name: Acheter des licences
+          href: /office365/admin/subscriptions-and-billing/buy-licenses?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
+        - name: Attribuer des licences
+          href: /office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
+        - name: Supprimer des licences de votre abonnement
+          href: /office365/admin/subscriptions-and-billing/remove-licenses-from-subscription?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
+        - name: Retirer des licences aux utilisateurs
+          href: /office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
+        - name: Mettre à niveau les abonnements
+          href: /office365/admin/subscriptions-and-billing/upgrade-to-different-plan?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
+    - name: Factures et paiements
+      items:
+        - name: Comprendre ma facture
+          href: /microsoft-store/billing-understand-your-invoice-msfb?context=/microsoft-365/commerce/context/context-commerce
+        - name: Gérer les modes de paiement
+          href: /microsoft-store/payment-methods?context=/microsoft-365/commerce/context/context-commerce
+        - name: Gérer les profils de facturation
+          href: /microsoft-store/billing-profile?context=/microsoft-365/commerce/context/context-commerce
+        - name: Historique des commandes
+          href: /microsoft-store/manage-orders-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
+    - name: Compte de facturation
+      items:
+        - name: Gérer les informations de compte de facturation
+          href: /microsoft-store/update-microsoft-store-for-business-account-settings?context=/microsoft-365/commerce/context/context-commerce
+        - name: Associer un client à mon compte de facturation
+          href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
+    - name: Gérer les relations avec mes partenaires
+      href: /microsoft-store/work-with-partner-microsoft-store-business?context=/microsoft-365/commerce/context/context-commerce
