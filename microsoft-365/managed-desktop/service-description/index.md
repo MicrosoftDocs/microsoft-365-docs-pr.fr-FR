@@ -1,26 +1,38 @@
 ---
-title: Description du service Microsoft maNaged Desktop
-description: La description de Microsoft maNaged Desktop service inclut l'appareil en tant que service et en tant que service
-keywords: Microsoft maNaged Desktop, Microsoft 365, service, documentation
+title: Description du service Microsoft Managed Desktop
+description: Décrit les éléments inclus dans le bureau géré Microsoft en tant que service
+keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
-author: jdeckerms
+author: jaimeo
 ms.localizationpriority: normal
-ms.date: 02/06/2019
-ms.openlocfilehash: abce237a7e9608d50c79f8676033a1362fd9931e
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 59344a338e051b32225574c18609ffde09716c8c
+ms.sourcegitcommit: 83338be246ae104724d7f38af12fe7f6546fec27
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283436"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933543"
 ---
-# <a name="microsoft-managed-desktop-service-description"></a><span data-ttu-id="e60b3-104">Description du service Microsoft maNaged Desktop</span><span class="sxs-lookup"><span data-stu-id="e60b3-104">Microsoft Managed Desktop service description</span></span>
-<span data-ttu-id="e60b3-105">Microsoft maNaged Desktop inclut les services suivants:</span><span class="sxs-lookup"><span data-stu-id="e60b3-105">Microsoft Managed Desktop includes these services:</span></span> 
+# <a name="microsoft-managed-desktop-service-description"></a><span data-ttu-id="cfc87-104">Description du service Microsoft Managed Desktop</span><span class="sxs-lookup"><span data-stu-id="cfc87-104">Microsoft Managed Desktop service description</span></span>
 
-- [<span data-ttu-id="e60b3-106">Appareils de programme</span><span class="sxs-lookup"><span data-stu-id="e60b3-106">Program devices</span></span>](device-list.md)
-- [<span data-ttu-id="e60b3-107">Services d'appareil</span><span class="sxs-lookup"><span data-stu-id="e60b3-107">Device services</span></span>](device-services.md)
-- [<span data-ttu-id="e60b3-108">Configuration des appareils</span><span class="sxs-lookup"><span data-stu-id="e60b3-108">Device configuration</span></span>](device-policies.md)
-- [<span data-ttu-id="e60b3-109">Sécurité</span><span class="sxs-lookup"><span data-stu-id="e60b3-109">Security</span></span>](security.md)
-- [<span data-ttu-id="e60b3-110">Mises à jour</span><span class="sxs-lookup"><span data-stu-id="e60b3-110">Updates</span></span>](updates.md)
-- [<span data-ttu-id="e60b3-111">Support</span><span class="sxs-lookup"><span data-stu-id="e60b3-111">Support</span></span>](support.md)
-- [<span data-ttu-id="e60b3-112">Opérations et surveillance</span><span class="sxs-lookup"><span data-stu-id="e60b3-112">Operations and monitoring</span></span>](operations-and-monitoring.md)
-- [<span data-ttu-id="e60b3-113">Exigences de l'application</span><span class="sxs-lookup"><span data-stu-id="e60b3-113">Application requirements</span></span>](mmd-app-requirements.md)
+<span data-ttu-id="cfc87-105">Microsoft Managed Desktop est un service qui offre aux utilisateurs une expérience moderne sécurisée et maintient toujours les appareils à jour avec les dernières versions de Windows 10 Enterprise Edition, Office 365 ProPlus et les services de sécurité Microsoft, y compris:</span><span class="sxs-lookup"><span data-stu-id="cfc87-105">Microsoft Managed Desktop is a service that provides your users with a secure modern experience and always keeps devices up to date with the latest versions of Windows 10 Enterprise edition, Office 365 ProPlus, and Microsoft security services, including:</span></span>
+
+- <span data-ttu-id="cfc87-106">Configuration des périphériques</span><span class="sxs-lookup"><span data-stu-id="cfc87-106">Configuration of devices</span></span>
+- <span data-ttu-id="cfc87-107">Fonctionnalités permettant de maintenir les utilisateurs et les appareils sécurisés, notamment Windows Hello, BitLocker, SecureBoot et la sécurité basée sur la virtualisation conformément aux meilleures pratiques de Microsoft</span><span class="sxs-lookup"><span data-stu-id="cfc87-107">Features to keep users and devices secure, including Windows Hello, BitLocker, SecureBoot, and virtualization-based security according to Microsoft best practices</span></span>
+- <span data-ttu-id="cfc87-108">Services de surveillance et de correction de la sécurité des appareils</span><span class="sxs-lookup"><span data-stu-id="cfc87-108">Device security monitoring and remediation services</span></span>
+- <span data-ttu-id="cfc87-109">Compatibilité des applications, via l' [application de bureau](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure)</span><span class="sxs-lookup"><span data-stu-id="cfc87-109">App compatibility, through [Desktop App Assure](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure)</span></span>
+- <span data-ttu-id="cfc87-110">Gestion des mises à jour pour les applications Windows 10 et Office 365 ProPlus</span><span class="sxs-lookup"><span data-stu-id="cfc87-110">Management of updates for Windows 10 and Office 365 ProPlus apps</span></span>
+- <span data-ttu-id="cfc87-111">Données analytiques sur l’utilisation des appareils et des applications</span><span class="sxs-lookup"><span data-stu-id="cfc87-111">Analytical data about device and app usage</span></span>
+- <span data-ttu-id="cfc87-112">Support informatique pour vos utilisateurs finaux</span><span class="sxs-lookup"><span data-stu-id="cfc87-112">IT support for your end users</span></span>
+- <span data-ttu-id="cfc87-113">Support opérationnel pour les professionnels de l’informatique</span><span class="sxs-lookup"><span data-stu-id="cfc87-113">Operational support for IT Pros</span></span>
+
+<span data-ttu-id="cfc87-114">Pour plus d’informations sur les services spécifiques inclus avec le bureau géré Microsoft, consultez les autres rubriques de cette section.</span><span class="sxs-lookup"><span data-stu-id="cfc87-114">For details about the specific services included with Microsoft Managed Desktop, see the other topics in this section.</span></span> <span data-ttu-id="cfc87-115">Si vous avez déjà décidé que Microsoft Managed Desktop est pour vous, les rubriques de la rubrique se préparer à l' [inscription dans le bureau géré Microsoft](https://docs.microsoft.com/microsoft-365/managed-desktop/get-ready/) vous fournissent les étapes à suivre pour vous préparer à rejoindre le service.</span><span class="sxs-lookup"><span data-stu-id="cfc87-115">If you've already decided that Microsoft Managed Desktop is for you, the topics in [Get ready for enrollment in Microsoft Managed Desktop](https://docs.microsoft.com/microsoft-365/managed-desktop/get-ready/) provide you with the steps to prepare to join the service.</span></span>
+
+- <span data-ttu-id="cfc87-116">Les [régions et langues prises en charge par Microsoft Managed Desktop](regions-languages.md) expliquent les régions et les langues prises en charge par le service.</span><span class="sxs-lookup"><span data-stu-id="cfc87-116">[Microsoft Managed Desktop supported regions and languages](regions-languages.md) explains which regions and languages are supported with the service.</span></span>
+- <span data-ttu-id="cfc87-117">Pour garantir la meilleure expérience pour vos utilisateurs finaux, seuls certains appareils sont pris en charge par le bureau géré Microsoft.</span><span class="sxs-lookup"><span data-stu-id="cfc87-117">To guarantee the best experience for your end users, only certain devices are supported by Microsoft Managed Desktop.</span></span> <span data-ttu-id="cfc87-118">[Program](device-list.md) Devices spécifie les modèles et les configurations exacts des appareils que vous pouvez utiliser avec le service, que vous les fournissiez ou que vous utilisiez un partenaire.</span><span class="sxs-lookup"><span data-stu-id="cfc87-118">[Program devices](device-list.md) specifies the exact device models and configurations you can use with the service, whether you provide them or work with a partner.</span></span>
+- <span data-ttu-id="cfc87-119">[Device services](device-services.md) spécifie les services liés aux appareils que Microsoft fournira aux abonnés.</span><span class="sxs-lookup"><span data-stu-id="cfc87-119">[Device services](device-services.md) specifies the device-related services that Microsoft will provide to subscribers.</span></span>
+- <span data-ttu-id="cfc87-120">La configuration de l' [appareil](device-policies.md) clarifie les stratégies de gestion des appareils mobiles par défaut et de sécurité que le service appliquera aux appareils d’enregistrement.</span><span class="sxs-lookup"><span data-stu-id="cfc87-120">[Device configuration](device-policies.md) clarifies the default and security-related Mobile Device Management policies that the service will apply to enrolled devices.</span></span>
+- <span data-ttu-id="cfc87-121">[Security](security.md) spécifie les données collectées à partir des appareils enregistrés, ainsi que les fonctionnalités et les stratégies liées à la sécurité des appareils, à la gestion des identités et des accès, à la sécurité du réseau et à la sécurité des informations.</span><span class="sxs-lookup"><span data-stu-id="cfc87-121">[Security](security.md) specifies the data collected from enrolled devices, as well as the features and policies related to device security, identity and access management, network security, and information security.</span></span>
+- <span data-ttu-id="cfc87-122">[Mises à jour](updates.md) décrit les différents groupes de mises à jour que Microsoft Managed Desktop utilise pour déployer les mises à jour sur vos appareils.</span><span class="sxs-lookup"><span data-stu-id="cfc87-122">[Updates](updates.md) describes the various update groups that Microsoft Managed Desktop uses to roll out updates to your devices.</span></span>
+- <span data-ttu-id="cfc87-123">[Prise en charge](support.md) clarifie le support fourni par Microsoft pour votre organisation et les utilisateurs finaux.</span><span class="sxs-lookup"><span data-stu-id="cfc87-123">[Support](support.md) clarifies the support Microsoft provides for your organization and end users.</span></span>
+- <span data-ttu-id="cfc87-124">[Opérations et surveillance](operations-and-monitoring.md) explique le fonctionnement de la gestion des modifications avec le bureau géré Microsoft, y compris les procédures standard pour la demande et la préparation des modifications dans le déploiement.</span><span class="sxs-lookup"><span data-stu-id="cfc87-124">[Operations and monitoring](operations-and-monitoring.md) explains how change management works with Microsoft Managed Desktop, including standard procedures for requesting and preparing for changes in the deployment.</span></span>
+- <span data-ttu-id="cfc87-125">[Applications Requirements](mmd-app-requirements.md) décrit les types d’applications et de comportements autorisés dans Microsoft Managed Desktop et la répartition des rôles et des responsabilités pour le déploiement et la gestion des applications.</span><span class="sxs-lookup"><span data-stu-id="cfc87-125">[Application requirements](mmd-app-requirements.md) describes the types of apps and behaviors allowed in Microsoft Managed Desktop and the division of roles and responsibilities for app deployment and management.</span></span>
