@@ -1,0 +1,4 @@
+<span data-ttu-id="f842b-101">--title: description de la référence du bureau géré Microsoft: informations détaillées sur certaines fonctionnalités de Microsoft Managed Desktop Mots clés: Microsoft Managed Desktop, Microsoft 365, service, documentation ms. service: M365-MD Author: jaimeo ms. localizationpriority: normal</span><span class="sxs-lookup"><span data-stu-id="f842b-101">-- title: Microsoft Managed Desktop reference description: Detailed information on certain Microsoft Managed Desktop features keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation ms.service: m365-md author: jaimeo ms.localizationpriority: normal</span></span>
+---
+
+# <a name="microsoft-managed-desktop-reference"></a><span data-ttu-id="f842b-102">Référence du bureau géré Microsoft</span><span class="sxs-lookup"><span data-stu-id="f842b-102">Microsoft Managed Desktop reference</span></span>
