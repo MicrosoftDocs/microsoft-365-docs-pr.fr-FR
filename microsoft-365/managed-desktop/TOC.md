@@ -2,6 +2,7 @@
 ## [Qu’est-ce que Microsoft Managed Desktop?](intro/index.md)
 ### [Rôles et responsabilités](intro/roles-and-responsibilities.md)
 ### [Technologies dans le bureau géré Microsoft](intro/technologies.md)
+### [Bureau géré Microsoft et ITIL](MMD-and-ITSM.md)
 ## [Description du service Microsoft Managed Desktop](service-description/index.md)
 ### [Langues et régions prises en charge](service-description/regions-languages.md)
 ### [Cycle de vie du produit](service-description/device-lifecycle.md)

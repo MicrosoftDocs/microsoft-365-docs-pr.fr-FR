@@ -2,8 +2,8 @@
 layout: HubPage
 hide_bc: true
 ms.topic: hub-page
-ms.author: robmazz
-author: robmazz
+ms.author: sirkkuw
+author: sirkkuw
 keywords: Microsoft 365 entreprise, Microsoft 365, Business, SMB, petites et moyennes entreprises, documentation de l’entreprise Microsoft 365, documents, documentation, informations techniques
 localization_priority: Normal
 audience: microsoft-business
@@ -11,12 +11,12 @@ ms.prod: microsoft-365-business
 ms.collection: M365-subscription-management
 title: Ressources professionnelles Microsoft 365
 description: Découvrez comment planifier, déployer et utiliser Microsoft Office 365, Windows 10 et Enterprise Mobility + Security ensemble dans votre entreprise pour une infrastructure intégrée et sécurisée qui permet le travail d’équipe et la créativité.
-ms.openlocfilehash: 3c5cc341734896cb9a42565c8647f3f5ac37fc5b
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: a7b6ef6b3c86868ffd9dd2ab912c427911075911
+ms.sourcegitcommit: 7ac06563c6ff034358e8fd3f9298fc426187ade2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660288"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34653043"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -61,7 +61,7 @@ ms.locfileid: "33660288"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Configuration</h3>
-                                              <P><a href="get-microsoft-365-business.md" target="_blank">Obtenir Microsoft 365 entreprise</a></p>
+                                              <P><a href="sign-up.md" target="_blank">Obtenir Microsoft 365 entreprise</a></p>
                                                <P><a href="set-up.md" target="_blank">Configurer Microsoft 365 entreprise</a></p>
                                                 <P><a href="set-up-windows-devices.md" target="_blank">Configurer des appareils Windows 10</a></p>
                                                 <P><a href="set-up-mobile-devices.md" target="_blank">Configurer les appareils iPhone et Android</a></p>
@@ -99,7 +99,6 @@ ms.locfileid: "33660288"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Protéger les données et périphériques métiers</h3>
-                                                 <P><a href="https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data"target="_blank">10 meilleures façons de sécuriser Microsoft 365 Business</a></p>
                                                 <P><a href="security-features.md" target="_blank">En savoir plus sur les fonctionnalités de sécurité</a></p>
                                                 <P><a href="remove-company-data.md" target="_blank">Supprimer des données des appareils</a></p>
                                                 <P><a href="reset-devices-to-factory-settings.md" target="_blank">Réinitialiser les appareils</a></p>
