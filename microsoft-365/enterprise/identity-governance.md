@@ -1,0 +1,57 @@
+---
+title: 'Étape 7 : Configurer la gouvernance des identités'
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: laurawi
+ms.date: 09/06/2019
+audience: ITPro
+ms.topic: article
+ms.service: o365-solutions
+localization_priority: Priority
+ms.collection:
+- M365-identity-device-management
+- Strat_O365_Enterprise
+ms.custom: ''
+description: Comprendre et configurer la gouvernance des identités pour votre client Azure AD.
+ms.openlocfilehash: a965b74afc680c2ff506e0fc2ddebc280ee312a1
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982907"
+---
+# <a name="step-7-configure-identity-governance"></a><span data-ttu-id="a7c09-103">Étape 7 : Configurer la gouvernance des identités</span><span class="sxs-lookup"><span data-stu-id="a7c09-103">Step 7: Configure identity governance</span></span>
+
+![](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+
+<span data-ttu-id="a7c09-104">La gouvernance des identités s’intéresse à la protection, la surveillance et l’audit de l’accès aux ressources critiques, tout en assurant la productivité des employés.</span><span class="sxs-lookup"><span data-stu-id="a7c09-104">Identity governance is all about protecting, monitoring, and auditing access to critical assets while ensuring employee productivity.</span></span> <span data-ttu-id="a7c09-105">Par exemple, avec la gouvernance des identités, vous pouvez vous assurer que les utilisateurs appropriés disposent de l’accès approprié aux ressources adéquates et déterminer si cet accès change au fil du temps.</span><span class="sxs-lookup"><span data-stu-id="a7c09-105">For example, with identity governance, you can ensure that the right users have the right access to the right resources and determine if that access changes over time.</span></span>
+
+<span data-ttu-id="a7c09-106">Pour plus d' informations sur la gouvernance des identités pour Azure Active Directory (Azure AD), consultez [cet article](https://docs.microsoft.com/azure/active-directory/governance/identity-governance-overview).</span><span class="sxs-lookup"><span data-stu-id="a7c09-106">See [this article](https://docs.microsoft.com/azure/active-directory/governance/identity-governance-overview) for more information about identity governance for Azure Active Directory (Azure AD).</span></span>
+
+<a name="identity-access-reviews"></a>
+## <a name="set-up-azure-ad-access-reviews"></a><span data-ttu-id="a7c09-107">Configurer les révisions d’accès Azure AD</span><span class="sxs-lookup"><span data-stu-id="a7c09-107">Set up Azure AD access reviews</span></span>
+
+<span data-ttu-id="a7c09-108">*Cette étape est facultative et s’applique uniquement à la version E5 de Microsoft 365 Entreprise*</span><span class="sxs-lookup"><span data-stu-id="a7c09-108">*This is optional and applies only to the E5 version of Microsoft 365 Enterprise*</span></span>
+
+<span data-ttu-id="a7c09-109">Dans cette étape, vous allez configurer les révisions d’accès Azure AD qui vous permettent de passer en revue l’accès d’un utilisateur afin de garantir l’accès permanent aux seules personnes appropriées.</span><span class="sxs-lookup"><span data-stu-id="a7c09-109">In this step, you'll set up Azure AD access reviews, which allow you to review a user's access to ensure only the right people have continued access.</span></span> <span data-ttu-id="a7c09-110">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="a7c09-110">For example:</span></span>
+
+- <span data-ttu-id="a7c09-111">Lorsqu’un nouvel employé rejoint votre organisation, vous devez vous assurer qu’il dispose d’un accès approprié pour être productif.</span><span class="sxs-lookup"><span data-stu-id="a7c09-111">As a new employee joins your organization, you need to ensure they have the right access to be productive.</span></span>
+- <span data-ttu-id="a7c09-112">Au fur et à mesure que cet employé passe d’une équipe, d’un emplacement ou d’un service à un autre, vous devez vous assurer que son accès aux équipes, emplacements ou services précédents est supprimé si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="a7c09-112">As that employee moves to other teams, locations, or departments, you need to ensure that their access to previous teams, locations, or departments are removed as needed.</span></span>
+- <span data-ttu-id="a7c09-113">Lorsque cet employé ou un invité quitte votre organisation, vous devez vous assurer qu’il a été supprimé.</span><span class="sxs-lookup"><span data-stu-id="a7c09-113">When that employee or a guest leaves your organization, you need to ensure their access is removed.</span></span>
+
+<span data-ttu-id="a7c09-114">Ceci est particulièrement important si votre organisation fait l’objet d’audits de sécurité pour déterminer si les comptes d’utilisateurs ont un niveau d’accès trop important, ce qui peut entraîner des amendes en cas de violation des réglementations régionales ou industrielles.</span><span class="sxs-lookup"><span data-stu-id="a7c09-114">This is especially important if your organization is subject to security audits to determine if user accounts have too much access, which could result in fines if in violation of industry or regional regulations.</span></span>
+
+<span data-ttu-id="a7c09-115">Consultez [cet article](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview) pour plus d’informations sur les révisions d’accès Azure AD.</span><span class="sxs-lookup"><span data-stu-id="a7c09-115">See [this article](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview) for more information about Azure AD access reviews.</span></span>
+
+<span data-ttu-id="a7c09-116">Pour configurer différents types de révisions d’accès, voir les articles suivants :</span><span class="sxs-lookup"><span data-stu-id="a7c09-116">See these articles to configure different types of access reviews:</span></span>
+
+- [<span data-ttu-id="a7c09-117">Groupes et applications</span><span class="sxs-lookup"><span data-stu-id="a7c09-117">Groups and apps</span></span>](https://docs.microsoft.com/azure/active-directory/governance/create-access-review)
+- [<span data-ttu-id="a7c09-118">Rôles Azure AD</span><span class="sxs-lookup"><span data-stu-id="a7c09-118">Azure AD roles</span></span>](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-how-to-start-security-review?toc=%2fazure%2factive-directory%2fgovernance%2ftoc.json)
+- [<span data-ttu-id="a7c09-119">Rôles de ressources Azure</span><span class="sxs-lookup"><span data-stu-id="a7c09-119">Azure resource roles</span></span>](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-resource-roles-start-access-review?toc=%2fazure%2factive-directory%2fgovernance%2ftoc.json)
+
+<span data-ttu-id="a7c09-120">Comme point de vérification intermédiaire, vous pouvez consulter les [critères de sortie](identity-exit-criteria.md#crit-identity-access-reviews) pour cette étape.</span><span class="sxs-lookup"><span data-stu-id="a7c09-120">As an interim checkpoint, you can see the [exit criteria](identity-exit-criteria.md#crit-identity-access-reviews) for this section.</span></span>
+
+## <a name="next-step"></a><span data-ttu-id="a7c09-121">Étape suivante</span><span class="sxs-lookup"><span data-stu-id="a7c09-121">Next step</span></span>
+
+[<span data-ttu-id="a7c09-122"> Identifier les critères de sortie de l’infrastructure</span><span class="sxs-lookup"><span data-stu-id="a7c09-122">Identity infrastructure exit criteria</span></span>](identity-exit-criteria.md)
+
