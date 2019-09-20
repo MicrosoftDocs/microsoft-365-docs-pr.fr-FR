@@ -1,0 +1,82 @@
+---
+title: 'Étape 6 : configurer le chiffrement du courrier électronique'
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: laurawi
+ms.date: 09/19/2019
+audience: ITPro
+ms.topic: article
+ms.service: o365-solutions
+localization_priority: Normal
+ms.collection:
+- Ent_O365
+- Strat_O365_Enterprise
+- M365-security-compliance
+ms.custom: ''
+description: Familiarisez-vous avec la gestion des accès privilégiés pour Office 365 et apprenez à la configurer.
+ms.openlocfilehash: 7747f5a0905a9477e9d3fd17b00eae740d76f640
+ms.sourcegitcommit: 78fa107271252d902e600196a75cfa746bca73e6
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37050295"
+---
+# <a name="step-6-configure-email-encryption"></a><span data-ttu-id="fb774-103">Étape 6 : configurer le chiffrement du courrier électronique</span><span class="sxs-lookup"><span data-stu-id="fb774-103">Step 6: Configure email encryption</span></span>
+
+<span data-ttu-id="fb774-104">*Cette étape facultative s’applique aux versions E3 et E5 de Microsoft 365 Entreprise*</span><span class="sxs-lookup"><span data-stu-id="fb774-104">*This step is optional and applies to both the E3 and E5 versions of Microsoft 365 Enterprise*</span></span>
+
+![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+
+<span data-ttu-id="fb774-105">Il existe trois types de chiffrement de courrier électronique dans Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="fb774-105">There are three types of email encryption in Microsoft 365.</span></span>
+
+|||
+|:-------|:-----|
+| <span data-ttu-id="fb774-106">Chiffrement des messages Office (OME)</span><span class="sxs-lookup"><span data-stu-id="fb774-106">Office Message Encryption (OME)</span></span> | <span data-ttu-id="fb774-107">Chiffrement pour le courrier électronique Exchange Online envoyé à l’extérieur de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="fb774-107">Encryption for Exchange Online email sent outside your organization.</span></span> |
+| <span data-ttu-id="fb774-108">Gestion des droits relatifs à l'information (IRM)</span><span class="sxs-lookup"><span data-stu-id="fb774-108">Information Rights Management (IRM)</span></span> | <span data-ttu-id="fb774-109">Le chiffrement et les autorisations qui transitent avec le courrier électronique.</span><span class="sxs-lookup"><span data-stu-id="fb774-109">Encryption and permissions that travel with the email.</span></span> |
+| <span data-ttu-id="fb774-110">S/MIME (Secure/Multipurpose Internet Mail Extension)</span><span class="sxs-lookup"><span data-stu-id="fb774-110">Secure/Multipurpose Internet Mail Extensions (S/MIME)</span></span> | <span data-ttu-id="fb774-111">Protection de la messagerie avec chiffrement et signatures numériques.</span><span class="sxs-lookup"><span data-stu-id="fb774-111">Email protection with encryption and digital signatures.</span></span> |
+|||
+
+## <a name="office-365-message-encryption"></a><span data-ttu-id="fb774-112">Chiffrement de messages Office 365</span><span class="sxs-lookup"><span data-stu-id="fb774-112">Office 365 Message Encryption</span></span>
+
+<span data-ttu-id="fb774-113">Avec OME, votre organisation peut envoyer et recevoir des messages électroniques chiffrés entre des personnes à l’intérieur et à l’extérieur de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="fb774-113">With OME, your organization can send and receive encrypted email messages between people inside and outside your organization.</span></span> <span data-ttu-id="fb774-114">OME fonctionne avec Outlook.com, Yahoo !, Gmail et d’autres services de messagerie.</span><span class="sxs-lookup"><span data-stu-id="fb774-114">OME works with Outlook.com, Yahoo!, Gmail, and other email services.</span></span> <span data-ttu-id="fb774-115">Le chiffrement des messages électroniques permet de s’assurer que seuls les destinataires prévus peuvent afficher le message.</span><span class="sxs-lookup"><span data-stu-id="fb774-115">Email message encryption helps ensure that only intended recipients can view the message.</span></span>
+
+![Chiffrement des messages électroniques OME](./media/infoprotect-email-encryption/ome-encryption.png)
+
+<span data-ttu-id="fb774-117">Vous configurez des règles de transport qui définissent les conditions de chiffrement.</span><span class="sxs-lookup"><span data-stu-id="fb774-117">You set up transport rules that define the conditions for encryption.</span></span> <span data-ttu-id="fb774-118">Lorsqu’un utilisateur envoie un message qui correspond à une règle, le chiffrement est automatiquement appliqué.</span><span class="sxs-lookup"><span data-stu-id="fb774-118">When a user sends a message that matches a rule, encryption is applied automatically.</span></span>
+
+<span data-ttu-id="fb774-119">Pour afficher les messages chiffrés, les destinataires peuvent obtenir un code secret à usage unique, se connecter avec un compte Microsoft ou se connecter avec un compte professionnel ou scolaire associé à Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="fb774-119">To view encrypted messages, recipients can either get a one-time passcode, sign in with a Microsoft account, or sign in with a work or school account associated with Microsoft 365.</span></span> <span data-ttu-id="fb774-120">Les destinataires peuvent également envoyer des réponses chiffrées.</span><span class="sxs-lookup"><span data-stu-id="fb774-120">Recipients can also send encrypted replies.</span></span> <span data-ttu-id="fb774-121">Ils n’ont pas besoin de leur propre abonnement Microsoft 365 pour afficher les messages chiffrés ou envoyer des réponses chiffrées.</span><span class="sxs-lookup"><span data-stu-id="fb774-121">They don't need their own Microsoft 365 subscription to view encrypted messages or send encrypted replies.</span></span>
+
+<span data-ttu-id="fb774-122">Pour plus d'informations, consultez la rubrique [Chiffrement dans Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/ome).</span><span class="sxs-lookup"><span data-stu-id="fb774-122">For more information, see [Office 365 Message Encryption](https://docs.microsoft.com/Office365/SecurityCompliance/ome).</span></span>
+
+## <a name="irm"></a><span data-ttu-id="fb774-123">IRM</span><span class="sxs-lookup"><span data-stu-id="fb774-123">IRM</span></span>
+
+<span data-ttu-id="fb774-124">La gestion des droits relatifs à l’information (IRM) dans Microsoft 365 vous aide à sécuriser vos informations avec un chiffrement supplémentaire et à appliquer une stratégie intelligente qui indique qui a accès à ce qu’ils peuvent faire.</span><span class="sxs-lookup"><span data-stu-id="fb774-124">IRM in Microsoft 365 helps you secure your information with additional encryption and by applying an intelligent policy that specifies who has access what they can do.</span></span> <span data-ttu-id="fb774-125">Pour les messages électroniques, vous pouvez utiliser IRM pour le chiffrement et appliquer des restrictions d’utilisation.</span><span class="sxs-lookup"><span data-stu-id="fb774-125">For email messages, you can use IRM for encryption and to apply usage restrictions.</span></span> <span data-ttu-id="fb774-126">Par exemple, vous pouvez spécifier que certains destinataires disposent de toutes les capacités pour gérer le courrier électronique et que d’autres n’ont pas la possibilité d’imprimer ou de transférer le courrier électronique.</span><span class="sxs-lookup"><span data-stu-id="fb774-126">For example, you can specify that some recipients have all abilities to manage the email and some do not have the ability to print or forward the email.</span></span> 
+
+<span data-ttu-id="fb774-127">Les stratégies IRM sont configurées dans Microsoft 365 et peuvent s’appliquer à des documents dans SharePoint Online et des messages électroniques.</span><span class="sxs-lookup"><span data-stu-id="fb774-127">IRM policies are configured within Microsoft 365 and can apply to documents in SharePoint Online and email messages.</span></span> <span data-ttu-id="fb774-128">Un message électronique protégé par IRM inclut les paramètres de stratégie appliqués et en voyage avec.</span><span class="sxs-lookup"><span data-stu-id="fb774-128">An IRM-protected email includes the applied policy settings applied and travel with it.</span></span> 
+
+![Protection IRM des messages électroniques](./media/infoprotect-email-encryption/irm-protection.png)
+
+<span data-ttu-id="fb774-130">Lorsque le destinataire ouvre le courrier électronique avec la stratégie incluse, les paramètres de stratégie sont utilisés pour déchiffrer le message et déterminer ce que le destinataire peut faire avec.</span><span class="sxs-lookup"><span data-stu-id="fb774-130">When the recipient opens the email with the included policy, the policy settings are used to decrypt the message and determine what the recipient can do with it.</span></span> 
+
+<span data-ttu-id="fb774-131">Pour plus d'informations, consultez la rubrique [Gestion des droits relatifs à l'information (IRM) dans Exchange Online]( https://docs.microsoft.com/office365/SecurityCompliance/information-rights-management-in-exchange-online).</span><span class="sxs-lookup"><span data-stu-id="fb774-131">For more information, see [Information Rights Management in Exchange Online]( https://docs.microsoft.com/office365/SecurityCompliance/information-rights-management-in-exchange-online).</span></span>
+
+## <a name="smime"></a><span data-ttu-id="fb774-132">S/MIME</span><span class="sxs-lookup"><span data-stu-id="fb774-132">S/MIME</span></span>
+
+<span data-ttu-id="fb774-133">S/MIME est une solution de protection de messagerie numérique basée sur des certificats, qui vous permet de chiffrer et de signer numériquement un message.</span><span class="sxs-lookup"><span data-stu-id="fb774-133">S/MIME is a digital certificate-based email-based protection solution that allows you to both encrypt and digitally sign a message.</span></span> <span data-ttu-id="fb774-134">Le chiffrement des messages permet de garantir que seul le destinataire prévu puisse ouvrir et lire le message.</span><span class="sxs-lookup"><span data-stu-id="fb774-134">The message encryption helps ensure that only the intended recipient can open and read the message.</span></span> <span data-ttu-id="fb774-135">Une signature numérique permet au destinataire de valider l’identité de l’expéditeur et de déterminer que seul l’expéditeur aurait pu l’envoyer.</span><span class="sxs-lookup"><span data-stu-id="fb774-135">A digital signature helps the recipient validate the identity of the sender and determine that only the sender could have sent it.</span></span>
+
+![Protection S/MIME des messages électroniques](./media/infoprotect-email-encryption/smime-protection.png)
+
+<span data-ttu-id="fb774-137">S/MIME peut être utilisé pour envoyer des courriers électroniques à d’autres boîtes aux lettres dans votre abonnement Microsoft 365 ou à des utilisateurs externes.</span><span class="sxs-lookup"><span data-stu-id="fb774-137">S/MIME can be used for email to other mailboxes in your Microsoft 365 subscription or to external users.</span></span>
+<span data-ttu-id="fb774-138">Le chiffrement de messages et les signatures numériques sont rendus possibles grâce à l’utilisation de certificats numériques qui contiennent les clés publique et privée pour le chiffrement ou le déchiffrement des messages, ainsi que la création et la vérification des signatures numériques.</span><span class="sxs-lookup"><span data-stu-id="fb774-138">Both message encryption and digital signatures are made possible through the use of digital certificates that contain the public and private keys for encrypting or decrypting messages and creating and verifying digital signatures.</span></span>
+<span data-ttu-id="fb774-139">Pour utiliser S/MIME, vous devez disposer des clés publiques pour chaque destinataire.</span><span class="sxs-lookup"><span data-stu-id="fb774-139">To use S/MIME, you must have the public keys for each recipient.</span></span> <span data-ttu-id="fb774-140">Les destinataires conservent leurs propres clés privées, qui doivent rester sécurisées.</span><span class="sxs-lookup"><span data-stu-id="fb774-140">Recipients maintain their own private keys, which must remain secure.</span></span> <span data-ttu-id="fb774-141">Si votre clé privée est compromise, vous devez obtenir un nouveau certificat numérique et redistribuer les clés publiques à tous les expéditeurs potentiels.</span><span class="sxs-lookup"><span data-stu-id="fb774-141">If your private key is compromised, you need to get a new digital certificate and redistribute public keys to all potential senders.</span></span>
+
+<span data-ttu-id="fb774-142">Pour plus d'informations, reportez-vous à la rubrique [S/MIME pour la signature et le chiffrement des messages](https://docs.microsoft.com/Exchange/policy-and-compliance/smime).</span><span class="sxs-lookup"><span data-stu-id="fb774-142">For more information, see [S/MIME for message signing and encryption](https://docs.microsoft.com/Exchange/policy-and-compliance/smime).</span></span>
+
+
+<span data-ttu-id="fb774-143">Comme point de contrôle intermédiaire, consultez les [critères de sortie](infoprotect-exit-criteria.md#crit-infoprotect-step6) correspondant à cette étape.</span><span class="sxs-lookup"><span data-stu-id="fb774-143">As an interim checkpoint, see the [exit criteria](infoprotect-exit-criteria.md#crit-infoprotect-step6) corresponding to this step.</span></span>
+
+## <a name="next-step"></a><span data-ttu-id="fb774-144">Étape suivante</span><span class="sxs-lookup"><span data-stu-id="fb774-144">Next step</span></span>
+
+|||
+|:-------|:-----|
+|![](./media/stepnumbers/Step7.png)|[<span data-ttu-id="fb774-145">Configurez la gestion des accès privilégiés pour Office 365</span><span class="sxs-lookup"><span data-stu-id="fb774-145">Configure privileged access management for Office 365</span></span>](infoprotect-configure-privileged-access-management.md)|
