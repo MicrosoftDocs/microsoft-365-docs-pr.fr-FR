@@ -7,15 +7,17 @@
 ## [Utiliser votre abonnement Azure Active Directory gratuit](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Planifier la sécurité et la conformité dans Office 365](plan-for-security-and-compliance.md)
 
-# Gérer les risques des Insiders
+# Gérer les risques internes
 ## [Protéger l’accès aux appareils et l’accès des utilisateurs](protect-access-to-data-and-services.md)
-## [Gestion des accès privilégiés](privileged-access-management-overview.md)
-## [Configurer la gestion des accès privilégiés](privileged-access-management-configuration.md)
 ## [Customer Lockbox](customer-lockbox-requests.md)
+## [Gestion des accès privilégiés]()
+### [En savoir plus sur la gestion des accès privilégiés](privileged-access-management-overview.md)
+### [Configurer la gestion des accès privilégiés](privileged-access-management-configuration.md)
 ## Clé client
 ### [Contrôle de vos données dans Office 365 à l'aide de la Clé client](controlling-your-data-using-customer-key.md).
 ### [FAQ : chiffrement de service avec une clé client pour Office 365](service-encryption-with-customer-key-faq.md)
-## [Superviser les communications](supervision-policies.md)
+## [Supervision de la communication]()
+### [En savoir plus sur la supervision des communications](supervision-policies.md)
 ### [Configurer des stratégies de surveillance pour votre organisation](configure-supervision-policies.md)
 ## [Barrières des informations](information-barriers.md)
 ### [Définir des stratégies de barrière des informations](information-barriers-policies.md)
@@ -285,6 +287,7 @@
 ## [Attribution d’autorisations eDiscovery](assign-ediscovery-permissions.md)
 ## [Configurer les limites de conformité pour les enquêtes eDiscovery dans Office 365](set-up-compliance-boundaries.md)
 ## [Série de solutions eDiscovery. Scénario de débordement de données. Rechercher et purger](data-spillage-scenariosearch-and-purge.md)
+## [Résoudre les problèmes eDiscovery courants](ediscovery-troubleshooting-common-issues.md)
 
 ## Gérer les suspensions
 ### [Créer une suspension de cas eDiscovery](ediscovery-cases.md#step-4-place-content-locations-on-hold)
