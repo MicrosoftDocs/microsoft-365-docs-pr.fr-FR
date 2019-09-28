@@ -10,51 +10,47 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: 'Installez ou désinstallez Office sur des appareils Windows 10 à partir du centre d’administration de Microsoft 365 Business. '
-ms.openlocfilehash: 1e962f51882ddfd97da566858a0a1e6fb56ecbb8
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: d82ab8292211d1adacba732922bf693dd2157ad6
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34071957"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287532"
 ---
-# <a name="automatically-install-or-uninstall-office-on-windows-10-devices"></a><span data-ttu-id="3e00a-103">Automatiquement installer ou désinstaller Office sur les appareils Windows 10</span><span class="sxs-lookup"><span data-stu-id="3e00a-103">Automatically install or uninstall Office on Windows 10 devices</span></span>
+# <a name="automatically-install-or-uninstall-office-on-windows-10-devices"></a><span data-ttu-id="9dc12-103">Automatiquement installer ou désinstaller Office sur les appareils Windows 10</span><span class="sxs-lookup"><span data-stu-id="9dc12-103">Automatically install or uninstall Office on Windows 10 devices</span></span>
 
-![Bannière pointant vers https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+<span data-ttu-id="9dc12-104">[![Étiquette pour vous informer le centre d’administration change et vous trouverez plus de détails sur aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span><span class="sxs-lookup"><span data-stu-id="9dc12-104">[![Label to let you know the admin center is changing and you can find more details at aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span></span>
 
-<span data-ttu-id="3e00a-105">[] Vous pouvez rapidement et facilement installer Office sur les ordinateurs Windows 10 à partir du centre d'administration Microsoft 365 Entreprise.</span><span class="sxs-lookup"><span data-stu-id="3e00a-105">You can quickly and easily install Office to Windows 10 PCs from the Microsoft 365 Business admin center.</span></span>
+<span data-ttu-id="9dc12-105">[] Vous pouvez rapidement et facilement installer Office sur les ordinateurs Windows 10 à partir du centre d'administration Microsoft 365 Entreprise.</span><span class="sxs-lookup"><span data-stu-id="9dc12-105">You can quickly and easily install Office to Windows 10 PCs from the Microsoft 365 Business admin center.</span></span>
   
-<span data-ttu-id="3e00a-106">Pour mieux comprendre comment cela fonctionne avec les applications Office déjà installées, lisez [Se préparer à l'installation du client Office](prepare-for-office-client-deployment.md) avant de commencer.</span><span class="sxs-lookup"><span data-stu-id="3e00a-106">To understand how this works with previously installed Office apps, read [Prepare for Office client installation](prepare-for-office-client-deployment.md) before you get started.</span></span> 
+<span data-ttu-id="9dc12-106">Pour mieux comprendre comment cela fonctionne avec les applications Office déjà installées, lisez [Se préparer à l'installation du client Office](prepare-for-office-client-deployment.md) avant de commencer.</span><span class="sxs-lookup"><span data-stu-id="9dc12-106">To understand how this works with previously installed Office apps, read [Prepare for Office client installation](prepare-for-office-client-deployment.md) before you get started.</span></span> 
   
-## <a name="manage-office-deployments"></a><span data-ttu-id="3e00a-107">Gérer les déploiements d'Office</span><span class="sxs-lookup"><span data-stu-id="3e00a-107">Manage Office deployments</span></span>
+## <a name="manage-office-deployments"></a><span data-ttu-id="9dc12-107">Gérer les déploiements d'Office</span><span class="sxs-lookup"><span data-stu-id="9dc12-107">Manage Office deployments</span></span>
 
-1. <span data-ttu-id="3e00a-108">Connectez-vous au [centre d'administration](https://aka.ms/bcsportal) avec les informations d'identification de l'administrateur général.</span><span class="sxs-lookup"><span data-stu-id="3e00a-108">Sign in to the [admin center](https://aka.ms/bcsportal) with global admin credentials.</span></span> 
+1. <span data-ttu-id="9dc12-108">Connectez-vous au [centre d'administration](https://aka.ms/bcsportal) avec les informations d'identification de l'administrateur général.</span><span class="sxs-lookup"><span data-stu-id="9dc12-108">Sign in to the [admin center](https://aka.ms/bcsportal) with global admin credentials.</span></span> 
     
-2. <span data-ttu-id="3e00a-109">Dans la carte **Appareils**, sélectionnez **Gérer le déploiement d'Office**.</span><span class="sxs-lookup"><span data-stu-id="3e00a-109">On the **Devices** card, choose **Manage Office Deployment**.</span></span>
-      <span data-ttu-id="3e00a-110">Si vous ne voyez pas la carte actions de l' **appareil** , dans la page d' **Accueil** du centre d’administration, cliquez sur **Ajouter** (+) pour l’ajouter à votre domicile d’administration.</span><span class="sxs-lookup"><span data-stu-id="3e00a-110">If you do not see the **Device actions** card, in the admin center **Home** page, click **Add** (+) to add it to your admin home.</span></span>
+2. <span data-ttu-id="9dc12-109">Dans la carte **Appareils**, sélectionnez **Gérer le déploiement d'Office**.</span><span class="sxs-lookup"><span data-stu-id="9dc12-109">On the **Devices** card, choose **Manage Office Deployment**.</span></span>
+      <span data-ttu-id="9dc12-110">Si vous ne voyez pas la carte actions de l' **appareil** , dans la page d' **Accueil** du centre d’administration, cliquez sur **Ajouter** (+) pour l’ajouter à votre domicile d’administration.</span><span class="sxs-lookup"><span data-stu-id="9dc12-110">If you do not see the **Device actions** card, in the admin center **Home** page, click **Add** (+) to add it to your admin home.</span></span>
     
     ![Screenshot of the Devices card in the admin center](media/9982e784-dbf9-4a76-a159-bb3e2e5aa23f.png)
   
-3. <span data-ttu-id="3e00a-112">Dans le volet **Gérer le déploiement d'Office** qui s'affiche, sélectionnez **Ajouter un groupe**, puis sélectionnez les groupes que vous souhaitez utiliser.</span><span class="sxs-lookup"><span data-stu-id="3e00a-112">On the **Manage Office deployment** pane that opens, choose **Add a group**, then select the groups you want use.</span></span>
+3. <span data-ttu-id="9dc12-112">Dans le volet **Gérer le déploiement d'Office** qui s'affiche, sélectionnez **Ajouter un groupe**, puis sélectionnez les groupes que vous souhaitez utiliser.</span><span class="sxs-lookup"><span data-stu-id="9dc12-112">On the **Manage Office deployment** pane that opens, choose **Add a group**, then select the groups you want use.</span></span>
     
-4. <span data-ttu-id="3e00a-113">Une fois le ou les groupes à utiliser ajoutés, dans la liste déroulante **Action de déploiement**, sélectionnez **Installer Office dès que possible** ou **Désinstaller Office**.</span><span class="sxs-lookup"><span data-stu-id="3e00a-113">After you have added the group or groups you want to use, from the **Deployment Action** drop-down, select either **Install Office as soon as possible** or **Uninstall Office**.</span></span>
+4. <span data-ttu-id="9dc12-113">Une fois le ou les groupes à utiliser ajoutés, dans la liste déroulante **Action de déploiement**, sélectionnez **Installer Office dès que possible** ou **Désinstaller Office**.</span><span class="sxs-lookup"><span data-stu-id="9dc12-113">After you have added the group or groups you want to use, from the **Deployment Action** drop-down, select either **Install Office as soon as possible** or **Uninstall Office**.</span></span>
     
     ![In the Manage Office deployment pane, choose either Install Office as soon as possible, or Uninstall Office.](media/00f24a61-1848-40c0-b037-78d726c7d757.png)
   
-5. <span data-ttu-id="3e00a-115">Choose **Next** \> review the settings and then choose **Confirm**.</span><span class="sxs-lookup"><span data-stu-id="3e00a-115">Choose **Next** \> review the settings and then choose **Confirm**.</span></span>
+5. <span data-ttu-id="9dc12-115">Choose **Next** \> review the settings and then choose **Confirm**.</span><span class="sxs-lookup"><span data-stu-id="9dc12-115">Choose **Next** \> review the settings and then choose **Confirm**.</span></span>
     
-<span data-ttu-id="3e00a-116">Une version 32 bits d'Office est installée automatiquement ou désinstallée sur les appareils appartenant à des utilisateurs spécifiés par le groupe ou les groupes que vous avez utilisés.</span><span class="sxs-lookup"><span data-stu-id="3e00a-116">A 32-bit Office will be automatically installed, or uninstalled in the devices owned by users specified by the group or groups you used.</span></span>
+<span data-ttu-id="9dc12-116">Une version 32 bits d'Office est installée automatiquement ou désinstallée sur les appareils appartenant à des utilisateurs spécifiés par le groupe ou les groupes que vous avez utilisés.</span><span class="sxs-lookup"><span data-stu-id="9dc12-116">A 32-bit Office will be automatically installed, or uninstalled in the devices owned by users specified by the group or groups you used.</span></span>
   
-<span data-ttu-id="3e00a-117">À des fins de vérification, vous pouvez ouvrir le Gestionnaire des tâches sur un ordinateur qui a été sélectionné pour une installation d'Office, puis rechercher le processus Microsoft Office « Démarrer en un clic ».</span><span class="sxs-lookup"><span data-stu-id="3e00a-117">To verify you can open the Task Manager on a computer that was selected for an Office install and look for Microsoft Office Click-to-Run process.</span></span>
+<span data-ttu-id="9dc12-117">À des fins de vérification, vous pouvez ouvrir le Gestionnaire des tâches sur un ordinateur qui a été sélectionné pour une installation d'Office, puis rechercher le processus Microsoft Office « Démarrer en un clic ».</span><span class="sxs-lookup"><span data-stu-id="9dc12-117">To verify you can open the Task Manager on a computer that was selected for an Office install and look for Microsoft Office Click-to-Run process.</span></span>
   
 
 
