@@ -31,6 +31,7 @@
 ### [Restreindre l’accès au contenu à l’aide du chiffrement dans les étiquettes de niveau de confidentialité](encryption-sensitivity-labels.md)
 ### [Appliquer automatiquement une étiquette de confidentialité au contenu](apply-sensitivity-label-automatically.md)
 ### [Afficher l’utilisation d’étiquette avec les analytiques d’étiquette](label-analytics.md)
+### [Étiquettes de sensibilité dans les applications Office](sensitivity-labels-office-apps.md)
 
 ## [Protection contre la perte de données (DLP)](data-loss-prevention-policies.md)
 ### [DLP et Microsoft Teams](dlp-microsoft-teams.md)
