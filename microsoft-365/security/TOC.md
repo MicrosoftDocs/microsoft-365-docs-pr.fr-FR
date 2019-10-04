@@ -17,6 +17,8 @@
 #### [Surveillance d’appareils et création de rapports](./mtp/monitor-devices.md)
 #### [Surveillance d’applications et création de rapports](./mtp/monitor-apps.md)
 
+### [Gérer les tickets via ServiceNow](./mtp/tickets.md)
+
 ## [Sécurité Office 365]()
 ### [Prise en main]()
 #### [Feuille de route relative à la sécurité d’Office 365](./office-365-security/security-roadmap.md)
@@ -250,4 +252,4 @@
 
 ### [Office 365 Entreprise](https://docs.microsoft.com/office-365-security/Enterprise)
 ### [Office 365 pour les entreprises](https://docs.microsoft.com/office-365-security/admin/admin-home)
-## [Conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/)
+## [Conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/)
