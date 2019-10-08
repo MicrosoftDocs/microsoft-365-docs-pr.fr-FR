@@ -96,8 +96,8 @@
 ##### [Signaler les courriers indésirables et les tentatives de hameçonnage dans Outlook sur le web](./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)
 ##### [Protéger les boîtes aux lettres locales avec Exchange Online Protection](./office-365-security/protect-on-premises-mailboxes-with-exchange-online-protection.md)
 ##### [Installation du complément de création de rapports de courrier indésirable pour Microsoft Outlook](./office-365-security/install-the-junk-email-reporting-add-in-for-microsoft-outlook.md)
-#####[Désactiver la création de rapports de courrier indésirable dans Outlook sur le web](./office-365-security/turn-off-junk-email-reporting-in-outlook-on-the-web.md)
-#####[Quelle est la différence entre courrier indésirable et message électronique en masse ?](./office-365-security/what-s-the-difference-between-junk-email-and-bulk-email.md)
+##### [Désactiver la création de rapports de courrier indésirable dans Outlook sur le web](./office-365-security/turn-off-junk-email-reporting-in-outlook-on-the-web.md)
+##### [Quelle est la différence entre courrier indésirable et message électronique en masse ?](./office-365-security/what-s-the-difference-between-junk-email-and-bulk-email.md)
 
 #### [Mise en quarantaine des messages électroniques dans Office 365](./office-365-security/quarantine-email-messages.md)
 ##### [Gérer les fichiers et les messages mis en quarantaine en tant qu’administrateur](./office-365-security/manage-quarantined-messages-and-files.md)
@@ -127,13 +127,14 @@
 
 
 ### [Protection avancée contre les menaces ](./office-365-security/office-365-atp.md)
+#### [Découvrir les nouveautés]()
+##### [Nouveautés d’Office 365 - Protection avancée contre les menaces](office-365-security/whats-new-in-office-365-atp.md)
 #### [Tâches de configuration de PACM pour les administrateurs]()
 ##### [Tâches de configuration d’administrateur général]()
 ###### [Configuration des stratégies de liens fiables de PACM](./office-365-security/set-up-atp-safe-links-policies.md)
 ###### [Définir des stratégies de pièces jointes fiables de PACM](./office-365-security/set-up-atp-safe-attachments-policies.md)
 ###### [Configurer une liste d’URL personnalisée « ne pas réécrire »](./office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
 ###### [Configurer une liste d’URL bloquée personnalisée](./office-365-security/set-up-a-custom-blocked-urls-list-wtih-atp.md)
-
 ##### [Tâches de configuration d’administrateur de rôle]()
 ###### [Activer la protection avancée contre les menaces pour SharePoint, OneDrive et Microsoft Teams](./office-365-security/turn-on-atp-for-spo-odb-and-teams.md)
 #### [Comprendre les dernières campagnes d’attaque grâce aux statistiques de menaces](./mtp/latest-attack-campaigns.md)
