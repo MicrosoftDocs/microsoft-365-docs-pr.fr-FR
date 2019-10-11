@@ -83,7 +83,7 @@
 ### [Protection des informations](contoso-info-protect.md)
 ### [Synthèse de la sécurité](contoso-security-summary.md)
 ### [Site SharePoint pour les données hautement réglementées](contoso-sharepoint-online-site-for-highly-confidential-assets.md)
-
+## [Modifications du contenu du déploiement de Microsoft 365 Entreprise](microsoft-365-deploment-guide-changes.md)
 # [Centre de déploiement du bureau moderne](desktop-deployment-center-home.md)
 ## [Prise en main : aide relative aux technologies, aux processus et aux utilisateurs](getting-started.md)
 ## [Étape 1 : Disponibilité des applications et des appareils](step-1-device-and-app-readiness.md)
