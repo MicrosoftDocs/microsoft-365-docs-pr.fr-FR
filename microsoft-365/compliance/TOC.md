@@ -2,7 +2,7 @@
 
 # Prise en main
 ## [Nouveautés du centre de conformité](whats-new.md)
-## [Mises à jour récentes du contenu de conformité](recently-updated-topics-mcc.md)
+## [Mises à jour récentes apportées au contenu de conformité](recently-updated-topics-mcc.md)
 ## [Centre de conformité Microsoft 365](microsoft-365-compliance-center.md)
 ## [Accéder au centre de conformité et de sécurité](go-to-the-securitycompliance-center.md)
 ## [Utiliser votre abonnement Azure Active Directory gratuit](use-your-free-azure-ad-subscription-in-office-365.md)
@@ -17,8 +17,8 @@
 ## Clé client
 ### [Contrôle de vos données dans Office 365 à l’aide de la Clé client](controlling-your-data-using-customer-key.md).
 ### [FAQ : chiffrement de service avec une clé client pour Office 365](service-encryption-with-customer-key-faq.md)
-## [Surveillance des communications]()
-### [En savoir plus sur la surveillance des communications](supervision-policies.md)
+## [Surveillance]()
+### [En savoir plus sur les stratégies de surveillance](supervision-policies.md)
 ### [Configurer des stratégies de surveillance pour votre organisation](configure-supervision-policies.md)
 ## [Obstacles aux informations](information-barriers.md)
 ### [Définir des stratégies d’obstacle aux informations](information-barriers-policies.md)
@@ -30,8 +30,8 @@
 ## [Étiquettes de niveau de confidentialité](sensitivity-labels.md)
 ### [Restreindre l’accès au contenu à l’aide du chiffrement dans les étiquettes de niveau de confidentialité](encryption-sensitivity-labels.md)
 ### [Appliquer automatiquement une étiquette de confidentialité au contenu](apply-sensitivity-label-automatically.md)
-### [Afficher l’utilisation d’étiquette avec les analytiques d’étiquette](label-analytics.md)
-### [Étiquettes de sensibilité dans les applications Office](sensitivity-labels-office-apps.md)
+### [Afficher l’utilisation d’étiquette avec les analyses d’étiquettes](label-analytics.md)
+### [Étiquettes de confidentialité dans les applications Office](sensitivity-labels-office-apps.md)
 
 ## [Protection contre la perte de données (DLP)](data-loss-prevention-policies.md)
 ### [DLP et Microsoft Teams](dlp-microsoft-teams.md)
@@ -106,7 +106,7 @@
 ### [Gestionnaire de plan de fichiers](file-plan-manager.md)
 ### [Étiquettes de rétention](labels.md)
 ### [Se conformer à la réglementation SEC Rule 17 a-4](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
-### [Créer et publier des étiquettes de rétention à l’aide de PowerShell](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+### [Créer et publier des étiquettes de rétention à l’aide de PowerShell](https://docs.microsoft.com/fr-FR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 ### [Rétention basée sur des événements](event-driven-retention.md)
 ### [Automatiser la rétention basée sur des événements](automate-event-driven-retention.md)
 ## [Éliminer des données](disposition-reviews.md)
@@ -118,7 +118,7 @@
 ### [Supprimer une boîte aux lettres inactive](delete-an-inactive-mailbox.md)
 ## Surveiller la gouvernance des données
 ### [Afficher l’activité des étiquettes pour les documents](view-label-activity-for-documents.md)
-### [Afficher l’utilisation d’étiquette avec les analytiques d’étiquette](label-analytics.md)
+### [Afficher l’utilisation d’étiquette avec les analyses d’étiquettes](label-analytics.md)
 ### [Afficher les rapports de gouvernance des données](view-the-data-governance-reports.md)
 ## Plus d’informations sur la gouvernance des données
 ### [Regarder des vidéos de l’équipe de gouvernance des données Microsoft](https://go.microsoft.com/fwlink/?linkid=867039)
@@ -127,7 +127,7 @@
 ### Plan de gestion de fichiers
 #### [Gestionnaire de plan de fichiers](file-plan-manager.md)
 #### [Étiquettes de rétention](labels.md)
-#### [Créer et publier des étiquettes de rétention à l’aide de PowerShell](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+#### [Créer et publier des étiquettes de rétention à l’aide de PowerShell](https://docs.microsoft.com/fr-FR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 #### [Afficher l’utilisation d’étiquette avec les analyses d’étiquettes](label-analytics.md)
 #### [Afficher l’activité des étiquettes pour les documents](view-label-activity-for-documents.md)
 #### [Afficher les rapports de gouvernance des données](view-the-data-governance-reports.md)
@@ -330,7 +330,7 @@
 ### [Exporter des documents à partir de preuves](export-documents-from-incident.md)
 ### [Télécharger l’exportation des travaux](download-export-jobs-from-a-data-investigation.md)
 
-## [Configurer les paramètres d’investigation de données](configure-settings-datainvestigations.md)
+## Configurer les paramètres d’investigation
 ### [Ajouter ou supprimer des membres à partir d’une investigation](add-remove-members.md)
 ### [Configurer les paramètres de recherche et d’analyse](configure-search-analytics-settings.md)
 ### [Fermer ou supprimer une investigation](close-or-delete-investigation.md)
@@ -343,7 +343,7 @@
 ### [Gérer les tâches](manage-jobs.md)
 
 # Gérer les stratégies d’audit et d’alerte
-## [Rechercher le journal d’audit](search-the-audit-log-in-security-and-compliance.md)
+## [Effectuer une recherche dans le journal d’audit](search-the-audit-log-in-security-and-compliance.md)
 ## [Gérer les stratégies d’alerte](alert-policies.md)
 ## [Activer ou désactiver la recherche dans le journal d’audit](turn-audit-log-search-on-or-off.md)
 ## [Gérer l’audit de boîte aux lettres](enable-mailbox-auditing.md)
