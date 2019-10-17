@@ -425,6 +425,165 @@
 ## [Chiffrement du courrier Exchange Online avec AD RMS](information-rights-management-in-exchange-online.md)
 ### [Configuration de la gestion des droits relatifs à l’information pour utiliser un serveur AD RMS local](configure-irm-to-use-an-on-premises-ad-rms-server.md)
 
+# Offres pour la conformité
+## [Offres pour la conformité Microsoft](offering-home.md)
+
+## Globale
+### [Point de référence CIS](offering-cis-benchmark.md)
+### [Attestation CSA-STAR](offering-csa-star-attestation.md)
+### [Certification CSA-STAR](offering-csa-star-certification.md)
+### [Auto-évaluation CSA-STAR](offering-csa-star-self-assessment.md)
+### [ISO 20000-1:2011](offering-iso-20000-1-2011.md)
+### [ISO 22301](offering-iso-22301.md)
+### [ISO 27001](offering-iso-27001.md)
+### [ISO 27017](offering-iso-27017.md)
+### [ISO 27018](offering-iso-27018.md)
+### [ISO 27701](offering-iso-27701.md)
+### [ISO-9001](offering-iso-9001.md)
+### [SOC](offering-soc.md)
+### [WCAG 2.1](offering-wcag-2-1.md)
+
+## Administration
+### [CJIS](offering-cjis.md)
+### [CNSSI 1253](offering-cnssi-1253.md)
+### [DFARS](offering-dfars.md)
+### [DoD DISA L2, L4, L5](offering-dod-disa-l2-l4-l5.md)
+### [DoE 10 CFR Part 810](offering-doe-10-cfr-part-810.md)
+### [EAR (admin. rég. export des États-Unis)](offering-ear.md)
+### [FedRAMP](offering-fedramp.md)
+### [FIPS 140-2](offering-fips-140-2.md)
+### [IRS 1075](offering-irs-1075.md)
+### [ITAR](offering-itar.md)
+### [NIST 800-171](offering-nist-sp-800-171.md)
+### [CSF](offering-nist-csf.md)
+### [Section 508 VPATS](offering-section-508-vpats.md)
+
+## Secteur d’activité
+### Éducation
+#### [FERPA](offering-ferpa.md)
+
+### Énergie
+#### [NERC](offering-nerc-cip.md)
+
+### Financier
+#### [23 NYCRR Part 500](offering-23-nycrr-part-500.md)
+#### [AFM + DNB (Pays-Bas)](offering-afm-dnb-netherlands.md)
+#### [APRA (Australie)](offering-apra-australia.md)
+#### [AMF et ACPR (France)](offering-amf-acpr-france.md)
+#### [EBA (UE)](offering-eba-eu.md)
+#### [FCA (Royaume-Uni)](offering-fca-uk.md)
+#### [FFIEC (États-Unis)](offering-ffiec-us.md)
+#### [FINMA (Suisse)](offering-finma-switzerland.md)
+#### [FINRA 4511](offering-finra-4511.md)
+#### [FISC (Japon)](offering-fisc-japan.md)
+#### [FSA (Danemark)](offering-fsa-denmark.md)
+#### [GLBA](offering-glba.md)
+#### [DNF (Pologne)](offering-knf-poland.md)
+#### [MAS + ABS (Singapour)](offering-mas-abs-singapore.md)
+#### [NBB + FSMA (Belgique)](offering-nbb-fsma-belgium.md)
+#### [OSFI (Canada)](offering-osfi-canada.md)
+#### [PCI DSS](offering-pci-dss.md)
+#### [RBI + IRDAI (Inde)](offering-rbi-irdai-india.md)
+#### [SEC 17a-4](offering-sec-17a-4.md)
+#### [SOC](offering-soc.md)
+#### [SOX](offering-sox.md)
+#### [TruSight](offering-trusight.md)
+
+### Intégrité
+#### [HDS (France)](offering-hds-france.md)
+#### [HIPAA/HITECH](offering-hipaa-hitech.md)
+#### [HITRUST](offering-hitrust.md)
+#### [MARS-E](offering-mars-e.md)
+#### [NEN-7510 (Pays-Bas)](offering-nen-7510-netherlands.md)
+#### [NHS IG Toolkit (Royaume-Uni)](offering-nhs-ig-toolkit-uk.md)
+
+### Fabrication
+#### [FDA CFR titre 21 partie 11](offering-fda-cfr-title-21-part-11.md)
+#### [GxP](offering-gxp.md)
+#### [TISAX (Allemagne)](offering-tisax-germany.md)
+
+### Support
+#### [CDSA](offering-cdsa.md)
+#### [DPP (Royaume-Uni)](offering-dpp-uk.md)
+#### [FACT (Royaume-Uni)](offering-fact-uk.md)
+#### [MPAA](offering-mpaa.md)
+
+### Détail
+#### [23 NYCRR Part 500](offering-23-nycrr-part-500.md)
+#### [AFM + DNB (Pays-Bas)](offering-afm-dnb-netherlands.md)
+#### [AMF et ACPR (France)](offering-amf-acpr-france.md)
+#### [CDSA](offering-cdsa.md)
+#### [Point de référence CIS](offering-cis-benchmark.md)
+#### [Attestation CSA-STAR](offering-csa-star-attestation.md)
+#### [DoE 10 CFR Part 810](offering-doe-10-cfr-part-810.md)
+#### [DPP (Royaume-Uni)](offering-dpp-uk.md)
+#### [EAR (admin. rég. export des États-Unis)](offering-ear.md)
+#### [ENISA IAF (UE)](https://aka.ms/ENISA)
+#### [Clauses types de l’UE](offering-eu-model-clauses.md)
+#### [EBA (UE)](offering-eba-eu.md)
+#### [Bouclier de protection des données UE-États-Unis](offering-eu-us-privacy-shield.md)
+#### [FACT (Royaume-Uni)](offering-fact-uk.md)
+#### [FCA (Royaume-Uni)](offering-fca-uk.md)
+#### [FFIEC (États-Unis)](offering-ffiec-us.md)
+#### [FINMA (Suisse)](offering-finma-switzerland.md)
+#### [GDPR (UE)](offering-gdpr-eu.md)
+#### [GLBA](offering-glba.md)
+#### [HITRUST](offering-hitrust.md)
+#### [IRS 1075](offering-irs-1075.md)
+#### [ISO 27018](offering-iso-27018.md)
+#### [ISO-9001](offering-iso-9001.md)
+#### [ITAR](offering-itar.md)
+#### [DNF (Pologne)](offering-knf-poland.md)
+#### [MARS-E](offering-mars-e.md)
+#### [MPAA](offering-mpaa.md)
+#### [NBB + FSMA (Belgique)](offering-nbb-fsma-belgium.md)
+#### [NHS IG Toolkit (Royaume-Uni)](offering-nhs-ig-toolkit-uk.md)
+#### [CSF](offering-nist-csf.md)
+#### [PCI DSS](offering-pci-dss.md)
+#### [Section 508 VPATS](offering-section-508-vpats.md)
+#### [Évaluations partagées](offering-shared-assessments.md)
+#### [SOC](offering-soc.md)
+#### [LOPD (Espagne)](offering-lopd-spain.md)
+#### [Cyber Essentials plus (Royaume-Uni)](offering-cyber-essentials-plus-uk.md)
+#### [G-Cloud (Royaume-Uni)](offering-g-cloud-uk.md)
+
+## Régionaux
+### Asie
+#### [CS Mark (Gold) (Japon))](offering-cs-mark-gold-japan.md)
+#### [DJCP (Chine)](https://www.trustcenter.cn/compliance/default.html#DJCP)
+#### [GB 18030 (Chine)](https://www.trustcenter.cn/compliance/default.html#GB18030)
+#### [ISMS (Corée du Sud)](offering-ISMS-korea.md)
+#### [MeitY (Inde)](offering-meity-india.md)
+#### [MTCS (Singapour)](offering-mtcs-singapore.md)
+#### [My Number (Japon)](offering-my-number-act-japan.md)
+#### [TRUCS (Chine)](https://aka.ms/TRUCS-Compliance)
+
+### Australie/Pacifique
+#### [CCSL/IRAP (Australie)](offering-CCSL-IRAP-Australia.md)
+#### [NZ CC Framework (Nouvelle-Zélande)](offering-nz-cc-framework-nz.md)
+
+### Europe
+#### [BIR-2012 (Pays-Bas)](offering-bir-2012-netherlands.md)
+#### [C5 (Allemagne)](offering-c5-germany.md)
+#### [Cyber Essentials plus (Royaume-Uni)](offering-cyber-essentials-plus-uk.md)
+#### [EN 301 549 (UE)](offering-en-301-549-eu.md)
+#### [ENS (Espagne)](offering-ens-spain.md)
+#### [ENISA IAF (UE)](https://aka.ms/ENISA)
+#### [Clauses types de l’UE](offering-eu-model-clauses.md)
+#### [Bouclier de protection des données UE-États-Unis](offering-eu-us-privacy-shield.md)
+#### [GDPR (UE)](offering-gdpr-eu.md)
+#### [G-Cloud (Royaume-Uni)](offering-g-cloud-uk.md)
+#### [IDW PS 951 (Allemagne)]()
+#### [IT Grundschutz Workbook (Allemagne)](offering-it-grundschutz-workbook-germany.md)
+#### [LOPD (Espagne)](offering-lopd-spain.md)
+#### [PASF (Royaume-Uni)](offering-pasf-uk.md)
+
+### Amérique du Nord
+#### [Lois canadiennes sur la protection de la vie privée](offering-canadian-privacy-laws.md)
+
+### Amérique du Sud
+#### [PDPA (Argentine)](offering-pdpa-argentina.md)
+
 # [Office 365 Entreprise](https://docs.microsoft.com/Office365/Enterprise)
 # [Office 365 Business](https://docs.microsoft.com/office365/admin/admin-home)
 # [Sécurité Microsoft 365](https://docs.microsoft.com/microsoft-365/security/)

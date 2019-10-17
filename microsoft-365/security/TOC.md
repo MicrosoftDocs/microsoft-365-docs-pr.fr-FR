@@ -1,14 +1,31 @@
 # [Sécurité Microsoft 365](index.yml)
 
+## Prise en main
+### [Sécurité Microsoft 365 pour les décideurs d’entreprise](Microsoft-365-security-for-bdm.md)
+### [Degré de sécurisation](./mtp/microsoft-secure-score.md)
+### [Atelier de formation du directeur général de la sécurité de l’information (SRCO)](./office-365-security/ciso-workshop.md)
+#### [Module 1 – Réunion de cybersécurité Microsoft](./office-365-security/ciso-workshop-module-1.md)
+#### [Module 2 – Gestion de la sécurité](./office-365-security/ciso-workshop-module-2.md)
+#### [Module 3 – Identité et accès utilisateur de confiance Zéro](./office-365-security/ciso-workshop-module-3.md)
+#### [Module 4a – Stratégie de protection contre les menaces, partie I](./office-365-security/ciso-workshop-module-4a.md)
+#### [Module 4b – Stratégie de protection contre les menaces, partie II](./office-365-security/ciso-workshop-module-4b.md)
+#### [Module 5 – Protection des informations](./office-365-security/ciso-workshop-module-5.md)
+
+
+## [Configurations des identités et de l’accès aux appareils](../enterprise/microsoft-365-policies-configurations.md)
+### [Travail préparatoire](../enterprise/identity-access-prerequisites.md)
+### [Stratégies communes pour les identités et l’accès aux appareils](../enterprise/identity-access-policies.md)
+### [Stratégies d’accès à Exchange Online](../enterprise/secure-email-recommended-policies.md)
+### [Stratégies d’accès à SharePoint Online recommandées](../enterprise/sharepoint-file-access-policies.md)
+
+
 ## Protection Microsoft contre les menaces
 ### [Vue d’ensemble]()
 #### [Qu’est-ce que la protection Microsoft contre les menaces ?](mtp/microsoft-threat-protection.md)
 #### [Centre de sécurité Microsoft 365](mtp/overview-security-center.md)
 
-
 ### [Repérage dans Microsoft 365](./mtp/hunting.md)
 
-### [Degré de sécurisation](./mtp/microsoft-secure-score.md)
 
 ### [Rapports]()
 #### [Surveiller et afficher les rapports](./mtp/monitoring-and-reporting.md)
@@ -19,6 +36,7 @@
 
 ### [Gérer les tickets via ServiceNow](./mtp/tickets.md)
 
+
 ## [Sécurité Office 365]()
 ### [Prise en main]()
 #### [Feuille de route relative à la sécurité d’Office 365](./office-365-security/security-roadmap.md)
@@ -27,13 +45,8 @@
 #### [Autorisations dans le centre de conformité et de sécurité](./office-365-security/permissions-in-the-security-and-compliance-center.md)
 #### [Octroi de l’accès au centre de sécurité aux utilisateurs](./office-365-security/grant-access-to-the-security-and-compliance-center.md)
 
-#### [Atelier de formation du directeur général de la sécurité de l’information (SRCO)](./office-365-security/ciso-workshop.md)
-##### [Module 1 – Réunion de cybersécurité Microsoft](./office-365-security/ciso-workshop-module-1.md)
-##### [Module 2 – Gestion de la sécurité](./office-365-security/ciso-workshop-module-2.md)
-##### [Module 3 – Gestion des identités et des accès](./office-365-security/ciso-workshop-module-3.md)
-##### [Module 4a – Stratégie de protection contre les menaces, partie I](./office-365-security/ciso-workshop-module-4a.md)
-##### [Module 4b – Stratégie de protection contre les menaces, partie II](./office-365-security/ciso-workshop-module-4b.md)
-##### [Module 5 – Protection des informations](./office-365-security/ciso-workshop-module-5.md)
+
+
 
 
 ### [Se protéger contre les menaces](./office-365-security/protect-against-threats.md)
@@ -43,7 +56,6 @@
 ##### [Forum Aux Questions sur la protection contre les programmes malveillants](./office-365-security/anti-malware-protection-faq-eop.md)
 ##### [Protection contre le courrier indésirable et les programmes malveillants dans Office 365](./office-365-security/anti-malware-protection.md)
 ##### [Forum Aux Questions sur la protection anti-courrier indésirable](./office-365-security/anti-spam-protection-faq.md)
-##### [Contrôler le courrier indésirable sortant dans Office 365](./office-365-security/controlling-outbound-spam-in-Office-365.md)
 ##### [Éviter les caractères non valides dans vos règles de filtrage et dans la stratégie de filtrage de courrier indésirable](./office-365-security/invalid-characters-hosted-spam-filter-rules-policies.md)
 ##### [Listes des expéditeurs autorisés et des expéditeurs bloqués dans Exchange Online](./office-365-security/safe-sender-and-blocked-sender-lists-faq.md)
 ##### [Conseils de sécurité dans les messages électroniques dans Office 365](./office-365-security/safety-tips-in-office-365.md)
@@ -55,7 +67,7 @@
 ##### [Protection contre le courrier indésirable pour Office 365](./office-365-security/anti-spam-protection.md)
 ##### [Combinaison des stratégies et des protections](./office-365-security/how-policies-and-protections-are-combined.md)
 ##### [Comment réduire le courrier indésirable dans Office 365](./office-365-security/reduce-spam-email.md)
-##### [Contrôle du courrier indésirable sortant dans Office 365](./office-365-security/outbound-spam-controls.md)
+##### [Contrôler le courrier indésirable sortant dans Office 365](./office-365-security/outbound-spam-controls.md)
 ##### [Bloquer le courrier indésirable à l’aide du filtre d’Office 365 afin d’éviter les problèmes de faux négatifs](./office-365-security/reduce-spam-email.md)
 ##### [Purge automatique zéro heure - protection contre le courrier indésirable et les programmes malveillants](./office-365-security/zero-hour-auto-purge.md)
 ##### [Vérification de l’acheminement du courrier indésirable vers le dossier Courrier indésirable de chaque utilisateur](./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)
@@ -87,6 +99,7 @@
 #### [Protection anti-usurpation dans Office 365](./office-365-security/anti-spoofing-protection.md)
 ##### [En savoir plus sur l’usurpation d’identité](./office-365-security/learn-about-spoof-intelligence.md)
 ##### [Présentation des informations sur la veille contre l’usurpation d’identité](./office-365-security/walkthrough-spoof-intelligence-insight.md)
+##### [Identifier les messages suspects dans Outlook.com et Outlook sur le web](./office-365-security/unverified-sender-feature.md)
 
 #### [Qu’est-ce que l’EOP ?](./office-365-security/what-is-eop.md)
 ##### [Prise en charge des messages électroniques entrants anonymes sur IPv6](./office-365-security/support-for-anonymous-inbound-email-messages-over-ipv6.md)
@@ -148,7 +161,7 @@
 
 #### [Explorateur de menaces (et détections en temps réel)](./office-365-security/threat-explorer.md)
 ##### [Affichages de l’Explorateur de menaces](./office-365-security/threat-explorer-views.md)
-##### [Identifier les messages suspects dans Outlook.com et Outlook sur le web](./office-365-security/unverified-sender-feature.md)
+
 
 #### [Intégration pour renforcer la sécurité]()
 ##### [Intégrer Office 365 - Protection avancée contre les menaces avec Microsoft Defender ATP](./office-365-security/integrate-office-365-ti-with-wdatp.md)
@@ -253,4 +266,8 @@
 
 ### [Office 365 Entreprise](https://docs.microsoft.com/office-365-security/Enterprise)
 ### [Office 365 pour les entreprises](https://docs.microsoft.com/office-365-security/admin/admin-home)
-## [Conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/)
+
+
+
+
+## [Conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/)
