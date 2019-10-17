@@ -8,7 +8,7 @@
 ### [Configurer Microsoft 365 Business](set-up.md)
 ### [Mise à niveau vers Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md)
 ### [Préparation au déploiement client Office](prepare-for-office-client-deployment.md)
-### [Installation automatique ou désinstallation d’Office](auto-install-or-uninstall-office.md)
+### [Aider les utilisateurs à installer Office](help-users-install-office.md)
 ### [Accès aux ressources locales]()
 #### [Activation de la gestion des appareils Windows 10 membres d’un domaine](manage-windows-devices.md)
 #### [Accès aux ressources à partir d’un appareil membre d’Azure AD](access-resources.md)

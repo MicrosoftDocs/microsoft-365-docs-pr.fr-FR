@@ -15,6 +15,7 @@
 ### [Support](service-description/support.md)
 ### [Opérations et analyse](service-description/operations-and-monitoring.md)
 ### [Configuration requise pour l’application](service-description/mmd-app-requirements.md)
+### [Personnaliser le service](service-description/customizing.md)
 ## [Préparer son inscription au Bureau géré Microsoft](get-ready/index.md)
 ### [Configuration requise pour le Bureau géré Microsoft](get-ready/prerequisites.md)
 ### [Préparer le réseau](get-ready/network.md)
