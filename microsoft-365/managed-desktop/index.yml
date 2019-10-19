@@ -5,16 +5,15 @@ metadata:
   title: Documentation du bureau géré Microsoft
   description: null
   keywords: 'appareil, application, gestion'
-  author: trudyha
-  ms.author: trudyha
-  ms.date: 11/1/2018
+  author: jaimeo
+  ms.author: jaimeo
   ms.topic: landing-page
   ms.devlang: na
   ms.service: m365-md
 sections:
   - items:
       - type: markdown
-        text: Le moyen le plus facile de satisfaire les utilisateurs et de les libérer.
+        text: 'Microsoft Managed Desktop rassemble Microsoft 365 Enterprise, la gestion des appareils basée sur le Cloud par Microsoft et la surveillance de la sécurité, ce qui vous permet de libérer vos équipes informatiques afin de vous concentrer sur les besoins fondamentaux de votre entreprise.'
   - items:
       - type: list
         style: cards
@@ -22,30 +21,30 @@ sections:
         columns: 2
         items:
           - href: intro/index.md
-            html: <p>Découvrez ce qu'est Microsoft maNaged Desktop et comment il fonctionne.</p>
+            html: '<p>Introduction à Microsoft Managed Desktop pour les décideurs--en quoi consiste son fonctionnement, et ce qu’il peut faire pour vous</p>'
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_overview.svg'
-            title: Qu'est-ce que Microsoft maNaged Desktop?
+            title: "Qu’est-ce que le bureau géré Microsoft\_?"
           - href: service-description/index.md
-            html: <p>Découvrez ce qui est inclus dans le bureau géré Microsoft.</p>
+            html: <p>Description détaillée de toutes les parties du bureau géré Microsoft</p>
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_get-started.svg'
             title: Description du service
           - href: get-ready/index.md
-            html: <p>Découvrez comment vous préparer à vous inscrire dans le bureau géré Microsoft.</p>
+            html: <p>Toutes les étapes pour que votre environnement et votre organisation soient prêts à fonctionner avec le service</p>
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_support.svg'
-            title: Préparation
+            title: Préparez-vous
           - href: get-started/index.md
-            html: <p>Découvrez comment commander des appareils et ajouter des contacts.</p>
+            html: '<p>Préparez votre organisation à bord avec le bureau géré Microsoft, y compris la configuration des appareils et le déploiement d’applications</p>'
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_whats-new.svg'
             title: Prise en main
           - href: working-with-managed-desktop/index.md
-            html: <p>En savoir plus sur la gestion des applications.</p>
+            html: <p>Toutes les opérations quotidiennes avec le service</p>
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_portal.svg'
-            title: Utilisation de Microsoft maNaged Desktop
+            title: Utilisation du Bureau géré Microsoft
   - title: Nouveaux articles et billets de blog
     items:
       - type: paragraph
@@ -60,7 +59,7 @@ sections:
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_architecture.svg'
           - href: 'https://www.cio.com/article/3307121/systems-management/microsoft-managed-desktop-all-your-windows-10-devices-managed-by-microsoft.html'
-            title: '- Microsoft maNaged Desktop: tous vos appareils Windows 10, gérés par Microsoft'
+            title: "- Microsoft Managed Desktop\_: tous vos appareils Windows 10, gérés par Microsoft"
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_guide.svg'
   - title: Vidéos

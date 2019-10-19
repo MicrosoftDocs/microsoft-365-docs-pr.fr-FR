@@ -1,23 +1,21 @@
 ---
-title: Prise en main de Microsoft Managed Desktop
+title: Prise en main du Bureau géré Microsoft
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 09/24/2018
-ms.openlocfilehash: a79b71a836444ff745e2e9c64fce023db81c1d17
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 7d007329fbb53da2604e688623621eec86f93f5e
+ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390501"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37595580"
 ---
-# <a name="get-started-with-microsoft-managed-desktop"></a><span data-ttu-id="805f8-103">Prise en main de Microsoft Managed Desktop</span><span class="sxs-lookup"><span data-stu-id="805f8-103">Get started with Microsoft Managed Desktop</span></span>
+# <a name="get-started-with-microsoft-managed-desktop"></a><span data-ttu-id="0c604-103">Prise en main du Bureau géré Microsoft</span><span class="sxs-lookup"><span data-stu-id="0c604-103">Get started with Microsoft Managed Desktop</span></span>
 
-<span data-ttu-id="805f8-104">Avec Microsoft Managed Desktop, la gestion de vos appareils de bureau est transférée vers une infrastructure cloud d’entreprise.</span><span class="sxs-lookup"><span data-stu-id="805f8-104">With Microsoft Managed Desktop, managing your desktop devices is transitioned to an enterprise cloud infrastructure.</span></span> 
+<span data-ttu-id="0c604-104">Une fois que vous êtes prêt à vous inscrire au service, cette section inclut les étapes à suivre pour rejoindre réellement le service, obtenir et configurer des appareils, préparer vos utilisateurs finaux et déployer des applications.</span><span class="sxs-lookup"><span data-stu-id="0c604-104">Once you're ready to enroll in the service, this section includes the steps to follow to actually join the service, obtain and set up devices, prep your end users, and deploy apps.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="805f8-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="805f8-105">In this section</span></span>
-
-- [<span data-ttu-id="805f8-106">Ajouter des contacts d’administration</span><span class="sxs-lookup"><span data-stu-id="805f8-106">Add Admin contacts</span></span>](add-admin-contacts.md)
-- [<span data-ttu-id="805f8-107">Commander des appareils</span><span class="sxs-lookup"><span data-stu-id="805f8-107">Order devices</span></span>](devices.md)
+- [<span data-ttu-id="0c604-105">Ajouter des contacts d’administration dans le portail d’administration de bureau géré Microsoft</span><span class="sxs-lookup"><span data-stu-id="0c604-105">Add Admin contacts in Microsoft Managed Desktop Admin portal</span></span>](add-admin-contacts.md)
+- [<span data-ttu-id="0c604-106">Configurer des appareils de bureau géré Microsoft</span><span class="sxs-lookup"><span data-stu-id="0c604-106">Set up Microsoft Managed Desktop devices</span></span>](set-up-devices.md)
+- [<span data-ttu-id="0c604-107">Déployer des applications sur des appareils de bureau gérés Microsoft</span><span class="sxs-lookup"><span data-stu-id="0c604-107">Deploy apps to Microsoft Managed Desktop devices</span></span>](deploy-apps.md)
