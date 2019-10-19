@@ -37,4 +37,4 @@
 ## [Rétablissement des paramètres d’usine des appareils](../business/reset-devices-to-factory-settings.md?toc=/microsoft-365/campaigns/toc.json)
 
 # Gestion des incidents de sécurité
-## [Répondre à un compte de messagerie compromis](/office365/securitycompliance/responding-to-a-compromised-email-account?toc=/microsoft-365/campaigns/toc.json&bc=/microsoft-365/campaigns/breadcrumb/toc.json)
+## [Répondre à un compte de messagerie compromis](../compliance/responding-to-a-compromised-email-account?toc=/microsoft-365/campaigns/toc.json)
