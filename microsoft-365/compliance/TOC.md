@@ -11,13 +11,13 @@
 # Gérer les risques internes
 ## [Protéger l’accès aux appareils et l’accès des utilisateurs](protect-access-to-data-and-services.md)
 ## [Référentiel sécurisé client](customer-lockbox-requests.md)
-## [Gestion des accès privilégiés]()
+## Gestion des accès privilégiés
 ### [En savoir plus sur la gestion des accès privilégiés](privileged-access-management-overview.md)
 ### [Configurer la gestion des accès privilégiés](privileged-access-management-configuration.md)
 ## Clé client
 ### [Contrôle de vos données dans Office 365 à l’aide de la Clé client](controlling-your-data-using-customer-key.md).
 ### [FAQ : chiffrement de service avec une clé client pour Office 365](service-encryption-with-customer-key-faq.md)
-## [Surveillance]()
+## Superviser les communications
 ### [En savoir plus sur les stratégies de surveillance](supervision-policies.md)
 ### [Configurer des stratégies de surveillance pour votre organisation](configure-supervision-policies.md)
 ## [Obstacles aux informations](information-barriers.md)
@@ -124,6 +124,7 @@
 ### [Regarder des vidéos de l’équipe de gouvernance des données Microsoft](https://go.microsoft.com/fwlink/?linkid=867039)
 ## Gestion des enregistrements
 ### [Gestion des enregistrements](records-management.md)
+### [Enregistrements](records.md)
 ### Plan de gestion de fichiers
 #### [Gestionnaire de plan de fichiers](file-plan-manager.md)
 #### [Étiquettes de rétention](labels.md)
@@ -349,7 +350,7 @@
 ## [Gérer l’audit de boîte aux lettres](enable-mailbox-auditing.md)
 ## [Propriétés détaillées dans le journal d’audit](detailed-properties-in-the-office-365-audit-log.md)
 ## [Exporter, configurer et afficher des enregistrements du journal d’audit](export-view-audit-log-records.md)
-## [Dépanner des scénarios courants à l’aide du journal d’audit](auditing-troubleshooting-scenarios.md)
+## [Utiliser le journal d’audit pour rechercher les problèmes courants](auditing-troubleshooting-scenarios.md)
 ## [Utiliser le partage d’audit dans le journal d’audit](use-sharing-auditing.md)
 ## [Rechercher des activités eDiscovery dans le journal d’audit](search-for-ediscovery-activities-in-the-audit-log.md)
 
@@ -386,7 +387,7 @@
 ## [RGPD](gdpr.md)
 ### [Plan d’action recommandé pour le RGPD](gdpr-action-plan.md)
 
-### [Listes de vérification de préparation sur la responsabilité]() 
+### Listes de vérification de préparation sur la responsabilité
 #### [Listes de vérification de préparation sur la responsabilité](gdpr-arc.md) 
 #### [Azure](gdpr-arc-azure.md)
 #### [Dynamics 365](gdpr-arc-dynamics365.md)
@@ -395,7 +396,7 @@
 
 ### [Protection des informations](gdpr-information-protection.md)
 
-### [Demandes des personnes concernées]()
+### Demandes de la personne concernée
 #### [Demandes des personnes concernées](gdpr-data-subject-requests.md)
 #### [Azure](gdpr-dsr-azure.md)
 #### [Azure DevOps Services](gdpr-dsr-vsts.md)
@@ -405,14 +406,14 @@
 #### [Office 365](gdpr-dsr-office365.md)
 #### [Visual Studio Family](gdpr-dsr-visual-studio-family.md)
 
-### [Notification de violation]()
+### Notification de violation
 #### [Notification de violation](gdpr-breach-notification.md)
 #### [Azure](gdpr-breach-azure.md)
 #### [Dynamics 365](gdpr-breach-dynamics365.md)
 #### [Support Microsoft et services professionnels](gdpr-breach-microsoft-support-professional-services.md)
 #### [Office 365](gdpr-breach-office365.md)
 
-### [Analyses d’impact sur la protection des données]()
+### Analyses d’impact sur la protection des données
 #### [Analyses d’impact sur la protection des données](gdpr-data-protection-impact-assessments.md)
 #### [Azure](gdpr-dpia-azure.md)
 #### [Dynamics 365](gdpr-dpia-dynamics.md)
@@ -573,7 +574,7 @@
 #### [Bouclier de protection des données UE-États-Unis](offering-eu-us-privacy-shield.md)
 #### [GDPR (UE)](offering-gdpr-eu.md)
 #### [G-Cloud (Royaume-Uni)](offering-g-cloud-uk.md)
-#### [IDW PS 951 (Allemagne)]()
+#### IDW PS 951 (Allemagne)
 #### [IT Grundschutz Workbook (Allemagne)](offering-it-grundschutz-workbook-germany.md)
 #### [LOPD (Espagne)](offering-lopd-spain.md)
 #### [PASF (Royaume-Uni)](offering-pasf-uk.md)
