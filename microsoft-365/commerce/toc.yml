@@ -24,8 +24,6 @@
           href: /microsoft-store/payment-methods?context=/microsoft-365/commerce/context/context-commerce
         - name: Gérer les profils de facturation
           href: /microsoft-365/commerce/billing-and-payments/manage-billing-profiles
-        - name: Historique des commandes
-          href: /microsoft-store/manage-orders-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
         - name: Services de paiement directive 2 et authentification client forte
           href: /microsoft-365/commerce/billing-and-payments/psd2.md
     - name: Comptes de facturation
