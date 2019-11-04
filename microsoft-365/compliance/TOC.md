@@ -4,6 +4,7 @@
 ## [Nouveautés du centre de conformité](whats-new.md)
 ## [Mises à jour récentes apportées au contenu de conformité](recently-updated-topics-mcc.md)
 ## [Centre de conformité Microsoft 365](microsoft-365-compliance-center.md)
+## [Catalogue de solutions Microsoft 365 (préversion)](microsoft-365-solution-catalog.md)
 ## [Accéder au centre de conformité et de sécurité](go-to-the-securitycompliance-center.md)
 ## [Utiliser votre abonnement Azure Active Directory gratuit](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Planifier la sécurité et la conformité dans Office 365](plan-for-security-and-compliance.md)
@@ -17,9 +18,13 @@
 ## Clé client
 ### [Contrôle de vos données dans Office 365 à l’aide de la Clé client](controlling-your-data-using-customer-key.md).
 ### [FAQ : chiffrement de service avec une clé client pour Office 365](service-encryption-with-customer-key-faq.md)
-## Superviser les communications
-### [En savoir plus sur les stratégies de surveillance](supervision-policies.md)
-### [Configurer des stratégies de surveillance pour votre organisation](configure-supervision-policies.md)
+## Conformité des communications
+### [En savoir plus sur la conformité des communications (préversion)](communication-compliance.md)
+### [Configurer la conformité des communications dans Microsoft 365 (préversion)](communication-compliance-configure.md)
+### [Examiner et corriger les alertes de conformité des communications (préversion)](communication-compliance-investigate-remediate.md)
+### [Référence sur les fonctionnalités de conformité des communications (préversion)](communication-compliance-feature-reference.md)
+### [Stratégies de supervision dans Office 365](supervision-policies.md)
+### [Configurer des stratégies de supervision pour Office 365](configure-supervision-policies.md)
 ## [Obstacles aux informations](information-barriers.md)
 ### [Définir des stratégies d’obstacle aux informations](information-barriers-policies.md)
 ### [Attributs pour les stratégies d’obstacle aux informations](information-barriers-attributes.md)
@@ -31,6 +36,8 @@
 ### [Restreindre l’accès au contenu à l’aide du chiffrement dans les étiquettes de niveau de confidentialité](encryption-sensitivity-labels.md)
 ### [Appliquer automatiquement une étiquette de confidentialité au contenu](apply-sensitivity-label-automatically.md)
 ### [Afficher l’utilisation d’étiquette avec les analyses d’étiquettes](label-analytics.md)
+### [Utiliser des étiquettes de confidentialité avec les équipes, les groupes et les sites](sensitivity-labels-teams-groups-sites.md)
+### [Activer les étiquettes de confidentialité pour les fichiers Office dans SharePoint et OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
 ### [Étiquettes de confidentialité dans les applications Office](sensitivity-labels-office-apps.md)
 
 ## [Protection contre la perte de données (DLP)](data-loss-prevention-policies.md)
@@ -85,10 +92,11 @@
 ## [Comprendre la classification des données (préversion)](data-classification-overview.md)
 ### [Afficher l’activité des étiquettes (préversion)](data-classification-activity-explorer.md)
 ### [Prise en main des classificateurs de formation (préversion)](classifier-getting-started-with.md)
-### [Utilisation d’un classificateur prêt à l’emploi (préversion)](classifier-using-a-ready-to-use-classifier)
+### [Utilisation d’un classificateur prêt à l’emploi (préversion)](classifier-using-a-ready-to-use-classifier.md)
 ### [Création et formation d’un classificateur (préversion)](classifier-creating-a-trainable-classifier.md)
 
 # Gérer la gouvernance des informations
+## [Gérer la gouvernance des informations](manage-information-governance.md)
 ## [Importer des données](importing-pst-files-to-office-365.md)
 ### [Utiliser le chargement réseau pour importer des fichiers PST](use-network-upload-to-import-pst-files.md)
 ### [Utiliser l’envoi de lecteurs pour importer des fichiers PST](use-drive-shipping-to-import-pst-files-to-office-365.md)
@@ -363,11 +371,16 @@
 
 # Gérer les risques de conformité
 ## [Portail d’approbation de services Microsoft](get-started-with-service-trust-portal.md)
-## [Gestionnaire de conformité (classique)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
-## [Gestionnaire de conformité (préversion)](compliance-manager-overview.md)
-### [Nouveautés du Gestionnaire de conformité (préversion)](compliance-manager-release-notes.md)
-### [Utilisation du Gestionnaire de conformité (préversion)](working-with-compliance-manager.md)
-### [Méthodologie score de conformité (préversion)](compliance-score-methodology.md)
+## Score de conformité et Gestionnaire de conformité
+### [Score de conformité (préversion)](compliance-score.md)
+### [Configurer le score de conformité (préversion)](compliance-score-setup.md)
+### [Utiliser le score de conformité (préversion)](working-with-compliance-score.md)
+### [Calcul du score de conformité (préversion)](compliance-score-methodology.md)
+### [Notes de publication de la fonctionnalité Score de conformité (préversion)](compliance-score-release-notes.md)
+### [Gestionnaire de conformité (préversion)](compliance-manager-overview.md)
+#### [Nouveautés du Gestionnaire de conformité (préversion)](compliance-manager-release-notes.md)
+#### [Utilisation du Gestionnaire de conformité (préversion)](working-with-compliance-manager.md)
+#### [Gestionnaire de conformité (classique)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
 
 ## [Outil de demande de la personne concernée du RGPD](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
 ## [Protection des informations Office 365 pour le RGPD](office-365-information-protection-for-gdpr.md)
@@ -388,9 +401,9 @@
 
 # [Plans d’action de conformité aux réglementations](compliance-solutions-overview.md)
 
-## [ISO — Plan d’action recommandé](iso-action-plan.md)
-## [NIST — Plan d’action recommandé](nist-action-plan.md) 
-
+## [ISO - Plan d’action recommandé](iso-action-plan.md)
+## [NIST - Plan d’action recommandé](nist-action-plan.md)
+## [CCPA - Questions fréquentes](ccpa-faq.md)
 ## [RGPD](gdpr.md)
 ### [Plan d’action recommandé pour le RGPD](gdpr-action-plan.md)
 
@@ -587,6 +600,7 @@
 #### [PASF (Royaume-Uni)](offering-pasf-uk.md)
 
 ### Amérique du Nord
+#### [California Consumer Privacy Act (CCPA)](offering-ccpa.md)
 #### [Lois canadiennes sur la protection de la vie privée](offering-canadian-privacy-laws.md)
 
 ### Amérique du Sud

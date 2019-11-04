@@ -203,16 +203,16 @@
 ##### [Configuration de groupes et d’utilisateurs pour un environnement de développement/test pour une campagne électorale](./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md)
 ##### [Création de sites d’équipe dans un environnement de développement/test dans le cadre d’une campagne électorale](./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md)
 
+#### [Sécuriser des fichiers dans Microsoft Teams](./office-365-security/secure-files-in-teams.md)
+##### [Déployer des équipes pour trois niveaux de protection des fichiers](./office-365-security/deploy-teams-three-tiers.md)
+##### [Protéger des fichiers dans Teams avec des étiquettes de rétention et la protection contre la perte de données (DLP)](./office-365-security/deploy-teams-retention-DLP.md)
+##### [Protéger des fichiers dans Teams avec des étiquettes de confidentialité](./office-365-security/deploy-teams-sensitivity-labels.md)
+##### [Sécuriser les fichiers Teams dans un environnement de développement/test](./office-365-security/secure-team-for-files-in-a-dev-test-environment.md)
+
 #### [Sécuriser les fichiers et sites SharePoint Online](./office-365-security/secure-sharepoint-online-sites-and-files.md)
 ##### [Sécuriser les sites SharePoint Online dans un environnement de développement/test](./office-365-security/secure-sharepoint-online-sites-in-a-dev-test-environment.md)
 
-#### [Sites d’équipe SharePoint Online isolés](./office-365-security/isolated-sharepoint-online-team-sites.md)
-##### [Conception d’un site d’équipe SharePoint Online isolé](./office-365-security/design-an-isolated-sharepoint-online-team-site.md)
-##### [Déploiement d’un site d’équipe SharePoint Online isolé](./office-365-security/deploy-an-isolated-sharepoint-online-team-site.md)
-##### [Gestion d’un site d’équipe SharePoint Online isolé](./office-365-security/manage-an-isolated-sharepoint-online-team-site.md)
-##### [Site d’équipe SharePoint Online isolé dans votre environnement de développement/test](./office-365-security/isolated-sharepoint-online-team-site-dev-test-environment.md)
 #### [Intégration de serveur SIEM](./office-365-security/siem-server-integration.md)
-
 
 #### [Exchange Online Protection](./office-365-security/exchange-online-protection-overview.md)
 ##### [Fonctionnalités EOP](./office-365-security/eop-features.md)
