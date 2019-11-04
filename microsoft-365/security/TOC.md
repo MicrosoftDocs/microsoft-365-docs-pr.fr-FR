@@ -15,6 +15,8 @@
 ## [Configurations des identités et de l’accès aux appareils](../enterprise/microsoft-365-policies-configurations.md)
 ### [Travail préparatoire](../enterprise/identity-access-prerequisites.md)
 ### [Stratégies communes pour les identités et l’accès aux appareils](../enterprise/identity-access-policies.md)
+### [Stratégies pour les invités et les utilisateurs externes](../enterprise/identity-access-policies-guest-access.md)
+### [Stratégies d’accès recommandées pour Teams](../enterprise/teams-access-policies.md)
 ### [Stratégies d’accès à Exchange Online](../enterprise/secure-email-recommended-policies.md)
 ### [Stratégies d’accès à SharePoint Online recommandées](../enterprise/sharepoint-file-access-policies.md)
 

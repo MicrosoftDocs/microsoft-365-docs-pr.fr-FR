@@ -82,6 +82,12 @@
 #### [Informations héritées pour le chiffrement de messages Office 365](legacy-information-for-message-encryption.md)
 #### [Configurer Azure Rights Management pour la version précédente de chiffrement de messages Office 365.](set-up-azure-rms-for-previous-version-message-encryption.md)
 
+## [Comprendre la classification des données (préversion)](data-classification-overview.md)
+### [Afficher l’activité des étiquettes (préversion)](data-classification-activity-explorer.md)
+### [Prise en main des classificateurs de formation (préversion)](classifier-getting-started-with.md)
+### [Utilisation d’un classificateur prêt à l’emploi (préversion)](classifier-using-a-ready-to-use-classifier)
+### [Création et formation d’un classificateur (préversion)](classifier-creating-a-trainable-classifier.md)
+
 # Gérer la gouvernance des informations
 ## [Importer des données](importing-pst-files-to-office-365.md)
 ### [Utiliser le chargement réseau pour importer des fichiers PST](use-network-upload-to-import-pst-files.md)
