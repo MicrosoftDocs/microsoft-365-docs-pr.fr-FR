@@ -1,0 +1,185 @@
+### YamlMime:Hub
+title: Ressources professionnelles Microsoft 365
+summary: Microsoft 365 Business inclut les versions les plus récentes des applications Windows et Office telles qu’Excel et Outlook. Soyez opérationnel et tirez parti de la protection et de la sécurité des données qui s’étendent à tous vos appareils.
+brand: m365
+metadata:
+  title: Ressources professionnelles Microsoft 365
+  description: description
+  ms.service: o365-administration
+  ms.topic: hub-page
+  ms.collection: collection
+  author: samanro
+  ms.author: samanro
+  ms.date: 10/01/2019
+  ms.openlocfilehash: 88c08b430fa67d81435b7b6a4eb079a216b228d7
+  ms.sourcegitcommit: 0fa897d06b664c0ed005817752da1426d4ee17cb
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 11/06/2019
+  ms.locfileid: "38002425"
+conceptualContent:
+  items:
+  - title: Qu’est-ce que Microsoft 365 Business ?
+    links:
+    - url: microsoft-365-business-overview.md
+      itemType: overview
+      text: Vue d’ensemble
+    - url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
+      itemType: video
+      text: Formation Microsoft 365 entreprise
+    - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-licensing-deck
+      itemType: overview
+      text: Comparer des plans (anglais uniquement)
+    - url: https://docs.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
+      itemType: reference
+      text: Description de service
+    - url: support/microsoft-365-business-faqs.md
+      itemType: reference
+      text: FAQ
+  - title: Configurer Microsoft 365 Business
+    links:
+    - url: https://support.office.com/article/38003e30-9d10-44cf-b596-f1b5f662bfa1
+      itemType: video
+      text: 1. Exécuter l’Assistant Installation
+    - url: protection-settings-for-windows-10-pcs.md
+      itemType: how-to-guide
+      text: 2. Sécuriser vos PC
+    - url: https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start
+      itemType: video
+      text: 3. Configurer teams
+    - url: https://support.office.com/article/4d2a1b69-6d8c-45d1-88e0-6676a8efa5f1
+      itemType: get-started
+      text: 4. Installation d’Office
+  - title: Ressources pour les partenaires (anglais uniquement)
+    links:
+    - url: https://www.microsoft.com/microsoft-365/partners/business
+      itemType: overview
+      text: Page partenaire
+    - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-customer-pitch-deck
+      itemType: download
+      text: Jeu de tangage (Focus Client)
+    - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-partner-pitch-deck
+      itemType: download
+      text: Jeu de tangage (Focus partenaire)
+    - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-technical-fundamentals-decks-zip
+      itemType: download
+      text: Principes de base du Tech
+  - title: Gérer les utilisateurs
+    links:
+    - url: https://docs.microsoft.com/microsoft-365/business/add-users-m365b
+      itemType: how-to-guide
+      text: Ajouter un utilisateur
+    - url: https://docs.microsoft.com/office365/admin/add-users/remove-former-employee
+      itemType: how-to-guide
+      text: Supprimer un utilisateur
+    - url: https://docs.microsoft.com/office365/admin/add-users/reset-passwords
+      itemType: how-to-guide
+      text: Réinitialiser le mot de passe d’un utilisateur
+    footerLink:
+      url: https://docs.microsoft.com/office365/admin/admin-home
+      text: Voir plus
+  - title: Gérer les menaces
+    links:
+    - url: https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/office-365-atp
+      itemType: overview
+      text: Office 365 Advanced Threat Protection
+    - url: set-up-mfa.md
+      itemType: how-to-guide
+      text: Configurer la MFA
+    - url: https://docs.microsoft.com/en-us/microsoft-365/business/increase-threat-protection#protect-against-ransomware
+      itemType: how-to-guide
+      text: Protéger contre les ransomware
+    - url: https://docs.microsoft.com/azure/active-directory/conditional-access/overview
+      itemType: overview
+      text: Accès conditionnel
+    footerLink:
+      url: https://docs.microsoft.com/office365/admin/admin-home
+      text: Voir plus
+  - title: Gérer des données
+    links:
+    - url: https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies
+      itemType: overview
+      text: Prévention contre la perte de données
+    - url: https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980
+      itemType: how-to-guide
+      text: Envoyer un message électronique chiffré
+    - url: https://docs.microsoft.com/microsoft-365/business/set-up-compliance#set-up-email-retention-with-exchange-online-archiving
+      itemType: how-to-guide
+      text: Configurer la rétention du courrier électronique
+    - url: https://support.office.com/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9
+      itemType: video
+      text: Créer et utiliser des étiquettes de confidentialité
+    footerLink:
+      url: https://docs.microsoft.com/microsoft-365/compliance/
+      text: Voir plus
+  - title: gérer les appareils
+    links:
+    - url: view-policies-and-devices.md
+      itemType: how-to-guide
+      text: PC & appareils mobiles
+    - url: remove-company-data.md
+      itemType: how-to-guide
+      text: Suppression des données d’entreprise
+    - url: reset-devices-to-factory-settings.md
+      itemType: how-to-guide
+      text: Effacer et réinitialiser
+    - url: https://docs.microsoft.com/en-us/intune/index
+      itemType: overview
+      text: Intune
+    - url: manage-windows-devices.md
+      itemType: how-to-guide
+      text: Configurer une jointure Azure AD hybride
+    - url: access-resources.md
+      itemType: how-to-guide
+      text: Configurer une participation Azure AD
+    - url: https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot
+      text: Windows Autopilot
+      itemType: overview
+    footerLink:
+      url: manage-windows-devices.md
+      text: Voir plus
+  - title: Surveiller la sécurité
+    links:
+    - url: https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score
+      itemType: how-to-guide
+      text: Score de sécurité
+    - url: https://docs.microsoft.com/intune/apps/app-protection-policies-monitor
+      itemType: overview
+      text: Rapport des stratégies de protection des applications Intune
+    - url: https://docs.microsoft.com/office365/enterprise/view-service-health
+      itemType: how-to-guide
+      text: Alertes de surveillance d’intégrité
+    footerLink:
+      url: https://docs.microsoft.com/microsoft-365/security/
+      text: Voir plus
+  - title: Support et communauté
+    links:
+    - url: https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog
+      itemType: whats-new
+      text: Annonces
+    - url: https://support.office.com/article/7f681212-c649-4a3e-a43b-32b1d1e58988
+      itemType: video
+      text: Obtenir de l’aide
+    - url: https://techcommunity.microsoft.com/t5/Microsoft-365-Business/bd-p/Microsoft365business
+      itemType: overview
+      text: Envoyer un commentaire
+    - url: https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB
+      itemType: overview
+      text: Communauté technique pour les petites et moyennes entreprises
+  - title: Procédures
+    links:
+    - url: sign-up.md
+      itemType: get-started
+      text: S’inscrire à Microsoft 365 Business
+    - url: https://support.office.com/article/where-to-store-files-c7c20284-bc94-47f4-9728-d28e9daf0790
+      itemType: video
+      text: Stocker des fichiers dans le Cloud
+    - url: https://support.office.com/article/9bc459c4-ce13-479b-b88b-b8ae49092732
+      itemType: video
+      text: Collaborer avec Microsoft teams
+    - url: https://docs.microsoft.com/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=%2Fmicrosoft-365%2Fbusiness%2Ftoc.json&bc=%2Fmicrosoft-365%2Fbusiness%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+      itemType: how-to-guide
+      text: Afficher mon facture
+    footerLink:
+      url: https://docs.microsoft.com/microsoft-365/security/
+      text: Voir plus
