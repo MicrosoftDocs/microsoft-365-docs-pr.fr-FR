@@ -8,12 +8,12 @@ ms.topic: hub-page
 keywords: Microsoft 365, documentation Microsoft 365, Microsoft 365 pour les entreprises, Microsoft 365 pour les entreprises, Microsoft 365 pour l’éducation, entreprise, entreprise, éducation, documents, documentation
 title: Documentation Microsoft 365
 description: Trouvez de la documentation et des ressources pour Microsoft 365--une solution complète et intelligente, notamment Office 365, Windows 10 et Enterprise Mobility + Security, qui permet à chacun d’être créatif et de collaborer en toute sécurité.
-ms.openlocfilehash: 137479d7e9705a579a6c5aa20cb3a0ae935a1fd8
-ms.sourcegitcommit: 96cbcfe8b02a5efc2d5a4fc070753ea96f298fda
+ms.openlocfilehash: 00b714811e10af9dfb135aec4b090b17cf4fda73
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749146"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031649"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -34,7 +34,7 @@ ms.locfileid: "37749146"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/M365-HubTile-Enterprise-400x140.svg" alt="Microsoft 365 Enterprise documentation and resources" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/M365-HubTile-Enterprise-400x140.svg" alt="Microsoft 365 Enterprise documentation and resources" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -54,7 +54,7 @@ ms.locfileid: "37749146"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/M365-HubTile-Business-400x140.svg" alt="Microsoft 365 Business documentation and resources" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/M365-HubTile-Business-400x140.svg" alt="Microsoft 365 Business documentation and resources" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -74,7 +74,7 @@ ms.locfileid: "37749146"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/M365-HubTile-Education-400x140.svg" alt="Microsoft 365 Education documentation and resources" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/M365-HubTile-Education-400x140.svg" alt="Microsoft 365 Education documentation and resources" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -99,7 +99,7 @@ ms.locfileid: "37749146"
                                                 </div>
                                                 <div class="cardText">
                                                     <br />
-                                                    <h3>Conformité de Microsoft 365</h3>
+                                                    <h3>Conformité Microsoft 365</h3>
                                                     <p>Les solutions de conformité Microsoft 365 aident votre organisation à respecter les normes légales ou réglementaires.</p>
                                                 </div>
                                             </div>

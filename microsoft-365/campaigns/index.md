@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 365 pour les campagnes
-ms.openlocfilehash: 02fb7f62466f5830f83128126a89f7e6a830dc16
-ms.sourcegitcommit: 204deabd34e5ee38b59d4742d75e74e3873cf892
+ms.openlocfilehash: d80e25aedaf3a0160fc6ed926222dd3c12cf7466
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35183273"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38029078"
 ---
 <a name="microsoft-365-for-campaigns"></a>Microsoft 365 pour les campagnes
 ===========================
@@ -38,7 +38,7 @@ Dans notre monde actuel, la sécurisation des communications et des données est
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3clbH] 
 
 
-**Qu’est-ce que Microsoft 365 pour les campagnes?** Il s’agit d’une configuration recommandée qui inclut Microsoft 365 entreprise afin de pouvoir:
+**Qu’est-ce que Microsoft 365 pour les campagnes ?** Il s’agit d’une configuration recommandée qui inclut Microsoft 365 entreprise afin de pouvoir :
 - S’appuyer sur des outils de collaboration et de productivité professionnels approuvés, tels qu’Outlook, Word, Excel et d’autres produits Office 
 - Protégez vos fichiers professionnels sur tous vos appareils iOS, Android et Windows 10 avec une sécurité de niveau entreprise facile à gérer 
 - Appliquer une protection supplémentaire pour les comptes d’utilisateur et l’identité 
@@ -47,7 +47,7 @@ Dans notre monde actuel, la sécurisation des communications et des données est
 
 Si les campagnes de sélection fédérale aux États-Unis ont droit à une tarification spéciale pour Microsoft 365 Business, toute organisation disposant de ce plan peut tirer parti de ces conseils pour configurer une sécurité accrue et apprendre à collaborer de manière sécurisée.
 
-Cette bibliothèque inclut les éléments suivants:
+Cette bibliothèque inclut les éléments suivants :
 - Instructions de configuration pour renforcer la sécurité.
 - Aider les utilisateurs à configurer des appareils pour un accès sécurisé.
 - Des conseils sur la façon de collaborer et de partager en toute sécurité.
@@ -65,7 +65,7 @@ Pour plus d’informations sur ce qui est inclus, consultez la rubrique [Microso
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-blue.svg" alt="Roadmap" />
+                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-blue.svg" alt="Roadmap" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -83,7 +83,7 @@ Pour plus d’informations sur ce qui est inclus, consultez la rubrique [Microso
 <a name="solutions-for-your-campaign-or-small-business"></a>Solutions pour votre campagne ou petite entreprise
 --------------------------
 
-Une fois que vous avez configuré votre environnement Microsoft 365 sécurisé, vous pouvez utiliser les solutions suivantes pour vous familiariser avec:
+Une fois que vous avez configuré votre environnement Microsoft 365 sécurisé, vous pouvez utiliser les solutions suivantes pour vous familiariser avec :
 
 <ul class="panelContent cardsW cols cols2">
     <li>
