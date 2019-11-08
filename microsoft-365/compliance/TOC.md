@@ -90,6 +90,7 @@
 #### [Configurer Azure Rights Management pour la version précédente de chiffrement de messages Office 365.](set-up-azure-rms-for-previous-version-message-encryption.md)
 
 ## [Comprendre la classification des données (préversion)](data-classification-overview.md)
+### [Afficher le contenu étiqueté (préversion)](data-classification-content-explorer.md)
 ### [Afficher l’activité des étiquettes (préversion)](data-classification-activity-explorer.md)
 ### [Prise en main des classificateurs de formation (préversion)](classifier-getting-started-with.md)
 ### [Utilisation d’un classificateur prêt à l’emploi (préversion)](classifier-using-a-ready-to-use-classifier.md)
