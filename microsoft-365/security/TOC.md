@@ -3,6 +3,7 @@
 ## Prise en main
 ### [Sécurité Microsoft 365 pour les décideurs d’entreprise](Microsoft-365-security-for-bdm.md)
 ### [Degré de sécurisation](./mtp/microsoft-secure-score.md)
+### [Secure Score (préversion)](./mtp/microsoft-secure-score-preview.md)
 ### [Atelier de formation du directeur général de la sécurité de l’information (SRCO)](./office-365-security/ciso-workshop.md)
 #### [Module 1 – Réunion de cybersécurité Microsoft](./office-365-security/ciso-workshop-module-1.md)
 #### [Module 2 – Gestion de la sécurité](./office-365-security/ciso-workshop-module-2.md)
