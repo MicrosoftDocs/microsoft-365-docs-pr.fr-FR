@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 31a6c85b7fd19006e4be26dce36fc1f821f38e44
-  ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
+  ms.openlocfilehash: ddf37ec091aace486b2e4f199cf31f3c720d93a1
+  ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 11/11/2019
-  ms.locfileid: "38231619"
+  ms.lasthandoff: 11/14/2019
+  ms.locfileid: "38627060"
 highlightedContent:
   items:
   - title: Formation pour les administrateurs et les professionnels de l’informatique
@@ -26,7 +26,7 @@ highlightedContent:
     url: https://docs.microsoft.com/learn/m365/
   - title: Formation pour les utilisateurs finaux
     itemType: learn
-    url: https://support.microsoft.com
+    url: https://support.office.com/modernworkplace
   - title: Formation pour les petites entreprises
     itemType: learn
     url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
@@ -50,10 +50,10 @@ additionalContent:
     - title: Microsoft 365 Entreprise
       summary: Conçu pour les grandes organisations. Protégez votre entreprise et transformez votre façon de travailler avec les applications Office, Windows 10 et Enterprise Mobility + Security.
       url: ./enterprise/index.md
-    - title: Microsoft 365 Éducation
+    - title: Microsoft 365 Éducation
       summary: Conçu pour les enseignants pour déverrouiller la créativité, promouvoir le travail d’équipe et offrir une expérience simple et sécurisée dans une solution unique et abordable, conçue pour l’éducation.
       url: https://docs.microsoft.com/education/
-    - title: Conformité Microsoft 365
+    - title: Conformité de Microsoft 365
       summary: Aidez votre organisation à gérer les informations, à vous protéger contre les risques et à respecter les normes légales ou réglementaires.
       url: ./compliance/index.yml
     - title: Sécurité Microsoft 365
