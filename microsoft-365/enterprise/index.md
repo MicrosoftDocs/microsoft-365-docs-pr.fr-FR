@@ -11,10 +11,10 @@ audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 title: Ressources et documentation de Microsoft 365 Entreprise
 ms.openlocfilehash: 8740d999ff2ade06b5b2c4f168068e8827d0fb41
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "38030879"
 ---
 <div id="main" class="v2">
@@ -121,7 +121,7 @@ ms.locfileid: "38030879"
                                                 <h3>Gérer Office 365</h3>
                                                 <P><a href="https://docs.microsoft.com/office365/enterprise/" target="_blank">Office 365 Entreprise</a></p>
                                                 <P><a href="https://support.office.com/office365admin" target="_blank">Office 365 Business</a></p>
-                                                <P><a href="https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus" target="_blank">Office 365 ProPlus</a></p>
+                                                <P><a href="https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus" target="_blank">Office 365 ProPlus</a></p>
                                             </div>
                                         </div>
                                     </div>
