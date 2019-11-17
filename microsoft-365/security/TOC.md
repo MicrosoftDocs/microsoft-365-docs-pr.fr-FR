@@ -49,9 +49,6 @@
 #### [Octroi de l’accès au centre de sécurité aux utilisateurs](./office-365-security/grant-access-to-the-security-and-compliance-center.md)
 
 
-
-
-
 ### [Se protéger contre les menaces](./office-365-security/protect-against-threats.md)
 #### [Protection contre le courrier indésirable et les programmes malveillants](./office-365-security/anti-spam-and-anti-malware-protection.md)
 ##### [Options de filtrage avancé du courrier indésirable](./office-365-security/advanced-spam-filtering-asf-options.md)
@@ -141,7 +138,6 @@
 ##### [Afficher des informations sur les fichiers malveillants](./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md)
 
 
-
 ### [Protection avancée contre les menaces ](./office-365-security/office-365-atp.md)
 #### [Découvrir les nouveautés]()
 ##### [Nouveautés d’Office 365 - Protection avancée contre les menaces](office-365-security/whats-new-in-office-365-atp.md)
@@ -182,6 +178,7 @@
 #### [Réponse aux incidents de sécurité Office 365](./office-365-security/office365-security-incident-response-overview.md)
 #### [Détecter et résoudre les problèmes d’octroi illégal de consentement dans Office 365](./office-365-security/detect-and-remediate-illicit-consent-grants.md)
 #### [Détecter et résoudre les attaques par injections sur les règles d’Outlook et les formulaires personnalisés dans Office 365](./office-365-security/detect-and-remediate-outlook-rules-forms-attack.md)
+#### [Réponse à un compte de messagerie compromis dans Office 365](office-365-security/responding-to-a-compromised-email-account.md)
 
 ### [Flux de messagerie]()
 #### [Activer le complément Signaler le message](./office-365-security/enable-the-report-message-add-in.md)
@@ -222,7 +219,7 @@
 
 ##### [Configurer votre service EOP](./office-365-security/set-up-your-eop-service.md)
 ###### [Meilleures pratiques de configuration d’EOP](./office-365-security/best-practices-for-configuring-eop.md)
-###### [Meilleures techniques pour la configuration de la sécurité dans EOP et Office 365 ATP](./office-365-security/best-practices-for-eop-office365-atp.md)
+###### [Paramètres recommandés pour la configuration de EOP et de la sécurité Office 365 – Protection avancée contre les menaces](./office-365-security/recommended-settings-for-eop-and-office365-atp.md)
 ###### [Exemple de script pour l’application de paramètres EOP à plusieurs clients](./office-365-security/sample-script-for-applying-eop-settings-to-multiple-tenants.md)
 ###### [Déplacement de domaines et de paramètres d’une organisation EOP vers une autre organisation EOP](./office-365-security/move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md)
 ###### [Basculement vers EOP à partir de Google Postini, Barracuda Spam et Virus Firewall, ou Cisco IronPort](./office-365-security/switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md)
