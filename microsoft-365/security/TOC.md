@@ -222,6 +222,7 @@
 
 ##### [Configurer votre service EOP](./office-365-security/set-up-your-eop-service.md)
 ###### [Meilleures pratiques de configuration d’EOP](./office-365-security/best-practices-for-configuring-eop.md)
+###### [Meilleures techniques pour la configuration de la sécurité dans EOP et Office 365 ATP](./office-365-security/best-practices-for-eop-office365-atp.md)
 ###### [Exemple de script pour l’application de paramètres EOP à plusieurs clients](./office-365-security/sample-script-for-applying-eop-settings-to-multiple-tenants.md)
 ###### [Déplacement de domaines et de paramètres d’une organisation EOP vers une autre organisation EOP](./office-365-security/move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md)
 ###### [Basculement vers EOP à partir de Google Postini, Barracuda Spam et Virus Firewall, ou Cisco IronPort](./office-365-security/switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md)
