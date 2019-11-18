@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: c502be734ec6fdc86a64968ecf1859587869cdf9
-  ms.sourcegitcommit: a77c4889c5b7d3b8f16e74917079300e8f222941
+  ms.openlocfilehash: b6c5cf658bcd10b4ec7f7ffafad2532efdeb7b58
+  ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 09/30/2019
-  ms.locfileid: "37329182"
+  ms.lasthandoff: 11/01/2019
+  ms.locfileid: "38690321"
 landingContent:
 - title: Gérer la protection des informations
   linkLists:
@@ -58,11 +58,11 @@ landingContent:
       url: protect-access-to-data-and-services.md
     - text: Gestion des accès privilégiés
       url: privileged-access-management-overview.md
-    - text: Référentiel sécurisé client
+    - text: Référentiel sécurisé de client
       url: customer-lockbox-requests.md
-    - text: Superviser les communications
-      url: supervision-policies.md
-    - text: Barrières des informations
+    - text: Conformité des communications
+      url: communication-compliance.md
+    - text: Obstacles aux informations
       url: information-barriers.md
     - text: Clé client
       url: controlling-your-data-using-customer-key.md
@@ -82,8 +82,8 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Gestionnaire de conformité
-      url: compliance-manager-overview.md
+    - text: Score de conformité
+      url: compliance-score.md
     - text: Plan d’action de conformité RGPD
       url: gdpr-action-plan.md
     - text: Protection des informations pour RGPD
