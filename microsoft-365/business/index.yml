@@ -11,19 +11,19 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 26ef032b9b5ee69aa30f50bf14ca5cca7563b41e
-  ms.sourcegitcommit: 93cef4906c5495ae293450ceb52d6cc336f52b53
+  ms.openlocfilehash: 2d8bececbaf4c249e13f31e314b42afc1bdd31c3
+  ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 11/08/2019
-  ms.locfileid: "38076298"
+  ms.lasthandoff: 11/21/2019
+  ms.locfileid: "38757641"
 conceptualContent:
   items:
   - title: Qu’est-ce que Microsoft 365 Business ?
     links:
     - url: microsoft-365-business-overview.md
       itemType: overview
-      text: Vue d’ensemble
+      text: Vue d'ensemble
     - url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
       itemType: video
       text: Formation Microsoft 365 entreprise
@@ -82,7 +82,7 @@ conceptualContent:
     links:
     - url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp
       itemType: overview
-      text: Office 365-Protection avancée contre les menaces
+      text: Office 365 – Protection avancée contre les menaces
     - url: set-up-mfa.md
       itemType: how-to-guide
       text: Configurer la MFA
@@ -171,15 +171,15 @@ conceptualContent:
     - url: sign-up.md
       itemType: get-started
       text: S’inscrire à Microsoft 365 Business
-    - url: https://support.office.com/article/where-to-store-files-c7c20284-bc94-47f4-9728-d28e9daf0790
-      itemType: video
-      text: Stocker des fichiers dans le Cloud
-    - url: https://support.office.com/article/9bc459c4-ce13-479b-b88b-b8ae49092732
-      itemType: video
-      text: Collaborer avec Microsoft teams
-    - url: https://docs.microsoft.com/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=%2Fmicrosoft-365%2Fbusiness%2Ftoc.json&bc=%2Fmicrosoft-365%2Fbusiness%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+    - url: migrate-to-microsoft-365-business.md
       itemType: how-to-guide
-      text: Afficher mon facture
+      text: Migrer à partir d’Office 365 Business Premium
+    - url: migrate-from-e3.md
+      itemType: how-to-guide
+      text: Migrer à partir d’Office 365 E3
+    - url: migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md
+      itemType: how-to-guide
+      text: Migrer vers Microsoft 365 entreprise E3
     footerLink:
-      url: https://docs.microsoft.com/microsoft-365/security/
+      url: microsoft-365-business-overview.md
       text: Voir plus
