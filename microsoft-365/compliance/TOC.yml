@@ -701,6 +701,8 @@
           href: compliance-score-methodology.md
         - name: Notes de publication de la fonctionnalité Score de conformité (préversion)
           href: compliance-score-release-notes.md
+        - name: FAQ sur le score de conformité (aperçu)
+          href: compliance-score-faq.md
         - name: Gestionnaire de conformité (préversion)
           href: compliance-manager-overview.md
           items:
