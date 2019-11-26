@@ -14,53 +14,53 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: b331bba76f45a11a4d1c8c0552b27759cf49608a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 60436db997d75d92e7d17fc27f66eb3944b419d8
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37078945"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39256901"
 ---
-# <a name="analyze-data-in-a-review-set-in-advanced-ediscovery"></a><span data-ttu-id="540a0-102">Analyser les données d’un ensemble de vérification dans Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="540a0-102">Analyze data in a review set in Advanced eDiscovery</span></span>
+# <a name="analyze-data-in-a-review-set-in-advanced-ediscovery"></a><span data-ttu-id="f1f16-102">Analyser les données d’un ensemble de vérification dans Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="f1f16-102">Analyze data in a review set in Advanced eDiscovery</span></span>
 
-<span data-ttu-id="540a0-103">Lorsque le nombre de documents collectés est important, il peut s’avérer difficile de les examiner tous.</span><span class="sxs-lookup"><span data-stu-id="540a0-103">When the number of collected documents is large, it can be quite difficult to review them all.</span></span> <span data-ttu-id="540a0-104">Advanced eDiscovery fournit un certain nombre d’outils pour analyser les documents afin de réduire le volume des documents à examiner sans perte de données et pour vous aider à organiser les documents de manière cohérente.</span><span class="sxs-lookup"><span data-stu-id="540a0-104">Advanced eDiscovery provides a number of tools to analyze the documents to reduce the volume of documents to be reviewed without any loss in information, and to help you organize the documents in a coherent manner.</span></span> <span data-ttu-id="540a0-105">Pour en savoir plus sur ces fonctionnalités, consultez les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="540a0-105">To learn more about these capabilities, see:</span></span>
+<span data-ttu-id="f1f16-103">Lorsque le nombre de documents collectés est important, il peut s’avérer difficile de les examiner tous.</span><span class="sxs-lookup"><span data-stu-id="f1f16-103">When the number of collected documents is large, it can be difficult to review them all.</span></span> <span data-ttu-id="f1f16-104">Advanced eDiscovery fournit un certain nombre d’outils pour analyser les documents afin de réduire le volume des documents à examiner sans perte de données et pour vous aider à organiser les documents de manière cohérente.</span><span class="sxs-lookup"><span data-stu-id="f1f16-104">Advanced eDiscovery provides a number of tools to analyze the documents to reduce the volume of documents to be reviewed without any loss in information, and to help you organize the documents in a coherent manner.</span></span> <span data-ttu-id="f1f16-105">Pour en savoir plus sur ces fonctionnalités, consultez les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="f1f16-105">To learn more about these capabilities, see:</span></span>
 
-- [<span data-ttu-id="540a0-106">Détecter des quasi-duplicatas</span><span class="sxs-lookup"><span data-stu-id="540a0-106">Near duplicate detection</span></span>](near-duplicates.md)
+- [<span data-ttu-id="f1f16-106">Détecter des quasi-duplicatas</span><span class="sxs-lookup"><span data-stu-id="f1f16-106">Near duplicate detection</span></span>](near-duplicates.md)
 
-- [<span data-ttu-id="540a0-107">Threading de messagerie</span><span class="sxs-lookup"><span data-stu-id="540a0-107">Email threading</span></span>](email-threading.md)
+- [<span data-ttu-id="f1f16-107">Threading de messagerie</span><span class="sxs-lookup"><span data-stu-id="f1f16-107">Email threading</span></span>](email-threading.md)
 
-- [<span data-ttu-id="540a0-108">Thèmes</span><span class="sxs-lookup"><span data-stu-id="540a0-108">Themes</span></span>](themes.md)
+- [<span data-ttu-id="f1f16-108">Thèmes</span><span class="sxs-lookup"><span data-stu-id="f1f16-108">Themes</span></span>](themes.md)
 
-<span data-ttu-id="540a0-109">Pour analyser les données d’un ensemble de révision :</span><span class="sxs-lookup"><span data-stu-id="540a0-109">To analyze data in a review set:</span></span>
+<span data-ttu-id="f1f16-109">Pour analyser les données d’un ensemble de révision :</span><span class="sxs-lookup"><span data-stu-id="f1f16-109">To analyze data in a review set:</span></span>
 
-1. <span data-ttu-id="540a0-110">Configurez les paramètres d’analyse pour votre cas.</span><span class="sxs-lookup"><span data-stu-id="540a0-110">Configure analytics settings for your case.</span></span> <span data-ttu-id="540a0-111">Pour plus d’informations, consultez la rubrique [configurer les paramètres de recherche et d’analyse](configure-search-analytics-settings.md).</span><span class="sxs-lookup"><span data-stu-id="540a0-111">For more information, see [Configure search and analytics settings](configure-search-analytics-settings.md).</span></span>
+1. <span data-ttu-id="f1f16-110">Configurez les paramètres d’analyse pour votre cas.</span><span class="sxs-lookup"><span data-stu-id="f1f16-110">Configure analytics settings for your case.</span></span> <span data-ttu-id="f1f16-111">Pour plus d’informations, consultez la rubrique [configurer les paramètres de recherche et d’analyse](configure-search-analytics-settings.md).</span><span class="sxs-lookup"><span data-stu-id="f1f16-111">For more information, see [Configure search and analytics settings](configure-search-analytics-settings.md).</span></span>
 
-2. <span data-ttu-id="540a0-112">Ouvrez l’ensemble de révision à analyser.</span><span class="sxs-lookup"><span data-stu-id="540a0-112">Open the review set you want to analyze.</span></span>
+2. <span data-ttu-id="f1f16-112">Ouvrez l’ensemble de révision à analyser.</span><span class="sxs-lookup"><span data-stu-id="f1f16-112">Open the review set you want to analyze.</span></span>
 
-3. <span data-ttu-id="540a0-113">Cliquez sur **gérer le jeu de révision**.</span><span class="sxs-lookup"><span data-stu-id="540a0-113">Click **Manage review set**.</span></span>
+3. <span data-ttu-id="f1f16-113">Cliquez sur **gérer le jeu de révision**.</span><span class="sxs-lookup"><span data-stu-id="f1f16-113">Click **Manage review set**.</span></span>
 
-4. <span data-ttu-id="540a0-114">Cliquez sur **exécuter l’analyse pour l’ensemble de révision**.</span><span class="sxs-lookup"><span data-stu-id="540a0-114">Click **Run analytics for the review set**.</span></span>
+4. <span data-ttu-id="f1f16-114">Cliquez sur **exécuter l’analyse pour l’ensemble de révision**.</span><span class="sxs-lookup"><span data-stu-id="f1f16-114">Click **Run analytics for the review set**.</span></span>
 
-<span data-ttu-id="540a0-115">Vous pouvez vérifier la progression de l’analyse sous l’onglet **tâches** du cas.</span><span class="sxs-lookup"><span data-stu-id="540a0-115">You can check the progress of analysis on the **Jobs** tab of the case.</span></span>
+<span data-ttu-id="f1f16-115">Vous pouvez vérifier la progression de l’analyse sous l’onglet **tâches** du cas.</span><span class="sxs-lookup"><span data-stu-id="f1f16-115">You can check the progress of analysis on the **Jobs** tab of the case.</span></span>
 
- <span data-ttu-id="540a0-116">Une fois l’analyse terminée, vous pouvez afficher le rapport d’analyse, exécuter des requêtes dans votre jeu de révisions sur les sorties de l’analyse (voir la rubrique relative à la [recherche dans l’ensemble de révision](review-set-search.md)) et afficher les documents connexes d’un document donné (voir [Review Data in Review Set](reviewing-data-in-review-set.md)).</span><span class="sxs-lookup"><span data-stu-id="540a0-116">After analysis is completed, you can view analytics report, run queries within your review set on outputs of the analysis (see [Query within your review set](review-set-search.md)), and see related documents of a given document (see [Reviewing data in review set](reviewing-data-in-review-set.md)).</span></span>
+ <span data-ttu-id="f1f16-116">Une fois l’analyse terminée, vous pouvez afficher le rapport d’analyse, exécuter des requêtes dans votre ensemble de révision sur les sorties de l’analyse (voir la rubrique relative à la [recherche dans l’ensemble de révision](review-set-search.md)) et consulter les documents connexes d’un document donné (voir [Review Data in Review Set](reviewing-data-in-review-set.md)).</span><span class="sxs-lookup"><span data-stu-id="f1f16-116">After analysis is completed, you can view the analytics report, run queries within your review set on outputs of the analysis (see [Query within your review set](review-set-search.md)), and see related documents of a given document (see [Reviewing data in review set](reviewing-data-in-review-set.md)).</span></span>
 
-## <a name="analytics-report"></a><span data-ttu-id="540a0-117">Rapport d’analyse</span><span class="sxs-lookup"><span data-stu-id="540a0-117">Analytics report</span></span>
+## <a name="analytics-report"></a><span data-ttu-id="f1f16-117">Rapport d’analyse</span><span class="sxs-lookup"><span data-stu-id="f1f16-117">Analytics report</span></span>
 
-<span data-ttu-id="540a0-118">Pour afficher un rapport d’analyse pour un jeu de révisions :</span><span class="sxs-lookup"><span data-stu-id="540a0-118">To view an analytics report for a review set:</span></span>
+<span data-ttu-id="f1f16-118">Pour afficher un rapport d’analyse pour un jeu de révisions :</span><span class="sxs-lookup"><span data-stu-id="f1f16-118">To view an analytics report for a review set:</span></span>
 
-1. <span data-ttu-id="540a0-119">Ouvrez l’ensemble de révision.</span><span class="sxs-lookup"><span data-stu-id="540a0-119">Open the review set.</span></span>
+1. <span data-ttu-id="f1f16-119">Ouvrez l’ensemble de révision.</span><span class="sxs-lookup"><span data-stu-id="f1f16-119">Open the review set.</span></span>
 
-2. <span data-ttu-id="540a0-120">Cliquez sur **gérer le jeu de révision**.</span><span class="sxs-lookup"><span data-stu-id="540a0-120">Click **Manage review set**.</span></span>
+2. <span data-ttu-id="f1f16-120">Cliquez sur **gérer le jeu de révision**.</span><span class="sxs-lookup"><span data-stu-id="f1f16-120">Click **Manage review set**.</span></span>
 
-3. <span data-ttu-id="540a0-121">Cliquez sur **afficher le rapport**.</span><span class="sxs-lookup"><span data-stu-id="540a0-121">Click **View report**.</span></span>
+3. <span data-ttu-id="f1f16-121">Cliquez sur **afficher le rapport**.</span><span class="sxs-lookup"><span data-stu-id="f1f16-121">Click **View report**.</span></span>
 
-<span data-ttu-id="540a0-122">L’État comprend quatre composants de l’analyse :</span><span class="sxs-lookup"><span data-stu-id="540a0-122">The report has four components from analysis:</span></span>
+<span data-ttu-id="f1f16-122">L’État comprend quatre composants de l’analyse :</span><span class="sxs-lookup"><span data-stu-id="f1f16-122">The report has four components from analysis:</span></span>
 
-- <span data-ttu-id="540a0-123">**Répartition** : le nombre de messages électroniques, de pièces jointes et de documents en vrac a été trouvé dans l’ensemble de révision.</span><span class="sxs-lookup"><span data-stu-id="540a0-123">**Breakdown** - How many email messages, attachments, and loose documents were found in the review set.</span></span>
+- <span data-ttu-id="f1f16-123">**Répartition** : le nombre de messages électroniques, de pièces jointes et de documents en vrac a été trouvé dans l’ensemble de révision.</span><span class="sxs-lookup"><span data-stu-id="f1f16-123">**Breakdown** - How many email messages, attachments, and loose documents were found in the review set.</span></span>
 
-- <span data-ttu-id="540a0-124">**Documents (à l’exception des pièces jointes)** : le nombre de documents en vrac était des tableaux croisés dynamiques, des doublons uniques proches d’un tableau croisé dynamique ou un doublon exact d’un autre document.</span><span class="sxs-lookup"><span data-stu-id="540a0-124">**Documents (excluding attachments)** - How many loose documents were pivots, unique near duplicates of a pivot, or an exact duplicate of another document.</span></span>
+- <span data-ttu-id="f1f16-124">**Documents (à l’exception des pièces jointes)** : le nombre de documents en vrac était des tableaux croisés dynamiques, des doublons uniques proches d’un tableau croisé dynamique ou un doublon exact d’un autre document.</span><span class="sxs-lookup"><span data-stu-id="f1f16-124">**Documents (excluding attachments)** - How many loose documents were pivots, unique near duplicates of a pivot, or an exact duplicate of another document.</span></span>
 
-- <span data-ttu-id="540a0-125">**E-mails** : nombre de messages électroniques inclus, copies inclusives, déductions inclusives ou aucun des éléments ci-dessus.</span><span class="sxs-lookup"><span data-stu-id="540a0-125">**Emails** - How many email messages were inclusives, inclusive copies, inclusive minuses, or none of the above.</span></span>
+- <span data-ttu-id="f1f16-125">**E-mails** : nombre de messages électroniques inclus, copies inclusives, déductions inclusives ou aucun des éléments ci-dessus.</span><span class="sxs-lookup"><span data-stu-id="f1f16-125">**Emails** - How many email messages were inclusives, inclusive copies, inclusive minuses, or none of the above.</span></span>
 
-- <span data-ttu-id="540a0-126">**Pièces jointes** : le nombre de pièces jointes de courrier électronique sont uniques ou des doublons d’une autre pièce jointe dans l’ensemble de révision.</span><span class="sxs-lookup"><span data-stu-id="540a0-126">**Attachments** - How many email attachments were unique or duplicates of a another email attachment in the review set.</span></span>
+- <span data-ttu-id="f1f16-126">**Pièces jointes** : le nombre de pièces jointes de courrier électronique sont uniques ou des doublons d’une autre pièce jointe dans l’ensemble de révision.</span><span class="sxs-lookup"><span data-stu-id="f1f16-126">**Attachments** - How many email attachments were unique or duplicates of another email attachment in the review set.</span></span>
