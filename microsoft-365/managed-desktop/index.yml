@@ -54,15 +54,19 @@ sections:
         className: cardsM
         columns: 2
         items:
-          - href: 'https://www.microsoft.com/microsoft-365/blog/2018/09/17/collaborating-with-customers-and-partners-to-deliver-a-modern-desktop-microsoft-managed-desktop/'
-            title: Récents Collaboration avec des clients et des partenaires pour fournir un ordinateur de bureau moderne
+          - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482'
+            title: Voie Feuille de route complète pour Microsoft Managed Desktop
             image:
               src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
-          - href: 'https://www.cio.com/article/3307121/systems-management/microsoft-managed-desktop-all-your-windows-10-devices-managed-by-microsoft.html'
-            title: "- Microsoft Managed Desktop\_: tous vos appareils Windows 10, gérés par Microsoft"
+          - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182'
+            title: "Papier Étude\_: augmentation de la demande pour les services de bureau gérés"
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
+          - href: 'https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw'
+            title: '[Livre électronique] Faire plaisir à votre entreprise avec un espace de travail moderne'
             image:
               src: 'https://docs.microsoft.com/media/common/i_guide.svg'
   - title: Vidéos
     items:
       - type: markdown
-        text: '>[!VIDEO https://www.youtube.com/embed/Pe75tc8YwKM]'
+        text: '>[!VIDEO https://www.youtube.com/embed/GXVRu49Gmxc]'
