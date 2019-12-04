@@ -24,26 +24,31 @@ sections:
             html: '<p>Introduction à Microsoft Managed Desktop pour les décideurs--en quoi consiste son fonctionnement, et ce qu’il peut faire pour vous</p>'
             image:
               src: 'https://docs.microsoft.com/media/common/i_overview.svg'
+              alt: ''
             title: "Qu’est-ce que le bureau géré Microsoft\_?"
           - href: service-description/index.md
             html: <p>Description détaillée de toutes les parties du bureau géré Microsoft</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
-            title: Description du service
+              alt: ''
+            title: Description de service
           - href: get-ready/index.md
             html: <p>Toutes les étapes pour que votre environnement et votre organisation soient prêts à fonctionner avec le service</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_support.svg'
+              alt: ''
             title: Préparez-vous
           - href: get-started/index.md
             html: '<p>Préparez votre organisation à bord avec le bureau géré Microsoft, y compris la configuration des appareils et le déploiement d’applications</p>'
             image:
               src: 'https://docs.microsoft.com/media/common/i_whats-new.svg'
+              alt: ''
             title: Prise en main
           - href: working-with-managed-desktop/index.md
             html: <p>Toutes les opérations quotidiennes avec le service</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_portal.svg'
+              alt: ''
             title: Utilisation du Bureau géré Microsoft
   - title: Nouveaux articles et billets de blog
     items:

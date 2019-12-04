@@ -11,12 +11,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 2d8bececbaf4c249e13f31e314b42afc1bdd31c3
-  ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
+  ms.openlocfilehash: 38706a53c978009fa3d890fdbcc759c2d1a57d3e
+  ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 11/21/2019
-  ms.locfileid: "38757641"
+  ms.lasthandoff: 12/03/2019
+  ms.locfileid: "39812832"
 conceptualContent:
   items:
   - title: Qu’est-ce que Microsoft 365 Business ?
@@ -35,13 +35,13 @@ conceptualContent:
       text: Description de service
     - url: support/microsoft-365-business-faqs.md
       itemType: reference
-      text: FAQ
+      text: Forum aux questions
   - title: Configurer Microsoft 365 Business
     links:
-    - url: https://support.office.com/article/38003e30-9d10-44cf-b596-f1b5f662bfa1
-      itemType: video
+    - url: set-up.md
+      itemType: how-to-guide
       text: 1. Exécuter l’Assistant Installation
-    - url: protection-settings-for-windows-10-pcs.md
+    - url: secure-win-10-pcs.md
       itemType: how-to-guide
       text: 2. Sécuriser vos PC
     - url: https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start
@@ -82,7 +82,7 @@ conceptualContent:
     links:
     - url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp
       itemType: overview
-      text: Office 365 – Protection avancée contre les menaces
+      text: Protection avancée contre les menaces Office 365
     - url: set-up-mfa.md
       itemType: how-to-guide
       text: Configurer la MFA
@@ -99,7 +99,7 @@ conceptualContent:
     links:
     - url: https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies
       itemType: overview
-      text: Prévention contre la perte de données
+      text: Protection contre la perte de données
     - url: https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980
       itemType: how-to-guide
       text: Envoyer un message électronique chiffré

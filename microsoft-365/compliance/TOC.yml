@@ -174,9 +174,9 @@
     - name: Comprendre la classification des données (préversion)
       href: data-classification-overview.md
       items:
-        - name: Afficher le contenu étiqueté (préversion)
+        - name: Afficher le contenu étiqueté (aperçu)
           href: data-classification-content-explorer.md
-        - name: Afficher l’activité des étiquettes (préversion)
+        - name: Afficher l’activité des étiquettes (aperçu)
           href: data-classification-activity-explorer.md
         - name: Prise en main des classificateurs de formation (préversion)
           href: classifier-getting-started-with.md
@@ -240,7 +240,7 @@
           href: bulk-create-publish-labels-using-powershell.md
         - name: Rétention basée sur des événements
           href: event-driven-retention.md
-        - name: Rétentions basées sur des événements
+        - name: Rétention basée sur des événements
           href: automate-event-driven-retention.md
         - name: Gérer le cycle de vie des documents SharePoint
           href: auto-apply-retention-labels-scenario.md
@@ -295,7 +295,7 @@
           items:
             - name: Rétention basée sur des événements
               href: event-driven-retention.md
-            - name: Rétentions basées sur des événements
+            - name: Rétention basée sur des événements
               href: automate-event-driven-retention.md
         - name: Destruction
           href: disposition-reviews.md
@@ -317,6 +317,8 @@
           href: export-search-results.md
         - name: Exporter un rapport de recherche de contenu
           href: export-a-content-search-report.md
+        - name: Utiliser l’outil d’exportation de découverte électronique dans Microsoft Edge
+          href: configure-edge-to-export-search-results.md
         - name: Rechercher et supprimer des messages électroniques
           href: search-for-and-delete-messages-in-your-organization.md
         - name: Rechercher les boîtes aux lettres sur le cloud des utilisateurs locaux dans Office 365
@@ -770,7 +772,7 @@
               href: gdpr-arc-dynamics365.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-arc-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-arc-office365.md
         - name: Protection des informations
           href: gdpr-information-protection.md
@@ -788,7 +790,7 @@
               href: gdpr-dsr-intune.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-dsr-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-dsr-office365.md
             - name: Visual Studio Family
               href: gdpr-dsr-visual-studio-family.md
@@ -800,7 +802,7 @@
               href: gdpr-breach-azure-dynamics.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-breach-microsoft-support-professional-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-breach-office365.md
         - name: Analyses d’impact sur la protection des données
           items:
@@ -812,7 +814,7 @@
               href: gdpr-dpia-dynamics.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-dpia-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-dpia-office365.md
         - name: Délégué à la protection des données de Microsoft
           href: gdpr-data-protection-officer.md
@@ -1114,7 +1116,7 @@
               href: offering-pdpa-argentina.md
 - name: "Office\_365 Entreprise"
   href: 'https://docs.microsoft.com/Office365/Enterprise'
-- name: "Office\_365\_Business"
+- name: "Office\_365 Business"
   href: 'https://docs.microsoft.com/office365/admin/admin-home'
 - name: Sécurité Microsoft 365
   href: 'https://docs.microsoft.com/microsoft-365/security/'
