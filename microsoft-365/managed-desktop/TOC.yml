@@ -1,0 +1,115 @@
+- name: Bureau géré Microsoft
+  href: index.yml
+  items:
+    - name: "Qu’est-ce que le bureau géré Microsoft\_?"
+      href: intro/index.md
+      items:
+        - name: Rôles et responsabilités
+          href: intro/roles-and-responsibilities.md
+        - name: Technologies associées au Bureau géré Microsoft
+          href: intro/technologies.md
+        - name: Bureau géré Microsoft et ITIL
+          href: MMD-and-ITSM.md
+    - name: Description du service Bureau géré Microsoft
+      href: service-description/index.md
+      items:
+        - name: Régions et langues prises en charge
+          href: service-description/regions-languages.md
+        - name: Cycle de vie du produit
+          href: service-description/device-lifecycle.md
+        - name: Appareils du programme
+          href: service-description/device-list.md
+          items:
+            - name: Appareils de programmes archivés
+              href: service-description/archived-device-list.md
+        - name: Services d’appareils
+          href: service-description/device-services.md
+        - name: Configuration des périphériques
+          href: service-description/device-policies.md
+        - name: Sécurité
+          href: service-description/security.md
+        - name: Updates
+          href: service-description/updates.md
+        - name: Support
+          href: service-description/support.md
+        - name: Opérations et analyse
+          href: service-description/operations-and-monitoring.md
+        - name: Configuration requise pour l’application
+          href: service-description/mmd-app-requirements.md
+        - name: Modifications de service et communication
+          href: service-description/servicechanges.md
+        - name: Exceptions au plan de service
+          href: service-description/customizing.md
+    - name: Préparer son inscription au Bureau géré Microsoft
+      href: get-ready/index.md
+      items:
+        - name: Configuration requise pour le Bureau géré Microsoft
+          href: get-ready/prerequisites.md
+        - name: Préparer le réseau
+          href: get-ready/network.md
+        - name: Préparer l’accès aux ressources locales pour le Bureau géré Microsoft
+          href: get-ready/authentication.md
+        - name: Préparer les lecteurs mappés pour le Bureau géré Microsoft
+          href: get-ready/mapped-drives.md
+        - name: Préparer les certificats et les profils réseau pour le Bureau géré Microsoft
+          href: get-ready/certs-wifi-lan.md
+        - name: Préparer les applications
+          href: get-ready/apps.md
+          items:
+            - name: Utilisation de Microsoft Consulting Services
+              href: get-ready/apps-MCS.md
+    - name: Prise en main du Bureau géré Microsoft
+      href: get-started/index.md
+      items:
+        - name: Ajouter et vérifier des contacts d’administrateur dans le portail d’administration
+          href: get-started/add-admin-contacts.md
+        - name: Ajuster l’accès conditionnel
+          href: get-started/conditional-access.md
+        - name: Attribuer des licences
+          href: get-started/assign-licenses.md
+        - name: Déployer le portail d’entreprise Intune
+          href: get-started/company-portal.md
+        - name: Activer Enterprise State Roaming
+          href: get-started/enterprise-state-roaming.md
+        - name: Configurer les appareils
+          href: get-started/set-up-devices.md
+          items:
+            - name: Inscrivez vous-même les nouveaux appareils
+              href: get-started/register-devices-self.md
+              items:
+                - name: Procédure permettant aux partenaires d’inscrire des appareils
+                  href: get-started/register-devices-partner.md
+            - name: Inscrivez vous-même les appareils existant
+              href: get-started/register-reused-devices-self.md
+        - name: Préparer vos utilisateurs à l’utilisation des appareils
+          href: get-started/get-started-devices.md
+        - name: Déployer des applications
+          href: get-started/deploy-apps.md
+          items:
+            - name: Microsoft Project et Microsoft Visio
+              href: get-started/project-visio.md
+    - name: Utilisation du Bureau géré Microsoft
+      href: working-with-managed-desktop/index.md
+      items:
+        - name: Utiliser les informations
+          href: working-with-managed-desktop/insights.md
+          items:
+            - name: Informations d’utilisation
+              href: working-with-managed-desktop/usage-insights.md
+            - name: Informations de fiabilité
+              href: working-with-managed-desktop/reliability-insights.md
+        - name: Support pour les administrateurs
+          href: working-with-managed-desktop/admin-support.md
+        - name: Prise en charge des utilisateurs finaux
+          href: working-with-managed-desktop/end-user-support.md
+        - name: Gérer les applications
+          href: working-with-managed-desktop/manage-apps.md
+        - name: Paramètres configurables
+          href: working-with-managed-desktop/config-setting-overview.md
+          items:
+            - name: Référence des paramètres configurables
+              href: working-with-managed-desktop/config-setting-ref.md
+            - name: Déployer des paramètres configurables
+              href: working-with-managed-desktop/config-setting-deploy.md
+    - name: Historique des modifications de la documentation relative au Bureau géré Microsoft
+      href: change-history-managed-desktop.md
