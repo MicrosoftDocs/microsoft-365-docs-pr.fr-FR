@@ -1,0 +1,66 @@
+- name: Microsoft 365 pour les campagnes
+  items:
+    - name: Vue d'ensemble
+      href: index.md
+    - name: Obtenir Microsoft 365 pour les campagnes
+      href: get-microsoft-365-campaigns.md
+    - name: Comment Microsoft 365 protège vos données
+      href: m365-campaigns-users.md
+- name: Configuration et connexion
+  items:
+    - name: Vue d'ensemble
+      href: microsoft-365-campaigns-setup-overview.md
+    - name: S’inscrire
+      href: m365-campaigns-sign-up.md
+    - name: Configuration
+      href: ../business/set-up.md?toc=/microsoft-365/campaigns/toc.json
+    - name: Se connecter
+      href: m365-campaigns-sign-in.md
+    - name: Ajout d’utilisateurs
+      href: ../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json
+- name: Renforcement de la protection de sécurité
+  items:
+    - name: Vue d'ensemble
+      href: m365-campaigns-security-overview.md
+    - name: Protéger les comptes d’administrateur
+      href: m365-campaigns-protect-admin-accounts.md
+    - name: Protéger l’accès à vos données de campagnes
+      href: m365-campaigns-conditional-access.md
+    - name: Se protéger contre les programmes malveillants et les autres menaces
+      href: m365-campaigns-increase-protection.md
+- name: Configuration des appareils pour tous les membres du personnel
+  items:
+    - name: Configuration de l’authentification multifacteur
+      href: m365-campaigns-multifactor-authenication.md
+    - name: Configuration des appareils mobiles
+      href: ../business/set-up-mobile-devices.md?toc=/microsoft-365/campaigns/toc.json
+    - name: Protéger les PC et les Mac
+      href: m365-campaigns-protect-pcs-macs.md
+    - name: Configuration des appareils Windows gérés
+      href: ../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json
+- name: Protéger le courrier électronique pour tous les membres du personnel
+  items:
+    - name: Se protéger contre le hameçonnage et les autres attaques
+      href: m365-campaigns-phishing-and-attacks.md
+    - name: Envoyer un message électronique chiffré
+      href: send-encrypted-email.md
+- name: Collaborer et partager de manière sécurisée
+  items:
+    - name: Créez Teams pour la collaboration
+      href: create-teams-for-collaboration.md
+    - name: Organiser des réunions
+      href: set-up-meetings.md
+    - name: Partager des fichiers et des vidéos
+      href: share-files-and-videos.md
+    - name: Créer un site de communication pour votre organisation
+      href: create-communications-site.md
+- name: Réinitialiser ou supprimer des données de campagnes marketing sur des appareils
+  items:
+    - name: Supprimer les données d’une campagne ou d’une entreprise
+      href: ../business/remove-company-data.md?toc=/microsoft-365/campaigns/toc.json
+    - name: Rétablissement des paramètres d’usine des appareils
+      href: ../business/reset-devices-to-factory-settings.md?toc=/microsoft-365/campaigns/toc.json
+- name: Gestion des incidents de sécurité
+  items:
+    - name: Répondre à un compte de messagerie compromis
+      href: 'https://docs.microsoft.com/microsoft-365/compliance/responding-to-a-compromised-email-account'

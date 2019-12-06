@@ -1071,7 +1071,7 @@
               href: 'https://aka.ms/TRUCS-Compliance'
         - name: Australie/Pacifique
           items:
-            - name: CCSL/IRAP (Australie)
+            - name: IRAP/CCSL (Australie)
               href: offering-CCSL-IRAP-Australia.md
             - name: NZ CC Framework (Nouvelle-Zélande)
               href: offering-nz-cc-framework-nz.md
@@ -1116,7 +1116,7 @@
               href: offering-pdpa-argentina.md
 - name: "Office\_365 Entreprise"
   href: 'https://docs.microsoft.com/Office365/Enterprise'
-- name: "Office\_365 Business"
+- name: "Office\_365\_Business"
   href: 'https://docs.microsoft.com/office365/admin/admin-home'
 - name: Sécurité Microsoft 365
   href: 'https://docs.microsoft.com/microsoft-365/security/'
