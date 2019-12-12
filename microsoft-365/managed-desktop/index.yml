@@ -71,7 +71,14 @@ sections:
             title: '[Livre électronique] Faire plaisir à votre entreprise avec un espace de travail moderne'
             image:
               src: 'https://docs.microsoft.com/media/common/i_guide.svg'
+              alt: ''
   - title: Vidéos
     items:
+      - type: paragraph
+        text: Découvrez les avantages de Microsoft Managed Desktop dans le vice-président de la technologie de l’Indiana Pacers.
       - type: markdown
         text: '>[!VIDEO https://www.youtube.com/embed/GXVRu49Gmxc]'
+      - type: paragraph
+        text: Le directeur général de Microsoft Managed Desktop partage tous les points forts du service lors de la Conférence d’enflamme annuelle.
+      - type: markdown
+        text: '>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ksbj]'
