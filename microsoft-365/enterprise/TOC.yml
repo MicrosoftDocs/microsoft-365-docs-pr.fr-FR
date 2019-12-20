@@ -1,8 +1,8 @@
-- name: Ressources et documentation de Microsoft 365 Entreprise
+- name: Documentation et ressources de Microsoft 365 pour les entreprises
   href: index.yml
-- name: "Vue d’ensemble de Microsoft\_365\_Entreprise"
+- name: Vue d’ensemble de Microsoft 365 pour les entreprises
   href: microsoft-365-overview.md
-- name: Déployer Microsoft 365 Entreprise
+- name: Déployer Microsoft 365 pour Enterprise
   href: deploy-microsoft-365-enterprise.md
   items:
     - name: Déployer Foundation Infrastructure
@@ -174,7 +174,7 @@
           href: contoso-identity.md
         - name: "Windows\_10 Entreprise"
           href: contoso-win10.md
-        - name: "Office\_365\_ProPlus"
+        - name: Office 365 ProPlus
           href: contoso-o365pp.md
         - name: Gestion des appareils mobiles
           href: contoso-mdm.md
@@ -186,7 +186,7 @@
           href: contoso-team-for-top-secret-project.md
         - name: Sites SharePoint pour les données hautement réglementées
           href: contoso-sharepoint-online-site-for-highly-confidential-assets.md
-    - name: "Modifications du contenu du déploiement de Microsoft\_365 Entreprise"
+    - name: Modifications apportées à Microsoft 365 pour le contenu de déploiement d’entreprise
       href: microsoft-365-deploment-guide-changes.md
 - name: Centre de déploiement du bureau moderne
   href: desktop-deployment-center-home.md
@@ -217,11 +217,11 @@
       href: modern-desktop-deployment-and-management-lab.md
     - name: Trouver de l’aide pour votre déploiement
       href: find-help-for-modern-desktop-deployment.md
-- name: Conformité Microsoft 365
+- name: Conformité de Microsoft 365
   href: ../compliance/index.yml
 - name: Sécurité Microsoft 365
   href: ../security/index.yml
-- name: Gestion de la continuité d’activité d’entreprise (EBCM) avec les services Cloud
+- name: Gestion de la continuité des opérations d’entreprise (EBCM) avec les services Cloud
   href: ebcm-understanding-ebcm-with-cloud-services.md
   items:
     - name: Responsabilités du partenaire client et Cloud EBCM
