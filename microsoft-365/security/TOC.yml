@@ -157,7 +157,7 @@
             - name: Configurer votre client Office 365 pour une sécurité accrue
               href: ./office-365-security/tenant-wide-setup-for-increased-security.md
             - name: Nouveau centre de sécurité Microsoft 365
-              href: ./office-365-security/microsoft-security-and-compliance.md
+              href: ./mtp/overview-security-center.md
             - name: Autorisations dans le Centre de conformité et sécurité
               href: ./office-365-security/permissions-in-the-security-and-compliance-center.md
             - name: Octroi de l’accès au centre de sécurité aux utilisateurs
@@ -405,7 +405,7 @@
             - name: "Détecter et résoudre les attaques par injections sur les règles d’Outlook et les formulaires personnalisés dans Office\_365"
               href: ./office-365-security/detect-and-remediate-outlook-rules-forms-attack.md
             - name: "Réponse à un compte de messagerie compromis dans Office\_365"
-              href: office-365-security/responding-to-a-compromised-email-account.md
+              href: ./office-365-security/responding-to-a-compromised-email-account.md
         - name: Flux de messagerie
           items:
             - name: Activer le complément Signaler le message
