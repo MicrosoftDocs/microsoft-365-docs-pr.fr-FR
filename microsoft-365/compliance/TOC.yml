@@ -58,7 +58,7 @@
         - name: Résolution des problèmes d’obstacles aux informations
           href: information-barriers-troubleshooting.md
         - name: Modifier les stratégies d’obstacle aux informations
-          href: information-barriers-edit-segments-policies.md.md
+          href: information-barriers-edit-segments-policies.md
 - name: Gérer la protection des informations
   href: protect-information.md
   items:
