@@ -14,17 +14,17 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Présentation du Centre de déploiement du bureau moderne.
-ms.openlocfilehash: 0e901a162be61c7be2465a0054669ebc459e6f3f
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: b7f4ef60b4f9c82055dce42291b1abca504a8248
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031089"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112548"
 ---
 # <a name="desktop-deployment-center"></a>Centre de déploiement du bureau moderne
 
 <strong>Mise à niveau de Windows 7 vers Windows 10</strong>
-<p>Le support étendu de Windows 7 prendra fin le 14 janvier 2020. La mise à niveau sur place de Windows 7 vers Windows 10 constitue la méthode de déploiement la plus rapide. System Center Configuration Manager vous permet de <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">mettre à niveau un PC</a> ou <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">des milliers de PC</a>. Avec les mises à niveau sur place, vous n’avez pas à vous occuper de la distribution des applications, de la migration des fichiers, de la création d’images personnalisées ou de l’activation des services cloud. Vous pouvez utiliser les outils dont vous disposez déjà pour mettre à niveau des PC existants et vous concentrer sur les étapes de déploiement suivantes pour les mises à niveau : </p>
+<p>Le support étendu de Windows 7 prendra fin le 14 janvier 2020. La mise à niveau sur place de Windows 7 vers Windows 10 constitue la méthode de déploiement la plus rapide. Microsoft Endpoint Configuration Manager vous permet de <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">mettre à niveau un PC</a> ou <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">des milliers de PC</a>. Avec les mises à niveau sur place, vous n’avez pas à vous occuper de la distribution des applications, de la migration des fichiers, de la création d’images personnalisées ou de l’activation des services cloud. Vous pouvez utiliser les outils dont vous disposez déjà pour mettre à niveau des PC existants et vous concentrer sur les étapes de déploiement suivantes pour les mises à niveau : </p>
 
 <p>
 </p>
