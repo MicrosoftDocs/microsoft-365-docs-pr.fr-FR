@@ -37,7 +37,7 @@
           href: ../enterprise/sharepoint-file-access-policies.md
     - name: Protection Microsoft contre les menaces
       items:
-        - name: Vue d’ensemble
+        - name: Vue d'ensemble
           items:
             - name: "Qu’est-ce que la protection Microsoft contre les menaces\_?"
               href: mtp/microsoft-threat-protection.md
@@ -55,7 +55,7 @@
               href: mtp/mtp-enable.md
             - name: Incidents
               items:
-                - name: Vue d’ensemble
+                - name: Vue d'ensemble
                   href: mtp/incidents-overview.md
                 - name: Hiérarchiser les incidents
                   href: mtp/incident-queue.md
@@ -412,6 +412,8 @@
               href: ./office-365-security/enable-the-report-message-add-in.md
             - name: Suivi des messages dans le centre de conformité et de sécurité
               href: ./office-365-security/message-trace-scc.md
+            - name: Afficher les rapports de sécurité de courrier dans le centre de sécurité et conformité
+              href: ./office-365-security/view-email-security-reports.md
             - name: Informations sur le flux de messagerie dans le centre de sécurité et conformité
               href: ./office-365-security/mail-flow-insights-v2.md
               items:
