@@ -37,7 +37,7 @@
           href: ../enterprise/sharepoint-file-access-policies.md
     - name: Protection Microsoft contre les menaces
       items:
-        - name: Vue d'ensemble
+        - name: Vue d’ensemble
           items:
             - name: "Qu’est-ce que la protection Microsoft contre les menaces\_?"
               href: mtp/microsoft-threat-protection.md
@@ -55,7 +55,7 @@
               href: mtp/mtp-enable.md
             - name: Incidents
               items:
-                - name: Vue d'ensemble
+                - name: Vue d’ensemble
                   href: mtp/incidents-overview.md
                 - name: Hiérarchiser les incidents
                   href: mtp/incident-queue.md
@@ -106,6 +106,8 @@
                       href: mtp/advanced-hunting-deviceimageloadevents-table.md
                     - name: DeviceEvents
                       href: mtp/advanced-hunting-deviceevents-table.md
+                    - name: DeviceFileCertificateInfoBeta
+                      href: mtp/advanced-hunting-devicefilecertificateinfobeta-table.md
                     - name: EmailEvents
                       href: mtp/advanced-hunting-emailevents-table.md
                     - name: EmailAttachmentInfo
