@@ -11,19 +11,19 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 38706a53c978009fa3d890fdbcc759c2d1a57d3e
-  ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+  ms.openlocfilehash: 238c4cd0c74854def600af876f93c52e6480ebb5
+  ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 12/03/2019
-  ms.locfileid: "39812832"
+  ms.lasthandoff: 01/18/2020
+  ms.locfileid: "41233665"
 conceptualContent:
   items:
   - title: Qu’est-ce que Microsoft 365 Business ?
     links:
     - url: microsoft-365-business-overview.md
       itemType: overview
-      text: Vue d'ensemble
+      text: Vue d’ensemble
     - url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
       itemType: video
       text: Formation Microsoft 365 entreprise
@@ -55,10 +55,10 @@ conceptualContent:
     - url: https://www.microsoft.com/microsoft-365/partners/business
       itemType: overview
       text: Page partenaire
-    - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-customer-pitch-deck
+    - url: https://assetsprod.microsoft.com/mpn/smb-advanced-security-customer-pitch-deck.pptx
       itemType: download
       text: Jeu de tangage (Focus Client)
-    - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-partner-pitch-deck
+    - url: https://assetsprod.microsoft.com/mpn/smb-advanced-security-opportunity-deck.pptx
       itemType: download
       text: Jeu de tangage (Focus partenaire)
     - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-technical-fundamentals-decks-zip
@@ -82,7 +82,7 @@ conceptualContent:
     links:
     - url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp
       itemType: overview
-      text: Protection avancée contre les menaces Office 365
+      text: Office 365 Advanced Threat Protection
     - url: set-up-mfa.md
       itemType: how-to-guide
       text: Configurer la MFA

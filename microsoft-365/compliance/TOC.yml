@@ -65,6 +65,8 @@
     - name: Étiquettes de niveau de confidentialité
       href: sensitivity-labels.md
       items:
+        - name: Créer et publier des étiquettes de confidentialité
+          href: create-sensitivity-labels.md
         - name: Restriction de l’accès au contenu à l’aide du chiffrement dans les étiquettes de sensibilité
           href: encryption-sensitivity-labels.md
         - name: Appliquer automatiquement une étiquette sensibilité au contenu

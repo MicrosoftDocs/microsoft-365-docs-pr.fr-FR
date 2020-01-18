@@ -176,7 +176,7 @@
                   href: ./office-365-security/high-risk-delivery-pool-for-outbound-messages.md
                 - name: Forum Aux Questions sur la protection contre les programmes malveillants
                   href: ./office-365-security/anti-malware-protection-faq-eop.md
-                - name: "Protection contre le courrier indésirable et les programmes malveillants dans Office\_365"
+                - name: Protection anti-programme malveillant
                   href: ./office-365-security/anti-malware-protection.md
                 - name: Forum Aux Questions sur la protection anti-courrier indésirable
                   href: ./office-365-security/anti-spam-protection-faq.md
