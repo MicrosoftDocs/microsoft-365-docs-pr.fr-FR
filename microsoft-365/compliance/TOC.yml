@@ -16,24 +16,10 @@
       href: use-your-free-azure-ad-subscription-in-office-365.md
     - name: "Planifier la sécurité et la conformité dans Office\_365"
       href: plan-for-security-and-compliance.md
-- name: Gérer les risques internes
+- name: Gérer les risques des Insiders
   items:
     - name: Protéger l’accès aux appareils et l’accès des utilisateurs
       href: protect-access-to-data-and-services.md
-    - name: Référentiel sécurisé de client
-      href: customer-lockbox-requests.md
-    - name: Gestion des accès privilégiés
-      items:
-        - name: En savoir plus sur la gestion des accès privilégiés
-          href: privileged-access-management-overview.md
-        - name: Configurer la gestion des accès privilégiés
-          href: privileged-access-management-configuration.md
-    - name: Clé client
-      items:
-        - name: Contrôle de vos données dans Office 365 à l'aide de la Clé client.
-          href: controlling-your-data-using-customer-key.md
-        - name: 'FAQ : chiffrement de service avec une clé client pour Office 365'
-          href: service-encryption-with-customer-key-faq.md
     - name: Conformité de la communication (aperçu)
       items:
         - name: En savoir plus sur la conformité des communications (préversion)
@@ -59,6 +45,20 @@
           href: information-barriers-troubleshooting.md
         - name: Modifier les stratégies d’obstacle aux informations
           href: information-barriers-edit-segments-policies.md
+    - name: Gestion des accès privilégiés
+      items:
+        - name: En savoir plus sur la gestion des accès privilégiés
+          href: privileged-access-management-overview.md
+        - name: Configurer la gestion des accès privilégiés
+          href: privileged-access-management-configuration.md
+    - name: Clé client
+      items:
+        - name: Contrôle de vos données dans Office 365 à l'aide de la Clé client.
+          href: controlling-your-data-using-customer-key.md
+        - name: 'FAQ : chiffrement de service avec une clé client pour Office 365'
+          href: service-encryption-with-customer-key-faq.md
+    - name: Référentiel sécurisé de client
+      href: customer-lockbox-requests.md
 - name: Gérer la protection des informations
   href: protect-information.md
   items:
@@ -214,6 +214,8 @@
           href: archive-linkedin-data.md
         - name: Configurer un connecteur pour archiver les données Instant Bloomberg
           href: archive-instant-bloomberg-data.md
+        - name: Configurer un connecteur pour importer des données RH
+          href: import-hr-data.md
         - name: Collaborer avec un partenaire pour archiver des données tierces
           href: work-with-partner-to-archive-third-party-data.md
     - name: Stocker des données
