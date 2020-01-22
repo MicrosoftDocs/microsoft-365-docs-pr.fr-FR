@@ -24,7 +24,7 @@
               href: service-description/archived-device-list.md
         - name: Services d’appareils
           href: service-description/device-services.md
-        - name: Configuration des périphériques
+        - name: Configuration des appareils
           href: service-description/device-policies.md
         - name: Sécurité
           href: service-description/security.md
@@ -98,6 +98,8 @@
               href: working-with-managed-desktop/usage-insights.md
             - name: Informations de fiabilité
               href: working-with-managed-desktop/reliability-insights.md
+            - name: Informations sur la batterie
+              href: working-with-managed-desktop/battery-insights.md
         - name: Support pour les administrateurs
           href: working-with-managed-desktop/admin-support.md
         - name: Prise en charge des utilisateurs finaux

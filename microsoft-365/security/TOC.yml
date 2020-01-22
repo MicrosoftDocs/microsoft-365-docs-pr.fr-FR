@@ -73,6 +73,8 @@
                   href: mtp/mtp-autoir-results.md
                 - name: Approuver ou rejeter les actions en attente
                   href: mtp/mtp-autoir-actions.md
+                - name: Signaler les faux positifs/négatifs
+                  href: mtp/mtp-autoir-report-false-positives-negatives.md
             - name: Repérage avancé
               items:
                 - name: "Repérage dans Microsoft\_365"
