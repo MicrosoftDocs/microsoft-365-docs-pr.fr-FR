@@ -1,5 +1,7 @@
 ---
 title: Gérer les ensembles de charge
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,13 +16,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 33d617930e66c12f5e1355150e328d8640f8f3a4
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c2cd721e9e4e584494414645d367588087877d61
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37079391"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41582893"
 ---
-# <a name="manage-load-sets"></a><span data-ttu-id="29ccc-102">Gérer les ensembles de charge</span><span class="sxs-lookup"><span data-stu-id="29ccc-102">Manage load sets</span></span>
+# <a name="manage-load-sets"></a><span data-ttu-id="53f38-102">Gérer les ensembles de charge</span><span class="sxs-lookup"><span data-stu-id="53f38-102">Manage load sets</span></span>
 
-<span data-ttu-id="29ccc-103">Contenu à paraître prochainement.</span><span class="sxs-lookup"><span data-stu-id="29ccc-103">Content coming soon.</span></span>
+<span data-ttu-id="53f38-103">Contenu à paraître prochainement.</span><span class="sxs-lookup"><span data-stu-id="53f38-103">Content coming soon.</span></span>
