@@ -1,5 +1,7 @@
 ---
 title: Marquer des documents dans des preuves
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,13 +16,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 0996b91a44ec372cb8d1c3c377ef53fc8823dc8e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c77b842f5cbf5766fa3419fc692bc8d3cb0cd4a1
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37079700"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601411"
 ---
-# <a name="tag-documents-in-evidence"></a><span data-ttu-id="b6fea-102">Marquer des documents dans des preuves</span><span class="sxs-lookup"><span data-stu-id="b6fea-102">Tag documents in evidence</span></span>
+# <a name="tag-documents-in-evidence"></a><span data-ttu-id="4550c-102">Marquer des documents dans des preuves</span><span class="sxs-lookup"><span data-stu-id="4550c-102">Tag documents in evidence</span></span>
 
-<span data-ttu-id="b6fea-103">Contenu à paraître prochainement.</span><span class="sxs-lookup"><span data-stu-id="b6fea-103">Content coming soon.</span></span>
+<span data-ttu-id="4550c-103">Contenu à paraître prochainement.</span><span class="sxs-lookup"><span data-stu-id="4550c-103">Content coming soon.</span></span>
