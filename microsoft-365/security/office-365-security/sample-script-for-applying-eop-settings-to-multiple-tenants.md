@@ -1,5 +1,7 @@
 ---
 title: Exemple de script pour l'application de paramètres EOP à plusieurs locataires
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -10,42 +12,42 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: e87e84e1-7be0-44bf-a414-d91d60ed8817
 description: L'exemple de script suivant permet aux administrateurs Microsoft Exchange Online Protection (EOP) qui gèrent plusieurs locataires (entreprises) d'utiliser Windows PowerShell pour appliquer les paramètres de configuration à leurs locataires.
-ms.openlocfilehash: 17e63bada043bd03a3f3f1a9f2a27dced1a23422
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 83199e809b6001b8b5b3b51d2cd15a6e44d83b03
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441251"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598491"
 ---
-# <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a><span data-ttu-id="add82-103">Exemple de script pour l’application de paramètres EOP à plusieurs locataires</span><span class="sxs-lookup"><span data-stu-id="add82-103">Sample script for applying EOP settings to multiple tenants</span></span>
+# <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a><span data-ttu-id="ca57e-103">Exemple de script pour l’application de paramètres EOP à plusieurs locataires</span><span class="sxs-lookup"><span data-stu-id="ca57e-103">Sample script for applying EOP settings to multiple tenants</span></span>
 
-<span data-ttu-id="add82-104">L'exemple de script suivant permet aux administrateurs Microsoft Exchange Online Protection (EOP) qui gèrent plusieurs locataires (entreprises) d'utiliser Windows PowerShell pour appliquer les paramètres de configuration à leurs locataires.</span><span class="sxs-lookup"><span data-stu-id="add82-104">The following sample script lets Microsoft Exchange Online Protection (EOP) admins who manage multiple tenants (companies) use Windows PowerShell to apply configuration settings to their tenants.</span></span>
+<span data-ttu-id="ca57e-104">L'exemple de script suivant permet aux administrateurs Microsoft Exchange Online Protection (EOP) qui gèrent plusieurs locataires (entreprises) d'utiliser Windows PowerShell pour appliquer les paramètres de configuration à leurs locataires.</span><span class="sxs-lookup"><span data-stu-id="ca57e-104">The following sample script lets Microsoft Exchange Online Protection (EOP) admins who manage multiple tenants (companies) use Windows PowerShell to apply configuration settings to their tenants.</span></span>
 
-## <a name="to-run-a-script-or-cmdlet-on-multiple-tenants"></a><span data-ttu-id="add82-105">Pour exécuter un script ou une cmdlet sur plusieurs locataires</span><span class="sxs-lookup"><span data-stu-id="add82-105">To run a script or cmdlet on multiple tenants</span></span>
+## <a name="to-run-a-script-or-cmdlet-on-multiple-tenants"></a><span data-ttu-id="ca57e-105">Pour exécuter un script ou une cmdlet sur plusieurs locataires</span><span class="sxs-lookup"><span data-stu-id="ca57e-105">To run a script or cmdlet on multiple tenants</span></span>
 
-1. <span data-ttu-id="add82-106">À l'aide d'une application telle qu'Excel, créez un fichier .csv (par exemple, c:\scripts\inputfile.csv) :</span><span class="sxs-lookup"><span data-stu-id="add82-106">Using an application such as Excel, create a .csv file (for example, c:\scripts\inputfile.csv):</span></span>
+1. <span data-ttu-id="ca57e-106">À l'aide d'une application telle qu'Excel, créez un fichier .csv (par exemple, c:\scripts\inputfile.csv) :</span><span class="sxs-lookup"><span data-stu-id="ca57e-106">Using an application such as Excel, create a .csv file (for example, c:\scripts\inputfile.csv):</span></span>
 
-2. <span data-ttu-id="add82-107">Dans le fichier .csv, spécifiez deux noms de colonne : UserName et Cmdlet.</span><span class="sxs-lookup"><span data-stu-id="add82-107">In the .csv file, specify two column names: UserName and Cmdlet.</span></span>
+2. <span data-ttu-id="ca57e-107">Dans le fichier .csv, spécifiez deux noms de colonne : UserName et Cmdlet.</span><span class="sxs-lookup"><span data-stu-id="ca57e-107">In the .csv file, specify two column names: UserName and Cmdlet.</span></span>
 
-3. <span data-ttu-id="add82-p101">Pour chaque ligne dans le fichier .csv, ajouter le nom d'administrateur du locataire dans la colonne Nom d'utilisateur et la cmdlet à exécuter pour ce locataire dans la colonne Cmdlet. Par exemple, utilisez admin@contoso.com et Get-AcceptedDomain.</span><span class="sxs-lookup"><span data-stu-id="add82-p101">For each row in the .csv file, add the tenant's admin name in the UserName column and the cmdlet to run for that tenant in the Cmdlet column. For example, use admin@contoso.com and Get-AcceptedDomain.</span></span>
+3. <span data-ttu-id="ca57e-p101">Pour chaque ligne dans le fichier .csv, ajouter le nom d'administrateur du locataire dans la colonne Nom d'utilisateur et la cmdlet à exécuter pour ce locataire dans la colonne Cmdlet. Par exemple, utilisez admin@contoso.com et Get-AcceptedDomain.</span><span class="sxs-lookup"><span data-stu-id="ca57e-p101">For each row in the .csv file, add the tenant's admin name in the UserName column and the cmdlet to run for that tenant in the Cmdlet column. For example, use admin@contoso.com and Get-AcceptedDomain.</span></span>
 
-4. <span data-ttu-id="add82-110">Copiez le script [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) dans un éditeur tel que le Bloc-notes, puis enregistrez le fichier dans un emplacement (comme c:\scripts) permettant de trouver facilement les fichiers .ps1.</span><span class="sxs-lookup"><span data-stu-id="add82-110">Copy the [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) script to an editor like Notepad, and then save the file to a location (like c:\scripts) that makes .ps1 files easy to find.</span></span>
+4. <span data-ttu-id="ca57e-110">Copiez le script [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) dans un éditeur tel que le Bloc-notes, puis enregistrez le fichier dans un emplacement (comme c:\scripts) permettant de trouver facilement les fichiers .ps1.</span><span class="sxs-lookup"><span data-stu-id="ca57e-110">Copy the [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) script to an editor like Notepad, and then save the file to a location (like c:\scripts) that makes .ps1 files easy to find.</span></span>
 
-5. <span data-ttu-id="add82-111">Exécutez le script à l'aide de la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="add82-111">Run the script by using the following syntax:</span></span>
+5. <span data-ttu-id="ca57e-111">Exécutez le script à l'aide de la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="ca57e-111">Run the script by using the following syntax:</span></span>
 
    ```Powershell
    & "<file path>\RunCmdletOnMultipleTenants.ps1" "<file path>\inputfile.csv"
    ```
 
-   <span data-ttu-id="add82-112">Voici un exemple :</span><span class="sxs-lookup"><span data-stu-id="add82-112">Here's an example:</span></span>
+   <span data-ttu-id="ca57e-112">Voici un exemple :</span><span class="sxs-lookup"><span data-stu-id="ca57e-112">Here's an example:</span></span>
 
    ```Powershell
    & "c:\scripts\RunCmdletOnMultipleTenanats.ps1" "c:\scripts\inputfile.csv"
    ```
 
-6. <span data-ttu-id="add82-113">Chaque client sera connecté et la cmdlet sera exécutée.</span><span class="sxs-lookup"><span data-stu-id="add82-113">Each tenant will be logged on to, and the cmdlet will be run.</span></span>
+6. <span data-ttu-id="ca57e-113">Chaque client sera connecté et la cmdlet sera exécutée.</span><span class="sxs-lookup"><span data-stu-id="ca57e-113">Each tenant will be logged on to, and the cmdlet will be run.</span></span>
 
-## <a name="runcmdletonmultipletenantsps1"></a><span data-ttu-id="add82-114">RunCmdletOnMultipleTenants. ps1</span><span class="sxs-lookup"><span data-stu-id="add82-114">RunCmdletOnMultipleTenants.ps1</span></span>
+## <a name="runcmdletonmultipletenantsps1"></a><span data-ttu-id="ca57e-114">RunCmdletOnMultipleTenants. ps1</span><span class="sxs-lookup"><span data-stu-id="ca57e-114">RunCmdletOnMultipleTenants.ps1</span></span>
 
 ```Powershell
 # This script runs Windows PowerShell cmdlets on multiple tenants.

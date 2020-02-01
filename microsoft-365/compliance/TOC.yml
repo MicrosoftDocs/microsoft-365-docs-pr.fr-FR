@@ -34,7 +34,7 @@
           href: insider-risk-management-content-explorer.md
         - name: Ajouter des utilisateurs à des stratégies de risque d’initié (aperçu)
           href: insider-risk-management-users.md
-        - name: Créer des avis sur les risques initiés (aperçu)
+        - name: Créer des modèles de notification des risques Insider (aperçu)
           href: insider-risk-management-notices.md
     - name: Conformité de la communication (aperçu)
       items:
@@ -80,7 +80,7 @@
 - name: Gérer la protection des informations
   href: protect-information.md
   items:
-    - name: Étiquettes de niveau de confidentialité
+    - name: Étiquettes de confidentialité
       href: sensitivity-labels.md
       items:
         - name: Créer et publier des étiquettes de confidentialité
@@ -852,7 +852,7 @@
           href: offering-csa-star-attestation.md
         - name: Certification CSA-STAR
           href: offering-csa-star-certification.md
-        - name: Auto-évaluation CSA-STAR
+        - name: Auto-évaluation CSA-étoile
           href: offering-csa-star-self-assessment.md
         - name: ISO 20000-1-2011
           href: offering-iso-20000-1-2011.md
@@ -1134,7 +1134,7 @@
               href: offering-pdpa-argentina.md
 - name: "Office\_365 Entreprise"
   href: 'https://docs.microsoft.com/Office365/Enterprise'
-- name: "Office\_365\_Business"
+- name: "Office\_365 Business"
   href: 'https://docs.microsoft.com/office365/admin/admin-home'
 - name: Sécurité Microsoft 365
   href: 'https://docs.microsoft.com/microsoft-365/security/'
