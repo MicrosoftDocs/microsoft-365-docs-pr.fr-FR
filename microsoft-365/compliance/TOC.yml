@@ -36,15 +36,15 @@
           href: insider-risk-management-users.md
         - name: Créer des modèles de notification des risques Insider (aperçu)
           href: insider-risk-management-notices.md
-    - name: Conformité de la communication (aperçu)
+    - name: Conformité des communications
       items:
-        - name: En savoir plus sur la conformité des communications (préversion)
+        - name: En savoir plus sur la conformité des communications
           href: communication-compliance.md
-        - name: Configurer la conformité des communications dans Microsoft 365 (préversion)
+        - name: Prise en main de la conformité des communications
           href: communication-compliance-configure.md
-        - name: Examiner et corriger les alertes de conformité des communications (préversion)
+        - name: Examiner et corriger les alertes de conformité des communications
           href: communication-compliance-investigate-remediate.md
-        - name: Référence sur les fonctionnalités de conformité des communications (préversion)
+        - name: Référence de fonctionnalité pour la conformité de la communication
           href: communication-compliance-feature-reference.md
         - name: "Stratégies de supervision dans Office\_365"
           href: supervision-policies.md
@@ -150,8 +150,6 @@
           href: document-fingerprinting.md
         - name: Fonctions DLP pour les informations sensibles
           href: what-the-dlp-functions-look-for.md
-        - name: Visionner une présentation étendue de personnalisation DLP
-          href: 'https://go.microsoft.com/fwlink/?linkid=852306'
     - name: Chiffrement du courrier électronique
       href: email-encryption.md
       items:
@@ -454,6 +452,8 @@
               href: tagging-documents.md
             - name: Configurer-détection-privilèges-clients-avocat
               href: attorney-privilege-detection.md
+            - name: Utiliser le tableau de bord du jeu de réviseur (aperçu)
+              href: advanced-ediscovery-dashboard.md
         - name: Analyser les données de cas
           href: analyzing-data-in-review-set.md
           items:
@@ -494,6 +494,8 @@
               href: document-metadata-fields-in-advanced-ediscovery.md
             - name: Jeux de conversation à réviser
               href: conversation-review-sets.md
+            - name: Rapports eDiscovery avancés (aperçu)
+              href: advanced-ediscovery-reports.md
             - name: Dépannage d’AzCopy
               href: troubleshooting-azcopy.md
     - name: Gérer des cas eDiscovery
