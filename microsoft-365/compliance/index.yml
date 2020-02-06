@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: b6c5cf658bcd10b4ec7f7ffafad2532efdeb7b58
-  ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+  ms.openlocfilehash: e3c8b712931c4225bff0a989b9846957f9a6be79
+  ms.sourcegitcommit: 5ff1dc62e8855be155cb2de45cf4ee5a02c321fd
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 11/01/2019
-  ms.locfileid: "38690321"
+  ms.lasthandoff: 02/06/2020
+  ms.locfileid: "41800064"
 landingContent:
 - title: Gérer la protection des informations
   linkLists:
@@ -65,12 +65,12 @@ landingContent:
     - text: Obstacles aux informations
       url: information-barriers.md
     - text: Clé client
-      url: controlling-your-data-using-customer-key.md
+      url: customer-key-overview.md
 - title: Découvrir et répondre
   linkLists:
   - linkListType: overview
     links:
-    - text: eDiscovery avancée
+    - text: Advanced eDiscovery
       url: overview-ediscovery-20.md
     - text: Gérer une enquête de données
       url: overview-data-investigations.md

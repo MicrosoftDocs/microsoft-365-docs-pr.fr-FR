@@ -67,12 +67,6 @@
           href: privileged-access-management-overview.md
         - name: Configurer la gestion des accès privilégiés
           href: privileged-access-management-configuration.md
-    - name: Clé client
-      items:
-        - name: Contrôle de vos données dans Office 365 à l'aide de la Clé client.
-          href: controlling-your-data-using-customer-key.md
-        - name: 'FAQ : chiffrement de service avec une clé client pour Office 365'
-          href: service-encryption-with-customer-key-faq.md
     - name: Protéger l’accès aux appareils et l’accès des utilisateurs
       href: protect-access-to-data-and-services.md
     - name: Référentiel sécurisé de client
@@ -85,7 +79,7 @@
       items:
         - name: Créer et publier des étiquettes de confidentialité
           href: create-sensitivity-labels.md
-        - name: Restriction de l’accès au contenu à l’aide du chiffrement dans les étiquettes de sensibilité
+        - name: Restreindre l’accès au contenu à l’aide des étiquettes de confidentialité pour appliquer le chiffrement
           href: encryption-sensitivity-labels.md
         - name: Appliquer automatiquement une étiquette sensibilité au contenu
           href: apply-sensitivity-label-automatically.md
@@ -150,6 +144,18 @@
           href: document-fingerprinting.md
         - name: Fonctions DLP pour les informations sensibles
           href: what-the-dlp-functions-look-for.md
+    - name: Clé client
+      items:
+        - name: Chiffrement de service avec clé client dans Office 365
+          href: customer-key-overview.md
+        - name: Configurer la clé client pour Office 365
+          href: customer-key-set-up.md
+        - name: Gérer la clé client pour Office 365
+          href: customer-key-manage.md
+        - name: Faire pivoter ou faire pivoter une clé client ou une clé de disponibilité
+          href: customer-key-availability-key-roll.md
+        - name: En savoir plus sur la clé de disponibilité pour la clé client Office 365
+          href: customer-key-availability-key-understand.md
     - name: Chiffrement du courrier électronique
       href: email-encryption.md
       items:
@@ -1138,7 +1144,7 @@
               href: offering-pdpa-argentina.md
 - name: "Office\_365 Entreprise"
   href: 'https://docs.microsoft.com/Office365/Enterprise'
-- name: "Office\_365 Business"
+- name: "Office\_365\_Business"
   href: 'https://docs.microsoft.com/office365/admin/admin-home'
 - name: Sécurité Microsoft 365
   href: 'https://docs.microsoft.com/microsoft-365/security/'
