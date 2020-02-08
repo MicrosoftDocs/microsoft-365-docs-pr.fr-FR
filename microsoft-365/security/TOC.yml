@@ -132,7 +132,7 @@
                   href: mtp/microsoft-secure-score.md
                 - name: Secure Score (aperçu)
                   href: mtp/microsoft-secure-score-preview.md
-            - name: Rapports
+            - name: Reports
               items:
                 - name: Surveiller et afficher les rapports
                   href: mtp/monitoring-and-reporting.md
@@ -463,11 +463,9 @@
                   href: ./office-365-security/deploy-teams-sensitivity-labels.md
                 - name: Sécuriser les fichiers Teams dans un environnement de développement/test
                   href: ./office-365-security/secure-team-for-files-in-a-dev-test-environment.md
-            - name: Sécuriser des sites et des fichiers SharePoint Online
-              href: ./office-365-security/secure-sharepoint-online-sites-and-files.md
-              items:
-                - name: Sécuriser des sites SharePoint Online dans un environnement de développement et de test
-                  href: ./office-365-security/secure-sharepoint-online-sites-in-a-dev-test-environment.md
+            - name: Sécuriser des sites SharePoint Online dans un environnement de développement et de test
+              href: ./office-365-security/secure-sharepoint-online-sites-in-a-dev-test-environment.md
+              items: null
             - name: Intégration de serveur SIEM
               href: ./office-365-security/siem-server-integration.md
             - name: "Exchange\_Online Protection"
