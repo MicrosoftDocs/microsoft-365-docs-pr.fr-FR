@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: ddf37ec091aace486b2e4f199cf31f3c720d93a1
-  ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+  ms.openlocfilehash: f55a1404a76b55aab6ed6c0b46874fcc80dbbf87
+  ms.sourcegitcommit: d718a3a3ad293ca533ba355047a461b3ab6d4aa3
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 11/14/2019
-  ms.locfileid: "38627060"
+  ms.lasthandoff: 02/10/2020
+  ms.locfileid: "41882879"
 highlightedContent:
   items:
   - title: Formation pour les administrateurs et les professionnels de l’informatique
@@ -49,11 +49,11 @@ additionalContent:
       url: ./business/index.yml
     - title: Microsoft 365 Entreprise
       summary: Conçu pour les grandes organisations. Protégez votre entreprise et transformez votre façon de travailler avec les applications Office, Windows 10 et Enterprise Mobility + Security.
-      url: ./enterprise/index.md
+      url: ./enterprise/index.yml
     - title: Microsoft 365 Éducation
       summary: Conçu pour les enseignants pour déverrouiller la créativité, promouvoir le travail d’équipe et offrir une expérience simple et sécurisée dans une solution unique et abordable, conçue pour l’éducation.
       url: https://docs.microsoft.com/education/
-    - title: Conformité de Microsoft 365
+    - title: Conformité Microsoft 365
       summary: Aidez votre organisation à gérer les informations, à vous protéger contre les risques et à respecter les normes légales ou réglementaires.
       url: ./compliance/index.yml
     - title: Sécurité Microsoft 365
@@ -62,6 +62,6 @@ additionalContent:
     - title: Microsoft 365 pour les campagnes
       summary: Assurez la sécurité de vos communications et données métiers avec cette configuration recommandée pour Microsoft 365 Business.
       url: ./campaigns/index.md
-    - title: NOUVEAUTÉ — formation et certification Microsoft 365 chez Microsoft
-      summary: Marquez les nouvelles voies de formation pour augmenter vos compétences Microsoft 365 et gagner des certifications.
-      url: https://docs.microsoft.com/learn/m365/
+    - title: Bureau géré Microsoft
+      summary: Microsoft Managed Desktop rassemble Microsoft 365 Enterprise, la gestion des appareils basée sur le Cloud par Microsoft et la surveillance de la sécurité, ce qui vous permet de libérer vos équipes informatiques afin de vous concentrer sur les besoins fondamentaux de votre entreprise.
+      url: ./managed-desktop/index.yml
