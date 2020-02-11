@@ -74,12 +74,12 @@
 - name: Gérer la protection des informations
   href: protect-information.md
   items:
-    - name: Étiquettes de confidentialité
+    - name: Étiquettes de niveau de confidentialité
       href: sensitivity-labels.md
       items:
         - name: Créer et publier des étiquettes de confidentialité
           href: create-sensitivity-labels.md
-        - name: Restreindre l’accès au contenu à l’aide des étiquettes de confidentialité pour appliquer le chiffrement
+        - name: Restreindre l'accès au contenu grâce à la mise en place d'un chiffrement par les étiquettes de confidentialité
           href: encryption-sensitivity-labels.md
         - name: Appliquer automatiquement une étiquette sensibilité au contenu
           href: apply-sensitivity-label-automatically.md
@@ -202,6 +202,8 @@
           href: data-classification-content-explorer.md
         - name: Afficher l’activité des étiquettes (aperçu)
           href: data-classification-activity-explorer.md
+        - name: Notes de publication de classification des données publiques (aperçu)
+          href: data-classification-pub-preview-relnotes.md
         - name: Prise en main des classificateurs de formation (préversion)
           href: classifier-getting-started-with.md
         - name: Utilisation d’un classificateur prêt à l’emploi (préversion)
@@ -701,7 +703,7 @@
       href: turn-audit-log-search-on-or-off.md
     - name: Gérer l’audit de boîte aux lettres
       href: enable-mailbox-auditing.md
-    - name: Gérer les stratégies de rétention du journal d’audit
+    - name: Gérer les stratégies de rétention du journal d'audit
       href: audit-log-retention-policies.md
     - name: Propriétés détaillées dans le journal d’audit
       href: detailed-properties-in-the-office-365-audit-log.md
@@ -799,7 +801,7 @@
               href: gdpr-arc-dynamics365.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-arc-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-arc-office365.md
         - name: Protection des informations
           href: gdpr-information-protection.md
@@ -817,7 +819,7 @@
               href: gdpr-dsr-intune.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-dsr-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-dsr-office365.md
             - name: Visual Studio Family
               href: gdpr-dsr-visual-studio-family.md
@@ -829,7 +831,7 @@
               href: gdpr-breach-azure-dynamics.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-breach-microsoft-support-professional-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-breach-office365.md
         - name: Analyses d’impact sur la protection des données
           items:
@@ -841,7 +843,7 @@
               href: gdpr-dpia-dynamics.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-dpia-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-dpia-office365.md
         - name: Délégué à la protection des données de Microsoft
           href: gdpr-data-protection-officer.md
