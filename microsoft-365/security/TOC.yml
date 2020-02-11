@@ -132,7 +132,7 @@
                   href: mtp/microsoft-secure-score.md
                 - name: Secure Score (aperçu)
                   href: mtp/microsoft-secure-score-preview.md
-            - name: Reports
+            - name: Rapports
               items:
                 - name: Surveiller et afficher les rapports
                   href: mtp/monitoring-and-reporting.md
@@ -172,14 +172,21 @@
             - name: Protection contre le courrier indésirable et les programmes malveillants
               href: ./office-365-security/anti-spam-and-anti-malware-protection.md
               items:
+                - name: Protection anti-programme malveillant
+                  href: ./office-365-security/anti-malware-protection.md
+                  items:
+                    - name: Forum Aux Questions sur la protection contre les programmes malveillants
+                      href: ./office-365-security/anti-malware-protection-faq-eop.md
+                    - name: Configuration de stratégies anti-programme malveillant
+                      href: ./office-365-security/configure-anti-malware-policies.md
+                    - name: Soumission de programmes malveillants et non malveillants à Microsoft pour analyse
+                      href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
+                    - name: Détection de virus dans SharePoint Online
+                      href: ./office-365-security/virus-detection-in-spo.md
                 - name: Options de filtrage avancé du courrier indésirable
                   href: ./office-365-security/advanced-spam-filtering-asf-options.md
                 - name: Pool de remise à risque élevé pour les messages sortants
                   href: ./office-365-security/high-risk-delivery-pool-for-outbound-messages.md
-                - name: Forum Aux Questions sur la protection contre les programmes malveillants
-                  href: ./office-365-security/anti-malware-protection-faq-eop.md
-                - name: Protection anti-programme malveillant
-                  href: ./office-365-security/anti-malware-protection.md
                 - name: Forum Aux Questions sur la protection anti-courrier indésirable
                   href: ./office-365-security/anti-spam-protection-faq.md
                 - name: Éviter les caractères non valides dans vos règles de filtrage et dans la stratégie de filtrage de courrier indésirable
@@ -194,8 +201,6 @@
                   href: ./office-365-security/use-end-user-spam-notifications-to-release-and-report-spam-quarantined-messages.md
                 - name: Lutter contre le courrier indésirable envoyé à Office 365
                   href: ./office-365-security/fighting-junk-email.md
-                - name: Détection de virus dans SharePoint Online
-                  href: ./office-365-security/virus-detection-in-spo.md
                 - name: "Protection du courrier Office\_365 contre le courrier indésirable"
                   href: ./office-365-security/anti-spam-protection.md
                 - name: Combinaison des stratégies et des protections
@@ -214,8 +219,6 @@
                   href: ./office-365-security/report-junk-email-messages-to-microsoft.md
                 - name: Gérer les listes d’expéditeurs autorisés pour les vers de publipostage en bloc
                   href: ./office-365-security/manage-safe-sender-lists-for-bulk-mailers.md
-                - name: Configuration de stratégies anti-programme malveillant
-                  href: ./office-365-security/configure-anti-malware-policies.md
                 - name: Configuration de stratégies de blocage du courrier indésirable
                   href: ./office-365-security/configure-the-anti-spam-policies.md
                 - name: Créer-liste-expéditeurs-bloqués-dans-office-365
@@ -240,8 +243,6 @@
                   href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
                 - name: Envois d’administrateur dans Office 365
                   href: ./office-365-security/admin-submission.md
-                - name: Soumission de programmes malveillants et non malveillants à Microsoft pour analyse
-                  href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
                 - name: "Utilisation du portail Supprimer de la liste pour vous supprimer de la liste des expéditeurs bloqués Office\_365"
                   href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
                 - name: En-têtes de messages anti-courrier indésirable
