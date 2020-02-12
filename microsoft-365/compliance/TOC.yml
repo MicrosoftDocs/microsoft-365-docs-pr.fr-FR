@@ -8,7 +8,7 @@
       href: recently-updated-topics-mcc.md
     - name: "Centre de conformité Microsoft\_365"
       href: microsoft-365-compliance-center.md
-    - name: "Catalogue de solutions Microsoft\_365 (préversion)"
+    - name: Catalogue de solutions Microsoft 365
       href: microsoft-365-solution-catalog.md
     - name: Accéder au centre de conformité et de sécurité
       href: go-to-the-securitycompliance-center.md
@@ -202,7 +202,7 @@
           href: data-classification-content-explorer.md
         - name: Afficher l’activité des étiquettes (aperçu)
           href: data-classification-activity-explorer.md
-        - name: Notes de publication de classification des données publiques (aperçu)
+        - name: Notes de publication préliminaire publique sur la notification de données (préversion)
           href: data-classification-pub-preview-relnotes.md
         - name: Prise en main des classificateurs de formation (préversion)
           href: classifier-getting-started-with.md
@@ -458,8 +458,6 @@
               href: review-set-search.md
             - name: Étiqueter les documents d’un jeu à réviser
               href: tagging-documents.md
-            - name: Configurer-détection-privilèges-clients-avocat
-              href: attorney-privilege-detection.md
             - name: Utiliser le tableau de bord du jeu de réviseur (aperçu)
               href: advanced-ediscovery-dashboard.md
         - name: Analyser les données de cas
@@ -500,6 +498,8 @@
               href: supported-filetypes-ediscovery20.md
             - name: Champs de métadonnées de document
               href: document-metadata-fields-in-advanced-ediscovery.md
+            - name: Configurer-détection-privilèges-clients-avocat
+              href: attorney-privilege-detection.md
             - name: Jeux de conversation à réviser
               href: conversation-review-sets.md
             - name: Rapports eDiscovery avancés (aperçu)
