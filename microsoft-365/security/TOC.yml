@@ -378,6 +378,8 @@
               href: ./office-365-security/office-365-air.md
             - name: Rechercher et examiner le courrier électronique malveillant qui a été distribué
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
+            - name: Documents approuvés dans Office 365 DAV
+              href: ./office-365-security/safe-docs.md
             - name: Explorateur de menaces (et détections en temps réel)
               href: ./office-365-security/threat-explorer.md
               items:
