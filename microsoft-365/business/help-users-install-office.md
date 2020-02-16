@@ -25,42 +25,42 @@ search.appverid:
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: Aidez vos utilisateurs à installer des applications Office.
-ms.openlocfilehash: 86a32f5f7a9fbd78a56fc934c4668970f8cdc719
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7497be6b0796fdd28156d8c9a6018b05e3dcfe75
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593915"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065712"
 ---
-# <a name="help-your-users-install-office-on-windows-10-devices"></a><span data-ttu-id="29738-103">Aider vos utilisateurs à installer Office sur des appareils Windows 10</span><span class="sxs-lookup"><span data-stu-id="29738-103">Help your users install Office on Windows 10 devices</span></span>
+# <a name="help-your-users-install-office-on-windows-10-devices"></a><span data-ttu-id="a5d50-103">Aider vos utilisateurs à installer Office sur des appareils Windows 10</span><span class="sxs-lookup"><span data-stu-id="a5d50-103">Help your users install Office on Windows 10 devices</span></span>
 
-<span data-ttu-id="29738-104">[![Étiquette vous informant le centre d’administration est en train de changer et vous pouvez trouver plus de détails à ce sujet à l’adresse aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span><span class="sxs-lookup"><span data-stu-id="29738-104">[![Label to let you know the admin center is changing and you can find more details at aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span></span>
+<span data-ttu-id="a5d50-104">[![Étiquette vous informant le centre d’administration est en train de changer et vous pouvez trouver plus de détails à ce sujet à l’adresse aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span><span class="sxs-lookup"><span data-stu-id="a5d50-104">[![Label to let you know the admin center is changing and you can find more details at aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span></span>
 
-<span data-ttu-id="29738-105">Vous pouvez rapidement et facilement installer Office sur des PC Windows 10 à partir du centre d’administration de Microsoft 365 Business.</span><span class="sxs-lookup"><span data-stu-id="29738-105">You can quickly and easily install Office on Windows 10 PCs from the Microsoft 365 Business admin center.</span></span>
+<span data-ttu-id="a5d50-105">Vous pouvez rapidement et facilement installer Office sur des PC Windows 10 à partir du centre d’administration de Microsoft 365 Business.</span><span class="sxs-lookup"><span data-stu-id="a5d50-105">You can quickly and easily install Office on Windows 10 PCs from the Microsoft 365 Business admin center.</span></span>
   
-<span data-ttu-id="29738-106">Pour mieux comprendre comment cela fonctionne avec les applications Office déjà installées, lisez [Se préparer à l'installation du client Office](prepare-for-office-client-deployment.md) avant de commencer.</span><span class="sxs-lookup"><span data-stu-id="29738-106">To understand how this works with previously installed Office apps, read [Prepare for Office client installation](prepare-for-office-client-deployment.md) before you get started.</span></span>
+<span data-ttu-id="a5d50-106">Pour mieux comprendre comment cela fonctionne avec les applications Office déjà installées, lisez [Se préparer à l'installation du client Office](prepare-for-office-client-deployment.md) avant de commencer.</span><span class="sxs-lookup"><span data-stu-id="a5d50-106">To understand how this works with previously installed Office apps, read [Prepare for Office client installation](prepare-for-office-client-deployment.md) before you get started.</span></span>
 
-<span data-ttu-id="29738-107">Visionnez une courte vidéo sur l’installation des applications Office.</span><span class="sxs-lookup"><span data-stu-id="29738-107">Watch a short video about installing Office apps.</span></span><br><br>
+<span data-ttu-id="a5d50-107">Visionnez une courte vidéo sur l’installation des applications Office.</span><span class="sxs-lookup"><span data-stu-id="a5d50-107">Watch a short video about installing Office apps.</span></span><br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/acce002c-0756-4b64-ac5d-2198ee96a9b1] 
 
-<span data-ttu-id="29738-108">Si vous avez trouvé cette vidéo utile, consultez les [séries de formations complètes pour les petites entreprises et les nouveaux utilisateurs de Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="29738-108">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
+<span data-ttu-id="a5d50-108">Si vous avez trouvé cette vidéo utile, consultez les [séries de formations complètes pour les petites entreprises et les nouveaux utilisateurs de Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="a5d50-108">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
 
-## <a name="manage-office-deployments"></a><span data-ttu-id="29738-109">Gérer les déploiements d'Office</span><span class="sxs-lookup"><span data-stu-id="29738-109">Manage Office deployments</span></span>
+## <a name="manage-office-deployments"></a><span data-ttu-id="a5d50-109">Gérer les déploiements d'Office</span><span class="sxs-lookup"><span data-stu-id="a5d50-109">Manage Office deployments</span></span>
 
-1. <span data-ttu-id="29738-110">Accédez au centre d’administration à <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>l’adresse, puis connectez-vous à l’aide des informations d’identification d’administrateur général.</span><span class="sxs-lookup"><span data-stu-id="29738-110">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>, and sign in with global admin credentials.</span></span> 
+1. <span data-ttu-id="a5d50-110">Accédez au centre d’administration à <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>l’adresse, puis connectez-vous à l’aide des informations d’identification d’administrateur général.</span><span class="sxs-lookup"><span data-stu-id="a5d50-110">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>, and sign in with global admin credentials.</span></span> 
 
-2. <span data-ttu-id="29738-111">Accédez au **programme d’installation** dans le volet de navigation de gauche, puis, dans la page de **configuration** , faites défiler jusqu’à **applications et mises à jour**.</span><span class="sxs-lookup"><span data-stu-id="29738-111">Go to **Setup** in the left navigation pane, and on the **Setup** page, scroll to **Apps and updates**.</span></span>
+2. <span data-ttu-id="a5d50-111">Accédez au **programme d’installation** dans le volet de navigation de gauche, puis, dans la page de **configuration** , faites défiler jusqu’à **applications et mises à jour**.</span><span class="sxs-lookup"><span data-stu-id="a5d50-111">Go to **Setup** in the left navigation pane, and on the **Setup** page, scroll to **Apps and updates**.</span></span>
     > [!NOTE]
-    > <span data-ttu-id="29738-112">Cette carte peut ne pas s’afficher si tous vos utilisateurs ont installé les applications Office.</span><span class="sxs-lookup"><span data-stu-id="29738-112">You might not see this card if all of your  users have installed Office apps.</span></span>
+    > <span data-ttu-id="a5d50-112">Cette carte peut ne pas s’afficher si tous vos utilisateurs ont installé les applications Office.</span><span class="sxs-lookup"><span data-stu-id="a5d50-112">You might not see this card if all of your  users have installed Office apps.</span></span>
   
-3. <span data-ttu-id="29738-113">Dans la fiche **aider les utilisateurs à installer leurs applications Office** , choisissez **affichage**, puis **prise en main**.</span><span class="sxs-lookup"><span data-stu-id="29738-113">On the **Help users install their Office apps** card, choose **View**, and then **Get started**.</span></span>
+3. <span data-ttu-id="a5d50-113">Dans la fiche **aider les utilisateurs à installer leurs applications Office** , choisissez **affichage**, puis **prise en main**.</span><span class="sxs-lookup"><span data-stu-id="a5d50-113">On the **Help users install their Office apps** card, choose **View**, and then **Get started**.</span></span>
     
-4. <span data-ttu-id="29738-114">Sur le volet Office des utilisateurs de messagerie, cliquez sur le **lien pour télécharger** le volet Office, sélectionnez les utilisateurs auxquels vous souhaitez envoyer un courrier électronique, puis **envoyez un courrier électronique aux utilisateurs sélectionnés**.</span><span class="sxs-lookup"><span data-stu-id="29738-114">On the **Email users a link to download Office** panel, select the users you want to email, and then **Email selected users**.</span></span>
+4. <span data-ttu-id="a5d50-114">Sur le volet Office des utilisateurs de messagerie, cliquez sur le **lien pour télécharger** le volet Office, sélectionnez les utilisateurs auxquels vous souhaitez envoyer un courrier électronique, puis **envoyez un courrier électronique aux utilisateurs sélectionnés**.</span><span class="sxs-lookup"><span data-stu-id="a5d50-114">On the **Email users a link to download Office** panel, select the users you want to email, and then **Email selected users**.</span></span>
 
     
-      :::image type="content" source="media/sendemailtousers.png" alt-text="Sélectionnez les utilisateurs pour envoyer des courriers électroniques avec le lien de téléchargement Office.":::
+      :::image type="content" source="../media/sendemailtousers.png" alt-text="Sélectionnez les utilisateurs pour envoyer des courriers électroniques avec le lien de téléchargement Office.":::
 
-## <a name="see-also"></a><span data-ttu-id="29738-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="29738-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a5d50-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a5d50-116">See also</span></span>
 
-[<span data-ttu-id="29738-117">Vidéos de formation Microsoft 365 Entreprise</span><span class="sxs-lookup"><span data-stu-id="29738-117">Microsoft 365 Business training videos</span></span>](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[<span data-ttu-id="a5d50-117">Vidéos de formation Microsoft 365 Entreprise</span><span class="sxs-lookup"><span data-stu-id="a5d50-117">Microsoft 365 Business training videos</span></span>](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
