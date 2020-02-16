@@ -12,27 +12,27 @@ ms.date: 06/01/2018
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: 964756a1fadba89f644a0d04c1d35d2945b78c6c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9a53759eafbedc6b48d2a6266b4b52777112941d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602871"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085563"
 ---
-# <a name="step-4-monitor-device-health-and-compliance"></a><span data-ttu-id="4ee5d-104">Étape 4 : surveillance de la conformité et de l’état du périphérique</span><span class="sxs-lookup"><span data-stu-id="4ee5d-104">Step 4: Monitor device health and compliance</span></span>
+# <a name="step-4-monitor-device-health-and-compliance"></a><span data-ttu-id="e51a4-104">Étape 4 : surveillance de la conformité et de l’état du périphérique</span><span class="sxs-lookup"><span data-stu-id="e51a4-104">Step 4: Monitor device health and compliance</span></span>
 
-![Phase 3 : Windows 10 Entreprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![Phase 3 : Windows 10 Entreprise](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
-<span data-ttu-id="4ee5d-106">Windows Analytics utilise des données de diagnostic pour fournir des informations riches et exploitables qui vous aideront à mieux comprendre l'efficacité opérationnelle et l’état des périphériques de Windows 10 dans votre environnement.</span><span class="sxs-lookup"><span data-stu-id="4ee5d-106">Windows Analytics uses diagnostic data to provide rich, actionable information to help you gain deep insights into the operational efficiency and health of Windows 10 devices in your environment.</span></span>
+<span data-ttu-id="e51a4-106">Windows Analytics utilise des données de diagnostic pour fournir des informations riches et exploitables qui vous aideront à mieux comprendre l'efficacité opérationnelle et l’état des périphériques de Windows 10 dans votre environnement.</span><span class="sxs-lookup"><span data-stu-id="e51a4-106">Windows Analytics uses diagnostic data to provide rich, actionable information to help you gain deep insights into the operational efficiency and health of Windows 10 devices in your environment.</span></span>
 
-<span data-ttu-id="4ee5d-p101">La fonctionnalité d’état du périphérique de Windows Analytics fournit des informations proactives pour vous aider à détecter et résoudre les problèmes affectant les utilisateurs finaux. Ce nouveau service utilise des données de diagnostic pour fournir de telles informations sans nécessiter d'infrastructure supplémentaire. La résolution proactive des problèmes des utilisateurs finaux vous permet de réduire les coûts d’assistance et d'améliorer son efficacité. Des fonctionnalités supplémentaires seront bientôt disponibles, cela améliorera les capacités et la valeur de ce nouveau service.</span><span class="sxs-lookup"><span data-stu-id="4ee5d-p101">The Device Health capability of Windows Analytics provides proactive insights to help detect and remediate issues affecting end users. This new service uses diagnostic data to provide such insights without additional infrastructure requirements. Proactively remediating end-user issues enables you to reduce support costs and improve efficiency. Look for additional features to be released soon, which will enhance the capabilities and value of this new service.</span></span>
+<span data-ttu-id="e51a4-p101">La fonctionnalité d’état du périphérique de Windows Analytics fournit des informations proactives pour vous aider à détecter et résoudre les problèmes affectant les utilisateurs finaux. Ce nouveau service utilise des données de diagnostic pour fournir de telles informations sans nécessiter d'infrastructure supplémentaire. La résolution proactive des problèmes des utilisateurs finaux vous permet de réduire les coûts d’assistance et d'améliorer son efficacité. Des fonctionnalités supplémentaires seront bientôt disponibles, cela améliorera les capacités et la valeur de ce nouveau service.</span><span class="sxs-lookup"><span data-stu-id="e51a4-p101">The Device Health capability of Windows Analytics provides proactive insights to help detect and remediate issues affecting end users. This new service uses diagnostic data to provide such insights without additional infrastructure requirements. Proactively remediating end-user issues enables you to reduce support costs and improve efficiency. Look for additional features to be released soon, which will enhance the capabilities and value of this new service.</span></span>
 
-<span data-ttu-id="4ee5d-111">Reportez-vous à la section [surveiller l’état d’intégrité d’appareils utilisant Device Health](https://docs.microsoft.com/windows/deployment/update/device-health-monitor) pour en savoir plus, démarrer et utiliser Device Health.</span><span class="sxs-lookup"><span data-stu-id="4ee5d-111">See [Monitor the health of devices with Device Health](https://docs.microsoft.com/windows/deployment/update/device-health-monitor) to learn more, get started, and use Device Health.</span></span>
+<span data-ttu-id="e51a4-111">Reportez-vous à la section [surveiller l’état d’intégrité d’appareils utilisant Device Health](https://docs.microsoft.com/windows/deployment/update/device-health-monitor) pour en savoir plus, démarrer et utiliser Device Health.</span><span class="sxs-lookup"><span data-stu-id="e51a4-111">See [Monitor the health of devices with Device Health](https://docs.microsoft.com/windows/deployment/update/device-health-monitor) to learn more, get started, and use Device Health.</span></span>
 
-<span data-ttu-id="4ee5d-112">Comme point de contrôle intermédiaire, consultez les [critères de sortie](windows10-exit-criteria.md#crit-windows10-step4) correspondant à cette étape.</span><span class="sxs-lookup"><span data-stu-id="4ee5d-112">As an interim checkpoint, you can see the [exit criteria](windows10-exit-criteria.md#crit-windows10-step4) corresponding to this step.</span></span>
+<span data-ttu-id="e51a4-112">Comme point de contrôle intermédiaire, consultez les [critères de sortie](windows10-exit-criteria.md#crit-windows10-step4) correspondant à cette étape.</span><span class="sxs-lookup"><span data-stu-id="e51a4-112">As an interim checkpoint, you can see the [exit criteria](windows10-exit-criteria.md#crit-windows10-step4) corresponding to this step.</span></span>
 
-## <a name="next-step"></a><span data-ttu-id="4ee5d-113">Étape suivante</span><span class="sxs-lookup"><span data-stu-id="4ee5d-113">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="e51a4-113">Étape suivante</span><span class="sxs-lookup"><span data-stu-id="e51a4-113">Next step</span></span>
 
 |||
 |:-------|:-----|
-|![Étape 5](./media/stepnumbers/Step5.png)| [<span data-ttu-id="4ee5d-115">Déployer les fonctionnalités de sécurité Windows 10 Entreprise</span><span class="sxs-lookup"><span data-stu-id="4ee5d-115">Deploy Windows 10 Enterprise security features</span></span>](windows10-enable-security-features.md) |
+|![Étape 5](../media/stepnumbers/Step5.png)| [<span data-ttu-id="e51a4-115">Déployer les fonctionnalités de sécurité Windows 10 Entreprise</span><span class="sxs-lookup"><span data-stu-id="e51a4-115">Deploy Windows 10 Enterprise security features</span></span>](windows10-enable-security-features.md) |
