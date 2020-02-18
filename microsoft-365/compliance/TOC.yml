@@ -74,9 +74,12 @@
 - name: Gérer la protection des informations
   href: protect-information.md
   items:
-    - name: Étiquettes de niveau de confidentialité
-      href: sensitivity-labels.md
+    - name: Étiquettes de confidentialité
       items:
+        - name: En savoir plus sur les étiquettes de niveau de confidentialité
+          href: sensitivity-labels.md
+        - name: Prise en main des étiquettes de confidentialité
+          href: get-started-with-sensitivity-labels.md
         - name: Créer et publier des étiquettes de confidentialité
           href: create-sensitivity-labels.md
         - name: Restreindre l'accès au contenu grâce à la mise en place d'un chiffrement par les étiquettes de confidentialité
@@ -89,7 +92,7 @@
           href: sensitivity-labels-teams-groups-sites.md
         - name: Activer les étiquettes de confidentialité pour les fichiers Office dans SharePoint et OneDrive
           href: sensitivity-labels-sharepoint-onedrive-files.md
-        - name: Étiquettes de confidentialité dans les applications Office
+        - name: Utiliser des étiquettes de confidentialité dans les applications Office
           href: sensitivity-labels-office-apps.md
     - name: Protection contre la perte de données (DLP)
       href: data-loss-prevention-policies.md
@@ -1152,5 +1155,5 @@
   href: 'https://docs.microsoft.com/Office365/Enterprise'
 - name: "Office\_365\_Business"
   href: 'https://docs.microsoft.com/office365/admin/admin-home'
-- name: Sécurité Microsoft 365
+- name: "Sécurité Microsoft\_365"
   href: 'https://docs.microsoft.com/microsoft-365/security/'
