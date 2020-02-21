@@ -18,23 +18,23 @@
       href: plan-for-security-and-compliance.md
 - name: Gérer les risques des Insiders
   items:
-    - name: Gestion des risques initiés (aperçu)
+    - name: Gestion des risques initiés
       items:
-        - name: En savoir plus sur la gestion des risques internes (aperçu)
+        - name: En savoir plus sur la gestion des risques internes
           href: insider-risk-management.md
-        - name: Prise en main de la gestion des risques initiés (préversion)
+        - name: Prise en main de la gestion des risques initiés
           href: insider-risk-management-configure.md
-        - name: Créer et gérer des stratégies de risque pour les initiés (aperçu)
+        - name: Créer et gérer des stratégies de risque pour les initiés
           href: insider-risk-management-policies.md
-        - name: Analyser les alertes relatives aux risques initiés (aperçu)
+        - name: Analyser les alertes relatives aux risques initiés
           href: insider-risk-management-alerts.md
-        - name: Prendre des mesures pour les cas de risque d’initié (aperçu)
+        - name: Prendre des mesures concernant les cas d’Insider
           href: insider-risk-management-cases.md
-        - name: Examiner les données à l’aide de l’Explorateur de contenu des risques Insider (aperçu)
+        - name: Examiner les données à l’aide de l’Explorateur de contenu des risques des Insiders
           href: insider-risk-management-content-explorer.md
-        - name: Ajouter des utilisateurs à des stratégies de risque d’initié (aperçu)
+        - name: Ajouter des utilisateurs à des stratégies de risque d’initié
           href: insider-risk-management-users.md
-        - name: Créer des modèles de notification des risques Insider (aperçu)
+        - name: Créer des modèles d’avis sur les risques Insider
           href: insider-risk-management-notices.md
     - name: Conformité des communications
       items:
@@ -74,7 +74,7 @@
 - name: Gérer la protection des informations
   href: protect-information.md
   items:
-    - name: Étiquettes de confidentialité
+    - name: Étiquettes de niveau de confidentialité
       items:
         - name: En savoir plus sur les étiquettes de niveau de confidentialité
           href: sensitivity-labels.md
@@ -92,7 +92,7 @@
           href: sensitivity-labels-teams-groups-sites.md
         - name: Activer les étiquettes de confidentialité pour les fichiers Office dans SharePoint et OneDrive
           href: sensitivity-labels-sharepoint-onedrive-files.md
-        - name: Utiliser des étiquettes de confidentialité dans les applications Office
+        - name: Utiliser les étiquettes de confidentialité dans les applications Office
           href: sensitivity-labels-office-apps.md
     - name: Protection contre la perte de données (DLP)
       href: data-loss-prevention-policies.md
@@ -320,7 +320,7 @@
               href: view-label-activity-for-documents.md
             - name: Affichage des rapports de gouvernance des données
               href: view-the-data-governance-reports.md
-        - name: Events
+        - name: Événements
           items:
             - name: Rétention basée sur des événements
               href: event-driven-retention.md
