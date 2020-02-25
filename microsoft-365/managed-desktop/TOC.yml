@@ -100,6 +100,8 @@
               href: working-with-managed-desktop/reliability-insights.md
             - name: Informations sur la batterie
               href: working-with-managed-desktop/battery-insights.md
+            - name: Informations sur les mises à jour de sécurité Windows
+              href: working-with-managed-desktop/security-update-insights.md
         - name: Support pour les administrateurs
           href: working-with-managed-desktop/admin-support.md
         - name: Prise en charge des utilisateurs finaux
