@@ -209,7 +209,7 @@
           href: data-classification-pub-preview-relnotes.md
         - name: Prise en main des classificateurs de formation (préversion)
           href: classifier-getting-started-with.md
-        - name: Utilisation d’un classificateur prêt à l’emploi (préversion)
+        - name: Utilisation d’un classifieur intégré (aperçu)
           href: classifier-using-a-ready-to-use-classifier.md
         - name: Création et formation d’un classificateur (préversion)
           href: classifier-creating-a-trainable-classifier.md
@@ -804,7 +804,7 @@
               href: gdpr-arc-dynamics365.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-arc-prof-services.md
-            - name: "Office\_365"
+            - name: Office 365
               href: gdpr-arc-office365.md
         - name: Protection des informations
           href: gdpr-information-protection.md
@@ -822,7 +822,7 @@
               href: gdpr-dsr-intune.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-dsr-prof-services.md
-            - name: "Office\_365"
+            - name: Office 365
               href: gdpr-dsr-office365.md
             - name: Visual Studio Family
               href: gdpr-dsr-visual-studio-family.md
@@ -834,7 +834,7 @@
               href: gdpr-breach-azure-dynamics.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-breach-microsoft-support-professional-services.md
-            - name: "Office\_365"
+            - name: Office 365
               href: gdpr-breach-office365.md
         - name: Analyses d’impact sur la protection des données
           items:
@@ -846,7 +846,7 @@
               href: gdpr-dpia-dynamics.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-dpia-prof-services.md
-            - name: "Office\_365"
+            - name: Office 365
               href: gdpr-dpia-office365.md
         - name: Délégué à la protection des données de Microsoft
           href: gdpr-data-protection-officer.md
@@ -1153,7 +1153,7 @@
               href: offering-pdpa-argentina.md
 - name: "Office\_365 Entreprise"
   href: 'https://docs.microsoft.com/Office365/Enterprise'
-- name: "Office\_365\_Business"
+- name: "Office\_365 Business"
   href: 'https://docs.microsoft.com/office365/admin/admin-home'
 - name: "Sécurité Microsoft\_365"
   href: 'https://docs.microsoft.com/microsoft-365/security/'

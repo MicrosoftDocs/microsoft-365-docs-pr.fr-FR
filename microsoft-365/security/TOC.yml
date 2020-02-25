@@ -41,6 +41,8 @@
           items:
             - name: "Qu’est-ce que la protection Microsoft contre les menaces\_?"
               href: mtp/microsoft-threat-protection.md
+            - name: Nouveautés de la protection contre les menaces Microsoft
+              href: mtp/whats-new.md
             - name: "Centre de sécurité Microsoft\_365"
               href: mtp/overview-security-center.md
             - name: Conditions préalables
@@ -67,11 +69,11 @@
               items:
                 - name: Vue d’ensemble de l’AIR
                   href: mtp/mtp-autoir.md
-                - name: Afficher les actions de correction
+                - name: Actions de correction
                   href: mtp/mtp-remediation-actions.md
-                - name: Visiter le centre de notifications
+                - name: Centre de notifications
                   href: mtp/mtp-action-center.md
-                - name: Afficher les résultats de l’enquête
+                - name: Afficher les résultats et les résultats de l’enquête automatisée
                   href: mtp/mtp-autoir-results.md
                 - name: Approuver ou rejeter les actions en attente
                   href: mtp/mtp-autoir-actions.md
@@ -134,6 +136,8 @@
                   href: mtp/microsoft-secure-score.md
                 - name: Secure Score (aperçu)
                   href: mtp/microsoft-secure-score-preview.md
+                - name: Nouveautés
+                  href: mtp/microsoft-secure-score-whats-coming.md
             - name: Rapports
               items:
                 - name: Surveiller et afficher les rapports
@@ -370,11 +374,11 @@
               items:
                 - name: Vue d’ensemble de l’AIR
                   href: ./office-365-security/office-365-air.md
-                - name: Afficher les détails et les résultats d’une enquête
+                - name: Afficher les résultats et les résultats de l’enquête automatisée
                   href: ./office-365-security/air-view-investigation-results.md
-                - name: Afficher et approuver les actions correctives
+                - name: Approuver ou rejeter les actions en attente
                   href: ./office-365-security/air-remediation-actions.md
-                - name: Intégration de l’AIR à une solution de création de rapports personnalisée ou tierce
+                - name: Intégration de l’AIR à une solution personnalisée ou à une solution tierce
                   href: ./office-365-security/air-custom-reporting.md
             - name: Détecter et traiter rapidement les comptes d’utilisateurs compromis
               href: ./office-365-security/address-compromised-users-quickly.md
