@@ -2,43 +2,77 @@
   href: index.md
   expanded: true
   items:
+    - name: Essayer ou acheter
+      items:
+        - name: S'inscrire à la version d'essai Office 365
+          href: sign-up-for-office-365-trial.md
+        - name: Essayer ou acheter Microsoft 365
+          href: try-or-buy-microsoft-365.md
+        - name: Prolonger votre version d’essai
+          href: extend-your-trial.md
+        - name: Acheter un autre abonnement
+          href: buy-another-subscription.md
+        - name: Acheter ou modifier un module complémentaire
+          href: buy-or-edit-an-add-on.md
+        - name: Ajouter de l’espace de stockage
+          href: add-storage-space.md
     - name: Gérer les abonnements
       items:
+        - name: Mettre à jour les abonnements
+          href: subscriptions/upgrade-to-different-plan.md
+        - name: Annuler votre abonnement
+          href: subscriptions/cancel-your-subscription.md
+        - name: Réactiver votre abonnement
+          href: subscriptions/reactivate-your-subscription.md
+        - name: Renouveler votre abonnement
+          href: subscriptions/renew-your-subscription.md
+        - name: "Que se passe-t-il si mon abonnement expire\_?"
+          href: subscriptions/what-if-my-subscription-expires.md
         - name: Gérer les applications tierces
           href: manage-saas-apps.md
-        - name: Mettre à niveau les abonnements
-          href: /microsoft-365/commerce/subscriptions/upgrade-to-different-plan
-        - name: Gérer les achats en libre-service (utilisateurs)
-          href: /microsoft-365/commerce/subscriptions/manage-self-service-purchases-users
-        - name: Gérer les achats en libre-service (administrateur)
-          href: /microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins
+        - name: Gérer les achats libre-service (utilisateurs)
+          href: subscriptions/manage-self-service-purchases-users.md
+        - name: Gérer les achats libre-service (administrateur)
+          href: subscriptions/manage-self-service-purchases-admins.md
     - name: Gestion des licences
       items:
         - name: Acheter des licences
-          href: /microsoft-365/commerce/licenses/buy-licenses
+          href: licenses/buy-licenses.md
         - name: Attribuer des licences
-          href: /microsoft-365/admin/manage/assign-licenses-to-users
+          href: ../admin/manage/assign-licenses-to-users.md
         - name: Annuler l’attribution des licences
-          href: /microsoft-365/admin/manage/remove-licenses-from-users
+          href: ../admin/manage/remove-licenses-from-users.md
         - name: Supprimer des licences de votre abonnement
-          href: /microsoft-365/commerce/licenses/remove-licenses-from-subscription
+          href: licenses/remove-licenses-from-subscription.md
+        - name: Comprendre les abonnements et les licences
+          href: licenses/subscriptions-and-licenses.md
     - name: Factures et paiements
       items:
+        - name: Consulter votre facture
+          href: billing-and-payments/view-your-bill-or-invoice.md
         - name: Comprendre votre facture
-          href: /microsoft-365/commerce/billing-and-payments/understand-your-invoice
-        - name: Gérer les modes de paiement
-          href: /microsoft-365/commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account
+          href: billing-and-payments/understand-your-invoice.md
+        - name: Créer des méthodes de paiement
+          href: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
+        - name: Régler votre abonnement
+          href: billing-and-payments/pay-for-your-subscription.md
+        - name: Modifier le mode de paiement
+          href: billing-and-payments/change-payment-method.md
+        - name: Modifier la fréquence de paiement
+          href: billing-and-payments/change-payment-frequency.md
         - name: Gérer les profils de facturation
-          href: /microsoft-365/commerce/billing-and-payments/manage-billing-profiles
-        - name: Services de paiement directive 2 et authentification client forte
-          href: /microsoft-365/commerce/billing-and-payments/psd2
+          href: billing-and-payments/manage-billing-profiles.md
+        - name: Modifier vos adresses de facturation
+          href: billing-and-payments/change-your-billing-addresses.md
+        - name: Directive sur les services de paiement 2 et authentification client renforcée
+          href: billing-and-payments/psd2.md
     - name: Comptes de facturation
       items:
         - name: Gérer les comptes de facturation
-          href: /microsoft-365/commerce/billing-accounts/manage-billing-accounts
+          href: manage-billing-accounts.md
         - name: Associer un client à mon compte de facturation
-          href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
+          href: 'https://docs.microsoft.com/microsoft-store/manage-mpsa-software-microsoft-store-for-business'
     - name: Gérer les relations avec mes partenaires
       href: manage-partners.md
-    - name: Clôturer votre compte
+    - name: Fermer votre compte
       href: close-your-account.md
