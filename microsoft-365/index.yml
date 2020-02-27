@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Centre d’aide Microsoft 365 pour les administrateurs et les professionnels de l’informatique
-summary: Explorez les ressources d’aide et de formation de Microsoft 365.
+summary: Explorer les ressources d’aide et de formation sur Microsoft 365.
 brand: m365
 metadata:
   title: Centre d’aide Microsoft 365 pour les administrateurs et les professionnels de l’informatique
-  description: Configurer, déployer et gérer Microsoft 365 pour la prise en charge de votre organisation, de la petite entreprise, de la campagne, des enseignants et des étudiants
+  description: Configurer, déployer et gérer Microsoft 365 pour la prise en charge de votre organisation, petites entreprises, campagnes ou enseignants et étudiants
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.topic: hub-page
@@ -15,25 +15,25 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: 0575321bf9ed7953389e5a6a8be6b8c21479326a
   ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: fr-FR
   ms.lasthandoff: 02/24/2020
   ms.locfileid: "42250464"
 highlightedContent:
   items:
-  - title: Formation pour les administrateurs et les professionnels de l’informatique
+  - title: Formation pour les administrateurs et professionnels de l’informatique
     itemType: learn
     url: https://docs.microsoft.com/learn/m365/
   - title: Formation pour les utilisateurs finaux
     itemType: learn
     url: https://support.office.com/modernworkplace
-  - title: Configurer votre entreprise dans le Cloud
+  - title: Configurer votre entreprise dans le cloud
     itemType: learn
     url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
-  - title: Guides de laboratoire de test pour les professionnels de l’informatique
+  - title: Guides de labo de test pour les professionnels de l’informatique
     itemType: how-to-guide
     url: ./enterprise/m365-enterprise-test-lab-guides.md
-  - title: Communauté Microsoft 365 Tech
+  - title: Communauté technique Microsoft 365.
     itemType: get-started
     url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365
   - title: Ressources pour les développeurs
@@ -41,30 +41,30 @@ highlightedContent:
     url: https://developer.microsoft.com/microsoft-365
 additionalContent:
   sections:
-  - title: Obtenir de l’aide sur Microsoft 365
+  - title: Obtenir de l’aide pour Microsoft 365
     summary: Sélectionnez une carte pour en savoir plus sur Microsoft 365.
     items:
     - title: Centre d’administration Microsoft 365
-      summary: Configurez et gérez Office 365 et Microsoft 365 pour entreprises et Enterprise subspcriptions.
+      summary: Configurez et gérez votre Office 365 et Microsoft 365 pour les souscriptions de business et entreprise.
       url: ./admin/admin-home.md
     - title: Microsoft 365 Business
-      summary: Conçu pour les petites et moyennes entreprises. Exécutez votre entreprise avec la dernière version des applications Windows et Office, comme Excel et Outlook. Tirez parti de la protection et de la sécurité des données qui s’étend à tous vos appareils d’entreprise.
+      summary: Conçu pour les petites et moyennes entreprises. Gérez vos activités grâce aux dernières versions de Windows et des applications Office telles que Excel et Outlook. Tirez parti de la protection des données et de la sécurité qui s’étend à tous vos appareils professionnels.
       url: ./business/index.yml
     - title: Microsoft 365 Entreprise
       summary: Conçu pour les grandes organisations. Protégez votre entreprise et transformez votre façon de travailler avec les applications Office, Windows 10 et Enterprise Mobility + Security.
       url: ./enterprise/index.yml
-    - title: Microsoft 365 Éducation
-      summary: Conçu pour les enseignants pour déverrouiller la créativité, promouvoir le travail d’équipe et offrir une expérience simple et sécurisée dans une solution unique et abordable, conçue pour l’éducation.
+    - title: Microsoft 365 Éducation
+      summary: Conçu pour que les instructeurs puissent révéler leur créativité, promouvoir le travail en équipe et offrir une expérience simple et sécurisée dans une solution unique et abordable, conçue pour l’éducation.
       url: https://docs.microsoft.com/education/
-    - title: Conformité de Microsoft 365
-      summary: Aidez votre organisation à gérer les informations, à vous protéger contre les risques et à respecter les normes légales ou réglementaires.
+    - title: Conformité Microsoft 365
+      summary: Aidez votre organisation à gérer vos informations, protégez-vous contre les risques et respectez les normes légales ou réglementaires.
       url: ./compliance/index.yml
     - title: Sécurité Microsoft 365
-      summary: Découvrez les solutions et services de sécurité robustes dans la sécurité Microsoft 365 afin que vous puissiez mieux protéger votre organisation à travers les surfaces d’attaque.
+      summary: En savoir plus sur les solutions et services de sécurité robustes dans la sécurité Microsoft 365 pour vous permettre de mieux protéger votre organisation sur des surfaces d’attaques.
       url: ./security/index.yml
     - title: Microsoft 365 pour les campagnes
-      summary: Assurez la sécurité de vos communications et données métiers avec cette configuration recommandée pour Microsoft 365 Business.
+      summary: Assurez la sécurité de vos données et communications professionnelles avec cette configuration recommandée pour Microsoft 365 Business.
       url: ./campaigns/index.md
     - title: Bureau géré Microsoft
-      summary: Microsoft Managed Desktop rassemble Microsoft 365 Enterprise, la gestion des appareils basée sur le Cloud par Microsoft et la surveillance de la sécurité, ce qui vous permet de libérer vos équipes informatiques afin de vous concentrer sur les besoins fondamentaux de votre entreprise.
+      summary: Microsoft Managed Desktop réunit Microsoft 365 Enterprise, la gestion des appareils basée sur le Cloud par Microsoft et la surveillance de la sécurité, ce qui vous permet de libérer vos équipes informatiques afin de vous concentrer sur les besoins fondamentaux de l’entreprise.
       url: ./managed-desktop/index.yml

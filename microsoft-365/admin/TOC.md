@@ -152,7 +152,7 @@
 ## Office 365 géré 21Vianet
 ### [À propos d’Office 365 géré par 21Vianet](services-in-china/services-in-china.md)
 ### [Acheter ou essayer un abonnement](services-in-china/buy-or-try-subscriptions.md)
-### [Téléchargement de l’application Office pour iOS pour Office 365 géré par 21Vianet](services-in-china/download-office-app-for-iOS.md)
+### [Télécharger l’application Office pour iOS pour Office 365 gérée par 21Vianet](services-in-china/download-office-app-for-iOS.md)
 ### [Consulter votre facture ou obtenir un Fapiao](services-in-china/view-your-bill-or-get-a-fapiao.md)
 ### [Demander un Fapiao](services-in-china/apply-for-a-fapiao.md)
 ### [Parité Azure Information Protection](services-in-china/parity-between-azure-information-protection.md)

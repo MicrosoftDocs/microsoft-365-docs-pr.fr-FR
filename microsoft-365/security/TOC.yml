@@ -41,7 +41,7 @@
           items:
             - name: "Qu’est-ce que la protection Microsoft contre les menaces\_?"
               href: mtp/microsoft-threat-protection.md
-            - name: Nouveautés de la protection contre les menaces Microsoft
+            - name: Nouveautés de la protection Microsoft contre les menaces
               href: mtp/whats-new.md
             - name: "Centre de sécurité Microsoft\_365"
               href: mtp/overview-security-center.md
@@ -67,29 +67,29 @@
                   href: mtp/manage-incidents.md
             - name: Enquêtes et réponses automatisées
               items:
-                - name: Vue d’ensemble de l’AIR
+                - name: Vue d’ensemble d’AIR
                   href: mtp/mtp-autoir.md
                 - name: Actions de correction
                   href: mtp/mtp-remediation-actions.md
-                - name: Centre de notifications
+                - name: Le Centre de notifications
                   href: mtp/mtp-action-center.md
-                - name: Afficher les résultats et les résultats de l’enquête automatisée
+                - name: Consulter les détails et les résultats d'une investigation automatisée
                   href: mtp/mtp-autoir-results.md
-                - name: Approuver ou rejeter les actions en attente
+                - name: Approuver ou refuser des actions en attente
                   href: mtp/mtp-autoir-actions.md
-                - name: Signaler les faux positifs/négatifs
+                - name: Signaler le faux positif/négatif
                   href: mtp/mtp-autoir-report-false-positives-negatives.md
             - name: Repérage avancé
               items:
                 - name: "Repérage dans Microsoft\_365"
                   href: mtp/hunting.md
-                - name: Vue d’ensemble de la chasse avancée
+                - name: Vue d’ensemble du repérage avancé
                   href: mtp/advanced-hunting-overview.md
                 - name: Apprendre le langage de requête
                   href: mtp/advanced-hunting-query-language.md
                 - name: Utiliser des requêtes partagées
                   href: mtp/advanced-hunting-shared-queries.md
-                - name: Recherche sur les appareils et les e-mails
+                - name: Recherche d’appareils et de messages électroniques
                   href: mtp/advanced-hunting-query-emails-devices.md
                 - name: Comprendre le schéma
                   href: mtp/advanced-hunting-schema-tables.md
@@ -150,11 +150,11 @@
                   href: mtp/monitor-devices.md
                 - name: Surveillance d’applications et création de rapports
                   href: mtp/monitor-apps.md
-            - name: Autorisations & les paramètres
+            - name: Paramètres & paramètres
               items:
                 - name: Gérer l’accès
                   href: mtp/mtp-permissions.md
-                - name: Définir le fuseau horaire
+                - name: Définition du fuseau horaire
                   href: mtp/mtp-time-zone.md
             - name: Gérer les tickets via ServiceNow
               href: ./mtp/tickets.md
@@ -187,7 +187,7 @@
                       href: ./office-365-security/configure-anti-malware-policies.md
                     - name: Soumission de programmes malveillants et non malveillants à Microsoft pour analyse
                       href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
-                    - name: Récupération après une attaque par ransomware
+                    - name: Récupérer des attaques par ransomware
                       href: ./office-365-security/recover-from-ransomware.md
                     - name: Détection de virus dans SharePoint Online
                       href: ./office-365-security/virus-detection-in-spo.md
@@ -203,9 +203,9 @@
                   href: ./office-365-security/safe-sender-and-blocked-sender-lists-faq.md
                 - name: "Conseils de sécurité dans les messages électroniques dans Office\_365"
                   href: ./office-365-security/safety-tips-in-office-365.md
-                - name: Exemple de notification lorsqu'un expéditeur est bloqué en raison de l'envoi de courrier indésirable sortant
+                - name: Exemple de notification lorsqu’un expéditeur est bloqué en raison de l’envoi de courrier indésirable sortant
                   href: ./office-365-security/sample-notification-when-a-sender-is-blocked-sending-outbound-spam.md
-                - name: Utilisation des notifications de courrier indésirable pour l'utilisateur final et signalement des messages de courrier indésirable mis en quarantaine
+                - name: Utilisation des notifications de courrier indésirable pour l’utilisateur final et signalement des messages de courrier indésirable mis en quarantaine
                   href: ./office-365-security/use-end-user-spam-notifications-to-release-and-report-spam-quarantined-messages.md
                 - name: Lutter contre le courrier indésirable envoyé à Office 365
                   href: ./office-365-security/fighting-junk-email.md
@@ -290,11 +290,11 @@
                   href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
                 - name: Protéger les boîtes aux lettres locales avec Exchange Online Protection
                   href: ./office-365-security/protect-on-premises-mailboxes-with-exchange-online-protection.md
-                - name: Installation du complément de création de rapports de courrier indésirable pour Microsoft Outlook
+                - name: "Installation du complément de création de rapports de courrier indésirable pour Microsoft\_Outlook"
                   href: ./office-365-security/install-the-junk-email-reporting-add-in-for-microsoft-outlook.md
                 - name: Désactiver la création de rapports de courrier indésirable dans Outlook sur le web
                   href: ./office-365-security/turn-off-junk-email-reporting-in-outlook-on-the-web.md
-                - name: Quelle est la différence entre courrier indésirable et message électronique en masse ?
+                - name: "Quelle est la différence entre courrier indésirable et message électronique en masse\_?"
                   href: ./office-365-security/what-s-the-difference-between-junk-email-and-bulk-email.md
             - name: Mise en quarantaine des messages électroniques dans Office 365
               href: ./office-365-security/quarantine-email-messages.md
@@ -348,15 +348,15 @@
           items:
             - name: Découvrir les nouveautés
               items:
-                - name: "Nouveautés d’Office\_365 - Protection avancée contre les menaces"
+                - name: Nouveautés d’Office 365 - Protection avancée contre les menaces
                   href: office-365-security/whats-new-in-office-365-atp.md
             - name: Tâches de configuration de PACM pour les administrateurs
               items:
                 - name: Tâches de configuration d’administrateur général
                   items:
-                    - name: Configuration des stratégies de liens fiables ATP
+                    - name: Configuration des stratégies de liens fiables PACM
                       href: ./office-365-security/set-up-atp-safe-links-policies.md
-                    - name: Définir des stratégies de pièces jointes fiables ATP
+                    - name: Définir des stratégies de pièces jointes fiables PACM
                       href: ./office-365-security/set-up-atp-safe-attachments-policies.md
                     - name: "Configurer une liste d’URL personnalisée «\_ne pas réécrire\_»"
                       href: ./office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md
@@ -364,27 +364,27 @@
                       href: ./office-365-security/set-up-a-custom-blocked-urls-list-wtih-atp.md
                 - name: Tâches de configuration d’administrateur de rôle
                   items:
-                    - name: 'Activer la protection avancée contre les menaces pour SharePoint, OneDrive et Microsoft Teams.'
+                    - name: 'Activer PACM pour SharePoint, OneDrive et Microsoft Teams.'
                       href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
-            - name: Vues de campagne
+            - name: Affichages de campagne
               href: ./office-365-security/campaigns.md
-            - name: Présentation des attaques les plus récentes avec l’analyse des menaces
+            - name: Comprendre les dernières attaques grâce aux statistiques de menaces
               href: ./mtp/latest-attack-campaigns.md
             - name: Enquêtes et réponses automatisées
               items:
-                - name: Vue d’ensemble de l’AIR
+                - name: Vue d’ensemble d’AIR
                   href: ./office-365-security/office-365-air.md
-                - name: Afficher les résultats et les résultats de l’enquête automatisée
+                - name: Consulter les détails et les résultats d'une investigation automatisée
                   href: ./office-365-security/air-view-investigation-results.md
-                - name: Approuver ou rejeter les actions en attente
+                - name: Approuver ou refuser des actions en attente
                   href: ./office-365-security/air-remediation-actions.md
-                - name: Intégration de l’AIR à une solution personnalisée ou à une solution tierce
+                - name: Intégrer AIR avec une solution personnalisée ou tierce
                   href: ./office-365-security/air-custom-reporting.md
-            - name: Détecter et traiter rapidement les comptes d’utilisateurs compromis
+            - name: Détecter et résoudre rapidement les comptes d’utilisateurs compromis
               href: ./office-365-security/address-compromised-users-quickly.md
-            - name: Examiner et résoudre les courriers électroniques malveillants
+            - name: Examiner et corriger les messages malveillants
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
-            - name: Consulter et lire vos rapports de PACM
+            - name: Consulter et lire vos rapports PACM
               href: ./office-365-security/view-reports-for-atp.md
             - name: Que sont les pages d’avertissement de liens fiables de PACM
               href: ./office-365-security/atp-safe-links-warning-pages.md
@@ -392,7 +392,7 @@
               href: ./office-365-security/threat-trackers.md
             - name: Utiliser le simulateur d’attaques dans Office 365
               href: ./office-365-security/attack-simulator.md
-            - name: Documents approuvés dans Office 365 DAV
+            - name: Documents sécurisés dans Office 365 PACM
               href: ./office-365-security/safe-docs.md
             - name: Explorateur de menaces (et détections en temps réel)
               href: ./office-365-security/threat-explorer.md
@@ -403,19 +403,19 @@
               items:
                 - name: "Intégrer Office\_365 - Protection avancée contre les menaces avec Microsoft Defender ATP"
                   href: ./office-365-security/integrate-office-365-ti-with-wdatp.md
-                - name: "Intégration SIEM avec Office\_365 ATP"
+                - name: "Intégration SIEM avec Office\_365 PACM"
                   href: ./office-365-security/siem-integration-with-office-365-ti.md
-            - name: Fonctionnement de la PACM
+            - name: Fonctionnement de PACM
               items:
-                - name: Fonctionnement de l’analyse et de la réponse automatiques
+                - name: Fonctionnement de l’examen et de la réponse automatisés
                   href: ./office-365-security/automated-investigation-response-office.md
-                - name: Fonctionnement des liens fiables la PACM
+                - name: Fonctionnement des liens fiables PACM
                   href: ./office-365-security/how-atp-safe-links-works.md
-                - name: Fonctionnement des pièces jointes fiables de la PAM
+                - name: Fonctionnement des pièces jointes fiables de PACM
                   href: ./office-365-security/how-atp-safe-attachments-works.md
                 - name: Remise dynamique et aperçu des détails
                   href: ./office-365-security/dynamic-delivery-and-previewing.md
-                - name: 'ATP pour SharePoint, OneDrive et Microsoft Teams.'
+                - name: 'PACM pour SharePoint, OneDrive et Microsoft Teams'
                   href: ./office-365-security/atp-for-spo-odb-and-teams.md
                 - name: Fonctionnement de l’examen des menaces et de la réponse à celles-ci
                   href: ./office-365-security/office-365-ti.md
@@ -501,7 +501,7 @@
                   items:
                     - name: Meilleures pratiques de configuration d’EOP
                       href: ./office-365-security/best-practices-for-configuring-eop.md
-                    - name: Paramètres recommandés pour la configuration de EOP et de la sécurité Office 365 – Protection avancée contre les menaces
+                    - name: Paramètres recommandés pour la configuration de EOP et de la sécurité PACM d’Office 365
                       href: ./office-365-security/recommended-settings-for-eop-and-office365-atp.md
                     - name: Exemple de script pour l’application de paramètres EOP à plusieurs locataires
                       href: ./office-365-security/sample-script-for-applying-eop-settings-to-multiple-tenants.md
@@ -586,7 +586,7 @@
                   href: ./office-365-security/sync-user-certificates-to-office-365-for-s-mime.md
                 - name: "Configuration d’une collection de certificats virtuelle pour la validation des certificats\_S/MIME"
                   href: ./office-365-security/set-up-virtual-certificate-collection-to-validate-s-mime.md
-        - name: Office 365 pour entreprises
+        - name: "Office\_365 Entreprise"
           href: 'https://docs.microsoft.com/office-365-security/Enterprise'
         - name: "Office\_365 pour les entreprises"
           href: 'https://docs.microsoft.com/office-365-security/admin/admin-home'

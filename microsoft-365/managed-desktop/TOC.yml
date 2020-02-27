@@ -28,7 +28,7 @@
           href: service-description/device-policies.md
         - name: Sécurité
           href: service-description/security.md
-        - name: Updates
+        - name: Mises à jour
           href: service-description/updates.md
         - name: Support
           href: service-description/support.md
@@ -98,9 +98,9 @@
               href: working-with-managed-desktop/usage-insights.md
             - name: Informations de fiabilité
               href: working-with-managed-desktop/reliability-insights.md
-            - name: Informations sur la batterie
+            - name: Aperçu de la batterie
               href: working-with-managed-desktop/battery-insights.md
-            - name: Informations sur les mises à jour de sécurité Windows
+            - name: Perspectives sur la mise à jour de sécurité Windows
               href: working-with-managed-desktop/security-update-insights.md
         - name: Support pour les administrateurs
           href: working-with-managed-desktop/admin-support.md
