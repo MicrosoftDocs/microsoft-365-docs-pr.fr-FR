@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: 4e118d0aac0164370f7d7c2d403f15276268f8bf
-  ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+  ms.openlocfilehash: d6f24a93754c60227e668bb8d0ec42776a519dbc
+  ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 02/21/2020
-  ms.locfileid: "42179225"
+  ms.lasthandoff: 02/27/2020
+  ms.locfileid: "42322529"
 landingContent:
 - title: Gérer la protection des informations
   linkLists:
@@ -32,6 +32,8 @@ landingContent:
       url: custom-sensitive-info-types.md
     - text: Chiffrement du courrier électronique
       url: email-encryption.md
+    - text: Clé client
+      url: customer-key-overview.md
 - title: Gérer la gouvernance des informations
   linkLists:
   - linkListType: overview
@@ -66,8 +68,6 @@ landingContent:
       url: privileged-access-management-overview.md
     - text: Référentiel sécurisé de client
       url: customer-lockbox-requests.md
-    - text: Clé client
-      url: customer-key-overview.md
 - title: Découvrir et répondre
   linkLists:
   - linkListType: overview

@@ -65,7 +65,7 @@
       items:
         - name: En savoir plus sur la gestion des accès privilégiés
           href: privileged-access-management-overview.md
-        - name: Configurer la gestion des accès privilégiés
+        - name: Prise en main de la gestion des accès privilégiés
           href: privileged-access-management-configuration.md
     - name: Protéger l’accès aux appareils et l’accès des utilisateurs
       href: protect-access-to-data-and-services.md
@@ -621,14 +621,15 @@
         - name: Conserver les destinataires Cci et les destinataires de groupe de distribution étendue
           href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
 - name: Gestion des investigations de données
-  href: overview-data-investigations.md
   items:
+    - name: Vue d’ensemble des enquêtes de données
+      href: overview-data-investigations.md
     - name: Gérer un incident d’écoulement de données
       href: manage-data-spillage-incidents.md
+    - name: Affecter des autorisations pour les investigations de données
+      href: data-investigations-permissions.md
     - name: Créer une nouvelle investigation
       href: create-new-investigation.md
-    - name: Affecter des autorisations pour les investigations de données
-      href: permissions.md
     - name: Rechercher des données dans une investigation
       href: search-for-data.md
       items:
