@@ -49,6 +49,8 @@
               href: mtp/prerequisites.md
             - name: Sécurité et confidentialité des données
               href: mtp/data-privacy.md
+            - name: Portails de sécurité Microsoft
+              href: mtp/portals.md
             - name: Résoudre des problèmes
               href: ./mtp/troubleshoot.md
         - name: Guides de procédures
