@@ -1,5 +1,5 @@
-- name: Gérer les achats et la facturation de commerce
-  href: index.md
+- name: Gérer les abonnements d’entreprise
+  href: index.yml
   expanded: true
   items:
     - name: Essayer ou acheter
@@ -20,12 +20,12 @@
       items:
         - name: Mettre à jour les abonnements
           href: subscriptions/upgrade-to-different-plan.md
-        - name: Annuler votre abonnement
-          href: subscriptions/cancel-your-subscription.md
-        - name: Réactiver votre abonnement
-          href: subscriptions/reactivate-your-subscription.md
         - name: Renouveler votre abonnement
           href: subscriptions/renew-your-subscription.md
+        - name: Réactiver votre abonnement
+          href: subscriptions/reactivate-your-subscription.md
+        - name: Annuler votre abonnement
+          href: subscriptions/cancel-your-subscription.md
         - name: "Que se passe-t-il si mon abonnement expire\_?"
           href: subscriptions/what-if-my-subscription-expires.md
         - name: Gérer les applications tierces
@@ -38,12 +38,12 @@
       items:
         - name: Acheter des licences
           href: licenses/buy-licenses.md
-        - name: Attribuer des licences
-          href: ../admin/manage/assign-licenses-to-users.md
-        - name: Annuler l’attribution des licences
-          href: ../admin/manage/remove-licenses-from-users.md
         - name: Supprimer des licences de votre abonnement
           href: licenses/remove-licenses-from-subscription.md
+        - name: Attribuer des licences aux utilisateurs
+          href: ../admin/manage/assign-licenses-to-users.md
+        - name: Annuler l'attribution des licences aux utilisateurs
+          href: ../admin/manage/remove-licenses-from-users.md
         - name: Comprendre les abonnements et les licences
           href: licenses/subscriptions-and-licenses.md
     - name: Factures et paiements
@@ -76,3 +76,5 @@
       href: manage-partners.md
     - name: Fermer votre compte
       href: close-your-account.md
+    - name: Contacter l’assistance
+      href: ../admin/contact-support-for-business-products.md
