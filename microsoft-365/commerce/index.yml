@@ -1,0 +1,73 @@
+### YamlMime:Landing
+title: Abonnements professionnels et documentation de facturation
+summary: Découvrez comment acheter et gérer des abonnements professionnels, effectuer des tâches de gestion des licences et gérer la facturation et les paiements de vos comptes professionnels avec Microsoft.
+metadata:
+  title: Abonnements professionnels et documentation de facturation
+  description: Découvrez comment acheter et gérer des abonnements professionnels, effectuer des tâches de gestion des licences et gérer la facturation et les paiements de vos comptes professionnels avec Microsoft.
+  ms.service: o365-administration
+  ms.topic: landing-page
+  ms.collection: commerce
+  author: cmcatee-MSFT
+  ms.author: cmcatee
+  ms.date: 02/27/2020
+  localization_priority: Normal
+  search.appverid: MET150
+  ms.openlocfilehash: 76f86bcd65fe1d5894777d8263f8c48f5fc5493b
+  ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 02/29/2020
+  ms.locfileid: "42341573"
+landingContent:
+- title: Gérer les factures et les paiements
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Consulter votre facture
+      url: billing-and-payments/view-your-bill-or-invoice.md
+    - text: Créer des méthodes de paiement
+      url: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
+    - text: Comprendre votre facture
+      url: billing-and-payments/understand-your-invoice.md
+    - text: Gérer les profils de facturation
+      url: billing-and-payments/manage-billing-profiles.md
+    - text: Gérer les comptes de facturation
+      url: manage-billing-accounts.md
+- title: Gestion des licences
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Attribuer des licences aux utilisateurs
+      url: ../admin/manage/assign-licenses-to-users.md
+    - text: Comprendre les abonnements et les licences
+      url: licenses/subscriptions-and-licenses.md
+    - text: Acheter des licences pour votre abonnement
+      url: licenses/buy-licenses.md
+    - text: Supprimer des licences de votre abonnement
+      url: licenses/remove-licenses-from-subscription.md
+- title: Mettre à niveau, renouveler ou annuler
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Opter pour un abonnement différent
+      url: subscriptions/upgrade-to-different-plan.md
+    - text: Renouveler votre abonnement
+      url: subscriptions/renew-your-subscription.md
+    - text: Annuler votre abonnement
+      url: subscriptions/cancel-your-subscription.md
+    - text: Réactiver votre abonnement
+      url: subscriptions/reactivate-your-subscription.md
+    - text: Fermer votre compte
+      url: close-your-account.md
+- title: Essayer ou acheter
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Essayer ou acheter Microsoft 365
+      url: try-or-buy-microsoft-365.md
+    - text: Acheter un abonnement à partir de votre version d’évaluation gratuite
+      url: buy-a-subscription-from-your-free-trial.md
+    - text: Prolonger votre version d’essai
+      url: extend-your-trial.md
+    - text: Acheter un nom de domaine
+      url: ../admin/get-help-with-domains/buy-a-domain-name.md
