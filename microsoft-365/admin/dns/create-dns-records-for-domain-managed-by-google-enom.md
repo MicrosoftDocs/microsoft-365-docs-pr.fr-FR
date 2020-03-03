@@ -20,87 +20,87 @@ search.appverid:
 - MOE150
 ms.assetid: 3c490fbf-7833-4e43-be34-ed0dc3cce5e3
 description: Apprenez à accéder à eNom et à créer un DNS via la page Google Domains.
-ms.openlocfilehash: 7a1de0887b96678fb95372633b621d96f7855225
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 566b3990c6cc3080eac9d1367531eea42ab135d1
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42238996"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362499"
 ---
-# <a name="create-dns-records-when-your-domain-is-managed-by-google-enom"></a><span data-ttu-id="0b3b9-103">Créer des enregistrements DNS lorsque votre domaine est géré par Google (eNom)</span><span class="sxs-lookup"><span data-stu-id="0b3b9-103">Create DNS records when your domain is managed by Google (eNom)</span></span>
+# <a name="create-dns-records-when-your-domain-is-managed-by-google-enom"></a><span data-ttu-id="aee2a-103">Créer des enregistrements DNS lorsque votre domaine est géré par Google (eNom)</span><span class="sxs-lookup"><span data-stu-id="aee2a-103">Create DNS records when your domain is managed by Google (eNom)</span></span>
 
- <span data-ttu-id="0b3b9-104">**[Consultez les Forums aux questions des domaines](../setup/domains-faq.md)** si vous ne trouvez pas ce que vous recherchez.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-104">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
+ <span data-ttu-id="aee2a-104">**[Consultez les Forums aux questions des domaines](../setup/domains-faq.md)** si vous ne trouvez pas ce que vous recherchez.</span><span class="sxs-lookup"><span data-stu-id="aee2a-104">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
   
-<span data-ttu-id="0b3b9-105">Pour migrer vos comptes de courrier vers Office 365, vous devez créer un enregistrement DNS via votre bureau d'enregistrement de domaines.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-105">To migrate your mail accounts to Office 365, you need to create a DNS record at your domain registrar.</span></span>
+<span data-ttu-id="aee2a-105">Pour migrer vos comptes de courrier vers Office 365, vous devez créer un enregistrement DNS via votre bureau d'enregistrement de domaines.</span><span class="sxs-lookup"><span data-stu-id="aee2a-105">To migrate your mail accounts to Office 365, you need to create a DNS record at your domain registrar.</span></span>
   
-<span data-ttu-id="0b3b9-106">Si vous avez acheté votre domaine par le biais de Google lors de votre inscription à votre compte **Google Apps for Work** , vos enregistrements DNS sont gérés par Google, mais enregistrés auprès de eNom.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-106">If you purchased your domain through Google while signing up for your **Google Apps for Work** account, your DNS records are managed by Google but registered with eNom.</span></span> 
+<span data-ttu-id="aee2a-106">Si vous avez acheté votre domaine par le biais de Google lors de votre inscription à votre compte **Google Apps for Work** , vos enregistrements DNS sont gérés par Google, mais enregistrés auprès de eNom.</span><span class="sxs-lookup"><span data-stu-id="aee2a-106">If you purchased your domain through Google while signing up for your **Google Apps for Work** account, your DNS records are managed by Google but registered with eNom.</span></span> 
   
-<span data-ttu-id="0b3b9-107">Vous pouvez accéder à eNom et créer DNS, via la page Google **Domains** .</span><span class="sxs-lookup"><span data-stu-id="0b3b9-107">You can access eNom, and create DNS, through the Google **Domains** page.</span></span> <span data-ttu-id="0b3b9-108">Suivez simplement les étapes décrites dans cet article.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-108">Just follow the steps in this article.</span></span> 
+<span data-ttu-id="aee2a-107">Vous pouvez accéder à eNom et créer DNS, via la page Google **Domains** .</span><span class="sxs-lookup"><span data-stu-id="aee2a-107">You can access eNom, and create DNS, through the Google **Domains** page.</span></span> <span data-ttu-id="aee2a-108">Suivez simplement les étapes décrites dans cet article.</span><span class="sxs-lookup"><span data-stu-id="aee2a-108">Just follow the steps in this article.</span></span> 
   
-## <a name="create-the-dns-record"></a><span data-ttu-id="0b3b9-109">Créer l'enregistrement DNS</span><span class="sxs-lookup"><span data-stu-id="0b3b9-109">Create the DNS record</span></span>
+## <a name="create-the-dns-record"></a><span data-ttu-id="aee2a-109">Créer l'enregistrement DNS</span><span class="sxs-lookup"><span data-stu-id="aee2a-109">Create the DNS record</span></span>
 
-1. <span data-ttu-id="0b3b9-110">Dans la [console d’administration Google](https://www.google.com/work/apps/business), sélectionnez **se connecter**.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-110">At the [Google Admin console](https://www.google.com/work/apps/business), select **Sign In**.</span></span>
+1. <span data-ttu-id="aee2a-110">Dans la [console d’administration Google](https://www.google.com/work/apps/business), sélectionnez **se connecter**.</span><span class="sxs-lookup"><span data-stu-id="aee2a-110">At the [Google Admin console](https://www.google.com/work/apps/business), select **Sign In**.</span></span>
     
-    ![Google-Apps-Configure-1-1-0](../media/37a6e9f6-319e-4c02-aa18-d8d06df7953d.png)
+    ![Google-Apps-Configure-1-1-0](../../media/37a6e9f6-319e-4c02-aa18-d8d06df7953d.png)
   
-2. <span data-ttu-id="0b3b9-112">Entrez votre nom de domaine, puis sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-112">Enter your domain name, and then select **Go**.</span></span>
+2. <span data-ttu-id="aee2a-112">Entrez votre nom de domaine, puis sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="aee2a-112">Enter your domain name, and then select **Go**.</span></span>
     
-    ![Google-Apps-Configure-1-1-1](../media/2caf8dcb-4d40-4cfa-bc40-d634e454e699.png)
+    ![Google-Apps-Configure-1-1-1](../../media/2caf8dcb-4d40-4cfa-bc40-d634e454e699.png)
   
-3. <span data-ttu-id="0b3b9-114">Au bas de la page, sélectionnez **autres contrôles**.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-114">At the bottom of the page, select **More controls**.</span></span>
+3. <span data-ttu-id="aee2a-114">Au bas de la page, sélectionnez **autres contrôles**.</span><span class="sxs-lookup"><span data-stu-id="aee2a-114">At the bottom of the page, select **More controls**.</span></span>
     
-    ![Google-Apps-Configure-1-2-0](../media/1518ff78-035b-423e-85a3-c16d7faa0968.png)
+    ![Google-Apps-Configure-1-2-0](../../media/1518ff78-035b-423e-85a3-c16d7faa0968.png)
   
-4. <span data-ttu-id="0b3b9-116">Sélectionnez **Domaines**.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-116">Select **Domains**.</span></span>
+4. <span data-ttu-id="aee2a-116">Sélectionnez **Domaines**.</span><span class="sxs-lookup"><span data-stu-id="aee2a-116">Select **Domains**.</span></span>
     
-    ![Google-Apps-Configure-1-2-1](../media/c2972c06-9bca-43bd-9876-2cee63043bf1.png)
+    ![Google-Apps-Configure-1-2-1](../../media/c2972c06-9bca-43bd-9876-2cee63043bf1.png)
   
-5. <span data-ttu-id="0b3b9-118">Dans la page **domaines** , sélectionnez **Ajouter/supprimer des domaines**.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-118">On the **Domains** page, select **Add/remove domains**.</span></span>
+5. <span data-ttu-id="aee2a-118">Dans la page **domaines** , sélectionnez **Ajouter/supprimer des domaines**.</span><span class="sxs-lookup"><span data-stu-id="aee2a-118">On the **Domains** page, select **Add/remove domains**.</span></span>
     
-    ![Google-Apps-Configure-1-2-2](../media/07b8068f-9a05-40aa-a041-fc495c729a18.png)
+    ![Google-Apps-Configure-1-2-2](../../media/07b8068f-9a05-40aa-a041-fc495c729a18.png)
   
-6. <span data-ttu-id="0b3b9-120">Dans la page **domaines** , sélectionnez **paramètres DNS avancés**.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-120">On the **Domains** page, select **Advanced DNS settings**.</span></span>
+6. <span data-ttu-id="aee2a-120">Dans la page **domaines** , sélectionnez **paramètres DNS avancés**.</span><span class="sxs-lookup"><span data-stu-id="aee2a-120">On the **Domains** page, select **Advanced DNS settings**.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="0b3b9-121">Si vous n'avez pas acheté un nom de domaine via Google lors de la création de votre compte **Google Apps for Work**, vous n'aurez de **Paramètres DNS avancés** sur votre page **Domaines**.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-121">If you didn't purchase a domain name through Google while signing up for your **Google Apps for Work** account, you won't have **Advanced DNS settings** on your **Domains** page.</span></span> <span data-ttu-id="0b3b9-122">Au lieu de cela, vous devez aller directement au site web de l'hôte de votre domaine pour accéder à vos paramètres DNS et effectuer cette étape ainsi que les étapes suivantes.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-122">Instead, you must go directly to your domain host's web site to access your DNS settings and to perform this and the following steps.</span></span> <span data-ttu-id="0b3b9-123">Pour plus d’informations, consultez [la rubrique accéder aux paramètres de votre domaine G suite](https://support.google.com/a/answer/54693?hl=en) .</span><span class="sxs-lookup"><span data-stu-id="0b3b9-123">See [Access your G Suite domain settings](https://support.google.com/a/answer/54693?hl=en) for more information.</span></span> 
+    > <span data-ttu-id="aee2a-121">Si vous n'avez pas acheté un nom de domaine via Google lors de la création de votre compte **Google Apps for Work**, vous n'aurez de **Paramètres DNS avancés** sur votre page **Domaines**.</span><span class="sxs-lookup"><span data-stu-id="aee2a-121">If you didn't purchase a domain name through Google while signing up for your **Google Apps for Work** account, you won't have **Advanced DNS settings** on your **Domains** page.</span></span> <span data-ttu-id="aee2a-122">Au lieu de cela, vous devez aller directement au site web de l'hôte de votre domaine pour accéder à vos paramètres DNS et effectuer cette étape ainsi que les étapes suivantes.</span><span class="sxs-lookup"><span data-stu-id="aee2a-122">Instead, you must go directly to your domain host's web site to access your DNS settings and to perform this and the following steps.</span></span> <span data-ttu-id="aee2a-123">Pour plus d’informations, consultez [la rubrique accéder aux paramètres de votre domaine G suite](https://support.google.com/a/answer/54693?hl=en) .</span><span class="sxs-lookup"><span data-stu-id="aee2a-123">See [Access your G Suite domain settings](https://support.google.com/a/answer/54693?hl=en) for more information.</span></span> 
   
-    ![Google-Apps-eNom-configure-1-3](../media/b244b29c-e479-40be-b380-4ffa0f74b421.png)
+    ![Google-Apps-eNom-configure-1-3](../../media/b244b29c-e479-40be-b380-4ffa0f74b421.png)
   
-7. <span data-ttu-id="0b3b9-125">Sur la page **paramètres DNS avancés** , sélectionnez **se connecter à la console DNS**.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-125">On the **Advanced DNS settings** page, select **Sign in to DNS Console**.</span></span> <span data-ttu-id="0b3b9-126">Notez les informations **Nom de connexion** et **Mot de passe**.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-126">Note the **Sign-in name** and **Password** information.</span></span> <span data-ttu-id="0b3b9-127">Vous en aurez besoin à l'étape suivante.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-127">You'll need it in the next step.</span></span> 
+7. <span data-ttu-id="aee2a-125">Sur la page **paramètres DNS avancés** , sélectionnez **se connecter à la console DNS**.</span><span class="sxs-lookup"><span data-stu-id="aee2a-125">On the **Advanced DNS settings** page, select **Sign in to DNS Console**.</span></span> <span data-ttu-id="aee2a-126">Notez les informations **Nom de connexion** et **Mot de passe**.</span><span class="sxs-lookup"><span data-stu-id="aee2a-126">Note the **Sign-in name** and **Password** information.</span></span> <span data-ttu-id="aee2a-127">Vous en aurez besoin à l'étape suivante.</span><span class="sxs-lookup"><span data-stu-id="aee2a-127">You'll need it in the next step.</span></span> 
     
-    ![Google-Apps-eNom-configure-1-4](../media/056a2767-462f-4847-acee-d01e3f773add.png)
+    ![Google-Apps-eNom-configure-1-4](../../media/056a2767-462f-4847-acee-d01e3f773add.png)
   
-8. <span data-ttu-id="0b3b9-129">Connectez-vous au **Gestionnaire de domaine** Google en utilisant les **Nom de connexion** et **Mot de passe** mentionnés dans la page **Paramètres DNS avancés**.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-129">Log in to the Google **Domain Manager** using the **Sign-in name** and **Password** from the **Advanced DNS settings** page.</span></span> 
+8. <span data-ttu-id="aee2a-129">Connectez-vous au **Gestionnaire de domaine** Google en utilisant les **Nom de connexion** et **Mot de passe** mentionnés dans la page **Paramètres DNS avancés**.</span><span class="sxs-lookup"><span data-stu-id="aee2a-129">Log in to the Google **Domain Manager** using the **Sign-in name** and **Password** from the **Advanced DNS settings** page.</span></span> 
     
-    ![Google-Apps-eNom-configure-1-5](../media/08b74652-8cdb-4560-a5fd-0899f86deee8.png)
+    ![Google-Apps-eNom-configure-1-5](../../media/08b74652-8cdb-4560-a5fd-0899f86deee8.png)
   
-9. <span data-ttu-id="0b3b9-131">Sur la page ***domain_name*** , dans la section **Host Records (enregistrements d’hôte** ), sélectionnez Edit ( **modifier**).</span><span class="sxs-lookup"><span data-stu-id="0b3b9-131">On the ***domain_name*** page, in the **Host Records** section, select **Edit**.</span></span>
+9. <span data-ttu-id="aee2a-131">Sur la page ***domain_name*** , dans la section **Host Records (enregistrements d’hôte** ), sélectionnez Edit ( **modifier**).</span><span class="sxs-lookup"><span data-stu-id="aee2a-131">On the ***domain_name*** page, in the **Host Records** section, select **Edit**.</span></span>
     
-    ![Google-Apps-eNom-configure-1-6](../media/d54fec18-b9d1-4796-8397-0393c964eade.png)
+    ![Google-Apps-eNom-configure-1-6](../../media/d54fec18-b9d1-4796-8397-0393c964eade.png)
   
-10. <span data-ttu-id="0b3b9-133">Dans la section **Host Records (enregistrements d’hôte** ), sélectionnez **Add New (Ajouter nouveau**).</span><span class="sxs-lookup"><span data-stu-id="0b3b9-133">In the **Host Records** section, select **Add New**.</span></span>
+10. <span data-ttu-id="aee2a-133">Dans la section **Host Records (enregistrements d’hôte** ), sélectionnez **Add New (Ajouter nouveau**).</span><span class="sxs-lookup"><span data-stu-id="aee2a-133">In the **Host Records** section, select **Add New**.</span></span>
     
-    ![Google-Apps-eNom-configure-1-7](../media/3562806a-4328-4e60-a717-0566841204cf.png)
+    ![Google-Apps-eNom-configure-1-7](../../media/3562806a-4328-4e60-a717-0566841204cf.png)
   
-11. <span data-ttu-id="0b3b9-135">In the boxes for the new record, type or copy and paste the values from the following table.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-135">In the boxes for the new record, type or copy and paste the values from the following table.</span></span>
+11. <span data-ttu-id="aee2a-135">Dans les zones du nouvel enregistrement, tapez ou copiez-collez les valeurs du tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="aee2a-135">In the boxes for the new record, type or copy and paste the values from the following table.</span></span>
     
-    |<span data-ttu-id="0b3b9-136">**HOST (HÔTE)**</span><span class="sxs-lookup"><span data-stu-id="0b3b9-136">**HOST**</span></span>|<span data-ttu-id="0b3b9-137">**TXT VALUE**</span><span class="sxs-lookup"><span data-stu-id="0b3b9-137">**TXT VALUE**</span></span>|<span data-ttu-id="0b3b9-138">**TYPE D’ENREGISTREMENT**</span><span class="sxs-lookup"><span data-stu-id="0b3b9-138">**RECORD TYPE**</span></span>|
+    |<span data-ttu-id="aee2a-136">**HOST (HÔTE)**</span><span class="sxs-lookup"><span data-stu-id="aee2a-136">**HOST**</span></span>|<span data-ttu-id="aee2a-137">**TXT VALUE**</span><span class="sxs-lookup"><span data-stu-id="aee2a-137">**TXT VALUE**</span></span>|<span data-ttu-id="aee2a-138">**TYPE D’ENREGISTREMENT**</span><span class="sxs-lookup"><span data-stu-id="aee2a-138">**RECORD TYPE**</span></span>|
     |:-----|:-----|:-----|
-    |@  <br/> ||<span data-ttu-id="0b3b9-139">TXT</span><span class="sxs-lookup"><span data-stu-id="0b3b9-139">TXT</span></span>  <br/> |
+    |@  <br/> ||<span data-ttu-id="aee2a-139">TXT</span><span class="sxs-lookup"><span data-stu-id="aee2a-139">TXT</span></span>  <br/> |
 
     > [!NOTE]
-    > <span data-ttu-id="0b3b9-140">This is an example.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-140">This is an example.</span></span> <span data-ttu-id="0b3b9-141">Use your specific **Destination or Points to Address** value here, from the table in Office 365.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-141">Use your specific **Destination or Points to Address** value here, from the table in Office 365.</span></span> 
+    > <span data-ttu-id="aee2a-140">This is an example.</span><span class="sxs-lookup"><span data-stu-id="aee2a-140">This is an example.</span></span> <span data-ttu-id="aee2a-141">Utilisez votre valeur **Adresse de destination ou de pointage** spécifique ici, à partir du tableau dans Office 365.</span><span class="sxs-lookup"><span data-stu-id="aee2a-141">Use your specific **Destination or Points to Address** value here, from the table in Office 365.</span></span> 
   
-    [<span data-ttu-id="0b3b9-142">Comment trouver cette valeur ?</span><span class="sxs-lookup"><span data-stu-id="0b3b9-142">How do I find this?</span></span>](../get-help-with-domains/information-for-dns-records.md)
+    [<span data-ttu-id="aee2a-142">Comment trouver cette valeur ?</span><span class="sxs-lookup"><span data-stu-id="aee2a-142">How do I find this?</span></span>](../get-help-with-domains/information-for-dns-records.md)
   
-12. <span data-ttu-id="0b3b9-143">Cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-143">Select **Save**.</span></span>
+12. <span data-ttu-id="aee2a-143">Cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="aee2a-143">Select **Save**.</span></span>
     
-    ![Google-Apps-eNom-configure-1-9](../media/7a6f7b45-8f79-487b-afe4-05949c2c04e8.png)
+    ![Google-Apps-eNom-configure-1-9](../../media/7a6f7b45-8f79-487b-afe4-05949c2c04e8.png)
   
-13. <span data-ttu-id="0b3b9-145">Sélectionnez **enregistrer les modifications**.</span><span class="sxs-lookup"><span data-stu-id="0b3b9-145">Select **Save Changes**.</span></span>
+13. <span data-ttu-id="aee2a-145">Sélectionnez **enregistrer les modifications**.</span><span class="sxs-lookup"><span data-stu-id="aee2a-145">Select **Save Changes**.</span></span>
     
-    ![Google-Apps-Configure-1-11](../media/7f321236-33fb-4a7d-9d03-26605e9e558c.png)
+    ![Google-Apps-Configure-1-11](../../media/7f321236-33fb-4a7d-9d03-26605e9e558c.png)
   
 > [!NOTE]
->  <span data-ttu-id="0b3b9-p105">L'application des enregistrements DNS modifiés prend généralement 15 minutes. Il peut toutefois arriver que la répercussion d'une modification dans le système DNS sur Internet prenne davantage de temps. Si vous rencontrez des problèmes avec le flux de messages ou d'autres problèmes suite à l'ajout des enregistrements DNS, voir [Résolution des problèmes suite à la modification de votre nom de domaine ou des enregistrements DNS](../get-help-with-domains/find-and-fix-issues.md).</span><span class="sxs-lookup"><span data-stu-id="0b3b9-p105">Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).</span></span> 
+>  <span data-ttu-id="aee2a-p105">L'application des enregistrements DNS modifiés prend généralement 15 minutes. Il peut toutefois arriver que la répercussion d'une modification dans le système DNS sur Internet prenne davantage de temps. Si vous rencontrez des problèmes avec le flux de messages ou d'autres problèmes suite à l'ajout des enregistrements DNS, voir [Résolution des problèmes suite à la modification de votre nom de domaine ou des enregistrements DNS](../get-help-with-domains/find-and-fix-issues.md).</span><span class="sxs-lookup"><span data-stu-id="aee2a-p105">Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).</span></span> 
   

@@ -12,25 +12,25 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Découvrez comment contacter le support pour votre pays ou région.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f94069ceb5df656630d04c6e49e9657e4ad19536
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f9d11557ac9d09f7605fe9a54e4935ff84e401f9
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42254023"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360115"
 ---
-# <a name="contact-support-for-barbados"></a><span data-ttu-id="0b2d1-103">Contacter le support pour la Barbade</span><span class="sxs-lookup"><span data-stu-id="0b2d1-103">Contact support for Barbados</span></span>
+# <a name="contact-support-for-barbados"></a><span data-ttu-id="10b99-103">Contacter le support pour la Barbade</span><span class="sxs-lookup"><span data-stu-id="10b99-103">Contact support for Barbados</span></span>
 
-<span data-ttu-id="0b2d1-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="0b2d1-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="10b99-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="10b99-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="0b2d1-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="0b2d1-105">Phone number</span></span>
-<span data-ttu-id="0b2d1-106">1 877 639 0597</span><span class="sxs-lookup"><span data-stu-id="0b2d1-106">1 877 639 0597</span></span>
+## <a name="phone-number"></a><span data-ttu-id="10b99-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="10b99-105">Phone number</span></span>
+<span data-ttu-id="10b99-106">1 877 639 0597</span><span class="sxs-lookup"><span data-stu-id="10b99-106">1 877 639 0597</span></span>
 
-## <a name="hours"></a><span data-ttu-id="0b2d1-107">Heures</span><span class="sxs-lookup"><span data-stu-id="0b2d1-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="0b2d1-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="0b2d1-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="10b99-107">Heures</span><span class="sxs-lookup"><span data-stu-id="10b99-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="10b99-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="10b99-108">Billing Support:</span></span>
 
-<span data-ttu-id="0b2d1-109">Anglais : Lun-ven 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="0b2d1-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="10b99-109">Anglais : Lun-ven 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="10b99-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="0b2d1-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="0b2d1-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="10b99-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="10b99-110">Technical Support:</span></span>
 
-<span data-ttu-id="0b2d1-111">Anglais : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="0b2d1-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="10b99-111">Anglais : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="10b99-111">English: 24 hours a day, 7 days a week</span></span>

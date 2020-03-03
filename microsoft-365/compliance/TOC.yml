@@ -218,8 +218,9 @@
     - name: Gérer la gouvernance des informations
       href: manage-information-governance.md
     - name: Importation des données
-      href: importing-pst-files-to-office-365.md
       items:
+        - name: Vue d’ensemble de l’importation de fichiers PST
+          href: importing-pst-files-to-office-365.md
         - name: "Utiliser le chargement réseau pour importer des fichiers\_PST"
           href: use-network-upload-to-import-pst-files.md
         - name: Utiliser l’envoi de lecteurs pour importer des fichiers PST
@@ -231,8 +232,9 @@
         - name: FAQ sur l’importation de fichiers PST
           href: faqimporting-pst-files-to-office-365.md
     - name: Archiver des données tierces
-      href: archiving-third-party-data.md
       items:
+        - name: Vue d’ensemble de l’archivage de données tierces
+          href: archiving-third-party-data.md
         - name: Configuration d’un connecteur pour l’archivage des données Facebook
           href: archive-facebook-data-with-sample-connector.md
         - name: Configuration d’un connecteur pour l’archivage des données Twitter
@@ -276,8 +278,9 @@
     - name: Éliminer des données
       href: disposition-reviews.md
     - name: Gestion des boîtes aux lettres inactives
-      href: inactive-mailboxes-in-office-365.md
       items:
+        - name: Vue d’ensemble des boîtes aux lettres inactives
+          href: inactive-mailboxes-in-office-365.md
         - name: Créer et gérer des boîtes aux lettres inactives
           href: create-and-manage-inactive-mailboxes.md
         - name: Modifier la durée de la conservation pour une boîte aux lettres inactive
@@ -718,10 +721,13 @@
     - name: Audit de boîte aux lettres
       href: enable-mailbox-auditing.md
     - name: Audit avancé
-      href: advanced-audit.md
       items:
+        - name: Vue d’ensemble de l’audit avancé
+          href: advanced-audit.md
         - name: Gérer les stratégies de rétention du journal d'audit
           href: audit-log-retention-policies.md
+        - name: Utiliser l’audit avancé pour examiner les comptes compromis
+          href: mailitemsaccessed-forensics-investigations.md
     - name: Stratégies d’alerte
       href: alert-policies.md
 - name: Gérer les risques de conformité
