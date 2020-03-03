@@ -12,29 +12,29 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Découvrez comment contacter le support pour votre pays ou région.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 42a9f6e693a6d26447a56d3a8a67e4e49e9e4e7a
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8e0a657bbddc6c323bf0d5b42b16838e36046e30
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42244476"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42357265"
 ---
-# <a name="contact-support-for-nicaragua"></a><span data-ttu-id="4496a-103">Contacter le support pour le Nicaragua</span><span class="sxs-lookup"><span data-stu-id="4496a-103">Contact support for Nicaragua</span></span>
+# <a name="contact-support-for-nicaragua"></a><span data-ttu-id="311e0-103">Contacter le support pour le Nicaragua</span><span class="sxs-lookup"><span data-stu-id="311e0-103">Contact support for Nicaragua</span></span>
 
-<span data-ttu-id="4496a-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="4496a-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="311e0-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="311e0-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="4496a-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="4496a-105">Phone number</span></span>
-<span data-ttu-id="4496a-106">1800 0164</span><span class="sxs-lookup"><span data-stu-id="4496a-106">1800 0164</span></span>
+## <a name="phone-number"></a><span data-ttu-id="311e0-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="311e0-105">Phone number</span></span>
+<span data-ttu-id="311e0-106">1800 0164</span><span class="sxs-lookup"><span data-stu-id="311e0-106">1800 0164</span></span>
 
-<span data-ttu-id="4496a-107">Après la numérotation, entrez</span><span class="sxs-lookup"><span data-stu-id="4496a-107">After dialing, enter</span></span>
+<span data-ttu-id="311e0-107">Après la numérotation, entrez</span><span class="sxs-lookup"><span data-stu-id="311e0-107">After dialing, enter</span></span>
 
-<span data-ttu-id="4496a-108">877 635 7036</span><span class="sxs-lookup"><span data-stu-id="4496a-108">877 635 7036</span></span>
+<span data-ttu-id="311e0-108">877 635 7036</span><span class="sxs-lookup"><span data-stu-id="311e0-108">877 635 7036</span></span>
 
-## <a name="hours"></a><span data-ttu-id="4496a-109">Heures</span><span class="sxs-lookup"><span data-stu-id="4496a-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="4496a-110">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="4496a-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="311e0-109">Heures</span><span class="sxs-lookup"><span data-stu-id="311e0-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="311e0-110">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="311e0-110">Billing Support:</span></span>
 
-<span data-ttu-id="4496a-111">Espagnol : Lun-ven 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="4496a-111">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="311e0-111">Espagnol : Lun-ven 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="311e0-111">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="4496a-112">Support technique :</span><span class="sxs-lookup"><span data-stu-id="4496a-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="311e0-112">Support technique :</span><span class="sxs-lookup"><span data-stu-id="311e0-112">Technical Support:</span></span>
 
-<span data-ttu-id="4496a-113">Espagnol : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="4496a-113">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="311e0-113">Espagnol : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="311e0-113">Spanish: 24 hours a day, 7 days a week</span></span>

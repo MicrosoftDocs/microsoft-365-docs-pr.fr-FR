@@ -20,316 +20,316 @@ search.appverid:
 - MOE150
 ms.assetid: 6386d63e-b78f-4736-90e7-b99a2c116a9f
 description: Découvrez comment vérifier votre domaine et configurer des enregistrements DNS pour la messagerie, Skype entreprise Online et d’autres services sur des domaines folles pour Office 365.
-ms.openlocfilehash: 5b344ebdc4a4608c27c0a84299ea171391c09ba0
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 157c33a52403efbefe673bf11465de525ffb4f33
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42244164"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42351155"
 ---
-# <a name="create-dns-records-at-crazy-domains-for-office-365"></a><span data-ttu-id="7b354-103">Créer des enregistrements DNS auprès de Crazy Domains pour Office 365</span><span class="sxs-lookup"><span data-stu-id="7b354-103">Create DNS records at Crazy Domains for Office 365</span></span>
+# <a name="create-dns-records-at-crazy-domains-for-office-365"></a><span data-ttu-id="b49ea-103">Créer des enregistrements DNS auprès de Crazy Domains pour Office 365</span><span class="sxs-lookup"><span data-stu-id="b49ea-103">Create DNS records at Crazy Domains for Office 365</span></span>
 
- <span data-ttu-id="7b354-104">**[Consultez les Forums aux questions des domaines](../setup/domains-faq.md)** si vous ne trouvez pas ce que vous recherchez.</span><span class="sxs-lookup"><span data-stu-id="7b354-104">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
+ <span data-ttu-id="b49ea-104">**[Consultez les Forums aux questions des domaines](../setup/domains-faq.md)** si vous ne trouvez pas ce que vous recherchez.</span><span class="sxs-lookup"><span data-stu-id="b49ea-104">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
   
-<span data-ttu-id="7b354-105">Si Crazy Domains est votre fournisseur d'hébergement DNS, suivez les étapes décrites dans cet article pour vérifier votre domaine et configurer les enregistrements DNS pour le courrier, Skype Entreprise Online, etc.</span><span class="sxs-lookup"><span data-stu-id="7b354-105">If Crazy Domains is your DNS hosting provider, follow the steps in this article to verify your domain and set up DNS records for email, Skype for Business Online, and so on.</span></span>
+<span data-ttu-id="b49ea-105">Si Crazy Domains est votre fournisseur d'hébergement DNS, suivez les étapes décrites dans cet article pour vérifier votre domaine et configurer les enregistrements DNS pour le courrier, Skype Entreprise Online, etc.</span><span class="sxs-lookup"><span data-stu-id="b49ea-105">If Crazy Domains is your DNS hosting provider, follow the steps in this article to verify your domain and set up DNS records for email, Skype for Business Online, and so on.</span></span>
   
-<span data-ttu-id="7b354-106">Une fois ces enregistrements ajoutés sur Crazy Domains, votre domaine est configuré pour utiliser les services Office 365.</span><span class="sxs-lookup"><span data-stu-id="7b354-106">After you add these records at Crazy Domains, your domain will be set up to work with Office 365 services.</span></span>
+<span data-ttu-id="b49ea-106">Une fois ces enregistrements ajoutés sur Crazy Domains, votre domaine est configuré pour utiliser les services Office 365.</span><span class="sxs-lookup"><span data-stu-id="b49ea-106">After you add these records at Crazy Domains, your domain will be set up to work with Office 365 services.</span></span>
   
-<span data-ttu-id="7b354-107">Pour en savoir plus sur l'hébergement web et le DNS pour les sites web avec Office 365, voir [Utiliser un site web public avec Office 365](https://support.office.com/article/choose-a-public-website-3325d50e-d131-403c-a278-7f3296fe33a9).</span><span class="sxs-lookup"><span data-stu-id="7b354-107">To learn about webhosting and DNS for websites with Office 365, see [Use a public website with Office 365](https://support.office.com/article/choose-a-public-website-3325d50e-d131-403c-a278-7f3296fe33a9).</span></span>
+<span data-ttu-id="b49ea-107">Pour en savoir plus sur l'hébergement web et le DNS pour les sites web avec Office 365, voir [Utiliser un site web public avec Office 365](https://support.office.com/article/choose-a-public-website-3325d50e-d131-403c-a278-7f3296fe33a9).</span><span class="sxs-lookup"><span data-stu-id="b49ea-107">To learn about webhosting and DNS for websites with Office 365, see [Use a public website with Office 365](https://support.office.com/article/choose-a-public-website-3325d50e-d131-403c-a278-7f3296fe33a9).</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="7b354-p101">L'application des enregistrements DNS modifiés prend généralement 15 minutes. Il peut toutefois arriver que la répercussion d'une modification dans le système DNS sur Internet prenne davantage de temps. Si vous rencontrez des problèmes avec le flux de messages ou d'autres problèmes suite à l'ajout des enregistrements DNS, voir [Résolution des problèmes suite à la modification de votre nom de domaine ou des enregistrements DNS](../get-help-with-domains/find-and-fix-issues.md).</span><span class="sxs-lookup"><span data-stu-id="7b354-p101">Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).</span></span> 
+> <span data-ttu-id="b49ea-p101">L'application des enregistrements DNS modifiés prend généralement 15 minutes. Il peut toutefois arriver que la répercussion d'une modification dans le système DNS sur Internet prenne davantage de temps. Si vous rencontrez des problèmes avec le flux de messages ou d'autres problèmes suite à l'ajout des enregistrements DNS, voir [Résolution des problèmes suite à la modification de votre nom de domaine ou des enregistrements DNS](../get-help-with-domains/find-and-fix-issues.md).</span><span class="sxs-lookup"><span data-stu-id="b49ea-p101">Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).</span></span> 
   
-## <a name="add-a-txt-record-for-verification"></a><span data-ttu-id="7b354-111">Ajouter un enregistrement TXT à des fins de vérification</span><span class="sxs-lookup"><span data-stu-id="7b354-111">Add a TXT record for verification</span></span>
-<span data-ttu-id="7b354-112"><a name="BKMK_verify"> </a></span><span class="sxs-lookup"><span data-stu-id="7b354-112"><a name="BKMK_verify"> </a></span></span>
+## <a name="add-a-txt-record-for-verification"></a><span data-ttu-id="b49ea-111">Ajouter un enregistrement TXT à des fins de vérification</span><span class="sxs-lookup"><span data-stu-id="b49ea-111">Add a TXT record for verification</span></span>
+<span data-ttu-id="b49ea-112"><a name="BKMK_verify"> </a></span><span class="sxs-lookup"><span data-stu-id="b49ea-112"><a name="BKMK_verify"> </a></span></span>
 
-<span data-ttu-id="7b354-p102">Avant d'utiliser votre domaine avec Office 365, nous devons vérifier que celui-ci vous appartient. Votre capacité à vous connecter à votre compte auprès de votre bureau d'enregistrement de domaines et à créer l'enregistrement DNS montre à Office 365 que le domaine vous appartient réellement.</span><span class="sxs-lookup"><span data-stu-id="7b354-p102">Before you use your domain with Office 365, we have to make sure that you own it. Your ability to log in to your account at your domain registrar and create the DNS record proves to Office 365 that you own the domain.</span></span>
+<span data-ttu-id="b49ea-p102">Avant d'utiliser votre domaine avec Office 365, nous devons vérifier que celui-ci vous appartient. Votre capacité à vous connecter à votre compte auprès de votre bureau d'enregistrement de domaines et à créer l'enregistrement DNS montre à Office 365 que le domaine vous appartient réellement.</span><span class="sxs-lookup"><span data-stu-id="b49ea-p102">Before you use your domain with Office 365, we have to make sure that you own it. Your ability to log in to your account at your domain registrar and create the DNS record proves to Office 365 that you own the domain.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="7b354-p103">Cet enregistrement sert uniquement à vérifier que vous êtes propriétaire du domaine. Vous pouvez éventuellement le supprimer ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="7b354-p103">This record is used only to verify that you own your domain; it doesn't affect anything else. You can delete it later, if you like.</span></span> 
+> <span data-ttu-id="b49ea-p103">Cet enregistrement sert uniquement à vérifier que vous êtes propriétaire du domaine. Vous pouvez éventuellement le supprimer ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="b49ea-p103">This record is used only to verify that you own your domain; it doesn't affect anything else. You can delete it later, if you like.</span></span> 
   
-1. <span data-ttu-id="7b354-p104">Pour commencer, accédez à la page de vos domaines sur le site Crazy Domains en utilisant [ce lien](https://manage.crazydomains.com/members/domains/). Avant toute chose, vous serez invité à vous connecter.</span><span class="sxs-lookup"><span data-stu-id="7b354-p104">To get started, go to your domains page at Crazy Domains by using [this link](https://manage.crazydomains.com/members/domains/). You'll be prompted to log in first.</span></span>
+1. <span data-ttu-id="b49ea-p104">Pour commencer, accédez à la page de vos domaines sur le site Crazy Domains en utilisant [ce lien](https://manage.crazydomains.com/members/domains/). Avant toute chose, vous serez invité à vous connecter.</span><span class="sxs-lookup"><span data-stu-id="b49ea-p104">To get started, go to your domains page at Crazy Domains by using [this link](https://manage.crazydomains.com/members/domains/). You'll be prompted to log in first.</span></span>
     
-    ![CrazyDomains-BP-configure-1-1](../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
+    ![CrazyDomains-BP-configure-1-1](../../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
   
-2. <span data-ttu-id="7b354-120">Dans la section **mon compte** , sélectionnez **domaines**.</span><span class="sxs-lookup"><span data-stu-id="7b354-120">In the **My Account** section, select **Domains**.</span></span>
+2. <span data-ttu-id="b49ea-120">Dans la section **mon compte** , sélectionnez **domaines**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-120">In the **My Account** section, select **Domains**.</span></span>
     
-    ![CrazyDomains-BP-configure-1-2](../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
+    ![CrazyDomains-BP-configure-1-2](../../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
   
-3. <span data-ttu-id="7b354-122">Dans la page **noms de domaine** , dans la section **domaine** , sélectionnez le nom du domaine que vous mettez à jour.</span><span class="sxs-lookup"><span data-stu-id="7b354-122">On the **Domain Names** page, in the **Domain** section, select the name of the domain that you are updating.</span></span> 
+3. <span data-ttu-id="b49ea-122">Dans la page **noms de domaine** , dans la section **domaine** , sélectionnez le nom du domaine que vous mettez à jour.</span><span class="sxs-lookup"><span data-stu-id="b49ea-122">On the **Domain Names** page, in the **Domain** section, select the name of the domain that you are updating.</span></span> 
     
-    ![CrazyDomains-BP-configure-1-3](../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
+    ![CrazyDomains-BP-configure-1-3](../../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
   
-4. <span data-ttu-id="7b354-124">Dans la section **paramètres DNS** , sélectionnez l’icône de la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="7b354-124">In the **DNS Settings** section, select the drop-down list icon.</span></span> 
+4. <span data-ttu-id="b49ea-124">Dans la section **paramètres DNS** , sélectionnez l’icône de la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="b49ea-124">In the **DNS Settings** section, select the drop-down list icon.</span></span> 
     
-    ![CrazyDomains-BP-configure-1-4-1](../media/c7573fbf-467d-49c1-abb6-8c7b9b4af83d.png)
+    ![CrazyDomains-BP-configure-1-4-1](../../media/c7573fbf-467d-49c1-abb6-8c7b9b4af83d.png)
   
-5. <span data-ttu-id="7b354-126">Sélectionnez **Ajouter un enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="7b354-126">Select **Add Record**.</span></span>
+5. <span data-ttu-id="b49ea-126">Sélectionnez **Ajouter un enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-126">Select **Add Record**.</span></span>
     
-    ![CrazyDomains-BP-configure-1-4-2](../media/7bef31f5-f180-4b61-a462-9326789e770f.png)
+    ![CrazyDomains-BP-configure-1-4-2](../../media/7bef31f5-f180-4b61-a462-9326789e770f.png)
   
-6. <span data-ttu-id="7b354-128">Choisissez **Enregistrement TXT** dans la liste déroulante **Ajouter un enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="7b354-128">Choose **TXT Record** from the **Add Record** drop-down list.</span></span> 
+6. <span data-ttu-id="b49ea-128">Choisissez **Enregistrement TXT** dans la liste déroulante **Ajouter un enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-128">Choose **TXT Record** from the **Add Record** drop-down list.</span></span> 
     
-    ![CrazyDomains-BP-Verify-1-1](../media/f0ffdefb-d7a5-47df-bb5e-bf8a3bcc9b01.png)
+    ![CrazyDomains-BP-Verify-1-1](../../media/f0ffdefb-d7a5-47df-bb5e-bf8a3bcc9b01.png)
   
-7. <span data-ttu-id="7b354-130">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="7b354-130">Select **Add**.</span></span>
+7. <span data-ttu-id="b49ea-130">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-130">Select **Add**.</span></span>
     
-    ![CrazyDomains-BP-Verify-1-2](../media/b0cd623a-67f7-4bae-a5b5-507f5a106123.png)
+    ![CrazyDomains-BP-Verify-1-2](../../media/b0cd623a-67f7-4bae-a5b5-507f5a106123.png)
   
-8. <span data-ttu-id="7b354-132">Dans les zones du nouvel enregistrement, tapez ou copiez-collez les valeurs du tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="7b354-132">In the boxes for the new record, type or copy and paste the values from the following table.</span></span>
+8. <span data-ttu-id="b49ea-132">Dans les zones du nouvel enregistrement, tapez ou copiez-collez les valeurs du tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="b49ea-132">In the boxes for the new record, type or copy and paste the values from the following table.</span></span>
     
-    |<span data-ttu-id="7b354-133">**Sub Domain (Sous-domaine)**</span><span class="sxs-lookup"><span data-stu-id="7b354-133">**Sub Domain**</span></span>|<span data-ttu-id="7b354-134">**Text Record (Enregistrement texte)**</span><span class="sxs-lookup"><span data-stu-id="7b354-134">**Text Record**</span></span>|
+    |<span data-ttu-id="b49ea-133">**Sub Domain (Sous-domaine)**</span><span class="sxs-lookup"><span data-stu-id="b49ea-133">**Sub Domain**</span></span>|<span data-ttu-id="b49ea-134">**Text Record (Enregistrement texte)**</span><span class="sxs-lookup"><span data-stu-id="b49ea-134">**Text Record**</span></span>|
     |:-----|:-----|
-    |<span data-ttu-id="7b354-135">(Leave this field empty.)</span><span class="sxs-lookup"><span data-stu-id="7b354-135">(Leave this field empty.)</span></span>  <br/> |<span data-ttu-id="7b354-136">MS=ms *XXXXXXXX*</span><span class="sxs-lookup"><span data-stu-id="7b354-136">MS=ms *XXXXXXXX*</span></span>  <br/> <span data-ttu-id="7b354-137">**Remarque :** Voici un exemple.</span><span class="sxs-lookup"><span data-stu-id="7b354-137">**Note:** This is an example.</span></span> <span data-ttu-id="7b354-138">Utilisez votre valeur **Adresse de destination ou de pointage** spécifique ici, à partir du tableau dans Office 365.</span><span class="sxs-lookup"><span data-stu-id="7b354-138">Use your specific **Destination or Points to Address** value here, from the table in Office 365.</span></span>           [<span data-ttu-id="7b354-139">Comment trouver cette valeur ?</span><span class="sxs-lookup"><span data-stu-id="7b354-139">How do I find this?</span></span>](../get-help-with-domains/information-for-dns-records.md)          |
+    |<span data-ttu-id="b49ea-135">(Leave this field empty.)</span><span class="sxs-lookup"><span data-stu-id="b49ea-135">(Leave this field empty.)</span></span>  <br/> |<span data-ttu-id="b49ea-136">MS=ms *XXXXXXXX*</span><span class="sxs-lookup"><span data-stu-id="b49ea-136">MS=ms *XXXXXXXX*</span></span>  <br/> <span data-ttu-id="b49ea-137">**Remarque :** il s'agit d'un exemple.</span><span class="sxs-lookup"><span data-stu-id="b49ea-137">**Note:** This is an example.</span></span> <span data-ttu-id="b49ea-138">Utilisez votre valeur **Adresse de destination ou de pointage** spécifique ici, à partir du tableau dans Office 365.</span><span class="sxs-lookup"><span data-stu-id="b49ea-138">Use your specific **Destination or Points to Address** value here, from the table in Office 365.</span></span>           [<span data-ttu-id="b49ea-139">Comment trouver cette valeur ?</span><span class="sxs-lookup"><span data-stu-id="b49ea-139">How do I find this?</span></span>](../get-help-with-domains/information-for-dns-records.md)          |
    
-    ![CrazyDomains-BP-Verify-1-3](../media/3867de97-6a98-4475-9bda-470bac75d483.png)
+    ![CrazyDomains-BP-Verify-1-3](../../media/3867de97-6a98-4475-9bda-470bac75d483.png)
   
-9. <span data-ttu-id="7b354-141">Sélectionnez **Mettre à jour**.</span><span class="sxs-lookup"><span data-stu-id="7b354-141">Select **Update**.</span></span>
+9. <span data-ttu-id="b49ea-141">Sélectionnez **Mettre à jour**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-141">Select **Update**.</span></span>
     
-    ![CrazyDomains-BP-Verify-1-4](../media/0e416df6-b7a2-4dd7-971c-f1cc31df30da.png)
+    ![CrazyDomains-BP-Verify-1-4](../../media/0e416df6-b7a2-4dd7-971c-f1cc31df30da.png)
   
-10. <span data-ttu-id="7b354-143">Patientez quelques minutes, le temps que l'enregistrement que vous venez de créer soit mis à jour sur Internet.</span><span class="sxs-lookup"><span data-stu-id="7b354-143">Wait a few minutes before you continue, so that the record you just created can update across the Internet.</span></span>
+10. <span data-ttu-id="b49ea-143">Patientez quelques minutes, le temps que l'enregistrement que vous venez de créer soit mis à jour sur Internet.</span><span class="sxs-lookup"><span data-stu-id="b49ea-143">Wait a few minutes before you continue, so that the record you just created can update across the Internet.</span></span>
     
-<span data-ttu-id="7b354-144">Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.</span><span class="sxs-lookup"><span data-stu-id="7b354-144">Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.</span></span>
+<span data-ttu-id="b49ea-144">L’enregistrement étant désormais ajouté sur le site de votre bureau d’enregistrement de domaines, revenez à Office 365 et demandez à Office 365 de rechercher l’enregistrement.</span><span class="sxs-lookup"><span data-stu-id="b49ea-144">Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.</span></span>
   
-<span data-ttu-id="7b354-145">When Office 365 finds the correct TXT record, your domain is verified.</span><span class="sxs-lookup"><span data-stu-id="7b354-145">When Office 365 finds the correct TXT record, your domain is verified.</span></span>
+<span data-ttu-id="b49ea-145">Lorsqu’Office 365 trouve l’enregistrement TXT approprié, votre domaine est vérifié.</span><span class="sxs-lookup"><span data-stu-id="b49ea-145">When Office 365 finds the correct TXT record, your domain is verified.</span></span>
   
-1. <span data-ttu-id="7b354-146">Dans le centre d’administration, accédez à la page **paramètres** \> des <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">domaines</a> .</span><span class="sxs-lookup"><span data-stu-id="7b354-146">In the admin center, go to the **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="b49ea-146">Dans le centre d’administration, accédez à la page **Paramètres** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domaines</a>.</span><span class="sxs-lookup"><span data-stu-id="b49ea-146">In the admin center, go to the **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
 
     
-2. <span data-ttu-id="7b354-147">Dans la page **domaines** , sélectionnez le domaine que vous vérifiez.</span><span class="sxs-lookup"><span data-stu-id="7b354-147">On the **Domains** page, select the domain that you are verifying.</span></span> 
+2. <span data-ttu-id="b49ea-147">Dans la page **Domaines**, sélectionnez le domaine que vous vérifiez.</span><span class="sxs-lookup"><span data-stu-id="b49ea-147">On the **Domains** page, select the domain that you are verifying.</span></span> 
     
     
   
-3. <span data-ttu-id="7b354-148">Sur la page **installation** , sélectionnez **Démarrer l’installation**.</span><span class="sxs-lookup"><span data-stu-id="7b354-148">On the **Setup** page, select **Start setup**.</span></span>
+3. <span data-ttu-id="b49ea-148">Dans la page **Configuration**, sélectionnez **Démarrer la configuration**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-148">On the **Setup** page, select **Start setup**.</span></span>
     
     
   
-4. <span data-ttu-id="7b354-149">Sur la page **vérifier le domaine** , sélectionnez **vérifier**.</span><span class="sxs-lookup"><span data-stu-id="7b354-149">On the **Verify domain** page, select **Verify**.</span></span>
+4. <span data-ttu-id="b49ea-149">Dans la page **Vérifier le domaine**, sélectionnez **Vérifier**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-149">On the **Verify domain** page, select **Verify**.</span></span>
     
     
   
 > [!NOTE]
->  <span data-ttu-id="7b354-p106">L'application des enregistrements DNS modifiés prend généralement 15 minutes. Il peut toutefois arriver que la répercussion d'une modification dans le système DNS sur Internet prenne davantage de temps. Si vous rencontrez des problèmes avec le flux de messages ou d'autres problèmes suite à l'ajout des enregistrements DNS, voir [Résolution des problèmes suite à la modification de votre nom de domaine ou des enregistrements DNS](../get-help-with-domains/find-and-fix-issues.md).</span><span class="sxs-lookup"><span data-stu-id="7b354-p106">Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).</span></span> 
+>  <span data-ttu-id="b49ea-p106">L'application des enregistrements DNS modifiés prend généralement 15 minutes. Il peut toutefois arriver que la répercussion d'une modification dans le système DNS sur Internet prenne davantage de temps. Si vous rencontrez des problèmes avec le flux de messages ou d'autres problèmes suite à l'ajout des enregistrements DNS, voir [Résolution des problèmes suite à la modification de votre nom de domaine ou des enregistrements DNS](../get-help-with-domains/find-and-fix-issues.md).</span><span class="sxs-lookup"><span data-stu-id="b49ea-p106">Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).</span></span> 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a><span data-ttu-id="7b354-153">Ajouter un enregistrement MX afin que les courriers électroniques pour votre domaine soient transférés vers Office 365</span><span class="sxs-lookup"><span data-stu-id="7b354-153">Add an MX record so email for your domain will come to Office 365</span></span>
-<span data-ttu-id="7b354-154"><a name="BKMK_add_MX"> </a></span><span class="sxs-lookup"><span data-stu-id="7b354-154"><a name="BKMK_add_MX"> </a></span></span>
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a><span data-ttu-id="b49ea-153">Ajouter un enregistrement MX afin que les courriers électroniques pour votre domaine soient transférés vers Office 365</span><span class="sxs-lookup"><span data-stu-id="b49ea-153">Add an MX record so email for your domain will come to Office 365</span></span>
+<span data-ttu-id="b49ea-154"><a name="BKMK_add_MX"> </a></span><span class="sxs-lookup"><span data-stu-id="b49ea-154"><a name="BKMK_add_MX"> </a></span></span>
 
-1. <span data-ttu-id="7b354-p107">Pour commencer, accédez à la page de vos domaines sur le site Crazy Domains en utilisant [ce lien](https://manage.crazydomains.com/members/domains/). Avant toute chose, vous serez invité à vous connecter.</span><span class="sxs-lookup"><span data-stu-id="7b354-p107">To get started, go to your domains page at Crazy Domains by using [this link](https://manage.crazydomains.com/members/domains/). You'll be prompted to log in first.</span></span>
+1. <span data-ttu-id="b49ea-p107">Pour commencer, accédez à la page de vos domaines sur le site Crazy Domains en utilisant [ce lien](https://manage.crazydomains.com/members/domains/). Avant toute chose, vous serez invité à vous connecter.</span><span class="sxs-lookup"><span data-stu-id="b49ea-p107">To get started, go to your domains page at Crazy Domains by using [this link](https://manage.crazydomains.com/members/domains/). You'll be prompted to log in first.</span></span>
     
-    ![CrazyDomains-BP-configure-1-1](../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
+    ![CrazyDomains-BP-configure-1-1](../../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
   
-2. <span data-ttu-id="7b354-158">Dans la section **mon compte** , sélectionnez **domaines**.</span><span class="sxs-lookup"><span data-stu-id="7b354-158">In the **My Account** section, select **Domains**.</span></span>
+2. <span data-ttu-id="b49ea-158">Dans la section **mon compte** , sélectionnez **domaines**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-158">In the **My Account** section, select **Domains**.</span></span>
     
-    ![CrazyDomains-BP-configure-1-2](../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
+    ![CrazyDomains-BP-configure-1-2](../../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
   
-3. <span data-ttu-id="7b354-160">Dans la page **noms de domaine** , dans la section **domaine** , sélectionnez le nom du domaine que vous mettez à jour.</span><span class="sxs-lookup"><span data-stu-id="7b354-160">On the **Domain Names** page, in the **Domain** section, select the name of the domain that you are updating.</span></span> 
+3. <span data-ttu-id="b49ea-160">Dans la page **noms de domaine** , dans la section **domaine** , sélectionnez le nom du domaine que vous mettez à jour.</span><span class="sxs-lookup"><span data-stu-id="b49ea-160">On the **Domain Names** page, in the **Domain** section, select the name of the domain that you are updating.</span></span> 
     
-    ![CrazyDomains-BP-configure-1-3](../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
+    ![CrazyDomains-BP-configure-1-3](../../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
   
-4. <span data-ttu-id="7b354-162">Dans la section **paramètres DNS** , sélectionnez l’icône de la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="7b354-162">In the **DNS Settings** section, select the drop-down list icon.</span></span> 
+4. <span data-ttu-id="b49ea-162">Dans la section **paramètres DNS** , sélectionnez l’icône de la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="b49ea-162">In the **DNS Settings** section, select the drop-down list icon.</span></span> 
     
-    ![CrazyDomains-BP-configure-1-4-1](../media/c7573fbf-467d-49c1-abb6-8c7b9b4af83d.png)
+    ![CrazyDomains-BP-configure-1-4-1](../../media/c7573fbf-467d-49c1-abb6-8c7b9b4af83d.png)
   
-5. <span data-ttu-id="7b354-164">Sélectionnez **Ajouter un enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="7b354-164">Select **Add Record**.</span></span>
+5. <span data-ttu-id="b49ea-164">Sélectionnez **Ajouter un enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-164">Select **Add Record**.</span></span>
     
-    ![CrazyDomains-BP-configure-1-4-2](../media/7bef31f5-f180-4b61-a462-9326789e770f.png)
+    ![CrazyDomains-BP-configure-1-4-2](../../media/7bef31f5-f180-4b61-a462-9326789e770f.png)
   
-6. <span data-ttu-id="7b354-166">Choisissez **MX Record** (Enregistrement MX) dans la liste déroulante **Add Record** (Ajouter un enregistrement).</span><span class="sxs-lookup"><span data-stu-id="7b354-166">Choose **MX Record** from the **Add Record:** drop-down list.</span></span> 
+6. <span data-ttu-id="b49ea-166">Choisissez **MX Record** (Enregistrement MX) dans la liste déroulante **Add Record** (Ajouter un enregistrement).</span><span class="sxs-lookup"><span data-stu-id="b49ea-166">Choose **MX Record** from the **Add Record:** drop-down list.</span></span> 
     
-    ![CrazyDomains-BP-configure-2-1](../media/63f7ab77-e686-4e7b-a3a2-1ac28a02d5f3.png)
+    ![CrazyDomains-BP-configure-2-1](../../media/63f7ab77-e686-4e7b-a3a2-1ac28a02d5f3.png)
   
-7. <span data-ttu-id="7b354-168">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="7b354-168">Select **Add**.</span></span>
+7. <span data-ttu-id="b49ea-168">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-168">Select **Add**.</span></span>
     
-    ![CrazyDomains-BP-configure-2-2](../media/a60680a1-2513-498c-b42f-8ffa575ee48e.png)
+    ![CrazyDomains-BP-configure-2-2](../../media/a60680a1-2513-498c-b42f-8ffa575ee48e.png)
   
-8. <span data-ttu-id="7b354-170">Dans les zones du nouvel enregistrement, tapez ou copiez-collez les valeurs du tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="7b354-170">In the boxes for the new record, type or copy and paste the values from the following table.</span></span>
+8. <span data-ttu-id="b49ea-170">Dans les zones du nouvel enregistrement, tapez ou copiez-collez les valeurs du tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="b49ea-170">In the boxes for the new record, type or copy and paste the values from the following table.</span></span>
     
-    <span data-ttu-id="7b354-171">(Choisissez la valeur **Priority** dans la liste déroulante.)</span><span class="sxs-lookup"><span data-stu-id="7b354-171">(Choose the **Priority** value from the drop-down list.)</span></span> 
+    <span data-ttu-id="b49ea-171">(Choisissez la valeur **Priority** dans la liste déroulante.)</span><span class="sxs-lookup"><span data-stu-id="b49ea-171">(Choose the **Priority** value from the drop-down list.)</span></span> 
     
-    |<span data-ttu-id="7b354-172">**Mail For Zone (Courrier pour la zone)**</span><span class="sxs-lookup"><span data-stu-id="7b354-172">**Mail For Zone**</span></span>|<span data-ttu-id="7b354-173">**Priority (Priorité)**</span><span class="sxs-lookup"><span data-stu-id="7b354-173">**Priority**</span></span>|<span data-ttu-id="7b354-174">**Assigned To Server (Affecté au serveur)**</span><span class="sxs-lookup"><span data-stu-id="7b354-174">**Assigned To Server**</span></span>|
+    |<span data-ttu-id="b49ea-172">**Mail For Zone (Courrier pour la zone)**</span><span class="sxs-lookup"><span data-stu-id="b49ea-172">**Mail For Zone**</span></span>|<span data-ttu-id="b49ea-173">**Priority (Priorité)**</span><span class="sxs-lookup"><span data-stu-id="b49ea-173">**Priority**</span></span>|<span data-ttu-id="b49ea-174">**Assigned To Server (Affecté au serveur)**</span><span class="sxs-lookup"><span data-stu-id="b49ea-174">**Assigned To Server**</span></span>|
     |:-----|:-----|:-----|
-    |<span data-ttu-id="7b354-175">(Laissez ce champ vide.)</span><span class="sxs-lookup"><span data-stu-id="7b354-175">(Leave this field empty.)</span></span>  <br/> |<span data-ttu-id="7b354-176">0,1</span><span class="sxs-lookup"><span data-stu-id="7b354-176">1</span></span>  <br/> <span data-ttu-id="7b354-177">Pour plus d'informations sur la priorité, voir [Qu'est-ce que la priorité MX ?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx).</span><span class="sxs-lookup"><span data-stu-id="7b354-177">For more information about priority, see [What is MX priority?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)</span></span> <br/> | <span data-ttu-id="7b354-178">*\<domain-key\>*  .mail.protection.outlook.com</span><span class="sxs-lookup"><span data-stu-id="7b354-178">*\<domain-key\>*  .mail.protection.outlook.com</span></span>  <br/> <span data-ttu-id="7b354-179">**Remarque :** Obtenez votre \* \<clé\> de domaine\* à partir de votre compte Office 365.</span><span class="sxs-lookup"><span data-stu-id="7b354-179">**Note:** Get your  *\<domain-key\>*  from your Office 365 account.</span></span>           [<span data-ttu-id="7b354-180">Comment trouver cette valeur ?</span><span class="sxs-lookup"><span data-stu-id="7b354-180">How do I find this?</span></span>](../get-help-with-domains/information-for-dns-records.md)          |
+    |<span data-ttu-id="b49ea-175">(Laissez ce champ vide.)</span><span class="sxs-lookup"><span data-stu-id="b49ea-175">(Leave this field empty.)</span></span>  <br/> |<span data-ttu-id="b49ea-176">0,1</span><span class="sxs-lookup"><span data-stu-id="b49ea-176">1</span></span>  <br/> <span data-ttu-id="b49ea-177">Pour plus d'informations sur la priorité, voir [Qu'est-ce que la priorité MX ?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx).</span><span class="sxs-lookup"><span data-stu-id="b49ea-177">For more information about priority, see [What is MX priority?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)</span></span> <br/> | <span data-ttu-id="b49ea-178">*\<domain-key\>*  .mail.protection.outlook.com</span><span class="sxs-lookup"><span data-stu-id="b49ea-178">*\<domain-key\>*  .mail.protection.outlook.com</span></span>  <br/> <span data-ttu-id="b49ea-179">**Remarque :** Obtenez votre \* \<clé\> de domaine\* à partir de votre compte Office 365.</span><span class="sxs-lookup"><span data-stu-id="b49ea-179">**Note:** Get your  *\<domain-key\>*  from your Office 365 account.</span></span>           [<span data-ttu-id="b49ea-180">Comment trouver cette valeur ?</span><span class="sxs-lookup"><span data-stu-id="b49ea-180">How do I find this?</span></span>](../get-help-with-domains/information-for-dns-records.md)          |
        
-   ![CrazyDomains-BP-configure-2-3](../media/e27df6a6-19a6-4e58-9716-a74be1c3f8da.png)
+   ![CrazyDomains-BP-configure-2-3](../../media/e27df6a6-19a6-4e58-9716-a74be1c3f8da.png)
   
-9. <span data-ttu-id="7b354-182">Sélectionnez **Mettre à jour**.</span><span class="sxs-lookup"><span data-stu-id="7b354-182">Select **Update**.</span></span>
+9. <span data-ttu-id="b49ea-182">Sélectionnez **Mettre à jour**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-182">Select **Update**.</span></span>
     
-    ![CrazyDomains-BP-configure-2-4](../media/ba25cdef-a436-48bf-b0e9-5dffd03234a4.png)
+    ![CrazyDomains-BP-configure-2-4](../../media/ba25cdef-a436-48bf-b0e9-5dffd03234a4.png)
   
-10. <span data-ttu-id="7b354-184">Si d’autres enregistrements MX sont répertoriés dans la section **MX record (enregistrement MX** ), sélectionnez **Modify (modifier** ) pour l’un de ces enregistrements.</span><span class="sxs-lookup"><span data-stu-id="7b354-184">If there are any other MX records listed in the **MX Record** section, select **Modify** for one of those records.</span></span> 
+10. <span data-ttu-id="b49ea-184">Si d’autres enregistrements MX sont répertoriés dans la section **MX record (enregistrement MX** ), sélectionnez **Modify (modifier** ) pour l’un de ces enregistrements.</span><span class="sxs-lookup"><span data-stu-id="b49ea-184">If there are any other MX records listed in the **MX Record** section, select **Modify** for one of those records.</span></span> 
     
-    ![CrazyDomains-BP-configure-2-5](../media/9acdda39-33ec-4b24-ad83-91c26f9c599b.png)
+    ![CrazyDomains-BP-configure-2-5](../../media/9acdda39-33ec-4b24-ad83-91c26f9c599b.png)
   
-11. <span data-ttu-id="7b354-186">Sélectionnez **supprimer**.</span><span class="sxs-lookup"><span data-stu-id="7b354-186">Select **Delete**.</span></span>
+11. <span data-ttu-id="b49ea-186">Sélectionnez **supprimer**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-186">Select **Delete**.</span></span>
     
-    ![CrazyDomains-BP-configure-2-6](../media/50b0e263-6f21-41b3-8fa0-7dd55dbe6c2e.png)
+    ![CrazyDomains-BP-configure-2-6](../../media/50b0e263-6f21-41b3-8fa0-7dd55dbe6c2e.png)
   
-12. <span data-ttu-id="7b354-188">Sélectionnez **Update (mettre à jour** ) pour confirmer la suppression.</span><span class="sxs-lookup"><span data-stu-id="7b354-188">Select **Update** to confirm the deletion.</span></span> 
+12. <span data-ttu-id="b49ea-188">Sélectionnez **Update (mettre à jour** ) pour confirmer la suppression.</span><span class="sxs-lookup"><span data-stu-id="b49ea-188">Select **Update** to confirm the deletion.</span></span> 
     
-    ![CrazyDomains-BP-configure-2-7](../media/db751bfe-31c2-4632-a491-6893eda38a51.png)
+    ![CrazyDomains-BP-configure-2-7](../../media/db751bfe-31c2-4632-a491-6893eda38a51.png)
   
-13. <span data-ttu-id="7b354-190">Procédez de la même manière pour supprimer tous les autres enregistrements MX de la liste, jusqu'à ce qu'il ne reste plus que celui que vous avez ajouté précédemment dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="7b354-190">Use the same process to remove any other MX records in the list, until only the one that you added earlier in this procedure remains.</span></span>
+13. <span data-ttu-id="b49ea-190">Procédez de la même manière pour supprimer tous les autres enregistrements MX de la liste, jusqu'à ce qu'il ne reste plus que celui que vous avez ajouté précédemment dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="b49ea-190">Use the same process to remove any other MX records in the list, until only the one that you added earlier in this procedure remains.</span></span>
     
-## <a name="add-the-six-cname-records-that-are-required-for-office-365"></a><span data-ttu-id="7b354-191">Ajouter les 6 enregistrements CNAME requis pour Office 365</span><span class="sxs-lookup"><span data-stu-id="7b354-191">Add the six CNAME records that are required for Office 365</span></span>
-<span data-ttu-id="7b354-192"><a name="BKMK_add_CNAME"> </a></span><span class="sxs-lookup"><span data-stu-id="7b354-192"><a name="BKMK_add_CNAME"> </a></span></span>
+## <a name="add-the-six-cname-records-that-are-required-for-office-365"></a><span data-ttu-id="b49ea-191">Ajouter les 6 enregistrements CNAME requis pour Office 365</span><span class="sxs-lookup"><span data-stu-id="b49ea-191">Add the six CNAME records that are required for Office 365</span></span>
+<span data-ttu-id="b49ea-192"><a name="BKMK_add_CNAME"> </a></span><span class="sxs-lookup"><span data-stu-id="b49ea-192"><a name="BKMK_add_CNAME"> </a></span></span>
 
-1. <span data-ttu-id="7b354-p109">Pour commencer, accédez à la page de vos domaines sur le site Crazy Domains en utilisant [ce lien](https://manage.crazydomains.com/members/domains/). Avant toute chose, vous serez invité à vous connecter.</span><span class="sxs-lookup"><span data-stu-id="7b354-p109">To get started, go to your domains page at Crazy Domains by using [this link](https://manage.crazydomains.com/members/domains/). You'll be prompted to log in first.</span></span>
+1. <span data-ttu-id="b49ea-p109">Pour commencer, accédez à la page de vos domaines sur le site Crazy Domains en utilisant [ce lien](https://manage.crazydomains.com/members/domains/). Avant toute chose, vous serez invité à vous connecter.</span><span class="sxs-lookup"><span data-stu-id="b49ea-p109">To get started, go to your domains page at Crazy Domains by using [this link](https://manage.crazydomains.com/members/domains/). You'll be prompted to log in first.</span></span>
     
-    ![CrazyDomains-BP-configure-1-1](../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
+    ![CrazyDomains-BP-configure-1-1](../../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
   
-2. <span data-ttu-id="7b354-196">Dans la section **mon compte** , sélectionnez **domaines**.</span><span class="sxs-lookup"><span data-stu-id="7b354-196">In the **My Account** section, select **Domains**.</span></span>
+2. <span data-ttu-id="b49ea-196">Dans la section **mon compte** , sélectionnez **domaines**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-196">In the **My Account** section, select **Domains**.</span></span>
     
-    ![CrazyDomains-BP-configure-1-2](../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
+    ![CrazyDomains-BP-configure-1-2](../../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
   
-3. <span data-ttu-id="7b354-198">Dans la page **noms de domaine** , dans la section **domaine** , sélectionnez le nom du domaine que vous mettez à jour.</span><span class="sxs-lookup"><span data-stu-id="7b354-198">On the **Domain Names** page, in the **Domain** section, select the name of the domain that you are updating.</span></span> 
+3. <span data-ttu-id="b49ea-198">Dans la page **noms de domaine** , dans la section **domaine** , sélectionnez le nom du domaine que vous mettez à jour.</span><span class="sxs-lookup"><span data-stu-id="b49ea-198">On the **Domain Names** page, in the **Domain** section, select the name of the domain that you are updating.</span></span> 
     
-    ![CrazyDomains-BP-configure-1-3](../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
+    ![CrazyDomains-BP-configure-1-3](../../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
   
-4. <span data-ttu-id="7b354-200">Dans la section **paramètres DNS** , sélectionnez l’icône de la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="7b354-200">In the **DNS Settings** section, select the drop-down list icon.</span></span> 
+4. <span data-ttu-id="b49ea-200">Dans la section **paramètres DNS** , sélectionnez l’icône de la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="b49ea-200">In the **DNS Settings** section, select the drop-down list icon.</span></span> 
     
-    ![CrazyDomains-BP-configure-1-4-1](../media/c7573fbf-467d-49c1-abb6-8c7b9b4af83d.png)
+    ![CrazyDomains-BP-configure-1-4-1](../../media/c7573fbf-467d-49c1-abb6-8c7b9b4af83d.png)
   
-5. <span data-ttu-id="7b354-202">Sélectionnez **Ajouter un enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="7b354-202">Select **Add Record**.</span></span>
+5. <span data-ttu-id="b49ea-202">Sélectionnez **Ajouter un enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-202">Select **Add Record**.</span></span>
     
-    ![CrazyDomains-BP-configure-1-4-2](../media/7bef31f5-f180-4b61-a462-9326789e770f.png)
+    ![CrazyDomains-BP-configure-1-4-2](../../media/7bef31f5-f180-4b61-a462-9326789e770f.png)
   
-6. <span data-ttu-id="7b354-204">Choisissez **CNAME Record** (Enregistrement CNAME) dans la liste déroulante **Add Record** (Ajouter un enregistrement).</span><span class="sxs-lookup"><span data-stu-id="7b354-204">Choose **CNAME Record** from the **Add Record:** drop-down list.</span></span> 
+6. <span data-ttu-id="b49ea-204">Choisissez **CNAME Record** (Enregistrement CNAME) dans la liste déroulante **Add Record** (Ajouter un enregistrement).</span><span class="sxs-lookup"><span data-stu-id="b49ea-204">Choose **CNAME Record** from the **Add Record:** drop-down list.</span></span> 
     
-    ![CrazyDomains-BP-configure-3-1](../media/2f02538b-fc79-46d2-a2b7-1022eaf0fb08.png)
+    ![CrazyDomains-BP-configure-3-1](../../media/2f02538b-fc79-46d2-a2b7-1022eaf0fb08.png)
   
-7. <span data-ttu-id="7b354-206">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="7b354-206">Select **Add**.</span></span>
+7. <span data-ttu-id="b49ea-206">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-206">Select **Add**.</span></span>
     
-    ![CrazyDomains-BP-configure-3-2](../media/4c5929cf-1c21-4af9-899b-e36091f0f14d.png)
+    ![CrazyDomains-BP-configure-3-2](../../media/4c5929cf-1c21-4af9-899b-e36091f0f14d.png)
   
-8. <span data-ttu-id="7b354-208">Ajoutez le premier des six enregistrements CNAME.</span><span class="sxs-lookup"><span data-stu-id="7b354-208">Add the first of the six CNAME records.</span></span>
+8. <span data-ttu-id="b49ea-208">Ajoutez le premier des six enregistrements CNAME.</span><span class="sxs-lookup"><span data-stu-id="b49ea-208">Add the first of the six CNAME records.</span></span>
     
-    <span data-ttu-id="7b354-209">Dans les zones du nouvel enregistrement, tapez ou copiez-collez les valeurs de la première ligne du tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="7b354-209">In the boxes for the new record, type or copy and paste the values from the first row of the following table.</span></span>
+    <span data-ttu-id="b49ea-209">Dans les zones du nouvel enregistrement, tapez ou copiez-collez les valeurs de la première ligne du tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="b49ea-209">In the boxes for the new record, type or copy and paste the values from the first row of the following table.</span></span>
     
-    |<span data-ttu-id="7b354-210">**Sub Domain (Sous-domaine)**</span><span class="sxs-lookup"><span data-stu-id="7b354-210">**Sub Domain**</span></span>|<span data-ttu-id="7b354-211">**Alias for (Alias pour)**</span><span class="sxs-lookup"><span data-stu-id="7b354-211">**Alias for**</span></span>|
+    |<span data-ttu-id="b49ea-210">**Sub Domain (Sous-domaine)**</span><span class="sxs-lookup"><span data-stu-id="b49ea-210">**Sub Domain**</span></span>|<span data-ttu-id="b49ea-211">**Alias for (Alias pour)**</span><span class="sxs-lookup"><span data-stu-id="b49ea-211">**Alias for**</span></span>|
     |:-----|:-----|
-    |<span data-ttu-id="7b354-212">autodiscover</span><span class="sxs-lookup"><span data-stu-id="7b354-212">autodiscover</span></span>  <br/> |<span data-ttu-id="7b354-213">autodiscover.outlook.com</span><span class="sxs-lookup"><span data-stu-id="7b354-213">autodiscover.outlook.com</span></span>  <br/> |
-    |<span data-ttu-id="7b354-214">sip</span><span class="sxs-lookup"><span data-stu-id="7b354-214">sip</span></span>  <br/> |<span data-ttu-id="7b354-215">sipdir.online.lync.com</span><span class="sxs-lookup"><span data-stu-id="7b354-215">sipdir.online.lync.com</span></span>  <br/> |
-    |<span data-ttu-id="7b354-216">lyncdiscover</span><span class="sxs-lookup"><span data-stu-id="7b354-216">lyncdiscover</span></span>  <br/> |<span data-ttu-id="7b354-217">webdir.online.lync.com</span><span class="sxs-lookup"><span data-stu-id="7b354-217">webdir.online.lync.com</span></span>  <br/> |
-    |<span data-ttu-id="7b354-218">enterpriseregistration</span><span class="sxs-lookup"><span data-stu-id="7b354-218">enterpriseregistration</span></span>  <br/> |<span data-ttu-id="7b354-219">enterpriseregistration.windows.net</span><span class="sxs-lookup"><span data-stu-id="7b354-219">enterpriseregistration.windows.net</span></span>  <br/> |
-    |<span data-ttu-id="7b354-220">enterpriseenrollment</span><span class="sxs-lookup"><span data-stu-id="7b354-220">enterpriseenrollment</span></span>  <br/> |<span data-ttu-id="7b354-221">enterpriseenrollment-s.manage.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="7b354-221">enterpriseenrollment-s.manage.microsoft.com</span></span>  <br/> |
+    |<span data-ttu-id="b49ea-212">autodiscover</span><span class="sxs-lookup"><span data-stu-id="b49ea-212">autodiscover</span></span>  <br/> |<span data-ttu-id="b49ea-213">autodiscover.outlook.com</span><span class="sxs-lookup"><span data-stu-id="b49ea-213">autodiscover.outlook.com</span></span>  <br/> |
+    |<span data-ttu-id="b49ea-214">sip</span><span class="sxs-lookup"><span data-stu-id="b49ea-214">sip</span></span>  <br/> |<span data-ttu-id="b49ea-215">sipdir.online.lync.com</span><span class="sxs-lookup"><span data-stu-id="b49ea-215">sipdir.online.lync.com</span></span>  <br/> |
+    |<span data-ttu-id="b49ea-216">lyncdiscover</span><span class="sxs-lookup"><span data-stu-id="b49ea-216">lyncdiscover</span></span>  <br/> |<span data-ttu-id="b49ea-217">webdir.online.lync.com</span><span class="sxs-lookup"><span data-stu-id="b49ea-217">webdir.online.lync.com</span></span>  <br/> |
+    |<span data-ttu-id="b49ea-218">enterpriseregistration</span><span class="sxs-lookup"><span data-stu-id="b49ea-218">enterpriseregistration</span></span>  <br/> |<span data-ttu-id="b49ea-219">enterpriseregistration.windows.net</span><span class="sxs-lookup"><span data-stu-id="b49ea-219">enterpriseregistration.windows.net</span></span>  <br/> |
+    |<span data-ttu-id="b49ea-220">enterpriseenrollment</span><span class="sxs-lookup"><span data-stu-id="b49ea-220">enterpriseenrollment</span></span>  <br/> |<span data-ttu-id="b49ea-221">enterpriseenrollment-s.manage.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="b49ea-221">enterpriseenrollment-s.manage.microsoft.com</span></span>  <br/> |
    
-    ![CrazyDomains-BP-configure-3-3](../media/81a7b837-3f4d-4565-89a9-380e4d318acf.png)
+    ![CrazyDomains-BP-configure-3-3](../../media/81a7b837-3f4d-4565-89a9-380e4d318acf.png)
   
-9. <span data-ttu-id="7b354-223">Sélectionnez **Ajouter un enregistrement CNAME**.</span><span class="sxs-lookup"><span data-stu-id="7b354-223">Select **Add CNAME Record**.</span></span>
+9. <span data-ttu-id="b49ea-223">Sélectionnez **Ajouter un enregistrement CNAME**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-223">Select **Add CNAME Record**.</span></span>
     
-    ![CrazyDomains-BP-configure-3-4](../media/9bcba729-7085-4ebc-8183-ecde82f5c364.png)
+    ![CrazyDomains-BP-configure-3-4](../../media/9bcba729-7085-4ebc-8183-ecde82f5c364.png)
   
-10. <span data-ttu-id="7b354-225">Ajoutez le deuxième enregistrement CNAME.</span><span class="sxs-lookup"><span data-stu-id="7b354-225">Add the second CNAME record.</span></span>
+10. <span data-ttu-id="b49ea-225">Ajoutez le deuxième enregistrement CNAME.</span><span class="sxs-lookup"><span data-stu-id="b49ea-225">Add the second CNAME record.</span></span>
     
-    <span data-ttu-id="7b354-226">Dans les zones du nouvel enregistrement, utilisez les valeurs de la ligne suivante du tableau, puis sélectionnez de nouveau ajouter un **enregistrement CNAME**.</span><span class="sxs-lookup"><span data-stu-id="7b354-226">In the boxes for the new record, use the values from the next row in the table, and then again select **Add CNAME Record**.</span></span>
+    <span data-ttu-id="b49ea-226">Dans les zones du nouvel enregistrement, utilisez les valeurs de la ligne suivante du tableau, puis sélectionnez de nouveau ajouter un **enregistrement CNAME**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-226">In the boxes for the new record, use the values from the next row in the table, and then again select **Add CNAME Record**.</span></span>
     
-    <span data-ttu-id="7b354-227">Répétez cette procédure jusqu'à avoir créé les 6 enregistrements CNAME.</span><span class="sxs-lookup"><span data-stu-id="7b354-227">Repeat this process until you have created all six CNAME records.</span></span>
+    <span data-ttu-id="b49ea-227">Répétez cette procédure jusqu'à avoir créé les 6 enregistrements CNAME.</span><span class="sxs-lookup"><span data-stu-id="b49ea-227">Repeat this process until you have created all six CNAME records.</span></span>
     
-11. <span data-ttu-id="7b354-228">Sélectionnez **mettre à jour** pour enregistrer vos modifications.</span><span class="sxs-lookup"><span data-stu-id="7b354-228">Select **Update** to save your changes.</span></span> 
+11. <span data-ttu-id="b49ea-228">Sélectionnez **mettre à jour** pour enregistrer vos modifications.</span><span class="sxs-lookup"><span data-stu-id="b49ea-228">Select **Update** to save your changes.</span></span> 
     
-    ![CrazyDomains-BP-configure-3-5](../media/dbe578f6-359c-428c-b296-ca624cecfc3c.png)
+    ![CrazyDomains-BP-configure-3-5](../../media/dbe578f6-359c-428c-b296-ca624cecfc3c.png)
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a><span data-ttu-id="7b354-230">Ajouter un enregistrement TXT pour SPF afin d'éviter le courrier indésirable</span><span class="sxs-lookup"><span data-stu-id="7b354-230">Add a TXT record for SPF to help prevent email spam</span></span>
-<span data-ttu-id="7b354-231"><a name="BKMK_add_TXT"> </a></span><span class="sxs-lookup"><span data-stu-id="7b354-231"><a name="BKMK_add_TXT"> </a></span></span>
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a><span data-ttu-id="b49ea-230">Ajoutez un enregistrement TXT pour SPF afin d'éviter le courrier indésirable</span><span class="sxs-lookup"><span data-stu-id="b49ea-230">Add a TXT record for SPF to help prevent email spam</span></span>
+<span data-ttu-id="b49ea-231"><a name="BKMK_add_TXT"> </a></span><span class="sxs-lookup"><span data-stu-id="b49ea-231"><a name="BKMK_add_TXT"> </a></span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="7b354-232">You cannot have more than one TXT record for SPF for a domain.</span><span class="sxs-lookup"><span data-stu-id="7b354-232">You cannot have more than one TXT record for SPF for a domain.</span></span> <span data-ttu-id="7b354-233">If your domain has more than one SPF record, you'll get email errors, as well as delivery and spam classification issues.</span><span class="sxs-lookup"><span data-stu-id="7b354-233">If your domain has more than one SPF record, you'll get email errors, as well as delivery and spam classification issues.</span></span> <span data-ttu-id="7b354-234">If you already have an SPF record for your domain, don't create a new one for Office 365.</span><span class="sxs-lookup"><span data-stu-id="7b354-234">If you already have an SPF record for your domain, don't create a new one for Office 365.</span></span> <span data-ttu-id="7b354-235">Ajoutez plutôt les valeurs Office 365 requises à l'enregistrement actuel de manière à n'avoir qu'un  *seul*  enregistrement SPF qui inclut les deux ensembles de valeurs.</span><span class="sxs-lookup"><span data-stu-id="7b354-235">Instead, add the required Office 365 values to the current record so that you have a  *single*  SPF record that includes both sets of values.</span></span> 
+> <span data-ttu-id="b49ea-232">Vous ne pouvez avoir qu’un enregistrement TXT pour SPF pour un domaine.</span><span class="sxs-lookup"><span data-stu-id="b49ea-232">You cannot have more than one TXT record for SPF for a domain.</span></span> <span data-ttu-id="b49ea-233">Si votre domaine comporte plusieurs enregistrements SPF, vous rencontrez des erreurs au niveau de la transmission du courrier électronique ainsi que des problèmes de remise du courrier et de classification en tant que courrier indésirable.</span><span class="sxs-lookup"><span data-stu-id="b49ea-233">If your domain has more than one SPF record, you'll get email errors, as well as delivery and spam classification issues.</span></span> <span data-ttu-id="b49ea-234">If you already have an SPF record for your domain, don't create a new one for Office 365.</span><span class="sxs-lookup"><span data-stu-id="b49ea-234">If you already have an SPF record for your domain, don't create a new one for Office 365.</span></span> <span data-ttu-id="b49ea-235">Ajoutez plutôt les valeurs Office 365 requises à l'enregistrement actuel de manière à n'avoir qu'un  *seul*  enregistrement SPF qui inclut les deux ensembles de valeurs.</span><span class="sxs-lookup"><span data-stu-id="b49ea-235">Instead, add the required Office 365 values to the current record so that you have a  *single*  SPF record that includes both sets of values.</span></span> 
   
-1. <span data-ttu-id="7b354-p111">Pour commencer, accédez à la page de vos domaines sur le site Crazy Domains en utilisant [ce lien](https://manage.crazydomains.com/members/domains/). Avant toute chose, vous serez invité à vous connecter.</span><span class="sxs-lookup"><span data-stu-id="7b354-p111">To get started, go to your domains page at Crazy Domains by using [this link](https://manage.crazydomains.com/members/domains/). You'll be prompted to log in first.</span></span>
+1. <span data-ttu-id="b49ea-p111">Pour commencer, accédez à la page de vos domaines sur le site Crazy Domains en utilisant [ce lien](https://manage.crazydomains.com/members/domains/). Avant toute chose, vous serez invité à vous connecter.</span><span class="sxs-lookup"><span data-stu-id="b49ea-p111">To get started, go to your domains page at Crazy Domains by using [this link](https://manage.crazydomains.com/members/domains/). You'll be prompted to log in first.</span></span>
     
-    ![CrazyDomains-BP-configure-1-1](../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
+    ![CrazyDomains-BP-configure-1-1](../../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
   
-2. <span data-ttu-id="7b354-239">Dans la section **mon compte** , sélectionnez **domaines**.</span><span class="sxs-lookup"><span data-stu-id="7b354-239">In the **My Account** section, select **Domains**.</span></span>
+2. <span data-ttu-id="b49ea-239">Dans la section **mon compte** , sélectionnez **domaines**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-239">In the **My Account** section, select **Domains**.</span></span>
     
-    ![CrazyDomains-BP-configure-1-2](../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
+    ![CrazyDomains-BP-configure-1-2](../../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
   
-3. <span data-ttu-id="7b354-241">Dans la page **noms de domaine** , dans la section **domaine** , sélectionnez le nom du domaine que vous mettez à jour.</span><span class="sxs-lookup"><span data-stu-id="7b354-241">On the **Domain Names** page, in the **Domain** section, select the name of the domain that you are updating.</span></span> 
+3. <span data-ttu-id="b49ea-241">Dans la page **noms de domaine** , dans la section **domaine** , sélectionnez le nom du domaine que vous mettez à jour.</span><span class="sxs-lookup"><span data-stu-id="b49ea-241">On the **Domain Names** page, in the **Domain** section, select the name of the domain that you are updating.</span></span> 
     
-    ![CrazyDomains-BP-configure-1-3](../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
+    ![CrazyDomains-BP-configure-1-3](../../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
   
-4. <span data-ttu-id="7b354-243">Dans la section **paramètres DNS** , sélectionnez l’icône de la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="7b354-243">In the **DNS Settings** section, select the drop-down list icon.</span></span> 
+4. <span data-ttu-id="b49ea-243">Dans la section **paramètres DNS** , sélectionnez l’icône de la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="b49ea-243">In the **DNS Settings** section, select the drop-down list icon.</span></span> 
     
-    ![CrazyDomains-BP-configure-1-4-1](../media/c7573fbf-467d-49c1-abb6-8c7b9b4af83d.png)
+    ![CrazyDomains-BP-configure-1-4-1](../../media/c7573fbf-467d-49c1-abb6-8c7b9b4af83d.png)
   
-5. <span data-ttu-id="7b354-245">Sélectionnez **Ajouter un enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="7b354-245">Select **Add Record**.</span></span>
+5. <span data-ttu-id="b49ea-245">Sélectionnez **Ajouter un enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-245">Select **Add Record**.</span></span>
     
-    ![CrazyDomains-BP-configure-1-4-2](../media/7bef31f5-f180-4b61-a462-9326789e770f.png)
+    ![CrazyDomains-BP-configure-1-4-2](../../media/7bef31f5-f180-4b61-a462-9326789e770f.png)
   
-6. <span data-ttu-id="7b354-247">Choisissez **TXT Record** (Enregistrement TXT) dans la liste déroulante **Add Record** (Ajouter un enregistrement).</span><span class="sxs-lookup"><span data-stu-id="7b354-247">Choose **TXT Record** from the **Add Record:** drop-down list.</span></span> 
+6. <span data-ttu-id="b49ea-247">Choisissez **TXT Record** (Enregistrement TXT) dans la liste déroulante **Add Record** (Ajouter un enregistrement).</span><span class="sxs-lookup"><span data-stu-id="b49ea-247">Choose **TXT Record** from the **Add Record:** drop-down list.</span></span> 
     
-    ![CrazyDomains-BP-configure-4-1](../media/7f2461e2-0468-49bd-9eb0-981e9b2f72d6.png)
+    ![CrazyDomains-BP-configure-4-1](../../media/7f2461e2-0468-49bd-9eb0-981e9b2f72d6.png)
   
-7. <span data-ttu-id="7b354-249">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="7b354-249">Select **Add**.</span></span>
+7. <span data-ttu-id="b49ea-249">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-249">Select **Add**.</span></span>
     
-    ![CrazyDomains-BP-configure-4-2](../media/64ef9e1f-676d-46e2-9253-a83d9bcd1c4e.png)
+    ![CrazyDomains-BP-configure-4-2](../../media/64ef9e1f-676d-46e2-9253-a83d9bcd1c4e.png)
   
-8. <span data-ttu-id="7b354-251">Dans les zones du nouvel enregistrement, tapez ou copiez-collez les valeurs du tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="7b354-251">In the boxes for the new record, type or paste the values from the following table.</span></span>
+8. <span data-ttu-id="b49ea-251">Dans les zones du nouvel enregistrement, tapez ou copiez-collez les valeurs du tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="b49ea-251">In the boxes for the new record, type or paste the values from the following table.</span></span>
     
-    |<span data-ttu-id="7b354-252">**Sub Domain (Sous-domaine)**</span><span class="sxs-lookup"><span data-stu-id="7b354-252">**Sub Domain**</span></span>|<span data-ttu-id="7b354-253">**Text Record (Enregistrement texte)**</span><span class="sxs-lookup"><span data-stu-id="7b354-253">**Text Record**</span></span>|
+    |<span data-ttu-id="b49ea-252">**Sub Domain (Sous-domaine)**</span><span class="sxs-lookup"><span data-stu-id="b49ea-252">**Sub Domain**</span></span>|<span data-ttu-id="b49ea-253">**Text Record (Enregistrement texte)**</span><span class="sxs-lookup"><span data-stu-id="b49ea-253">**Text Record**</span></span>|
     |:-----|:-----|
-    |<span data-ttu-id="7b354-254">(Laissez ce champ vide.)</span><span class="sxs-lookup"><span data-stu-id="7b354-254">(Leave this field empty.)</span></span>  <br/> |<span data-ttu-id="7b354-255">v=spf1 include:spf.protection.outlook.com -all</span><span class="sxs-lookup"><span data-stu-id="7b354-255">v=spf1 include:spf.protection.outlook.com -all</span></span>  <br/> <span data-ttu-id="7b354-256">**Remarque :** Nous vous recommandons de copier et coller cette entrée, afin que l’espacement reste correcte.</span><span class="sxs-lookup"><span data-stu-id="7b354-256">**Note:** We recommend copying and pasting this entry, so that all of the spacing stays correct.</span></span>           |
+    |<span data-ttu-id="b49ea-254">(Laissez ce champ vide.)</span><span class="sxs-lookup"><span data-stu-id="b49ea-254">(Leave this field empty.)</span></span>  <br/> |<span data-ttu-id="b49ea-255">v=spf1 include:spf.protection.outlook.com -all</span><span class="sxs-lookup"><span data-stu-id="b49ea-255">v=spf1 include:spf.protection.outlook.com -all</span></span>  <br/> <span data-ttu-id="b49ea-256">**Remarque :** nous vous recommandons de copier et coller cette entrée, afin que l’espacement reste correcte.</span><span class="sxs-lookup"><span data-stu-id="b49ea-256">**Note:** We recommend copying and pasting this entry, so that all of the spacing stays correct.</span></span>           |
    
-    ![CrazyDomains-BP-configure-4-3](../media/e7fd524a-c94b-4cdd-b264-67abb532a71b.png)
+    ![CrazyDomains-BP-configure-4-3](../../media/e7fd524a-c94b-4cdd-b264-67abb532a71b.png)
   
-9. <span data-ttu-id="7b354-258">Sélectionnez **Mettre à jour**.</span><span class="sxs-lookup"><span data-stu-id="7b354-258">Select **Update**.</span></span>
+9. <span data-ttu-id="b49ea-258">Sélectionnez **Mettre à jour**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-258">Select **Update**.</span></span>
     
-    ![CrazyDomains-BP-configure-4-4](../media/d4f378ee-0f14-46ae-ba32-1596660ecf91.png)
+    ![CrazyDomains-BP-configure-4-4](../../media/d4f378ee-0f14-46ae-ba32-1596660ecf91.png)
   
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a><span data-ttu-id="7b354-260">Ajouter les 2 enregistrements SRV requis pour Office 365</span><span class="sxs-lookup"><span data-stu-id="7b354-260">Add the two SRV records that are required for Office 365</span></span>
-<span data-ttu-id="7b354-261"><a name="BKMK_add_SRV"> </a></span><span class="sxs-lookup"><span data-stu-id="7b354-261"><a name="BKMK_add_SRV"> </a></span></span>
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a><span data-ttu-id="b49ea-260">Ajoutez les 2 enregistrements SRV requis pour Office 365</span><span class="sxs-lookup"><span data-stu-id="b49ea-260">Add the two SRV records that are required for Office 365</span></span>
+<span data-ttu-id="b49ea-261"><a name="BKMK_add_SRV"> </a></span><span class="sxs-lookup"><span data-stu-id="b49ea-261"><a name="BKMK_add_SRV"> </a></span></span>
 
-1. <span data-ttu-id="7b354-p112">Pour commencer, accédez à la page de vos domaines sur le site Crazy Domains en utilisant [ce lien](https://manage.crazydomains.com/members/domains/). Avant toute chose, vous serez invité à vous connecter.</span><span class="sxs-lookup"><span data-stu-id="7b354-p112">To get started, go to your domains page at Crazy Domains by using [this link](https://manage.crazydomains.com/members/domains/). You'll be prompted to log in first.</span></span>
+1. <span data-ttu-id="b49ea-p112">Pour commencer, accédez à la page de vos domaines sur le site Crazy Domains en utilisant [ce lien](https://manage.crazydomains.com/members/domains/). Avant toute chose, vous serez invité à vous connecter.</span><span class="sxs-lookup"><span data-stu-id="b49ea-p112">To get started, go to your domains page at Crazy Domains by using [this link](https://manage.crazydomains.com/members/domains/). You'll be prompted to log in first.</span></span>
     
-    ![CrazyDomains-BP-configure-1-1](../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
+    ![CrazyDomains-BP-configure-1-1](../../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
   
-2. <span data-ttu-id="7b354-265">Dans la section **mon compte** , sélectionnez **domaines**.</span><span class="sxs-lookup"><span data-stu-id="7b354-265">In the **My Account** section, select **Domains**.</span></span>
+2. <span data-ttu-id="b49ea-265">Dans la section **mon compte** , sélectionnez **domaines**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-265">In the **My Account** section, select **Domains**.</span></span>
     
-    ![CrazyDomains-BP-configure-1-2](../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
+    ![CrazyDomains-BP-configure-1-2](../../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
   
-3. <span data-ttu-id="7b354-267">Dans la page **noms de domaine** , dans la section **domaine** , sélectionnez le nom du domaine que vous mettez à jour.</span><span class="sxs-lookup"><span data-stu-id="7b354-267">On the **Domain Names** page, in the **Domain** section, select the name of the domain that you are updating.</span></span> 
+3. <span data-ttu-id="b49ea-267">Dans la page **noms de domaine** , dans la section **domaine** , sélectionnez le nom du domaine que vous mettez à jour.</span><span class="sxs-lookup"><span data-stu-id="b49ea-267">On the **Domain Names** page, in the **Domain** section, select the name of the domain that you are updating.</span></span> 
     
-    ![CrazyDomains-BP-configure-1-3](../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
+    ![CrazyDomains-BP-configure-1-3](../../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
   
-4. <span data-ttu-id="7b354-269">Dans la section **paramètres DNS** , sélectionnez l’icône de la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="7b354-269">In the **DNS Settings** section, select the drop-down list icon.</span></span> 
+4. <span data-ttu-id="b49ea-269">Dans la section **paramètres DNS** , sélectionnez l’icône de la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="b49ea-269">In the **DNS Settings** section, select the drop-down list icon.</span></span> 
     
-    ![CrazyDomains-BP-configure-1-4-1](../media/c7573fbf-467d-49c1-abb6-8c7b9b4af83d.png)
+    ![CrazyDomains-BP-configure-1-4-1](../../media/c7573fbf-467d-49c1-abb6-8c7b9b4af83d.png)
   
-5. <span data-ttu-id="7b354-271">Sélectionnez **Ajouter un enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="7b354-271">Select **Add Record**.</span></span>
+5. <span data-ttu-id="b49ea-271">Sélectionnez **Ajouter un enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-271">Select **Add Record**.</span></span>
     
-    ![CrazyDomains-BP-configure-1-4-2](../media/7bef31f5-f180-4b61-a462-9326789e770f.png)
+    ![CrazyDomains-BP-configure-1-4-2](../../media/7bef31f5-f180-4b61-a462-9326789e770f.png)
   
-6. <span data-ttu-id="7b354-273">Choisissez **SRV Record** (Enregistrement SRV) dans la liste déroulante **Add Record** (Ajouter un enregistrement).</span><span class="sxs-lookup"><span data-stu-id="7b354-273">Choose **SRV Record** from the **Add Record:** drop-down list.</span></span> 
+6. <span data-ttu-id="b49ea-273">Choisissez **SRV Record** (Enregistrement SRV) dans la liste déroulante **Add Record** (Ajouter un enregistrement).</span><span class="sxs-lookup"><span data-stu-id="b49ea-273">Choose **SRV Record** from the **Add Record:** drop-down list.</span></span> 
     
-    ![CrazyDomains-BP-configure-5-1](../media/156acebc-7f6d-4b5e-8493-6bc62ca0ee27.png)
+    ![CrazyDomains-BP-configure-5-1](../../media/156acebc-7f6d-4b5e-8493-6bc62ca0ee27.png)
   
-7. <span data-ttu-id="7b354-275">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="7b354-275">Select **Add**.</span></span>
+7. <span data-ttu-id="b49ea-275">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-275">Select **Add**.</span></span>
     
-    ![CrazyDomains-BP-configure-5-2](../media/6a711df7-4215-49b2-b58f-1cf1a242b383.png)
+    ![CrazyDomains-BP-configure-5-2](../../media/6a711df7-4215-49b2-b58f-1cf1a242b383.png)
   
-8. <span data-ttu-id="7b354-277">Ajoutez le premier des deux enregistrements SRV.</span><span class="sxs-lookup"><span data-stu-id="7b354-277">Add the first of the two SRV records.</span></span>
+8. <span data-ttu-id="b49ea-277">Ajoutez le premier des deux enregistrements SRV.</span><span class="sxs-lookup"><span data-stu-id="b49ea-277">Add the first of the two SRV records.</span></span>
     
-    <span data-ttu-id="7b354-278">Dans les zones du nouvel enregistrement, tapez ou copiez-collez les valeurs de la première ligne du tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="7b354-278">In the boxes for the new record, type or copy and paste the values from the first row of the following table.</span></span>
+    <span data-ttu-id="b49ea-278">Dans les zones du nouvel enregistrement, tapez ou copiez-collez les valeurs de la première ligne du tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="b49ea-278">In the boxes for the new record, type or copy and paste the values from the first row of the following table.</span></span>
     
-    |<span data-ttu-id="7b354-279">**Record Type (Type d'enregistrement)**</span><span class="sxs-lookup"><span data-stu-id="7b354-279">**Record Type**</span></span>|<span data-ttu-id="7b354-280">**Sub Domain (Sous-domaine)**</span><span class="sxs-lookup"><span data-stu-id="7b354-280">**Sub Domain**</span></span>|<span data-ttu-id="7b354-281">**Priority (Priorité)**</span><span class="sxs-lookup"><span data-stu-id="7b354-281">**Priority**</span></span>|<span data-ttu-id="7b354-282">**Weight (Poids)**</span><span class="sxs-lookup"><span data-stu-id="7b354-282">**Weight**</span></span>|<span data-ttu-id="7b354-283">**Port**</span><span class="sxs-lookup"><span data-stu-id="7b354-283">**Port**</span></span>|<span data-ttu-id="7b354-284">**Target (Cible)**</span><span class="sxs-lookup"><span data-stu-id="7b354-284">**Target**</span></span>|
+    |<span data-ttu-id="b49ea-279">**Record Type (Type d'enregistrement)**</span><span class="sxs-lookup"><span data-stu-id="b49ea-279">**Record Type**</span></span>|<span data-ttu-id="b49ea-280">**Sub Domain (Sous-domaine)**</span><span class="sxs-lookup"><span data-stu-id="b49ea-280">**Sub Domain**</span></span>|<span data-ttu-id="b49ea-281">**Priority (Priorité)**</span><span class="sxs-lookup"><span data-stu-id="b49ea-281">**Priority**</span></span>|<span data-ttu-id="b49ea-282">**Weight (Poids)**</span><span class="sxs-lookup"><span data-stu-id="b49ea-282">**Weight**</span></span>|<span data-ttu-id="b49ea-283">**Port (Port)**</span><span class="sxs-lookup"><span data-stu-id="b49ea-283">**Port**</span></span>|<span data-ttu-id="b49ea-284">**Target (Cible)**</span><span class="sxs-lookup"><span data-stu-id="b49ea-284">**Target**</span></span>|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |<span data-ttu-id="7b354-285">SRV Record (Enregistrement SRV)</span><span class="sxs-lookup"><span data-stu-id="7b354-285">SRV Record</span></span>  <br/> |<span data-ttu-id="7b354-286">_sip. _tls</span><span class="sxs-lookup"><span data-stu-id="7b354-286">_sip._tls</span></span>  <br/> |<span data-ttu-id="7b354-287">100</span><span class="sxs-lookup"><span data-stu-id="7b354-287">100</span></span>  <br/> |<span data-ttu-id="7b354-288">0,1</span><span class="sxs-lookup"><span data-stu-id="7b354-288">1</span></span>  <br/> |<span data-ttu-id="7b354-289">443</span><span class="sxs-lookup"><span data-stu-id="7b354-289">443</span></span>  <br/> |<span data-ttu-id="7b354-290">sipdir.online.lync.com</span><span class="sxs-lookup"><span data-stu-id="7b354-290">sipdir.online.lync.com</span></span>  <br/> |
-    |<span data-ttu-id="7b354-291">SRV Record (Enregistrement SRV)</span><span class="sxs-lookup"><span data-stu-id="7b354-291">SRV Record</span></span>  <br/> |<span data-ttu-id="7b354-292">_sipfederationtls. _tcp</span><span class="sxs-lookup"><span data-stu-id="7b354-292">_sipfederationtls._tcp</span></span>  <br/> |<span data-ttu-id="7b354-293">100</span><span class="sxs-lookup"><span data-stu-id="7b354-293">100</span></span>  <br/> |<span data-ttu-id="7b354-294">0,1</span><span class="sxs-lookup"><span data-stu-id="7b354-294">1</span></span>  <br/> |<span data-ttu-id="7b354-295">5061</span><span class="sxs-lookup"><span data-stu-id="7b354-295">5061</span></span>  <br/> |<span data-ttu-id="7b354-296">sipfed.online.lync.com</span><span class="sxs-lookup"><span data-stu-id="7b354-296">sipfed.online.lync.com</span></span>  <br/> |
+    |<span data-ttu-id="b49ea-285">SRV Record (Enregistrement SRV)</span><span class="sxs-lookup"><span data-stu-id="b49ea-285">SRV Record</span></span>  <br/> |<span data-ttu-id="b49ea-286">_sip. _tls</span><span class="sxs-lookup"><span data-stu-id="b49ea-286">_sip._tls</span></span>  <br/> |<span data-ttu-id="b49ea-287">100</span><span class="sxs-lookup"><span data-stu-id="b49ea-287">100</span></span>  <br/> |<span data-ttu-id="b49ea-288">0,1</span><span class="sxs-lookup"><span data-stu-id="b49ea-288">1</span></span>  <br/> |<span data-ttu-id="b49ea-289">443</span><span class="sxs-lookup"><span data-stu-id="b49ea-289">443</span></span>  <br/> |<span data-ttu-id="b49ea-290">sipdir.online.lync.com</span><span class="sxs-lookup"><span data-stu-id="b49ea-290">sipdir.online.lync.com</span></span>  <br/> |
+    |<span data-ttu-id="b49ea-291">SRV Record (Enregistrement SRV)</span><span class="sxs-lookup"><span data-stu-id="b49ea-291">SRV Record</span></span>  <br/> |<span data-ttu-id="b49ea-292">_sipfederationtls. _tcp</span><span class="sxs-lookup"><span data-stu-id="b49ea-292">_sipfederationtls._tcp</span></span>  <br/> |<span data-ttu-id="b49ea-293">100</span><span class="sxs-lookup"><span data-stu-id="b49ea-293">100</span></span>  <br/> |<span data-ttu-id="b49ea-294">0,1</span><span class="sxs-lookup"><span data-stu-id="b49ea-294">1</span></span>  <br/> |<span data-ttu-id="b49ea-295">5061</span><span class="sxs-lookup"><span data-stu-id="b49ea-295">5061</span></span>  <br/> |<span data-ttu-id="b49ea-296">sipfed.online.lync.com</span><span class="sxs-lookup"><span data-stu-id="b49ea-296">sipfed.online.lync.com</span></span>  <br/> |
    
-    ![CrazyDomains-BP-configure-5-3](../media/cc0ea6eb-7358-434e-bd1a-2737725c6d41.png)
+    ![CrazyDomains-BP-configure-5-3](../../media/cc0ea6eb-7358-434e-bd1a-2737725c6d41.png)
   
-9. <span data-ttu-id="7b354-298">Sélectionnez **Ajouter un enregistrement SRV**.</span><span class="sxs-lookup"><span data-stu-id="7b354-298">Select **Add SRV Record**.</span></span>
+9. <span data-ttu-id="b49ea-298">Sélectionnez **Ajouter un enregistrement SRV**.</span><span class="sxs-lookup"><span data-stu-id="b49ea-298">Select **Add SRV Record**.</span></span>
     
-    ![CrazyDomains-BP-configure-5-4](../media/de4ec312-6833-469a-b23a-f376140a35ca.png)
+    ![CrazyDomains-BP-configure-5-4](../../media/de4ec312-6833-469a-b23a-f376140a35ca.png)
   
-10. <span data-ttu-id="7b354-300">Ajoutez l'autre enregistrement SRV.</span><span class="sxs-lookup"><span data-stu-id="7b354-300">Add the other SRV record.</span></span>
+10. <span data-ttu-id="b49ea-300">Ajoutez l'autre enregistrement SRV.</span><span class="sxs-lookup"><span data-stu-id="b49ea-300">Add the other SRV record.</span></span>
     
-    <span data-ttu-id="7b354-301">Dans les zones du nouvel enregistrement, utilisez les valeurs de la deuxième ligne du tableau.</span><span class="sxs-lookup"><span data-stu-id="7b354-301">In the boxes for the new record, use the values from the second row in the table.</span></span>
+    <span data-ttu-id="b49ea-301">Dans les zones du nouvel enregistrement, utilisez les valeurs de la deuxième ligne du tableau.</span><span class="sxs-lookup"><span data-stu-id="b49ea-301">In the boxes for the new record, use the values from the second row in the table.</span></span>
     
-11. <span data-ttu-id="7b354-302">Sélectionnez **mettre à jour** pour enregistrer vos modifications.</span><span class="sxs-lookup"><span data-stu-id="7b354-302">Select **Update** to save your changes.</span></span> 
+11. <span data-ttu-id="b49ea-302">Sélectionnez **mettre à jour** pour enregistrer vos modifications.</span><span class="sxs-lookup"><span data-stu-id="b49ea-302">Select **Update** to save your changes.</span></span> 
     
-    ![CrazyDomains-BP-configure-5-5](../media/f0bb1dd6-3772-4293-bf74-710f635e0658.png)
+    ![CrazyDomains-BP-configure-5-5](../../media/f0bb1dd6-3772-4293-bf74-710f635e0658.png)
   
 > [!NOTE]
-> <span data-ttu-id="7b354-p113">L'application des enregistrements DNS modifiés prend généralement 15 minutes. Il peut toutefois arriver que la répercussion d'une modification dans le système DNS sur Internet prenne davantage de temps. Si vous rencontrez des problèmes avec le flux de messages ou d'autres problèmes suite à l'ajout des enregistrements DNS, voir [Résolution des problèmes suite à la modification de votre nom de domaine ou des enregistrements DNS](../get-help-with-domains/find-and-fix-issues.md).</span><span class="sxs-lookup"><span data-stu-id="7b354-p113">Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).</span></span> 
+> <span data-ttu-id="b49ea-p113">L'application des enregistrements DNS modifiés prend généralement 15 minutes. Il peut toutefois arriver que la répercussion d'une modification dans le système DNS sur Internet prenne davantage de temps. Si vous rencontrez des problèmes avec le flux de messages ou d'autres problèmes suite à l'ajout des enregistrements DNS, voir [Résolution des problèmes suite à la modification de votre nom de domaine ou des enregistrements DNS](../get-help-with-domains/find-and-fix-issues.md).</span><span class="sxs-lookup"><span data-stu-id="b49ea-p113">Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).</span></span> 
   

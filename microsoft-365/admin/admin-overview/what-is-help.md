@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ROBOTS: NOINDEX
 description: Découvrez toutes les façons dont vous pouvez obtenir de l’aide à l’aide du centre d’administration Microsoft 365.
-ms.openlocfilehash: 4aa2d46121aa1a817381592a02bbb9b875207427
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2d75add5b34a760358523de6e6f10553c1984abe
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42239300"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352975"
 ---
 <!-- The following is just placeholder text from Madhura's mail. We need to add images/examples of each -->
 
@@ -43,7 +43,7 @@ Si vous êtes administrateur, [admin.Microsoft.com](https://admin.microsoft.com)
                     <a href="what-is-help.md#integrated-help">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../media/what-is-help/M365_WhatisHelp_IntegratedHelp.png" alt="Integrated help" />
+                                <img src="../../media/what-is-help/M365_WhatisHelp_IntegratedHelp.png" alt="Integrated help" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -62,7 +62,7 @@ Si vous êtes administrateur, [admin.Microsoft.com](https://admin.microsoft.com)
                     <a href="what-is-help.md#modern-self-help-powered-by-ai">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../media/what-is-help/M365_WhatisHelp_IntelligentAssistance.png" alt="Intelligent assistance" />
+                                <img src="../../media/what-is-help/M365_WhatisHelp_IntelligentAssistance.png" alt="Intelligent assistance" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -81,7 +81,7 @@ Si vous êtes administrateur, [admin.Microsoft.com](https://admin.microsoft.com)
                     <a href="what-is-help.md#guides-and-articles">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../media/what-is-help/M365_WhatisHelp_ArticlesGuides.png" alt="Guides and articles" />
+                                <img src="../../media/what-is-help/M365_WhatisHelp_ArticlesGuides.png" alt="Guides and articles" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -98,7 +98,7 @@ Si vous êtes administrateur, [admin.Microsoft.com](https://admin.microsoft.com)
 ## <a name="integrated-help"></a>Aide intégrée
 L’aide est intégrée dans le centre d’administration, c’est là dès que vous en avez besoin. En haut de la plupart des pages, vous trouverez un texte d’aide inline qui fournit une vue d’ensemble de la tâche, ainsi que des liens vers des articles qui vous permettent de trouver rapidement une documentation officielle pour une formation plus approfondie.
 
-![Page groupes affichant l’aide incorporée et des liens vers des Articles](../media/integrated-help.png)
+![Page groupes affichant l’aide incorporée et des liens vers des Articles](../../media/integrated-help.png)
 
 ## <a name="modern-self-help-powered-by-ai"></a>Auto-assistance moderne alimentée par les IA
 
@@ -106,7 +106,7 @@ La sélection du bouton « besoin d’aide » dans le centre d’administratio
 
 Vous pouvez également utiliser l’Assistant support technique pour les moments où vous ne maîtrisez pas vraiment la façon d’effectuer une opération dans votre situation spécifique. Cette expérience est actuellement disponible uniquement en anglais. Utilisez simplement le bouton bascule en haut du volet « besoin d’aide » pour l’activer. L’Assistant support fournit une interface de conversation pour obtenir de l’aide. Entrez votre requête, et chatbot vous demandera de clarifier vos questions afin de trouver la bonne réponse pour votre situation spécifique. Imaginez-le comme votre assistance virtuelle pour découvrir des solutions et effectuer des tâches.
 
-![Auto-assistance moderne](../media/help-options.png)
+![Auto-assistance moderne](../../media/help-options.png)
 
 Bien entendu, il arrive que des questions soient les plus fréquemment traitées par les êtres humains. Si notre propre assistance moderne ne répond pas, vous avez toujours la possibilité de contacter nos agents de support technique.
 
