@@ -55,6 +55,8 @@
               href: ./mtp/troubleshoot.md
         - name: Guides de procédures
           items:
+            - name: Déployer les services pris en charge
+              href: mtp/deploy-supported-services.md
             - name: Activer la Protection Microsoft contre les menaces
               href: mtp/mtp-enable.md
             - name: Incidents
