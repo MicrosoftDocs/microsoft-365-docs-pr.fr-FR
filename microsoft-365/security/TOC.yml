@@ -85,8 +85,6 @@
                   href: mtp/mtp-autoir-report-false-positives-negatives.md
             - name: Repérage avancé
               items:
-                - name: "Repérage dans Microsoft\_365"
-                  href: mtp/hunting.md
                 - name: Vue d’ensemble du repérage avancé
                   href: mtp/advanced-hunting-overview.md
                 - name: Apprendre le langage de requête
