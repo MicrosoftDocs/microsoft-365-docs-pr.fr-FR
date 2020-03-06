@@ -43,6 +43,8 @@
               href: mtp/microsoft-threat-protection.md
             - name: Nouveautés de la protection Microsoft contre les menaces
               href: mtp/whats-new.md
+            - name: Fonctionnalités de préversion
+              href: mtp/preview.md
             - name: "Centre de sécurité Microsoft\_365"
               href: mtp/overview-security-center.md
             - name: Conditions préalables
