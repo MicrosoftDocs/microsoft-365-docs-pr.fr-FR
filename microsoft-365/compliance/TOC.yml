@@ -74,7 +74,7 @@
 - name: Gérer la protection des informations
   href: protect-information.md
   items:
-    - name: Étiquettes de niveau de confidentialité
+    - name: Étiquettes de confidentialité
       items:
         - name: En savoir plus sur les étiquettes de niveau de confidentialité
           href: sensitivity-labels.md
@@ -335,76 +335,105 @@
           items:
             - name: Regarder des vidéos sur la gestion des enregistrements
               href: 'https://go.microsoft.com/fwlink/?linkid=867039'
-- name: Recherche de contenu
-  href: search-for-content.md
+- name: Gérer eDiscovery
   items:
-    - name: Utiliser la recherche de contenu
-      href: content-search.md
+    - name: Recherche de contenu
       items:
-        - name: Requêtes par mots clés et conditions de recherche pour la recherche de contenu
-          href: keyword-queries-and-search-conditions.md
-        - name: Afficher les statistiques de mot clé pour les résultats de recherche de contenu
-          href: view-keyword-statistics-for-content-search.md
-        - name: Exporter les résultats de la recherche de contenu
-          href: export-search-results.md
-        - name: Exporter un rapport de recherche de contenu
-          href: export-a-content-search-report.md
-        - name: Rechercher et supprimer des messages électroniques
-          href: search-for-and-delete-messages-in-your-organization.md
-        - name: Rechercher les boîtes aux lettres sur le cloud des utilisateurs locaux dans Office 365
-          href: search-cloud-based-mailboxes-for-on-premises-users.md
-        - name: Modification en bloc de plusieurs recherches de contenu
-          href: bulk-edit-content-searches.md
-        - name: Préparer un fichier CSV pour une recherche de contenu de liste d’ID
-          href: csv-file-for-an-id-list-content-search.md
-        - name: Utiliser la recherche de contenu pour rechercher des données tierces
-          href: use-content-search-to-search-third-party-data-that-was-imported.md
-        - name: Vérifier la présence d’erreurs dans vos requêtes de recherche de contenu
-          href: check-your-content-search-query-for-errors.md
-        - name: Réessayer une recherche de contenu qui a échoué
-          href: retry-failed-content-search.md
-        - name: Conserver les destinataires Cci pour la recherche de contenu
-          href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
-    - name: Comprendre la recherche de contenu
+        - name: Vue d’ensemble de la recherche de contenu
+          href: search-for-content.md
+        - name: Utiliser la recherche de contenu
+          href: content-search.md
+          items:
+            - name: Requêtes de mots clés et conditions de recherche
+              href: keyword-queries-and-search-conditions.md
+            - name: Afficher les statistiques des mots clés pour les résultats de la recherche
+              href: view-keyword-statistics-for-content-search.md
+            - name: Exporter les résultats de la recherche
+              href: export-search-results.md
+            - name: Exporter un rapport de recherche
+              href: export-a-content-search-report.md
+            - name: Rechercher et supprimer des messages électroniques
+              href: search-for-and-delete-messages-in-your-organization.md
+            - name: Effectuer des recherches dans les boîtes aux lettres en nuage des utilisateurs locaux
+              href: search-cloud-based-mailboxes-for-on-premises-users.md
+            - name: Modifier en bloc plusieurs recherches de contenu
+              href: bulk-edit-content-searches.md
+            - name: Préparer un fichier CSV pour une recherche de liste d’ID
+              href: csv-file-for-an-id-list-content-search.md
+            - name: Rechercher des données tierces
+              href: use-content-search-to-search-third-party-data-that-was-imported.md
+            - name: Vérifier les erreurs de votre requête de recherche
+              href: check-your-content-search-query-for-errors.md
+            - name: Résoudre les problèmes eDiscovery courants
+              href: ediscovery-troubleshooting-common-issues.md
+            - name: Nouvelle tentative d’une recherche ayant échoué
+              href: retry-failed-content-search.md
+            - name: Conserver les destinataires CCI pour la recherche
+              href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
+        - name: Configurer la recherche de contenu
+          items:
+            - name: Configurer le filtrage des autorisations pour la recherche de contenu
+              href: permissions-filtering-for-content-search.md
+            - name: Augmenter la vitesse de téléchargement lors de l’exportation des résultats de recherche
+              href: increase-download-speeds-when-exporting-ediscovery-results.md
+            - name: Modifier la taille des fichiers PST lors de l’exportation des résultats de la recherche
+              href: change-the-size-of-pst-files-when-exporting-results.md
+            - name: Désactiver les rapports lors de l’exportation des résultats de la recherche
+              href: disable-reports-when-you-export-content-search-results.md
+        - name: Comprendre la recherche de contenu
+          items:
+            - name: Limites de la recherche de contenu
+              href: limits-for-content-search.md
+            - name: Éléments partiellement indexés
+              href: partially-indexed-items-in-content-search.md
+            - name: Étude d’éléments indexés partiellement
+              href: investigating-partially-indexed-items-in-ediscovery.md
+            - name: Déduplication dans les résultats de la recherche
+              href: de-duplication-in-ediscovery-search-results.md
+            - name: Différences entre les résultats de recherche estimés et réels
+              href: differences-between-estimated-and-actual-ediscovery-search-results.md
+        - name: Exécuter des scripts PowerShell de recherche de contenu
+          items:
+            - name: Utiliser la recherche de contenu pour les collections ciblées
+              href: use-content-search-for-targeted-collections.md
+            - name: Rechercher une liste d’utilisateurs dans la boîte aux lettres et le compte OneDrive
+              href: search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md
+            - name: 'Créer, générer des rapports et supprimer plusieurs recherches'
+              href: create-report-on-and-delete-multiple-content-searches.md
+            - name: Cloner une recherche
+              href: clone-a-content-search.md
+    - name: Découverte électronique principale
       items:
-        - name: Limites de recherche de contenu
-          href: limits-for-content-search.md
-        - name: Éléments partiellement indexés dans la recherche de contenu
-          href: partially-indexed-items-in-content-search.md
-        - name: Étude d’éléments indexés partiellement
-          href: investigating-partially-indexed-items-in-ediscovery.md
-        - name: Déduplication dans les résultats de recherche eDiscovery
-          href: de-duplication-in-ediscovery-search-results.md
-        - name: Différences entre les résultats de recherche de contenu estimés et réels
-          href: differences-between-estimated-and-actual-ediscovery-search-results.md
-    - name: Configurer la recherche de contenu
+        - name: Gérer des cas eDiscovery
+          href: ediscovery-cases.md
+        - name: Référence de découverte électronique principale
+          items:
+            - name: Attribution d’autorisations de découverte électronique
+              href: assign-ediscovery-permissions.md
+            - name: Requêtes de mots clés et conditions de recherche
+              href: keyword-queries-and-search-conditions.md
+            - name: Configurer le filtrage des autorisations de recherche
+              href: permissions-filtering-for-content-search.md
+            - name: Configuration des limites de conformité
+              href: set-up-compliance-boundaries.md
+            - name: Utiliser un script pour ajouter des utilisateurs à une conservation eDiscovery
+              href: use-a-script-to-add-users-to-a-hold-in-ediscovery.md
+            - name: Création d’un rapport sur les conservations eDiscovery
+              href: create-a-report-on-holds-in-ediscovery-cases.md
+            - name: Rechercher et purger les données propagées
+              href: data-spillage-scenariosearch-and-purge.md
+            - name: Conserver les destinataires CCI pour la recherche
+              href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
+            - name: Résoudre les problèmes eDiscovery courants
+              href: ediscovery-troubleshooting-common-issues.md
+            - name: Nouvelle tentative d’une recherche ayant échoué
+              href: retry-failed-content-search.md
+    - name: Advanced eDiscovery
       items:
-        - name: Configuration du filtrage des autorisations pour la recherche de contenu
-          href: permissions-filtering-for-content-search.md
-        - name: Augmenter la vitesse de téléchargement lors de l’exportation de résultats de recherche de contenu
-          href: increase-download-speeds-when-exporting-ediscovery-results.md
-        - name: Modifier la taille des fichiers PST lors de l’exportation de résultats de recherche de contenu
-          href: change-the-size-of-pst-files-when-exporting-results.md
-        - name: Désactiver les rapports lorsque vous exportez les résultats de recherche de contenu
-          href: disable-reports-when-you-export-content-search-results.md
-    - name: Utiliser des scripts PowerShell de recherche contenu
-      items:
-        - name: Utiliser la recherche de contenu pour les regroupements ciblés
-          href: use-content-search-for-targeted-collections.md
-        - name: Utiliser la recherche de contenu pour rechercher une liste d’utilisateurs dans la boîte aux lettres et OneDrive Entreprise
-          href: search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md
-        - name: 'Créer, générer des rapports et supprimer plusieurs recherches de contenu'
-          href: create-report-on-and-delete-multiple-content-searches.md
-        - name: Cloner une recherche de contenu
-          href: clone-a-content-search.md
-- name: Gérer les enquêtes juridiques
-  href: manage-legal-investigations.md
-  items:
-    - name: "Solution Advanced eDiscovery dans Microsoft\_365"
-      href: overview-ediscovery-20.md
-      items:
-        - name: Créer un nouveau cas
-          href: create-new-ediscovery-case.md
+        - name: Vue d’ensemble de la fonctionnalité eDiscovery avancée
+          href: overview-ediscovery-20.md
+        - name: Prise en main de la découverte électronique avancée
+          href: get-started-with-advanced-ediscovery.md
         - name: Utiliser des consignataires
           href: managing-custodians.md
           items:
@@ -443,6 +472,8 @@
               href: create-search-to-collect-data.md
             - name: Créer des requêtes de recherche
               href: building-search-queries.md
+            - name: Requêtes de mots clés et conditions de recherche
+              href: keyword-queries-and-search-conditions.md
             - name: Statistiques de recherche
               href: search-statistics.md
             - name: Ajouter des résultats de recherche à un jeu à réviser
@@ -496,9 +527,7 @@
               href: configure-search-and-analytics-settings-in-advanced-ediscovery.md
         - name: "Référence d’Advanced\_eDiscovery"
           items:
-            - name: Notes de publication
-              href: release-notes-ediscovery20.md
-            - name: Limites définies dans Advanced eDiscovery
+            - name: Limites avancées eDiscovery
               href: limits-ediscovery20.md
             - name: Types de fichiers pris en charge
               href: supported-filetypes-ediscovery20.md
@@ -508,121 +537,101 @@
               href: attorney-privilege-detection.md
             - name: Jeux de conversation à réviser
               href: conversation-review-sets.md
+            - name: Attribution d’autorisations de découverte électronique
+              href: assign-ediscovery-permissions.md
+            - name: Requêtes de mots clés et conditions de recherche
+              href: keyword-queries-and-search-conditions.md
+            - name: Configurer le filtrage des autorisations de recherche
+              href: permissions-filtering-for-content-search.md
+            - name: Configuration des limites de conformité
+              href: set-up-compliance-boundaries.md
             - name: Rapports eDiscovery avancés (aperçu)
               href: advanced-ediscovery-reports.md
             - name: Dépannage d’AzCopy
               href: troubleshooting-azcopy.md
-    - name: Gérer des cas eDiscovery
-      href: ediscovery-cases.md
+    - name: Découverte électronique avancée (classique)
       items:
-        - name: "eDiscovery (découverte électronique) avancée Office\_365"
+        - name: Vue d’ensemble de la découverte électronique avancée (classique)
           href: office-365-advanced-ediscovery.md
+        - name: Prise en main de Advanced eDiscovery (classique)
+          href: quick-setup-for-advanced-ediscovery.md
+        - name: Configuration des cas
+          href: set-up-users-and-cases-in-advanced-ediscovery.md
           items:
-            - name: "Prise en main d’Advanced\_eDiscovery"
-              href: quick-setup-for-advanced-ediscovery.md
-            - name: Configuration des cas
-              href: set-up-users-and-cases-in-advanced-ediscovery.md
-              items:
-                - name: Définition des problèmes liés à un cas
-                  href: define-issues-and-assign-users.md
-            - name: Collecte des données d’un cas
-              items:
-                - name: Préparation des résultats de recherche pour Advanced eDiscovery
-                  href: prepare-search-results-for-advanced-ediscovery.md
-                - name: Charger les données dans Advanced eDiscovery
-                  href: prepare-data-for-advanced-ediscovery.md
-                - name: "Importation du contenu non Office\_365 dans un cas"
-                  href: import-non-office-365-data-into-advanced-ediscovery.md
-            - name: Traitement des données d’un cas
-              href: run-the-process-module-in-advanced-ediscovery.md
-              items:
-                - name: Exécution du module Processus et chargement des données
-                  href: run-the-process-module-and-load-data-in-advanced-ediscovery.md
-                - name: Affichage des résultats du module Processus
-                  href: view-process-module-results-in-advanced-ediscovery.md
-            - name: Examen des données d’un cas
-              items:
-                - name: Recherche et marquage des données d’un cas
-                  href: search-and-tagging.md
-                - name: Décisions à prendre concernant le jeu à réviser
-                  href: decision-based-on-the-results-in-advanced-ediscovery.md
-            - name: Analyse des données d’un cas
-              href: analyze-case-data-with-advanced-ediscovery.md
-              items:
-                - name: Exécution de l’analyse rapide
-                  href: use-express-analysis-in-advanced-ediscovery.md
-                - name: Présentation de la similarité des documents (quasi-duplicatas)
-                  href: understand-document-similarity-in-advanced-ediscovery.md
-                - name: Affichage des résultats d’analyse
-                  href: view-analyze-results-in-advanced-ediscovery.md
-            - name: Utilisation du module de pertinence
-              href: use-relevance-in-advanced-ediscovery.md
-              items:
-                - name: Présentation des évaluations de pertinence
-                  href: assessment-in-relevance-in-advanced-ediscovery.md
-                - name: Évaluation de pertinence et marquage
-                  href: tagging-and-assessment-in-advanced-ediscovery.md
-                - name: Configuration de l’entraînement de pertinence
-                  href: manage-relevance-setup-in-advanced-ediscovery.md
-                - name: Entraînement de pertinence et marquage
-                  href: tagging-and-relevance-training-in-advanced-ediscovery.md
-                - name: Suivi du processus d’entraînement de pertinence
-                  href: track-relevance-analysis-in-advanced-ediscovery.md
-                - name: Test des résultats d’analyse de pertinence
-                  href: test-relevance-analysis-in-advanced-ediscovery.md
-                - name: Chargement de données supplémentaires pour l’entraînement Pertinence
-                  href: set-up-loads-to-add-imported-files.md
-            - name: Exportation des données d’un cas
-              href: export-case-data-in-advanced-ediscovery.md
-              items:
-                - name: Exporter des données
-                  href: export-results-in-advanced-ediscovery.md
-                - name: Exportation des champs d’un rapport
-                  href: export-report-fields-in-advanced-ediscovery.md
-                - name: Affichage de l’historique du lot et exportation des résultats antérieurs
-                  href: view-batch-history-and-export-past-results.md
-            - name: "Configuration d’Advanced\_eDiscovery"
-              items:
-                - name: Configuration des paramètres du cas et de l’organisation
-                  href: define-case-and-tenant-settings-in-advanced-ediscovery.md
-                - name: Configuration des paramètres d’analyse
-                  href: set-analyze-options-in-advanced-ediscovery.md
-                - name: Configuration de l’option Ignorer le texte
-                  href: set-ignore-text-in-advanced-ediscovery.md
-                - name: Configuration des mots-clés mis en surbrillance et des autres paramètres de Pertinence
-                  href: define-highlighted-keywords-and-advanced-options.md
-            - name: "Référence d’Advanced\_eDiscovery"
-              items:
-                - name: "Utilisation des utilitaires Advanced\_eDiscovery"
-                  href: use-advanced-ediscovery-utilities.md
-                - name: Exécution des rapports
-                  href: run-reports-in-advanced-ediscovery.md
-        - name: Utiliser un script pour ajouter des utilisateurs à une conversation dans un incident eDiscovery
-          href: use-a-script-to-add-users-to-a-hold-in-ediscovery.md
-        - name: 'Créer un rapport sur les conservations définies dans les cas eDiscovery '
-          href: create-a-report-on-holds-in-ediscovery-cases.md
-    - name: Attribution d’autorisations de découverte électronique
-      href: assign-ediscovery-permissions.md
-    - name: Configurer les limites de conformité pour les enquêtes eDiscovery dans Office 365
-      href: set-up-compliance-boundaries.md
-    - name: Série de solutions eDiscovery. Scénario de débordement de données. Rechercher et purger
-      href: data-spillage-scenariosearch-and-purge.md
-    - name: Résoudre les problèmes eDiscovery courants
-      href: ediscovery-troubleshooting-common-issues.md
-    - name: Gérer les suspensions
-      items:
-        - name: Créer une suspension de cas eDiscovery
-          href: 'ediscovery-cases.md#step-4-place-content-locations-on-hold'
-        - name: Créer une suspension pour litige
-          href: create-a-litigation-hold.md
-        - name: Supprimer des éléments en attente dans le dossier Éléments récupérables des boîtes aux lettres basées sur le cloud
-          href: delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md
-        - name: Augmenter le quota des éléments récupérables pour les boîtes aux lettres placées en conservation
-          href: increase-the-recoverable-quota-for-mailboxes-on-hold.md
-        - name: Comment identifier le type de conservation placé sur une boîte aux lettres Exchange Online
-          href: identify-a-hold-on-an-exchange-online-mailbox.md
-        - name: Conserver les destinataires Cci et les destinataires de groupe de distribution étendue
-          href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
+            - name: Définition des problèmes liés à un cas
+              href: define-issues-and-assign-users.md
+        - name: Collecte des données d’un cas
+          items:
+            - name: Préparer les résultats de la recherche
+              href: prepare-search-results-for-advanced-ediscovery.md
+            - name: Charger des données dans un cas
+              href: prepare-data-for-advanced-ediscovery.md
+            - name: Importer du contenu non-Office 365 dans un cas
+              href: import-non-office-365-data-into-advanced-ediscovery.md
+        - name: Traitement des données d’un cas
+          href: run-the-process-module-in-advanced-ediscovery.md
+          items:
+            - name: Exécution du module Processus et chargement des données
+              href: run-the-process-module-and-load-data-in-advanced-ediscovery.md
+            - name: Affichage des résultats du module Processus
+              href: view-process-module-results-in-advanced-ediscovery.md
+        - name: Examen des données d’un cas
+          items:
+            - name: Recherche et marquage des données d’un cas
+              href: search-and-tagging.md
+            - name: Décisions à prendre concernant le jeu à réviser
+              href: decision-based-on-the-results-in-advanced-ediscovery.md
+        - name: Analyse des données d’un cas
+          href: analyze-case-data-with-advanced-ediscovery.md
+          items:
+            - name: Exécution de l’analyse rapide
+              href: use-express-analysis-in-advanced-ediscovery.md
+            - name: Présentation de la similarité des documents (quasi-duplicatas)
+              href: understand-document-similarity-in-advanced-ediscovery.md
+            - name: Affichage des résultats d’analyse
+              href: view-analyze-results-in-advanced-ediscovery.md
+        - name: Utilisation du module de pertinence
+          href: use-relevance-in-advanced-ediscovery.md
+          items:
+            - name: Présentation des évaluations de pertinence
+              href: assessment-in-relevance-in-advanced-ediscovery.md
+            - name: Évaluation de pertinence et marquage
+              href: tagging-and-assessment-in-advanced-ediscovery.md
+            - name: Configuration de l’entraînement de pertinence
+              href: manage-relevance-setup-in-advanced-ediscovery.md
+            - name: Entraînement de pertinence et marquage
+              href: tagging-and-relevance-training-in-advanced-ediscovery.md
+            - name: Suivi du processus d’entraînement de pertinence
+              href: track-relevance-analysis-in-advanced-ediscovery.md
+            - name: Test des résultats d’analyse de pertinence
+              href: test-relevance-analysis-in-advanced-ediscovery.md
+            - name: Chargement de données supplémentaires pour l’entraînement Pertinence
+              href: set-up-loads-to-add-imported-files.md
+        - name: Exportation des données d’un cas
+          href: export-case-data-in-advanced-ediscovery.md
+          items:
+            - name: Exporter des données
+              href: export-results-in-advanced-ediscovery.md
+            - name: Exportation des champs d’un rapport
+              href: export-report-fields-in-advanced-ediscovery.md
+            - name: Affichage de l’historique du lot et exportation des résultats antérieurs
+              href: view-batch-history-and-export-past-results.md
+        - name: Configuration de la découverte électronique avancée (classique)
+          items:
+            - name: Configuration des paramètres du cas et de l’organisation
+              href: define-case-and-tenant-settings-in-advanced-ediscovery.md
+            - name: Configuration des paramètres d’analyse
+              href: set-analyze-options-in-advanced-ediscovery.md
+            - name: Configuration de l’option Ignorer le texte
+              href: set-ignore-text-in-advanced-ediscovery.md
+            - name: Configuration des mots-clés mis en surbrillance et des autres paramètres de Pertinence
+              href: define-highlighted-keywords-and-advanced-options.md
+        - name: Référence avancée de la découverte électronique (classique)
+          items:
+            - name: Utiliser les utilitaires avancés de découverte électronique (classique)
+              href: use-advanced-ediscovery-utilities.md
+            - name: Exécution des rapports
+              href: run-reports-in-advanced-ediscovery.md
 - name: Gestion des investigations de données
   items:
     - name: Vue d’ensemble des enquêtes de données
@@ -700,6 +709,18 @@
           href: document-metadata-fields.md
         - name: Gérer les tâches
           href: manage-jobs.md
+- name: Gérer les suspensions
+  items:
+    - name: Comment identifier le type de conservation placé sur une boîte aux lettres
+      href: identify-a-hold-on-an-exchange-online-mailbox.md
+    - name: Créer une suspension pour litige
+      href: create-a-litigation-hold.md
+    - name: Supprimer des éléments dans le dossier éléments récupérables des boîtes aux lettres en conservation
+      href: delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md
+    - name: Augmenter le quota des éléments récupérables pour les boîtes aux lettres placées en conservation
+      href: increase-the-recoverable-quota-for-mailboxes-on-hold.md
+    - name: Conserver les destinataires Cci et les destinataires de groupe de distribution étendue
+      href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
 - name: Gérer les stratégies d’audit et d’alerte
   items:
     - name: Audit unifié
@@ -726,7 +747,7 @@
           href: advanced-audit.md
         - name: Gérer les stratégies de rétention du journal d'audit
           href: audit-log-retention-policies.md
-        - name: Utiliser l’audit avancé pour examiner les comptes compromis
+        - name: Utiliser l’audit avancé pour analyser des comptes compromis
           href: mailitemsaccessed-forensics-investigations.md
     - name: Stratégies d’alerte
       href: alert-policies.md
@@ -1163,7 +1184,7 @@
               href: offering-pdpa-argentina.md
 - name: "Office\_365 Entreprise"
   href: 'https://docs.microsoft.com/Office365/Enterprise'
-- name: "Office\_365 Business"
+- name: "Office\_365\_Business"
   href: 'https://docs.microsoft.com/office365/admin/admin-home'
 - name: "Sécurité Microsoft\_365"
   href: 'https://docs.microsoft.com/microsoft-365/security/'
