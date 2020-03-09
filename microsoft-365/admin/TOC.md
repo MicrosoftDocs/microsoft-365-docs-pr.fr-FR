@@ -36,7 +36,7 @@
 ### [Créer, modifier ou supprimer une vue utilisateur personnalisée](add-users/create-edit-or-delete-a-custom-user-view.md)
 ### [Ajouter un nouvel employé](add-users/add-new-employee.md)
 ### [Supprimer un ancien employé](add-users/remove-former-employee.md)
-### [Accéder aux données d'un ancien utilisateur et les sauvegarder](add-users/get-access-to-and-back-up-a-former-user-s-data.md).
+### [Accéder aux données d'un ancien utilisateur et les sauvegarder](add-users/get-access-to-and-back-up-a-former-user-s-data.md)
 ### [À propos des rôles d’administrateur](add-users/about-admin-roles.md)
 ### [Attribuer des rôles administrateur](add-users/assign-admin-roles.md)
 ### [À propos du rôle d’administrateur Exchange Online](add-users/about-exchange-online-admin-role.md)
@@ -121,7 +121,7 @@
 ### [Gérer la création de groupes](create-groups/manage-creation-of-groups.md)
 ### [Choisissez un domaine pour créer des groupes](create-groups/choose-domain-to-create-groups.md)
 ### [Stratégie de noms de groupes](create-groups/groups-naming-policy.md)
-### [Autoriser les membres à envoyer en tant que ou de la part d'un groupe](create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md).
+### [Autoriser les membres à envoyer en tant que ou de la part d'un groupe](create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md)
 ### [Ajouter ou supprimer des membres de groupes](create-groups/add-or-remove-members-from-groups.md)
 ### [Stratégie de d’Expiration de groupe Office 365](create-groups/office-365-groups-expiration-policy.md)
 ### [Restaurer un groupe supprimé](create-groups/restore-deleted-group.md)
@@ -130,6 +130,7 @@
 ## Office 365 géré 21Vianet
 ### [À propos d’Office 365 géré par 21Vianet](services-in-china/services-in-china.md)
 ### [Acheter ou essayer un abonnement](services-in-china/buy-or-try-subscriptions.md)
+### [Télécharger l’application Office pour Android pour Office 365 géré par 21Vianet](services-in-china/download-office-app-for-Android.md)
 ### [Télécharger l’application Office pour iOS pour Office 365 gérée par 21Vianet](services-in-china/download-office-app-for-iOS.md)
 ### [Consulter votre facture ou obtenir un Fapiao](services-in-china/view-your-bill-or-get-a-fapiao.md)
 ### [Demander un Fapiao](services-in-china/apply-for-a-fapiao.md)
