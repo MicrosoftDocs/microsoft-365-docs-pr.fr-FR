@@ -394,7 +394,7 @@
               href: ./office-365-security/atp-safe-links-warning-pages.md
             - name: Utiliser les suivis des menaces
               href: ./office-365-security/threat-trackers.md
-            - name: Utiliser le simulateur d’attaques dans Office 365
+            - name: Simulateur d’attaques dans Office 365 - Protection avancée contre les menaces
               href: ./office-365-security/attack-simulator.md
             - name: Documents sécurisés dans Office 365 PACM
               href: ./office-365-security/safe-docs.md
