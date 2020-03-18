@@ -69,12 +69,12 @@
           href: privileged-access-management-configuration.md
     - name: Protéger l’accès aux appareils et l’accès des utilisateurs
       href: protect-access-to-data-and-services.md
-    - name: Référentiel sécurisé de client
+    - name: Référentiel sécurisé client
       href: customer-lockbox-requests.md
 - name: Gérer la protection des informations
   href: protect-information.md
   items:
-    - name: Étiquettes de confidentialité
+    - name: Étiquettes de niveau de confidentialité
       items:
         - name: En savoir plus sur les étiquettes de niveau de confidentialité
           href: sensitivity-labels.md
@@ -352,6 +352,8 @@
               href: export-search-results.md
             - name: Exporter un rapport de recherche
               href: export-a-content-search-report.md
+            - name: Utiliser Microsoft Edge pour télécharger les résultats de la recherche
+              href: configure-edge-to-export-search-results.md
             - name: Rechercher et supprimer des messages électroniques
               href: search-for-and-delete-messages-in-your-organization.md
             - name: Effectuer des recherches dans les boîtes aux lettres en nuage des utilisateurs locaux
@@ -428,6 +430,8 @@
               href: ediscovery-troubleshooting-common-issues.md
             - name: Nouvelle tentative d’une recherche ayant échoué
               href: retry-failed-content-search.md
+            - name: Utiliser Microsoft Edge pour télécharger les résultats de la recherche
+              href: configure-edge-to-export-search-results.md
     - name: Advanced eDiscovery
       items:
         - name: Vue d’ensemble de la fonctionnalité eDiscovery avancée
@@ -549,7 +553,7 @@
               href: advanced-ediscovery-reports.md
             - name: Dépannage d’AzCopy
               href: troubleshooting-azcopy.md
-    - name: Découverte électronique avancée (classique)
+    - name: "Advanced\_eDiscovery (classique)"
       items:
         - name: Vue d’ensemble de la découverte électronique avancée (classique)
           href: office-365-advanced-ediscovery.md
@@ -835,7 +839,7 @@
               href: gdpr-arc-dynamics365.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-arc-prof-services.md
-            - name: "Office\_365"
+            - name: Office 365
               href: gdpr-arc-office365.md
         - name: Protection des informations
           href: gdpr-information-protection.md
@@ -853,7 +857,7 @@
               href: gdpr-dsr-intune.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-dsr-prof-services.md
-            - name: "Office\_365"
+            - name: Office 365
               href: gdpr-dsr-office365.md
             - name: Visual Studio Family
               href: gdpr-dsr-visual-studio-family.md
@@ -865,7 +869,7 @@
               href: gdpr-breach-azure-dynamics.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-breach-microsoft-support-professional-services.md
-            - name: "Office\_365"
+            - name: Office 365
               href: gdpr-breach-office365.md
         - name: Analyses d’impact sur la protection des données
           items:
@@ -877,7 +881,7 @@
               href: gdpr-dpia-dynamics.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-dpia-prof-services.md
-            - name: "Office\_365"
+            - name: Office 365
               href: gdpr-dpia-office365.md
         - name: Délégué à la protection des données de Microsoft
           href: gdpr-data-protection-officer.md
