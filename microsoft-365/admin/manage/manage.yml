@@ -1,0 +1,109 @@
+### YamlMime:Landing
+title: Office 365 gérer Documation
+summary: "[] Liens rapides pour les tâches d'administration courantes dans Office 365."
+metadata:
+  title: Office 365 gérer Documation
+  description: "[] Liens rapides pour les tâches d'administration courantes dans Office 365."
+  ms.service: o365-administration
+  ms.topic: landing-page
+  ms.collection:
+  - Adm_O365
+  - Adm_TOC
+  author: wingtofree
+  ms.author: v-qingao
+  ms.date: 03/06/2020
+  ms.openlocfilehash: 47d5fa7ffb64b8af8d3bde2a126e153768654fa2
+  ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 03/19/2020
+  ms.locfileid: "42857572"
+landingContent:
+- title: Microsoft Teams
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Vue d’ensemble de Microsoft teams
+      url: https://go.microsoft.com/fwlink/p/?linkid=863169
+    - text: Microsoft Teams
+      url: https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams
+    - text: Administrateur Skype Entreprise Online
+      url: https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online
+  - linkListType: how-to-guide
+    links:
+    - text: Autoriser les utilisateurs à contacter des utilisateurs Skype Entreprise externes
+      url: https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+    - text: Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype
+      url: https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+    - text: Configurer Skype entreprise Online
+      url: https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+    - text: Installer Skype Entreprise sur un ordinateur
+      url: https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb
+    - text: Résolution des problèmes
+      url: https://docs.microsoft.com/SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+- title: SharePoint
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: SharePoint Online
+      url: https://docs.microsoft.com/sharepoint/sharepoint-online
+  - linkListType: how-to-guide
+    links:
+    - text: Activer ou désactiver le partage pour SharePoint Online externe
+      url: https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off
+    - text: Créer et gérer des sites
+      url: https://docs.microsoft.com/sharepoint/manage-sites-in-new-admin-center
+    - text: Guide de planification intranet
+      url: https://docs.microsoft.com/sharepoint/planning-hub-sites
+    - text: Gérer la création de sites
+      url: https://docs.microsoft.com/sharepoint/manage-site-creation
+    - text: Personnaliser l'expérience de recherche
+      url: https://docs.microsoft.com/sharepoint/overview-of-search
+- title: E-mail
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Courrier électronique dans Office 365 pour les entreprises
+      url: https://docs.microsoft.com/en-us/microsoft-365/admin/email/email?view=o365-worldwide
+  - linkListType: how-to-guide
+    links:
+    - text: Ajouter un nouvel employé
+      url: https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/add-users?view=o365-worldwide
+    - text: Résoudre les problèmes liés à l'envoi des courriers électroniques
+      url: https://support.office.com/article/97748418-bbd5-4743-a05b-581f22a466dd
+    - text: Résolution des problèmes
+      url: https://docs.microsoft.com/office365/troubleshoot/troubleshooting/troubleshoot-email-issues
+- title: Yammer
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: AIDE de l’administrateur Yammer
+      url: https://docs.microsoft.com/yammer/yammer-landing-page
+  - linkListType: how-to-guide
+    links:
+    - text: Inscription à Office 365 pour Yammer
+      url: https://docs.microsoft.com/yammer/manage-yammer-users/office-365-sign-in
+    - text: Gérer les utilisateurs de Yammer à partir d'Office 365
+      url: https://docs.microsoft.com/yammer/manage-yammer-users/manage-users-across-their-lifecycle
+    - text: Appliquer l'identité Office 365 pour les utilisateurs de Yammer
+      url: https://docs.microsoft.com/yammer/configure-your-yammer-network/enforce-office-365-identity
+    - text: Incorporer un flux Yammer dans un site SharePoint
+      url: https://docs.microsoft.com/yammer/integrate-yammer-with-other-apps/embed-a-feed-into-a-sharepoint-site
+- title: OneDrive
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: OneDrive dans Office 365
+      url: https://support.office.com/article/3e21f8f0-e0a1-43be-aa3e-8c0236bf11bb
+  - linkListType: how-to-guide
+    links:
+    - text: Obtenir le client de synchronisation OneDrive et des applications mobiles
+      url: https://go.microsoft.com/fwlink/p/?LinkId=798319
+    - text: Synchroniser des fichiers avec le client de synchronisation OneDrive sur Windows
+      url: https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49
+    - text: Gérer le partage dans OneDrive et SharePoint
+      url: https://docs.microsoft.com/onedrive/manage-sharing
+    - text: Définir l'espace de stockage par défaut pour les utilisateurs de OneDrive
+      url: https://docs.microsoft.com/onedrive/set-default-storage-space
+    - text: Résoudre les problèmes de synchronisation liés à OneDrive
+      url: https://support.office.com/article/fix-onedrive-sync-problems-0899b115-05f7-45ec-95b2-e4cc8c4670b2

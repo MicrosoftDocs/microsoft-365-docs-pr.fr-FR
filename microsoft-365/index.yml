@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 11eba274c5386bcf1b98c2d741078e035a02f150
-  ms.sourcegitcommit: 0d7d18b045c9a14c943bc382b16715e67c86259a
+  ms.openlocfilehash: 4c66e2c398adfc67ec28661ed654ca891a846534
+  ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 03/04/2020
-  ms.locfileid: "42410021"
+  ms.lasthandoff: 03/19/2020
+  ms.locfileid: "42857320"
 highlightedContent:
   items:
   - title: Formation pour les administrateurs et professionnels de l’informatique
@@ -46,7 +46,7 @@ additionalContent:
     items:
     - title: Centre d’administration Microsoft 365
       summary: Configurez et gérez les services Office 365 et Microsoft 365 pour votre organisation.
-      url: ./admin/admin-home.md
+      url: ./admin/admin-home.yml
     - title: Microsoft 365 Business
       summary: Conçu pour les petites et moyennes entreprises. Gérez vos activités grâce aux dernières versions de Windows et des applications Office telles que Excel et Outlook. Tirez parti de la protection des données et de la sécurité qui s’étend à tous vos appareils professionnels.
       url: ./business/index.yml

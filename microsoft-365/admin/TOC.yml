@@ -1,14 +1,14 @@
 - name: Page d’accueil de l’administrateur
-  href: admin-home.md
+  href: admin-home.yml
   items:
-    - name: Vue d'ensemble
+    - name: Présentation
       items:
         - name: Vue d’ensemble administrateur
           href: admin-overview/admin-overview.md
         - name: S’inscrire à Office 365
           href: admin-overview/sign-up-for-office-365.md
         - name: Vidéo de formation
-          href: 'https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)'
+          href: 'https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816'
         - name: À propos du Centre d’administration
           href: admin-overview/about-the-admin-center.md
         - name: "Quel abonnement ai-je\_?"
@@ -79,14 +79,14 @@
           href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
         - name: À propos des rôles d’administrateur
           href: add-users/about-admin-roles.md
-        - name: Attribuer des rôles administrateur
+        - name: Attribuer des rôles d'administrateur
           href: add-users/assign-admin-roles.md
         - name: À propos du rôle d’administrateur Exchange Online
           href: add-users/about-exchange-online-admin-role.md
     - name: E-mail
       items:
         - name: "Courrier électronique dans Office\_365"
-          href: email/email.md
+          href: email/email.yml
         - name: "Paramètres du courrier électronique de l’utilisateur Office\_365"
           href: email/office-365-user-email-settings.md
         - name: Ajouter un autre alias de courrier pour un utilisateur
@@ -154,7 +154,7 @@
     - name: Gestion
       items:
         - name: "Gérer Office\_365"
-          href: manage/manage.md
+          href: manage/manage.yml
         - name: Modifier les préférences de contact
           href: manage/change-contact-preferences.md
         - name: 'Modifier l’adresse, les contacts et d’autres aspects'
@@ -186,9 +186,9 @@
         - name: Annulation de l’attribution de licences aux utilisateurs
           href: manage/remove-licenses-from-users.md
         - name: Résoudre les conflits de licence
-          href: manage/resolve-license-conflicts.md)
+          href: manage/resolve-license-conflicts.md
         - name: Gérer les messages dans le Centre de messages
-          href: manage/manage-messages.md)
+          href: manage/manage-messages.md
     - name: Abonnements et facturation
       items:
         - name: Gérer vos abonnements
@@ -202,7 +202,7 @@
     - name: Domaines
       items:
         - name: Domaines dans Office 365
-          href: get-help-with-domains/get-help-with-domains.md
+          href: get-help-with-domains/get-help-with-domains.yml
         - name: Qu'est-ce qu'un domaine ?
           href: get-help-with-domains/what-is-a-domain.md
         - name: Acheter un nom de domaine
