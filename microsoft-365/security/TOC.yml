@@ -68,9 +68,13 @@
                 - name: Hiérarchiser les incidents
                   href: mtp/incident-queue.md
                 - name: Enquêter sur des incidents
-                  href: mtp/investigate-incidents.md
-                - name: Gérer les incidents
-                  href: mtp/manage-incidents.md
+                  items:
+                    - name: Enquêter sur des incidents
+                      href: mtp/investigate-incidents.md
+                    - name: Gérer les incidents
+                      href: mtp/manage-incidents.md
+                    - name: Page de profil de l’appareil
+                      href: mtp/machine-profile.md
             - name: Enquêtes et réponses automatisées
               items:
                 - name: Vue d’ensemble d’AIR
@@ -378,9 +382,9 @@
                   href: ./office-365-security/office-365-air.md
                 - name: Actions de correction
                   href: ./office-365-security/air-remediation-actions.md
-                - name: Consulter les détails et les résultats d'un examen automatisé
+                - name: Consulter les détails et les résultats d'une enquête automatisée
                   href: ./office-365-security/air-view-investigation-results.md
-                - name: Réviser et approuver (ou refuser) d’actions en attente
+                - name: Examiner et approuver (ou refuser) les actions en attente
                   href: ./office-365-security/air-review-approve-pending-completed-actions.md
                 - name: Intégrer AIR avec une solution personnalisée ou tierce
                   href: ./office-365-security/air-custom-reporting.md
@@ -390,7 +394,7 @@
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: Consulter et lire vos rapports PACM
               href: ./office-365-security/view-reports-for-atp.md
-            - name: Comprendre les dernières attaques grâce aux statistiques de menaces
+            - name: Comprendre les dernières attaques grâce aux analyses des menaces
               href: ./mtp/latest-attack-campaigns.md
             - name: Que sont les pages d’avertissement de liens fiables de PACM
               href: ./office-365-security/atp-safe-links-warning-pages.md
@@ -554,9 +558,6 @@
                       href: ./office-365-security/mail-flow-intelligence-in-office-365.md
                 - name: Quarantaine
                   href: ./office-365-security/quarantine.md
-                  items:
-                    - name: Rechercher et débloquer les messages mis en quarantaine en tant qu’administrateur
-                      href: ./office-365-security/find-and-release-quarantined-messages-as-an-administrator.md
                 - name: Dépannage et informations relatives au support
                   href: ./office-365-security/troubleshooting-and-support-information.md
                   items:
