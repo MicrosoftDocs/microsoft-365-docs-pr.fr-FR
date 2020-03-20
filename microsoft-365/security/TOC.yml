@@ -381,7 +381,7 @@
                 - name: Consulter les détails et les résultats d'un examen automatisé
                   href: ./office-365-security/air-view-investigation-results.md
                 - name: Réviser et approuver (ou refuser) d’actions en attente
-                  href: ./office-365-security/air-remediation-actions.md
+                  href: ./office-365-security/air-review-approve-pending-completed-actions.md
                 - name: Intégrer AIR avec une solution personnalisée ou tierce
                   href: ./office-365-security/air-custom-reporting.md
             - name: Détecter et résoudre rapidement les comptes d’utilisateurs compromis
