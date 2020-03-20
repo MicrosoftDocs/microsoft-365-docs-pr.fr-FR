@@ -372,15 +372,15 @@
                       href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
             - name: Affichages de campagne
               href: ./office-365-security/campaigns.md
-            - name: Comprendre les dernières attaques grâce aux statistiques de menaces
-              href: ./mtp/latest-attack-campaigns.md
             - name: Enquêtes et réponses automatisées
               items:
                 - name: Vue d’ensemble d’AIR
                   href: ./office-365-security/office-365-air.md
-                - name: Consulter les détails et les résultats d'une investigation automatisée
+                - name: Actions de correction
+                  href: ./office-365-security/air-remediation-actions.md
+                - name: Consulter les détails et les résultats d'un examen automatisé
                   href: ./office-365-security/air-view-investigation-results.md
-                - name: Approuver ou refuser des actions en attente
+                - name: Réviser et approuver (ou refuser) d’actions en attente
                   href: ./office-365-security/air-remediation-actions.md
                 - name: Intégrer AIR avec une solution personnalisée ou tierce
                   href: ./office-365-security/air-custom-reporting.md
@@ -390,6 +390,8 @@
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: Consulter et lire vos rapports PACM
               href: ./office-365-security/view-reports-for-atp.md
+            - name: Comprendre les dernières attaques grâce aux statistiques de menaces
+              href: ./mtp/latest-attack-campaigns.md
             - name: Que sont les pages d’avertissement de liens fiables de PACM
               href: ./office-365-security/atp-safe-links-warning-pages.md
             - name: Utiliser les suivis des menaces

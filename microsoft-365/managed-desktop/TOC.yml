@@ -47,12 +47,14 @@
           href: get-ready/prerequisites.md
         - name: Préparer le réseau
           href: get-ready/network.md
-        - name: Préparer l’accès aux ressources locales pour le Bureau géré Microsoft
+        - name: Préparer l'accès aux ressources locales
           href: get-ready/authentication.md
-        - name: Préparer les lecteurs mappés pour le Bureau géré Microsoft
+        - name: Préparer des lecteurs mappés
           href: get-ready/mapped-drives.md
-        - name: Préparer les certificats et les profils réseau pour le Bureau géré Microsoft
+        - name: Préparer les certificats et les profils réseau
           href: get-ready/certs-wifi-lan.md
+        - name: Préparer les ressources d’impression
+          href: get-ready/printing.md
         - name: Préparer les applications
           href: get-ready/apps.md
           items:
