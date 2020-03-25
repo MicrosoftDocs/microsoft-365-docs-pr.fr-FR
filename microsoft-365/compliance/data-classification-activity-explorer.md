@@ -1,5 +1,5 @@
 ---
-title: Utiliser l’explorateur d’activité de classification des données
+title: Prise en main de l’Explorateur d’activités (préversion)
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -16,69 +16,69 @@ search.appverid:
 - MOE150
 - MET150
 description: L’explorateur d’activité complète les fonctionnalités de classification des données en vous permettant de voir et de filtrer les actions que les utilisateurs effectuent sur votre contenu étiqueté.
-ms.openlocfilehash: f80ce94433028b2434d442a364c336060b730d94
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 68304bc75d33c993db52895828ec49e3b5203a4c
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42076760"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42929458"
 ---
-# <a name="view-activity-on-your-labeled-content-preview"></a><span data-ttu-id="00b66-103">Afficher l’activité sur votre contenu étiqueté (aperçu)</span><span class="sxs-lookup"><span data-stu-id="00b66-103">View activity on your labeled content (preview)</span></span>
+# <a name="get-started-with-activity-explorer-preview"></a><span data-ttu-id="a5337-103">Prise en main de l’Explorateur d’activités (préversion)</span><span class="sxs-lookup"><span data-stu-id="a5337-103">Get started with activity explorer (preview)</span></span>
 
-<span data-ttu-id="00b66-104">Les onglets vue d’ensemble de la classification des données et explorateur de contenu vous permettent de voir quel contenu a été découvert et étiqueté, ainsi que son emplacement.</span><span class="sxs-lookup"><span data-stu-id="00b66-104">The data classification overview and content explorer tabs give you visibility into what content has been discovered and labeled, and where that content is.</span></span> <span data-ttu-id="00b66-105">L’explorateur d’activité complète cette suite de fonctionnalités en vous permettant de contrôler les opérations effectuées avec votre contenu étiqueté.</span><span class="sxs-lookup"><span data-stu-id="00b66-105">Activity explorer rounds out this suite of functionality by allowing you to monitor what's being done with your labeled content.</span></span> <span data-ttu-id="00b66-106">L’Explorateur d’activité permet de voir votre historique.</span><span class="sxs-lookup"><span data-stu-id="00b66-106">Activity explorer provides a historical view.</span></span>
+<span data-ttu-id="a5337-104">Les onglets vue d’ensemble de la classification des données et explorateur de contenu vous permettent de voir quel contenu a été découvert et étiqueté, ainsi que son emplacement.</span><span class="sxs-lookup"><span data-stu-id="a5337-104">The data classification overview and content explorer tabs give you visibility into what content has been discovered and labeled, and where that content is.</span></span> <span data-ttu-id="a5337-105">L’explorateur d’activité complète cette suite de fonctionnalités en vous permettant de contrôler les opérations effectuées avec votre contenu étiqueté.</span><span class="sxs-lookup"><span data-stu-id="a5337-105">Activity explorer rounds out this suite of functionality by allowing you to monitor what's being done with your labeled content.</span></span> <span data-ttu-id="a5337-106">L’Explorateur d’activité permet de voir votre historique.</span><span class="sxs-lookup"><span data-stu-id="a5337-106">Activity explorer provides a historical view.</span></span>
 
 ![emplacement réservé pour la capture d’écran aperçu de l’explorateur d’activité](../media/data-classification-activity-explorer-1.png)
 
-<span data-ttu-id="00b66-108">Vous pouvez filtrer les données par :</span><span class="sxs-lookup"><span data-stu-id="00b66-108">You can filter the data by:</span></span>
+<span data-ttu-id="a5337-108">Vous pouvez filtrer les données par :</span><span class="sxs-lookup"><span data-stu-id="a5337-108">You can filter the data by:</span></span>
 
-- <span data-ttu-id="00b66-109">plage de dates</span><span class="sxs-lookup"><span data-stu-id="00b66-109">date range</span></span>
-- <span data-ttu-id="00b66-110">type d’activité</span><span class="sxs-lookup"><span data-stu-id="00b66-110">activity type</span></span>
-- <span data-ttu-id="00b66-111">emplacement</span><span class="sxs-lookup"><span data-stu-id="00b66-111">location</span></span>
-- <span data-ttu-id="00b66-112">utilisateur</span><span class="sxs-lookup"><span data-stu-id="00b66-112">user</span></span>
-- <span data-ttu-id="00b66-113">étiquette de confidentialité</span><span class="sxs-lookup"><span data-stu-id="00b66-113">sensitivity label</span></span>
-- <span data-ttu-id="00b66-114">étiquette de rétention</span><span class="sxs-lookup"><span data-stu-id="00b66-114">retention label</span></span>
+- <span data-ttu-id="a5337-109">plage de dates</span><span class="sxs-lookup"><span data-stu-id="a5337-109">date range</span></span>
+- <span data-ttu-id="a5337-110">type d’activité</span><span class="sxs-lookup"><span data-stu-id="a5337-110">activity type</span></span>
+- <span data-ttu-id="a5337-111">emplacement</span><span class="sxs-lookup"><span data-stu-id="a5337-111">location</span></span>
+- <span data-ttu-id="a5337-112">utilisateur</span><span class="sxs-lookup"><span data-stu-id="a5337-112">user</span></span>
+- <span data-ttu-id="a5337-113">étiquette de confidentialité</span><span class="sxs-lookup"><span data-stu-id="a5337-113">sensitivity label</span></span>
+- <span data-ttu-id="a5337-114">étiquette de rétention</span><span class="sxs-lookup"><span data-stu-id="a5337-114">retention label</span></span>
 
 
-<span data-ttu-id="00b66-115">Vous pouvez afficher les données sous la forme d’une liste ou d’un histogramme.</span><span class="sxs-lookup"><span data-stu-id="00b66-115">You can view the data either as a list or a bar graph.</span></span>
+<span data-ttu-id="a5337-115">Vous pouvez afficher les données sous la forme d’une liste ou d’un histogramme.</span><span class="sxs-lookup"><span data-stu-id="a5337-115">You can view the data either as a list or a bar graph.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="00b66-116">Conditions préalables</span><span class="sxs-lookup"><span data-stu-id="00b66-116">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="a5337-116">Conditions préalables</span><span class="sxs-lookup"><span data-stu-id="a5337-116">Prerequisites</span></span>
 
-<span data-ttu-id="00b66-117">Chaque compte accédant et utilisant l’Explorateur d’activités doit posséder une licence pour l’un de ces abonnements :</span><span class="sxs-lookup"><span data-stu-id="00b66-117">Every account that accesses and uses activity explorer must have a license assigned to it from one of these subscriptions:</span></span>
+<span data-ttu-id="a5337-117">Chaque compte accédant et utilisant l’Explorateur d’activités doit posséder une licence pour l’un de ces abonnements :</span><span class="sxs-lookup"><span data-stu-id="a5337-117">Every account that accesses and uses activity explorer must have a license assigned to it from one of these subscriptions:</span></span>
 
-- <span data-ttu-id="00b66-118">Microsoft 365 (E5)</span><span class="sxs-lookup"><span data-stu-id="00b66-118">Microsoft 365 (E5)</span></span>
-- <span data-ttu-id="00b66-119">Office 365 (E5)</span><span class="sxs-lookup"><span data-stu-id="00b66-119">Office 365 (E5)</span></span>
-- <span data-ttu-id="00b66-120">Complément Conformité avancée (E5)</span><span class="sxs-lookup"><span data-stu-id="00b66-120">Advanced Compliance (E5) add-on</span></span>
-- <span data-ttu-id="00b66-121">Complément Threat Intelligence avancé (E5)</span><span class="sxs-lookup"><span data-stu-id="00b66-121">Advanced Threat Intelligence (E5) add-on</span></span>
+- <span data-ttu-id="a5337-118">Microsoft 365 (E5)</span><span class="sxs-lookup"><span data-stu-id="a5337-118">Microsoft 365 (E5)</span></span>
+- <span data-ttu-id="a5337-119">Office 365 (E5)</span><span class="sxs-lookup"><span data-stu-id="a5337-119">Office 365 (E5)</span></span>
+- <span data-ttu-id="a5337-120">Complément Conformité avancée (E5)</span><span class="sxs-lookup"><span data-stu-id="a5337-120">Advanced Compliance (E5) add-on</span></span>
+- <span data-ttu-id="a5337-121">Complément Threat Intelligence avancé (E5)</span><span class="sxs-lookup"><span data-stu-id="a5337-121">Advanced Threat Intelligence (E5) add-on</span></span>
 
-## <a name="activity-type"></a><span data-ttu-id="00b66-122">Type d’activité</span><span class="sxs-lookup"><span data-stu-id="00b66-122">Activity type</span></span>
+## <a name="activity-type"></a><span data-ttu-id="a5337-122">Type d’activité</span><span class="sxs-lookup"><span data-stu-id="a5337-122">Activity type</span></span>
 
-<span data-ttu-id="00b66-123">Microsoft 365 contrôle et signale 12 types d’activités dans SharePoint Online, OneDrive et les points de terminaison.</span><span class="sxs-lookup"><span data-stu-id="00b66-123">Microsoft 365 monitors and reports on 12 types of activities across SharePoint Online, OneDrive and endpoints.</span></span> <span data-ttu-id="00b66-124">Les points de terminaison sont des appareils utilisateur exécutant Windows 10.</span><span class="sxs-lookup"><span data-stu-id="00b66-124">Endpoints are user devices running Windows 10.</span></span>
+<span data-ttu-id="a5337-123">Microsoft 365 contrôle et signale 12 types d’activités dans SharePoint Online, OneDrive et les points de terminaison.</span><span class="sxs-lookup"><span data-stu-id="a5337-123">Microsoft 365 monitors and reports on 12 types of activities across SharePoint Online, OneDrive and endpoints.</span></span> <span data-ttu-id="a5337-124">Les points de terminaison sont des appareils utilisateur exécutant Windows 10.</span><span class="sxs-lookup"><span data-stu-id="a5337-124">Endpoints are user devices running Windows 10.</span></span>
 
-- <span data-ttu-id="00b66-125">Fichier créé</span><span class="sxs-lookup"><span data-stu-id="00b66-125">File created</span></span>
-- <span data-ttu-id="00b66-126">Fichier modifié</span><span class="sxs-lookup"><span data-stu-id="00b66-126">File modified</span></span>
-- <span data-ttu-id="00b66-127">Fichier renommé</span><span class="sxs-lookup"><span data-stu-id="00b66-127">File renamed</span></span>
-- <span data-ttu-id="00b66-128">Fichier copié dans le cloud</span><span class="sxs-lookup"><span data-stu-id="00b66-128">File copied to cloud</span></span>
-- <span data-ttu-id="00b66-129">Fichier consulté par une application non autorisée</span><span class="sxs-lookup"><span data-stu-id="00b66-129">File accessed by unallowed app</span></span>
-- <span data-ttu-id="00b66-130">Fichier imprimé</span><span class="sxs-lookup"><span data-stu-id="00b66-130">File printed</span></span>
-- <span data-ttu-id="00b66-131">Fichier copié sur un support amovible</span><span class="sxs-lookup"><span data-stu-id="00b66-131">File copied to removable media</span></span>
-- <span data-ttu-id="00b66-132">Fichier copié sur le partage réseau</span><span class="sxs-lookup"><span data-stu-id="00b66-132">File copied to network share</span></span>
-- <span data-ttu-id="00b66-133">Fichier lu</span><span class="sxs-lookup"><span data-stu-id="00b66-133">File read</span></span>
-- <span data-ttu-id="00b66-134">Fichier copié dans le Presse-papiers</span><span class="sxs-lookup"><span data-stu-id="00b66-134">file copied to clipboard</span></span>
-- <span data-ttu-id="00b66-135">Étiquette appliqué</span><span class="sxs-lookup"><span data-stu-id="00b66-135">Label applied</span></span>
-- <span data-ttu-id="00b66-136">Étiquette modifiée (mise à niveau, rétrogradée ou supprimé)</span><span class="sxs-lookup"><span data-stu-id="00b66-136">Label changed (upgraded, downgraded, or removed)</span></span>
+- <span data-ttu-id="a5337-125">Fichier créé</span><span class="sxs-lookup"><span data-stu-id="a5337-125">File created</span></span>
+- <span data-ttu-id="a5337-126">Fichier modifié</span><span class="sxs-lookup"><span data-stu-id="a5337-126">File modified</span></span>
+- <span data-ttu-id="a5337-127">Fichier renommé</span><span class="sxs-lookup"><span data-stu-id="a5337-127">File renamed</span></span>
+- <span data-ttu-id="a5337-128">Fichier copié dans le cloud</span><span class="sxs-lookup"><span data-stu-id="a5337-128">File copied to cloud</span></span>
+- <span data-ttu-id="a5337-129">Fichier consulté par une application non autorisée</span><span class="sxs-lookup"><span data-stu-id="a5337-129">File accessed by unallowed app</span></span>
+- <span data-ttu-id="a5337-130">Fichier imprimé</span><span class="sxs-lookup"><span data-stu-id="a5337-130">File printed</span></span>
+- <span data-ttu-id="a5337-131">Fichier copié sur un support amovible</span><span class="sxs-lookup"><span data-stu-id="a5337-131">File copied to removable media</span></span>
+- <span data-ttu-id="a5337-132">Fichier copié sur le partage réseau</span><span class="sxs-lookup"><span data-stu-id="a5337-132">File copied to network share</span></span>
+- <span data-ttu-id="a5337-133">Fichier lu</span><span class="sxs-lookup"><span data-stu-id="a5337-133">File read</span></span>
+- <span data-ttu-id="a5337-134">Fichier copié dans le Presse-papiers</span><span class="sxs-lookup"><span data-stu-id="a5337-134">file copied to clipboard</span></span>
+- <span data-ttu-id="a5337-135">Étiquette appliqué</span><span class="sxs-lookup"><span data-stu-id="a5337-135">Label applied</span></span>
+- <span data-ttu-id="a5337-136">Étiquette modifiée (mise à niveau, rétrogradée ou supprimé)</span><span class="sxs-lookup"><span data-stu-id="a5337-136">Label changed (upgraded, downgraded, or removed)</span></span>
 
-<span data-ttu-id="00b66-137">L’intérêt de comprendre quelles actions sont accomplies avec votre contenu marqué par des étiquettes de confidentialité est de voir si les moyens de contrôle que vous avez déjà mis en place, comme les [stratégies de prévention de perte des données](data-loss-prevention-policies.md) sont efficaces ou non.</span><span class="sxs-lookup"><span data-stu-id="00b66-137">The value of understanding what actions are being taken with your sensitive labeled content is that you can see if the controls that you have already put into place, such as [data loss prevention policies](data-loss-prevention-policies.md) are effective or not.</span></span> <span data-ttu-id="00b66-138">Si ce n’est pas le cas ou si vous découvrez quelque chose d’inattendu tel qu’un grand nombre d’éléments qui sont étiquetés `highly confidential`et sont rétrogradés`general` vous pouvez gérer vos différentes stratégies et entreprendre de nouvelles actions pour limiter le comportement indésirable.</span><span class="sxs-lookup"><span data-stu-id="00b66-138">If not, or if you discover something unexpected, such as a large number of items that are labeled `highly confidential` and are downgraded `general`, you can manage your various policies and take new actions to restrict the undesired behavior.</span></span>
+<span data-ttu-id="a5337-137">L’intérêt de comprendre quelles actions sont accomplies avec votre contenu marqué par des étiquettes de confidentialité est de voir si les moyens de contrôle que vous avez déjà mis en place, comme les [stratégies de prévention de perte des données](data-loss-prevention-policies.md) sont efficaces ou non.</span><span class="sxs-lookup"><span data-stu-id="a5337-137">The value of understanding what actions are being taken with your sensitive labeled content is that you can see if the controls that you have already put into place, such as [data loss prevention policies](data-loss-prevention-policies.md) are effective or not.</span></span> <span data-ttu-id="a5337-138">Si ce n’est pas le cas ou si vous découvrez quelque chose d’inattendu tel qu’un grand nombre d’éléments qui sont étiquetés `highly confidential`et sont rétrogradés`general` vous pouvez gérer vos différentes stratégies et entreprendre de nouvelles actions pour limiter le comportement indésirable.</span><span class="sxs-lookup"><span data-stu-id="a5337-138">If not, or if you discover something unexpected, such as a large number of items that are labeled `highly confidential` and are downgraded `general`, you can manage your various policies and take new actions to restrict the undesired behavior.</span></span>
 
-<span data-ttu-id="00b66-139">Une fois vos filtres définis, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="00b66-139">Once your filters are set, you can:</span></span>
+<span data-ttu-id="a5337-139">Une fois vos filtres définis, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="a5337-139">Once your filters are set, you can:</span></span>
 
-- <span data-ttu-id="00b66-140">pointer votre curseur sur un segment de l’histogramme pour afficher le nombre d’éléments inclus dans cette catégorie ![pointer sur explorateur d’activités](../media/data-classification-activity-explorer-hover-over-2.png)</span><span class="sxs-lookup"><span data-stu-id="00b66-140">hover over a segment of the bar chart to see the number of items that fall into that category ![activity explorer hover over](../media/data-classification-activity-explorer-hover-over-2.png)</span></span>
-- <span data-ttu-id="00b66-141">exporter les données</span><span class="sxs-lookup"><span data-stu-id="00b66-141">export the data</span></span>
-- <span data-ttu-id="00b66-142">sélectionner un élément donné dans la liste et afficher les détails de l’action dans le menu volant</span><span class="sxs-lookup"><span data-stu-id="00b66-142">select any given item from the list and view the details of the action in the fly-out</span></span>
+- <span data-ttu-id="a5337-140">pointer votre curseur sur un segment de l’histogramme pour afficher le nombre d’éléments inclus dans cette catégorie ![pointer sur explorateur d’activités](../media/data-classification-activity-explorer-hover-over-2.png)</span><span class="sxs-lookup"><span data-stu-id="a5337-140">hover over a segment of the bar chart to see the number of items that fall into that category ![activity explorer hover over](../media/data-classification-activity-explorer-hover-over-2.png)</span></span>
+- <span data-ttu-id="a5337-141">exporter les données</span><span class="sxs-lookup"><span data-stu-id="a5337-141">export the data</span></span>
+- <span data-ttu-id="a5337-142">sélectionner un élément donné dans la liste et afficher les détails de l’action dans le menu volant</span><span class="sxs-lookup"><span data-stu-id="a5337-142">select any given item from the list and view the details of the action in the fly-out</span></span>
 
 ![Menu volant des détails de l’explorateur d’activités](../media/data-classification-activity-explorer-fly-out-3.png)
 
-## <a name="see-also"></a><span data-ttu-id="00b66-144">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="00b66-144">See also</span></span>
-- [<span data-ttu-id="00b66-145">Étiquettes de confidentialité</span><span class="sxs-lookup"><span data-stu-id="00b66-145">Sensitivity labels</span></span>](sensitivity-labels.md)
-- [<span data-ttu-id="00b66-146">Étiquettes de rétention</span><span class="sxs-lookup"><span data-stu-id="00b66-146">Retention labels</span></span>](labels.md)
-- [<span data-ttu-id="00b66-147">Éléments recherchés par les types d’informations sensibles</span><span class="sxs-lookup"><span data-stu-id="00b66-147">What the sensitive information types look for</span></span>](what-the-sensitive-information-types-look-for.md)
-- [<span data-ttu-id="00b66-148">Vue d’ensemble des stratégies de rétention</span><span class="sxs-lookup"><span data-stu-id="00b66-148">Overview of retention policies</span></span>](retention-policies.md)
+## <a name="see-also"></a><span data-ttu-id="a5337-144">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a5337-144">See also</span></span>
+- [<span data-ttu-id="a5337-145">Étiquettes de confidentialité</span><span class="sxs-lookup"><span data-stu-id="a5337-145">Sensitivity labels</span></span>](sensitivity-labels.md)
+- [<span data-ttu-id="a5337-146">Étiquettes de rétention</span><span class="sxs-lookup"><span data-stu-id="a5337-146">Retention labels</span></span>](labels.md)
+- [<span data-ttu-id="a5337-147">Éléments recherchés par les types d’informations sensibles</span><span class="sxs-lookup"><span data-stu-id="a5337-147">What the sensitive information types look for</span></span>](what-the-sensitive-information-types-look-for.md)
+- [<span data-ttu-id="a5337-148">Vue d’ensemble des stratégies de rétention</span><span class="sxs-lookup"><span data-stu-id="a5337-148">Overview of retention policies</span></span>](retention-policies.md)
