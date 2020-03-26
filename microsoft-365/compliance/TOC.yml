@@ -74,7 +74,7 @@
 - name: Gérer la protection des informations
   href: protect-information.md
   items:
-    - name: Étiquettes de niveau de confidentialité
+    - name: Étiquettes de confidentialité
       items:
         - name: En savoir plus sur les étiquettes de niveau de confidentialité
           href: sensitivity-labels.md
@@ -201,13 +201,13 @@
     - name: Comprendre la classification des données (préversion)
       href: data-classification-overview.md
       items:
-        - name: Afficher le contenu étiqueté (aperçu)
+        - name: Prise en main de l’Explorateur de contenu (préversion)
           href: data-classification-content-explorer.md
-        - name: Afficher l’activité des étiquettes (aperçu)
+        - name: Prise en main de l’Explorateur d’activités (préversion)
           href: data-classification-activity-explorer.md
         - name: Notes de publication préliminaire publique sur la notification de données (préversion)
           href: data-classification-pub-preview-relnotes.md
-        - name: Prise en main des classificateurs de formation (préversion)
+        - name: Prise en main des classifieurs de formation (préversion)
           href: classifier-getting-started-with.md
         - name: Utilisation d’un classifieur intégré (aperçu)
           href: classifier-using-a-ready-to-use-classifier.md
@@ -243,6 +243,8 @@
           href: archive-linkedin-data.md
         - name: Configurer un connecteur pour archiver les données Instant Bloomberg
           href: archive-instant-bloomberg-data.md
+        - name: Configuration d’un connecteur pour l’archivage des données de conversation ICE (aperçu)
+          href: archive-icechat-data.md
         - name: Configurer un connecteur pour importer des données RH
           href: import-hr-data.md
         - name: Collaborer avec un partenaire pour archiver des données tierces
@@ -816,6 +818,10 @@
           href: gdpr-for-office-online-server.md
         - name: "RGPD pour les partages de fichiers Windows\_Server en local"
           href: gdpr-for-on-premises-file-shares.md
+    - name: Conseils propres aux secteurs industriels
+      items:
+        - name: Sécurité et conformité des services financiers
+          href: ../solutions/financial-services-secure-collaboration.md
 - name: Plans d’action de conformité aux réglementations
   items:
     - name: ISO - Plan d’action recommandé
