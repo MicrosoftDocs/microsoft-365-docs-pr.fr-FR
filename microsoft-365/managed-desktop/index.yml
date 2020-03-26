@@ -1,8 +1,8 @@
 ### YamlMime:YamlDocument
 documentType: LandingData
-title: Ressources et documentation du bureau géré Microsoft
+title: Documentation et ressources sur le Bureau géré Microsoft
 metadata:
-  title: Documentation du bureau géré Microsoft
+  title: Documentation sur le Bureau géré Microsoft
   description: null
   keywords: 'appareil, application, gestion'
   author: jaimeo
@@ -13,7 +13,7 @@ metadata:
 sections:
   - items:
       - type: markdown
-        text: 'Microsoft Managed Desktop rassemble Microsoft 365 Enterprise, la gestion des appareils basée sur le Cloud par Microsoft et la surveillance de la sécurité, ce qui vous permet de libérer vos équipes informatiques afin de vous concentrer sur les besoins fondamentaux de votre entreprise.'
+        text: 'Microsoft Managed Desktop réunit Microsoft 365 Enterprise, la gestion des appareils basée sur le Cloud par Microsoft et la surveillance de la sécurité, ce qui vous permet de libérer vos équipes informatiques afin de vous concentrer sur les besoins fondamentaux de l’entreprise.'
   - items:
       - type: list
         style: cards
@@ -21,64 +21,64 @@ sections:
         columns: 2
         items:
           - href: intro/index.md
-            html: '<p>Introduction à Microsoft Managed Desktop pour les décideurs--en quoi consiste son fonctionnement, et ce qu’il peut faire pour vous</p>'
+            html: "<p>Présentation du Bureau géré Microsoft pour les décisionnaires\_: sa description, son fonctionnement et ses fonctionnalités utiles</p>"
             image:
               src: 'https://docs.microsoft.com/media/common/i_overview.svg'
               alt: ''
-            title: "Qu’est-ce que le bureau géré Microsoft\_?"
+            title: "Qu’est-ce que le Bureau géré Microsoft\_?"
           - href: service-description/index.md
-            html: <p>Description détaillée de toutes les parties du bureau géré Microsoft</p>
+            html: <p>Description détaillée de tous les éléments du Bureau géré Microsoft</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
               alt: ''
-            title: Description de service
+            title: Description du service
           - href: get-ready/index.md
-            html: <p>Toutes les étapes pour que votre environnement et votre organisation soient prêts à fonctionner avec le service</p>
+            html: <p>Procédure complète pour préparer votre environnement et votre organisation à l’utilisation du service</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_support.svg'
               alt: ''
             title: Préparez-vous
           - href: get-started/index.md
-            html: '<p>Préparez votre organisation à bord avec le bureau géré Microsoft, y compris la configuration des appareils et le déploiement d’applications</p>'
+            html: '<p>Associez votre organisation au Bureau géré Microsoft, notamment avec la configuration des appareils et le déploiement d’applications</p>'
             image:
               src: 'https://docs.microsoft.com/media/common/i_whats-new.svg'
               alt: ''
             title: Prise en main
           - href: working-with-managed-desktop/index.md
-            html: <p>Toutes les opérations quotidiennes avec le service</p>
+            html: <p>Toutes vos activités quotidiennes avec le service</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_portal.svg'
               alt: ''
             title: Utilisation du Bureau géré Microsoft
-  - title: Nouveaux articles et billets de blog
+  - title: Nouveaux articles et publications de blog
     items:
       - type: paragraph
-        text: Lisez les informations les plus récentes et les plus importantes que vous devez savoir.
+        text: Prenez connaissance des dernières et plus importantes informations qu'il faut savoir.
       - type: list
         style: cards
         className: cardsM
         columns: 2
         items:
           - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482'
-            title: Voie Feuille de route complète pour Microsoft Managed Desktop
+            title: '[Feuille de route] Votre feuille de route complète pour le Bureau géré Microsoft'
             image:
               src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
           - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182'
-            title: "Papier Étude\_: augmentation de la demande pour les services de bureau gérés"
+            title: "[Livre blanc] Étude\_: demande croissante pour les services de bureau gérés"
             image:
               src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
           - href: 'https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw'
-            title: '[Livre électronique] Faire plaisir à votre entreprise avec un espace de travail moderne'
+            title: '[Livre électronique] Émerveillez votre entreprise grâce à un espace de travail moderne'
             image:
               src: 'https://docs.microsoft.com/media/common/i_guide.svg'
               alt: ''
   - title: Vidéos
     items:
       - type: paragraph
-        text: Découvrez les avantages de Microsoft Managed Desktop dans le vice-président de la technologie de l’Indiana Pacers.
+        text: Découvrez les avantages du Bureau géré Microsoft présentés par le Directeur des Technologies chez Indiana Pacers.
       - type: markdown
         text: '>[!VIDEO https://www.youtube.com/embed/GXVRu49Gmxc]'
       - type: paragraph
-        text: Le directeur général de Microsoft Managed Desktop partage tous les points forts du service lors de la Conférence d’enflamme annuelle.
+        text: Le Directeur Général du Bureau géré Microsoft partage tous les points forts du service lors de la Conférence Ignite annuelle.
       - type: markdown
         text: '>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ksbj]'
