@@ -46,6 +46,8 @@
           href: communication-compliance-investigate-remediate.md
         - name: Référence de fonctionnalité pour la conformité de la communication
           href: communication-compliance-feature-reference.md
+        - name: "Etude de cas\_: contoso configure rapidement une stratégie de langue offensante"
+          href: communication-compliance-case-study.md
         - name: "Stratégies de supervision dans Office\_365"
           href: supervision-policies.md
         - name: "Configurer des stratégies de supervision pour Office\_365"
@@ -638,6 +640,8 @@
               href: use-advanced-ediscovery-utilities.md
             - name: Exécution des rapports
               href: run-reports-in-advanced-ediscovery.md
+    - name: Déclassement des outils eDiscovery hérités
+      href: legacy-ediscovery-retirement.md
 - name: Gestion des investigations de données
   items:
     - name: Vue d’ensemble des enquêtes de données
