@@ -3,6 +3,8 @@
   items:
     - name: Prise en main
       items:
+        - name: Tâches prioritaires pour la prise en charge du travail depuis la maison
+          href: top-security-tasks-for-remote-work.md
         - name: Sécurité Microsoft 365 pour les décideurs d’entreprise
           href: Microsoft-365-security-for-bdm.md
         - name: Atelier de formation du directeur général de la sécurité de l'information (SRCO)
@@ -233,7 +235,7 @@
                       href: ./office-365-security/spam-confidence-levels.md
                     - name: Niveau de réclamation en bloc (BCL)
                       href: ./office-365-security/bulk-complaint-level-values.md
-                    - name: "Quelle est la différence entre courrier indésirable et message électronique en masse\_?"
+                    - name: "Quelle est la différence entre le courrier indésirable et le courrier en nombre\_?"
                       href: ./office-365-security/what-s-the-difference-between-junk-email-and-bulk-email.md
                     - name: Configurer les paramètres de courrier indésirable dans les boîtes aux lettres Exchange Online
                       href: ./office-365-security/configure-junk-email-settings-on-exo-mailboxes.md
@@ -250,18 +252,18 @@
                       href: ./office-365-security/high-risk-delivery-pool-for-outbound-messages.md
                     - name: Retirer les utilisateurs bloqués du portail des utilisateurs restreints
                       href: ./office-365-security/removing-user-from-restricted-users-portal-after-spam.md
-                - name: Signaler des messages et des fichiers à Microsoft
+                - name: Signalez les messages et fichiers à Microsoft
                   href: ./office-365-security/report-junk-email-messages-to-microsoft.md
                   items:
-                    - name: 'Utiliser l’envoi de l’administrateur pour soumettre des courriers indésirables, des hameçons, des URL et des fichiers à Microsoft'
+                    - name: 'Utilisez la soumission de l’administrateur pour soumettre des courriers indésirables, l’hameçonnage, des URL et des fichiers à Microsoft'
                       href: ./office-365-security/admin-submission.md
-                    - name: Activer le complément Signaler le message
+                    - name: Activez le complément Signaler un message
                       href: ./office-365-security/enable-the-report-message-add-in.md
-                    - name: Installer et utiliser le complément Signalisation de courrier indésirable
+                    - name: Installez et utilisez le complément Signalisation de courrier indésirable
                       href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
-                    - name: Soumettre manuellement des messages à Microsoft
+                    - name: Soumettez manuellement des messages à Microsoft
                       href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
-                    - name: Soumettre des programmes malveillants et non malveillants à Microsoft pour analyse
+                    - name: Soumettez des programmes malveillants et non malveillants à Microsoft pour analyse
                       href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
                 - name: En-têtes de messages anti-courrier indésirable
                   href: ./office-365-security/anti-spam-message-headers.md
@@ -347,7 +349,7 @@
                   href: ./office-365-security/block-email-spam-in-EOPStandalone.md
                 - name: Protéger les boîtes aux lettres locales avec Exchange Online Protection
                   href: ./office-365-security/protect-on-premises-mailboxes-with-exchange-online-protection.md
-                - name: Configurer une protection Exchange Online (EOP) autonome pour envoyer le courrier indésirable dans le dossier Courrier indésirable
+                - name: Configurer une protection d'Exchange Online (EOP) autonome pour envoyer des courriers indésirables dans le dossier courrier indésirable
                   href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
         - name: Protection avancée contre les menaces
           href: ./office-365-security/office-365-atp.md
@@ -550,7 +552,7 @@
                       href: ./office-365-security/reporting-and-message-trace-in-exchange-online-protection.md
                     - name: "Renseignements sur le flux de messagerie dans Office\_365"
                       href: ./office-365-security/mail-flow-intelligence-in-office-365.md
-                - name: Résolution des problèmes et support pour EOP
+                - name: Résolution des problèmes et support pour Exchange Online Protection
                   items:
                     - name: Résolution des problèmes de messages envoyés à Office 365
                       href: ./office-365-security/troubleshooting-mail-sent-to-office-365.md
