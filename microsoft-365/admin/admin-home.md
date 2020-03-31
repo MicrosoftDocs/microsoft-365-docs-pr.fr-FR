@@ -16,16 +16,46 @@ ms.collection:
 ms.assetid: b9acfd4c-df82-4eb5-a652-232a6829870a
 description: En savoir plus sur les ressources disponibles pour les administrateurs Microsoft 365.
 ms.custom: okr_smb
-ms.openlocfilehash: baeaa78d7af889366b0a981ee3d0d684c6396bc7
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: cafb63d53178a2cc21448643ba9fd78773265aa8
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42897058"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046914"
 ---
 # <a name="microsoft-365-admin-help-center"></a>Centre d'aide de l’administrateur Microsoft 365
 
 En savoir plus sur les ressources disponibles pour les administrateurs.
+
+<ul class="panelContent cardsJ">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="What's new megaphone symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Office 365 deviendra Microsoft 365</h3>
+                        <p>Nous modifions certains de nos noms d’abonnement Office 365 et Microsoft 365. Vous n’avez rien à faire. Vos services, applications et fonctionnalités restent inchangés, ainsi que le prix de votre abonnement. Le nom de votre abonnement est automatiquement mis à jour dans le centre d’administration Microsoft 365 et vos relevés de facturation seront mis à jour au plus tôt le 21 avril 2020</p>
+                        <ul>
+                            <li><p>Office 365 Business Essentials est désormais Microsoft 365 Business Basic</p></li>
+                            <li><p>Office 365 Business Premium est désormais Microsoft 365 Business Standard</p></li>
+                            <li><p>Microsoft 365 Business est désormais Microsoft 365 Business Premium</p></li>
+                            <li><p>Office 365 Business est désormais Microsoft 365 Apps for business</p></li>
+                            <li><p>Office 365 ProPlus est désormais Microsoft 365 Apps for enterprise</p></li>
+                        </ul>
+                        <p><a href="https://go.microsoft.com/fwlink/?linkid=2120533">En savoir plus</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+
+---
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -35,7 +65,7 @@ En savoir plus sur les ressources disponibles pour les administrateurs.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/sign-up.svg" alt="Buy Office" />
+                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-blue.svg" alt="Buy Office" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -53,7 +83,7 @@ En savoir plus sur les ressources disponibles pour les administrateurs.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started.svg" alt="Setup" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Setup" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -71,7 +101,7 @@ En savoir plus sur les ressources disponibles pour les administrateurs.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/headset.svg" alt="Contact support" />
+                            <img src="https://docs.microsoft.com/office/media/icons/headset-blue.svg" alt="Contact support" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -89,7 +119,7 @@ En savoir plus sur les ressources disponibles pour les administrateurs.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/radar.svg" alt="Get new features" />
+                            <img src="https://docs.microsoft.com/office/media/icons/radar-blue.svg" alt="Get new features" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -147,7 +177,7 @@ En savoir plus sur les ressources disponibles pour les administrateurs.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/small-business.svg" alt="Small business" />
+                            <img src="https://docs.microsoft.com/office/media/icons/small-business-blue.svg" alt="Small business" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -164,7 +194,7 @@ En savoir plus sur les ressources disponibles pour les administrateurs.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/on-premises.svg" alt="Enterprise" />
+                            <img src="https://docs.microsoft.com/office/media/icons/on-premises-blue.svg" alt="Enterprise" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -181,7 +211,7 @@ En savoir plus sur les ressources disponibles pour les administrateurs.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="Training" />
                         </div>
                     </div>
                     <div class="cardText">
