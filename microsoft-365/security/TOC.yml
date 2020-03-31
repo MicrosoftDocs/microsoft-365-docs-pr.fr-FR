@@ -255,12 +255,14 @@
                 - name: Signalez les messages et fichiers à Microsoft
                   href: ./office-365-security/report-junk-email-messages-to-microsoft.md
                   items:
-                    - name: 'Utilisez la soumission de l’administrateur pour soumettre des courriers indésirables, l’hameçonnage, des URL et des fichiers à Microsoft'
+                    - name: Utiliser l’envoi d’administrateur
                       href: ./office-365-security/admin-submission.md
                     - name: Activez le complément Signaler un message
                       href: ./office-365-security/enable-the-report-message-add-in.md
                     - name: Installez et utilisez le complément Signalisation de courrier indésirable
                       href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
+                    - name: Signaler les courriers indésirables et les tentatives de hameçonnage dans Outlook sur le web
+                      href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
                     - name: Soumettez manuellement des messages à Microsoft
                       href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
                     - name: Soumettez des programmes malveillants et non malveillants à Microsoft pour analyse
