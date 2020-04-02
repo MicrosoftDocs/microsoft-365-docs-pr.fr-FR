@@ -18,7 +18,7 @@
       href: plan-for-security-and-compliance.md
 - name: Gérer les risques des Insiders
   items:
-    - name: Gestion des risques initiés
+    - name: Gestion des risques internes
       items:
         - name: En savoir plus sur la gestion des risques internes
           href: insider-risk-management.md
@@ -495,14 +495,14 @@
               href: manage-load-sets-in-advanced-ediscovery.md
         - name: Examiner les données de cas
           items:
+            - name: Utiliser le tableau de bord du jeu de réviseur (aperçu)
+              href: advanced-ediscovery-dashboard.md
             - name: Afficher les documents d’un jeu à réviser
               href: view-documents-in-review-set.md
             - name: Interroger les données d’un jeu à réviser
               href: review-set-search.md
             - name: Étiqueter les documents d’un jeu à réviser
               href: tagging-documents.md
-            - name: Utiliser le tableau de bord du jeu de réviseur (aperçu)
-              href: advanced-ediscovery-dashboard.md
         - name: Analyser les données de cas
           href: analyzing-data-in-review-set.md
           items:
@@ -1194,7 +1194,7 @@
           items:
             - name: PDPA (Argentine)
               href: offering-pdpa-argentina.md
-- name: "Office\_365 Entreprise"
+- name: "Office\_365\_Entreprise"
   href: 'https://docs.microsoft.com/Office365/Enterprise'
 - name: "Office\_365\_Business"
   href: 'https://docs.microsoft.com/office365/admin/admin-home'
