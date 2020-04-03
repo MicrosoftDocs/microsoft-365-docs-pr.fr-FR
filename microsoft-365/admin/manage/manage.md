@@ -15,12 +15,12 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 9f818d7a-78b5-4490-b36c-e3bfe328dfc3
 description: "[] Liens rapides pour les tâches d'administration courantes dans Office 365."
-ms.openlocfilehash: 06d745bc4b3487ca05888e390b7100596bced6c9
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 3c69d24af04567531ea4228202e5ec16cdd39522
+ms.sourcegitcommit: 5ba1efc0b498430e30231010024044049b8727c7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42897042"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43125998"
 ---
 # <a name="manage"></a>Gestion
 
@@ -130,7 +130,7 @@ ms.locfileid: "42897042"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Microsoft Teams</h3>
+                        <h3>Microsoft Teams</h3>
                             <p><a href="https://go.microsoft.com/fwlink/p/?linkid=863169">Vue d’ensemble de Microsoft teams</a></p>
                             <p><a href="https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams">Microsoft Teams</a></p>
                             <p><a href="https://docs.microsoft.com/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users">Permettre aux utilisateurs de contacter les utilisateurs externes</a></p>
@@ -152,7 +152,6 @@ ms.locfileid: "42897042"
                         <h3>E-mail</h3>
                             <p><a href="../add-users/add-users.md">Ajouter un nouvel employé</a></p>
                             <p><a href="https://support.office.com/article/97748418-bbd5-4743-a05b-581f22a466dd">Résoudre les problèmes liés à l'envoi des courriers électroniques</a></p>
-                            <p><a href="https://docs.microsoft.com/office365/troubleshoot/troubleshooting/troubleshoot-email-issues">Résoudre les problèmes liés au courrier électronique</a></p>
                             <p><b>Autres tâches :</b> <a href="../email/email.md">courrier électronique dans Office 365 pour les entreprises</a></p>
                     </div>
                 </div>
@@ -170,7 +169,7 @@ ms.locfileid: "42897042"
                             <p><a href="https://docs.microsoft.com/onedrive/manage-sharing">Gérer le partage dans OneDrive et SharePoint</a></p>
                             <p><a href="https://docs.microsoft.com/onedrive/set-default-storage-space">Définir l'espace de stockage par défaut pour les utilisateurs de OneDrive</a></p>
                             <p><a href="https://support.office.com/article/fix-onedrive-sync-problems-0899b115-05f7-45ec-95b2-e4cc8c4670b2">Résoudre les problèmes de synchronisation liés à OneDrive</a></p>
-                            <p><b>Autres tâches :</b> <a href="https://support.office.com/article/3e21f8f0-e0a1-43be-aa3e-8c0236bf11bb">OneDrive dans Office 365</a></p>
+                            <p><b>Autres tâches :</b> <a href="https://docs.microsoft.com/onedrive/onedrive">OneDrive dans Office 365</a></p>
                     </div>
                 </div>
             </div>
