@@ -10,6 +10,8 @@
           href: intro/technologies.md
         - name: Bureau géré Microsoft et ITIL
           href: MMD-and-ITSM.md
+        - name: Conformité
+          href: intro/compliance.md
     - name: Description du service Bureau géré Microsoft
       href: service-description/index.md
       items:
