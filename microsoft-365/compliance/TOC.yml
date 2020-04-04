@@ -149,6 +149,8 @@
           href: document-fingerprinting.md
         - name: Fonctions DLP pour les informations sensibles
           href: what-the-dlp-functions-look-for.md
+    - name: Chiffrement dans M365
+      href: encryption.md
     - name: Clé client
       items:
         - name: Chiffrement de service avec clé client dans Office 365
@@ -200,6 +202,8 @@
               href: legacy-information-for-message-encryption.md
             - name: "Configurer Azure\_Rights\_Management pour la version précédente de chiffrement de messages Office\_365."
               href: set-up-azure-rms-for-previous-version-message-encryption.md
+    - name: Configurer la gestion des droits relatifs à l’information dans le centre d’administration SharePoint
+      href: set-up-irm-in-sp-admin-center.md
     - name: Comprendre la classification des données (préversion)
       href: data-classification-overview.md
       items:
@@ -765,24 +769,24 @@
       href: get-started-with-service-trust-portal.md
     - name: Score de conformité et Gestionnaire de conformité
       items:
-        - name: Score de conformité (préversion)
+        - name: Score de conformité (aperçu)
           href: compliance-score.md
-        - name: Configurer le score de conformité (préversion)
+        - name: Définir le score de conformité (aperçu)
           href: compliance-score-setup.md
-        - name: Utiliser le score de conformité (préversion)
+        - name: Utilisation du score de conformité (aperçu)
           href: working-with-compliance-score.md
-        - name: Calcul du score de conformité (préversion)
+        - name: Calcul du score de conformité (aperçu)
           href: compliance-score-methodology.md
-        - name: Notes de publication de la fonctionnalité Score de conformité (préversion)
+        - name: Notes de publication du score de conformité (aperçu)
           href: compliance-score-release-notes.md
         - name: FAQ sur le score de conformité (aperçu)
           href: compliance-score-faq.md
-        - name: Gestionnaire de conformité (préversion)
+        - name: Gestionnaire de conformité (aperçu)
           href: compliance-manager-overview.md
           items:
-            - name: Nouveautés du Gestionnaire de conformité (préversion)
+            - name: Notes de publication du gestionnaire de conformité (aperçu)
               href: compliance-manager-release-notes.md
-            - name: Utilisation du Gestionnaire de conformité (préversion)
+            - name: Utilisation du gestionnaire de conformité (aperçu)
               href: working-with-compliance-manager.md
             - name: Gestionnaire de conformité (classique)
               href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
@@ -1194,7 +1198,7 @@
           items:
             - name: PDPA (Argentine)
               href: offering-pdpa-argentina.md
-- name: "Office\_365\_Entreprise"
+- name: "Office\_365 Entreprise"
   href: 'https://docs.microsoft.com/Office365/Enterprise'
 - name: "Office\_365\_Business"
   href: 'https://docs.microsoft.com/office365/admin/admin-home'
