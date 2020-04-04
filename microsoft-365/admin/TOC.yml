@@ -1,7 +1,7 @@
 - name: Page d’accueil de l’administrateur
-  href: admin-home.yml
+  href: admin-home.md
   items:
-    - name: Présentation
+    - name: Vue d’ensemble
       items:
         - name: Vue d’ensemble administrateur
           href: admin-overview/admin-overview.md
@@ -17,7 +17,7 @@
           href: admin-overview/learn-about-office-365-germany.md
         - name: Application Admin Mobile
           href: admin-overview/admin-mobile-app.md
-    - name: Configuration
+    - name: Installation
       items:
         - name: Planifier votre installation
           href: setup/plan-your-setup.md
@@ -86,7 +86,7 @@
     - name: E-mail
       items:
         - name: "Courrier électronique dans Office\_365"
-          href: email/email.yml
+          href: email/email.md
         - name: "Paramètres du courrier électronique de l’utilisateur Office\_365"
           href: email/office-365-user-email-settings.md
         - name: Ajouter un autre alias de courrier pour un utilisateur
@@ -154,7 +154,7 @@
     - name: Gestion
       items:
         - name: "Gérer Office\_365"
-          href: manage/manage.yml
+          href: manage/manage.md
         - name: Modifier les préférences de contact
           href: manage/change-contact-preferences.md
         - name: 'Modifier l’adresse, les contacts et d’autres aspects'
@@ -187,8 +187,8 @@
           href: manage/remove-licenses-from-users.md
         - name: Résoudre les conflits de licence
           href: manage/resolve-license-conflicts.md
-        - name: Gérer les messages dans le Centre de messages
-          href: manage/manage-messages.md
+        - name: Afficher ou masquer les nouvelles fonctionnalités à l’aide de nouveautés en matière de gestion
+          href: manage/show-hide-new-features.md
     - name: Abonnements et facturation
       items:
         - name: Gérer vos abonnements
@@ -202,7 +202,7 @@
     - name: Domaines
       items:
         - name: Domaines dans Office 365
-          href: get-help-with-domains/get-help-with-domains.yml
+          href: get-help-with-domains/get-help-with-domains.md
         - name: Qu'est-ce qu'un domaine ?
           href: get-help-with-domains/what-is-a-domain.md
         - name: Acheter un nom de domaine
@@ -227,7 +227,7 @@
           href: get-help-with-domains/remove-a-domain.md
         - name: Transférer des données manuellement
           href: get-help-with-domains/transfer-data-manually.md
-    - name: Groupes
+    - name: Groups
       items:
         - name: Vue d’ensemble des groupes
           href: create-groups/office-365-groups.md
