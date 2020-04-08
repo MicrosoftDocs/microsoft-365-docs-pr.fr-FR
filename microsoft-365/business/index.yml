@@ -11,15 +11,30 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 238c4cd0c74854def600af876f93c52e6480ebb5
-  ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+  ms.openlocfilehash: 9741932fcde29d2b64156c600f1bad1b309d5f66
+  ms.sourcegitcommit: b1ec6ba779a94ddbaab11a272e40abe1d3064532
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 01/18/2020
-  ms.locfileid: "41233665"
+  ms.lasthandoff: 04/07/2020
+  ms.locfileid: "43165910"
+productDirectory:
+  title: Travail à distance sécurisé avec Microsoft 365 Business
+  items:
+  - title: Nouveautés
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
+    summary: Azure AD Premium P1 est destiné à Microsoft 365 Business !
+    url: https://aka.ms/aadp1smbblog
+  - title: Webinaire du partenaire de suivi
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
+    summary: Sécurisez vos clients SMB lorsqu’ils sont associés à COVID-19.
+    url: https://aka.ms/M365v253PAL-Register
+  - title: Exécutant
+    imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
+    summary: Cliquez sur le lien pour acheter ou contacter votre partenaire.
+    url: https://aka.ms/m365bweb
 conceptualContent:
   items:
-  - title: Qu’est-ce que Microsoft 365 Business ?
+  - title: Qu’est-ce que Microsoft 365 Business ?
     links:
     - url: microsoft-365-business-overview.md
       itemType: overview
@@ -32,11 +47,11 @@ conceptualContent:
       text: Comparer des plans
     - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
       itemType: reference
-      text: Description de service
+      text: Description du service
     - url: support/microsoft-365-business-faqs.md
       itemType: reference
-      text: Forum aux questions
-  - title: Configurer Microsoft 365 Business
+      text: FAQ
+  - title: Configurer Microsoft 365 Business
     links:
     - url: set-up.md
       itemType: how-to-guide
@@ -82,10 +97,10 @@ conceptualContent:
     links:
     - url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp
       itemType: overview
-      text: Office 365 Advanced Threat Protection
+      text: Office 365-Protection avancée contre les menaces
     - url: set-up-mfa.md
       itemType: how-to-guide
-      text: Configurer la MFA
+      text: Configurer l’authentification multifacteur
     - url: https://docs.microsoft.com/microsoft-365/business/increase-threat-protection#protect-against-ransomware
       itemType: how-to-guide
       text: Protéger contre les ransomware
@@ -119,7 +134,7 @@ conceptualContent:
       text: PC & appareils mobiles
     - url: remove-company-data.md
       itemType: how-to-guide
-      text: Suppression des données d’entreprise
+      text: Supprimer les données de l’entreprise
     - url: reset-devices-to-factory-settings.md
       itemType: how-to-guide
       text: Effacer et réinitialiser
@@ -156,7 +171,7 @@ conceptualContent:
     links:
     - url: https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog
       itemType: whats-new
-      text: Annonces
+      text: Announcements
     - url: https://support.office.com/article/7f681212-c649-4a3e-a43b-32b1d1e58988
       itemType: video
       text: Obtenir de l’aide
