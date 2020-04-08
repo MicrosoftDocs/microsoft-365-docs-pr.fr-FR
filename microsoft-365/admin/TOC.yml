@@ -169,6 +169,8 @@
           href: manage/centralized-deployment-of-add-ins.md
         - name: Utiliser le déploiement centralisé pour déployer des compléments
           href: manage/manage-deployment-of-add-ins.md
+        - name: FAQ sur le déploiement centralisé
+          href: manage/centralized-deployment-FAQ.md
         - name: Trouver votre partenaire ou revendeur
           href: manage/find-your-partner-or-reseller.md
         - name: Boîtes aux lettres de salle et de ressource
@@ -227,7 +229,7 @@
           href: get-help-with-domains/remove-a-domain.md
         - name: Transférer des données manuellement
           href: get-help-with-domains/transfer-data-manually.md
-    - name: Groups
+    - name: Groupes
       items:
         - name: Vue d’ensemble des groupes
           href: create-groups/office-365-groups.md
