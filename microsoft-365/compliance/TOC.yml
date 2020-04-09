@@ -151,6 +151,8 @@
           href: what-the-dlp-functions-look-for.md
     - name: Chiffrement dans M365
       href: encryption.md
+    - name: Chiffrement du service Office 365
+      href: office-365-service-encryption.md
     - name: Clé client
       items:
         - name: Chiffrement de service avec clé client dans Office 365
