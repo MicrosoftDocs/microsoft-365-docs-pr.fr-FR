@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -24,71 +24,71 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: 'Remplacez votre adresse de messagerie initiale par une adresse de messagerie conviviale telle que tom@fourthcoffee.com. Pour ce faire, vous devez acheter un nom de domaine et l’ajouter à Office 365. '
-ms.openlocfilehash: 1c3c77f9626cdf292e0fb9400070cef3df05a9d6
-ms.sourcegitcommit: 8edad75338cf74712ca1ab5d6631b9b52ff54410
+ms.openlocfilehash: dc0ab64003b48eec50bf34e60d8a6df463b4fe89
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43115972"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212032"
 ---
-# <a name="change-your-email-address-to-use-your-custom-domain"></a><span data-ttu-id="84178-104">Changer votre adresse de courrier pour utiliser votre domaine personnalisé</span><span class="sxs-lookup"><span data-stu-id="84178-104">Change your email address to use your custom domain</span></span>
+# <a name="change-your-email-address-to-use-your-custom-domain"></a><span data-ttu-id="f97bb-104">Changer votre adresse de courrier pour utiliser votre domaine personnalisé</span><span class="sxs-lookup"><span data-stu-id="f97bb-104">Change your email address to use your custom domain</span></span>
 
- <span data-ttu-id="84178-105">**[Consultez les Forums aux questions des domaines](../setup/domains-faq.md)** si vous ne trouvez pas ce que vous recherchez.</span><span class="sxs-lookup"><span data-stu-id="84178-105">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
+ <span data-ttu-id="f97bb-105">**[Consultez les Forums aux questions des domaines](../setup/domains-faq.md)** si vous ne trouvez pas ce que vous recherchez.</span><span class="sxs-lookup"><span data-stu-id="f97bb-105">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
   
 ::: moniker range="o365-worldwide"
 
-<span data-ttu-id="84178-p102">Votre adresse de courrier initiale dans Office 365 contient .onmicrosoft.com, par exemple tom@fourthcoffee.onmicrosoft.com. Vous pouvez la remplacer par une adresse plus conviviale telle que tom@fourthcoffee.com. Vous devez disposer de votre propre nom de domaine, par exemple fourthcoffee.com. Si c'est déjà le cas, tant mieux. Sinon, découvrez comment en [acheter un auprès d'un bureau d'enregistrement de domaines](../get-help-with-domains/buy-a-domain-name.md).</span><span class="sxs-lookup"><span data-stu-id="84178-p102">Your initial email address in Office 365 includes .onmicrosoft.com, like tom@fourthcoffee.onmicrosoft.com. You can change it to a friendlier address like tom@fourthcoffee.com. You'll need your own domain name, like fourthcoffee.com first. If you already have one, great! If not, you can learn how to [buy one from a domain registrar](../get-help-with-domains/buy-a-domain-name.md).</span></span>
+<span data-ttu-id="f97bb-p102">Votre adresse de courrier initiale dans Office 365 contient .onmicrosoft.com, par exemple tom@fourthcoffee.onmicrosoft.com. Vous pouvez la remplacer par une adresse plus conviviale telle que tom@fourthcoffee.com. Vous devez disposer de votre propre nom de domaine, par exemple fourthcoffee.com. Si c'est déjà le cas, tant mieux. Sinon, découvrez comment en [acheter un auprès d'un bureau d'enregistrement de domaines](../get-help-with-domains/buy-a-domain-name.md).</span><span class="sxs-lookup"><span data-stu-id="f97bb-p102">Your initial email address in Office 365 includes .onmicrosoft.com, like tom@fourthcoffee.onmicrosoft.com. You can change it to a friendlier address like tom@fourthcoffee.com. You'll need your own domain name, like fourthcoffee.com first. If you already have one, great! If not, you can learn how to [buy one from a domain registrar](../get-help-with-domains/buy-a-domain-name.md).</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-<span data-ttu-id="84178-111">Votre adresse de messagerie initiale dans Office 365 Germany inclut. onmicrosoft.de, comme tom@fourthcoffee.onmicrosoft.de.</span><span class="sxs-lookup"><span data-stu-id="84178-111">Your initial email address in Office 365 Germany includes .onmicrosoft.de, like tom@fourthcoffee.onmicrosoft.de.</span></span> <span data-ttu-id="84178-112">Vous pouvez le remplacer par une adresse plus conviviale telle que tom@fourthcoffee.de.</span><span class="sxs-lookup"><span data-stu-id="84178-112">You can change it to a friendlier address like tom@fourthcoffee.de.</span></span> <span data-ttu-id="84178-113">Vous aurez besoin de votre propre nom de domaine, par exemple fourthcoffee.de.</span><span class="sxs-lookup"><span data-stu-id="84178-113">You'll need your own domain name, like fourthcoffee.de first.</span></span> <span data-ttu-id="84178-114">Si c'est déjà le cas, tant mieux.</span><span class="sxs-lookup"><span data-stu-id="84178-114">If you already have one, great!</span></span> <span data-ttu-id="84178-115">Sinon, découvrez comment en [acheter un auprès d'un bureau d'enregistrement de domaines](../get-help-with-domains/buy-a-domain-name.md).</span><span class="sxs-lookup"><span data-stu-id="84178-115">If not, you can learn how to [buy one from a domain registrar](../get-help-with-domains/buy-a-domain-name.md).</span></span>
+<span data-ttu-id="f97bb-111">Votre adresse de messagerie initiale dans Office 365 Germany inclut. onmicrosoft.de, comme tom@fourthcoffee.onmicrosoft.de.</span><span class="sxs-lookup"><span data-stu-id="f97bb-111">Your initial email address in Office 365 Germany includes .onmicrosoft.de, like tom@fourthcoffee.onmicrosoft.de.</span></span> <span data-ttu-id="f97bb-112">Vous pouvez le remplacer par une adresse plus conviviale telle que tom@fourthcoffee.de.</span><span class="sxs-lookup"><span data-stu-id="f97bb-112">You can change it to a friendlier address like tom@fourthcoffee.de.</span></span> <span data-ttu-id="f97bb-113">Vous aurez besoin de votre propre nom de domaine, par exemple fourthcoffee.de.</span><span class="sxs-lookup"><span data-stu-id="f97bb-113">You'll need your own domain name, like fourthcoffee.de first.</span></span> <span data-ttu-id="f97bb-114">Si c'est déjà le cas, tant mieux.</span><span class="sxs-lookup"><span data-stu-id="f97bb-114">If you already have one, great!</span></span> <span data-ttu-id="f97bb-115">Sinon, découvrez comment en [acheter un auprès d'un bureau d'enregistrement de domaines](../get-help-with-domains/buy-a-domain-name.md).</span><span class="sxs-lookup"><span data-stu-id="f97bb-115">If not, you can learn how to [buy one from a domain registrar](../get-help-with-domains/buy-a-domain-name.md).</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-<span data-ttu-id="84178-116">Votre adresse de messagerie initiale dans Office 365 géré par 21Vianet inclut partner.onmschina.cn, comme tom@fourthcoffee.partner.onmschina.cn.</span><span class="sxs-lookup"><span data-stu-id="84178-116">Your initial email address in Office 365 operated by 21Vianet includes partner.onmschina.cn, like tom@fourthcoffee.partner.onmschina.cn.</span></span> <span data-ttu-id="84178-117">Vous pouvez le remplacer par une adresse plus conviviale telle que tom@fourthcoffee.cn.</span><span class="sxs-lookup"><span data-stu-id="84178-117">You can change it to a friendlier address like tom@fourthcoffee.cn.</span></span> <span data-ttu-id="84178-118">Vous aurez besoin de votre propre nom de domaine, par exemple fourthcoffee.cn.</span><span class="sxs-lookup"><span data-stu-id="84178-118">You'll need your own domain name, like fourthcoffee.cn first.</span></span> <span data-ttu-id="84178-119">Si c'est déjà le cas, tant mieux.</span><span class="sxs-lookup"><span data-stu-id="84178-119">If you already have one, great!</span></span> <span data-ttu-id="84178-120">Sinon, découvrez comment en [acheter un auprès d'un bureau d'enregistrement de domaines](../get-help-with-domains/buy-a-domain-name.md).</span><span class="sxs-lookup"><span data-stu-id="84178-120">If not, you can learn how to [buy one from a domain registrar](../get-help-with-domains/buy-a-domain-name.md).</span></span>
+<span data-ttu-id="f97bb-116">Votre adresse de messagerie initiale dans Office 365 géré par 21Vianet inclut partner.onmschina.cn, comme tom@fourthcoffee.partner.onmschina.cn.</span><span class="sxs-lookup"><span data-stu-id="f97bb-116">Your initial email address in Office 365 operated by 21Vianet includes partner.onmschina.cn, like tom@fourthcoffee.partner.onmschina.cn.</span></span> <span data-ttu-id="f97bb-117">Vous pouvez le remplacer par une adresse plus conviviale telle que tom@fourthcoffee.cn.</span><span class="sxs-lookup"><span data-stu-id="f97bb-117">You can change it to a friendlier address like tom@fourthcoffee.cn.</span></span> <span data-ttu-id="f97bb-118">Vous aurez besoin de votre propre nom de domaine, par exemple fourthcoffee.cn.</span><span class="sxs-lookup"><span data-stu-id="f97bb-118">You'll need your own domain name, like fourthcoffee.cn first.</span></span> <span data-ttu-id="f97bb-119">Si c'est déjà le cas, tant mieux.</span><span class="sxs-lookup"><span data-stu-id="f97bb-119">If you already have one, great!</span></span> <span data-ttu-id="f97bb-120">Sinon, découvrez comment en [acheter un auprès d'un bureau d'enregistrement de domaines](../get-help-with-domains/buy-a-domain-name.md).</span><span class="sxs-lookup"><span data-stu-id="f97bb-120">If not, you can learn how to [buy one from a domain registrar](../get-help-with-domains/buy-a-domain-name.md).</span></span>
 
 ::: moniker-end
 
-<span data-ttu-id="84178-p105">Lorsque vous modifiez l'adresse de courrier de votre domaine de manière à utiliser Office 365 en mettant à jour l'enregistrement MX de votre domaine lors de la configuration, TOUS les messages envoyés à ce domaine arriveront dans Office 365. Vérifiez que vous avez ajouté les utilisateurs et créé les boîtes aux lettres dans Office 365 pour les personnes qui reçoivent du courrier électronique sur votre domaine AVANT de modifier l'enregistrement MX. Vous ne voulez pas déplacer le courrier électronique de tous les membres de votre domaine vers Office 365 ? Vous pouvez prendre des mesures pour [tester Office 365 avec seulement quelques adresses de courrier](https://support.office.com/article/39cee536-6a03-40cf-b9c1-f301bb6001d7.aspx).</span><span class="sxs-lookup"><span data-stu-id="84178-p105">When you change your domain's email to come to Office 365, by updating your domain's MX record during setup, ALL email sent to that domain will start coming to Office 365. Make sure you've added users and created mailboxes in Office 365 for everyone who has email on your domain BEFORE you change the MX record. Don't want to move email for everyone on your domain to Office 365? You can take steps to [pilot Office 365 with just a few email addresses instead](https://support.office.com/article/39cee536-6a03-40cf-b9c1-f301bb6001d7.aspx).</span></span>
+<span data-ttu-id="f97bb-p105">Lorsque vous modifiez l'adresse de courrier de votre domaine de manière à utiliser Office 365 en mettant à jour l'enregistrement MX de votre domaine lors de la configuration, TOUS les messages envoyés à ce domaine arriveront dans Office 365. Vérifiez que vous avez ajouté les utilisateurs et créé les boîtes aux lettres dans Office 365 pour les personnes qui reçoivent du courrier électronique sur votre domaine AVANT de modifier l'enregistrement MX. Vous ne voulez pas déplacer le courrier électronique de tous les membres de votre domaine vers Office 365 ? Vous pouvez prendre des mesures pour [tester Office 365 avec seulement quelques adresses de courrier](https://support.office.com/article/39cee536-6a03-40cf-b9c1-f301bb6001d7.aspx).</span><span class="sxs-lookup"><span data-stu-id="f97bb-p105">When you change your domain's email to come to Office 365, by updating your domain's MX record during setup, ALL email sent to that domain will start coming to Office 365. Make sure you've added users and created mailboxes in Office 365 for everyone who has email on your domain BEFORE you change the MX record. Don't want to move email for everyone on your domain to Office 365? You can take steps to [pilot Office 365 with just a few email addresses instead](https://support.office.com/article/39cee536-6a03-40cf-b9c1-f301bb6001d7.aspx).</span></span>
   
-## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a><span data-ttu-id="84178-125">Modifier votre adresse de courrier pour utiliser votre domaine personnalisé à l’aide du centre d’administration Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="84178-125">Change your email address to use your custom domain using the Microsoft 365 admin center</span></span>
+## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a><span data-ttu-id="f97bb-125">Modifier votre adresse de courrier pour utiliser votre domaine personnalisé à l’aide du centre d’administration Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="f97bb-125">Change your email address to use your custom domain using the Microsoft 365 admin center</span></span>
 
-<span data-ttu-id="84178-126">Pour effectuer ces étapes, vous devez disposer d’un compte d’administrateur global.</span><span class="sxs-lookup"><span data-stu-id="84178-126">You must have a global admin account to perform these steps.</span></span> 
+<span data-ttu-id="f97bb-126">Pour effectuer ces étapes, vous devez disposer d’un compte d’administrateur global.</span><span class="sxs-lookup"><span data-stu-id="f97bb-126">You must have a global admin account to perform these steps.</span></span> 
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="84178-127">Accédez au Centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="84178-127">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span></span> 
+1. <span data-ttu-id="f97bb-127">Accédez au Centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="f97bb-127">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span></span> 
 
 ::: moniker-end
    
 ::: moniker range="o365-germany"
     
-1. <span data-ttu-id="84178-128">Accédez au Centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.</span><span class="sxs-lookup"><span data-stu-id="84178-128">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.</span></span> 
+1. <span data-ttu-id="f97bb-128">Accédez au Centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.</span><span class="sxs-lookup"><span data-stu-id="f97bb-128">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.</span></span> 
     
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="84178-129">Accédez au centre d’administration à <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank"> https://portal.partner.microsoftonline.cn </a>l’adresse.</span><span class="sxs-lookup"><span data-stu-id="84178-129">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank"> https://portal.partner.microsoftonline.cn</a>.</span></span> 
+1. <span data-ttu-id="f97bb-129">Accédez au centre d’administration à <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank"> https://portal.partner.microsoftonline.cn </a>l’adresse.</span><span class="sxs-lookup"><span data-stu-id="f97bb-129">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank"> https://portal.partner.microsoftonline.cn</a>.</span></span> 
 
 ::: moniker-end 
 
-2. <span data-ttu-id="84178-130">Accédez à la page**domaines** **d’installation** > .</span><span class="sxs-lookup"><span data-stu-id="84178-130">Go to the **Setup** > **Domains** page.</span></span> 
+2. <span data-ttu-id="f97bb-130">Accédez à la page**domaines** **d’installation** > .</span><span class="sxs-lookup"><span data-stu-id="f97bb-130">Go to the **Setup** > **Domains** page.</span></span> 
 
-3. <span data-ttu-id="84178-131">Dans la page **domaines** , sélectionnez **Ajouter un domaine**.</span><span class="sxs-lookup"><span data-stu-id="84178-131">On the **Domains** page, select **Add domain**.</span></span>
+3. <span data-ttu-id="f97bb-131">Dans la page **domaines** , sélectionnez **Ajouter un domaine**.</span><span class="sxs-lookup"><span data-stu-id="f97bb-131">On the **Domains** page, select **Add domain**.</span></span>
     
-4. <span data-ttu-id="84178-132">Suivez les étapes indiquées pour confirmer que vous êtes le propriétaire de votre domaine et que vous voulez modifier votre adresse de courrier.</span><span class="sxs-lookup"><span data-stu-id="84178-132">Follow the steps to confirm that you own your domain and to change your email address.</span></span>
+4. <span data-ttu-id="f97bb-132">Suivez les étapes indiquées pour confirmer que vous êtes le propriétaire de votre domaine et que vous voulez modifier votre adresse de courrier.</span><span class="sxs-lookup"><span data-stu-id="f97bb-132">Follow the steps to confirm that you own your domain and to change your email address.</span></span>
     
-<span data-ttu-id="84178-133">Vous serez guidé afin de configurer correctement votre domaine dans Office 365.</span><span class="sxs-lookup"><span data-stu-id="84178-133">You'll be guided to get everything set up correctly with your domain in Office 365.</span></span>
+<span data-ttu-id="f97bb-133">Vous serez guidé afin de configurer correctement votre domaine dans Office 365.</span><span class="sxs-lookup"><span data-stu-id="f97bb-133">You'll be guided to get everything set up correctly with your domain in Office 365.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="84178-134">Si vous n’utilisez pas de licence Exchange, vous ne pouvez pas utiliser le domaine pour envoyer ou recevoir des courriers électroniques à partir du client Office 365.</span><span class="sxs-lookup"><span data-stu-id="84178-134">If you are not using an Exchange license, you cannot use the domain to send or receive emails from the Office 365 tenant.</span></span>
+> <span data-ttu-id="f97bb-134">Si vous n’utilisez pas de licence Exchange, vous ne pouvez pas utiliser le domaine pour envoyer ou recevoir des courriers électroniques à partir du client Office 365.</span><span class="sxs-lookup"><span data-stu-id="f97bb-134">If you are not using an Exchange license, you cannot use the domain to send or receive emails from the Office 365 tenant.</span></span>
   
-## <a name="related-articles"></a><span data-ttu-id="84178-135">Articles connexes</span><span class="sxs-lookup"><span data-stu-id="84178-135">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="f97bb-135">Articles connexes</span><span class="sxs-lookup"><span data-stu-id="f97bb-135">Related articles</span></span>
 
-[<span data-ttu-id="84178-136">Acheter un domaine personnalisé à l'aide d'Office 365</span><span class="sxs-lookup"><span data-stu-id="84178-136">Buy a custom domain using Office 365</span></span>](../get-help-with-domains/buy-a-domain-name.md)
+[<span data-ttu-id="f97bb-136">Acheter un domaine personnalisé à l'aide d'Office 365</span><span class="sxs-lookup"><span data-stu-id="f97bb-136">Buy a custom domain using Office 365</span></span>](../get-help-with-domains/buy-a-domain-name.md)
  

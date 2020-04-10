@@ -6,7 +6,7 @@ ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: troubleshooting
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,36 +20,36 @@ search.appverid:
 - BEA160
 ms.assetid: 796f7eda-b1f8-479a-adee-bd9226ca47ec
 description: Découvrez comment résoudre les conflits de licences avec votre abonnement Office 365 pour les entreprises.
-ms.openlocfilehash: 63464951c4f1fd568248ca5c43da9f8c94347711
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 9dbd483b01566039cb227cd3d2f086c3f6e34be5
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361779"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212292"
 ---
-# <a name="resolve-license-conflicts-in-office-365-for-business"></a><span data-ttu-id="328b1-103">Résoudre les conflits de licence dans Office 365 pour les entreprises</span><span class="sxs-lookup"><span data-stu-id="328b1-103">Resolve license conflicts in Office 365 for business</span></span>
+# <a name="resolve-license-conflicts-in-office-365-for-business"></a><span data-ttu-id="ef870-103">Résoudre les conflits de licence dans Office 365 pour les entreprises</span><span class="sxs-lookup"><span data-stu-id="ef870-103">Resolve license conflicts in Office 365 for business</span></span>
 
-<span data-ttu-id="328b1-104">Nous vous recommandons d’acheter les licences dont vous avez besoin pour votre abonnement avant de créer de nouveaux utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="328b1-104">We recommend that you buy the licenses that you need for your subscription before you create new users.</span></span> <span data-ttu-id="328b1-105">De cette manière, une licence peut être attribuée à chaque nouvel utilisateur lors de la création d'un compte d'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="328b1-105">That way, a license can be assigned to new users as user accounts are created.</span></span> <span data-ttu-id="328b1-106">Si vous avez déjà attribué toutes vos licences aux utilisateurs, mais que certaines licences ont expiré, ou vous essayez de supprimer une licence déjà attribuée à un utilisateur, vous rencontrerez un conflit de licence.</span><span class="sxs-lookup"><span data-stu-id="328b1-106">If you have already assigned all of your licenses to users, but some of the licenses have expired, or you try to remove a license that is already assigned to a user, you will have license conflicts.</span></span> <span data-ttu-id="328b1-107">Pour plus d’informations, consultez [la rubrique supprimer des licences de votre abonnement](../../commerce/licenses/remove-licenses-from-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="328b1-107">For more information, see [Remove licenses from your subscription](../../commerce/licenses/remove-licenses-from-subscription.md).</span></span>
+<span data-ttu-id="ef870-104">Nous vous recommandons d’acheter les licences dont vous avez besoin pour votre abonnement avant de créer de nouveaux utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="ef870-104">We recommend that you buy the licenses that you need for your subscription before you create new users.</span></span> <span data-ttu-id="ef870-105">De cette manière, une licence peut être attribuée à chaque nouvel utilisateur lors de la création d'un compte d'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="ef870-105">That way, a license can be assigned to new users as user accounts are created.</span></span> <span data-ttu-id="ef870-106">Si vous avez déjà attribué toutes vos licences aux utilisateurs, mais que certaines licences ont expiré, ou vous essayez de supprimer une licence déjà attribuée à un utilisateur, vous rencontrerez un conflit de licence.</span><span class="sxs-lookup"><span data-stu-id="ef870-106">If you have already assigned all of your licenses to users, but some of the licenses have expired, or you try to remove a license that is already assigned to a user, you will have license conflicts.</span></span> <span data-ttu-id="ef870-107">Pour plus d’informations, consultez [la rubrique supprimer des licences de votre abonnement](../../commerce/licenses/remove-licenses-from-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="ef870-107">For more information, see [Remove licenses from your subscription](../../commerce/licenses/remove-licenses-from-subscription.md).</span></span>
   
-## <a name="how-do-i-view-license-conflicts"></a><span data-ttu-id="328b1-108">Comment afficher les conflits de licence ?</span><span class="sxs-lookup"><span data-stu-id="328b1-108">How do I view license conflicts?</span></span>
+## <a name="how-do-i-view-license-conflicts"></a><span data-ttu-id="ef870-108">Comment afficher les conflits de licence ?</span><span class="sxs-lookup"><span data-stu-id="ef870-108">How do I view license conflicts?</span></span>
 
-1. <span data-ttu-id="328b1-109">Dans le centre d’administration, accédez à la page <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licences</a> de **facturation** \> .</span><span class="sxs-lookup"><span data-stu-id="328b1-109">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.</span></span>
+1. <span data-ttu-id="ef870-109">Dans le centre d’administration, accédez à la page <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">licences</a> de **facturation** \> .</span><span class="sxs-lookup"><span data-stu-id="ef870-109">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.</span></span>
 
-    <span data-ttu-id="328b1-110">Si vous utilisez Office 365 Germany, accédez à cette page de <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">licences</a> .</span><span class="sxs-lookup"><span data-stu-id="328b1-110">If you're using Office 365 Germany, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenses</a> page.</span></span>
+    <span data-ttu-id="ef870-110">Si vous utilisez Office 365 Germany, accédez à cette page de <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">licences</a> .</span><span class="sxs-lookup"><span data-stu-id="ef870-110">If you're using Office 365 Germany, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenses</a> page.</span></span>
 
-    <span data-ttu-id="328b1-111">Si vous utilisez Office 365 géré par 21Vianet, accédez à cette page de <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">licences</a> .</span><span class="sxs-lookup"><span data-stu-id="328b1-111">If you're using Office 365 operated by 21Vianet, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenses</a> page.</span></span>
+    <span data-ttu-id="ef870-111">Si vous utilisez Office 365 géré par 21Vianet, accédez à cette page de <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">licences</a> .</span><span class="sxs-lookup"><span data-stu-id="ef870-111">If you're using Office 365 operated by 21Vianet, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenses</a> page.</span></span>
 
-2. <span data-ttu-id="328b1-112">Vérifiez la colonne **État** pour obtenir des informations sur le conflit.</span><span class="sxs-lookup"><span data-stu-id="328b1-112">Check the **Status** column for information about the conflict.</span></span> <span data-ttu-id="328b1-113">En cas de conflit, un message d’avertissement s’affiche, indiquant qu’un ou plusieurs utilisateurs ont besoin d’une licence valide.</span><span class="sxs-lookup"><span data-stu-id="328b1-113">If there's a conflict, you'll see a warning message, that says one or more users need a valid license.</span></span>
+2. <span data-ttu-id="ef870-112">Vérifiez la colonne **État** pour obtenir des informations sur le conflit.</span><span class="sxs-lookup"><span data-stu-id="ef870-112">Check the **Status** column for information about the conflict.</span></span> <span data-ttu-id="ef870-113">En cas de conflit, un message d’avertissement s’affiche, indiquant qu’un ou plusieurs utilisateurs ont besoin d’une licence valide.</span><span class="sxs-lookup"><span data-stu-id="ef870-113">If there's a conflict, you'll see a warning message, that says one or more users need a valid license.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="328b1-114">La colonne **État** ne s'affiche qu'en cas de conflit.</span><span class="sxs-lookup"><span data-stu-id="328b1-114">You won't see the **Status** column if there are no conflicts.</span></span>
+    > <span data-ttu-id="ef870-114">La colonne **État** ne s'affiche qu'en cas de conflit.</span><span class="sxs-lookup"><span data-stu-id="ef870-114">You won't see the **Status** column if there are no conflicts.</span></span>
 
-## <a name="how-do-i-resolve-license-conflicts"></a><span data-ttu-id="328b1-115">Comment résoudre les conflits de licence ?</span><span class="sxs-lookup"><span data-stu-id="328b1-115">How do I resolve license conflicts?</span></span>
+## <a name="how-do-i-resolve-license-conflicts"></a><span data-ttu-id="ef870-115">Comment résoudre les conflits de licence ?</span><span class="sxs-lookup"><span data-stu-id="ef870-115">How do I resolve license conflicts?</span></span>
 
-<span data-ttu-id="328b1-116">Vous pouvez résoudre les conflits de licence en [achetant davantage de licences](../../commerce/licenses/buy-licenses.md) ou en [supprimant les licences des utilisateurs qui n’en ont plus besoin](remove-licenses-from-users.md).</span><span class="sxs-lookup"><span data-stu-id="328b1-116">You can resolve license conflicts by either [buying more licenses](../../commerce/licenses/buy-licenses.md) or by [removing licenses from users who no longer need them](remove-licenses-from-users.md).</span></span> <span data-ttu-id="328b1-117">Vous pouvez aussi [supprimer un compte d'utilisateur pour libérer une licence](../add-users/delete-a-user.md).</span><span class="sxs-lookup"><span data-stu-id="328b1-117">You can optionally [delete a user account to free a license](../add-users/delete-a-user.md).</span></span>
+<span data-ttu-id="ef870-116">Vous pouvez résoudre les conflits de licence en [achetant davantage de licences](../../commerce/licenses/buy-licenses.md) ou en [supprimant les licences des utilisateurs qui n’en ont plus besoin](remove-licenses-from-users.md).</span><span class="sxs-lookup"><span data-stu-id="ef870-116">You can resolve license conflicts by either [buying more licenses](../../commerce/licenses/buy-licenses.md) or by [removing licenses from users who no longer need them](remove-licenses-from-users.md).</span></span> <span data-ttu-id="ef870-117">Vous pouvez aussi [supprimer un compte d'utilisateur pour libérer une licence](../add-users/delete-a-user.md).</span><span class="sxs-lookup"><span data-stu-id="ef870-117">You can optionally [delete a user account to free a license](../add-users/delete-a-user.md).</span></span>
   
-## <a name="related-articles"></a><span data-ttu-id="328b1-118">Articles connexes</span><span class="sxs-lookup"><span data-stu-id="328b1-118">Related articles</span></span> 
+## <a name="related-articles"></a><span data-ttu-id="ef870-118">Articles connexes</span><span class="sxs-lookup"><span data-stu-id="ef870-118">Related articles</span></span> 
 
-[<span data-ttu-id="328b1-119">Attribuer des licences aux utilisateurs</span><span class="sxs-lookup"><span data-stu-id="328b1-119">Assign licenses to users</span></span>](assign-licenses-to-users.md)
+[<span data-ttu-id="ef870-119">Attribuer des licences aux utilisateurs</span><span class="sxs-lookup"><span data-stu-id="ef870-119">Assign licenses to users</span></span>](assign-licenses-to-users.md)
   
-[<span data-ttu-id="328b1-120">Retirer des licences aux utilisateurs</span><span class="sxs-lookup"><span data-stu-id="328b1-120">Remove licenses from users</span></span>](remove-licenses-from-users.md)
+[<span data-ttu-id="ef870-120">Retirer des licences aux utilisateurs</span><span class="sxs-lookup"><span data-stu-id="ef870-120">Remove licenses from users</span></span>](remove-licenses-from-users.md)
