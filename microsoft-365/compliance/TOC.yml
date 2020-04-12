@@ -76,7 +76,7 @@
 - name: Gérer la protection des informations
   href: protect-information.md
   items:
-    - name: Étiquettes de confidentialité
+    - name: Étiquettes de niveau de confidentialité
       items:
         - name: En savoir plus sur les étiquettes de niveau de confidentialité
           href: sensitivity-labels.md
@@ -830,6 +830,8 @@
       items:
         - name: Sécurité et conformité des services financiers
           href: ../solutions/financial-services-secure-collaboration.md
+        - name: Sécurité et conformité des services énergétiques
+          href: ../solutions/energy-secure-collaboration.md
 - name: Plans d’action de conformité aux réglementations
   items:
     - name: ISO - Plan d’action recommandé
@@ -853,7 +855,7 @@
               href: gdpr-arc-dynamics365.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-arc-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-arc-office365.md
         - name: Protection des informations
           href: gdpr-information-protection.md
@@ -871,7 +873,7 @@
               href: gdpr-dsr-intune.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-dsr-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-dsr-office365.md
             - name: Visual Studio Family
               href: gdpr-dsr-visual-studio-family.md
@@ -883,7 +885,7 @@
               href: gdpr-breach-azure-dynamics.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-breach-microsoft-support-professional-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-breach-office365.md
         - name: Analyses d’impact sur la protection des données
           items:
@@ -895,7 +897,7 @@
               href: gdpr-dpia-dynamics.md
             - name: Services professionnels du support technique Microsoft &
               href: gdpr-dpia-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-dpia-office365.md
         - name: Délégué à la protection des données de Microsoft
           href: gdpr-data-protection-officer.md
