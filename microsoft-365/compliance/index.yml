@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Documentation de conformité Microsoft 365
-summary: Si votre organisation doit se conformer aux normes légales ou réglementaires, commencez par en savoir plus sur la conformité dans Microsoft 365.
+title: Documentation sur la conformité dans Microsoft 365
+summary: Si votre organisation doit se conformer à des normes juridiques ou réglementaires, commencez ici pour en savoir plus sur la conformité dans Microsoft 365.
 metadata:
-  title: Documentation de conformité Microsoft 365
-  description: Documentation sur les fonctionnalités de conformité de Microsoft 365
+  title: Documentation sur la conformité dans Microsoft 365
+  description: Documentation sur les fonctionnalités de conformité de Microsoft 365
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: d6f24a93754c60227e668bb8d0ec42776a519dbc
   ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: fr-FR
   ms.lasthandoff: 02/27/2020
   ms.locfileid: "42322529"
@@ -24,7 +24,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Étiquettes de niveau de confidentialité
+    - text: Étiquettes de confidentialité
       url: sensitivity-labels.md
     - text: Protection contre la perte de données (DLP)
       url: data-loss-prevention-policies.md
@@ -40,7 +40,7 @@ landingContent:
     links:
     - text: Étiquettes de rétention
       url: labels.md
-    - text: Stratégies de conservation
+    - text: Stratégies de rétention
       url: retention-policies.md
     - text: Gestion des enregistrements
       url: records-management.md
@@ -48,17 +48,17 @@ landingContent:
       url: file-plan-manager.md
     - text: Rétention basée sur des événements
       url: event-driven-retention.md
-    - text: Importation des fichiers PST
+    - text: Importation PST
       url: importing-pst-files-to-office-365.md
     - text: Connecteurs de données tiers
       url: archiving-third-party-data.md
     - text: Rapports de gouvernance des données
       url: view-the-data-governance-reports.md
-- title: Gérer les risques des Insiders
+- title: Gérer les risques internes
   linkLists:
   - linkListType: overview
     links:
-    - text: Gestion des risques initiés
+    - text: Gestion des risques internes
       url: insider-risk-management.md
     - text: Conformité des communications
       url: communication-compliance.md
@@ -66,7 +66,7 @@ landingContent:
       url: information-barriers.md
     - text: Gestion des accès privilégiés
       url: privileged-access-management-overview.md
-    - text: Référentiel sécurisé de client
+    - text: Référentiel sécurisé client
       url: customer-lockbox-requests.md
 - title: Découvrir et répondre
   linkLists:
@@ -74,11 +74,11 @@ landingContent:
     links:
     - text: Advanced eDiscovery
       url: overview-ediscovery-20.md
-    - text: Découverte électronique principale
+    - text: Core eDiscovery
       url: ediscovery-cases.md
     - text: Recherche de contenu
       url: search-for-content.md
-    - text: Enquêtes de données (aperçu)
+    - text: Enquêtes sur les données (aperçu)
       url: overview-data-investigations.md
     - text: Audit
       url: search-the-audit-log-in-security-and-compliance.md
@@ -90,7 +90,7 @@ landingContent:
       url: compliance-score.md
     - text: Plan d’action de conformité RGPD
       url: gdpr-action-plan.md
-    - text: Protection des informations pour RGPD
+    - text: Protection des informations pour le RGPD
       url: office-365-info-protection-for-gdpr-overview.md
     - text: Plan d’action de conformité ISO
       url: iso-action-plan.md
