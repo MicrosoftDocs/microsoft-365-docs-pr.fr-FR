@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: 4c66e2c398adfc67ec28661ed654ca891a846534
   ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: fr-FR
   ms.lasthandoff: 03/19/2020
   ms.locfileid: "42857320"
@@ -45,7 +45,7 @@ additionalContent:
     summary: Sélectionnez une carte pour en savoir plus sur Microsoft 365.
     items:
     - title: Centre d’administration Microsoft 365
-      summary: Configurez et gérez les services Office 365 et Microsoft 365 pour votre organisation.
+      summary: Configurez et gérez les services Office 365 et Microsoft 365 pour votre organisation.
       url: ./admin/admin-home.yml
     - title: Microsoft 365 Business
       summary: Conçu pour les petites et moyennes entreprises. Gérez vos activités grâce aux dernières versions de Windows et des applications Office telles que Excel et Outlook. Tirez parti de la protection des données et de la sécurité qui s’étend à tous vos appareils professionnels.
