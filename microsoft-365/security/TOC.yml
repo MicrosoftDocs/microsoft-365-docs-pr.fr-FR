@@ -185,6 +185,8 @@
                   href: mtp/mtp-permissions.md
                 - name: Définition du fuseau horaire
                   href: mtp/mtp-time-zone.md
+            - name: Afficher les profils d’appareils
+              href: 'mtp:/device-profile.md'
             - name: Envoyer des commentaires
               href: mtp/feedback.md
             - name: Gérer les tickets via ServiceNow
