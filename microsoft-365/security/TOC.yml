@@ -283,26 +283,29 @@
                   href: ./office-365-security/safety-tips-in-office-365.md
                 - name: "Utilisation du portail Supprimer de la liste pour vous supprimer de la liste des expéditeurs bloqués Office\_365"
                   href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
-            - name: Protection anti-hameçonnage dans Office 365
+            - name: Protection anti-hameçonnage
               href: ./office-365-security/anti-phishing-protection.md
               items:
-                - name: Protection anti-hameçonnage
-                  href: ./office-365-security/tuning-anti-phishing.md
-                - name: "Fonctionnalités anti-hameçonnage ATP dans Office\_365"
-                  href: ./office-365-security/atp-anti-phishing.md
-                - name: Configurer les stratégies d’anti-hameçonnage et d’anti-hameçonnage ATP
+                - name: Stratégies anti-hameçonnage.
                   href: ./office-365-security/set-up-anti-phishing-policies.md
+                  items:
+                    - name: Configurer la stratégie anti-hameçonnage par défaut dans EOP
+                      href: ./office-365-security/configure-anti-phishing-policies-eop.md
+                    - name: Configurer des stratégies anti-hameçonnage ATP
+                      href: ./office-365-security/configure-atp-anti-phishing-policies.md
                 - name: "Comment Office\_365 valide l’adresse De\_: pour empêcher des attaques par hameçonnage"
                   href: ./office-365-security/how-office-365-validates-the-from-address.md
-            - name: "Protection contre l’usurpation d’identité dans Office\_365"
+                - name: Protection anti-hameçonnage
+                  href: ./office-365-security/tuning-anti-phishing.md
+            - name: Protection contre l’usurpation d’identité
               href: ./office-365-security/anti-spoofing-protection.md
               items:
-                - name: En savoir plus sur l’usurpation d’identité
+                - name: Forum aux questions sur la protection contre l’usurpation d’identité
+                  href: ./office-365-security/anti-spoofing-protection-faq.md
+                - name: Configurer l’intelligence usurpée
                   href: ./office-365-security/learn-about-spoof-intelligence.md
-                - name: Présentation des informations sur la veille contre l’usurpation d’identité
+                - name: Présentation des informations sur la veille contre l’usurpation d’identité ATP
                   href: ./office-365-security/walkthrough-spoof-intelligence-insight.md
-                - name: Identifier les messages suspects dans Outlook.com et Outlook sur le web
-                  href: ./office-365-security/unverified-sender-feature.md
             - name: Quarantaine
               href: ./office-365-security/quarantine-email-messages.md
               items:
@@ -314,7 +317,8 @@
                   href: ./office-365-security/find-and-release-quarantined-messages-as-a-user.md
                 - name: Notifications de courrier indésirable pour l’utilisateur final
                   href: ./office-365-security/use-spam-notifications-to-release-and-report-quarantined-messages.md
-            - name: Authentification et validation des messages électroniques
+            - name: Authentification de la messagerie
+              href: ./office-365-security/email-validation-and-authentication.md
               items:
                 - name: "Comment Office\_365 utilise SPF pour éviter l’usurpation"
                   href: ./office-365-security/how-office-365-uses-spf-to-prevent-spoofing.md

@@ -3,21 +3,21 @@
   items:
     - name: Vue d’ensemble
       items:
-        - name: Vue d’ensemble administrateur
+        - name: Vue d’ensemble de l’administrateur
           href: admin-overview/admin-overview.md
-        - name: S’inscrire à Office 365
+        - name: "S’inscrire à Office\_365"
           href: admin-overview/sign-up-for-office-365.md
-        - name: Vidéo de formation
+        - name: Formation vidéo
           href: 'https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816'
         - name: À propos du Centre d’administration
           href: admin-overview/about-the-admin-center.md
         - name: "Quel abonnement ai-je\_?"
           href: admin-overview/what-subscription-do-i-have.md
-        - name: En savoir plus sur Office 365 Germany
+        - name: En savoir plus à propos d’Office 365 Allemagne
           href: admin-overview/learn-about-office-365-germany.md
-        - name: Application Admin Mobile
+        - name: Application mobile Admin
           href: admin-overview/admin-mobile-app.md
-    - name: Installation
+    - name: Configuration
       items:
         - name: Planifier votre installation
           href: setup/plan-your-setup.md
@@ -29,7 +29,7 @@
           href: setup/add-domain.md
         - name: Foire aux questions domaines
           href: setup/domains-faq.md
-        - name: Installer les applications
+        - name: Installer des applications
           href: setup/install-applications.md
         - name: Migrer des e-mails et des contacts
           href: setup/migrate-email-and-contacts-admin.md
@@ -55,7 +55,7 @@
           href: add-users/create-and-use-a-template-to-add-users.md
         - name: Supprimer un utilisateur
           href: add-users/delete-a-user.md
-        - name: Restaurer utilisateur
+        - name: Restaurer un utilisateur
           href: add-users/restore-user.md
         - name: Réinitialiser les mots de passe
           href: add-users/reset-passwords.md
@@ -67,7 +67,7 @@
           href: add-users/resend-user-password.md
         - name: Accorder des autorisations de boîte aux lettres à un autre utilisateur
           href: add-users/give-mailbox-permissions-to-another-user.md
-        - name: Modifier un nom d'utilisateur et une adresse de courrier
+        - name: Modifier un nom d’utilisateur et une adresse de courrier
           href: add-users/change-a-user-name-and-email-address.md
         - name: 'Créer, modifier ou supprimer une vue utilisateur personnalisée'
           href: add-users/create-edit-or-delete-a-custom-user-view.md
@@ -79,7 +79,7 @@
           href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
         - name: À propos des rôles d’administrateur
           href: add-users/about-admin-roles.md
-        - name: Attribuer des rôles d'administrateur
+        - name: Attribuer des rôles d’administrateur
           href: add-users/assign-admin-roles.md
         - name: À propos du rôle d’administrateur Exchange Online
           href: add-users/about-exchange-online-admin-role.md
@@ -169,7 +169,7 @@
           href: manage/centralized-deployment-of-add-ins.md
         - name: Utiliser le déploiement centralisé pour déployer des compléments
           href: manage/manage-deployment-of-add-ins.md
-        - name: FAQ sur le déploiement centralisé
+        - name: Forum aux questions sur le déploiement centralisé
           href: manage/centralized-deployment-FAQ.md
         - name: Trouver votre partenaire ou revendeur
           href: manage/find-your-partner-or-reseller.md
@@ -185,11 +185,11 @@
           href: manage/share-calendars-with-external-users.md
         - name: Attribuer des licences aux utilisateurs
           href: manage/assign-licenses-to-users.md
-        - name: Annulation de l’attribution de licences aux utilisateurs
+        - name: Annuler l'assignation des licences aux utilisateurs
           href: manage/remove-licenses-from-users.md
         - name: Résoudre les conflits de licence
           href: manage/resolve-license-conflicts.md
-        - name: Afficher ou masquer les nouvelles fonctionnalités à l’aide de nouveautés en matière de gestion
+        - name: Afficher ou masquer les nouvelles fonctionnalités à l’aide de nouveautés gestion
           href: manage/show-hide-new-features.md
     - name: Abonnements et facturation
       items:
@@ -203,9 +203,9 @@
           href: ../commerce/subscriptions/cancel-your-subscription.md
     - name: Domaines
       items:
-        - name: Domaines dans Office 365
+        - name: "Domaines dans Office\_365"
           href: get-help-with-domains/get-help-with-domains.md
-        - name: Qu'est-ce qu'un domaine ?
+        - name: "Qu’est-ce qu’un domaine\_?"
           href: get-help-with-domains/what-is-a-domain.md
         - name: Acheter un nom de domaine
           href: get-help-with-domains/buy-a-domain-name.md
@@ -269,11 +269,11 @@
           href: services-in-china/download-office-app-for-Android.md
         - name: Télécharger l’application Office pour iOS pour Office 365 gérée par 21Vianet
           href: services-in-china/download-office-app-for-iOS.md
-        - name: Consulter votre facture ou obtenir un Fapiao
+        - name: Consulter votre facture ou obtenir un fapiao
           href: services-in-china/view-your-bill-or-get-a-fapiao.md
         - name: Demander un Fapiao
           href: services-in-china/apply-for-a-fapiao.md
-        - name: Parité Azure Information Protection
+        - name: Parité de la protection des données Azure
           href: services-in-china/parity-between-azure-information-protection.md
     - name: Obtenir de nouvelles fonctionnalités
       items:
@@ -283,11 +283,11 @@
           href: whats-new-in-preview.md
         - name: Rester informé des modifications
           href: manage/stay-on-top-of-updates.md
-        - name: "Options de publication dans Office\_365"
+        - name: "Programmes de publication dans Office\_365"
           href: manage/release-options-in-office-365.md
         - name: Centre de messages
           href: manage/message-center.md
         - name: Essayer ou acheter Microsoft 365
           href: ../commerce/try-or-buy-microsoft-365.md
-    - name: Contacter le support technique pour les produits d’entreprise
+    - name: Contacter le support concernant les produits pour les entreprises
       href: contact-support-for-business-products.md
