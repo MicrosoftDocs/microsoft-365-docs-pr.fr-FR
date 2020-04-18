@@ -345,6 +345,8 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=867039'
 - name: Gestion de l’eDiscovery
   items:
+    - name: eDiscovery dans Microsoft 365
+      href: ediscovery.md
     - name: Recherche de contenu
       items:
         - name: Vue d’ensemble de la recherche de contenu
@@ -414,8 +416,16 @@
               href: clone-a-content-search.md
     - name: Core eDiscovery
       items:
-        - name: Gérer des cas eDiscovery
-          href: ediscovery-cases.md
+        - name: Prise en main de la découverte électronique de base
+          href: get-started-core-ediscovery.md
+        - name: Créer des conservations eDiscovery
+          href: create-ediscovery-holds.md
+        - name: Rechercher du contenu dans un cas
+          href: search-for-content-in-core-ediscovery.md
+        - name: Exporter le contenu d’un cas
+          href: export-content-in-core-ediscovery.md
+        - name: 'Fermer, rouvrir et supprimer un cas'
+          href: close-reopen-delete-core-ediscovery-cases.md
         - name: "Référence de Core\_eDiscovery"
           items:
             - name: Attribution d’autorisations de eDiscovery
@@ -430,6 +440,12 @@
               href: use-a-script-to-add-users-to-a-hold-in-ediscovery.md
             - name: Créer un rapport sur les conservations eDiscovery
               href: create-a-report-on-holds-in-ediscovery-cases.md
+            - name: Exporter un rapport de recherche
+              href: export-a-content-search-report.md
+            - name: Afficher les statistiques de mot clé pour les résultats de recherche
+              href: view-keyword-statistics-for-content-search.md
+            - name: Préparation des résultats de recherche pour Advanced eDiscovery (classique)
+              href: prepare-search-results-for-advanced-ediscovery.md
             - name: Rechercher et purger des données dispersées
               href: data-spillage-scenariosearch-and-purge.md
             - name: Conserver les destinataires Cci pour la recherche
