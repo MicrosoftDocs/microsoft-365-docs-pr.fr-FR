@@ -46,7 +46,7 @@ additionalContent:
     items:
     - title: Centre d’administration Microsoft 365
       summary: Configurez et gérez les services Office 365 et Microsoft 365 pour votre organisation.
-      url: ./admin/admin-home.yml
+      url: ./admin/admin-home.md
     - title: Microsoft 365 Business
       summary: Conçu pour les petites et moyennes entreprises. Gérez vos activités grâce aux dernières versions de Windows et des applications Office telles que Excel et Outlook. Tirez parti de la protection des données et de la sécurité qui s’étend à tous vos appareils professionnels.
       url: ./business/index.yml
