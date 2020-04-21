@@ -188,7 +188,9 @@
           href: contoso-sharepoint-online-site-for-highly-confidential-assets.md
     - name: "Modifications du contenu de déploiement de Microsoft\_365 Entreprise"
       href: microsoft-365-deploment-guide-changes.md
-- name: Centre de déploiement du bureau moderne
+    - name: "État d'intégrité du service Microsoft\_365"
+      href: microsoft-365-service-health.md
+- name: Centre de déploiement du bureau
   href: desktop-deployment-center-home.md
   items:
     - name: "Prise en main\_: aide relative aux technologies, aux processus et aux utilisateurs"
