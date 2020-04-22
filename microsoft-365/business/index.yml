@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Ressources de Microsoft 365 Business Premium
-summary: Microsoft 365 Business Premium est un service d’abonnement qui inclut des outils de productivité Office 365 ainsi que des fonctionnalités avancées pour vous aider à protéger votre entreprise contre cyber, protéger vos données et gérer les appareils.
+summary: Microsoft 365 Business Premium (anciennement Microsoft 365 Business) est un service d’abonnement complet pour les entreprises comptant moins de 300 employés. Il intègre vos applications et services de productivité Office préférés, ainsi que des outils de collaboration, tels que Microsoft Teams, avec des fonctionnalités avancées de sécurité et de gestion des appareils.
 brand: m365
 metadata:
   title: Ressources de Microsoft 365 Business Premium
@@ -11,12 +11,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 29504ca22db443c504a5f3265ca2e8fcba0f737e
-  ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+  ms.openlocfilehash: 59478fceee0017321c59607f589fe464ac95077d
+  ms.sourcegitcommit: 7c0470fd7a98911d142bac060c228947c46a6be7
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 04/21/2020
-  ms.locfileid: "43627109"
+  ms.lasthandoff: 04/22/2020
+  ms.locfileid: "43665619"
 productDirectory:
   title: Travail à distance sécurisé avec Microsoft 365 Business Premium
   items:

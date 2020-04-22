@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Documentation de sécurité Microsoft 365
-summary: Découvrez les solutions et services de sécurité robustes dans la sécurité Microsoft 365 afin que vous puissiez mieux protéger votre entreprise sur les surfaces d’attaque.
+title: Documentation de sécurité Office 365
+summary: En savoir plus sur les solutions et services de sécurité robustes dans la sécurité Microsoft 365 pour vous permettre de mieux protéger votre entreprise sur des surfaces d’attaques.
 metadata:
-  title: Documentation de sécurité Microsoft 365
-  description: Découvrez les solutions et les services de sécurité robustes dans la sécurité Microsoft 365 afin de mieux protéger votre entreprise sur les surfaces d’attaque.
+  title: Documentation de sécurité Office 365
+  description: En savoir plus sur les solutions et services de sécurité robustes dans la sécurité Microsoft 365 pour vous permettre de mieux protéger votre entreprise sur des surfaces d’attaques
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -13,36 +13,42 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: de1824abe2b35cb80552c6c261f1389db9b48ca0
-  ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
+  ms.openlocfilehash: 202a01b439755211cbf3d8b06ea1ef874a58c3c1
+  ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 04/09/2020
-  ms.locfileid: "43198348"
+  ms.lasthandoff: 04/22/2020
+  ms.locfileid: "43708666"
 landingContent:
 - title: Protection Microsoft contre les menaces
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que la protection Microsoft contre les menaces ?
+    - text: Qu’est-ce que la Protection Microsoft contre les menaces ?
       url: mtp/microsoft-threat-protection.md
     - text: Centre de sécurité Microsoft 365
       url: mtp/overview-security-center.md
-- title: Microsoft Defender - PACM
+- title: Microsoft Defender ATP
   linkLists:
   - linkListType: overview
     links:
     - text: Qu’est-ce que Microsoft Defender ATP ?
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
-    - text: Vue d’ensemble des fonctionnalités
+    - text: Présentation des fonctionnalités
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview
+- title: Sécuriser votre personnel à distance
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Sécuriser votre personnel à distance
+      url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
 - title: Office 365 – Protection avancée contre les menaces
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que la protection avancée contre les menaces Office 365 ?
+    - text: Qu’est-ce que Office 365 – Protection avancée contre les menaces ?
       url: office-365-security/office-365-atp.md
-    - text: Description du service ATP Office 365
+    - text: Description du service Office 365 – Protection avancée contre les menaces
       url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
 - title: Azure ATP
   linkLists:
@@ -52,7 +58,7 @@ landingContent:
       url: https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp
     - text: Architecture Azure ATP
       url: https://docs.microsoft.com/azure-advanced-threat-protection/atp-architecture
-- title: Centre de sécurité Azure
+- title: Azure Security Center
   linkLists:
   - linkListType: overview
     links:
@@ -64,19 +70,19 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que la sécurité des applications Cloud Microsoft ?
+    - text: Qu’est-ce que Microsoft Cloud App Security ?
       url: https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
-    - text: Prise en main de la sécurité des applications Cloud Microsoft
+    - text: Pris en main de Microsoft Cloud App Security
       url: https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security
-- title: Azure sentinelle
+- title: Azure Sentinel
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Azure sentinelle ?
+    - text: Qu’est-ce que Azure Sentinel ?
       url: https://docs.microsoft.com/azure/sentinel/overview
 - title: Gestion de la sécurité
   linkLists:
   - linkListType: overview
     links:
-    - text: Score de sécurité
+    - text: Niveau de sécurité
       url: mtp/microsoft-secure-score.md
