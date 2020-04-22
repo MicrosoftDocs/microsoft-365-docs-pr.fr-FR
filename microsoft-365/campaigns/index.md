@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 365 pour les campagnes
-ms.openlocfilehash: 32437ccc0c110c0539cb3d24f036438d6a313921
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 167b265676d3c3bc9025a0c0e998379f72bb9e52
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42056473"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632034"
 ---
 <a name="microsoft-365-for-campaigns"></a>Microsoft 365 pour les campagnes
 ===========================
@@ -40,21 +40,21 @@ Dans notre monde actuel, la sécurisation des communications et des données est
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3clbH] 
 
 
-**Qu’est-ce que Microsoft 365 pour les campagnes ?** Il s’agit d’une configuration recommandée qui inclut Microsoft 365 entreprise afin de pouvoir :
+**Qu’est-ce que Microsoft 365 pour les campagnes ?** Il s’agit d’une configuration recommandée qui inclut Microsoft 365 Business Premium pour que vous puissiez :
 - S’appuyer sur des outils de collaboration et de productivité professionnels approuvés, tels qu’Outlook, Word, Excel et d’autres produits Office 
 - Protégez vos fichiers professionnels sur tous vos appareils iOS, Android et Windows 10 avec une sécurité de niveau entreprise facile à gérer 
 - Appliquer une protection supplémentaire pour les comptes d’utilisateur et l’identité 
 
-![Microsoft 365 Business protège vos outils de productivité, vos outils de collaboration, le stockage de fichiers, la messagerie, les appareils et l’identité](../media/M365-WhatIsIt-SecurityFocus.png)
+![Microsoft 365 Business Premium protège vos outils de productivité, vos outils de collaboration, le stockage de fichiers, le courrier électronique, les appareils et l’identité](../media/M365-WhatIsIt-SecurityFocus.png)
 
-Si les campagnes de sélection fédérale aux États-Unis ont droit à une tarification spéciale pour Microsoft 365 Business, toute organisation disposant de ce plan peut tirer parti de ces conseils pour configurer une sécurité accrue et apprendre à collaborer de manière sécurisée.
+Alors que les campagnes de sélection fédérale aux États-Unis ont droit à une tarification spéciale pour Microsoft 365 Business Premium, toute organisation disposant de ce plan peut tirer parti de ces conseils pour configurer une sécurité accrue et apprendre à collaborer de manière sécurisée.
 
 Cette bibliothèque inclut les éléments suivants :
 - Instructions de configuration pour renforcer la sécurité.
 - Aider les utilisateurs à configurer des appareils pour un accès sécurisé.
 - Des conseils sur la façon de collaborer et de partager en toute sécurité.
 
-Pour plus d’informations sur ce qui est inclus, consultez la rubrique [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business). 
+Pour plus d’informations sur ce qui est inclus, consultez la rubrique [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business). 
 
 
 <a name="get-started"></a>Prise en main
