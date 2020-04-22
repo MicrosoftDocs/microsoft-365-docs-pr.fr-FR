@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b9acfd4c-df82-4eb5-a652-232a6829870a
 description: En savoir plus sur les ressources disponibles pour les administrateurs Microsoft 365.
 ms.custom: okr_smb
-ms.openlocfilehash: b087007d99c16f06cfdacaf8021e32a9566da5d5
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 02d1afa763eda2edd7a0fba5624ab5a168b80a14
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105692"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43623999"
 ---
 # <a name="microsoft-365-admin-help-center"></a>Centre d'aide de l’administrateur Microsoft 365
 
@@ -182,7 +182,7 @@ En savoir plus sur les ressources disponibles pour les administrateurs.
                     </div>
                     <div class="cardText">
                         <h3>Pour les PME</h3>
-                        <p><a href="/office365/smallbusiness/build-your-small-business/build-your-small-business" target="_blank">Créer votre petite entreprise avec Office 365.</a></p>
+                        <p><a href="/office365/smallbusiness/build-your-small-business/build-your-small-business" target="_blank">Créer votre petite entreprise avec Microsoft 365.</a></p>
                     </div>
                 </div>
             </div>
@@ -199,7 +199,7 @@ En savoir plus sur les ressources disponibles pour les administrateurs.
                     </div>
                     <div class="cardText">
                         <h3>Pour les grandes entreprises</h3>
-                        <p><a href="https://docs.microsoft.com/Office365/Enterprise/">Recommandations pour les professionnels de l’informatique qui déploient, configurent et gèrent Office 365 au sein des grandes entreprises.</a></p>
+                        <p><a href="https://docs.microsoft.com/Office365/Enterprise/">Conseils aux professionnels de l’informatique qui déploient, configurent et gèrent Microsoft 365 dans les grandes entreprises.</a></p>
                     </div>
                 </div>
             </div>
@@ -249,7 +249,7 @@ En savoir plus sur les ressources disponibles pour les administrateurs.
                     <div class="cardText">
                         <h3>Résolution des problèmes</h3>
                         <p><a href="https://go.microsoft.com/fwlink/?linkid=522692">Résoudre les problèmes d’installation d’Office</a></p>
-                        <p><a href="https://diagnostics.outlook.com/">Résoudre les problèmes liés à Outlook et Office 365 à l’aide de l’Assistant récupération et du Support Microsoft</a></p>
+                        <p><a href="https://diagnostics.outlook.com/">Résoudre les problèmes liés à Outlook et Microsoft 365 à l’aide de l’Assistant Support et récupération Microsoft</a></p>
                         <p><a href="https://docs.microsoft.com/office365/troubleshoot/troubleshooting/troubleshoot-email-issues">Résoudre les problèmes de courrier</a></p>
                         <p><a href="https://go.microsoft.com/fwlink/?linkid=866431">Résoudre les problèmes de synchronisation avec OneDrive Entreprise</a></p>
                     </div>
