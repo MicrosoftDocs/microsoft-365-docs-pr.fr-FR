@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Ressources de Microsoft 365 Business Premium
-summary: Microsoft 365 Business Premium (anciennement Microsoft 365 Business) est un service d’abonnement complet pour les entreprises comptant moins de 300 employés. Il intègre vos applications et services de productivité Office préférés, ainsi que des outils de collaboration, tels que Microsoft Teams, avec des fonctionnalités avancées de sécurité et de gestion des appareils.
+summary: Microsoft 365 Business Premium (anciennement Microsoft 365 Business) est un service d’abonnement complet pour les entreprises comptant moins de 300 employés. Il intègre vos applications et services de productivité Office préférés, ainsi que des outils de collaboration, tels que Microsoft Teams, avec des fonctionnalités avancées de sécurité et de gestion des appareils.
 brand: m365
 metadata:
   title: Ressources de Microsoft 365 Business Premium
@@ -11,12 +11,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 59478fceee0017321c59607f589fe464ac95077d
-  ms.sourcegitcommit: 7c0470fd7a98911d142bac060c228947c46a6be7
+  ms.openlocfilehash: 4dff1d10b8a4574ea8350aa194d7f6a2c8eb2605
+  ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
   ms.translationtype: MT
   ms.contentlocale: fr-FR
   ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43665619"
+  ms.locfileid: "43781471"
 productDirectory:
   title: Travail à distance sécurisé avec Microsoft 365 Business Premium
   items:
@@ -30,7 +30,7 @@ productDirectory:
     url: https://www.microsoft.com/microsoft-365/partners/videos/secure-your-smb-customers-as-they-cope-with-covid-19
   - title: Lecture
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
-    summary: Meilleures façons d’activer un travail distant sécurisé avec Microsoft 365 pour les entreprises.
+    summary: Meilleures façons d’activer un travail distant sécurisé avec Microsoft 365 Business Premium.
     url: https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623
 conceptualContent:
   items:
