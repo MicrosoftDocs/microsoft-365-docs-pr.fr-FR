@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 4c66e2c398adfc67ec28661ed654ca891a846534
-  ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+  ms.openlocfilehash: 0b5b128a0d4ea756a6cc6f926d1496de16520377
+  ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 03/19/2020
-  ms.locfileid: "42857320"
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "43636650"
 highlightedContent:
   items:
   - title: Formation pour les administrateurs et professionnels de l’informatique
@@ -45,9 +45,9 @@ additionalContent:
     summary: Sélectionnez une carte pour en savoir plus sur Microsoft 365.
     items:
     - title: Centre d’administration Microsoft 365
-      summary: Configurez et gérez les services Office 365 et Microsoft 365 pour votre organisation.
+      summary: Configurez et gérez les services Microsoft 365 pour votre organisation.
       url: ./admin/admin-home.md
-    - title: Microsoft 365 Business
+    - title: Microsoft 365 Business Premium
       summary: Conçu pour les petites et moyennes entreprises. Gérez vos activités grâce aux dernières versions de Windows et des applications Office telles que Excel et Outlook. Tirez parti de la protection des données et de la sécurité qui s’étend à tous vos appareils professionnels.
       url: ./business/index.yml
     - title: Microsoft 365 Entreprise
@@ -63,7 +63,7 @@ additionalContent:
       summary: En savoir plus sur les solutions et services de sécurité robustes dans la sécurité Microsoft 365 pour vous permettre de mieux protéger votre organisation sur des surfaces d’attaques.
       url: ./security/index.yml
     - title: Microsoft 365 pour les campagnes
-      summary: Assurez la sécurité de vos données et communications professionnelles avec cette configuration recommandée pour Microsoft 365 Business.
+      summary: Assurez la sécurité de vos données et communications professionnelles avec cette configuration recommandée pour Microsoft 365 Business.
       url: ./campaigns/index.md
     - title: Bureau géré Microsoft
       summary: Microsoft Managed Desktop réunit Microsoft 365 Enterprise, la gestion des appareils basée sur le Cloud par Microsoft et la surveillance de la sécurité, ce qui vous permet de libérer vos équipes informatiques afin de vous concentrer sur les besoins fondamentaux de l’entreprise.
