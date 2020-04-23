@@ -191,20 +191,18 @@
               href: mtp/feedback.md
             - name: Gérer les tickets via ServiceNow
               href: ./mtp/tickets.md
-    - name: "Sécurité Office\_365"
+    - name: Sécurité Microsoft 365
       items:
         - name: Prise en main
           items:
-            - name: Feuille de route relative à la sécurité d’Office 365
+            - name: Feuille de route de sécurité
               href: ./office-365-security/security-roadmap.md
-            - name: Configurer votre client Office 365 pour une sécurité accrue
+            - name: Configurer votre locataire pour une sécurité accrue
               href: ./office-365-security/tenant-wide-setup-for-increased-security.md
             - name: Nouveau centre de sécurité Microsoft 365
               href: ./mtp/overview-security-center.md
-            - name: "Autorisations dans le Centre de conformité et sécurité Office\_365"
+            - name: Autorisations dans le Centre de conformité et sécurité
               href: ./office-365-security/permissions-in-the-security-and-compliance-center.md
-            - name: "Autorisations dans le Centre de conformité Microsoft\_365 et le Centre de sécurité Microsoft\_365"
-              href: ./office-365-security/permissions-microsoft-365-compliance-security.md
             - name: Octroi de l’accès au centre de sécurité aux utilisateurs
               href: ./office-365-security/grant-access-to-the-security-and-compliance-center.md
         - name: Protéger contre les menaces
@@ -281,7 +279,7 @@
                   href: ./office-365-security/zero-hour-auto-purge.md
                 - name: Conseils de sécurité dans les messages électroniques
                   href: ./office-365-security/safety-tips-in-office-365.md
-                - name: "Utilisation du portail Supprimer de la liste pour vous supprimer de la liste des expéditeurs bloqués Office\_365"
+                - name: Utilisation du portail Supprimer de la liste pour vous supprimer de la liste des expéditeurs bloqués
                   href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
             - name: Protection anti-hameçonnage
               href: ./office-365-security/anti-phishing-protection.md
@@ -320,9 +318,9 @@
             - name: Authentification de la messagerie
               href: ./office-365-security/email-validation-and-authentication.md
               items:
-                - name: "Comment Office\_365 utilise SPF pour éviter l’usurpation"
+                - name: "Comment Microsoft\_365 utilise SPF pour éviter l’usurpation"
                   href: ./office-365-security/how-office-365-uses-spf-to-prevent-spoofing.md
-                - name: Configurer SPF dans Office 365 pour empêcher l’usurpation
+                - name: Configurer SPF pour empêcher l’usurpation
                   href: ./office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md
                 - name: Utilisation de DKIM pour valider les messages sortants
                   href: ./office-365-security/use-dkim-to-validate-outbound-email.md
@@ -600,7 +598,7 @@
                   href: ./office-365-security/set-up-virtual-certificate-collection-to-validate-s-mime.md
         - name: "Office\_365 Entreprise"
           href: 'https://docs.microsoft.com/office-365-security/Enterprise'
-        - name: "Office\_365 pour les entreprises"
+        - name: "Microsoft\_365\_Entreprise"
           href: 'https://docs.microsoft.com/microsoft-365/admin/admin-home'
     - name: Conformité Microsoft 365
       href: 'https://docs.microsoft.com/microsoft-365/compliance/'

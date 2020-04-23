@@ -19,7 +19,7 @@
               href: networking-avoid-network-hairpins.md
             - name: "Étape 4\_: configurer le trafic de contournement"
               href: networking-configure-proxies-firewalls.md
-            - name: "Étape 5\_: Optimiser les performances du service Office 365 et du client"
+            - name: "Étape 5\_: optimiser les performances du client et du service"
               href: networking-optimize-tcp-performance.md
             - name: Mise en réseau des critères de sortie
               href: networking-exit-criteria.md
@@ -55,10 +55,10 @@
               href: windows10-enable-security-features.md
             - name: "Critères de sortie pour Windows\_10 Entreprise"
               href: windows10-exit-criteria.md
-        - name: "Phase\_4\_: Office\_365 ProPlus"
+        - name: 'Phase 4 : Applications Microsoft 365 pour entreprise'
           href: office365proplus-infrastructure.md
           items:
-            - name: "Critères de sortie pour Office\_365\_ProPlus"
+            - name: Les Applications Microsoft 365 pour les critères de sortie d’entreprise
               href: office365proplus-exit-criteria.md
         - name: "Phase 5\_: Gestion des appareils mobiles"
           href: mobility-infrastructure.md
@@ -76,7 +76,7 @@
               href: infoprotect-configure-increased-security-office-365.md
             - name: "Étape 4\_: Configurer la protection des informations\_Windows"
               href: infoprotect-deploy-windows-information-protection.md
-            - name: 'Étape 5 : configurer la prévention des pertes de données Office 365'
+            - name: "Étape 5\_: configurer la protection contre la perte de données"
               href: infoprotect-data-loss-prevention.md
             - name: "Étape 6\_: Configurer le chiffrement des e-mails"
               href: infoprotect-email-encryption.md
@@ -174,7 +174,7 @@
           href: contoso-identity.md
         - name: "Windows\_10 Entreprise"
           href: contoso-win10.md
-        - name: "Office\_365\_ProPlus"
+        - name: Applications Microsoft 365 for entreprise
           href: contoso-o365pp.md
         - name: Gestion des appareils mobiles
           href: contoso-mdm.md

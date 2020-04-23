@@ -87,7 +87,7 @@
       items:
         - name: "Courrier électronique dans Office\_365"
           href: email/email.md
-        - name: "Paramètres du courrier électronique de l’utilisateur Office\_365"
+        - name: Paramètres de messagerie de l’utilisateur
           href: email/office-365-user-email-settings.md
         - name: Ajouter un autre alias de courrier pour un utilisateur
           href: email/add-another-email-alias-for-a-user.md
@@ -189,6 +189,8 @@
           href: manage/remove-licenses-from-users.md
         - name: Résoudre les conflits de licence
           href: manage/resolve-license-conflicts.md
+        - name: Gérer les messages dans le Centre de messages
+          href: manage/manage-messages.md
         - name: Afficher ou masquer les nouvelles fonctionnalités à l’aide de nouveautés gestion
           href: manage/show-hide-new-features.md
     - name: Abonnements et facturation
@@ -235,11 +237,11 @@
           href: create-groups/office-365-groups.md
         - name: Comparer des groupes
           href: create-groups/compare-groups.md
-        - name: Créer un groupe Office 365
+        - name: Créer un groupe Microsoft 365
           href: create-groups/create-groups.md
-        - name: "Gérer un groupe Office\_365"
+        - name: Gérer un groupe Microsoft 365
           href: create-groups/manage-groups.md
-        - name: "Plan de gouvernance dans les groupes Office\_365"
+        - name: Planifier la gouvernance dans les groupes Microsoft 365
           href: create-groups/plan-for-groups-governance.md
         - name: Gérer la création de groupes
           href: create-groups/manage-creation-of-groups.md
@@ -251,7 +253,7 @@
           href: create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md
         - name: Ajouter ou supprimer des membres de groupes
           href: create-groups/add-or-remove-members-from-groups.md
-        - name: Stratégie de d’Expiration de groupe Office 365
+        - name: Stratégie d’expiration de groupe Microsoft 365
           href: create-groups/office-365-groups-expiration-policy.md
         - name: Restaurer un groupe supprimé
           href: create-groups/restore-deleted-group.md
