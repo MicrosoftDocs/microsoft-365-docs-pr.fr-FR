@@ -219,8 +219,6 @@
           href: get-help-with-domains/information-for-dns-records.md
         - name: Rechercher et corriger les problèmes
           href: get-help-with-domains/find-and-fix-issues.md
-        - name: Se connecter au domaine
-          href: get-help-with-domains/domain-connect.md
         - name: Configurer votre domaine (instructions spécifiques de l’hôte)
           href: get-help-with-domains/set-up-your-domain-host-specific-instructions.md
         - name: Modifier les serveurs de noms de n’importe quel bureau d’enregistrement de domaines
