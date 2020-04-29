@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ROBOTS: NOINDEX
 description: Découvrez toutes les façons dont vous pouvez obtenir de l’aide à l’aide du centre d’administration Microsoft 365.
-ms.openlocfilehash: f9d42057e1ad16108237b9f53eedf60736cd6bd5
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 847281acc368f45ffaf466cc3877c042507a7f79
+ms.sourcegitcommit: 90f7bbba5fc23f10b59c75b2b65d6c0903ce66dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894744"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43930194"
 ---
 <!-- The following is just placeholder text from Madhura's mail. We need to add images/examples of each -->
 
@@ -94,6 +94,7 @@ Si vous êtes administrateur, [admin.Microsoft.com](https://admin.microsoft.com)
     </li>
 </ul>
  
+
 ## <a name="integrated-help"></a>Aide intégrée
 
 L’aide est intégrée dans le centre d’administration, c’est là dès que vous en avez besoin. En haut de la plupart des pages, vous trouverez un texte d’aide inline qui fournit une vue d’ensemble de la tâche, ainsi que des liens vers des articles qui vous permettent de trouver rapidement une documentation officielle pour une formation plus approfondie.
@@ -102,9 +103,9 @@ L’aide est intégrée dans le centre d’administration, c’est là dès que 
 
 ## <a name="modern-self-help-powered-by-ai"></a>Auto-assistance moderne alimentée par les IA
 
-La sélection du bouton « besoin d’aide » dans le centre d’administration 365 de Microsoft ouvre notre expérience d’auto-assistance moderne équipée d’une intelligence artificielle. Par exemple, si vous recherchez *vérifier mon domaine*, vous obtiendrez les étapes plus quelques articles que nous pensons être utiles. Nous utilisons la solution d’apprentissage automatique pour mettre en avant les autres administrateurs qui ont entré des requêtes similaires.
+Pour ouvrir notre expérience d’auto-assistance moderne, qui est équipée de l’intelligence artificielle, sélectionnez le bouton **d’aide requis** dans le centre d’administration 365 de Microsoft. Par exemple, si vous recherchez « vérifier mon domaine », vous obtiendrez les étapes plus quelques articles que nous pensons être utiles. Nous utilisons l’apprentissage de machine pour faire ressembler la solution la plus proche qui a aidé d’autres administrateurs à avoir entré des requêtes similaires.
 
-Vous pouvez également utiliser l’Assistant support technique pour les moments où vous ne maîtrisez pas vraiment la façon d’effectuer une opération dans votre situation spécifique. Cette expérience est actuellement disponible uniquement en anglais. Utilisez simplement le bouton bascule en haut du volet « besoin d’aide » pour l’activer. L’Assistant support fournit une interface de conversation pour obtenir de l’aide. Entrez votre requête, et chatbot vous demandera de clarifier vos questions afin de trouver la bonne réponse pour votre situation spécifique. Imaginez-le comme votre assistance virtuelle pour découvrir des solutions et effectuer des tâches.
+Vous pouvez également utiliser l’Assistant support technique pour les moments où vous ne maîtrisez pas vraiment la façon d’effectuer une opération dans votre situation spécifique. Actuellement, cette expérience n’est disponible qu’en anglais. Pour activer l’Assistant support, il vous suffit d’utiliser le bouton bascule en haut du volet d' **aide** . L’Assistant support fournit une interface de conversation pour vous aider. Une fois que vous avez entré votre requête, le chatbot demande de clarifier les questions afin de vous faire une réponse appropriée pour votre situation spécifique. Imaginez-le comme votre assistance virtuelle pour découvrir des solutions et effectuer des tâches.
 
 ![Auto-assistance moderne](../../media/help-options.png)
 

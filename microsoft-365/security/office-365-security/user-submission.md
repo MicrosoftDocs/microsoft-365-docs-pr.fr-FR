@@ -1,0 +1,83 @@
+---
+title: Spécifier une boîte aux lettres pour les soumissions d’utilisateurs de messages de courrier indésirable et de hameçonnage
+f1.keywords:
+- NOCSH
+ms.author: chrisda
+author: chrisda
+manager: dansimp
+ms.date: ''
+audience: ITPro
+ms.topic: article
+ms.service: O365-seccomp
+localization_priority: Normal
+search.appverid:
+- MET150
+ms.collection:
+- M365-security-compliance
+description: Les administrateurs peuvent apprendre à configurer une boîte aux lettres pour collecter le courrier indésirable et le courrier indésirable transmis par les utilisateurs.
+ms.openlocfilehash: a3a175c3815c6750086526ec92d097fb7cbcefa3
+ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43922662"
+---
+# <a name="specify-a-mailbox-for-user-submissions-of-spam-and-phishing-messages-in-office-365"></a><span data-ttu-id="11743-103">Spécifier une boîte aux lettres pour les soumissions d’utilisateurs de messages de courrier indésirable et de hameçonnage dans Office 365</span><span class="sxs-lookup"><span data-stu-id="11743-103">Specify a mailbox for user submissions of spam and phishing messages in Office 365</span></span>
+
+<span data-ttu-id="11743-104">Dans les organisations Office 365 avec des boîtes aux lettres Exchange Online, vous pouvez spécifier une boîte aux lettres pour recevoir les messages signalés comme malveillants ou non malveillants par les utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="11743-104">In Office 365 organizations with Exchange Online mailboxes, you can specify a mailbox to receive messages that users report as malicious or not malicious.</span></span> <span data-ttu-id="11743-105">Lorsque les utilisateurs envoient des messages à l’aide des différentes options de création de rapports, vous pouvez utiliser cette boîte aux lettres pour intercepter des messages (Envoyer à la boîte aux lettres personnalisée uniquement) ou recevoir des copies de messages (Envoyer à la boîte aux lettres personnalisée et à Microsoft).</span><span class="sxs-lookup"><span data-stu-id="11743-105">When users submit messages using the various reporting options, you can use this mailbox to intercept messages (send to the custom mailbox only) or receive copies of messages (send to the custom mailbox and Microsoft).</span></span> <span data-ttu-id="11743-106">Cette fonctionnalité fonctionne avec les options de signalement de message suivantes :</span><span class="sxs-lookup"><span data-stu-id="11743-106">This feature works with the following message reporting options:</span></span>
+
+- [<span data-ttu-id="11743-107">Complément de message de rapport</span><span class="sxs-lookup"><span data-stu-id="11743-107">The Report Message add-in</span></span>](enable-the-report-message-add-in.md)
+
+- <span data-ttu-id="11743-108">[Création de rapports intégrée dans Outlook sur le Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md) (anciennement appelé Outlook Web App)</span><span class="sxs-lookup"><span data-stu-id="11743-108">[Built-in reporting in Outlook on the web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md) (formerly known as Outlook Web App)</span></span>
+
+<span data-ttu-id="11743-109">Vous pouvez également configurer des outils de création de rapports de messages tiers pour transférer des messages vers la boîte aux lettres que vous spécifiez.</span><span class="sxs-lookup"><span data-stu-id="11743-109">You can also configure third-party message reporting tools to forward messages to the mailbox that you specify.</span></span>
+
+<span data-ttu-id="11743-110">La remise des messages signalés par l’utilisateur à une boîte aux lettres personnalisée au lieu de Microsoft permet à vos administrateurs de signaler des messages de façon sélective et manuelle à Microsoft à l’aide de la soumission de l' [administrateur](admin-submission.md).</span><span class="sxs-lookup"><span data-stu-id="11743-110">Delivering user reported messages to a custom mailbox instead of directly to Microsoft allows your admins to selectively and manually report messages to Microsoft using [Admin submission](admin-submission.md).</span></span>
+
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="11743-111">Ce qu'il faut savoir avant de commencer</span><span class="sxs-lookup"><span data-stu-id="11743-111">What do you need to know before you begin?</span></span>
+
+- <span data-ttu-id="11743-112">Vous ouvrez le Centre de conformité et sécurité sur <https://protection.office.com/>.</span><span class="sxs-lookup"><span data-stu-id="11743-112">You open the Security & Compliance Center at <https://protection.office.com/>.</span></span> <span data-ttu-id="11743-113">Pour accéder directement à la page **soumissions** de <https://protection.office.com/userSubmissionsReportMessage>l’utilisateur, utilisez.</span><span class="sxs-lookup"><span data-stu-id="11743-113">To go directly to the **User submissions** page, use <https://protection.office.com/userSubmissionsReportMessage>.</span></span>
+
+- <span data-ttu-id="11743-114">Pour vous connecter à Exchange Online PowerShell, voir [Connexion à Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).</span><span class="sxs-lookup"><span data-stu-id="11743-114">To connect to Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).</span></span> <span data-ttu-id="11743-115">Pour vous connecter à un service Exchange Online Protection autonome, voir [Se connecter à PowerShell d’Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).</span><span class="sxs-lookup"><span data-stu-id="11743-115">To connect to standalone Exchange Online Protection PowerShell, see [Connect to Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).</span></span>
+
+- <span data-ttu-id="11743-116">Des autorisations doivent vous être attribuées avant de pouvoir exécuter ces procédures.</span><span class="sxs-lookup"><span data-stu-id="11743-116">You need to be assigned permissions before you can perform these procedures.</span></span> <span data-ttu-id="11743-117">Pour configurer la boîte aux lettres pour les soumissions des utilisateurs, vous devez être membre des groupes de rôles gestion de l' **organisation** ou **administrateur de sécurité** .</span><span class="sxs-lookup"><span data-stu-id="11743-117">To configure the mailbox for user submissions, you need to be a member of the **Organization Management** or **Security Administrator** role groups.</span></span> <span data-ttu-id="11743-118">Pour plus d’informations sur les groupes de rôles dans le Centre de sécurité et conformité, voir [Autorisations dans le Centre de sécurité et conformité Office 365](permissions-in-the-security-and-compliance-center.md).</span><span class="sxs-lookup"><span data-stu-id="11743-118">For more information about role groups in the Security & Compliance Center, see [Permissions in the Office 365 Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
+
+## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a><span data-ttu-id="11743-119">Utiliser le centre de sécurité & conformité pour configurer la boîte aux lettres d’envoi des utilisateurs</span><span class="sxs-lookup"><span data-stu-id="11743-119">Use the Security & Compliance Center to configure the user submissions mailbox</span></span>
+
+1. <span data-ttu-id="11743-120">Dans le centre de sécurité & conformité, accédez à l' **utilisateur**de la **stratégie** \> de **gestion** \> des menaces.</span><span class="sxs-lookup"><span data-stu-id="11743-120">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **User submissions**.</span></span>
+
+2. <span data-ttu-id="11743-121">Dans la page **soumissions** de l’utilisateur qui s’affiche, sélectionnez l’une des options suivantes :</span><span class="sxs-lookup"><span data-stu-id="11743-121">In the **User submissions** page that appears, select one of the following options:</span></span>
+
+   - <span data-ttu-id="11743-122">**Activer la fonctionnalité de rapport de message pour Outlook (recommandé)**: sélectionnez cette option si vous utilisez le complément de rapport de message ou le complément de création de rapports dans Outlook sur le Web, puis configurez les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="11743-122">**Enable the Report Message feature for Outlook (Recommended)**: Select this option if you use the Report Message add-in or the built-in reporting in Outlook on the web, and then configure the following settings:</span></span>
+
+     - <span data-ttu-id="11743-123">**Personnaliser le message de confirmation de l’utilisateur final**: cliquez sur ce lien.</span><span class="sxs-lookup"><span data-stu-id="11743-123">**Customize the end-user confirmation message**: Click this link.</span></span> <span data-ttu-id="11743-124">Dans la fenêtre mobile **personnaliser le message de confirmation** qui s’affiche, configurez les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="11743-124">In the **Customize confirmation message** flyout that appears, configure the following settings:</span></span>
+
+       - <span data-ttu-id="11743-125">**Avant l’envoi**: dans les zones de message de **titre** et de **confirmation** , entrez le texte descriptif que les utilisateurs voient avant de signaler un message à l’aide du complément de message de rapport.</span><span class="sxs-lookup"><span data-stu-id="11743-125">**Before submission**: In the **Title** and **Confirmation message** boxes, enter the descriptive text that users see before they report a message using the Report Message add-in.</span></span> <span data-ttu-id="11743-126">Vous pouvez utiliser la variable% type% pour inclure le type d’envoi (courrier indésirable, pas courrier indésirable, hameçonnage, etc.).</span><span class="sxs-lookup"><span data-stu-id="11743-126">You can use the variable %type% to include the submission type (junk, not junk, phish, etc.).</span></span>
+
+         <span data-ttu-id="11743-127">Comme indiqué précédemment, le texte suivant est également ajouté à la notification :</span><span class="sxs-lookup"><span data-stu-id="11743-127">As noted, the following text is also added to the notification:</span></span>
+
+         > <span data-ttu-id="11743-128">Votre courrier électronique sera envoyé tel quel à Microsoft pour analyse.</span><span class="sxs-lookup"><span data-stu-id="11743-128">Your email will be submitted as-is to Microsoft for analysis.</span></span> <span data-ttu-id="11743-129">Certains courriers électroniques peuvent contenir des informations personnelles ou sensibles.</span><span class="sxs-lookup"><span data-stu-id="11743-129">Some emails might contain personal or sensitive information.</span></span>
+
+       - <span data-ttu-id="11743-130">**Après l’envoi**: ![cliquez sur](../../media/scc-expand-icon.png)développer.</span><span class="sxs-lookup"><span data-stu-id="11743-130">**After submission**: Click ![Expand icon](../../media/scc-expand-icon.png).</span></span> <span data-ttu-id="11743-131">Dans les zones de **message** de **titre** et de confirmation, entrez le texte descriptif que les utilisateurs voient lorsqu’ils signalent un message à l’aide du complément de message de rapport.</span><span class="sxs-lookup"><span data-stu-id="11743-131">In the **Title** and **Confirmation message** boxes, enter the descriptive text that users see after they report a message using the Report Message add-in.</span></span> <span data-ttu-id="11743-132">Vous pouvez utiliser la variable% type% pour inclure le type d’envoi.</span><span class="sxs-lookup"><span data-stu-id="11743-132">You can use the variable %type% to include the submission type.</span></span>
+
+      <span data-ttu-id="11743-133">Lorsque vous avez terminé, cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="11743-133">When you're finished, click **Save**.</span></span> <span data-ttu-id="11743-134">Pour effacer ces valeurs, cliquez sur **restaurer** sur la page **soumissions** de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="11743-134">To clear these values, click **Restore** back on the **User submissions** page.</span></span>
+
+   - <span data-ttu-id="11743-135">**Envoyer les messages signalés à**: effectuez l’une des sélections suivantes :</span><span class="sxs-lookup"><span data-stu-id="11743-135">**Send the reported messages to**: Make one of the following selections:</span></span>
+
+     - <span data-ttu-id="11743-136">**Microsoft (recommandé)**: la boîte aux lettres d’envoi n’est pas utilisée (tous les messages signalés sont transmis à Microsoft).</span><span class="sxs-lookup"><span data-stu-id="11743-136">**Microsoft (Recommended)**: The user submissions mailbox isn't used (all reported messages go to Microsoft).</span></span>
+
+     - <span data-ttu-id="11743-137">**Microsoft et une boîte aux lettres personnalisée**: dans la zone qui s’affiche, entrez l’adresse de messagerie d’une boîte aux lettres Exchange Online existante.</span><span class="sxs-lookup"><span data-stu-id="11743-137">**Microsoft and a custom mailbox**: In the box that appears, enter the email address of an existing Exchange Online mailbox.</span></span>
+
+     - <span data-ttu-id="11743-138">**Boîte aux lettres personnalisée**: dans la zone qui s’affiche, entrez l’adresse de messagerie d’une boîte aux lettres Exchange Online existante.</span><span class="sxs-lookup"><span data-stu-id="11743-138">**Custom mailbox**: In the box that appears, enter the email address of an existing Exchange Online mailbox.</span></span>
+
+     <span data-ttu-id="11743-139">Lorsque vous avez terminé, cliquez sur **confirmer**.</span><span class="sxs-lookup"><span data-stu-id="11743-139">When you're finished, click **Confirm**.</span></span>
+
+     ![Envoyer des messages signalés à Microsoft et à une boîte aux lettres personnalisée](../../media/user-submission-enable-outlook-report-message.png)
+
+   - <span data-ttu-id="11743-141">**Désactiver la fonctionnalité de rapport de message pour Outlook**: sélectionnez cette option si vous utilisez des outils de création de rapports tiers à la place du complément de rapport de message ou de la création de rapports intégrée dans Outlook sur le Web, puis configurez les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="11743-141">**Disable the Report Message feature for Outlook**: Select this option if you use third-party reporting tools instead of the Report Message add-in or the built-in reporting in Outlook on the web, and then configure the following settings:</span></span>
+
+     <span data-ttu-id="11743-142">Sélectionnez **utiliser cette boîte aux lettres personnalisée pour recevoir des envois signalés par l’utilisateur**.</span><span class="sxs-lookup"><span data-stu-id="11743-142">Select **Use this custom mailbox to receive user reported submissions**.</span></span> <span data-ttu-id="11743-143">Dans la zone qui s’affiche, entrez l’adresse de messagerie d’une boîte aux lettres existante ou l’adresse de messagerie de la boîte aux lettres que vous souhaitez créer.</span><span class="sxs-lookup"><span data-stu-id="11743-143">In the box that appears, enter the email address of an existing mailbox, or the email address of the mailbox that you want to create.</span></span>
+
+     <span data-ttu-id="11743-144">Lorsque vous avez terminé, cliquez sur **confirmer**.</span><span class="sxs-lookup"><span data-stu-id="11743-144">When you're finished, click **Confirm**.</span></span>
+
+     ![Envoyer des messages signalés à une boîte aux lettres personnalisée à l’aide d’outils tiers](../../media/user-submission-disable-outlook-report-message.png)
