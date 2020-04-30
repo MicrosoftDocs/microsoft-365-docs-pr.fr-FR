@@ -9,44 +9,46 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: None
+search.appverid:
+- MET150
 ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - commerce
 ms.custom: ''
 description: En savoir plus sur la nouvelle fonctionnalité unités.
-ms.openlocfilehash: d1f926165678b57ec46195d525f2fcdaa6976501
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e6fe91ee2c0e2de58b54e40eddba6d3066999e6d
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632412"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942174"
 ---
-# <a name="allotment-basics"></a><span data-ttu-id="ca359-103">Notions de base sur les unités</span><span class="sxs-lookup"><span data-stu-id="ca359-103">Allotment basics</span></span>
+# <a name="allotment-basics"></a><span data-ttu-id="88ff8-103">Notions de base sur les unités</span><span class="sxs-lookup"><span data-stu-id="88ff8-103">Allotment basics</span></span>
 
-<span data-ttu-id="ca359-104">Les allouer des licences vous permettent de définir des limites de licence et de déléguer la gestion de l’attribution de licence uniquement aux limites de produits et de licences que vous sélectionnez.</span><span class="sxs-lookup"><span data-stu-id="ca359-104">License allotments let you set license limits and delegate management of license assignment to only the products and license limits that you select.</span></span>
+<span data-ttu-id="88ff8-104">Les allouer des licences vous permettent de définir des limites de licence et de déléguer la gestion de l’attribution de licence uniquement aux limites de produits et de licences que vous sélectionnez.</span><span class="sxs-lookup"><span data-stu-id="88ff8-104">License allotments let you set license limits and delegate management of license assignment to only the products and license limits that you select.</span></span>
 
-<span data-ttu-id="ca359-105">Les unités utilisent une licence basée sur les groupes pour attribuer des licences à vos utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="ca359-105">Allotments use group-based licensing to assign licenses to your users.</span></span> <span data-ttu-id="ca359-106">Les limites de licence fournissent un contrôle supplémentaire sur le nombre de licences attribuées aux utilisateurs de vos groupes.</span><span class="sxs-lookup"><span data-stu-id="ca359-106">License limits provide added control over how many licenses are assigned to the users in your groups.</span></span> <span data-ttu-id="ca359-107">Par conséquent, même lorsque vous augmentez le nombre d’utilisateurs de vos groupes, vous pouvez vous assurer que vous respectez la limite de licence que vous avez définie pour votre unité.</span><span class="sxs-lookup"><span data-stu-id="ca359-107">So even as the number of users in your groups increases, you can ensure that you stay within the license limit that you have set for your allotment.</span></span>
+<span data-ttu-id="88ff8-105">Les unités utilisent une licence basée sur les groupes pour attribuer des licences à vos utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="88ff8-105">Allotments use group-based licensing to assign licenses to your users.</span></span> <span data-ttu-id="88ff8-106">Les limites de licence fournissent un contrôle supplémentaire sur le nombre de licences attribuées aux utilisateurs de vos groupes.</span><span class="sxs-lookup"><span data-stu-id="88ff8-106">License limits provide added control over how many licenses are assigned to the users in your groups.</span></span> <span data-ttu-id="88ff8-107">Par conséquent, même lorsque vous augmentez le nombre d’utilisateurs de vos groupes, vous pouvez vous assurer que vous respectez la limite de licence que vous avez définie pour votre unité.</span><span class="sxs-lookup"><span data-stu-id="88ff8-107">So even as the number of users in your groups increases, you can ensure that you stay within the license limit that you have set for your allotment.</span></span>
 
-<span data-ttu-id="ca359-108">Vous pouvez également déléguer la gestion de vos unités.</span><span class="sxs-lookup"><span data-stu-id="ca359-108">You can also delegate management of your allotments.</span></span> <span data-ttu-id="ca359-109">Les propriétaires de compartiments délégués ont accès au centre d’administration, mais ils peuvent uniquement voir et gérer les licences dans les unités qu’ils possèdent.</span><span class="sxs-lookup"><span data-stu-id="ca359-109">Delegated allotment owners gain access to the admin center, but can only see and manage the licenses in the allotments they own.</span></span> <span data-ttu-id="ca359-110">Cela permet une délégation plus granulaire de la gestion des licences au sein de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="ca359-110">This provides more granular delegation of license management within your organization.</span></span>
+<span data-ttu-id="88ff8-108">Vous pouvez également déléguer la gestion de vos unités.</span><span class="sxs-lookup"><span data-stu-id="88ff8-108">You can also delegate management of your allotments.</span></span> <span data-ttu-id="88ff8-109">Les propriétaires de compartiments délégués ont accès au centre d’administration, mais ils peuvent uniquement voir et gérer les licences dans les unités qu’ils possèdent.</span><span class="sxs-lookup"><span data-stu-id="88ff8-109">Delegated allotment owners gain access to the admin center, but can only see and manage the licenses in the allotments they own.</span></span> <span data-ttu-id="88ff8-110">Cela permet une délégation plus granulaire de la gestion des licences au sein de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="88ff8-110">This provides more granular delegation of license management within your organization.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="ca359-111">Conditions préalables</span><span class="sxs-lookup"><span data-stu-id="ca359-111">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="88ff8-111">Conditions préalables</span><span class="sxs-lookup"><span data-stu-id="88ff8-111">Prerequisites</span></span>
 
-<span data-ttu-id="ca359-112">Vous devez respecter les exigences en matière de licences pour les [licences basées sur les groupes](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements).</span><span class="sxs-lookup"><span data-stu-id="ca359-112">You must meet the licensing requirements for [group-based licensing](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements).</span></span>
+<span data-ttu-id="88ff8-112">Vous devez respecter les exigences en matière de licences pour les [licences basées sur les groupes](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements).</span><span class="sxs-lookup"><span data-stu-id="88ff8-112">You must meet the licensing requirements for [group-based licensing](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements).</span></span>
 
-<span data-ttu-id="ca359-113">Vous pouvez utiliser des unités avec n’importe quel produit accessible aux utilisateurs :</span><span class="sxs-lookup"><span data-stu-id="ca359-113">You can use allotments with any product available to users:</span></span>
+<span data-ttu-id="88ff8-113">Vous pouvez utiliser des unités avec n’importe quel produit accessible aux utilisateurs :</span><span class="sxs-lookup"><span data-stu-id="88ff8-113">You can use allotments with any product available to users:</span></span>
 
-- <span data-ttu-id="ca359-114">Suites Office et produits autonomes</span><span class="sxs-lookup"><span data-stu-id="ca359-114">Office suites and standalone products</span></span>
-- <span data-ttu-id="ca359-115">Produits d’entreprise et de mobilité</span><span class="sxs-lookup"><span data-stu-id="ca359-115">Enterprise and Mobility products</span></span>
-- <span data-ttu-id="ca359-116">Produits Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="ca359-116">Dynamics 365 products</span></span>
+- <span data-ttu-id="88ff8-114">Suites Office et produits autonomes</span><span class="sxs-lookup"><span data-stu-id="88ff8-114">Office suites and standalone products</span></span>
+- <span data-ttu-id="88ff8-115">Produits d’entreprise et de mobilité</span><span class="sxs-lookup"><span data-stu-id="88ff8-115">Enterprise and Mobility products</span></span>
+- <span data-ttu-id="88ff8-116">Produits Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="88ff8-116">Dynamics 365 products</span></span>
 
-<span data-ttu-id="ca359-117">Les produits suivants ne peuvent pas être utilisés avec des unités :</span><span class="sxs-lookup"><span data-stu-id="ca359-117">The following products can't be used with allotments:</span></span>
+<span data-ttu-id="88ff8-117">Les produits suivants ne peuvent pas être utilisés avec des unités :</span><span class="sxs-lookup"><span data-stu-id="88ff8-117">The following products can't be used with allotments:</span></span>
 
-- <span data-ttu-id="ca359-118">Applications du Microsoft Store</span><span class="sxs-lookup"><span data-stu-id="ca359-118">Microsoft Store apps</span></span>
-- <span data-ttu-id="ca359-119">Logiciel perpétuel ou logiciel affecté directement à un utilisateur s’il n’y a pas de licence impliquée.</span><span class="sxs-lookup"><span data-stu-id="ca359-119">Perpetual software, or software that is directly assigned to a user if there is no license involved.</span></span>
-- <span data-ttu-id="ca359-120">Ressources Azure</span><span class="sxs-lookup"><span data-stu-id="ca359-120">Azure resources</span></span>
+- <span data-ttu-id="88ff8-118">Applications du Microsoft Store</span><span class="sxs-lookup"><span data-stu-id="88ff8-118">Microsoft Store apps</span></span>
+- <span data-ttu-id="88ff8-119">Logiciel perpétuel ou logiciel affecté directement à un utilisateur s’il n’y a pas de licence impliquée.</span><span class="sxs-lookup"><span data-stu-id="88ff8-119">Perpetual software, or software that is directly assigned to a user if there is no license involved.</span></span>
+- <span data-ttu-id="88ff8-120">Ressources Azure</span><span class="sxs-lookup"><span data-stu-id="88ff8-120">Azure resources</span></span>
 
-<span data-ttu-id="ca359-121">Vous devez être un administrateur général ou un administrateur de licence pour commencer à utiliser une unité.</span><span class="sxs-lookup"><span data-stu-id="ca359-121">You must be a global or license admin to get started with an allotment.</span></span>
+<span data-ttu-id="88ff8-121">Vous devez être un administrateur général ou un administrateur de licence pour commencer à utiliser une unité.</span><span class="sxs-lookup"><span data-stu-id="88ff8-121">You must be a global or license admin to get started with an allotment.</span></span>
 
-## <a name="getting-started"></a><span data-ttu-id="ca359-122">Prise en main</span><span class="sxs-lookup"><span data-stu-id="ca359-122">Getting started</span></span>
+## <a name="getting-started"></a><span data-ttu-id="88ff8-122">Prise en main</span><span class="sxs-lookup"><span data-stu-id="88ff8-122">Getting started</span></span>
 
-<span data-ttu-id="ca359-123">La fonctionnalité unités est disponible dans une préversion privée pour un petit nombre de clients.</span><span class="sxs-lookup"><span data-stu-id="ca359-123">The allotments feature is available in a private preview to only a small number of customers.</span></span> <span data-ttu-id="ca359-124">Si vous êtes intéressé par la jointure, remplissez ce formulaire : [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup).</span><span class="sxs-lookup"><span data-stu-id="ca359-124">If you're interested in joining, fill out this form: [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup).</span></span>
+<span data-ttu-id="88ff8-123">La fonctionnalité unités est disponible dans une préversion privée pour un petit nombre de clients.</span><span class="sxs-lookup"><span data-stu-id="88ff8-123">The allotments feature is available in a private preview to only a small number of customers.</span></span> <span data-ttu-id="88ff8-124">Si vous êtes intéressé par la jointure, remplissez ce formulaire : [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup).</span><span class="sxs-lookup"><span data-stu-id="88ff8-124">If you're interested in joining, fill out this form: [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup).</span></span>
