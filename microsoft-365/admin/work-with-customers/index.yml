@@ -1,0 +1,39 @@
+### YamlMime:Landing
+title: Travailler avec des clients
+summary: Consultez ces ressources pour aider les administrateurs à effectuer des tâches courantes ou consultez le volet de navigation sur la gauche pour obtenir une liste complète.
+metadata:
+  title: Travailler avec des clients
+  description: Partager des documents et utiliser teams pour collaborer et répondre à
+  ms.service: O365-administration
+  ms.topic: landing-page
+  author: sirkkuw
+  ms.author: sirkkuw
+  ms.date: 04/16/2020
+  localization_priority: Priority
+  ms.openlocfilehash: 299b7fa4cb98f05a1f5a3248fad59d3e8ea414ed
+  ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 04/30/2020
+  ms.locfileid: "43952689"
+landingContent:
+- title: Travailler avec des clients
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Partager des sites et des fichiers en externe
+      url: ../manage/share-sites-with-external-users.md
+    - text: Partager des calendriers avec des utilisateurs invités
+      url: ../manage/share-calendars-with-external-users.md
+  - linkListType: video
+    links:
+    - text: Créer une équipe avec des invités
+      url: https://support.office.com/article/11fbb083-52ee-434d-8c6e-63711fdafac7
+    - text: Rejoindre une équipe en tant qu’invité
+      url: https://support.office.com/article/928d1eef-61e2-49ec-b754-c2fe86b34824
+    - text: Converser avec les employés et les clients
+      url: https://support.office.com/article/65748808-a403-462c-a6e1-b169e5bc6c92
+    - text: Planifier une réunion teams avec des invités
+      url: https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a
+    - text: Participer à une réunion teams avec des invités
+      url: https://support.office.com/article/a120c282-063d-46b8-b973-851197ab75d8

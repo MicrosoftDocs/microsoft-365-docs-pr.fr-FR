@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: Gérer le courrier électronique et les calendriers
+summary: Consultez ces ressources pour aider les administrateurs à effectuer des tâches courantes ou consultez le volet de navigation sur la gauche pour obtenir une liste complète.
+metadata:
+  title: Gérer le courrier électronique et les calendriers
+  description: Gérer les paramètres de messagerie, les groupes de distribution, les paramètres de sécurité et la configuration des boîtes aux lettres partagées
+  ms.service: O365-administration
+  ms.topic: landing-page
+  author: sirkkuw
+  ms.author: sirkkuw
+  ms.date: 04/16/2020
+  localization_priority: Priority
+  ms.openlocfilehash: 65b0a249c5574ca149c0abe1e0ed879f649143fe
+  ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 04/30/2020
+  ms.locfileid: "43952709"
+landingContent:
+- title: Gérer le courrier électronique
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Gérer les paramètres de messagerie de l’utilisateur
+      url: office-365-user-email-settings.md
+    - text: À propos de la collaboration de messagerie
+      url: email-collaboration.md
+  - linkListType: how-to-guide
+    links:
+    - text: Ajouter un autre alias de messagerie
+      url: add-another-email-alias-for-a-user.md
+    - text: Utiliser votre domaine personnalisé
+      url: change-email-address.md
+    - text: Configurer le transfert du courrier électronique
+      url: configure-email-forwarding.md
+    - text: Utiliser des groupes de sécurité
+      url: create-edit-or-delete-a-security-group.md
+- title: Gérer les calendriers
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Gérer votre calendrier et vos contacts dans Outlook
+      url: https://support.office.com/article/631a182a-21e0-4e41-8fa2-0d83e55da02d
+  - linkListType: video
+    links:
+    - text: Créer un calendrier partagé
+      url: https://support.office.com/article/8385667b-d758-4489-a53f-f542dd01e6ff
+- title: Gérer les boîtes aux lettres partagées
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Configurer une boîte aux lettres partagée
+      url: configure-a-shared-mailbox.md
+    - text: Convertir une boîte aux lettres utilisateur en boîte aux lettres partagée
+      url: convert-user-mailbox-to-shared-mailbox.md
+    - text: Supprimer une licence à partir d’une boîte aux lettres partagée
+      url: remove-license-from-shared-mailbox.md
+    - text: Résoudre les problèmes liés aux boîtes aux lettres partagées
+      url: resolve-issues-with-shared-mailboxes.md
+- title: Résoudre les problèmes de connexion et de remise du courrier électronique
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Rechercher et corriger les problèmes de remise des messages électroniques
+      url: https://docs.microsoft.com/exchange/troubleshoot/mail-delivery/email-delivery-issues
+    - text: Résoudre et détecter les problèmes après l’ajout de votre domaine ou des enregistrements DNS
+      url: ../get-help-with-domains/find-and-fix-issues.md
+    - text: Récupérer des messages électroniques supprimés dans une boîte aux lettres utilisateur
+      url: https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox
+    - text: Résoudre les problèmes de connexion à Outlook dans Microsoft 365 et Exchange Online
+      url: https://support.office.com/article/e90bb691-c2a7-4697-a94f-88836856c72f
