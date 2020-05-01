@@ -165,6 +165,8 @@
           href: customer-key-availability-key-roll.md
         - name: Découvrir la clé de disponibilité pour la clé client
           href: customer-key-availability-key-understand.md
+    - name: Chiffrement des données en transit
+      href: office-365-encryption-for-data-in-transit.md
     - name: Chiffrement du courrier électronique
       href: email-encryption.md
       items:
@@ -284,7 +286,7 @@
         - name: Gérer le cycle de vie des documents SharePoint
           href: auto-apply-retention-labels-scenario.md
     - name: Éliminer des données
-      href: disposition-reviews.md
+      href: disposition.md
     - name: Gestion des boîtes aux lettres inactives
       items:
         - name: Vue d’ensemble des boîtes aux lettres inactives
@@ -338,7 +340,7 @@
             - name: Automatiser la rétention basée sur des événements
               href: automate-event-driven-retention.md
         - name: Destruction
-          href: disposition-reviews.md
+          href: disposition.md
         - name: En savoir plus sur la gestion des enregistrements
           items:
             - name: Regarder des vidéos sur la gestion des enregistrements
@@ -1204,6 +1206,8 @@
               href: offering-lopd-spain.md
             - name: PASF (Royaume-Uni)
               href: offering-pasf-uk.md
+            - name: Localisation de données personnelles (Russie)
+              href: offering-russia-data-localization.md
         - name: Amérique du Nord
           items:
             - name: California Consumer Privacy Act (CCPA)
