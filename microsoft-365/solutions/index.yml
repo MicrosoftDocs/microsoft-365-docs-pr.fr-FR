@@ -1,0 +1,78 @@
+### YamlMime:Hub
+title: Centre d’architecture et solution Microsoft 365
+summary: Découvrez comment concevoir la solution et l’architecture qui convient le mieux à votre organisation.
+brand: m365
+metadata:
+  title: Centre d’architecture et solution Microsoft 365
+  description: Comprendre comment concevoir la solution et l’architecture qui convient le mieux à votre organisation
+  ms.service: o365-solutions
+  ms.topic: hub-page
+  ms.collection: m365-security-compliance
+  author: samanro
+  ms.author: samanro
+  manager: bcarter
+  audience: ITPro
+  ms.date: 11/08/2019
+  localization_priority: Priority
+  ms.openlocfilehash: 9302dc56dba602a0ea00927dd24176b776b17ae8
+  ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 05/01/2020
+  ms.locfileid: "44002807"
+highlightedContent:
+  items:
+  - title: Autoriser les employés distants avec Microsoft 365
+    itemType: whats-new
+    url: empower-people-to-work-remotely.md
+  - title: Configurer la collaboration sécurisée avec Microsoft 365
+    itemType: get-started
+    url: setup-secure-collaboration-with-teams.md
+  - title: Déployer la protection contre les menaces sur Microsoft 365
+    itemType: get-started
+    url: deploy-threat-protection.md
+productDirectory:
+  items:
+  - title: Solutions de base Microsoft 365
+    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-blue.svg
+    summary: Recherchez des instructions complètes pour un problème métier spécifique ou un besoin, de la planification de l’implémentation à l’adoption.
+    url: foundation-solutions-overview.md
+  - title: Solution de charge de travail et conseils de scénario
+    imageSrc: https://docs.microsoft.com/office/media/icons/objects-blue.svg
+    summary: Ajoutez ces scénarios aux solutions de base pour ajouter des fonctionnalités à votre environnement.
+    url: workload-solutions-scenarios-overview.md
+  - title: Illustrations de la solution et de l’architecture
+    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg
+    summary: Affichez ou téléchargez ces illustrations pour comprendre les fonctionnalités et l’architecture des services de Microsoft 365.
+    url: productivity-illustrations.md
+  - title: Conseils spécifiques par secteurs
+    imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-blue.svg
+    summary: Trouvez des conseils spécialement conçus pour votre secteur d’activité.
+    url: industry-specific-guidance-overview.md
+  - title: Principes de conception d’entreprise
+    imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-blue.svg
+    summary: Comprenez les principes clés dont vous avez besoin pour comprendre la gestion de réseau, l’identité, la sécurité et les architectures multinationales.
+    url: design-principles.md
+  - title: Feuille de route et ressources pour le déploiement
+    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
+    summary: Ressources pour la configuration de la collaboration avec la sécurité et la protection des informations.
+    url: https://docs.microsoft.com/microsoft-365/?view=o365-worldwide
+additionalContent:
+  sections:
+  - title: Ressources supplémentaires pour Microsoft 365
+    items:
+    - title: Centre d’aide Microsoft 365 pour les administrateurs et les professionnels de l’informatique
+      summary: Pour obtenir plus de ressources pour les professionnels de l’informatique, consultez la page Microsoft 365
+      url: https://docs.microsoft.com/microsoft-365
+    - title: Formation pour les administrateurs et professionnels de l’informatique
+      summary: Trouver des ressources de formation pour la gestion de Microsoft 365
+      url: https://docs.microsoft.com/learn/m365/
+    - title: Formation pour les utilisateurs finaux
+      summary: Aider vos utilisateurs finaux à apprendre à utiliser Microsoft 365
+      url: https://support.office.com/modernworkplace
+    - title: Communauté technique Microsoft 365.
+      summary: S’engager dans la communauté technique
+      url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365
+    - title: Ressources pour les développeurs
+      summary: Découvrez comment développer pour Microsoft 365
+      url: https://developer.microsoft.com/microsoft-365

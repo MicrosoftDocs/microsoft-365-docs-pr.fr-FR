@@ -11,12 +11,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 4dff1d10b8a4574ea8350aa194d7f6a2c8eb2605
-  ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
+  ms.openlocfilehash: 520a89860d5dcac103493037fc4a52b8e60073ea
+  ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43781471"
+  ms.lasthandoff: 05/01/2020
+  ms.locfileid: "44002179"
 productDirectory:
   title: Travail à distance sécurisé avec Microsoft 365 Business Premium
   items:
@@ -34,7 +34,7 @@ productDirectory:
     url: https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623
 conceptualContent:
   items:
-  - title: Qu’est-ce que Microsoft 365 Business Premium ?
+  - title: Qu’est-ce que Microsoft 365 Business Premium ?
     links:
     - url: microsoft-365-business-overview.md
       itemType: overview
@@ -79,6 +79,9 @@ conceptualContent:
     - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-technical-fundamentals-decks-zip
       itemType: download
       text: Les principes fondamentaux de la technologie
+    - url: https://www.microsoft.com/microsoft-365/partners/resources/securing-remote-work-checklist
+      itemType: download
+      text: Liste de vérification pour la sécurisation du travail à distance
   - title: Gestion des utilisateurs
     links:
     - url: https://docs.microsoft.com/microsoft-365/business/add-users-m365b
@@ -188,7 +191,7 @@ conceptualContent:
       text: S’inscrire à Microsoft 365 Business Premium
     - url: migrate-to-microsoft-365-business.md
       itemType: how-to-guide
-      text: Migrer à partir de Microsoft 365 Business standard
+      text: Migrer à partir de Microsoft 365 Business Standard
     - url: migrate-from-e3.md
       itemType: how-to-guide
       text: Migrer à partir d’Office 365 E3
