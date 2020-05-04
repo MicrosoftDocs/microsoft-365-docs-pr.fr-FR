@@ -16,108 +16,108 @@ search.appverid:
 - MET150
 description: Découvrez comment utiliser l’applet de commande AllowSelfServicePurchase PowerShell pour activer ou désactiver l’achat libre-service.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0e9f9e3ee87f62b903e4bf7069f31319253de62d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 6c0bcec70eab4266674ca2a22f1b2054807a26e8
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080341"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011674"
 ---
-# <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a><span data-ttu-id="89458-103">Utiliser AllowSelfServicePurchase pour le module MSCommerce PowerShell</span><span class="sxs-lookup"><span data-stu-id="89458-103">Use AllowSelfServicePurchase for the MSCommerce PowerShell module</span></span>
+# <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a><span data-ttu-id="1172a-103">Utiliser AllowSelfServicePurchase pour le module MSCommerce PowerShell</span><span class="sxs-lookup"><span data-stu-id="1172a-103">Use AllowSelfServicePurchase for the MSCommerce PowerShell module</span></span>
 
-<span data-ttu-id="89458-104">Le module PowerShell **MSCommerce** est désormais disponible dans la [Galerie PowerShell](https://aka.ms/allowselfservicepurchase-powershell-gallery).</span><span class="sxs-lookup"><span data-stu-id="89458-104">The **MSCommerce** PowerShell module is now available on [PowerShell Gallery](https://aka.ms/allowselfservicepurchase-powershell-gallery).</span></span> <span data-ttu-id="89458-105">Le module inclut une valeur de paramètre **PolicyID** pour **AllowSelfServicePurchase** qui vous permet de contrôler si les utilisateurs de votre organisation peuvent faire des achats en libre-service.</span><span class="sxs-lookup"><span data-stu-id="89458-105">The module includes a **PolicyID** parameter value for **AllowSelfServicePurchase** that lets you control whether users in your organization can make self-service purchases.</span></span>
+<span data-ttu-id="1172a-104">Le module PowerShell **MSCommerce** est désormais disponible dans la [Galerie PowerShell](https://aka.ms/allowselfservicepurchase-powershell-gallery).</span><span class="sxs-lookup"><span data-stu-id="1172a-104">The **MSCommerce** PowerShell module is now available on [PowerShell Gallery](https://aka.ms/allowselfservicepurchase-powershell-gallery).</span></span> <span data-ttu-id="1172a-105">Le module inclut une valeur de paramètre **PolicyID** pour **AllowSelfServicePurchase** qui vous permet de contrôler si les utilisateurs de votre organisation peuvent faire des achats en libre-service.</span><span class="sxs-lookup"><span data-stu-id="1172a-105">The module includes a **PolicyID** parameter value for **AllowSelfServicePurchase** that lets you control whether users in your organization can make self-service purchases.</span></span>
 
-<span data-ttu-id="89458-106">Vous pouvez utiliser le module PowerShell **MSCommerce** pour :</span><span class="sxs-lookup"><span data-stu-id="89458-106">You can use the **MSCommerce** PowerShell module to:</span></span>
+<span data-ttu-id="1172a-106">Vous pouvez utiliser le module PowerShell **MSCommerce** pour :</span><span class="sxs-lookup"><span data-stu-id="1172a-106">You can use the **MSCommerce** PowerShell module to:</span></span>
 
-- <span data-ttu-id="89458-107">Afficher l’État par défaut de la valeur du paramètre **AllowSelfServicePurchase** , qu’elle soit activée ou désactivée</span><span class="sxs-lookup"><span data-stu-id="89458-107">View the default state of the **AllowSelfServicePurchase** parameter value — whether it's enabled or disabled</span></span>
-- <span data-ttu-id="89458-108">Afficher la liste des produits applicables et indiquer si les achats en libre-service sont activés ou désactivés</span><span class="sxs-lookup"><span data-stu-id="89458-108">View a list of applicable products and whether self-service purchase is enabled or disabled</span></span>
-- <span data-ttu-id="89458-109">Afficher ou modifier le paramètre actuel d’un produit spécifique pour l’activer ou le désactiver</span><span class="sxs-lookup"><span data-stu-id="89458-109">View or modify the current setting for a specific product to either enable or disable it</span></span>
+- <span data-ttu-id="1172a-107">Afficher l’État par défaut de la valeur du paramètre **AllowSelfServicePurchase** , qu’elle soit activée ou désactivée</span><span class="sxs-lookup"><span data-stu-id="1172a-107">View the default state of the **AllowSelfServicePurchase** parameter value — whether it's enabled or disabled</span></span>
+- <span data-ttu-id="1172a-108">Afficher la liste des produits applicables et indiquer si les achats en libre-service sont activés ou désactivés</span><span class="sxs-lookup"><span data-stu-id="1172a-108">View a list of applicable products and whether self-service purchase is enabled or disabled</span></span>
+- <span data-ttu-id="1172a-109">Afficher ou modifier le paramètre actuel d’un produit spécifique pour l’activer ou le désactiver</span><span class="sxs-lookup"><span data-stu-id="1172a-109">View or modify the current setting for a specific product to either enable or disable it</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="89458-110">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="89458-110">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="1172a-110">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="1172a-110">Requirements</span></span>
 
-<span data-ttu-id="89458-111">Pour utiliser le module PowerShell **MSCommerce** , vous avez besoin des éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="89458-111">To use the **MSCommerce** PowerShell module, you need:</span></span>
+<span data-ttu-id="1172a-111">Pour utiliser le module PowerShell **MSCommerce** , vous avez besoin des éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="1172a-111">To use the **MSCommerce** PowerShell module, you need:</span></span>
 
-- <span data-ttu-id="89458-112">Un appareil Windows 10</span><span class="sxs-lookup"><span data-stu-id="89458-112">A Windows 10 device</span></span>
-- <span data-ttu-id="89458-113">Autorisation d’administrateur pour l’appareil</span><span class="sxs-lookup"><span data-stu-id="89458-113">Administrator permission for the device</span></span>
-- <span data-ttu-id="89458-114">Rôle d’administrateur général ou d’administrateur de facturation pour votre client</span><span class="sxs-lookup"><span data-stu-id="89458-114">Global or Billing Admin role for your tenant</span></span>
+- <span data-ttu-id="1172a-112">Un appareil Windows 10</span><span class="sxs-lookup"><span data-stu-id="1172a-112">A Windows 10 device</span></span>
+- <span data-ttu-id="1172a-113">Autorisation d’administrateur pour l’appareil</span><span class="sxs-lookup"><span data-stu-id="1172a-113">Administrator permission for the device</span></span>
+- <span data-ttu-id="1172a-114">Rôle d’administrateur général ou d’administrateur de facturation pour votre client</span><span class="sxs-lookup"><span data-stu-id="1172a-114">Global or Billing Admin role for your tenant</span></span>
 
-## <a name="install-the-mscommerce-powershell-module"></a><span data-ttu-id="89458-115">Installer le module MSCommerce PowerShell</span><span class="sxs-lookup"><span data-stu-id="89458-115">Install the MSCommerce PowerShell module</span></span>
+## <a name="install-the-mscommerce-powershell-module"></a><span data-ttu-id="1172a-115">Installer le module MSCommerce PowerShell</span><span class="sxs-lookup"><span data-stu-id="1172a-115">Install the MSCommerce PowerShell module</span></span>
 
-<span data-ttu-id="89458-116">Vous devez installer une fois le module **MSCommerce** PowerShell sur votre appareil Windows 10, puis l’importer dans chaque session PowerShell que vous démarrez.</span><span class="sxs-lookup"><span data-stu-id="89458-116">You install the **MSCommerce** PowerShell module on your Windows 10 device once and then import it into each PowerShell session you start.</span></span> <span data-ttu-id="89458-117">Téléchargez le module **MSCommerce** PowerShell à partir de la [Galerie PowerShell](https://aka.ms/allowselfservicepurchase-powershell-gallery).</span><span class="sxs-lookup"><span data-stu-id="89458-117">Download the **MSCommerce** PowerShell module from the [PowerShell Gallery](https://aka.ms/allowselfservicepurchase-powershell-gallery).</span></span>
+<span data-ttu-id="1172a-116">Vous devez installer une fois le module **MSCommerce** PowerShell sur votre appareil Windows 10, puis l’importer dans chaque session PowerShell que vous démarrez.</span><span class="sxs-lookup"><span data-stu-id="1172a-116">You install the **MSCommerce** PowerShell module on your Windows 10 device once and then import it into each PowerShell session you start.</span></span> <span data-ttu-id="1172a-117">Téléchargez le module **MSCommerce** PowerShell à partir de la [Galerie PowerShell](https://aka.ms/allowselfservicepurchase-powershell-gallery).</span><span class="sxs-lookup"><span data-stu-id="1172a-117">Download the **MSCommerce** PowerShell module from the [PowerShell Gallery](https://aka.ms/allowselfservicepurchase-powershell-gallery).</span></span>
 
-<span data-ttu-id="89458-118">Pour installer le module **MSCommerce** PowerShell avec **PowerShellGet**, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="89458-118">To install the **MSCommerce** PowerShell module with **PowerShellGet**, run the following command:</span></span>
+<span data-ttu-id="1172a-118">Pour installer le module **MSCommerce** PowerShell avec **PowerShellGet**, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="1172a-118">To install the **MSCommerce** PowerShell module with **PowerShellGet**, run the following command:</span></span>
 
 ```powershell
 Install-Module -Name MSCommerce
 ```
 
-## <a name="import-mscommerce-into-the-powershell-session"></a><span data-ttu-id="89458-119">Importer MSCommerce dans la session PowerShell</span><span class="sxs-lookup"><span data-stu-id="89458-119">Import MSCommerce into the PowerShell session</span></span>
+## <a name="import-mscommerce-into-the-powershell-session"></a><span data-ttu-id="1172a-119">Importer MSCommerce dans la session PowerShell</span><span class="sxs-lookup"><span data-stu-id="1172a-119">Import MSCommerce into the PowerShell session</span></span>
 
-<span data-ttu-id="89458-120">Après avoir installé le module sur votre appareil Windows 10, vous l’importez dans chaque session PowerShell que vous démarrez.</span><span class="sxs-lookup"><span data-stu-id="89458-120">After you install the module on your Windows 10 device, you then import it into each PowerShell session that you start.</span></span> <span data-ttu-id="89458-121">Pour l’importer dans une session PowerShell, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="89458-121">To import it into a PowerShell session, run the following command:</span></span>
+<span data-ttu-id="1172a-120">Après avoir installé le module sur votre appareil Windows 10, vous l’importez dans chaque session PowerShell que vous démarrez.</span><span class="sxs-lookup"><span data-stu-id="1172a-120">After you install the module on your Windows 10 device, you then import it into each PowerShell session that you start.</span></span> <span data-ttu-id="1172a-121">Pour l’importer dans une session PowerShell, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="1172a-121">To import it into a PowerShell session, run the following command:</span></span>
 
 ```powershell
 Import-Module -Name MSCommerce
 ```
 
-## <a name="connect-to-mscommerce-with-your-credentials"></a><span data-ttu-id="89458-122">Se connecter à MSCommerce avec vos informations d’identification</span><span class="sxs-lookup"><span data-stu-id="89458-122">Connect to MSCommerce with your credentials</span></span>
+## <a name="connect-to-mscommerce-with-your-credentials"></a><span data-ttu-id="1172a-122">Se connecter à MSCommerce avec vos informations d’identification</span><span class="sxs-lookup"><span data-stu-id="1172a-122">Connect to MSCommerce with your credentials</span></span>
 
-<span data-ttu-id="89458-123">Pour vous connecter au module PowerShell avec vos informations d’identification, exécutez la commande suivante.</span><span class="sxs-lookup"><span data-stu-id="89458-123">To connect to the PowerShell module with your credentials, run the following command.</span></span>
+<span data-ttu-id="1172a-123">Pour vous connecter au module PowerShell avec vos informations d’identification, exécutez la commande suivante.</span><span class="sxs-lookup"><span data-stu-id="1172a-123">To connect to the PowerShell module with your credentials, run the following command.</span></span>
 
 ```powershell
 Connect-MSCommerce
 ```
 
-<span data-ttu-id="89458-124">Cette commande connecte la session PowerShell active à un client Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="89458-124">This command connects the current PowerShell session to an Azure Active Directory tenant.</span></span> <span data-ttu-id="89458-125">La commande vous invite à entrer un nom d’utilisateur et un mot de passe pour le client auquel vous voulez vous connecter.</span><span class="sxs-lookup"><span data-stu-id="89458-125">The command prompts you for a username and password for the tenant you want to connect to.</span></span> <span data-ttu-id="89458-126">Si l’authentification multifacteur est activée pour vos informations d’identification, vous utilisez l’option interactive pour vous connecter.</span><span class="sxs-lookup"><span data-stu-id="89458-126">If multi-factor authentication is enabled for your credentials, you use the interactive option to log in.</span></span>
+<span data-ttu-id="1172a-124">Cette commande connecte la session PowerShell active à un client Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="1172a-124">This command connects the current PowerShell session to an Azure Active Directory tenant.</span></span> <span data-ttu-id="1172a-125">La commande vous invite à entrer un nom d’utilisateur et un mot de passe pour le client auquel vous voulez vous connecter.</span><span class="sxs-lookup"><span data-stu-id="1172a-125">The command prompts you for a username and password for the tenant you want to connect to.</span></span> <span data-ttu-id="1172a-126">Si l’authentification multifacteur est activée pour vos informations d’identification, vous utilisez l’option interactive pour vous connecter.</span><span class="sxs-lookup"><span data-stu-id="1172a-126">If multi-factor authentication is enabled for your credentials, you use the interactive option to log in.</span></span>
 
-## <a name="view-details-for-allowselfservicepurchase"></a><span data-ttu-id="89458-127">Afficher les détails pour AllowSelfServicePurchase</span><span class="sxs-lookup"><span data-stu-id="89458-127">View details for AllowSelfServicePurchase</span></span>
+## <a name="view-details-for-allowselfservicepurchase"></a><span data-ttu-id="1172a-127">Afficher les détails pour AllowSelfServicePurchase</span><span class="sxs-lookup"><span data-stu-id="1172a-127">View details for AllowSelfServicePurchase</span></span>
 
-<span data-ttu-id="89458-128">Pour afficher une description de la valeur du paramètre **AllowSelfServicePurchase** et l’État par défaut, en fonction de votre organisation, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="89458-128">To view a description of the **AllowSelfServicePurchase** parameter value and the default status, based on your organization, run the following command:</span></span>
+<span data-ttu-id="1172a-128">Pour afficher une description de la valeur du paramètre **AllowSelfServicePurchase** et l’État par défaut, en fonction de votre organisation, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="1172a-128">To view a description of the **AllowSelfServicePurchase** parameter value and the default status, based on your organization, run the following command:</span></span>
 
 ```powershell
 Get-MSCommercePolicy -PolicyId AllowSelfServicePurchase
 ```
 
-## <a name="view-a-list-of-self-service-purchase-products-and-their-status"></a><span data-ttu-id="89458-129">Affichage de la liste des produits achetés en libre-service et de leur statut</span><span class="sxs-lookup"><span data-stu-id="89458-129">View a list of self-service purchase products and their status</span></span>
+## <a name="view-a-list-of-self-service-purchase-products-and-their-status"></a><span data-ttu-id="1172a-129">Affichage de la liste des produits achetés en libre-service et de leur statut</span><span class="sxs-lookup"><span data-stu-id="1172a-129">View a list of self-service purchase products and their status</span></span>
 
-<span data-ttu-id="89458-130">Pour afficher la liste de tous les produits d’achat libre-service disponibles et l’état de chacun d’eux, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="89458-130">To view a list of all available self-service purchase products and the status of each, run the following command:</span></span>
+<span data-ttu-id="1172a-130">Pour afficher la liste de tous les produits d’achat libre-service disponibles et l’état de chacun d’eux, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="1172a-130">To view a list of all available self-service purchase products and the status of each, run the following command:</span></span>
 
 ```powershell
 Get-MSCommerceProductPolicies -PolicyId AllowSelfServicePurchase
 ```
 
-<span data-ttu-id="89458-131">Le tableau suivant répertorie les produits disponibles et leur **ProductID**.</span><span class="sxs-lookup"><span data-stu-id="89458-131">The following table lists the available products and their **ProductId**.</span></span>
+<span data-ttu-id="1172a-131">Le tableau suivant répertorie les produits disponibles et leur **ProductID**.</span><span class="sxs-lookup"><span data-stu-id="1172a-131">The following table lists the available products and their **ProductId**.</span></span>
 
-| <span data-ttu-id="89458-132">Produit</span><span class="sxs-lookup"><span data-stu-id="89458-132">Product</span></span> | <span data-ttu-id="89458-133">Mentionnées</span><span class="sxs-lookup"><span data-stu-id="89458-133">ProductId</span></span> |
+| <span data-ttu-id="1172a-132">Produit</span><span class="sxs-lookup"><span data-stu-id="1172a-132">Product</span></span> | <span data-ttu-id="1172a-133">Mentionnées</span><span class="sxs-lookup"><span data-stu-id="1172a-133">ProductId</span></span> |
 |-----------------------------|--------------|
-| <span data-ttu-id="89458-134">Applications puissantes par utilisateur</span><span class="sxs-lookup"><span data-stu-id="89458-134">Power Apps per user</span></span> | <span data-ttu-id="89458-135">CFQ7TTC0KP0P</span><span class="sxs-lookup"><span data-stu-id="89458-135">CFQ7TTC0KP0P</span></span> |
-| <span data-ttu-id="89458-136">Power Automated per User</span><span class="sxs-lookup"><span data-stu-id="89458-136">Power Automate per user</span></span> | <span data-ttu-id="89458-137">CFQ7TTC0KP0N</span><span class="sxs-lookup"><span data-stu-id="89458-137">CFQ7TTC0KP0N</span></span> |
-| <span data-ttu-id="89458-138">Power BI Pro</span><span class="sxs-lookup"><span data-stu-id="89458-138">Power BI Pro</span></span> | <span data-ttu-id="89458-139">CFQ7TTC0L3PB</span><span class="sxs-lookup"><span data-stu-id="89458-139">CFQ7TTC0L3PB</span></span> |
+| <span data-ttu-id="1172a-134">Applications puissantes par utilisateur</span><span class="sxs-lookup"><span data-stu-id="1172a-134">Power Apps per user</span></span> | <span data-ttu-id="1172a-135">CFQ7TTC0KP0P</span><span class="sxs-lookup"><span data-stu-id="1172a-135">CFQ7TTC0KP0P</span></span> |
+| <span data-ttu-id="1172a-136">Power Automated per User</span><span class="sxs-lookup"><span data-stu-id="1172a-136">Power Automate per user</span></span> | <span data-ttu-id="1172a-137">CFQ7TTC0KP0N</span><span class="sxs-lookup"><span data-stu-id="1172a-137">CFQ7TTC0KP0N</span></span> |
+| <span data-ttu-id="1172a-138">Power BI Pro</span><span class="sxs-lookup"><span data-stu-id="1172a-138">Power BI Pro</span></span> | <span data-ttu-id="1172a-139">CFQ7TTC0L3PB</span><span class="sxs-lookup"><span data-stu-id="1172a-139">CFQ7TTC0L3PB</span></span> |
 
-## <a name="view-or-set-the-status-for-allowselfservicepurchase"></a><span data-ttu-id="89458-140">Afficher ou définir l’État pour AllowSelfServicePurchase</span><span class="sxs-lookup"><span data-stu-id="89458-140">View or set the status for AllowSelfServicePurchase</span></span>
+## <a name="view-or-set-the-status-for-allowselfservicepurchase"></a><span data-ttu-id="1172a-140">Afficher ou définir l’État pour AllowSelfServicePurchase</span><span class="sxs-lookup"><span data-stu-id="1172a-140">View or set the status for AllowSelfServicePurchase</span></span>
 
-<span data-ttu-id="89458-141">Une fois que vous avez consulté la liste des produits disponibles pour l’achat en libre-service, vous pouvez afficher ou modifier le paramètre d’un produit spécifique.</span><span class="sxs-lookup"><span data-stu-id="89458-141">After you view the list of products available for self-service purchase, you can view or modify the setting for a specific product.</span></span>
+<span data-ttu-id="1172a-141">Une fois que vous avez consulté la liste des produits disponibles pour l’achat en libre-service, vous pouvez afficher ou modifier le paramètre d’un produit spécifique.</span><span class="sxs-lookup"><span data-stu-id="1172a-141">After you view the list of products available for self-service purchase, you can view or modify the setting for a specific product.</span></span>
 
-<span data-ttu-id="89458-142">Pour obtenir le paramètre de stratégie pour un produit spécifique, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="89458-142">To get the policy setting for a specific product, run the following command:</span></span>
+<span data-ttu-id="1172a-142">Pour obtenir le paramètre de stratégie pour un produit spécifique, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="1172a-142">To get the policy setting for a specific product, run the following command:</span></span>
 
 ```powershell
 Get-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId CFQ7TTC0KP0N
 ```
 
-<span data-ttu-id="89458-143">Pour activer le paramètre de stratégie pour un produit spécifique, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="89458-143">To enable the policy setting for a specific product, run the following command:</span></span>
+<span data-ttu-id="1172a-143">Pour activer le paramètre de stratégie pour un produit spécifique, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="1172a-143">To enable the policy setting for a specific product, run the following command:</span></span>
 
 ```powershell
 Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId CFQ7TTC0KP0N -Enabled $True
 ```
 
-<span data-ttu-id="89458-144">Pour désactiver le paramètre de stratégie pour un produit spécifique, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="89458-144">To disable the policy setting for a specific product, run the following command:</span></span>
+<span data-ttu-id="1172a-144">Pour désactiver le paramètre de stratégie pour un produit spécifique, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="1172a-144">To disable the policy setting for a specific product, run the following command:</span></span>
 
 ```powershell
 Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId CFQ7TTC0KP0N -Enabled $False
 ```
 
-## <a name="example-script-to-disable-allowselfservicepurchase"></a><span data-ttu-id="89458-145">Exemple de script pour désactiver AllowSelfServicePurchase</span><span class="sxs-lookup"><span data-stu-id="89458-145">Example script to disable AllowSelfServicePurchase</span></span>
+## <a name="example-script-to-disable-allowselfservicepurchase"></a><span data-ttu-id="1172a-145">Exemple de script pour désactiver AllowSelfServicePurchase</span><span class="sxs-lookup"><span data-stu-id="1172a-145">Example script to disable AllowSelfServicePurchase</span></span>
 
-<span data-ttu-id="89458-146">L’exemple suivant explique comment importer le module **MSCommerce** , se connecter avec votre compte, obtenir le **ProductID** de Power automate, puis désactiver **AllowSelfServicePurchase** pour ce produit.</span><span class="sxs-lookup"><span data-stu-id="89458-146">The following example walks you through how to import the **MSCommerce** module, sign in with your account, get the **ProductId** for Power Automate, and then disable **AllowSelfServicePurchase** for that product.</span></span>
+<span data-ttu-id="1172a-146">L’exemple suivant explique comment importer le module **MSCommerce** , se connecter avec votre compte, obtenir le **ProductID** de Power automate, puis désactiver **AllowSelfServicePurchase** pour ce produit.</span><span class="sxs-lookup"><span data-stu-id="1172a-146">The following example walks you through how to import the **MSCommerce** module, sign in with your account, get the **ProductId** for Power Automate, and then disable **AllowSelfServicePurchase** for that product.</span></span>
 
 ```powershell
 Import-Module -Name MSCommerce
@@ -126,20 +126,20 @@ $product = Get-MSCommerceProductPolicies -PolicyId AllowSelfServicePurchase | wh
 Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId $product.ProductID -Enabled $false
 ```
 
-## <a name="troubleshooting"></a><span data-ttu-id="89458-147">Résolution des problèmes</span><span class="sxs-lookup"><span data-stu-id="89458-147">Troubleshooting</span></span>
+## <a name="troubleshooting"></a><span data-ttu-id="1172a-147">Résolution des problèmes</span><span class="sxs-lookup"><span data-stu-id="1172a-147">Troubleshooting</span></span>
 
-<span data-ttu-id="89458-148">**Problème**</span><span class="sxs-lookup"><span data-stu-id="89458-148">**Problem**</span></span>
+<span data-ttu-id="1172a-148">**Problème**</span><span class="sxs-lookup"><span data-stu-id="1172a-148">**Problem**</span></span>
 
-<span data-ttu-id="89458-149">Le message d’erreur suivant s’affiche :</span><span class="sxs-lookup"><span data-stu-id="89458-149">You see the following error message:</span></span>
+<span data-ttu-id="1172a-149">Le message d’erreur suivant s’affiche :</span><span class="sxs-lookup"><span data-stu-id="1172a-149">You see the following error message:</span></span>
 
     HandleError : Failed to retrieve policy with PolicyId 'AllowSelfServicePurchase', ErrorMessage - The underlying
     connection was closed: An unexpected error occurred on a send.
 
-<span data-ttu-id="89458-150">Cela peut être dû à une version plus ancienne de TLS (Transport Layer Security).</span><span class="sxs-lookup"><span data-stu-id="89458-150">This may be due to an older version of Transport Layer Security (TLS).</span></span> <span data-ttu-id="89458-151">Pour connecter ce service, vous devez utiliser TLS 1,2 ou une version ultérieure.</span><span class="sxs-lookup"><span data-stu-id="89458-151">To connect this service you need to use TLS 1.2 or greater</span></span>
+<span data-ttu-id="1172a-150">Cela peut être dû à une version plus ancienne de TLS (Transport Layer Security).</span><span class="sxs-lookup"><span data-stu-id="1172a-150">This may be due to an older version of Transport Layer Security (TLS).</span></span> <span data-ttu-id="1172a-151">Pour connecter ce service, vous devez utiliser TLS 1,2 ou une version ultérieure.</span><span class="sxs-lookup"><span data-stu-id="1172a-151">To connect this service you need to use TLS 1.2 or greater</span></span>
 
-<span data-ttu-id="89458-152">**Solution**</span><span class="sxs-lookup"><span data-stu-id="89458-152">**Solution**</span></span>
+<span data-ttu-id="1172a-152">**Solution**</span><span class="sxs-lookup"><span data-stu-id="1172a-152">**Solution**</span></span>
 
-<span data-ttu-id="89458-153">Effectuez une mise à niveau vers TLS 1,2 :[https://docs.microsoft.com/configmgr/core/plan-design/security/enable-tls-1-2](https://docs.microsoft.com/configmgr/core/plan-design/security/enable-tls-1-2)</span><span class="sxs-lookup"><span data-stu-id="89458-153">Upgrade to TLS 1.2: [https://docs.microsoft.com/configmgr/core/plan-design/security/enable-tls-1-2](https://docs.microsoft.com/configmgr/core/plan-design/security/enable-tls-1-2)</span></span>
+<span data-ttu-id="1172a-153">Effectuez une mise à niveau vers TLS 1,2 :[https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2)</span><span class="sxs-lookup"><span data-stu-id="1172a-153">Upgrade to TLS 1.2: [https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2)</span></span>
 
 <!--
 ## Uninstall the MSCommerce module
