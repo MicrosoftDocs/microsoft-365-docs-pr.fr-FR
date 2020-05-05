@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Présentation du Centre de déploiement du bureau moderne.
-ms.openlocfilehash: 540f0d50ef8adc292fc1fbd4ef13bb12556d596c
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: 36506864d932665a2da8fd2dfc94ab276e4fa2ec
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113528"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638139"
 ---
 # <a name="desktop-deployment-center"></a>Centre de déploiement du bureau moderne
 
@@ -94,7 +94,7 @@ ms.locfileid: "43113528"
 <img align="middle" src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-2.png" alt="Desktop Deployment Wheel" height="450" width="802" align="middle" style="background-color: #fff;" />
 
 
-Pour planifier et effectuer votre déploiement à grande échelle de Windows 10 et d’Office 365 ProPlus, procédez de la manière décrite ci-dessous. Chacune des étapes s’inscrit dans le processus global de planification et de déploiement. Dans le cadre d’un déploiement par phases, certaines étapes doivent être exécutées en parallèle. Téléchargez gratuitement le [Kit de laboratoire pour le déploiement et la gestion des ordinateurs de bureau modernes](https://aka.ms/howtoshiftlabs) pour bénéficier d’une formation pratique avec les outils mis en évidence dans le processus de déploiement. Vous pouvez également [obtenir de l’aide](https://aka.ms/mddhelp) pour le déploiement de votre bureau auprès de partenaires et des services FastTrack de Microsoft.
+Pour planifier et effectuer votre déploiement à grande échelle de Windows 10 et de Microsoft 365 Apps pour entreprise, procédez de la manière décrite ci-dessous. Chacune des étapes s’inscrit dans le processus global de planification et de déploiement. Dans le cadre d’un déploiement par phases, certaines étapes doivent être exécutées en parallèle. Téléchargez gratuitement le [Kit de laboratoire pour le déploiement et la gestion des ordinateurs de bureau modernes](https://aka.ms/howtoshiftlabs) pour bénéficier d’une formation pratique avec les outils mis en évidence dans le processus de déploiement. Vous pouvez également [obtenir de l’aide](https://aka.ms/mddhelp) pour le déploiement de votre bureau auprès de partenaires et des services FastTrack de Microsoft.
 
 <br>
 
@@ -102,7 +102,7 @@ Pour planifier et effectuer votre déploiement à grande échelle de Windows 10
 <tr class="even">
 <td><a href="https://aka.ms/mdd0"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-1.png" alt="Getting Started" height="144" width="144" /></a></td>
 <td><p><strong><a href="https://aka.ms/mdd0">Prise en main : aide relative aux technologies, aux processus et aux utilisateurs</a></strong></p>
-<p>Découvrez les avantages de la migration vers Windows 10 et Office 365 ProPlus, les modifications majeures et les aspects à prendre en compte par rapport aux déploiements précédents, ainsi que les bonnes pratiques à adopter pour assurer une transition fluide vers Windows 10 et Office 365 ProPlus.</p></td>
+<p>Découvrez les avantages de la migration vers Windows 10 et Microsoft 365 Apps pour entreprise, les modifications majeures et les aspects à prendre en compte par rapport aux déploiements précédents, ainsi que les bonnes pratiques à adopter pour assurer une transition fluide vers Windows 10 et Microsoft 365 Apps pour entreprise.</p></td>
 <td><a href="https://aka.ms/ddev0" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-13.png" alt="Getting Started" height="130" width="231" /></a></td>
 </tr>
 <tbody>
@@ -115,13 +115,13 @@ Pour planifier et effectuer votre déploiement à grande échelle de Windows 10
 <tr class="even">
 <td><a href="https://aka.ms/mdd2"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Step 2" height="144" width="144" /></a></td>
 <td><p><strong><a href="https://aka.ms/mdd2">Étape 2 : préparation des répertoires et du réseau</a></strong></p>
-<p>Les services connectés au cloud dans Office 365 ProPlus et les nouvelles options de déploiement, telles que Windows Autopilot, nécessitent Azure Active Directory. Votre réseau et votre connectivité sont également des aspects importants pour planifier le déplacement des images, des applications, des pilotes Windows et des fichiers connexes sur votre PC. Découvrez comment les nouveaux outils et les nouvelles options de déploiement réduisent et rationalisent le trafic réseau.</p></td>
+<p>Les services connectés au cloud dans Microsoft 365 Apps pour entreprise et les nouvelles options de déploiement, telles que Windows Autopilot, nécessitent Azure Active Directory. Votre réseau et votre connectivité sont également des aspects importants pour planifier le déplacement des images, des applications, des pilotes Windows et des fichiers connexes sur votre PC. Découvrez comment les nouveaux outils et les nouvelles options de déploiement réduisent et rationalisent le trafic réseau.</p></td>
 <td><a href="https://aka.ms/ddev2" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-15.png" alt="Step 2" height="130" width="231" /></a></td>
 </tr>
 <tr class="odd">
 <td><a href="https://aka.ms/mdd3"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-6.png" alt="Step 3" height="144" width="144" /></a></td>
 <td><p><strong><a href="https://aka.ms/mdd3">Étape 3 : distribution d’Office et des applications métier</a></strong></p>
-<p>Vérifiez que vos applications sont empaquetées et prêtes pour une installation automatisée. Découvrez comment l’empaquetage Démarrer en un clic avec Office 365 ProPlus vous offre de nouvelles options pour configurer, livrer et actualiser vos applications Office.</p></td>
+<p>Vérifiez que vos applications sont empaquetées et prêtes pour une installation automatisée. Découvrez comment l’empaquetage Démarrer en un clic avec Microsoft 365 Apps pour entreprise vous offre de nouvelles options pour configurer, livrer et actualiser vos applications Office.</p></td>
 <td><a href="https://aka.ms/ddev3" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-16.png" alt="Step 3" height="130" width="231" /></a></td>
 </tr>
 <tr class="even">
@@ -133,7 +133,7 @@ Pour planifier et effectuer votre déploiement à grande échelle de Windows 10
 <tr class="odd">
 <td><a href="https://aka.ms/mdd5"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-8.png" alt="Step 5" height="144" width="144" /></a></td>
 <td><p><strong><a href="https://aka.ms/mdd5">Étape 5 : considérations relatives à la sécurité et à la conformité</a></strong></p>
-<p>Windows 10 et Office 365 ProPlus fournissent de nouveaux moyens de protéger vos données, appareils et utilisateurs, ainsi que de détecter et traiter rapidement les menaces. Découvrez également comment résoudre des problèmes courants liés au chiffrement de disque, aux applications anti-programmes malveillants et aux stratégies de migration vers Windows 10.</p></td>
+<p>Windows 10 et Microsoft 365 Apps pour entreprise fournissent de nouveaux moyens de protéger vos données, appareils et utilisateurs, ainsi que de détecter et traiter rapidement les menaces. Découvrez également comment résoudre des problèmes courants liés au chiffrement de disque, aux applications anti-programmes malveillants et aux stratégies de migration vers Windows 10.</p></td>
 <td><a href="https://aka.ms/ddev5" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-18.png" alt="Step 5" height="130" width="231" /></a></td>
 </tr>
 <tr class="even">
@@ -145,13 +145,13 @@ Pour planifier et effectuer votre déploiement à grande échelle de Windows 10
 <tr class="odd">
 <td><a href="https://aka.ms/mdd7"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-10.png" alt="Step 7" height="144" width="144" /></a></td>
 <td><p><strong><a href="https://aka.ms/mdd7">Étape 7 : maintenance de Windows et d’Office</a></strong></p>
-<p>Windows 10 et Office 365 ProPlus s’enrichissent continuellement de nouvelles fonctionnalités pour améliorer l’expérience utilisateur et la sécurité. Découvrez comment vous tenir informé des mises à jour semi-annuelles et mensuelles, le fonctionnement du nouveau modèle de maintenance, ainsi que les outils et options à votre disposition.</p></td>
+<p>Windows 10 et Microsoft 365 Apps pour entreprise s’enrichissent continuellement de nouvelles fonctionnalités pour améliorer l’expérience utilisateur et la sécurité grâce aux dernières innovations. Découvrez comment vous tenir informé des mises à jour semi-annuelles et mensuelles, le fonctionnement du nouveau modèle de maintenance, ainsi que les outils et options à votre disposition.</p></td>
 <td><a href="https://aka.ms/ddev7" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-20.png" alt="Step 7" height="130" width="231" /></a></td>
 </tr>
 <tr class="even">
 <td><a href="https://aka.ms/mdd8"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="Step 8" height="144" width="144" /></a></td>
 <td><p><strong><a href="https://aka.ms/mdd8">Étape 8 : formation et communication des utilisateurs</a></strong></p>
-<p>Pensez à informer vos utilisateurs des nouvelles expériences et nouveaux modes de travail avant de migrer vos PC vers Windows 10 et Office 365 ProPlus. Découvrez comment tirer parti de l’assistance à l’adoption utilisateur avec Microsoft FastTrack, des supports de formation et des modèles de communication, ainsi que des nouveaux moyens pour surveiller l’usage et l’acceptation des utilisateurs.</p></td>
+<p>Pensez à informer vos utilisateurs des nouvelles expériences et nouveaux modes de travail avant de migrer vos PC vers Windows 10 et Microsoft 365 Apps pour entreprise. Découvrez comment tirer parti de l’assistance à l’adoption utilisateur avec Microsoft FastTrack, des supports de formation et des modèles de communication, ainsi que des nouveaux moyens pour surveiller l’usage et l’acceptation des utilisateurs.</p></td>
 <td><a href="https://aka.ms/ddev8" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></a></td>
 </tr>
 </tbody>

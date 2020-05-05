@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Abonnements professionnels et documentation de facturation
-summary: Découvrez comment acheter et gérer des abonnements professionnels, effectuer des tâches de gestion des licences et gérer la facturation et les paiements de vos comptes professionnels avec Microsoft.
+title: Documentation sur les abonnements et la facturation pour les entreprises
+summary: Découvrez comment acheter et gérer des abonnements pour les entreprises, effectuer des tâches de gestion de licences et gérer la facturation et les paiements pour vos comptes professionnels avec Microsoft.
 metadata:
-  title: Abonnements professionnels et documentation de facturation
-  description: Découvrez comment acheter et gérer des abonnements professionnels, effectuer des tâches de gestion des licences et gérer la facturation et les paiements de vos comptes professionnels avec Microsoft.
+  title: Documentation sur les abonnements et la facturation pour les entreprises
+  description: Découvrez comment acheter et gérer des abonnements pour les entreprises, effectuer des tâches de gestion de licences et gérer la facturation et les paiements pour vos comptes professionnels avec Microsoft.
   ms.service: o365-administration
   ms.topic: landing-page
   ms.collection: commerce
@@ -14,18 +14,18 @@ metadata:
   search.appverid: MET150
   ms.openlocfilehash: 76f86bcd65fe1d5894777d8263f8c48f5fc5493b
   ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: fr-FR
   ms.lasthandoff: 02/29/2020
   ms.locfileid: "42341573"
 landingContent:
-- title: Gérer les factures et les paiements
+- title: Gestion des factures et des paiements
   linkLists:
   - linkListType: how-to-guide
     links:
     - text: Consulter votre facture
       url: billing-and-payments/view-your-bill-or-invoice.md
-    - text: Créer des méthodes de paiement
+    - text: Gestion des modes de paiement
       url: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
     - text: Comprendre votre facture
       url: billing-and-payments/understand-your-invoice.md
@@ -63,9 +63,9 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Essayer ou acheter Microsoft 365
+    - text: Essayer ou acheter Microsoft 365
       url: try-or-buy-microsoft-365.md
-    - text: Acheter un abonnement à partir de votre version d’évaluation gratuite
+    - text: Acheter un abonnement à partir de votre version d’essai
       url: buy-a-subscription-from-your-free-trial.md
     - text: Prolonger votre version d’essai
       url: extend-your-trial.md
