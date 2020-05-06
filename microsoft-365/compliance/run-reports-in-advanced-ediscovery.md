@@ -15,33 +15,34 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: b270243e-99a0-4c34-9b21-acb1512d56c6
-description: 'Découvrez comment exécuter un rapport, puis télécharger son fichier. csv dans Advanced eDiscovery.  '
-ms.openlocfilehash: 9da35e21de23e4773130f5aa87b16fe18d044140
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Découvrez comment exécuter un rapport pour votre processus sélectionné, puis télécharger son fichier. csv dans Advanced eDiscovery.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e8761277dae8898cfe4c1674beb3f89eeddb48ba
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626480"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034588"
 ---
-# <a name="run-reports-in-advanced-ediscovery-classic"></a><span data-ttu-id="80e1a-103">Exécuter des rapports dans Advanced eDiscovery (classique)</span><span class="sxs-lookup"><span data-stu-id="80e1a-103">Run reports in Advanced eDiscovery (classic)</span></span>
+# <a name="run-reports-in-advanced-ediscovery-classic"></a><span data-ttu-id="0fc01-103">Exécuter des rapports dans Advanced eDiscovery (classique)</span><span class="sxs-lookup"><span data-stu-id="0fc01-103">Run reports in Advanced eDiscovery (classic)</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="80e1a-p101">Pour utiliser Advanced eDiscovery, votre organisation doit souscrire un abonnement Office 365 E3 avec le module complémentaire Conformité avancée ou un abonnement E5. Si vous ne disposez pas d’un abonnement et que vous souhaitez essayer Advanced eDiscovery, vous pouvez vous [inscrire pour utiliser une version d’évaluation d’Office 365 Entreprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span><span class="sxs-lookup"><span data-stu-id="80e1a-p101">Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span></span> 
+> <span data-ttu-id="0fc01-p101">Pour utiliser Advanced eDiscovery, votre organisation doit souscrire un abonnement Office 365 E3 avec le module complémentaire Conformité avancée ou un abonnement E5. Si vous ne disposez pas d’un abonnement et que vous souhaitez essayer Advanced eDiscovery, vous pouvez vous [inscrire pour utiliser une version d’évaluation d’Office 365 Entreprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span><span class="sxs-lookup"><span data-stu-id="0fc01-p101">Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span></span> 
   
-<span data-ttu-id="80e1a-106">Cette rubrique explique comment exécuter des rapports dans Advanced eDiscovery.</span><span class="sxs-lookup"><span data-stu-id="80e1a-106">This topic describes how to run reports in Advanced eDiscovery.</span></span>
+<span data-ttu-id="0fc01-106">Cette rubrique explique comment exécuter des rapports dans Advanced eDiscovery.</span><span class="sxs-lookup"><span data-stu-id="0fc01-106">This topic describes how to run reports in Advanced eDiscovery.</span></span>
   
-## <a name="running-reports"></a><span data-ttu-id="80e1a-107">Exécution de rapports</span><span class="sxs-lookup"><span data-stu-id="80e1a-107">Running reports</span></span>
+## <a name="running-reports"></a><span data-ttu-id="0fc01-107">Exécution de rapports</span><span class="sxs-lookup"><span data-stu-id="0fc01-107">Running reports</span></span>
 
-<span data-ttu-id="80e1a-108">Vous pouvez télécharger un fichier. csv avec un rapport pour le processus sélectionné.</span><span class="sxs-lookup"><span data-stu-id="80e1a-108">You can download a .csv file with a report for the selected process.</span></span>
+<span data-ttu-id="0fc01-108">Vous pouvez télécharger un fichier. csv avec un rapport pour le processus sélectionné.</span><span class="sxs-lookup"><span data-stu-id="0fc01-108">You can download a .csv file with a report for the selected process.</span></span>
   
-1. <span data-ttu-id="80e1a-109">Dans l’onglet **rapports** , sélectionnez une option dans la liste **nom du rapport** .</span><span class="sxs-lookup"><span data-stu-id="80e1a-109">In the **Reports** tab, select an option from the **Report name** list.</span></span> <span data-ttu-id="80e1a-110">Sélectionnez l’une des trois options de **nom de rapport** : **choix de pertinence**, **liste des thèmes** ou **fichiers balisés**.</span><span class="sxs-lookup"><span data-stu-id="80e1a-110">Select from three **Report name** options: **Relevance decide**, **Themes list,** or **Tagged files**.</span></span>
+1. <span data-ttu-id="0fc01-109">Dans l’onglet **rapports** , sélectionnez une option dans la liste **nom du rapport** .</span><span class="sxs-lookup"><span data-stu-id="0fc01-109">In the **Reports** tab, select an option from the **Report name** list.</span></span> <span data-ttu-id="0fc01-110">Sélectionnez l’une des trois options de **nom de rapport** : **choix de pertinence**, **liste des thèmes** ou **fichiers balisés**.</span><span class="sxs-lookup"><span data-stu-id="0fc01-110">Select from three **Report name** options: **Relevance decide**, **Themes list,** or **Tagged files**.</span></span>
     
     ![Rapports d’analyse de découverte électronique](../media/f16aee7a-508f-4acc-99bc-a2c8dec01312.png)
   
-2. <span data-ttu-id="80e1a-112">Les paramètres disponibles, ainsi que les options de tri et de filtrage, peuvent être définis en fonction du rapport sélectionné.</span><span class="sxs-lookup"><span data-stu-id="80e1a-112">Available parameters, and sort and filter options can be set, depending on the selected report.</span></span> 
+2. <span data-ttu-id="0fc01-112">Les paramètres disponibles, ainsi que les options de tri et de filtrage, peuvent être définis en fonction du rapport sélectionné.</span><span class="sxs-lookup"><span data-stu-id="0fc01-112">Available parameters, and sort and filter options can be set, depending on the selected report.</span></span> 
     
-3. <span data-ttu-id="80e1a-113">Cliquez sur **Télécharger CSV**.</span><span class="sxs-lookup"><span data-stu-id="80e1a-113">Click **Download CSV**.</span></span> <span data-ttu-id="80e1a-114">Le rapport demandé est généré et téléchargé.</span><span class="sxs-lookup"><span data-stu-id="80e1a-114">The requested report is generated and downloaded.</span></span>
+3. <span data-ttu-id="0fc01-113">Cliquez sur **Télécharger CSV**.</span><span class="sxs-lookup"><span data-stu-id="0fc01-113">Click **Download CSV**.</span></span> <span data-ttu-id="0fc01-114">Le rapport demandé est généré et téléchargé.</span><span class="sxs-lookup"><span data-stu-id="0fc01-114">The requested report is generated and downloaded.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="80e1a-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="80e1a-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0fc01-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0fc01-115">See also</span></span>
 
-[<span data-ttu-id="80e1a-116">Advanced eDiscovery (classique)</span><span class="sxs-lookup"><span data-stu-id="80e1a-116">Advanced eDiscovery (classic)</span></span>](office-365-advanced-ediscovery.md)
+[<span data-ttu-id="0fc01-116">Advanced eDiscovery (classique)</span><span class="sxs-lookup"><span data-stu-id="0fc01-116">Advanced eDiscovery (classic)</span></span>](office-365-advanced-ediscovery.md)
