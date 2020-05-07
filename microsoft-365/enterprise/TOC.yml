@@ -103,8 +103,6 @@
           href: migration-microsoft-365-enterprise-workload.md
         - name: Confiez des responsabilités aux travailleurs à distance
           href: empower-people-to-work-remotely.md
-        - name: Teams pour les données hautement réglementées
-          href: secure-teams-highly-regulated-data-scenario.md
         - name: Sites SharePoint pour les données hautement réglementées
           href: teams-sharepoint-online-sites-highly-regulated-data.md
     - name: Guides pour les laboratoires de tests

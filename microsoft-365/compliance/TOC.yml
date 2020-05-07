@@ -42,6 +42,8 @@
       items:
         - name: En savoir plus sur la conformité des communications
           href: communication-compliance.md
+        - name: Planifier la conformité des communications
+          href: communication-compliance-plan.md
         - name: Prise en main de la conformité des communications
           href: communication-compliance-configure.md
         - name: Examiner et corriger les alertes de conformité des communications
@@ -1054,8 +1056,6 @@
               href: offering-mars-e.md
             - name: NEN-7510 (Pays-Bas)
               href: offering-nen-7510-netherlands.md
-            - name: NHS IG Toolkit (Royaume-Uni)
-              href: offering-nhs-ig-toolkit-uk.md
         - name: Fabrication
           items:
             - name: FDA CFR titre 21 partie 11
@@ -1132,8 +1132,6 @@
               href: offering-mpaa.md
             - name: NBB + FSMA (Belgique)
               href: offering-nbb-fsma-belgium.md
-            - name: NHS IG Toolkit (Royaume-Uni)
-              href: offering-nhs-ig-toolkit-uk.md
             - name: CSF
               href: offering-nist-csf.md
             - name: PCI DSS
