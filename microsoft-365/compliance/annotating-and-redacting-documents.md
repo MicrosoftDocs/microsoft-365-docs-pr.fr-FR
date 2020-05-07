@@ -1,5 +1,5 @@
 ---
-title: Afficher les documents d’un jeu à réviser
+title: Affichage des documents dans un ensemble de révision
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,14 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
+ms.custom: seo-marvel-mar2020
 description: ''
-ms.openlocfilehash: 1a8a766f4bd0d7acdd497df85d31cb258a8f7929
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 9b180fa30e65ff72be76297ef856dce71c3807ff
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079881"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035070"
 ---
-# <a name="view-documents-in-a-review-set"></a><span data-ttu-id="9190d-102">Afficher les documents d’un jeu à réviser</span><span class="sxs-lookup"><span data-stu-id="9190d-102">View documents in a review set</span></span>
+# <a name="view-documents-in-a-review-set"></a><span data-ttu-id="01476-102">Afficher les documents d’un jeu à réviser</span><span class="sxs-lookup"><span data-stu-id="01476-102">View documents in a review set</span></span>
 
-<span data-ttu-id="9190d-103">Contenu à paraître prochainement.</span><span class="sxs-lookup"><span data-stu-id="9190d-103">Content coming soon.</span></span>
+<span data-ttu-id="01476-103">Contenu à paraître prochainement.</span><span class="sxs-lookup"><span data-stu-id="01476-103">Content coming soon.</span></span>

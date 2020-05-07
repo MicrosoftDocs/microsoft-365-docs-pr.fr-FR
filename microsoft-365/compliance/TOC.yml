@@ -22,6 +22,8 @@
       items:
         - name: En savoir plus sur la gestion des risques internes Microsoft
           href: insider-risk-management.md
+        - name: Planifier la gestion des risques Insider
+          href: insider-risk-management-plan.md
         - name: Prise en main de la gestion des risques internes
           href: insider-risk-management-configure.md
         - name: Créer et gérer les stratégies de risques internes
