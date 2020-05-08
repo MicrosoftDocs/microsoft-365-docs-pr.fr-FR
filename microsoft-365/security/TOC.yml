@@ -513,14 +513,7 @@
                 - name: Création de sites d’équipe dans un environnement de développement/test dans le cadre d’une campagne électorale
                   href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
             - name: Sécuriser des fichiers dans Microsoft Teams
-              href: ./office-365-security/secure-files-in-teams.md
               items:
-                - name: Déployer des équipes pour trois niveaux de protection des fichiers
-                  href: ./office-365-security/deploy-teams-three-tiers.md
-                - name: Protéger des fichiers dans Teams avec des étiquettes de rétention et la protection contre la perte de données (DLP)
-                  href: ./office-365-security/deploy-teams-retention-DLP.md
-                - name: Protéger des fichiers dans Teams avec des étiquettes de confidentialité
-                  href: ./office-365-security/deploy-teams-sensitivity-labels.md
                 - name: Sécuriser les fichiers Teams dans un environnement de développement/test
                   href: ./office-365-security/secure-team-for-files-in-a-dev-test-environment.md
             - name: Sécuriser des sites SharePoint Online dans un environnement de développement et de test
