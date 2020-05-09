@@ -1,7 +1,7 @@
 - name: Gérer les abonnements d’entreprise
   href: index.yml
-- name: "Centre d'aide de l’administrateur Microsoft\_365"
-  href: ../admin/admin-home.md
+- name: "Aide du Centre d’administration Microsoft\_365"
+  href: ../admin/index.yml
 - name: Essayer ou acheter
   items:
     - name: Inscrivez-vous à la version d’évaluation de Microsoft 365
@@ -51,7 +51,7 @@
     - name: Comprendre votre facture
       href: billing-and-payments/understand-your-invoice.md
     - name: Créer des méthodes de paiement
-      href: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
+      href: billing-and-payments/manage-payment-methods.md
     - name: Régler votre abonnement
       href: billing-and-payments/pay-for-your-subscription.md
     - name: Modifier le mode de paiement
