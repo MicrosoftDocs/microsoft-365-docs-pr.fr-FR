@@ -180,7 +180,9 @@
                       href: mtp/custom-detection-rules.md
             - name: Degré de sécurisation
               items:
-                - name: Degré de sécurisation
+                - name: Degré de sécurisation (nouveau)
+                  href: mtp/microsoft-secure-score-new.md
+                - name: Degré de sécurisation (itération précédente)
                   href: mtp/microsoft-secure-score.md
                 - name: Secure Score (aperçu)
                   href: mtp/microsoft-secure-score-preview.md
