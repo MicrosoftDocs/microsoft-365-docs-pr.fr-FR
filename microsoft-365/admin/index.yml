@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Aide du centre d’administration Microsoft 365
+title: Aide du centre d’administration Microsoft 365
 summary: Explorez les ressources pour travailler dans le centre d’administration Microsoft 365.
 brand: m365
 metadata:
-  title: Aide du centre d’administration Microsoft 365
+  title: Aide du centre d’administration Microsoft 365
   description: Configurez et gérez Office 365 et Microsoft 365 dans le centre d’administration Microsoft 365.
   ms.service: O365-administration
   ms.prod: microsoft-365-business
@@ -12,12 +12,17 @@ metadata:
   ms.author: sirkkuw
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 8299bf7fa32e6a1678185370e2ae994d80ecf270
-  ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+  ms.openlocfilehash: 4fbcbcf3b1d9f0e83c2077317cb0388a7acf14cc
+  ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 04/30/2020
-  ms.locfileid: "43952695"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "44222514"
+highlightedContent:
+  items:
+  - title: Office 365 est désormais Microsoft 365.
+    itemType: whats-new
+    url: new-subscription-names.md
 productDirectory:
   title: Prise en main
   summary: Configurez votre abonnement et votre messagerie, ajoutez des utilisateurs et installez des applications.
@@ -43,7 +48,7 @@ additionalContent:
   - title: Gestion
     summary: Gérez votre abonnement, vos services et vos utilisateurs, sécurisez votre entreprise et obtenez de l’aide pour la résolution des problèmes.
     items:
-    - title: Vue d’ensemble du centre d’administration Microsoft 365
+    - title: Vue d’ensemble du centre d’administration Microsoft 365
       summary: Découvrez les rôles d’administrateur, comment rester au fait des modifications et comment personnaliser votre abonnement.
       url: admin-overview/about-the-admin-center.md
     - title: Utilisateurs et groupes
@@ -61,12 +66,12 @@ additionalContent:
     - title: Abonnements et facturation
       summary: Gérez les factures, les abonnements et les licences de produits, mettez à jour les modes de paiement et achetez des services et du stockage supplémentaires.
       url: ../commerce/index.yml
-    - title: Sécurisation de votre organisation
+    - title: Sécuriser votre organisation
       summary: Créez des stratégies de protection contre la perte de données (DLP), configurez l’authentification multifacteur (MFA) et découvrez Microsoft Secure score et RGPD.
       url: security-and-compliance/secure-your-business-data.md
-    - title: Travailler avec des clients
+    - title: Collaborer avec les clients
       summary: Partager des documents et utiliser teams pour collaborer et répondre.
       url: work-with-customers/index.yml
-    - title: Résolution des problèmes
+    - title: Résoudre les problèmes
       summary: Accédez à des ressources pour vous aider à résoudre les problèmes liés à vos produits ou services Office.
       url: https://docs.microsoft.com/office/troubleshoot/
