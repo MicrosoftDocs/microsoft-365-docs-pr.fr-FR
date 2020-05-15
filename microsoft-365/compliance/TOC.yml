@@ -210,14 +210,14 @@
               href: set-up-azure-rms-for-previous-version-message-encryption.md
     - name: Configurer la gestion des droits relatifs à l’information dans le centre d’administration SharePoint
       href: set-up-irm-in-sp-admin-center.md
-    - name: Comprendre la classification des données (préversion)
+    - name: Comprendre la classification des données
       href: data-classification-overview.md
       items:
-        - name: Prise en main de l’Explorateur de contenu (préversion)
+        - name: Prise en main de l’explorateur de contenu
           href: data-classification-content-explorer.md
-        - name: Prise en main de l’Explorateur d’activités (préversion)
+        - name: Prise en main de l’explorateur d’activités
           href: data-classification-activity-explorer.md
-        - name: Notes de publication préliminaire publique sur la notification de données (préversion)
+        - name: Notes de publication pour la classification des données
           href: data-classification-pub-preview-relnotes.md
         - name: Prise en main des classificateurs de formation (préversion)
           href: classifier-getting-started-with.md
