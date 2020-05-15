@@ -12,12 +12,12 @@ metadata:
   ms.date: 02/27/2020
   localization_priority: Normal
   search.appverid: MET150
-  ms.openlocfilehash: 7d7fb563862ba7a76e0af0b00238917ce4eb7167
-  ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+  ms.openlocfilehash: 99667701543ef02cb2f3ea8efb17ae30af2e72e3
+  ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 05/08/2020
-  ms.locfileid: "44165672"
+  ms.lasthandoff: 05/14/2020
+  ms.locfileid: "44232768"
 landingContent:
 - title: Gestion des factures et des paiements
   linkLists:
@@ -25,7 +25,7 @@ landingContent:
     links:
     - text: Consulter votre facture
       url: billing-and-payments/view-your-bill-or-invoice.md
-    - text: Gestion des modes de paiement
+    - text: Créer des méthodes de paiement
       url: billing-and-payments/manage-payment-methods.md
     - text: Comprendre votre facture
       url: billing-and-payments/understand-your-invoice.md
