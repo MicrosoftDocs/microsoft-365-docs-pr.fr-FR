@@ -28,7 +28,7 @@
       href: subscriptions/cancel-your-subscription.md
     - name: "Que se passe-t-il si mon abonnement expire\_?"
       href: subscriptions/what-if-my-subscription-expires.md
-    - name: Gérer les applications tierces
+    - name: Gérer les abonnements d’applications tierces
       href: manage-saas-apps.md
     - name: Gérer les achats libre-service (utilisateurs)
       href: subscriptions/manage-self-service-purchases-users.md
@@ -40,7 +40,7 @@
       href: licenses/buy-licenses.md
     - name: Attribuer des licences aux utilisateurs
       href: ../admin/manage/assign-licenses-to-users.md
-    - name: Annuler l'attribution des licences aux utilisateurs
+    - name: Annuler l'assignation des licences aux utilisateurs
       href: ../admin/manage/remove-licenses-from-users.md
     - name: Comprendre les abonnements et les licences
       href: licenses/subscriptions-and-licenses.md
@@ -50,7 +50,7 @@
       href: billing-and-payments/view-your-bill-or-invoice.md
     - name: Comprendre votre facture
       href: billing-and-payments/understand-your-invoice.md
-    - name: Créer des méthodes de paiement
+    - name: Gestion des modes de paiement
       href: billing-and-payments/manage-payment-methods.md
     - name: Régler votre abonnement
       href: billing-and-payments/pay-for-your-subscription.md
@@ -62,15 +62,15 @@
       href: billing-and-payments/manage-billing-profiles.md
     - name: Modifier vos adresses de facturation
       href: billing-and-payments/change-your-billing-addresses.md
-    - name: Directive sur les services de paiement 2 et authentification client renforcée
+    - name: À propos de la directive sur les services de paiement 2 et de l’authentification client renforcée
       href: billing-and-payments/psd2.md
 - name: Comptes de facturation
   items:
     - name: Gérer les comptes de facturation
       href: manage-billing-accounts.md
-    - name: Associer un client à mon compte de facturation
+    - name: Associer un client à votre compte de facturation
       href: 'https://docs.microsoft.com/microsoft-store/manage-mpsa-software-microsoft-store-for-business'
-- name: Gérer les relations avec mes partenaires
+- name: Gérer les relations avec vos partenaires
   href: manage-partners.md
 - name: Fermer votre compte
   href: close-your-account.md

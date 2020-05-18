@@ -69,6 +69,8 @@
               href: add-users/add-users.md
             - name: Ajouter un nouvel employé
               href: add-users/add-new-employee.md
+            - name: Attribuer des licences aux utilisateurs
+              href: manage/assign-licenses-to-users.md
             - name: Attribuer des rôles d’administrateur
               href: add-users/assign-admin-roles.md
             - name: Retirer des licences à des utilisateurs
@@ -234,6 +236,8 @@
           href: security-and-compliance/set-up-multi-factor-authentication.md
         - name: "Configurer l’authentification multifacteur (avec Office\_2013)"
           href: security-and-compliance/enable-modern-authentication.md
+        - name: Niveau de sécurité
+          href: 'https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new'
         - name: Guide de la conformité avec le RGPD
           href: security-and-compliance/gdpr-compliance.md
     - name: Collaborer avec les clients
