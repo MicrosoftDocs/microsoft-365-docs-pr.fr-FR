@@ -90,7 +90,7 @@
           href: deploy-with-existing-infrastructure.md
         - name: Déployer des structures différentes des entreprises
           href: deploy-foundation-infrastructure-non-enterprises.md
-    - name: Déployer des scénarios et des charges de travail
+    - name: Déployer les charges de travail
       href: deploy-workloads.md
       items:
         - name: "Microsoft\_Teams"
@@ -101,10 +101,6 @@
           href: sharepoint-online-onedrive-workload.md
         - name: Migration
           href: migration-microsoft-365-enterprise-workload.md
-        - name: Confiez des responsabilités aux travailleurs à distance
-          href: empower-people-to-work-remotely.md
-        - name: Sites SharePoint pour les données hautement réglementées
-          href: teams-sharepoint-online-sites-highly-regulated-data.md
     - name: Guides pour les laboratoires de tests
       href: m365-enterprise-test-lab-guides.md
       items:
@@ -180,12 +176,6 @@
           href: contoso-info-protect.md
         - name: Synthèse de la sécurité
           href: contoso-security-summary.md
-        - name: Équipe pour un projet top secret
-          href: contoso-team-for-top-secret-project.md
-        - name: Sites SharePoint pour les données hautement réglementées
-          href: contoso-sharepoint-online-site-for-highly-confidential-assets.md
-    - name: "Modifications du contenu de déploiement de Microsoft\_365 Entreprise"
-      href: microsoft-365-deploment-guide-changes.md
     - name: "État d'intégrité du service Microsoft\_365"
       href: microsoft-365-service-health.md
 - name: Centre de déploiement du bureau
