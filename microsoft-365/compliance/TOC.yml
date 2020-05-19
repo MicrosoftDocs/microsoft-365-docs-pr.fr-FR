@@ -271,15 +271,25 @@
           href: set-up-an-archive-and-deletion-policy-for-mailboxes.md
     - name: Conservation de données
       items:
-        - name: Stratégies de rétention
+        - name: Découvrir les stratégies de rétention
           href: retention-policies.md
+        - name: Créer et configurer des stratégies de rétention
+          href: create-retention-policies.md
+        - name: La rétention pour SharePoint et OneDrive
+          href: retention-policies-sharepoint.md
+        - name: "La rétention pour Microsoft\_Teams"
+          href: retention-policies-teams.md
+        - name: La rétention pour Exchange
+          href: retention-policies-exchange.md
         - name: Gestionnaire de plan de fichiers
           href: file-plan-manager.md
-        - name: Étiquettes de rétention
+        - name: Découvrir les étiquettes de rétention
           href: labels.md
-        - name: Se conformer à la réglementation SEC Rule 17 a-4
+        - name: 'Créer, publier ou appliquer automatiquement des étiquettes de rétention'
+          href: create-retention-labels.md
+        - name: "Se conformer à la réglementation SEC Rule\_17 a-4"
           href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
-        - name: Créer et publier des étiquettes de rétention à l’aide de PowerShell
+        - name: Utiliser PowerShell pour créer et publier des étiquettes de rétention
           href: bulk-create-publish-labels-using-powershell.md
         - name: Rétention basée sur des événements
           href: event-driven-retention.md
@@ -325,9 +335,11 @@
           items:
             - name: Gestionnaire de plan de fichiers
               href: file-plan-manager.md
-            - name: Étiquettes de rétention
+            - name: Découvrir les étiquettes de rétention
               href: labels.md
-            - name: Créer et publier des étiquettes de rétention à l’aide de PowerShell
+            - name: Créer et publier des étiquettes de rétention
+              href: create-retention-labels.md
+            - name: Utiliser PowerShell pour créer et publier des étiquettes de rétention à l’échelle
               href: bulk-create-publish-labels-using-powershell.md
             - name: Afficher l’utilisation d’étiquette avec les analytiques des étiquettes
               href: label-analytics.md
