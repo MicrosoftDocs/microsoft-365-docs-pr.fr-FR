@@ -129,8 +129,8 @@
               href: how-dlp-works-between-admin-centers.md
     - name: Types d’informations sensibles
       items:
-        - name: Éléments recherchés par les types d’informations sensibles
-          href: what-the-sensitive-information-types-look-for.md
+        - name: Définitions d’entités des types d’informations sensibles
+          href: sensitive-information-type-entity-definitions.md
         - name: Éléments recherchés par les fonctions DLP
           href: what-the-dlp-functions-look-for.md
         - name: Visionner une présentation étendue de personnalisation DLP
