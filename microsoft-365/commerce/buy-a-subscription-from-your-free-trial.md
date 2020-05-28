@@ -20,6 +20,7 @@ ms.custom:
 - TopSMBIssues
 - MSStore_Link
 - okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -27,142 +28,142 @@ search.appverid:
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
 description: Achetez un abonnement Microsoft 365 pour les entreprises. Vous pouvez acheter le même type d’abonnement que vous avez essayé, ou une autre offre.
-ms.openlocfilehash: 48786ffc4bd0a8c5e8e13e0062b6db1dd5bed561
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: de141cb42b310bff6221d0bef6d923882dadadfd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045799"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402617"
 ---
-# <a name="buy-a-subscription-to-microsoft-365-for-business-from-your-free-trial"></a><span data-ttu-id="fbb08-105">Acheter un abonnement à Microsoft 365 pour les entreprises à partir de votre version d’évaluation gratuite</span><span class="sxs-lookup"><span data-stu-id="fbb08-105">Buy a subscription to Microsoft 365 for business from your free trial</span></span>
+# <a name="buy-a-subscription-to-microsoft-365-for-business-from-your-free-trial"></a><span data-ttu-id="81dae-105">Acheter un abonnement à Microsoft 365 pour les entreprises à partir de votre version d’évaluation gratuite</span><span class="sxs-lookup"><span data-stu-id="81dae-105">Buy a subscription to Microsoft 365 for business from your free trial</span></span>
 
-<span data-ttu-id="fbb08-106">Vous avez essayé Microsoft 365 et vous êtes maintenant prêt à acheter.</span><span class="sxs-lookup"><span data-stu-id="fbb08-106">You've tried Microsoft 365, and now you're ready to buy.</span></span> <span data-ttu-id="fbb08-107">Deux options s’offrent à vous lorsque vous achetez Microsoft 365 à partir de votre version d’évaluation :</span><span class="sxs-lookup"><span data-stu-id="fbb08-107">You have two options when buying Microsoft 365 from your trial version:</span></span>
+<span data-ttu-id="81dae-106">Vous avez essayé Microsoft 365 et vous êtes maintenant prêt à acheter.</span><span class="sxs-lookup"><span data-stu-id="81dae-106">You've tried Microsoft 365, and now you're ready to buy.</span></span> <span data-ttu-id="81dae-107">Deux options s’offrent à vous lorsque vous achetez Microsoft 365 à partir de votre version d’évaluation :</span><span class="sxs-lookup"><span data-stu-id="81dae-107">You have two options when buying Microsoft 365 from your trial version:</span></span>
   
-- [<span data-ttu-id="fbb08-108">Acheter la même offre que votre version d’évaluation</span><span class="sxs-lookup"><span data-stu-id="fbb08-108">Buy the same plan as your trial</span></span>](#buy-the-same-plan-as-your-trial)
-- [<span data-ttu-id="fbb08-109">Acheter une autre offre que votre version d’évaluation</span><span class="sxs-lookup"><span data-stu-id="fbb08-109">Buy a different plan than your trial</span></span>](#buy-a-different-plan-than-your-trial)
+- [<span data-ttu-id="81dae-108">Acheter la même offre que votre version d’évaluation</span><span class="sxs-lookup"><span data-stu-id="81dae-108">Buy the same plan as your trial</span></span>](#buy-the-same-plan-as-your-trial)
+- [<span data-ttu-id="81dae-109">Acheter une autre offre que votre version d’évaluation</span><span class="sxs-lookup"><span data-stu-id="81dae-109">Buy a different plan than your trial</span></span>](#buy-a-different-plan-than-your-trial)
 
 > [!NOTE]
-> <span data-ttu-id="fbb08-110">À la fin de votre période d’évaluation gratuite, votre abonnement d’évaluation est automatiquement converti en abonnement payant.</span><span class="sxs-lookup"><span data-stu-id="fbb08-110">At the end of your free trial period, your trial subscription will automatically convert to a paid subscription.</span></span> <span data-ttu-id="fbb08-111">L’abonnement payant s’applique par défaut à la même offre que celle pour laquelle vous êtes actuellement inscrit.</span><span class="sxs-lookup"><span data-stu-id="fbb08-111">The paid subscription will default to the plan you are currently signed up for.</span></span> <span data-ttu-id="fbb08-112">Vous pouvez toujours acheter une autre offre en suivant les étapes décrites dans la section [Acheter une offre différente de celle de votre version d’évaluation](#buy-a-different-plan-than-your-trial) ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="fbb08-112">You can still buy a different plan by following the steps in the [Buy a different plan than your trial](#buy-a-different-plan-than-your-trial) section below.</span></span>
+> <span data-ttu-id="81dae-110">À la fin de votre période d’évaluation gratuite, votre abonnement d’évaluation est automatiquement converti en abonnement payant.</span><span class="sxs-lookup"><span data-stu-id="81dae-110">At the end of your free trial period, your trial subscription will automatically convert to a paid subscription.</span></span> <span data-ttu-id="81dae-111">L’abonnement payant s’applique par défaut à la même offre que celle pour laquelle vous êtes actuellement inscrit.</span><span class="sxs-lookup"><span data-stu-id="81dae-111">The paid subscription will default to the plan you are currently signed up for.</span></span> <span data-ttu-id="81dae-112">Vous pouvez toujours acheter une autre offre en suivant les étapes décrites dans la section [Acheter une offre différente de celle de votre version d’évaluation](#buy-a-different-plan-than-your-trial) ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="81dae-112">You can still buy a different plan by following the steps in the [Buy a different plan than your trial](#buy-a-different-plan-than-your-trial) section below.</span></span>
 
-## <a name="buy-the-same-plan-as-your-trial"></a><span data-ttu-id="fbb08-113">Acheter la même offre que celle de votre version d’évaluation</span><span class="sxs-lookup"><span data-stu-id="fbb08-113">Buy the same plan as your trial</span></span>
+## <a name="buy-the-same-plan-as-your-trial"></a><span data-ttu-id="81dae-113">Acheter la même offre que celle de votre version d’évaluation</span><span class="sxs-lookup"><span data-stu-id="81dae-113">Buy the same plan as your trial</span></span>
 
-<span data-ttu-id="fbb08-114">La procédure est simple. Par ailleurs, lorsque vous achetez un abonnement du même type que votre version d’évaluation, vous ne risquez en aucun cas de perdre vos données, vos comptes ou votre configuration.</span><span class="sxs-lookup"><span data-stu-id="fbb08-114">It's easy, and, when you buy the same type of subscription as your trial version, you don't have to worry about losing your data, accounts, and configuration.</span></span>
+<span data-ttu-id="81dae-114">La procédure est simple. Par ailleurs, lorsque vous achetez un abonnement du même type que votre version d’évaluation, vous ne risquez en aucun cas de perdre vos données, vos comptes ou votre configuration.</span><span class="sxs-lookup"><span data-stu-id="81dae-114">It's easy, and, when you buy the same type of subscription as your trial version, you don't have to worry about losing your data, accounts, and configuration.</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="fbb08-115">Dans le centre d’administration, accédez à la page **facturation** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de vos produits</a> .</span><span class="sxs-lookup"><span data-stu-id="fbb08-115">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
+1. <span data-ttu-id="81dae-115">Dans le centre d’administration, accédez à la page **Facturation** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produits</a>.</span><span class="sxs-lookup"><span data-stu-id="81dae-115">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
 
-2. <span data-ttu-id="fbb08-116">Sur la page **vos produits** , recherchez l’abonnement que vous souhaitez acheter.</span><span class="sxs-lookup"><span data-stu-id="fbb08-116">On the **Your products** page, find the subscription that you want to buy.</span></span> <span data-ttu-id="fbb08-117">Dans la section **licences**, sélectionnez **Acheter un abonnement**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-117">In the **Licenses** section, select **Purchase subscription**.</span></span>
+2. <span data-ttu-id="81dae-116">Sur la page **vos produits** , recherchez l’abonnement que vous souhaitez acheter.</span><span class="sxs-lookup"><span data-stu-id="81dae-116">On the **Your products** page, find the subscription that you want to buy.</span></span> <span data-ttu-id="81dae-117">Dans la section **licences**, sélectionnez **Acheter un abonnement**.</span><span class="sxs-lookup"><span data-stu-id="81dae-117">In the **Licenses** section, select **Purchase subscription**.</span></span>
 
-3. <span data-ttu-id="fbb08-118">Choisissez un engagement mensuel ou annuel pour votre abonnement, puis sélectionnez **Validation de l'achat**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-118">Choose either a monthly or annual commitment for your subscription, then select **Checkout**.</span></span>
+3. <span data-ttu-id="81dae-118">Choisissez un engagement mensuel ou annuel pour votre abonnement, puis sélectionnez **Validation de l'achat**.</span><span class="sxs-lookup"><span data-stu-id="81dae-118">Choose either a monthly or annual commitment for your subscription, then select **Checkout**.</span></span>
 
-4. <span data-ttu-id="fbb08-119">Dans la page suivante, vérifiez l’abonnement, puis sélectionnez **Validation de l’achat**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-119">On the next page, verify the subscription, and select **Checkout**.</span></span>
+4. <span data-ttu-id="81dae-119">Dans la page suivante, vérifiez l’abonnement, puis sélectionnez **Validation de l’achat**.</span><span class="sxs-lookup"><span data-stu-id="81dae-119">On the next page, verify the subscription, and select **Checkout**.</span></span>
 
-5. <span data-ttu-id="fbb08-120">Sur la page suivante, vérifiez l’adresse de **l’acheteur** et les informations de **facturation**ainsi que **les articles de cette commande**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-120">On the next page, verify the **Sold to** address, the **Billed to** information, and **Items in this order**.</span></span> <span data-ttu-id="fbb08-121">Si vous souhaitez modifier des informations, sélectionnez **modifier** en regard de la section applicable.</span><span class="sxs-lookup"><span data-stu-id="fbb08-121">If you need to make any changes, select **Change** next to the applicable section.</span></span>
+5. <span data-ttu-id="81dae-120">Sur la page suivante, vérifiez l’adresse de **l’acheteur** et les informations de **facturation**ainsi que **les articles de cette commande**.</span><span class="sxs-lookup"><span data-stu-id="81dae-120">On the next page, verify the **Sold to** address, the **Billed to** information, and **Items in this order**.</span></span> <span data-ttu-id="81dae-121">Si vous souhaitez modifier des informations, sélectionnez **modifier** en regard de la section applicable.</span><span class="sxs-lookup"><span data-stu-id="81dae-121">If you need to make any changes, select **Change** next to the applicable section.</span></span>
 
-6. <span data-ttu-id="fbb08-122">Lorsque vous avez terminé, sélectionnez **Accepter l’accord et passer la commande**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-122">When you're finished, select **Accept agreement & place order**.</span></span>
+6. <span data-ttu-id="81dae-122">Lorsque vous avez terminé, sélectionnez **Accepter l’accord et passer la commande**.</span><span class="sxs-lookup"><span data-stu-id="81dae-122">When you're finished, select **Accept agreement & place order**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="fbb08-123">Dans le centre d’administration, accédez à la page **Facturation** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnements</a>.</span><span class="sxs-lookup"><span data-stu-id="fbb08-123">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
+1. <span data-ttu-id="81dae-123">Dans le centre d’administration, accédez à la page **Facturation** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnements</a>.</span><span class="sxs-lookup"><span data-stu-id="81dae-123">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
 
-2. <span data-ttu-id="fbb08-124">Dans la page **Abonnements**, sélectionnez le bouton **Acheter maintenant** correspondant à l’abonnement d’évaluation que vous souhaitez acheter.</span><span class="sxs-lookup"><span data-stu-id="fbb08-124">On the **Subscriptions** page, select the **Buy now** button for the trial subscription that you want to buy.</span></span>
+2. <span data-ttu-id="81dae-124">Dans la page **Abonnements**, sélectionnez le bouton **Acheter maintenant** correspondant à l’abonnement d’évaluation que vous souhaitez acheter.</span><span class="sxs-lookup"><span data-stu-id="81dae-124">On the **Subscriptions** page, select the **Buy now** button for the trial subscription that you want to buy.</span></span>
 
-3. <span data-ttu-id="fbb08-125">Vérifiez les informations concernant le tarif et sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-125">Review the pricing information and select **Next**.</span></span>
+3. <span data-ttu-id="81dae-125">Vérifiez les informations concernant le tarif et sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="81dae-125">Review the pricing information and select **Next**.</span></span>
 
-4. <span data-ttu-id="fbb08-126">Entrez vos informations de paiement, puis sélectionnez **Passer la commande**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-126">Provide your payment information, and then select **Place order**.</span></span>
+4. <span data-ttu-id="81dae-126">Entrez vos informations de paiement, puis sélectionnez **Passer la commande**.</span><span class="sxs-lookup"><span data-stu-id="81dae-126">Provide your payment information, and then select **Place order**.</span></span>
 
-5. <span data-ttu-id="fbb08-127">Sur la page de confirmation, sélectionnez **Accédez à la page d'accueil Administrateur**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-127">On the confirmation page, select **Go to Admin Home**.</span></span>
+5. <span data-ttu-id="81dae-127">Sur la page de confirmation, sélectionnez **Accédez à la page d'accueil Administrateur**.</span><span class="sxs-lookup"><span data-stu-id="81dae-127">On the confirmation page, select **Go to Admin Home**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="fbb08-128">Dans le centre d’administration, accédez à la page **Facturation** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnements</a>.</span><span class="sxs-lookup"><span data-stu-id="fbb08-128">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
+1. <span data-ttu-id="81dae-128">Dans le centre d’administration, accédez à la page **Facturation** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnements</a>.</span><span class="sxs-lookup"><span data-stu-id="81dae-128">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
 
-2. <span data-ttu-id="fbb08-129">Dans la page **Abonnements**, sélectionnez le bouton **Acheter maintenant** correspondant à l’abonnement d’évaluation que vous souhaitez acheter.</span><span class="sxs-lookup"><span data-stu-id="fbb08-129">On the **Subscriptions** page, select the **Buy now** button for the trial subscription that you want to buy.</span></span>
+2. <span data-ttu-id="81dae-129">Dans la page **Abonnements**, sélectionnez le bouton **Acheter maintenant** correspondant à l’abonnement d’évaluation que vous souhaitez acheter.</span><span class="sxs-lookup"><span data-stu-id="81dae-129">On the **Subscriptions** page, select the **Buy now** button for the trial subscription that you want to buy.</span></span>
 
-3. <span data-ttu-id="fbb08-130">Vérifiez les informations concernant le tarif et sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-130">Review the pricing information and select **Next**.</span></span>
+3. <span data-ttu-id="81dae-130">Vérifiez les informations concernant le tarif et sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="81dae-130">Review the pricing information and select **Next**.</span></span>
 
-4. <span data-ttu-id="fbb08-131">Entrez vos informations de paiement, puis sélectionnez **Passer la commande**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-131">Provide your payment information, and then select **Place order**.</span></span>
+4. <span data-ttu-id="81dae-131">Entrez vos informations de paiement, puis sélectionnez **Passer la commande**.</span><span class="sxs-lookup"><span data-stu-id="81dae-131">Provide your payment information, and then select **Place order**.</span></span>
 
-5. <span data-ttu-id="fbb08-132">Sur la page de confirmation, sélectionnez **Accédez à la page d'accueil Administrateur**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-132">On the confirmation page, select **Go to Admin Home**.</span></span>
+5. <span data-ttu-id="81dae-132">Sur la page de confirmation, sélectionnez **Accédez à la page d'accueil Administrateur**.</span><span class="sxs-lookup"><span data-stu-id="81dae-132">On the confirmation page, select **Go to Admin Home**.</span></span>
 
 ::: moniker-end
 
-## <a name="buy-a-different-plan-than-your-trial"></a><span data-ttu-id="fbb08-133">Acheter une autre offre différente de celle de votre version d’évaluation</span><span class="sxs-lookup"><span data-stu-id="fbb08-133">Buy a different plan than your trial</span></span>
+## <a name="buy-a-different-plan-than-your-trial"></a><span data-ttu-id="81dae-133">Acheter une autre offre différente de celle de votre version d’évaluation</span><span class="sxs-lookup"><span data-stu-id="81dae-133">Buy a different plan than your trial</span></span>
 
-<span data-ttu-id="fbb08-134">Si vous achetez un abonnement d'un type différent de celui de votre version d'évaluation, vous devez réaffecter les licences utilisateur de votre offre d'évaluation à votre nouvelle offre (avant la fin de la période de grâce de 90 jours qui suit l'expiration de votre offre d'évaluation) afin de conserver vos données, vos comptes et votre configuration.</span><span class="sxs-lookup"><span data-stu-id="fbb08-134">If you purchase a different type of subscription than your trial, you will have to reassign your user licenses from your trial plan to your new plan (before your 90-day grace period ends after your trial plan expires) in order to retain your data, accounts, and configuration.</span></span>
+<span data-ttu-id="81dae-134">Si vous achetez un abonnement d'un type différent de celui de votre version d'évaluation, vous devez réaffecter les licences utilisateur de votre offre d'évaluation à votre nouvelle offre (avant la fin de la période de grâce de 90 jours qui suit l'expiration de votre offre d'évaluation) afin de conserver vos données, vos comptes et votre configuration.</span><span class="sxs-lookup"><span data-stu-id="81dae-134">If you purchase a different type of subscription than your trial, you will have to reassign your user licenses from your trial plan to your new plan (before your 90-day grace period ends after your trial plan expires) in order to retain your data, accounts, and configuration.</span></span>
 
 ::: moniker range="o365-worldwide"
 
 
-1. <span data-ttu-id="fbb08-135">Dans le centre d’administration, accédez à la page \*\*facturation \*\* \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Acheter des services</a>.</span><span class="sxs-lookup"><span data-stu-id="fbb08-135">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase services</a> page.</span></span>
+1. <span data-ttu-id="81dae-135">Dans le centre d’administration, accédez à la page \*\*facturation \*\* \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Acheter des services</a>.</span><span class="sxs-lookup"><span data-stu-id="81dae-135">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase services</a> page.</span></span>
 
-2. <span data-ttu-id="fbb08-136">Dans la page **Acheter des services**, sélectionnez l’abonnement que vous souhaitez acheter, puis sélectionnez **Acheter**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-136">On the **Purchase services** page, select the subscription that you want to buy, then select **Buy**.</span></span>
+2. <span data-ttu-id="81dae-136">Dans la page **Acheter des services**, sélectionnez l’abonnement que vous souhaitez acheter, puis sélectionnez **Acheter**.</span><span class="sxs-lookup"><span data-stu-id="81dae-136">On the **Purchase services** page, select the subscription that you want to buy, then select **Buy**.</span></span>
 
-3. <span data-ttu-id="fbb08-137">Entrez le nombre de licences utilisateur dont vous avez besoin, puis choisissez si vous souhaitez régler de façon mensuelle ou annuelle.</span><span class="sxs-lookup"><span data-stu-id="fbb08-137">Enter the number of licenses that you need, and choose whether to pay each month or for the whole year.</span></span> <span data-ttu-id="fbb08-138">Choisissez si vous souhaiter attribuer automatiquement des licences à tous vos utilisateurs qui n’en ont pas actuellement.</span><span class="sxs-lookup"><span data-stu-id="fbb08-138">Choose whether you want to automatically assign licenses to everyone who does not currently have a license.</span></span> <span data-ttu-id="fbb08-139">Puis sélectionnez **Payer maintenant**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-139">Then select **Check out now**.</span></span>
+3. <span data-ttu-id="81dae-137">Entrez le nombre de licences utilisateur dont vous avez besoin, puis choisissez si vous souhaitez régler de façon mensuelle ou annuelle.</span><span class="sxs-lookup"><span data-stu-id="81dae-137">Enter the number of licenses that you need, and choose whether to pay each month or for the whole year.</span></span> <span data-ttu-id="81dae-138">Choisissez si vous souhaiter attribuer automatiquement des licences à tous vos utilisateurs qui n’en ont pas actuellement.</span><span class="sxs-lookup"><span data-stu-id="81dae-138">Choose whether you want to automatically assign licenses to everyone who does not currently have a license.</span></span> <span data-ttu-id="81dae-139">Puis sélectionnez **Payer maintenant**.</span><span class="sxs-lookup"><span data-stu-id="81dae-139">Then select **Check out now**.</span></span>
 
-4. <span data-ttu-id="fbb08-140">Votre panier s’affiche.</span><span class="sxs-lookup"><span data-stu-id="fbb08-140">Your cart opens.</span></span> <span data-ttu-id="fbb08-141">Si votre panier disparaît de l’écran, sélectionnez **panier** pour l’afficher de nouveau, vérifiez votre commande, puis sélectionnez **Validation de la commande**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-141">If your cart disappears from the screen, select **Cart** to reopen it, review the order and then select **Check Out**.</span></span>
+4. <span data-ttu-id="81dae-140">Votre panier s’affiche.</span><span class="sxs-lookup"><span data-stu-id="81dae-140">Your cart opens.</span></span> <span data-ttu-id="81dae-141">Si votre panier disparaît de l’écran, sélectionnez **panier** pour l’afficher de nouveau, vérifiez votre commande, puis sélectionnez **Validation de la commande**.</span><span class="sxs-lookup"><span data-stu-id="81dae-141">If your cart disappears from the screen, select **Cart** to reopen it, review the order and then select **Check Out**.</span></span>
 
-5. <span data-ttu-id="fbb08-142">Vérifiez les informations concernant le tarif et sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-142">Review the pricing information and select **Next**.</span></span>
+5. <span data-ttu-id="81dae-142">Vérifiez les informations concernant le tarif et sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="81dae-142">Review the pricing information and select **Next**.</span></span>
 
-6. <span data-ttu-id="fbb08-143">Renseignez vos informations de paiement, puis sélectionnez **Passer la commande** \> **Accéder à la Page d’accueil Administrateur**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-143">Provide your payment information, and then select **Place order** \> **Go to Admin Home**.</span></span>
+6. <span data-ttu-id="81dae-143">Renseignez vos informations de paiement, puis sélectionnez **Passer la commande** \> **Accéder à la Page d’accueil Administrateur**.</span><span class="sxs-lookup"><span data-stu-id="81dae-143">Provide your payment information, and then select **Place order** \> **Go to Admin Home**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="fbb08-144">Dans le centre d’administration, accédez à la page **Facturation** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnements</a>.</span><span class="sxs-lookup"><span data-stu-id="fbb08-144">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
+1. <span data-ttu-id="81dae-144">Dans le centre d’administration, accédez à la page **Facturation** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Abonnements</a>.</span><span class="sxs-lookup"><span data-stu-id="81dae-144">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
 
-2. <span data-ttu-id="fbb08-145">Sur la page **Abonnements**, sélectionnez **Ajouter des abonnements**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-145">On the **Subscription** page, select **Add subscriptions**.</span></span>
+2. <span data-ttu-id="81dae-145">Sur la page **Abonnements**, sélectionnez **Ajouter des abonnements**.</span><span class="sxs-lookup"><span data-stu-id="81dae-145">On the **Subscription** page, select **Add subscriptions**.</span></span>
 
-    <span data-ttu-id="fbb08-146">Vous verrez alors les abonnements disponibles pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="fbb08-146">You'll see the subscriptions that are available to your organization.</span></span> <span data-ttu-id="fbb08-147">Les abonnements que vous avez déjà achetés sont identifiés en tant que **Version d’évaluation** ou **Version achetée**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-147">Any subscriptions that you've already purchased will be identified as **In Trial** or **Purchased**.</span></span>
+    <span data-ttu-id="81dae-146">Vous verrez alors les abonnements disponibles pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="81dae-146">You'll see the subscriptions that are available to your organization.</span></span> <span data-ttu-id="81dae-147">Les abonnements que vous avez déjà achetés sont identifiés en tant que **Version d’évaluation** ou **Version achetée**.</span><span class="sxs-lookup"><span data-stu-id="81dae-147">Any subscriptions that you've already purchased will be identified as **In Trial** or **Purchased**.</span></span>
   
-3. <span data-ttu-id="fbb08-148">Recherchez l’abonnement que vous souhaitez acheter, puis sélectionnez **Acheter maintenant**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-148">Find the subscription that you want to buy, and then select **Buy Now**.</span></span>
+3. <span data-ttu-id="81dae-148">Recherchez l’abonnement que vous souhaitez acheter, puis sélectionnez **Acheter maintenant**.</span><span class="sxs-lookup"><span data-stu-id="81dae-148">Find the subscription that you want to buy, and then select **Buy Now**.</span></span>
   
-4. <span data-ttu-id="fbb08-149">Entrez le nombre de licences utilisateur dont vous avez besoin, choisissez si vous souhaitez régler de façon mensuelle ou annuelle, puis sélectionnez **Ajouter au panier**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-149">Enter the number of user licenses you need, chose whether to pay each month or for the whole year, and then select **Add to Cart**.</span></span>
+4. <span data-ttu-id="81dae-149">Entrez le nombre de licences utilisateur dont vous avez besoin, choisissez si vous souhaitez régler de façon mensuelle ou annuelle, puis sélectionnez **Ajouter au panier**.</span><span class="sxs-lookup"><span data-stu-id="81dae-149">Enter the number of user licenses you need, chose whether to pay each month or for the whole year, and then select **Add to Cart**.</span></span>
 
-5. <span data-ttu-id="fbb08-150">Votre panier s’affiche.</span><span class="sxs-lookup"><span data-stu-id="fbb08-150">Your cart opens.</span></span> <span data-ttu-id="fbb08-151">Si votre panier disparaît de l’écran, sélectionnez **panier** pour l’afficher de nouveau, vérifiez votre commande, puis sélectionnez **Validation de la commande**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-151">If your cart disappears from the screen, select **Cart** to reopen it, review the order and then select **Check Out**.</span></span>
+5. <span data-ttu-id="81dae-150">Votre panier s’affiche.</span><span class="sxs-lookup"><span data-stu-id="81dae-150">Your cart opens.</span></span> <span data-ttu-id="81dae-151">Si votre panier disparaît de l’écran, sélectionnez **panier** pour l’afficher de nouveau, vérifiez votre commande, puis sélectionnez **Validation de la commande**.</span><span class="sxs-lookup"><span data-stu-id="81dae-151">If your cart disappears from the screen, select **Cart** to reopen it, review the order and then select **Check Out**.</span></span>
 
-6. <span data-ttu-id="fbb08-152">Vérifiez les informations concernant le tarif et sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-152">Review the pricing information and select **Next**.</span></span>
+6. <span data-ttu-id="81dae-152">Vérifiez les informations concernant le tarif et sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="81dae-152">Review the pricing information and select **Next**.</span></span>
 
-7. <span data-ttu-id="fbb08-153">Entrez vos informations de paiement, puis sélectionnez **Passer la commande**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-153">Provide your payment information, and then select **Place order**.</span></span>
+7. <span data-ttu-id="81dae-153">Entrez vos informations de paiement, puis sélectionnez **Passer la commande**.</span><span class="sxs-lookup"><span data-stu-id="81dae-153">Provide your payment information, and then select **Place order**.</span></span>
 
-8. <span data-ttu-id="fbb08-154">Sur la page de confirmation, sélectionnez **Accédez à la page d'accueil Administrateur**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-154">On the confirmation page, select **Go to Admin Home**.</span></span>
+8. <span data-ttu-id="81dae-154">Sur la page de confirmation, sélectionnez **Accédez à la page d'accueil Administrateur**.</span><span class="sxs-lookup"><span data-stu-id="81dae-154">On the confirmation page, select **Go to Admin Home**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
 
-1. <span data-ttu-id="fbb08-155">Dans le centre d’administration, accédez à la page **Facturation** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnements</a>.</span><span class="sxs-lookup"><span data-stu-id="fbb08-155">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
+1. <span data-ttu-id="81dae-155">Dans le centre d’administration, accédez à la page **Facturation** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Abonnements</a>.</span><span class="sxs-lookup"><span data-stu-id="81dae-155">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
 
-2. <span data-ttu-id="fbb08-156">Sur la page **Abonnements**, sélectionnez **Ajouter des abonnements**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-156">On the **Subscription** page, select **Add subscriptions**.</span></span>
+2. <span data-ttu-id="81dae-156">Sur la page **Abonnements**, sélectionnez **Ajouter des abonnements**.</span><span class="sxs-lookup"><span data-stu-id="81dae-156">On the **Subscription** page, select **Add subscriptions**.</span></span>
 
-    <span data-ttu-id="fbb08-157">Vous verrez alors les abonnements disponibles pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="fbb08-157">You'll see the subscriptions that are available to your organization.</span></span> <span data-ttu-id="fbb08-158">Les abonnements que vous avez déjà achetés sont identifiés en tant que **Version d’évaluation** ou **Version achetée**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-158">Any subscriptions that you've already purchased will be identified as **In Trial** or **Purchased**.</span></span>
+    <span data-ttu-id="81dae-157">Vous verrez alors les abonnements disponibles pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="81dae-157">You'll see the subscriptions that are available to your organization.</span></span> <span data-ttu-id="81dae-158">Les abonnements que vous avez déjà achetés sont identifiés en tant que **Version d’évaluation** ou **Version achetée**.</span><span class="sxs-lookup"><span data-stu-id="81dae-158">Any subscriptions that you've already purchased will be identified as **In Trial** or **Purchased**.</span></span>
   
-3. <span data-ttu-id="fbb08-159">Recherchez l’abonnement que vous souhaitez acheter, puis sélectionnez **Acheter maintenant**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-159">Find the subscription that you want to buy, and then select **Buy Now**.</span></span>
+3. <span data-ttu-id="81dae-159">Recherchez l’abonnement que vous souhaitez acheter, puis sélectionnez **Acheter maintenant**.</span><span class="sxs-lookup"><span data-stu-id="81dae-159">Find the subscription that you want to buy, and then select **Buy Now**.</span></span>
   
-4. <span data-ttu-id="fbb08-160">Entrez le nombre de licences utilisateur dont vous avez besoin, choisissez si vous souhaitez régler de façon mensuelle ou annuelle, puis sélectionnez **Ajouter au panier**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-160">Enter the number of user licenses you need, chose whether to pay each month or for the whole year, and then select **Add to Cart**.</span></span>
+4. <span data-ttu-id="81dae-160">Entrez le nombre de licences utilisateur dont vous avez besoin, choisissez si vous souhaitez régler de façon mensuelle ou annuelle, puis sélectionnez **Ajouter au panier**.</span><span class="sxs-lookup"><span data-stu-id="81dae-160">Enter the number of user licenses you need, chose whether to pay each month or for the whole year, and then select **Add to Cart**.</span></span>
 
-5. <span data-ttu-id="fbb08-161">Votre panier s’affiche.</span><span class="sxs-lookup"><span data-stu-id="fbb08-161">Your cart opens.</span></span> <span data-ttu-id="fbb08-162">Si votre panier disparaît de l’écran, sélectionnez **panier** pour l’afficher de nouveau, vérifiez votre commande, puis sélectionnez **Validation de la commande**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-162">If your cart disappears from the screen, select **Cart** to reopen it, review the order and then select **Check Out**.</span></span>
+5. <span data-ttu-id="81dae-161">Votre panier s’affiche.</span><span class="sxs-lookup"><span data-stu-id="81dae-161">Your cart opens.</span></span> <span data-ttu-id="81dae-162">Si votre panier disparaît de l’écran, sélectionnez **panier** pour l’afficher de nouveau, vérifiez votre commande, puis sélectionnez **Validation de la commande**.</span><span class="sxs-lookup"><span data-stu-id="81dae-162">If your cart disappears from the screen, select **Cart** to reopen it, review the order and then select **Check Out**.</span></span>
 
-6. <span data-ttu-id="fbb08-163">Vérifiez les informations concernant le tarif et sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-163">Review the pricing information and select **Next**.</span></span>
+6. <span data-ttu-id="81dae-163">Vérifiez les informations concernant le tarif et sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="81dae-163">Review the pricing information and select **Next**.</span></span>
 
-7. <span data-ttu-id="fbb08-164">Entrez vos informations de paiement, puis sélectionnez **Passer la commande**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-164">Provide your payment information, and then select **Place order**.</span></span>
+7. <span data-ttu-id="81dae-164">Entrez vos informations de paiement, puis sélectionnez **Passer la commande**.</span><span class="sxs-lookup"><span data-stu-id="81dae-164">Provide your payment information, and then select **Place order**.</span></span>
 
-8. <span data-ttu-id="fbb08-165">Sur la page de confirmation, sélectionnez **Accédez à la page d'accueil Administrateur**.</span><span class="sxs-lookup"><span data-stu-id="fbb08-165">On the confirmation page, select **Go to Admin Home**.</span></span>
+8. <span data-ttu-id="81dae-165">Sur la page de confirmation, sélectionnez **Accédez à la page d'accueil Administrateur**.</span><span class="sxs-lookup"><span data-stu-id="81dae-165">On the confirmation page, select **Go to Admin Home**.</span></span>
 
 ::: moniker-end
 
 
-## <a name="related-articles"></a><span data-ttu-id="fbb08-166">Articles connexes</span><span class="sxs-lookup"><span data-stu-id="fbb08-166">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="81dae-166">Articles connexes</span><span class="sxs-lookup"><span data-stu-id="81dae-166">Related articles</span></span>
 
-[<span data-ttu-id="fbb08-167">Prolonger votre version d’évaluation</span><span class="sxs-lookup"><span data-stu-id="fbb08-167">Extend your trial</span></span>](extend-your-trial.md)
+[<span data-ttu-id="81dae-167">Prolonger votre version d’évaluation</span><span class="sxs-lookup"><span data-stu-id="81dae-167">Extend your trial</span></span>](extend-your-trial.md)
   
-[<span data-ttu-id="fbb08-168">Inscrivez-vous à Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="fbb08-168">Sign up for Microsoft 365</span></span>](../admin/admin-overview/sign-up-for-office-365.md)
+[<span data-ttu-id="81dae-168">Inscrivez-vous à Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="81dae-168">Sign up for Microsoft 365</span></span>](../admin/admin-overview/sign-up-for-office-365.md)
   
-[<span data-ttu-id="fbb08-169">Basculer vers un autre plan ou abonnement Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="fbb08-169">Switch to a different Microsoft 365 plan or subscription</span></span>](subscriptions/switch-to-a-different-plan.md)
+[<span data-ttu-id="81dae-169">Basculer vers un autre plan ou abonnement Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="81dae-169">Switch to a different Microsoft 365 plan or subscription</span></span>](subscriptions/switch-to-a-different-plan.md)
