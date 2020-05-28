@@ -3,28 +3,28 @@
   displayName: Home
 - name: Illustrations de la solution et de l’architecture
   items:
-    - name: Illustrations de productivité Microsoft 365
+    - name: "Illustrations de productivité Microsoft\_365"
       href: productivity-illustrations.md
     - name: Modèles d’architecture Cloud Microsoft
       href: cloud-architecture-models.md
 - name: Solutions Microsoft 365 Foundation
   items:
-    - name: Vue d'ensemble
+    - name: Vue d’ensemble
       href: foundation-solutions-overview.md
-    - name: Autoriser les employés distants avec Microsoft 365
+    - name: Confier des responsabilités aux travailleurs à distance avec Microsoft 365
       href: empower-people-to-work-remotely.md
       items:
-        - name: Étape 1. Augmenter la sécurité de connexion pour les collaborateurs distants avec MFA
+        - name: Étape 1. Augmenter la sécurité de connexion
           href: empower-people-to-work-remotely-secure-sign-in.md
         - name: "Étape\_2. Fournir un accès à distance"
           href: empower-people-to-work-remotely-remote-access.md
-        - name: 'Étape 3. Déployer la gestion des points de terminaison pour vos appareils, PC et autres points de terminaison'
+        - name: "Étape\_3. Déployer la gestion des points de terminaison"
           href: empower-people-to-work-remotely-manage-endpoints.md
-        - name: "Étape\_4. Déployer les applications et les services de productivité des travailleurs à distance"
+        - name: "Étape\_4. Déployer des applications et des services de productivité"
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: "Étape\_5. Créer des salles de communication COVID-19"
+        - name: "Étape\_5. Créer des salles de communication"
           href: empower-people-to-work-remotely-communication-venues.md
-        - name: Étape 6. Formation des utilisateurs distants et commentaires sur l’utilisation des adresses
+        - name: Étape 6. Former les travailleurs distants
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Configurer la collaboration sécurisée avec Microsoft 365
       href: setup-secure-collaboration-with-teams.md
@@ -71,7 +71,7 @@
       href: deploy-threat-protection.md
 - name: Scénarios et solutions de charge de travail
   items:
-    - name: Vue d'ensemble
+    - name: Vue d’ensemble
       href: workload-solutions-scenarios-overview.md
     - name: Travail d’équipe et collaboration
       items:
@@ -125,7 +125,7 @@
           href: team-security-isolation-dev-test.md
 - name: Conseils spécifiques par secteurs
   items:
-    - name: Vue d'ensemble
+    - name: Vue d’ensemble
       href: industry-specific-guidance-overview.md
     - name: Finances
       items:
@@ -151,7 +151,7 @@
           href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
 - name: Principes de conception de l’architecture d’entreprise
   items:
-    - name: Vue d'ensemble
+    - name: Vue d’ensemble
       href: design-principles.md
     - name: À l’identité et au-delà
       href: identity-design-principles.md
