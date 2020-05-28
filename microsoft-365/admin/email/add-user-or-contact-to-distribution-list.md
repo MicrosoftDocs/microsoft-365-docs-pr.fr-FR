@@ -13,77 +13,78 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
 description: Découvrez comment ajouter un utilisateur ou un contact Microsoft 365 à un groupe de distribution. Par exemple, vous pouvez ajouter un employé, un partenaire ou un fournisseur à votre groupe de distribution de courrier électronique.
-ms.openlocfilehash: 0b1feacbd3e35adcdf96ae8c42aa330921a4b390
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 47b338a326c5c1152c8e14e13f01f9a36de1cb6f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629070"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400171"
 ---
-# <a name="add-a-user-or-contact-to-a-distribution-group"></a><span data-ttu-id="aadc3-104">Ajouter un utilisateur ou un contact à un groupe de distribution</span><span class="sxs-lookup"><span data-stu-id="aadc3-104">Add a user or contact to a distribution group</span></span>
+# <a name="add-a-user-or-contact-to-a-distribution-group"></a><span data-ttu-id="636c1-104">Ajouter un utilisateur ou un contact à un groupe de distribution</span><span class="sxs-lookup"><span data-stu-id="636c1-104">Add a user or contact to a distribution group</span></span>
 
-<span data-ttu-id="aadc3-105">En tant qu’administrateur d’une organisation, vous devrez peut-être ajouter un de vos utilisateurs ou contacts à un groupe de distribution (consultez la rubrique [Create distribution Groups in Microsoft 365](../setup/create-distribution-lists.md).) Par exemple, vous pouvez ajouter des employés, des partenaires externes ou des fournisseurs à un groupe de distribution de messagerie.</span><span class="sxs-lookup"><span data-stu-id="aadc3-105">As the admin of an organization, you may need to add one of your users or contacts to a distribution group (see [Create distribution groups in Microsoft 365](../setup/create-distribution-lists.md).) For example, you can add employees or external partners or vendors to an email distribution group.</span></span>
+<span data-ttu-id="636c1-105">En tant qu’administrateur d’une organisation, vous devrez peut-être ajouter un de vos utilisateurs ou contacts à un groupe de distribution (consultez la rubrique [Create distribution Groups in Microsoft 365](../setup/create-distribution-lists.md).) Par exemple, vous pouvez ajouter des employés, des partenaires externes ou des fournisseurs à un groupe de distribution de messagerie.</span><span class="sxs-lookup"><span data-stu-id="636c1-105">As the admin of an organization, you may need to add one of your users or contacts to a distribution group (see [Create distribution groups in Microsoft 365](../setup/create-distribution-lists.md).) For example, you can add employees or external partners or vendors to an email distribution group.</span></span>
   
-## <a name="add-a-user-or-contact-to-a-distribution-group"></a><span data-ttu-id="aadc3-106">Ajouter un utilisateur ou un contact à un groupe de distribution</span><span class="sxs-lookup"><span data-stu-id="aadc3-106">Add a user or contact to a distribution group</span></span>
+## <a name="add-a-user-or-contact-to-a-distribution-group"></a><span data-ttu-id="636c1-106">Ajouter un utilisateur ou un contact à un groupe de distribution</span><span class="sxs-lookup"><span data-stu-id="636c1-106">Add a user or contact to a distribution group</span></span>
 
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
-> <span data-ttu-id="aadc3-107">Si le nouveau Centre d’administration Microsoft 365 n’est pas celui que vous utilisez, vous pouvez l’activer en sélectionnant le bouton bascule **Essayer le nouveau Centre d’administration** situé en haut de la page d’accueil.</span><span class="sxs-lookup"><span data-stu-id="aadc3-107">If you're not using the new Microsoft 365 admin center, you can turn it on by selecting the **Try the new admin center** toggle located at the top of the Home page.</span></span>
+> <span data-ttu-id="636c1-107">Si le nouveau Centre d’administration Microsoft 365 n’est pas celui que vous utilisez, vous pouvez l’activer en sélectionnant le bouton bascule **Essayer le nouveau Centre d’administration** situé en haut de la page d’accueil.</span><span class="sxs-lookup"><span data-stu-id="636c1-107">If you're not using the new Microsoft 365 admin center, you can turn it on by selecting the **Try the new admin center** toggle located at the top of the Home page.</span></span>
 
-1. <span data-ttu-id="aadc3-108">Dans le centre d’administration, accédez \> à **la page groupes de** <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groupes.</a></span><span class="sxs-lookup"><span data-stu-id="aadc3-108">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> page.</span></span>
+1. <span data-ttu-id="636c1-108">Dans le centre d’administration, accédez à **la page groupes de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groupes</a> .</span><span class="sxs-lookup"><span data-stu-id="636c1-108">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> page.</span></span>
 
-2. <span data-ttu-id="aadc3-109">Dans la page **groupes** , sélectionnez le nom du groupe auquel vous souhaitez ajouter un contact.</span><span class="sxs-lookup"><span data-stu-id="aadc3-109">On the **Groups** page, select the name of the group you want to add a contact to.</span></span>
+2. <span data-ttu-id="636c1-109">Dans la page **groupes** , sélectionnez le nom du groupe auquel vous souhaitez ajouter un contact.</span><span class="sxs-lookup"><span data-stu-id="636c1-109">On the **Groups** page, select the name of the group you want to add a contact to.</span></span>
 
-3. <span data-ttu-id="aadc3-110">Sous l’onglet **membres** , sélectionnez **Afficher tout et gérer les membres**.</span><span class="sxs-lookup"><span data-stu-id="aadc3-110">On the **Members** tab, select **View all and manage members**.</span></span>
+3. <span data-ttu-id="636c1-110">Sous l’onglet **membres** , sélectionnez **Afficher tout et gérer les membres**.</span><span class="sxs-lookup"><span data-stu-id="636c1-110">On the **Members** tab, select **View all and manage members**.</span></span>
 
-4. <span data-ttu-id="aadc3-111">Dans la page **afficher les membres** , sélectionnez **Ajouter des membres**, puis sélectionnez l’utilisateur ou le contact que vous souhaitez ajouter au groupe de distribution.</span><span class="sxs-lookup"><span data-stu-id="aadc3-111">On the **View Members** page, select **Add members**, and select the user or contact you want to add to the distribution group.</span></span> 
+4. <span data-ttu-id="636c1-111">Dans la page **afficher les membres** , sélectionnez **Ajouter des membres**, puis sélectionnez l’utilisateur ou le contact que vous souhaitez ajouter au groupe de distribution.</span><span class="sxs-lookup"><span data-stu-id="636c1-111">On the **View Members** page, select **Add members**, and select the user or contact you want to add to the distribution group.</span></span> 
     
     ![Ajouter des membres au groupe de distribution](../../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
   
-5. <span data-ttu-id="aadc3-113">Sélectionnez **Enregistrer** , puis **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="aadc3-113">Select **Save** and then **Close**.</span></span>
+5. <span data-ttu-id="636c1-113">Sélectionnez **Enregistrer** , puis **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="636c1-113">Select **Save** and then **Close**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="aadc3-114">Dans le centre d’administration, accédez \> à **la page groupes de** <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groupes.</a></span><span class="sxs-lookup"><span data-stu-id="aadc3-114">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> page.</span></span>
+1. <span data-ttu-id="636c1-114">Dans le centre d’administration, accédez à **la page groupes de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groupes</a> .</span><span class="sxs-lookup"><span data-stu-id="636c1-114">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> page.</span></span>
     
-2. <span data-ttu-id="aadc3-115">Dans la page **groupes** , sélectionnez le groupe auquel vous souhaitez ajouter un contact.</span><span class="sxs-lookup"><span data-stu-id="aadc3-115">On the **Groups** page, select the group you want to add a contact to.</span></span>
+2. <span data-ttu-id="636c1-115">Dans la page **groupes** , sélectionnez le groupe auquel vous souhaitez ajouter un contact.</span><span class="sxs-lookup"><span data-stu-id="636c1-115">On the **Groups** page, select the group you want to add a contact to.</span></span>
     
-3. <span data-ttu-id="aadc3-116">Dans la section **membres** , sélectionnez **modifier**.</span><span class="sxs-lookup"><span data-stu-id="aadc3-116">In the **Members** section, select **Edit**.</span></span>
+3. <span data-ttu-id="636c1-116">Dans la section **membres** , sélectionnez **modifier**.</span><span class="sxs-lookup"><span data-stu-id="636c1-116">In the **Members** section, select **Edit**.</span></span>
   
-4. <span data-ttu-id="aadc3-117">Dans la page **afficher les membres** , sélectionnez **Ajouter des membres**, puis sélectionnez l’utilisateur ou le contact que vous souhaitez ajouter au groupe de distribution.</span><span class="sxs-lookup"><span data-stu-id="aadc3-117">On the **View Members** page, select **Add members**, and select the user or contact you want to add to the distribution group.</span></span> 
+4. <span data-ttu-id="636c1-117">Dans la page **afficher les membres** , sélectionnez **Ajouter des membres**, puis sélectionnez l’utilisateur ou le contact que vous souhaitez ajouter au groupe de distribution.</span><span class="sxs-lookup"><span data-stu-id="636c1-117">On the **View Members** page, select **Add members**, and select the user or contact you want to add to the distribution group.</span></span> 
     
     ![Ajouter des membres au groupe de distribution](../../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
   
-5. <span data-ttu-id="aadc3-119">Sélectionnez **Enregistrer** , puis **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="aadc3-119">Select **Save** and then **Close**.</span></span>
+5. <span data-ttu-id="636c1-119">Sélectionnez **Enregistrer** , puis **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="636c1-119">Select **Save** and then **Close**.</span></span>
     
-<span data-ttu-id="aadc3-120">Si vous n'avez pas encore créé le [contact](../misc/contacts.md), faites-le en suivant les instructions décrites dans cette vidéo.</span><span class="sxs-lookup"><span data-stu-id="aadc3-120">If you haven't created the [contact](../misc/contacts.md) yet, do that first as shown in this video.</span></span> 
+<span data-ttu-id="636c1-120">Si vous n'avez pas encore créé le [contact](../misc/contacts.md), faites-le en suivant les instructions décrites dans cette vidéo.</span><span class="sxs-lookup"><span data-stu-id="636c1-120">If you haven't created the [contact](../misc/contacts.md) yet, do that first as shown in this video.</span></span> 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="aadc3-121">Dans le centre d’administration, accédez \> à **la page groupes de** <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groupes.</a></span><span class="sxs-lookup"><span data-stu-id="aadc3-121">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> page.</span></span>
+1. <span data-ttu-id="636c1-121">Dans le centre d’administration, accédez à **la page groupes de** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">groupes</a> .</span><span class="sxs-lookup"><span data-stu-id="636c1-121">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> page.</span></span>
     
-2. <span data-ttu-id="aadc3-122">Dans la page **groupes** , sélectionnez le groupe auquel vous souhaitez ajouter un contact.</span><span class="sxs-lookup"><span data-stu-id="aadc3-122">On the **Groups** page, select the group you want to add a contact to.</span></span>
+2. <span data-ttu-id="636c1-122">Dans la page **groupes** , sélectionnez le groupe auquel vous souhaitez ajouter un contact.</span><span class="sxs-lookup"><span data-stu-id="636c1-122">On the **Groups** page, select the group you want to add a contact to.</span></span>
     
-3. <span data-ttu-id="aadc3-123">Dans la section **membres** , sélectionnez **modifier**.</span><span class="sxs-lookup"><span data-stu-id="aadc3-123">In the **Members** section, select **Edit**.</span></span>
+3. <span data-ttu-id="636c1-123">Dans la section **membres** , sélectionnez **modifier**.</span><span class="sxs-lookup"><span data-stu-id="636c1-123">In the **Members** section, select **Edit**.</span></span>
   
-4. <span data-ttu-id="aadc3-124">Dans la page **afficher les membres** , sélectionnez **Ajouter des membres**, puis sélectionnez l’utilisateur ou le contact que vous souhaitez ajouter au groupe de distribution.</span><span class="sxs-lookup"><span data-stu-id="aadc3-124">On the **View Members** page, select **Add members**, and select the user or contact you want to add to the distribution group.</span></span> 
+4. <span data-ttu-id="636c1-124">Dans la page **afficher les membres** , sélectionnez **Ajouter des membres**, puis sélectionnez l’utilisateur ou le contact que vous souhaitez ajouter au groupe de distribution.</span><span class="sxs-lookup"><span data-stu-id="636c1-124">On the **View Members** page, select **Add members**, and select the user or contact you want to add to the distribution group.</span></span> 
     
     ![Ajouter des membres au groupe de distribution](../../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
   
-5. <span data-ttu-id="aadc3-126">Sélectionnez **Enregistrer** , puis **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="aadc3-126">Select **Save** and then **Close**.</span></span>
+5. <span data-ttu-id="636c1-126">Sélectionnez **Enregistrer** , puis **Fermer**.</span><span class="sxs-lookup"><span data-stu-id="636c1-126">Select **Save** and then **Close**.</span></span>
     
-<span data-ttu-id="aadc3-127">Si vous n'avez pas encore créé le [contact](../misc/contacts.md), faites-le en suivant les instructions décrites dans cette vidéo.</span><span class="sxs-lookup"><span data-stu-id="aadc3-127">If you haven't created the [contact](../misc/contacts.md) yet, do that first as shown in this video.</span></span> 
+<span data-ttu-id="636c1-127">Si vous n'avez pas encore créé le [contact](../misc/contacts.md), faites-le en suivant les instructions décrites dans cette vidéo.</span><span class="sxs-lookup"><span data-stu-id="636c1-127">If you haven't created the [contact](../misc/contacts.md) yet, do that first as shown in this video.</span></span> 
 
 ::: moniker-end
 
@@ -92,6 +93,6 @@ ms.locfileid: "43629070"
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ed4e6095-9a6a-4d3d-999d-698c39bb7ec8?autoplay=false]
   
-<span data-ttu-id="aadc3-128">Découvrez comment [Envoyer un courrier électronique en tant que groupe de distribution dans Microsoft 365](../manage/send-email-as-distribution-list.md).</span><span class="sxs-lookup"><span data-stu-id="aadc3-128">Learn how to [send email as a distribution group in Microsoft 365](../manage/send-email-as-distribution-list.md).</span></span>
+<span data-ttu-id="636c1-128">Découvrez comment [Envoyer un courrier électronique en tant que groupe de distribution dans Microsoft 365](../manage/send-email-as-distribution-list.md).</span><span class="sxs-lookup"><span data-stu-id="636c1-128">Learn how to [send email as a distribution group in Microsoft 365](../manage/send-email-as-distribution-list.md).</span></span>
   
 

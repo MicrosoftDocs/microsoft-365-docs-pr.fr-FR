@@ -14,18 +14,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 - GEA150
 ms.assetid: 28343f3a-dcee-41b6-9b97-5b0f4999b7ef
 description: Prise en main de votre propre domaine pour le courrier, les sites Web et les comptes dans Office 365. Découvrez les domaines, apporter des modifications à votre domaine, intégrer des courriers électroniques et des sites Web, et obtenir des outils et des conseils.
-ms.openlocfilehash: f1b159f33d60c9a927f495b5bdce8a8eb24e9a44
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 1d3e7fb12f497d512693b8289f072106173356bb
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42897049"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399919"
 ---
 # <a name="get-help-with-office-365-domains"></a>Obtenir de l'aide sur les domaines Office 365
 

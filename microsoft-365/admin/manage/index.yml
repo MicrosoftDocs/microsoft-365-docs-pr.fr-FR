@@ -10,12 +10,13 @@ metadata:
   ms.author: sirkkuw
   ms.date: 04/16/2020
   localization_priority: Priority
-  ms.openlocfilehash: 7289f6a0b971db0f9b785f35c6bbae839ecae226
-  ms.sourcegitcommit: a2dd93943f68362220b123e3e4b0f7b3facbdd03
+  ms.custom: AdminSurgePortfolio
+  ms.openlocfilehash: b1a5bd2f50542a9c76c32da7465e80e371238560
+  ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 04/30/2020
-  ms.locfileid: "43955324"
+  ms.lasthandoff: 05/27/2020
+  ms.locfileid: "44399751"
 landingContent:
 - title: Surveiller l’état de notre service
   linkLists:
@@ -27,9 +28,9 @@ landingContent:
       url: ../usage-analytics/usage-analytics.md
     - text: Activer l’analyse d’utilisation
       url: ../usage-analytics/enable-usage-analytics.md
-    - text: Modifier les informations de contact de votre organisation
+    - text: Modifier les coordonnées de votre organisation
       url: change-address-contact-and-more.md
-    - text: Mettre à jour vos informations de contact d’administrateur
+    - text: Mettre à jour vos coordonnées d’administrateur
       url: update-phone-number-and-email-address.md
     - text: Configurer les options de publication
       url: release-options-in-office-365.md
@@ -47,11 +48,11 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Mettre à niveau votre organisation vers les dernières applications
+    - text: Mettre à niveau votre organisation vers les applications les plus récentes
       url: ../setup/upgrade-users-to-latest-office-client.md
     - text: Personnaliser le lanceur d’applications
       url: customize-the-app-launcher.md
-    - text: Configuration requise pour le déploiement centralisé des compléments
+    - text: Conditions préalables au déploiement centralisé des compléments
       url: centralized-deployment-of-add-ins.md
     - text: Installer et gérer des compléments à l’aide du déploiement centralisé
       url: manage-deployment-of-add-ins.md
