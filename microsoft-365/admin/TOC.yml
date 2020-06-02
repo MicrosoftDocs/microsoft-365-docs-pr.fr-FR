@@ -11,7 +11,15 @@
         - name: Planifier votre installation
           href: setup/plan-your-setup.md
         - name: Configurer votre organisation avec l’Assistant Installation
-          href: setup/setup.md
+          items:
+            - name: Microsoft 365 Business Basic
+              href: setup/setup-business-basic.md
+            - name: Microsoft 365 Business Standard
+              href: setup/setup-business-standard.md
+            - name: Microsoft Business Premium
+              href: ../business/set-up.md
+            - name: "Applications Microsoft\_365 pour les entreprises"
+              href: setup/setup-apps-for-business.md
         - name: Découvrir la page et l’Assistant Installation
           href: setup/o365-setup-wizard-and-setup-page.md
         - name: Transférer vos données
@@ -21,7 +29,7 @@
         - name: Déployer Teams
           href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
         - name: Formation grand public sur les applications
-          href: 'https://support.office.com/en-us/office-training-center'
+          href: 'https://support.office.com/office-training-center'
         - name: "Quel abonnement ai-je\_?"
           href: admin-overview/what-subscription-do-i-have.md
         - name: Personnaliser la page de connexion
@@ -240,10 +248,42 @@
           href: security-and-compliance/set-up-multi-factor-authentication.md
         - name: "Activer l’authentification moderne pour Office\_2013"
           href: security-and-compliance/enable-modern-authentication.md
+        - name: Sécuriser Microsoft Business Premium
+          items:
+            - name: Conditions préalables pour la protection des données
+              href: ../business/pre-requisites-for-data-protection.md
+            - name: Fonctionnalités de sécurité
+              href: ../business/security-features.md
+            - name: Renforcer la protection contre les menaces
+              href: ../business/increase-threat-protection.md
+            - name: Configurer les fonctionnalités de conformité
+              href: ../business/set-up-compliance.md
         - name: Niveau de sécurité
           href: 'https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new'
         - name: Guide de la conformité avec le RGPD
           href: security-and-compliance/gdpr-compliance.md
+    - name: Gestion des appareils
+      items:
+        - name: Affichage et modification des stratégies et des appareils
+          href: ../business/view-policies-and-devices.md
+        - name: Supprimer les données de l’entreprise
+          href: ../business/remove-company-data.md
+        - name: Rétablissement des paramètres d’usine des appareils
+          href: ../business/reset-devices-to-factory-settings.md
+        - name: Mappage des fonctionnalités de protection avec les paramètres Intune
+          href: ../business/map-protection-features-to-intune-settings.md
+        - name: Paramètres de protection des applications pour Android et iOS
+          href: ../business/app-protection-settings-for-android-and-ios.md
+          items:
+            - name: Validation des paramètres sur Android ou iOS
+              href: ../business/validate-settings-on-android-or-ios.md
+        - name: "Paramètres de protection des appareils pour les PC Windows\_10"
+          href: ../business/protection-settings-for-windows-10-pcs.md
+          items:
+            - name: "Validation des paramètres sur les PC Windows\_10"
+              href: ../business/validate-settings-on-windows-10-pcs.md
+        - name: "Paramètres de protection des applications pour les PC Windows\_10"
+          href: ../business/protection-settings-for-windows-10-devices.md
     - name: Collaborer avec les clients
       href: work-with-customers/index.yml
       items:
