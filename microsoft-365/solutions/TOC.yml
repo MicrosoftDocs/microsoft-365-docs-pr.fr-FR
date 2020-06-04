@@ -12,8 +12,9 @@
     - name: Vue d’ensemble
       href: foundation-solutions-overview.md
     - name: Confier des responsabilités aux travailleurs à distance avec Microsoft 365
-      href: empower-people-to-work-remotely.md
       items:
+        - name: Vue d’ensemble
+          href: empower-people-to-work-remotely.md
         - name: Étape 1. Augmenter la sécurité de connexion
           href: empower-people-to-work-remotely-secure-sign-in.md
         - name: "Étape\_2. Fournir un accès à distance"

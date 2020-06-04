@@ -218,6 +218,8 @@
           href: manage/manage-messages.md
         - name: Configurer les options de publication
           href: manage/release-options-in-office-365.md
+        - name: Afficher ou masquer les nouvelles fonctionnalités
+          href: manage/show-hide-new-features.md
         - name: Analyse de l’utilisation de Power BI
           items:
             - name: À propos de l’Analyse de l’utilisation
