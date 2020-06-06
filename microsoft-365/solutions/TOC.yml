@@ -23,7 +23,7 @@
           href: empower-people-to-work-remotely-manage-endpoints.md
         - name: "Étape\_4. Déployer des applications et des services de productivité"
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: "Étape\_5. Créer des salles de communication"
+        - name: "Étape\_5. Créer des lieux de communication"
           href: empower-people-to-work-remotely-communication-venues.md
         - name: Étape 6. Former les travailleurs distants
           href: empower-people-to-work-remotely-train-monitor-usage.md
@@ -81,7 +81,7 @@
         - name: Solutions de téléphonie
           items:
             - name: Choisir votre solution
-              href: 'https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: Étude de cas pour une entreprise multinationale
               href: null
         - name: Collaboration sur des fichiers dans SharePoint avec Microsoft 365
@@ -89,7 +89,7 @@
         - name: Planifier un intranet SharePoint intelligent
           href: 'https://docs.microsoft.com/sharepoint/plan-intranet?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Guide OneDrive pour les entreprises
-          href: 'https://docs.microsoft.com/en-us/onedrive/plan-onedrive-enterprise?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/onedrive/plan-onedrive-enterprise?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Sécurité
       items:
         - name: Principales tâches des équipes de sécurité pour prendre en charge le travail à partir de la maison
@@ -158,6 +158,8 @@
       href: identity-design-principles.md
     - name: Les obstacles à la sécurité que vous pouvez parcourir
       href: security-design-principles.md
+    - name: Mise en réseau (vers le Cloud)
+      href: networking-design-principles.md
 - name: Ressources de déploiement de Microsoft 365
   items:
     - name: Déployer Microsoft 365
