@@ -249,17 +249,19 @@
           href: archiving-third-party-data.md
         - name: Archiver des données Facebook (Aperçu)
           href: archive-facebook-data-with-sample-connector.md
-        - name: Archiver des données Twitter (Aperçu)
-          href: archive-twitter-data-with-sample-connector.md
-        - name: Archiver des données LinkedIn
-          href: archive-linkedin-data.md
-        - name: Archiver les données de Bloomberg instantanée
-          href: archive-instant-bloomberg-data.md
         - name: Importer des données de ressources humaines (Aperçu)
           href: import-hr-data.md
+        - name: Archiver les données de Bloomberg instantanée
+          href: archive-instant-bloomberg-data.md
+        - name: Archiver des données LinkedIn
+          href: archive-linkedin-data.md
+        - name: Archiver des données Twitter (Aperçu)
+          href: archive-twitter-data-with-sample-connector.md
         - name: Collaborer avec un partenaire pour archiver des données tierces
           href: work-with-partner-to-archive-third-party-data.md
-    - name: Stocker des données
+        - name: Rechercher des données tierces
+          href: use-content-search-to-search-third-party-data-that-was-imported.md
+    - name: Stocker les données de boîte aux lettres
       items:
         - name: Activation des boîtes aux lettres d’archivage
           href: enable-archive-mailboxes.md
@@ -388,8 +390,6 @@
               href: bulk-edit-content-searches.md
             - name: Préparer un fichier CSV pour une recherche de liste d’ID
               href: csv-file-for-an-id-list-content-search.md
-            - name: Rechercher des données tierces
-              href: use-content-search-to-search-third-party-data-that-was-imported.md
             - name: Vérifier la présence d’erreurs dans vos requêtes de recherche
               href: check-your-content-search-query-for-errors.md
             - name: Résoudre les problèmes eDiscovery courants
