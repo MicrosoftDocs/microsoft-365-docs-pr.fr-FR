@@ -288,6 +288,8 @@
           href: ../business/map-protection-features-to-intune-settings.md
         - name: États des appareils
           href: ../business/device-states.md
+        - name: "Paramètres de protection des applications pour les PC Windows\_10"
+          href: ../business/protection-settings-for-windows-10-devices.md
         - name: Paramètres de protection des applications pour Android et iOS
           href: ../business/app-protection-settings-for-android-and-ios.md
           items:
@@ -298,8 +300,6 @@
           items:
             - name: "Validation des paramètres sur les PC Windows\_10"
               href: ../business/validate-settings-on-windows-10-pcs.md
-        - name: "Paramètres de protection des applications pour les PC Windows\_10"
-          href: ../business/protection-settings-for-windows-10-devices.md
         - name: Autopilot
           items:
             - name: Ajout d’un profil et d’appareils AutoPilot
