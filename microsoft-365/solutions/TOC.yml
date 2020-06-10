@@ -70,6 +70,22 @@
               href: microsoft-365-guest-settings.md
     - name: "Déployer la protection contre les menaces sur Microsoft\_365"
       href: deploy-threat-protection.md
+    - name: Déployer la protection des informations pour la confidentialité des données
+      items:
+        - name: Vue d’ensemble
+          href: information-protection-deploy.md
+        - name: Planification
+          href: information-protection-deploy-assess.md
+        - name: Suivre
+          href: information-protection-deploy-compliance.md
+        - name: Empêcher
+          href: information-protection-deploy-identity-device-threat.md
+        - name: Protéger
+          href: information-protection-deploy-protect-information.md
+        - name: Server
+          href: information-protection-deploy-govern.md
+        - name: Examiner
+          href: information-protection-deploy-monitor-respond.md
 - name: Scénarios et solutions de charge de travail
   items:
     - name: Vue d’ensemble
