@@ -2,6 +2,8 @@
   href: index.yml
 - name: Prise en main
   items:
+    - name: Tâches rapides pour la prise en main de la conformité
+      href: compliance-quick-tasks.md
     - name: Nouveautés du centre de conformité
       href: whats-new.md
     - name: Mises à jour récentes apportées au contenu de conformité
@@ -155,6 +157,8 @@
       href: encryption.md
     - name: "Chiffrement du service Office\_365"
       href: office-365-service-encryption.md
+    - name: Détails techniques de référence sur le chiffrement dans Office 365
+      href: technical-reference-details-about-encryption.md
     - name: Clé client
       items:
         - name: Chiffrement de service avec une clé client dans Office 365
@@ -198,8 +202,6 @@
           href: exchange-online-secures-email-secrets.md
         - name: "Mode d’utilisation de TLS par Exchange Online pour sécuriser les connexions de messagerie dans Office\_365"
           href: exchange-online-uses-tls-to-secure-email-connections.md
-        - name: Détails techniques de référence sur le chiffrement dans Office 365
-          href: technical-reference-details-about-encryption.md
         - name: BitLocker et Distributed Key Manager (DKM) pour le chiffrement
           href: office-365-bitlocker-and-distributed-key-manager-for-encryption.md
         - name: Legacy OME
@@ -533,7 +535,7 @@
               href: add-data-to-review-set-from-another-review-set.md
         - name: Examiner les données de cas
           items:
-            - name: Utiliser le tableau de bord du jeu à réviser (préversion)
+            - name: Utiliser le tableau de bord du groupe révision
               href: advanced-ediscovery-dashboard.md
             - name: Afficher les documents d’un jeu à réviser
               href: view-documents-in-review-set.md
