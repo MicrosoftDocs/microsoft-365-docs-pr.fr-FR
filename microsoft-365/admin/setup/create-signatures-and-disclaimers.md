@@ -23,96 +23,96 @@ search.appverid:
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: Apprenez à ajouter une signature électronique, une clause d’exclusion de responsabilité ou une déclaration de divulgation à tous les messages électroniques qui entrent ou sortent de votre organisation.
-ms.openlocfilehash: 5149f6f4a0276cc1384f15a8134d1ede0b673b8c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d7e19c6e3f425f95429aefd769d2b8992fde141e
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398953"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779880"
 ---
-# <a name="create-organization-wide-signatures-and-disclaimers"></a><span data-ttu-id="527b9-103">Créer des signatures à l’échelle de l’organisation et des clauses d’exclusion de responsabilité</span><span class="sxs-lookup"><span data-stu-id="527b9-103">Create organization-wide signatures and disclaimers</span></span>
+# <a name="create-organization-wide-signatures-and-disclaimers"></a><span data-ttu-id="bbd36-103">Créer des signatures à l’échelle de l’organisation et des clauses d’exclusion de responsabilité</span><span class="sxs-lookup"><span data-stu-id="bbd36-103">Create organization-wide signatures and disclaimers</span></span>
 
- <span data-ttu-id="527b9-p101">[] Vous pouvez ajouter une signature électronique, une clause d'exclusion de responsabilité ou une déclaration de divulgation aux messages e-mail qui entrent dans votre organisation ou qui en sortent. Vous pouvez configurer celle-ci pour qu'elle s'applique à tous les messages entrants et sortants, comme illustré ci-dessous. Ou vous pouvez l'appliquer à certains messages, comme ceux contenant des mots ou des modèles de texte spécifiques.</span><span class="sxs-lookup"><span data-stu-id="527b9-p101">You can add an email signature, legal disclaimer, or disclosure statement to the email messages that enter or leave your organization. You can set it up to apply to all incoming and outgoing messages as shown below. Or you can apply it to certain messages like those containing specific words or text patterns.</span></span>
+ <span data-ttu-id="bbd36-104">You can add an email signature, legal disclaimer, or disclosure statement to the email messages that enter or leave your organization.</span><span class="sxs-lookup"><span data-stu-id="bbd36-104">You can add an email signature, legal disclaimer, or disclosure statement to the email messages that enter or leave your organization.</span></span> <span data-ttu-id="bbd36-105">You can set it up to apply to all incoming and outgoing messages as shown below.</span><span class="sxs-lookup"><span data-stu-id="bbd36-105">You can set it up to apply to all incoming and outgoing messages as shown below.</span></span> <span data-ttu-id="bbd36-106">Or you can apply it to certain messages like those containing specific words or text patterns.</span><span class="sxs-lookup"><span data-stu-id="bbd36-106">Or you can apply it to certain messages like those containing specific words or text patterns.</span></span>
 
- <span data-ttu-id="527b9-107">Regardez une courte vidéo sur la création d’une signature électronique à l’échelle de l’entreprise.</span><span class="sxs-lookup"><span data-stu-id="527b9-107">Watch a short video about creating a company-wide email signature.</span></span> <br><br>
+ <span data-ttu-id="bbd36-107">Regardez une courte vidéo sur la création d’une signature électronique à l’échelle de l’entreprise.</span><span class="sxs-lookup"><span data-stu-id="bbd36-107">Watch a short video about creating a company-wide email signature.</span></span> <br><br>
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
-<span data-ttu-id="527b9-108">Si vous avez trouvé cette vidéo utile, consultez les [séries de formations complètes pour les petites entreprises et les nouveaux utilisateurs de Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="527b9-108">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
+<span data-ttu-id="bbd36-108">Si vous avez trouvé cette vidéo utile, consultez les [séries de formations complètes pour les petites entreprises et les nouveaux utilisateurs de Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="bbd36-108">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
 
-## <a name="create-a-signature-that-applies-to-all-messages"></a><span data-ttu-id="527b9-109">Créer une signature qui s'applique à tous les messages</span><span class="sxs-lookup"><span data-stu-id="527b9-109">Create a signature that applies to all messages</span></span>
+## <a name="create-a-signature-that-applies-to-all-messages"></a><span data-ttu-id="bbd36-109">Créer une signature qui s'applique à tous les messages</span><span class="sxs-lookup"><span data-stu-id="bbd36-109">Create a signature that applies to all messages</span></span>
 
 > [!TIP]
-> <span data-ttu-id="527b9-110">Les signatures à l’échelle de l’organisation sont appelées « clauses d’exclusion de responsabilité », indépendamment de ce qu’elles incluent.</span><span class="sxs-lookup"><span data-stu-id="527b9-110">Organization-wide signatures are called "disclaimers," regardless of what they include.</span></span> <span data-ttu-id="527b9-111">Par exemple, il peut s’agir d’une signature ou de votre adresse, de la clause d’exclusion de responsabilité ou d’autres informations que vous souhaitez.</span><span class="sxs-lookup"><span data-stu-id="527b9-111">For example, they can just be a signature, or also include your address, legal disclaimer, or other information you want.</span></span>
+> <span data-ttu-id="bbd36-110">Les signatures à l’échelle de l’organisation sont appelées « clauses d’exclusion de responsabilité », indépendamment de ce qu’elles incluent.</span><span class="sxs-lookup"><span data-stu-id="bbd36-110">Organization-wide signatures are called "disclaimers," regardless of what they include.</span></span> <span data-ttu-id="bbd36-111">Par exemple, il peut s’agir d’une signature ou de votre adresse, de la clause d’exclusion de responsabilité ou d’autres informations que vous souhaitez.</span><span class="sxs-lookup"><span data-stu-id="bbd36-111">For example, they can just be a signature, or also include your address, legal disclaimer, or other information you want.</span></span>
     
 ::: moniker range="o365-worldwide"
 
-<span data-ttu-id="527b9-112">Accédez au Centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="527b9-112">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span></span>
+<span data-ttu-id="bbd36-112">Accédez au Centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="bbd36-112">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-<span data-ttu-id="527b9-113">Accédez au Centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.</span><span class="sxs-lookup"><span data-stu-id="527b9-113">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.</span></span>
+<span data-ttu-id="bbd36-113">Accédez au Centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.</span><span class="sxs-lookup"><span data-stu-id="bbd36-113">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de/adminportal</a>.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-<span data-ttu-id="527b9-114">Accédez au Centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn/adminportal</a>.</span><span class="sxs-lookup"><span data-stu-id="527b9-114">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn/adminportal</a>.</span></span>
+<span data-ttu-id="bbd36-114">Accédez au Centre d’administration à l’adresse <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn/adminportal</a>.</span><span class="sxs-lookup"><span data-stu-id="bbd36-114">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn/adminportal</a>.</span></span>
 
 ::: moniker-end
 
-1. <span data-ttu-id="527b9-115">Sélectionnez le lanceur d’applications ![ icône du lanceur d’applications ](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) , puis sélectionnez **administrateur**.</span><span class="sxs-lookup"><span data-stu-id="527b9-115">Select the app launcher ![The app launcher icon](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png), and then select **Admin**.</span></span>
+1. <span data-ttu-id="bbd36-115">Sélectionnez le lanceur d’applications ![ icône du lanceur d’applications ](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) , puis sélectionnez **administrateur**.</span><span class="sxs-lookup"><span data-stu-id="bbd36-115">Select the app launcher ![The app launcher icon](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png), and then select **Admin**.</span></span>
    
-    <span data-ttu-id="527b9-116">Vous ne trouvez pas l'application que vous cherchez ?</span><span class="sxs-lookup"><span data-stu-id="527b9-116">Can't find the app you're looking for?</span></span> <span data-ttu-id="527b9-117">Dans le lanceur d’applications, sélectionnez **toutes les applications** pour afficher une liste alphabétique des applications disponibles.</span><span class="sxs-lookup"><span data-stu-id="527b9-117">From the app launcher, select **All apps** to see an alphabetical list of the apps available to you.</span></span> <span data-ttu-id="527b9-118">À partir de là, vous pouvez rechercher une application spécifique.</span><span class="sxs-lookup"><span data-stu-id="527b9-118">From there, you can search for a specific app.</span></span> 
+    <span data-ttu-id="bbd36-116">Vous ne trouvez pas l'application que vous cherchez ?</span><span class="sxs-lookup"><span data-stu-id="bbd36-116">Can't find the app you're looking for?</span></span> <span data-ttu-id="bbd36-117">Dans le lanceur d’applications, sélectionnez **toutes les applications** pour afficher une liste alphabétique des applications disponibles.</span><span class="sxs-lookup"><span data-stu-id="bbd36-117">From the app launcher, select **All apps** to see an alphabetical list of the apps available to you.</span></span> <span data-ttu-id="bbd36-118">À partir de là, vous pouvez rechercher une application spécifique.</span><span class="sxs-lookup"><span data-stu-id="bbd36-118">From there, you can search for a specific app.</span></span> 
     
-2. <span data-ttu-id="527b9-119">Sélectionnez **centres d’administration**, puis **Exchange**.</span><span class="sxs-lookup"><span data-stu-id="527b9-119">Select **Admin centers**, and then choose **Exchange**.</span></span>
+2. <span data-ttu-id="bbd36-119">Sélectionnez **centres d’administration**, puis **Exchange**.</span><span class="sxs-lookup"><span data-stu-id="bbd36-119">Select **Admin centers**, and then choose **Exchange**.</span></span>
     
-3. <span data-ttu-id="527b9-120">Sous flux de messagerie, sélectionnez **règles**.</span><span class="sxs-lookup"><span data-stu-id="527b9-120">Under Mail flow, select **Rules**.</span></span>
+3. <span data-ttu-id="bbd36-120">Sous flux de messagerie, sélectionnez **règles**.</span><span class="sxs-lookup"><span data-stu-id="bbd36-120">Under Mail flow, select **Rules**.</span></span>
     
-4. <span data-ttu-id="527b9-121">Sélectionnez l' **+** icône (ajouter), puis **appliquer les clauses d’exclusion de responsabilité**.</span><span class="sxs-lookup"><span data-stu-id="527b9-121">Select the **+** (Add) icon and choose **Apply disclaimers**.</span></span>
+4. <span data-ttu-id="bbd36-121">Sélectionnez l' **+** icône (ajouter), puis **appliquer les clauses d’exclusion de responsabilité**.</span><span class="sxs-lookup"><span data-stu-id="bbd36-121">Select the **+** (Add) icon and choose **Apply disclaimers**.</span></span>
     
-5. <span data-ttu-id="527b9-122">Attribuez un nom à la règle.</span><span class="sxs-lookup"><span data-stu-id="527b9-122">Give the rule a name.</span></span>
+5. <span data-ttu-id="bbd36-122">Attribuez un nom à la règle.</span><span class="sxs-lookup"><span data-stu-id="bbd36-122">Give the rule a name.</span></span>
     
-6. <span data-ttu-id="527b9-123">Sous **appliquer cette règle**, sélectionnez **[appliquer à tous les messages]**.</span><span class="sxs-lookup"><span data-stu-id="527b9-123">Under **Apply this rule**, select **[Apply to all messages]**.</span></span>
-    
-    > [!TIP]
-    > <span data-ttu-id="527b9-124">[Découvrez-en plus](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping) sur l'application de conditions si vous ne souhaitez pas appliquer l'exclusion de responsabilité à tous les messages.</span><span class="sxs-lookup"><span data-stu-id="527b9-124">[Learn more](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping) about applying conditions if you don't want the disclaimer applied to all messages.</span></span> <span data-ttu-id="527b9-125">(Cet article de portée est destiné à Exchange Server, mais il s’applique également à Microsoft 365.)</span><span class="sxs-lookup"><span data-stu-id="527b9-125">(This scoping article is for Exchange Server, but it also applies to Microsoft 365.)</span></span> 
-  
-7. <span data-ttu-id="527b9-126">Sous Effectuer les opérations suivantes, laissez **Ajouter l'exclusion de responsabilité** sélectionné.</span><span class="sxs-lookup"><span data-stu-id="527b9-126">Under Do the following, leave **Append the disclaimer** selected.</span></span> 
-    
-8.  <span data-ttu-id="527b9-127">Sélectionnez **entrer le texte** et tapez votre clause d’exclusion de responsabilité.</span><span class="sxs-lookup"><span data-stu-id="527b9-127">Select **Enter text** and type your disclaimer.</span></span> 
+6. <span data-ttu-id="bbd36-123">Sous **appliquer cette règle**, sélectionnez **[appliquer à tous les messages]**.</span><span class="sxs-lookup"><span data-stu-id="bbd36-123">Under **Apply this rule**, select **[Apply to all messages]**.</span></span>
     
     > [!TIP]
-    > <span data-ttu-id="527b9-128">[Découvrez-en plus](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer) sur la mise en forme des exclusions de responsabilité.</span><span class="sxs-lookup"><span data-stu-id="527b9-128">[Learn more](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer) about formatting disclaimers.</span></span> <span data-ttu-id="527b9-129">(Cet article de mise en forme est destiné à Exchange Server, mais il s’applique également à Microsoft 365.)</span><span class="sxs-lookup"><span data-stu-id="527b9-129">(This formatting article is for Exchange Server, but it also applies to Microsoft 365.)</span></span> 
-
-9. <span data-ttu-id="527b9-130">Sélectionnez **Sélectionner un** et sélectionnez **renvoyer** en tant qu’option de secours.</span><span class="sxs-lookup"><span data-stu-id="527b9-130">Select **Select one** and choose **Wrap** as a fallback option.</span></span> <span data-ttu-id="527b9-131">Sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="527b9-131">Then **OK**.</span></span> <span data-ttu-id="527b9-132">Ainsi, si l'exclusion de responsabilité ne peut pas être ajoutée parce que le chiffrement ou un autre paramètre de courrier est activé, elle sera encapsulée dans une enveloppe du message.</span><span class="sxs-lookup"><span data-stu-id="527b9-132">This means that if the disclaimer can't be added because of encryption or another mail setting, it will be wrapped in a message envelope.</span></span>
-    
-10. <span data-ttu-id="527b9-p107">Laissez **Auditer cette règle avec un niveau de gravité** sélectionné. Puis sélectionnez le niveau à utiliser dans le journal des messages : **Faible**, **Moyen** ou **Élevé**.</span><span class="sxs-lookup"><span data-stu-id="527b9-p107">Leave **Audit this rule with severity level** selected. Then choose **Low**, **Medium**, or **High** to be used in the message log.</span></span> 
-    
-11. <span data-ttu-id="527b9-135">Sélectionnez **Appliquer** pour activer immédiatement l'exclusion de responsabilité, sauf si vous souhaitez la tester au préalable.</span><span class="sxs-lookup"><span data-stu-id="527b9-135">Choose **Enforce** to turn on the disclaimer immediately, unless you want to test it first.</span></span> 
-    
-12. <span data-ttu-id="527b9-136">Sélectionnez **Autres options** pour inclure d'autres conditions ou exceptions.</span><span class="sxs-lookup"><span data-stu-id="527b9-136">Choose **More options** to include additional conditions or exceptions.</span></span> 
-    
-13. <span data-ttu-id="527b9-137">Sélectionnez **Enregistrer** lorsque vous avez terminé.</span><span class="sxs-lookup"><span data-stu-id="527b9-137">Choose **Save** when finished.</span></span> 
-    
-## <a name="limitations-of-organization-wide-signatures"></a><span data-ttu-id="527b9-138">Limitations des signatures à l’échelle de l’Organisation</span><span class="sxs-lookup"><span data-stu-id="527b9-138">Limitations of organization wide signatures</span></span>
-
-<span data-ttu-id="527b9-139">Vous ne pouvez pas effectuer les opérations suivantes avec les signatures Microsoft 365 :</span><span class="sxs-lookup"><span data-stu-id="527b9-139">You can't do the following with Microsoft 365 signatures:</span></span>
+    > <span data-ttu-id="bbd36-124">[Découvrez-en plus](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping) sur l'application de conditions si vous ne souhaitez pas appliquer l'exclusion de responsabilité à tous les messages.</span><span class="sxs-lookup"><span data-stu-id="bbd36-124">[Learn more](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping) about applying conditions if you don't want the disclaimer applied to all messages.</span></span> <span data-ttu-id="bbd36-125">(Cet article de portée est destiné à Exchange Server, mais il s’applique également à Microsoft 365.)</span><span class="sxs-lookup"><span data-stu-id="bbd36-125">(This scoping article is for Exchange Server, but it also applies to Microsoft 365.)</span></span> 
   
-- <span data-ttu-id="527b9-140">Insérer la signature directement sous la dernière adresse de courrier ou de transfert</span><span class="sxs-lookup"><span data-stu-id="527b9-140">Insert the signature directly under the latest email reply or forward</span></span>
+7. <span data-ttu-id="bbd36-126">Sous Effectuer les opérations suivantes, laissez **Ajouter l'exclusion de responsabilité** sélectionné.</span><span class="sxs-lookup"><span data-stu-id="bbd36-126">Under Do the following, leave **Append the disclaimer** selected.</span></span> 
     
-- <span data-ttu-id="527b9-141">Afficher les signatures électroniques côté serveur dans les dossiers éléments envoyés des utilisateurs</span><span class="sxs-lookup"><span data-stu-id="527b9-141">Display server-side email signatures in users' Sent Items folders</span></span>
+8.  <span data-ttu-id="bbd36-127">Sélectionnez **entrer le texte** et tapez votre clause d’exclusion de responsabilité.</span><span class="sxs-lookup"><span data-stu-id="bbd36-127">Select **Enter text** and type your disclaimer.</span></span> 
     
-- <span data-ttu-id="527b9-142">Incorporer des images dans les signatures de courrier électronique</span><span class="sxs-lookup"><span data-stu-id="527b9-142">Embed images in email signatures</span></span>
-    
-- <span data-ttu-id="527b9-143">Ignorer les lignes qui contiennent des variables qui n’ont pas pu être mises à jour (par exemple, parce que la valeur n’a pas été fournie pour un utilisateur)</span><span class="sxs-lookup"><span data-stu-id="527b9-143">Skip lines which contain variables that couldn't be updated (e.g. because the value wasn't provided for a user)</span></span>
-    
-<span data-ttu-id="527b9-144">Pour bénéficier de ces fonctionnalités et d’autres fonctionnalités, utilisez un outil tiers.</span><span class="sxs-lookup"><span data-stu-id="527b9-144">To gain these and other capabilities, use a third-party tool.</span></span> <span data-ttu-id="527b9-145">Veuillez effectuer une recherche sur Internet pour le **logiciel de signature électronique**.</span><span class="sxs-lookup"><span data-stu-id="527b9-145">Please do an internet search for **email signature software**.</span></span> <span data-ttu-id="527b9-146">Un certain nombre de ces fournisseurs sont des partenaires Microsoft Gold et leurs logiciels fournissent ces fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="527b9-146">A number of these providers are Microsoft Gold Partners and their software provides these capabilities.</span></span> 
-  
-## <a name="more-resources"></a><span data-ttu-id="527b9-147">Autres ressources</span><span class="sxs-lookup"><span data-stu-id="527b9-147">More resources</span></span>
+    > [!TIP]
+    > <span data-ttu-id="bbd36-128">[Découvrez-en plus](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer) sur la mise en forme des exclusions de responsabilité.</span><span class="sxs-lookup"><span data-stu-id="bbd36-128">[Learn more](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer) about formatting disclaimers.</span></span> <span data-ttu-id="bbd36-129">(Cet article de mise en forme est destiné à Exchange Server, mais il s’applique également à Microsoft 365.)</span><span class="sxs-lookup"><span data-stu-id="bbd36-129">(This formatting article is for Exchange Server, but it also applies to Microsoft 365.)</span></span> 
 
-- <span data-ttu-id="527b9-148">Pour plus d’informations sur l’utilisation de PowerShell, consultez la rubrique relative aux [clauses d’exclusion de responsabilité, signatures, pieds de page ou en-têtes de message à l’échelle de l’organisation dans Microsoft 365](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) .</span><span class="sxs-lookup"><span data-stu-id="527b9-148">See [Organization-wide message disclaimers, signatures, footers, or headers in Microsoft 365](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) for information about using PowerShell.</span></span> 
+9. <span data-ttu-id="bbd36-130">Sélectionnez **Sélectionner un** et sélectionnez **renvoyer** en tant qu’option de secours.</span><span class="sxs-lookup"><span data-stu-id="bbd36-130">Select **Select one** and choose **Wrap** as a fallback option.</span></span> <span data-ttu-id="bbd36-131">Sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="bbd36-131">Then **OK**.</span></span> <span data-ttu-id="bbd36-132">Ainsi, si l'exclusion de responsabilité ne peut pas être ajoutée parce que le chiffrement ou un autre paramètre de courrier est activé, elle sera encapsulée dans une enveloppe du message.</span><span class="sxs-lookup"><span data-stu-id="bbd36-132">This means that if the disclaimer can't be added because of encryption or another mail setting, it will be wrapped in a message envelope.</span></span>
+    
+10. <span data-ttu-id="bbd36-133">Leave **Audit this rule with severity level** selected.</span><span class="sxs-lookup"><span data-stu-id="bbd36-133">Leave **Audit this rule with severity level** selected.</span></span> <span data-ttu-id="bbd36-134">Then choose **Low**, **Medium**, or **High** to be used in the message log.</span><span class="sxs-lookup"><span data-stu-id="bbd36-134">Then choose **Low**, **Medium**, or **High** to be used in the message log.</span></span> 
+    
+11. <span data-ttu-id="bbd36-135">Sélectionnez **Appliquer** pour activer immédiatement l'exclusion de responsabilité, sauf si vous souhaitez la tester au préalable.</span><span class="sxs-lookup"><span data-stu-id="bbd36-135">Choose **Enforce** to turn on the disclaimer immediately, unless you want to test it first.</span></span> 
+    
+12. <span data-ttu-id="bbd36-136">Sélectionnez **Autres options** pour inclure d'autres conditions ou exceptions.</span><span class="sxs-lookup"><span data-stu-id="bbd36-136">Choose **More options** to include additional conditions or exceptions.</span></span> 
+    
+13. <span data-ttu-id="bbd36-137">Sélectionnez **Enregistrer** lorsque vous avez terminé.</span><span class="sxs-lookup"><span data-stu-id="bbd36-137">Choose **Save** when finished.</span></span> 
+    
+## <a name="limitations-of-organization-wide-signatures"></a><span data-ttu-id="bbd36-138">Limitations des signatures à l’échelle de l’Organisation</span><span class="sxs-lookup"><span data-stu-id="bbd36-138">Limitations of organization wide signatures</span></span>
+
+<span data-ttu-id="bbd36-139">Vous ne pouvez pas effectuer les opérations suivantes avec les signatures Microsoft 365 :</span><span class="sxs-lookup"><span data-stu-id="bbd36-139">You can't do the following with Microsoft 365 signatures:</span></span>
+  
+- <span data-ttu-id="bbd36-140">Insérer la signature directement sous la dernière adresse de courrier ou de transfert</span><span class="sxs-lookup"><span data-stu-id="bbd36-140">Insert the signature directly under the latest email reply or forward</span></span>
+    
+- <span data-ttu-id="bbd36-141">Afficher les signatures électroniques côté serveur dans les dossiers éléments envoyés des utilisateurs</span><span class="sxs-lookup"><span data-stu-id="bbd36-141">Display server-side email signatures in users' Sent Items folders</span></span>
+    
+- <span data-ttu-id="bbd36-142">Incorporer des images dans les signatures de courrier électronique</span><span class="sxs-lookup"><span data-stu-id="bbd36-142">Embed images in email signatures</span></span>
+    
+- <span data-ttu-id="bbd36-143">Ignorer les lignes qui contiennent des variables qui n’ont pas pu être mises à jour (par exemple, parce que la valeur n’a pas été fournie pour un utilisateur)</span><span class="sxs-lookup"><span data-stu-id="bbd36-143">Skip lines which contain variables that couldn't be updated (e.g. because the value wasn't provided for a user)</span></span>
+    
+<span data-ttu-id="bbd36-144">Pour bénéficier de ces fonctionnalités et d’autres fonctionnalités, utilisez un outil tiers.</span><span class="sxs-lookup"><span data-stu-id="bbd36-144">To gain these and other capabilities, use a third-party tool.</span></span> <span data-ttu-id="bbd36-145">Veuillez effectuer une recherche sur Internet pour le **logiciel de signature électronique**.</span><span class="sxs-lookup"><span data-stu-id="bbd36-145">Please do an internet search for **email signature software**.</span></span> <span data-ttu-id="bbd36-146">Un certain nombre de ces fournisseurs sont des partenaires Microsoft Gold et leurs logiciels fournissent ces fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="bbd36-146">A number of these providers are Microsoft Gold Partners and their software provides these capabilities.</span></span> 
+  
+## <a name="more-resources"></a><span data-ttu-id="bbd36-147">Autres ressources</span><span class="sxs-lookup"><span data-stu-id="bbd36-147">More resources</span></span>
+
+- <span data-ttu-id="bbd36-148">Pour plus d’informations sur l’utilisation de PowerShell, consultez la rubrique relative aux [clauses d’exclusion de responsabilité, signatures, pieds de page ou en-têtes de message à l’échelle de l’organisation dans Microsoft 365](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) .</span><span class="sxs-lookup"><span data-stu-id="bbd36-148">See [Organization-wide message disclaimers, signatures, footers, or headers in Microsoft 365](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) for information about using PowerShell.</span></span> 
     
 
