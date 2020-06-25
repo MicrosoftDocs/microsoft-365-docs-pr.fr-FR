@@ -69,29 +69,20 @@
               href: mtp/setup-mtpeval.md
             - name: Configuration et intégration
               href: mtp/config-mtpeval.md
-            - name: Activer la Protection Microsoft contre les menaces
-              href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#turn-on-microsoft-threat-protection'
+            - name: Démarrer le service de protection contre les menaces Microsoft
+              href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#start-the-microsoft-threat-protection-service'
             - name: Créer une alerte de test
               href: mtp/generate-test-alert.md
         - name: Guides de procédures
           items:
             - name: Créer un environnement d’essai
               href: mtp/mtp-evaluation.md
-              items:
-                - name: Préparation
-                  href: mtp/prepare-mtpeval.md
-                - name: Configuration
-                  href: mtp/setup-mtpeval.md
-                - name: Configuration et intégration
-                  href: mtp/config-mtpeval.md
-                - name: Activer la Protection Microsoft contre les menaces
-                  href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#turn-on-microsoft-threat-protection'
-                - name: Créer une alerte de test
-                  href: mtp/generate-test-alert.md
             - name: Déployer les services pris en charge
               href: mtp/deploy-supported-services.md
             - name: Activer la Protection Microsoft contre les menaces
               href: mtp/mtp-enable.md
+            - name: Activer le Forum aux questions
+              href: mtp/mtp-enable-faq.md
             - name: Incidents
               items:
                 - name: Vue d’ensemble
@@ -196,14 +187,10 @@
                       href: mtp/custom-detections-overview.md
                     - name: Créer et gérer les règles de détection
                       href: mtp/custom-detection-rules.md
-            - name: Degré de sécurisation
+            - name: Degré de sécurisation Microsoft
               items:
-                - name: Degré de sécurisation (nouveau)
-                  href: mtp/microsoft-secure-score-new.md
-                - name: Degré de sécurisation (itération précédente)
+                - name: Vue d’ensemble du score sécurisé
                   href: mtp/microsoft-secure-score.md
-                - name: Secure Score (aperçu)
-                  href: mtp/microsoft-secure-score-preview.md
                 - name: Nouveautés
                   href: mtp/microsoft-secure-score-whats-coming.md
             - name: Rapports
@@ -324,6 +311,8 @@
                   href: ./office-365-security/safety-tips-in-office-365.md
                 - name: Utilisation du portail Supprimer de la liste pour vous supprimer de la liste des expéditeurs bloqués
                   href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
+                - name: Gérer les URL et fichiers dans la liste verte/rouge du client
+                  href: ./office-365-security/tenant-allow-block-list.md
             - name: Protection anti-hameçonnage
               href: ./office-365-security/anti-phishing-protection.md
               items:

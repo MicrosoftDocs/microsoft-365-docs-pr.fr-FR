@@ -19,12 +19,12 @@
           href: empower-people-to-work-remotely-secure-sign-in.md
         - name: "Étape\_2. Fournir un accès à distance"
           href: empower-people-to-work-remotely-remote-access.md
-        - name: "Étape\_3. Déployer la gestion des points de terminaison"
+        - name: "Étape\_3. Déployer la sécurité et la conformité"
+          href: empower-people-to-work-remotely-security-compliance.md
+        - name: "Étape\_4. Déployer la gestion des points de terminaison"
           href: empower-people-to-work-remotely-manage-endpoints.md
-        - name: "Étape\_4. Déployer les applications et les services de productivité"
+        - name: "Étape\_5. Déployer les applications et les services de productivité"
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: "Étape\_5. Créer des lieux de communication"
-          href: empower-people-to-work-remotely-communication-venues.md
         - name: "Étape\_6. Former les travailleurs à distance"
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: "Configurer la collaboration sécurisée avec Microsoft\_365"
@@ -139,6 +139,8 @@
           href: contoso-case-study-solutions.md
         - name: Équipe isolée pour un projet top secret
           href: contoso-team-for-top-secret-project.md
+        - name: Migration de la voix Teams
+          href: 'https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Guides pour les laboratoires de tests
       items:
         - name: Guides pour les laboratoires de tests pour les solutions et scénarios
