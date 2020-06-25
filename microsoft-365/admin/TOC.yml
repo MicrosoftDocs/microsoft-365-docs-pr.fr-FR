@@ -33,7 +33,7 @@
         - name: Déployer Teams
           href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
         - name: Formation grand public sur les applications
-          href: 'https://support.office.com/office-training-center'
+          href: 'https://support.microsoft.com/training'
         - name: "Quel abonnement ai-je\_?"
           href: admin-overview/what-subscription-do-i-have.md
         - name: Personnaliser la page de connexion
@@ -93,6 +93,8 @@
               href: manage/assign-licenses-to-users.md
             - name: Attribuer des rôles d’administrateur
               href: add-users/assign-admin-roles.md
+            - name: Utilisateurs invités
+              href: add-users/about-guest-users.md
             - name: Ajouter des utilisateurs invités à un groupe Microsoft 365
               href: create-groups/manage-guest-access-in-groups.md
             - name: Retirer des licences à des utilisateurs
@@ -170,7 +172,7 @@
               href: email/about-shared-mailboxes.md
             - name: Créer une boîte aux lettres partagée
               href: email/create-a-shared-mailbox.md
-            - name: Configurer une boîte aux lettres partagée
+            - name: Configurer les paramètres de boîte aux lettres partagée
               href: email/configure-a-shared-mailbox.md
             - name: Convertir une boîte aux lettres utilisateur en boîte aux lettres partagée
               href: email/convert-user-mailbox-to-shared-mailbox.md
@@ -218,6 +220,8 @@
           href: manage/set-password-expiration-policy.md
         - name: Personnaliser le lanceur d’applications
           href: manage/customize-the-app-launcher.md
+        - name: Mettre à niveau les utilisateurs vers les applications les plus récentes
+          href: setup/upgrade-users-to-latest-office-client.md
         - name: Conditions préalables au déploiement centralisé des compléments
           href: manage/centralized-deployment-of-add-ins.md
         - name: Installer et gérer des compléments à l’aide du déploiement centralisé
@@ -320,11 +324,11 @@
         - name: Partager des calendriers avec des utilisateurs invités
           href: manage/share-calendars-with-external-users.md
         - name: Créer une équipe avec les utilisateurs invités
-          href: 'https://support.office.com/article/11fbb083-52ee-434d-8c6e-63711fdafac7'
-        - name: Planifier une réunion Teams avec des invités
-          href: 'https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a?ui=en-US&rs=en-US&ad=US'
+          href: 'https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7'
+        - name: Planifier une réunion Teams avec des utilisateurs invités
+          href: 'https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a'
         - name: Rejoindre une réunion Teams avec des utilisateurs invités
-          href: 'https://support.office.com/article/a120c282-063d-46b8-b973-851197ab75d8?ui=en-US&rs=en-US&ad=US'
+          href: 'https://support.microsoft.com/office/a120c282-063d-46b8-b973-851197ab75d8'
     - name: Résoudre les problèmes
       href: 'https://docs.microsoft.com/office/troubleshoot/'
     - name: Contacter l’assistance
