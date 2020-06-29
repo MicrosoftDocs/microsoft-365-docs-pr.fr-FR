@@ -34,7 +34,7 @@
           href: insider-risk-management-cases.md
         - name: Examiner les données à l’aide de l’explorateur de contenu des risques internes
           href: insider-risk-management-content-explorer.md
-        - name: Ajouter des utilisateurs aux stratégies de risques internes
+        - name: Gérer le flux de travail avec le tableau de bord utilisateurs
           href: insider-risk-management-users.md
         - name: Créer des modèles d’avertissement sur les risques internes
           href: insider-risk-management-notices.md
