@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 11/18/2019
+ms.date: 06/17/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,72 +15,76 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Comment une multinationale fictive mais représentative a mis en œuvre Microsoft 365 Entreprise.
-ms.openlocfilehash: e623e4a95172432dc790f345b1758afed63e144c
-ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
+ms.openlocfilehash: dd9bf2dcb7a8bff453746a0084faaf69650bf6fd
+ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268421"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854257"
 ---
-# <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a><span data-ttu-id="1db40-103">Microsoft 365 Entreprise pour Contoso Corporation</span><span class="sxs-lookup"><span data-stu-id="1db40-103">Microsoft 365 Enterprise for the Contoso Corporation</span></span>
+# <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a><span data-ttu-id="b6851-103">Microsoft 365 Entreprise pour Contoso Corporation</span><span class="sxs-lookup"><span data-stu-id="b6851-103">Microsoft 365 Enterprise for the Contoso Corporation</span></span>
 
-<span data-ttu-id="1db40-104">Microsoft 365 Entreprise est la première offre cloud de Microsoft qui allie les applications et services de productivité locaux et basés sur le cloud à Windows 10 Entreprise et aux fonctionnalités de sécurité avancées dans une solution complète et intelligente, qui permet à chacun d’être créatif et de collaborer en toute sécurité.</span><span class="sxs-lookup"><span data-stu-id="1db40-104">Microsoft 365 Enterprise is Microsoft’s premier cloud offering that combines local and cloud-based productivity apps and services with Windows 10 Enterprise and advanced security features into a complete, intelligent solution that that empowers everyone to be creative and work together, securely.</span></span> 
+<span data-ttu-id="b6851-104">Microsoft 365 Entreprise est la première offre cloud de Microsoft qui allie les applications et services de productivité locaux et basés sur le cloud à Windows 10 Entreprise et aux fonctionnalités de sécurité avancées dans une solution complète et intelligente, qui permet à chacun d’être créatif et de collaborer en toute sécurité.</span><span class="sxs-lookup"><span data-stu-id="b6851-104">Microsoft 365 Enterprise is Microsoft’s premier cloud offering that combines local and cloud-based productivity apps and services with Windows 10 Enterprise and advanced security features into a complete, intelligent solution that that empowers everyone to be creative and work together, securely.</span></span> 
 
-<span data-ttu-id="1db40-p101">Contoso Corporation est un conglomérat de fabricants international fictif mais représentatif ayant son siège à Paris, en France. Contoso a déployé Microsoft 365 Entreprise et adressé des décisions de conception majeures et les détails d’implémentation pour la mise en réseau, l’identité, Windows 10 Entreprise, Applications Microsoft 365 pour les entreprises, la gestion des appareils mobiles, la protection des informations et la sécurité.</span><span class="sxs-lookup"><span data-stu-id="1db40-p101">The Contoso Corporation is a fictional but representative global manufacturing conglomerate with its headquarters in Paris, France. Contoso has deployed Microsoft 365 Enterprise and addressed major design decisions and implementation details for networking, identity, Windows 10 Enterprise, Microsoft 365 Apps for enterprise, mobile device management, information protection, and security.</span></span> 
+<span data-ttu-id="b6851-105">The Contoso Corporation is a fictional but representative global manufacturing conglomerate with its headquarters in Paris, France.</span><span class="sxs-lookup"><span data-stu-id="b6851-105">The Contoso Corporation is a fictional but representative global manufacturing conglomerate with its headquarters in Paris, France.</span></span> <span data-ttu-id="b6851-106">Contoso has deployed Microsoft 365 Enterprise and addressed major design decisions and implementation details for networking, identity, Windows 10 Enterprise, Microsoft 365 Apps for enterprise, mobile device management, information protection, and security.</span><span class="sxs-lookup"><span data-stu-id="b6851-106">Contoso has deployed Microsoft 365 Enterprise and addressed major design decisions and implementation details for networking, identity, Windows 10 Enterprise, Microsoft 365 Apps for enterprise, mobile device management, information protection, and security.</span></span> 
 
-<span data-ttu-id="1db40-107">L’objectif global de Contoso pour Microsoft 365 Entreprise est d’accélérer leur transformation numérique à l’aide de services cloud pour réunir ses employés, partenaires, données, crée une valeur client et maintenir son avantage concurrentiel dans un monde avant tout digital.</span><span class="sxs-lookup"><span data-stu-id="1db40-107">The overall goal of Contoso for Microsoft 365 Enterprise is to accelerate their digital transformation by using cloud services to bring together its employees, partners, data, and processes to create customer value and maintain its competitive advantage in a digital-first world.</span></span>
+<span data-ttu-id="b6851-107">L’objectif global de Contoso pour Microsoft 365 Entreprise est d’accélérer leur transformation numérique à l’aide de services cloud pour réunir ses employés, partenaires, données, crée une valeur client et maintenir son avantage concurrentiel dans un monde avant tout digital.</span><span class="sxs-lookup"><span data-stu-id="b6851-107">The overall goal of Contoso for Microsoft 365 Enterprise is to accelerate their digital transformation by using cloud services to bring together its employees, partners, data, and processes to create customer value and maintain its competitive advantage in a digital-first world.</span></span>
 
-<span data-ttu-id="1db40-108">Reportez-vous aux articles suivants pour plus d’informations :</span><span class="sxs-lookup"><span data-stu-id="1db40-108">See these articles for the details:</span></span>
+<span data-ttu-id="b6851-108">Reportez-vous aux articles suivants pour plus d’informations :</span><span class="sxs-lookup"><span data-stu-id="b6851-108">See these articles for the details:</span></span>
 
-- [<span data-ttu-id="1db40-109">Vue d’ensemble</span><span class="sxs-lookup"><span data-stu-id="1db40-109">Overview</span></span>](contoso-overview.md)
+- [<span data-ttu-id="b6851-109">Vue d’ensemble</span><span class="sxs-lookup"><span data-stu-id="b6851-109">Overview</span></span>](contoso-overview.md)
 
-  <span data-ttu-id="1db40-110">La société Contoso Corporation est un conglomérat international spécialisé dans la fabrication, la vente et le support technique, qui propose plus de 100 000 produits.</span><span class="sxs-lookup"><span data-stu-id="1db40-110">Contoso is a global conglomerate manufacturing, sales, and support organization with over 100,000 products.</span></span>
+  <span data-ttu-id="b6851-110">La société Contoso Corporation est un conglomérat international spécialisé dans la fabrication, la vente et le support technique, qui propose plus de 100 000 produits.</span><span class="sxs-lookup"><span data-stu-id="b6851-110">Contoso is a global conglomerate manufacturing, sales, and support organization with over 100,000 products.</span></span>
 
-- [<span data-ttu-id="1db40-111">Infrastructure et besoins informatiques de Contoso</span><span class="sxs-lookup"><span data-stu-id="1db40-111">Contoso's IT infrastructure and needs</span></span>](contoso-infra-needs.md)
+- [<span data-ttu-id="b6851-111">Infrastructure et besoins informatiques de Contoso</span><span class="sxs-lookup"><span data-stu-id="b6851-111">Contoso's IT infrastructure and needs</span></span>](contoso-infra-needs.md)
 
-  <span data-ttu-id="1db40-112">Contoso passe actuellement d’une infrastructure informatique centralisée locale à une infrastructure cloud incluant des charges de travail basées sur la productivité personnelle et des applications cloud, ainsi que des scénarios hybrides.</span><span class="sxs-lookup"><span data-stu-id="1db40-112">Contoso has been transitioning from an on-premises, centralized IT infrastructure to a cloud-inclusive one that incorporates cloud-based personal productivity workloads, applications, and hybrid scenarios.</span></span>
+  <span data-ttu-id="b6851-112">Contoso passe actuellement d’une infrastructure informatique centralisée locale à une infrastructure cloud incluant des charges de travail basées sur la productivité personnelle et des applications cloud, ainsi que des scénarios hybrides.</span><span class="sxs-lookup"><span data-stu-id="b6851-112">Contoso has been transitioning from an on-premises, centralized IT infrastructure to a cloud-inclusive one that incorporates cloud-based personal productivity workloads, applications, and hybrid scenarios.</span></span>
 
-- [<span data-ttu-id="1db40-113">Mise en réseau</span><span class="sxs-lookup"><span data-stu-id="1db40-113">Networking</span></span>](contoso-networking.md)
+- [<span data-ttu-id="b6851-113">Mise en réseau</span><span class="sxs-lookup"><span data-stu-id="b6851-113">Networking</span></span>](contoso-networking.md)
 
-  <span data-ttu-id="1db40-114">Les ingénieurs réseau de Contoso ont optimisé le trafic pour leurs utilisateurs locaux vers leur périphérie intranet et à l’emplacement réseau Microsoft le plus proche sur Internet.</span><span class="sxs-lookup"><span data-stu-id="1db40-114">Contoso's network engineers have optimized traffic for their on-premises users to their intranet edge and to the closest Microsoft network location on the Internet.</span></span>
+  <span data-ttu-id="b6851-114">Les ingénieurs réseau de Contoso ont optimisé le trafic pour leurs utilisateurs locaux vers leur périphérie intranet et à l’emplacement réseau Microsoft le plus proche sur Internet.</span><span class="sxs-lookup"><span data-stu-id="b6851-114">Contoso's network engineers have optimized traffic for their on-premises users to their intranet edge and to the closest Microsoft network location on the Internet.</span></span>
 
-- [<span data-ttu-id="1db40-115">Identité</span><span class="sxs-lookup"><span data-stu-id="1db40-115">Identity</span></span>](contoso-identity.md)
+- [<span data-ttu-id="b6851-115">Identité</span><span class="sxs-lookup"><span data-stu-id="b6851-115">Identity</span></span>](contoso-identity.md)
 
-  <span data-ttu-id="1db40-116">L'identité de Contoso dans la solution cloud tire parti de sa forêt Active Directory Domain Services (AD DS) local et intègre l'authentification fédérée avec ses fournisseurs d'identité tiers existants.</span><span class="sxs-lookup"><span data-stu-id="1db40-116">Contoso's identity in the cloud solution leverages their on-premises Active Directory Domain Services (AD DS) forest and includes federated authentication with their existing trusted, third-party identity providers.</span></span>
+  <span data-ttu-id="b6851-116">L'identité de Contoso dans la solution cloud tire parti de sa forêt Active Directory Domain Services (AD DS) local et intègre l'authentification fédérée avec ses fournisseurs d'identité tiers existants.</span><span class="sxs-lookup"><span data-stu-id="b6851-116">Contoso's identity in the cloud solution leverages their on-premises Active Directory Domain Services (AD DS) forest and includes federated authentication with their existing trusted, third-party identity providers.</span></span>
 
-- [<span data-ttu-id="1db40-117">Windows 10 Entreprise</span><span class="sxs-lookup"><span data-stu-id="1db40-117">Windows 10 Enterprise</span></span>](contoso-win10.md)
+- [<span data-ttu-id="b6851-117">Windows 10 Entreprise</span><span class="sxs-lookup"><span data-stu-id="b6851-117">Windows 10 Enterprise</span></span>](contoso-win10.md)
 
-  <span data-ttu-id="1db40-118">L’infrastructure Windows 10 Entreprise de Contoso se déploie et installe automatiquement les mises à jour pour les appareils exécutant son PC principal et le système d’exploitation des appareils.</span><span class="sxs-lookup"><span data-stu-id="1db40-118">Contoso's Windows 10 Enterprise infrastructure deploys and automatically installs updates for devices running their primary PC and device operating system.</span></span>
+  <span data-ttu-id="b6851-118">L’infrastructure Windows 10 Entreprise de Contoso se déploie et installe automatiquement les mises à jour pour les appareils exécutant son PC principal et le système d’exploitation des appareils.</span><span class="sxs-lookup"><span data-stu-id="b6851-118">Contoso's Windows 10 Enterprise infrastructure deploys and automatically installs updates for devices running their primary PC and device operating system.</span></span>
 
-- [<span data-ttu-id="1db40-119">Applications Microsoft 365 pour les entreprises</span><span class="sxs-lookup"><span data-stu-id="1db40-119">Microsoft 365 Apps for enterprise</span></span>](contoso-o365pp.md)
+- [<span data-ttu-id="b6851-119">Applications Microsoft 365 pour les entreprises</span><span class="sxs-lookup"><span data-stu-id="b6851-119">Microsoft 365 Apps for enterprise</span></span>](contoso-o365pp.md)
 
-  <span data-ttu-id="1db40-120">Contoso les Applications Microsoft 365 pour l’infrastructure d’entreprise déploient et installent automatiquement les mises à jour de la suite de logiciels de productivité Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="1db40-120">Contoso Microsoft 365 Apps for enterprise infrastructure deploys and automatically installs updates for the Microsoft Office suite of productivity software.</span></span>
+  <span data-ttu-id="b6851-120">Contoso les Applications Microsoft 365 pour l’infrastructure d’entreprise déploient et installent automatiquement les mises à jour de la suite de logiciels de productivité Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="b6851-120">Contoso Microsoft 365 Apps for enterprise infrastructure deploys and automatically installs updates for the Microsoft Office suite of productivity software.</span></span>
 
-- [<span data-ttu-id="1db40-121">Gestion des appareils mobiles</span><span class="sxs-lookup"><span data-stu-id="1db40-121">Mobile device management</span></span>](contoso-mdm.md)
+- [<span data-ttu-id="b6851-121">Gestion des appareils mobiles</span><span class="sxs-lookup"><span data-stu-id="b6851-121">Mobile device management</span></span>](contoso-mdm.md)
 
-  <span data-ttu-id="1db40-122">Avec nombreux employés en itinérance ainsi que des smartphones et tablettes entreprise et personnels, Contoso utilise la gestion des périphériques mobiles pour inscrire et sécuriser les appareils et leurs données, ainsi que gérer les applications.</span><span class="sxs-lookup"><span data-stu-id="1db40-122">With many roaming employees and both company and personal smart phones and tablets, Contoso uses mobile device management to enroll and secure the devices and their data and manage apps.</span></span>
+  <span data-ttu-id="b6851-122">Avec nombreux employés en itinérance ainsi que des smartphones et tablettes entreprise et personnels, Contoso utilise la gestion des périphériques mobiles pour inscrire et sécuriser les appareils et leurs données, ainsi que gérer les applications.</span><span class="sxs-lookup"><span data-stu-id="b6851-122">With many roaming employees and both company and personal smart phones and tablets, Contoso uses mobile device management to enroll and secure the devices and their data and manage apps.</span></span>
 
-- [<span data-ttu-id="1db40-123">Protection des informations</span><span class="sxs-lookup"><span data-stu-id="1db40-123">Information protection</span></span>](contoso-info-protect.md)
+- [<span data-ttu-id="b6851-123">Protection des informations</span><span class="sxs-lookup"><span data-stu-id="b6851-123">Information protection</span></span>](contoso-info-protect.md)
 
-  <span data-ttu-id="1db40-124">Pour vous assurer que les données courantes et de forte valeur sont identifiées, définies, et soumises à différents niveaux de sécurité, Contoso renforce ses stratégies de sécurité des données avec la protection des informations Microsoft 365 Entreprise.</span><span class="sxs-lookup"><span data-stu-id="1db40-124">To ensure that both common and high-value data is identified, labeled, and subject to layers of security, Contoso enforces its data security policies with Microsoft 365 Enterprise information protection.</span></span>
+  <span data-ttu-id="b6851-124">Pour vous assurer que les données courantes et de forte valeur sont identifiées, définies, et soumises à différents niveaux de sécurité, Contoso renforce ses stratégies de sécurité des données avec la protection des informations Microsoft 365 Entreprise.</span><span class="sxs-lookup"><span data-stu-id="b6851-124">To ensure that both common and high-value data is identified, labeled, and subject to layers of security, Contoso enforces its data security policies with Microsoft 365 Enterprise information protection.</span></span>
 
-- [<span data-ttu-id="1db40-125">Résumé de sécurité Microsoft 365 Entreprise</span><span class="sxs-lookup"><span data-stu-id="1db40-125">Summary of Microsoft 365 Enterprise security</span></span>](contoso-security-summary.md)
+- [<span data-ttu-id="b6851-125">Résumé de sécurité Microsoft 365 Entreprise</span><span class="sxs-lookup"><span data-stu-id="b6851-125">Summary of Microsoft 365 Enterprise security</span></span>](contoso-security-summary.md)
 
-  <span data-ttu-id="1db40-126">Contoso utilise la gamme complète de fonctionnalités de sécurité Microsoft 365 Entreprise pour la gestion de l’identité et de l’accès, la protection contre les menaces, la protection des informations et la gestion de la sécurité.</span><span class="sxs-lookup"><span data-stu-id="1db40-126">Contoso uses the full spectrum of Microsoft 365 Enterprise security features for identity and access management, threat protection, information protection, and security management.</span></span>
+  <span data-ttu-id="b6851-126">Contoso utilise la gamme complète de fonctionnalités de sécurité Microsoft 365 Entreprise pour la gestion de l’identité et de l’accès, la protection contre les menaces, la protection des informations et la gestion de la sécurité.</span><span class="sxs-lookup"><span data-stu-id="b6851-126">Contoso uses the full spectrum of Microsoft 365 Enterprise security features for identity and access management, threat protection, information protection, and security management.</span></span>
 
-- [<span data-ttu-id="1db40-127">Équipe pour un projet top secret</span><span class="sxs-lookup"><span data-stu-id="1db40-127">Team for a top-secret project</span></span>](../solutions/contoso-team-for-top-secret-project.md)
+- [<span data-ttu-id="b6851-127">Équipe pour un projet top secret</span><span class="sxs-lookup"><span data-stu-id="b6851-127">Team for a top-secret project</span></span>](../solutions/contoso-team-for-top-secret-project.md)
 
-  <span data-ttu-id="1db40-128">Pour créer un environnement de collaboration sécurisé pour un projet secret principal, Contoso a utilisé une équipe avec l’isolation de la sécurité.</span><span class="sxs-lookup"><span data-stu-id="1db40-128">To create a secure collaboration environment for a top secret project, Contoso used a team with security isolation.</span></span>
+  <span data-ttu-id="b6851-128">Pour créer un environnement de collaboration sécurisé pour un projet secret principal, Contoso a utilisé une équipe avec l’isolation de la sécurité.</span><span class="sxs-lookup"><span data-stu-id="b6851-128">To create a secure collaboration environment for a top secret project, Contoso used a team with security isolation.</span></span>
 
-## <a name="next-step"></a><span data-ttu-id="1db40-129">Étape suivante</span><span class="sxs-lookup"><span data-stu-id="1db40-129">Next step</span></span>
+- [<span data-ttu-id="b6851-129">Vue d’ensemble de la migration de la voix Teams</span><span class="sxs-lookup"><span data-stu-id="b6851-129">Teams voice migration overview</span></span>](https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview)
 
-<span data-ttu-id="1db40-130">[En savoir plus](contoso-overview.md) sur Contoso Corporation, leurs bureaux dans le monde et les considérations de conception qui ont été adressées lorsqu’ils ont déployés Microsoft 365 Entreprise.</span><span class="sxs-lookup"><span data-stu-id="1db40-130">[Learn](contoso-overview.md) about the Contoso Corporation, their worldwide offices, and the design considerations that were addressed when they deployed Microsoft 365 Enterprise.</span></span>
+  <span data-ttu-id="b6851-130">Découvrez comment Contoso a migré ses utilisateurs locaux vers Teams pour la communication, la collaboration et la voix unifiées.</span><span class="sxs-lookup"><span data-stu-id="b6851-130">Learn how Contoso migrated their on-premises users to Teams for unified communication, collaboration, and voice.</span></span>
+
+## <a name="next-step"></a><span data-ttu-id="b6851-131">Étape suivante</span><span class="sxs-lookup"><span data-stu-id="b6851-131">Next step</span></span>
+
+<span data-ttu-id="b6851-132">[En savoir plus](contoso-overview.md) sur Contoso Corporation, leurs bureaux dans le monde et les considérations de conception qui ont été adressées lorsqu’ils ont déployés Microsoft 365 Entreprise.</span><span class="sxs-lookup"><span data-stu-id="b6851-132">[Learn](contoso-overview.md) about the Contoso Corporation, their worldwide offices, and the design considerations that were addressed when they deployed Microsoft 365 Enterprise.</span></span>
 
 
-## <a name="see-also"></a><span data-ttu-id="1db40-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1db40-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b6851-133">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b6851-133">See also</span></span>
 
-[<span data-ttu-id="1db40-132">Guide de déploiement</span><span class="sxs-lookup"><span data-stu-id="1db40-132">Deployment guide</span></span>](deploy-microsoft-365-enterprise.md)
+[<span data-ttu-id="b6851-134">Guide de déploiement</span><span class="sxs-lookup"><span data-stu-id="b6851-134">Deployment guide</span></span>](deploy-microsoft-365-enterprise.md)
 
-[<span data-ttu-id="1db40-133">Guides de laboratoire de test</span><span class="sxs-lookup"><span data-stu-id="1db40-133">Test lab guides</span></span>](m365-enterprise-test-lab-guides.md)
+[<span data-ttu-id="b6851-135">Guides de laboratoire de test</span><span class="sxs-lookup"><span data-stu-id="b6851-135">Test lab guides</span></span>](m365-enterprise-test-lab-guides.md)
 
 
