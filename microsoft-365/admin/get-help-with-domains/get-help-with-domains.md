@@ -21,12 +21,11 @@ search.appverid:
 - GEA150
 ms.assetid: 28343f3a-dcee-41b6-9b97-5b0f4999b7ef
 description: Prise en main de votre propre domaine pour le courrier, les sites Web et les comptes dans Office 365. Découvrez les domaines, apporter des modifications à votre domaine, intégrer des courriers électroniques et des sites Web, et obtenir des outils et des conseils.
-ms.openlocfilehash: 1d3e7fb12f497d512693b8289f072106173356bb
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
-ms.translationtype: MT
+ms.openlocfilehash: 5586744707580bee18e179a35a5ffd042ebe7579
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399919"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049677"
 ---
 # <a name="get-help-with-office-365-domains"></a>Obtenir de l'aide sur les domaines Office 365
 
@@ -158,7 +157,6 @@ ms.locfileid: "44399919"
                             <p><a href="information-for-dns-records.md">Collecter les informations nécessaires pour créer des enregistrements DNS</a></p>
                             <p><a href="find-your-domain-registrar.md">Rechercher le serveur d’inscriptions de votre domaine</a></p>
                             <p><a href="buy-a-domain-name.md">Acheter un nom de domaine</a></p>
-                            <p><a href="../setup/domains-faq.md#how-to-set-up-an-office-365-pilot">Configurer un pilote avec votre domaine personnalisé pour de nouvelles personnes au sein de votre organisation</a></p>
                             <p><a href="domain-connect.md">Ajouter rapidement un domaine GoDaddy à Office 365</a></p>
                             <p>Obtenir une aide détaillée sur l'<a href="create-dns-records-at-any-dns-hosting-provider.md">ajout des enregistrements DNS requis pour les services Office 365</a></p>
                             <p><a href="https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization">How to prepare a non-routable domain (such as .local domain) for directory synchronization (Préparation d'un domaine non routable (par exemple, le domaine .local) pour la synchronisation d'annuaires</a></p>
@@ -208,8 +206,7 @@ ms.locfileid: "44399919"
                         <h3>Apporter des modifications</h3>
                             <p><a href="find-and-fix-issues.md">Rechercher et corriger les problèmes après avoir modifié votre nom de domaine ou des enregistrements DNS</a></p>
                             <p><a href="../dns/add-or-edit-custom-dns-records.md">Ajouter ou modifier des enregistrements DNS personnalisés dans Office 365</a></p>
-                            <p><a href="../setup/domains-faq.md#can-i-add-custom-subdomains-or-multiple-domains-to-office-365">Ajouter des sous-domaines personnalisés ou plusieurs domaines dans Office 365</a></p>
-                            <p><a href="../setup/domains-faq.md#how-do-i-change-how-my-dns-records-are-managed-in-office-365">Modifier la façon dont Office 365 gère le service DNS pour votre domaine</a></p>
+                            <p><a href="../setup/domains-faq.md#can-i-add-custom-subdomains-or-multiple-domains-to-microsoft-365">Ajouter des sous-domaines personnalisés ou plusieurs domaines dans Microsoft 365</a></p>
                             <p><a href="remove-a-domain.md">Supprimer un domaine</a></p>
                             <p><a href="https://docs.microsoft.com/office365/enterprise/office-365-integration">Utiliser votre domaine pour l'intégration au courrier local, par exemple, à l'aide de services d'annuaire</a></p>
                             <p><a href="../contact-support-for-business-products.md">Vous avez d'autres questions ? Appeler le support technique ou ouvrir un ticket de support</a></p>
