@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: f97f9b3eed2ec9eed95b1f4ec57a3b055d8c4925
   ms.sourcegitcommit: b57d597edbff5ab6cff8c2b04d27c15b0024776f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: fr-FR
   ms.lasthandoff: 05/01/2020
   ms.locfileid: "43997525"
@@ -28,17 +28,17 @@ landingContent:
       url: mtp/microsoft-threat-protection.md
     - text: Centre de sécurité Microsoft 365
       url: mtp/overview-security-center.md
-- title: Commencer avec les versions d’évaluation gratuites
+- title: Commencer avec les essais gratuits
   linkLists:
   - linkListType: overview
     links:
-    - text: Évaluer la protection contre les menaces Microsoft
+    - text: Évaluer la Protection Microsoft contre les menaces
       url: mtp/mtp-evaluation.md
-- title: Sécuriser votre personnel à distance
+- title: Sécuriser vos employés en télétravail
   linkLists:
   - linkListType: get-started
     links:
-    - text: Sécuriser votre personnel à distance
+    - text: Sécuriser vos employés en télétravail
       url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
 - title: Azure ATP
   linkLists:
@@ -56,7 +56,7 @@ landingContent:
       url: office-365-security/office-365-atp.md
     - text: Description du service Office 365 – Protection avancée contre les menaces
       url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
-- title: Microsoft Defender ATP
+- title: Microsoft Defender – Protection avancée contre les menaces
   linkLists:
   - linkListType: overview
     links:
