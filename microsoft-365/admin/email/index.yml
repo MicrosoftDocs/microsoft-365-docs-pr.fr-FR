@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Gérer la messagerie et les calendriers
-summary: Consultez ces ressources pour aider les administrateurs à effectuer des tâches courantes ou consultez le volet de navigation sur la gauche pour obtenir une liste complète.
+summary: Consultez ces ressources pour aider les administrateurs à effectuer des tâches courantes ou consultez le volet de navigation situé à gauche pour voir une liste complète.
 metadata:
   title: Gérer la messagerie et les calendriers
-  description: Gérer les paramètres de messagerie, les groupes de distribution, les paramètres de sécurité et la configuration des boîtes aux lettres partagées
+  description: Gérer les paramètres de la messagerie, les groupes de distribution, les paramètres de sécurité et configurer les boîtes aux lettres partagées
   ms.service: O365-administration
   ms.topic: landing-page
   author: sirkkuw
@@ -13,22 +13,22 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: c35874ec774b0e8753b0bfacb2dd795a4f000188
   ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: fr-FR
   ms.lasthandoff: 06/17/2020
   ms.locfileid: "44780216"
 landingContent:
-- title: Gérer le courrier électronique
+- title: Gérer la messagerie
   linkLists:
   - linkListType: overview
     links:
-    - text: Gérer les paramètres de messagerie de l’utilisateur
+    - text: Gérer les paramètres de messagerie des utilisateurs
       url: office-365-user-email-settings.md
     - text: À propos de la collaboration par courrier électronique
       url: email-collaboration.md
   - linkListType: how-to-guide
     links:
-    - text: Ajouter un autre alias de messagerie
+    - text: Ajouter un autre alias de courrier
       url: add-another-email-alias-for-a-user.md
     - text: Utiliser votre domaine personnalisé
       url: change-email-address.md
@@ -36,7 +36,7 @@ landingContent:
       url: configure-email-forwarding.md
     - text: Utiliser des groupes de sécurité
       url: create-edit-or-delete-a-security-group.md
-    - text: Migrer le courrier électronique et les contacts vers Microsoft 365
+    - text: Migrer le courrier électronique et les contacts vers Microsoft 365
       url: ../setup/migrate-email-and-contacts-admin.md
 - title: Gérer les boîtes aux lettres partagées
   linkLists:
@@ -60,15 +60,15 @@ landingContent:
     links:
     - text: Créer un calendrier partagé
       url: https://support.microsoft.com/office/8385667b-d758-4489-a53f-f542dd01e6ff
-- title: Résoudre les problèmes de connexion et de remise du courrier électronique
+- title: Résoudre les problèmes de connexion et de distribution du courrier électronique
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Rechercher et corriger les problèmes de remise des messages électroniques
+    - text: Rechercher et corriger les problèmes de distribution des messages électroniques
       url: https://docs.microsoft.com/exchange/troubleshoot/mail-delivery/email-delivery-issues
-    - text: Résoudre et détecter les problèmes après l’ajout de votre domaine ou des enregistrements DNS
+    - text: Rechercher et corriger des problèmes survenant après l’ajout de votre domaine ou des enregistrements DNS
       url: ../get-help-with-domains/find-and-fix-issues.md
-    - text: Récupérer des messages électroniques supprimés dans une boîte aux lettres utilisateur
+    - text: Récupérer des éléments supprimés dans la boîte aux lettres d’un utilisateur
       url: https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox
-    - text: Résoudre les problèmes de connexion à Outlook dans Microsoft 365 et Exchange Online
+    - text: Résoudre les problèmes de connexion à Outlook dans Microsoft 365 et Exchange Online
       url: https://support.microsoft.com/office/e90bb691-c2a7-4697-a94f-88836856c72f

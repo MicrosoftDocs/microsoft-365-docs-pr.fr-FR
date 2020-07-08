@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Ressources de Microsoft 365 Business Premium
-summary: Microsoft 365 Business Premium (anciennement Microsoft 365 Business) est un service d’abonnement complet pour les entreprises comptant moins de 300 employés. Il intègre vos applications et services de productivité Office préférés, ainsi que des outils de collaboration, tels que Microsoft Teams, avec des fonctionnalités avancées de sécurité et de gestion des appareils.
+title: Ressources Microsoft 365 Business Premium
+summary: Microsoft 365 Business Premium (anciennement Microsoft 365 Business) est un service d’abonnement complet pour les entreprises comptant moins de 300 employés. Il intègre vos applications et vos services de productivité Office préférés ainsi que des outils de collaboration, comme Microsoft Teams, avec des fonctionnalités de sécurité et de gestion des appareils avancées.
 brand: m365
 metadata:
-  title: Ressources de Microsoft 365 Business Premium
+  title: Ressources Microsoft 365 Business Premium
   description: description
   ms.service: o365-administration
   ms.topic: hub-page
@@ -14,35 +14,35 @@ metadata:
   ms.date: 10/01/2019
   ms.openlocfilehash: fe849499da31b3be4ab52144d1a39f8a1bc7a212
   ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: fr-FR
   ms.lasthandoff: 06/18/2020
   ms.locfileid: "44786189"
 productDirectory:
-  title: Travail à distance sécurisé avec Microsoft 365 Business Premium
+  title: Sécuriser le travail à distance avec Microsoft 365 Business Premium
   items:
-  - title: Lecture
+  - title: Lire
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
-    summary: Meilleures façons d’activer un travail distant sécurisé avec Microsoft 365 Business Premium.
+    summary: Méthodes recommandées pour sécuriser le travail à distance avec Microsoft 365 Business Premium.
     url: https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623
-  - title: Obtenir le kit de partenaires gratuit
+  - title: Téléchargez gratuitement le kit de partenaires
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
-    summary: Guide pratique et accéder à des ressources de marché pour les partenaires en matière de sécurisation du travail à distance.
+    summary: Recommandations pratiques et ressources de commercialisation des partenaires pour sécuriser le travail à distance.
     url: https://www.microsoft.com/microsoft-365/partners/videos/secure-your-smb-customers-as-they-cope-with-covid-19
   - title: Quelles sont les nouveautés ?
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    summary: Azure AD Premium P1 est destiné à Microsoft 365 Business Premium !
+    summary: Azure AD Premium P1 sera disponible pour Microsoft 365 Business Premium.
     url: https://aka.ms/aadp1smbblog
 conceptualContent:
   items:
-  - title: Qu’est-ce que Microsoft 365 Business Premium ?
+  - title: Qu’est-ce que Microsoft 365 Business Premium ?
     links:
     - url: microsoft-365-business-overview.md
       itemType: overview
       text: Vue d’ensemble
     - url: https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
       itemType: video
-      text: Formation Microsoft 365 Business Premium
+      text: Formation Microsoft 365 Business Premium
     - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
       itemType: overview
       text: Comparer les offres
@@ -52,7 +52,7 @@ conceptualContent:
     - url: support/microsoft-365-business-faqs.md
       itemType: reference
       text: FAQ
-  - title: Configurer Microsoft 365 Business Premium
+  - title: Configurer Microsoft 365 Business Premium
     links:
     - url: set-up.md
       itemType: how-to-guide
@@ -82,7 +82,7 @@ conceptualContent:
       text: Les principes fondamentaux de la technologie
     - url: https://www.microsoft.com/microsoft-365/partners/resources/securing-remote-work-checklist
       itemType: download
-      text: Liste de vérification pour la sécurisation du travail à distance
+      text: Liste de contrôle pour la sécurisation du travail à distance
   - title: Gestion des utilisateurs
     links:
     - url: https://docs.microsoft.com/microsoft-365/business/add-users-m365b
@@ -189,10 +189,10 @@ conceptualContent:
     links:
     - url: sign-up.md
       itemType: get-started
-      text: S’inscrire à Microsoft 365 Business Premium
+      text: S’inscrire à Microsoft 365 Business Premium
     - url: migrate-to-microsoft-365-business.md
       itemType: how-to-guide
-      text: Migrer à partir de Microsoft 365 Business Standard
+      text: Migrer à partir de Microsoft 365 Business Standard
     - url: migrate-from-e3.md
       itemType: how-to-guide
       text: Migrer à partir d’Office 365 E3
