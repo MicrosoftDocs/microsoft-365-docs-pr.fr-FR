@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Collaborer avec les clients
-summary: Consultez ces ressources pour aider les administrateurs à effectuer des tâches courantes ou consultez le volet de navigation sur la gauche pour obtenir une liste complète.
+summary: Consultez ces ressources pour aider les administrateurs à effectuer des tâches courantes ou consultez le volet de navigation situé à gauche pour voir une liste complète.
 metadata:
   title: Collaborer avec les clients
-  description: Partager des documents et utiliser teams pour collaborer et répondre à
+  description: Partager des documents et utiliser Teams pour collaborer et se réunir
   ms.service: O365-administration
   ms.topic: landing-page
   author: sirkkuw
@@ -13,7 +13,7 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 80aea7aef92cd584df0c35b0d14ec71e0ad738b7
   ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: fr-FR
   ms.lasthandoff: 06/18/2020
   ms.locfileid: "44785459"
@@ -32,9 +32,9 @@ landingContent:
       url: https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7
     - text: Rejoindre une équipe en tant qu’invité
       url: https://support.microsoft.com/office/928d1eef-61e2-49ec-b754-c2fe86b34824
-    - text: Converser avec les employés et les clients
+    - text: Discutez avec vos employés et vos clients
       url: https://support.microsoft.com/office/65748808-a403-462c-a6e1-b169e5bc6c92
-    - text: Planifier une réunion teams avec des utilisateurs invités
+    - text: Planifier une réunion Teams avec des utilisateurs invités
       url: https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a
     - text: Rejoindre une réunion Teams avec des utilisateurs invités
       url: https://support.microsoft.com/office/a120c282-063d-46b8-b973-851197ab75d8
