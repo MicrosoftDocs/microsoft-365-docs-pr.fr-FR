@@ -161,6 +161,10 @@
       href: technical-reference-details-about-encryption.md
     - name: Dépréciation TLS 1.0 et 1.1 pour Office 365
       href: tls-1.0-and-1.1-deprecation-for-office-365.md
+    - name: "Dépréciation TLS\_1.0 et 1.1 dans Office\_365 Government Cloud Community – High et DoD"
+      href: tls-1-2-in-office-365-gcc.md
+    - name: "TLS\_1.2 dans Office\_365"
+      href: prepare-tls-1.2-in-office-365.md
     - name: Clé client
       items:
         - name: Chiffrement de service avec une clé client dans Office 365
@@ -488,15 +492,19 @@
           href: overview-ediscovery-20.md
         - name: Prise en main Advanced eDiscovery
           href: get-started-with-advanced-ediscovery.md
-        - name: Utiliser des consignataires
+        - name: Utilisation des sources de données consignataires et non consignataires
           href: managing-custodians.md
           items:
-            - name: Ajouter des consignataires à un cas
+            - name: Ajout de consignataires à un cas
               href: add-custodians-to-case.md
+            - name: Ajout en bloc de consignataires à un cas
+              href: bulk-add-custodians.md
             - name: Gérer dépositaires
               href: manage-new-custodians.md
             - name: Afficher l’activité des consignataires
               href: view-custodian-activity.md
+            - name: Ajout de sources de données non consignataires à un cas
+              href: non-custodial-data-sources.md
         - name: Utiliser des communications
           href: managing-custodian-communications.md
           items:
@@ -809,19 +817,19 @@
   items:
     - name: Portail d’approbation de services Microsoft
       href: get-started-with-service-trust-portal.md
-    - name: Score de conformité et Gestionnaire de conformité
+    - name: Score de conformité et Gestionnaire de conformité (préversion)
       items:
         - name: Score de conformité (préversion)
           href: compliance-score.md
-        - name: Configurer le score de conformité (préversion)
+        - name: Configurer le score de conformité
           href: compliance-score-setup.md
-        - name: Utiliser le score de conformité (préversion)
-          href: working-with-compliance-score.md
-        - name: Calcul du score de conformité (préversion)
+        - name: Personnaliser le score de conformité avec les évaluations
+          href: compliance-score-assessments.md
+        - name: Assigner et effectuer des opérations avec des actions d’amélioration
+          href: compliance-score-improvement-actions.md
+        - name: Le calcul de votre score
           href: compliance-score-methodology.md
-        - name: Notes de publication sur la fonctionnalité Score de conformité (préversion)
-          href: compliance-score-release-notes.md
-        - name: FAQ sur le Score de conformité (préversion)
+        - name: Forum aux questions (FAQ)
           href: compliance-score-faq.md
         - name: Gestionnaire de conformité (préversion)
           href: compliance-manager-overview.md
