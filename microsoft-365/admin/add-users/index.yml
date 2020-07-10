@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Gérer les utilisateurs et les groupes
-summary: Consultez ces ressources pour aider les administrateurs à effectuer des tâches courantes ou consultez le volet de navigation sur la gauche pour obtenir une liste complète.
+summary: Veuillez consulter ces ressources pour aider les administrateurs à effectuer des tâches courantes ou consulter le volet de navigation situé à gauche pour voir une liste complète.
 metadata:
   title: Gérer les utilisateurs et les groupes
   description: Gérer les mots de passe, ajouter et supprimer des utilisateurs, configurer des groupes et gérer les licences
@@ -14,7 +14,7 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 25b100e8f685c94d3dccc290e8f80b25e24a6d9b
   ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: fr-FR
   ms.lasthandoff: 06/18/2020
   ms.locfileid: "44785471"
@@ -27,9 +27,9 @@ landingContent:
       url: add-users.md
     - text: Modifier un utilisateur
       url: add-users.md
-    - text: Ajouter des invités à un groupe Microsoft 365
+    - text: Ajouter des invités à un groupe Microsoft 365
       url: ../create-groups/manage-guest-access-in-groups.md
-    - text: Ajouter une autre adresse de messagerie
+    - text: Ajouter une autre adresse e-mail
       url: ../email/add-another-email-alias-for-a-user.md
     - text: Créer une boîte aux lettres partagée
       url: ../email/create-a-shared-mailbox.md
@@ -53,19 +53,19 @@ landingContent:
       url: ../create-groups/add-or-remove-members-from-groups.md
     - text: Restaurer ou récupérer un groupe supprimé
       url: ../create-groups/restore-deleted-group.md
-    - text: Gérer l’accès invité dans des groupes
+    - text: Gérer l’accès invité dans les groupes
       url: ../create-groups/manage-guest-access-in-groups.md
 - title: Gérer les mots de passe
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Réinitialiser le mot de passe d'un utilisateur
+    - text: Réinitialiser le mot de passe d’un utilisateur
       url: reset-passwords.md
     - text: Définir les mots de passe pour qu’ils n’expirent jamais
       url: set-password-to-never-expire.md
-    - text: Autoriser les utilisateurs à réinitialiser leur mot de passe
+    - text: Autoriser les utilisateurs à réinitialiser leurs mots de passe
       url: let-users-reset-passwords.md
-    - text: Définir la stratégie d’expiration de mot de passe pour votre organisation
+    - text: Définir la stratégie d’expiration des mots de passe pour votre organisation
       url: ../manage/set-password-expiration-policy.md
     - text: Réinitialiser le mot de passe administrateur
       url: reset-passwords.md#reset-my-admin-password
@@ -77,11 +77,11 @@ landingContent:
       url: delete-a-user.md
     - text: Accéder aux données d’un ancien utilisateur et les sauvegarder
       url: get-access-to-and-back-up-a-former-user-s-data.md
-    - text: Transférer du courrier électronique à un autre utilisateur
+    - text: Transférer un e-mail à un autre utilisateur
       url: ../email/configure-email-forwarding.md
     - text: Supprimer la licence
       url: ../manage/remove-licenses-from-users.md
     - text: Restaurer un utilisateur supprimé
       url: restore-user.md
-    - text: Supprimer les données d’entreprise des appareils (Microsoft 365 Business Premium)
+    - text: Supprimer des données d’entreprise des appareils (Microsoft 365 Business Premium)
       url: ../../business/remove-company-data.md

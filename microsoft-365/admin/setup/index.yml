@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Prise en main
-summary: Consultez ces ressources pour aider les administrateurs à effectuer des tâches courantes ou consultez le volet de navigation sur la gauche pour obtenir une liste complète.
+summary: Consultez ces ressources pour aider les administrateurs à effectuer des tâches courantes ou consultez le volet de navigation situé à gauche pour afficher une liste complète.
 metadata:
   title: Prise en main
-  description: Configurez votre abonnement et votre courrier électronique. Ajouter des utilisateurs et installer des applications
+  description: Configurez votre abonnement et votre e-mail. Ajouter des utilisateurs et installer des applications
   ms.service: O365-administration
   ms.topic: landing-page
   author: sirkkuw
@@ -13,7 +13,7 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 0af560ae2a7f8aa028e0cb493c9070f78f93e0a4
   ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: fr-FR
   ms.lasthandoff: 06/17/2020
   ms.locfileid: "44779844"
@@ -22,11 +22,11 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Choisir un plan et vous inscrire pour Microsoft 365
+    - text: Choisir un plan et s’inscrire à Microsoft 365
       url: ../admin-overview/sign-up-for-office-365.md
   - linkListType: video
     links:
-    - text: Inscription et configuration de Microsoft Business Basic
+    - text: S’inscrire et configurer Microsoft Business Basic
       url: https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298
     - text: S’inscrire à Microsoft Business standard
       url: https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298
@@ -42,11 +42,11 @@ landingContent:
     links:
     - text: Configurer Microsoft Business Basic
       url: setup-business-basic.md
-    - text: Configurer Microsoft Business standard
+    - text: Configurer Microsoft Business Standard
       url: setup-business-standard.md
-    - text: Configurer Microsoft Business Premium
+    - text: Sécuriser Microsoft Business Premium
       url: ../../business/set-up.md
-    - text: Configurer Microsoft apps pour les entreprises
+    - text: Configurer les Application Microsoft pour les entreprises
       url: setup-apps-for-business.md
 - title: Terminer la configuration
   linkLists:
@@ -66,5 +66,5 @@ landingContent:
       url: https://support.microsoft.com/office/d1ad9f23-0fa3-4cf1-bf26-ff35336fd343
     - text: Former les utilisateurs
       url: https://support.microsoft.com/training
-    - text: Connecter des PC à Microsoft 365 Business Premium
+    - text: Connecter des PC à Microsoft 365 Business Premium
       url: https://support.microsoft.com/office/cd5716f6-05de-430b-ac94-662d5ee71d07
