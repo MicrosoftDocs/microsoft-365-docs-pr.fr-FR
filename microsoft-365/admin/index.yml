@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Aide du centre d’administration Microsoft 365
-summary: Explorez les ressources pour travailler dans le centre d’administration Microsoft 365.
+summary: Explorez les ressources pour travailler dans le Centre d’administration Microsoft 365.
 brand: m365
 metadata:
-  title: Aide du centre d’administration Microsoft 365
-  description: Configurez et gérez Office 365 et Microsoft 365 dans le centre d’administration Microsoft 365.
+  title: Aide du Centre d’administration Microsoft 365
+  description: Configurez, puis gérez Office 365 et Microsoft 365 dans le Centre d’administration Microsoft 365.
   ms.service: O365-administration
   ms.prod: microsoft-365-business
   ms.topic: hub-page
@@ -15,32 +15,32 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 9d8104660c4686b2240c292509a499a25308d9f6
   ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: fr-FR
   ms.lasthandoff: 06/18/2020
   ms.locfileid: "44799958"
 highlightedContent:
   items:
-  - title: Office 365 est désormais Microsoft 365.
+  - title: Office 365 est désormais Microsoft 365 !
     itemType: whats-new
     url: new-subscription-names.md
-  - title: Nouveautés du centre d’administration Microsoft 365
+  - title: Nouveautés du Centre d’administration Microsoft 365 !
     itemType: whats-new
     url: whats-new-in-preview.md
-  - title: Restez informé des modifications apportées à Microsoft 365
+  - title: Restez informé des modifications apportées à Microsoft 365
     itemType: how-to-guide
     url: manage/stay-on-top-of-updates.md
 productDirectory:
   title: Prise en main
-  summary: Configurez votre abonnement et votre messagerie, ajoutez des utilisateurs et installez des applications.
+  summary: Configurez votre abonnement et votre e-mail, ajoutez des utilisateurs, puis installez les applications.
   items:
   - title: Prise en main
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
-    summary: Inscrivez-vous et configurez Microsoft 365.
+    summary: Inscrivez-vous, puis configurez Microsoft 365.
     url: setup/index.yml
   - title: Migrer les données
     imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
-    summary: Déplacez vos données à partir d’un autre service vers Microsoft 365.
+    summary: Déplacez vos données d’un autre service vers Microsoft 365.
     url: setup/migrate-email-and-contacts-admin.md
   - title: Installer des applications
     imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
@@ -48,36 +48,36 @@ productDirectory:
     url: setup/install-applications.md
   - title: Former les utilisateurs
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
-    summary: Aidez les utilisateurs de votre organisation Découvrez comment stocker et partager des fichiers et utiliser des applications Office.
+    summary: Aidez les utilisateurs de votre organisation à stocker, à partager des fichiers et à utiliser les applications Office.
     url: https://support.microsoft.com/training
 additionalContent:
   sections:
   - title: Gestion
-    summary: Gérez votre abonnement, vos services et vos utilisateurs, sécurisez votre entreprise et obtenez de l’aide pour la résolution des problèmes.
+    summary: Gérez vos abonnements, services et utilisateurs, sécurisez votre entreprise, puis bénéficiez d’une aide pour résoudre les problèmes.
     items:
-    - title: Vue d’ensemble du centre d’administration Microsoft 365
+    - title: Vue d’ensemble du Centre d’administration Microsoft 365
       summary: Découvrez les rôles d’administrateur, comment rester au fait des modifications et comment personnaliser votre abonnement.
       url: admin-overview/about-the-admin-center.md
     - title: Utilisateurs et groupes
-      summary: Gérer les mots de passe, ajouter et supprimer des utilisateurs, configurer et gérer des groupes, gérer l’accès invité et attribuer des licences utilisateur.
+      summary: Gérez les mots de passe, ajoutez et supprimez des utilisateurs, configurez et gérez les groupes, gérez l’accès invité, puis attribuez des licences utilisateur.
       url: add-users/index.yml
-    - title: Courrier électronique et calendriers
-      summary: Gérez les paramètres de messagerie, les groupes de distribution et les paramètres de sécurité, et configurez les boîtes aux lettres partagées.
+    - title: E-mail et calendriers
+      summary: Gérer les paramètres de l’e-mail, les groupes de distribution et les paramètres de sécurité ; configurez les boîtes aux lettres partagées.
       url: email/index.yml
     - title: Domaines
-      summary: Découvrez les domaines, la configuration et la gestion des domaines, ainsi que la mise à jour des enregistrements DNS.
+      summary: Découvrez les domaines, configurez et gérez des domaines, puis mettez à jour les enregistrements DNS.
       url: setup/add-domain.md
     - title: Vos données et service
-      summary: Surveillez l’état de votre service, sauvegardez des données, installez des compléments et effectuez une mise à niveau vers les dernières applications.
+      summary: Vous pouvez surveiller l’état de votre service, sauvegarder des données, installer des compléments, puis effectuer la mise à niveau vers les applications les plus récentes.
       url: manage/index.yml
     - title: Abonnements et facturation
-      summary: Gérez les factures, les abonnements et les licences de produits, mettez à jour les modes de paiement et achetez des services et du stockage supplémentaires.
+      summary: Gérez les factures, les abonnements et les licences de produits, mettez à jour les modes de paiement, puis achetez des services et un espace de stockage supplémentaires.
       url: ../commerce/index.yml
     - title: Sécuriser votre organisation
-      summary: Découvrez les meilleures méthodes pour sécuriser votre organisation, telles que la configuration de l’authentification multifacteur (MFA), ainsi que des informations sur le score de sécurité Microsoft et RGPD.
+      summary: Découvrez les meilleures façons de sécuriser votre organisation, telles que la configuration de l’authentification multifacteur (MFA) ; découvrez également le niveau de sécurité Microsoft et le RGPD.
       url: security-and-compliance/secure-your-business-data.md
     - title: Collaborer avec les clients
-      summary: Partager des documents et utiliser teams pour collaborer et répondre.
+      summary: Partagez des documents, puis utilisez Teams pour collaborer et vous réunir.
       url: work-with-customers/index.yml
     - title: Résoudre les problèmes
       summary: Accédez à des ressources pour vous aider à résoudre les problèmes liés à vos produits ou services Office.
