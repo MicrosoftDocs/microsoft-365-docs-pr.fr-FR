@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Gérer vos données et service
-summary: Consultez ces ressources pour aider les administrateurs à effectuer des tâches courantes ou consultez le volet de navigation sur la gauche pour obtenir une liste complète.
+summary: Consultez ces ressources pour aider les administrateurs à effectuer des tâches courantes ou consultez le volet de navigation situé à gauche pour voir une liste complète.
 metadata:
   title: Gérer vos données et service
-  description: Surveiller l’état de votre service, sauvegarder des données, installer des compléments et effectuer une mise à niveau vers les dernières applications
+  description: Vous pouvez surveiller l’état de votre service, sauvegarder des données, installer des compléments, puis effectuer la mise à niveau vers les applications les plus récentes
   ms.service: O365-administration
   ms.topic: landing-page
   author: sirkkuw
@@ -13,7 +13,7 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 3aba9a081fadb85a3c052d0b11d6ff49dbffa0ca
   ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: fr-FR
   ms.lasthandoff: 06/17/2020
   ms.locfileid: "44780096"
@@ -24,7 +24,7 @@ landingContent:
     links:
     - text: Surveiller l’activité des utilisateurs à l’aide des rapports
       url: ../activity-reports/activity-reports.md
-    - text: Analyser l’analyse de l’utilisation
+    - text: Surveiller l’analyse de l'utilisation
       url: ../usage-analytics/usage-analytics.md
     - text: Activer l’analyse d’utilisation
       url: ../usage-analytics/enable-usage-analytics.md
@@ -42,11 +42,11 @@ landingContent:
     links:
     - text: Accéder aux données d’un ancien utilisateur et les sauvegarder
       url: ../add-users/get-access-to-and-back-up-a-former-user-s-data.md
-    - text: Configurer la rétention des messages électroniques (Microsoft 365 Business Premium)
+    - text: Configurer la rétention du courrier électronique (Microsoft 365 Business Premium)
       url: ../../business/set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
-    - text: Supprimer les données d’entreprise des appareils (Microsoft 365 Business Premium)
+    - text: Supprimer des données d’entreprise d’appareils (Microsoft 365 Business Premium)
       url: ../../business/remove-company-data.md
-- title: Gérer les compléments et les applications
+- title: Gestion des compléments et applications
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -62,21 +62,21 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Documentation d’administration de Microsoft teams
+    - text: Documentation pour les administrateurs Microsoft Teams
       url: https://docs.microsoft.com/en-us/microsoftteams/
     - text: Utiliser conjointement Outlook et Teams
       url: https://support.microsoft.com/office/9bc459c4-ce13-479b-b88b-b8ae49092732
   - linkListType: learn
     links:
-    - text: Formation sur Microsoft Teams
+    - text: Formation Microsoft Teams
       url: https://support.microsoft.com/office/4f108e54-240b-4351-8084-b1089f0d21d7
 - title: OneDrive et SharePoint
   linkLists:
   - linkListType: overview
     links:
-    - text: Documentation SharePoint pour les administrateurs et les professionnels de l’informatique
+    - text: Documentation SharePoint pour les professionnels et les administrateurs de l'informatique
       url: https://docs.microsoft.com/sharepoint/
-    - text: Documentation OneDrive pour les administrateurs et les professionnels de l’informatique
+    - text: Documentation OneDrive pour les professionnels et les administrateurs de l'informatique
       url: https://docs.microsoft.com/onedrive/
   - linkListType: how-to-guide
     links:

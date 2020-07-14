@@ -222,8 +222,10 @@
           href: setup/upgrade-users-to-latest-office-client.md
         - name: Conditions préalables au déploiement centralisé des compléments
           href: manage/centralized-deployment-of-add-ins.md
-        - name: Installer et gérer des compléments à l’aide du déploiement centralisé
+        - name: Déployer des compléments dans le centre d’administration
           href: manage/manage-deployment-of-add-ins.md
+        - name: Gérer des compléments dans le centre d’administration
+          href: manage/manage-addins-in-the-admin-center.md
         - name: Forum aux questions sur le déploiement centralisé
           href: manage/centralized-deployment-faq.md
         - name: Rechercher un partenaire ou un revendeur
@@ -294,12 +296,12 @@
           href: ../business/device-states.md
         - name: "Paramètres de protection des applications pour les PC Windows\_10"
           href: ../business/protection-settings-for-windows-10-devices.md
-        - name: Paramètres de protection des applications pour Android et iOS
+        - name: Définir les paramètres de protection des applications pour Android et iOS
           href: ../business/app-protection-settings-for-android-and-ios.md
           items:
             - name: Validation des paramètres sur Android ou iOS
               href: ../business/validate-settings-on-android-or-ios.md
-        - name: "Paramètres de protection des appareils pour les PC Windows\_10"
+        - name: "Définir les paramètres de protection des appareils pour les PC Windows\_10"
           href: ../business/protection-settings-for-windows-10-pcs.md
           items:
             - name: "Validation des paramètres sur les PC Windows\_10"
