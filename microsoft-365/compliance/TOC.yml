@@ -283,34 +283,40 @@
           href: enable-unlimited-archiving.md
         - name: Configurer une stratégie d’archivage et de suppression de boîtes aux lettres
           href: set-up-an-archive-and-deletion-policy-for-mailboxes.md
-    - name: Conservation de données
+    - name: Conserver et supprimer des données
       items:
-        - name: Découvrir les stratégies de rétention
-          href: retention-policies.md
-        - name: Créer et configurer des stratégies de rétention
+        - name: En savoir plus sur la rétention
+          items:
+            - name: Stratégies et étiquettes de rétention
+              href: retention.md
+            - name: La rétention pour SharePoint et OneDrive
+              href: retention-policies-sharepoint.md
+            - name: "La rétention pour Microsoft\_Teams"
+              href: retention-policies-teams.md
+            - name: La rétention pour Exchange
+              href: retention-policies-exchange.md
+        - name: Prise en main de la rétention
+          href: get-started-with-retention.md
+        - name: Créer des stratégies de rétention
           href: create-retention-policies.md
-        - name: La rétention pour SharePoint et OneDrive
-          href: retention-policies-sharepoint.md
-        - name: "La rétention pour Microsoft\_Teams"
-          href: retention-policies-teams.md
-        - name: La rétention pour Exchange
-          href: retention-policies-exchange.md
-        - name: Plan de gestion de fichiers
+        - name: Utiliser un plan de fichiers
           href: file-plan-manager.md
-        - name: Découvrir les étiquettes de rétention
-          href: labels.md
-        - name: 'Créer, publier ou appliquer automatiquement des étiquettes de rétention'
-          href: create-retention-labels.md
+        - name: Créer des étiquettes de rétention et les appliquer dans les applications
+          href: create-apply-retention-labels.md
+        - name: Appliquer automatiquement une étiquette de rétention au contenu
+          href: apply-retention-labels-automatically.md
         - name: "Se conformer à la réglementation SEC Rule\_17 a-4"
           href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
-        - name: Utiliser PowerShell pour créer et publier des étiquettes de rétention
+        - name: Créer des étiquettes de rétention avec PowerShell
           href: bulk-create-publish-labels-using-powershell.md
-        - name: Rétention basée sur des événements
-          href: event-driven-retention.md
-        - name: Automatiser la rétention basée sur des événements
-          href: automate-event-driven-retention.md
-        - name: Gérer le cycle de vie des documents SharePoint
-          href: auto-apply-retention-labels-scenario.md
+        - name: Utiliser la rétention basée sur des événements
+          items:
+            - name: Débuter la rétention lorsqu’un événement se produit
+              href: event-driven-retention.md
+            - name: Automatiser la rétention basée sur des événements
+              href: automate-event-driven-retention.md
+            - name: Gérer le cycle de vie des documents SharePoint
+              href: auto-apply-retention-labels-scenario.md
     - name: Éliminer des données
       href: disposition.md
     - name: Gestion des boîtes aux lettres inactives
@@ -345,34 +351,6 @@
           href: records-management.md
         - name: Enregistrements
           href: records.md
-        - name: Plan de gestion de fichiers
-          items:
-            - name: Gérer les étiquettes de rétention
-              href: file-plan-manager.md
-            - name: Découvrir les étiquettes de rétention
-              href: labels.md
-            - name: Créer et publier des étiquettes de rétention
-              href: create-retention-labels.md
-            - name: Utiliser PowerShell pour créer et publier des étiquettes de rétention à l’échelle
-              href: bulk-create-publish-labels-using-powershell.md
-            - name: Afficher l’utilisation d’étiquette avec les analytiques des étiquettes
-              href: label-analytics.md
-            - name: Afficher l’activité liée aux étiquettes des documents
-              href: view-label-activity-for-documents.md
-            - name: Afficher les rapports de gouvernance des données
-              href: view-the-data-governance-reports.md
-        - name: Évènements
-          items:
-            - name: Rétention basée sur des événements
-              href: event-driven-retention.md
-            - name: Automatiser la rétention basée sur des événements
-              href: automate-event-driven-retention.md
-        - name: Destruction
-          href: disposition.md
-        - name: En savoir plus sur la gestion des enregistrements
-          items:
-            - name: Regarder des vidéos sur la gestion des enregistrements
-              href: 'https://go.microsoft.com/fwlink/?linkid=867039'
 - name: Gestion de l’eDiscovery
   items:
     - name: eDiscovery dans Microsoft 365
