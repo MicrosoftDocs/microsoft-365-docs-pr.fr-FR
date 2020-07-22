@@ -24,6 +24,8 @@
           href: insider-risk-management.md
         - name: Planifier la gestion des risques Insider
           href: insider-risk-management-plan.md
+        - name: Prise en main des paramètres des risques internes
+          href: insider-risk-management-settings.md
         - name: Prise en main de la gestion des risques internes
           href: insider-risk-management-configure.md
         - name: Créer et gérer les stratégies de risques internes
@@ -105,30 +107,32 @@
       items:
         - name: DLP et Microsoft Teams
           href: dlp-microsoft-teams.md
-        - name: Visionner une présentation étendue du DLP
-          href: 'https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111'
-        - name: Configurer le DLP
-          items:
-            - name: Prise en main des recommandations en matière de stratégie DLP
-              href: get-started-with-dlp-policy-recommendations.md
-            - name: Prise en main de la stratégie DLP par défaut
-              href: get-started-with-the-default-dlp-policy.md
-            - name: "Création d’une stratégie\_DLP à partir d’un modèle"
-              href: create-a-dlp-policy-from-a-template.md
-            - name: 'Création, test et réglage d’une stratégie DLP'
-              href: create-test-tune-dlp-policy.md
-            - name: Utilisation des notifications et des conseils de stratégie dans les stratégies DLP
-              href: use-notifications-and-policy-tips.md
-            - name: Ce qu’incluent les modèles de stratégie DLP
-              href: what-the-dlp-policy-templates-include.md
-            - name: Création d’une stratégie DLP pour protéger les documents avec l’ICF ou d’autres propriétés
-              href: protect-documents-that-have-fci-or-other-properties.md
-            - name: "Affichage des rapports\_DLP"
-              href: view-the-dlp-reports.md
-            - name: Créer une requête pour trouver des données sensibles stockées sur des sites
-              href: form-a-query-to-find-sensitive-data-stored-on-sites.md
-            - name: "Fonctionnement du DLP entre le Centre de sécurité et conformité et le Centre d’administration\_Exchange"
-              href: how-dlp-works-between-admin-centers.md
+        - name: En savoir plus sur les points de terminaison de protection contre la perte de données (aperçu)
+          href: endpoint-dlp-learn-about.md
+        - name: Prise en main des points de terminaison de protection contre la perte de données (aperçu)
+          href: endpoint-dlp-getting-started.md
+        - name: Utilisation des points de terminaison de protection contre la perte de données (aperçu)
+          href: endpoint-dlp-using.md
+        - name: Prise en main des recommandations en matière de stratégie DLP
+          href: get-started-with-dlp-policy-recommendations.md
+        - name: Prise en main de la stratégie DLP par défaut
+          href: get-started-with-the-default-dlp-policy.md
+        - name: "Création d’une stratégie\_DLP à partir d’un modèle"
+          href: create-a-dlp-policy-from-a-template.md
+        - name: 'Création, test et réglage d’une stratégie DLP'
+          href: create-test-tune-dlp-policy.md
+        - name: Utilisation des notifications et des conseils de stratégie dans les stratégies DLP
+          href: use-notifications-and-policy-tips.md
+        - name: Ce qu’incluent les modèles de stratégie DLP
+          href: what-the-dlp-policy-templates-include.md
+        - name: Création d’une stratégie DLP pour protéger les documents avec l’ICF ou d’autres propriétés
+          href: protect-documents-that-have-fci-or-other-properties.md
+        - name: "Affichage des rapports\_DLP"
+          href: view-the-dlp-reports.md
+        - name: Créer une requête pour trouver des données sensibles stockées sur des sites
+          href: form-a-query-to-find-sensitive-data-stored-on-sites.md
+        - name: "Fonctionnement du DLP entre le Centre de sécurité et conformité et le Centre d’administration\_Exchange"
+          href: how-dlp-works-between-admin-centers.md
     - name: Types d’informations sensibles
       items:
         - name: Définitions d’entités des types d’informations sensibles

@@ -37,6 +37,18 @@
           href: ../enterprise/secure-email-recommended-policies.md
         - name: Stratégies d’accès à SharePoint Online recommandées
           href: ../enterprise/sharepoint-file-access-policies.md
+    - name: Degré de sécurisation Microsoft
+      items:
+        - name: Vue d’ensemble du score sécurisé
+          href: mtp/microsoft-secure-score.md
+        - name: Évaluez votre posture de sécurité
+          href: mtp/microsoft-secure-score-improvement-actions.md
+        - name: Suivre l’historique de vos résultats et atteindre vos objectifs
+          href: mtp/microsoft-secure-score-history-metrics-trends.md
+        - name: Nouveautés
+          href: mtp/microsoft-secure-score-whats-coming.md
+        - name: Nouveautés
+          href: mtp/microsoft-secure-score-whats-new.md
     - name: Protection Microsoft contre les menaces
       items:
         - name: Vue d’ensemble
@@ -187,16 +199,6 @@
                       href: mtp/custom-detections-overview.md
                     - name: Créer et gérer les règles de détection
                       href: mtp/custom-detection-rules.md
-            - name: Degré de sécurisation Microsoft
-              items:
-                - name: Vue d’ensemble du score sécurisé
-                  href: mtp/microsoft-secure-score.md
-                - name: Gagner en visibilité sur votre niveau de sécurité
-                  href: mtp/microsoft-secure-score-improvement-actions.md
-                - name: Suivre l’historique de vos résultats et atteindre vos objectifs
-                  href: mtp/microsoft-secure-score-history-metrics-trends.md
-                - name: Nouveautés
-                  href: mtp/microsoft-secure-score-whats-coming.md
             - name: Rapports
               items:
                 - name: Surveiller et afficher les rapports
