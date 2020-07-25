@@ -169,6 +169,8 @@
       href: tls-1-2-in-office-365-gcc.md
     - name: "TLS\_1.2 dans Office\_365"
       href: prepare-tls-1.2-in-office-365.md
+    - name: "Préversion publique de Chiffrement à double clé pour Microsoft\_365"
+      href: double-key-encryption.md
     - name: Clé client
       items:
         - name: Chiffrement de service avec une clé client dans Office 365
