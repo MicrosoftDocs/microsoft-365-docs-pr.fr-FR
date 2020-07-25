@@ -315,14 +315,10 @@
           href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
         - name: Créer des étiquettes de rétention avec PowerShell
           href: bulk-create-publish-labels-using-powershell.md
-        - name: Utiliser la rétention basée sur des événements
-          items:
-            - name: Débuter la rétention lorsqu’un événement se produit
-              href: event-driven-retention.md
-            - name: Automatiser la rétention basée sur des événements
-              href: automate-event-driven-retention.md
-            - name: Gérer le cycle de vie des documents SharePoint
-              href: auto-apply-retention-labels-scenario.md
+        - name: Débuter la rétention lorsqu’un événement se produit
+          href: event-driven-retention.md
+        - name: Gérer le cycle de vie des documents SharePoint
+          href: auto-apply-retention-labels-scenario.md
     - name: Éliminer des données
       href: disposition.md
     - name: Gestion des boîtes aux lettres inactives
