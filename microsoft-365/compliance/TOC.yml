@@ -261,13 +261,13 @@
       items:
         - name: Vue d’ensemble de l’archivage de données tierces
           href: archiving-third-party-data.md
-        - name: Archiver des données de message Bloomberg (Aperçu)
+        - name: Archiver des données de message Bloomberg (préversion)
           href: archive-bloomberg-message-data.md
         - name: Archiver des données Facebook (Aperçu)
           href: archive-facebook-data-with-sample-connector.md
         - name: Importer des données de ressources humaines (Aperçu)
           href: import-hr-data.md
-        - name: Archiver les données ICE Chat (Aperçu)
+        - name: Archiver les données ICE Chat (préversion)
           href: archive-icechat-data.md
         - name: Archiver les données de Bloomberg instantanée
           href: archive-instant-bloomberg-data.md
@@ -319,8 +319,8 @@
           href: event-driven-retention.md
         - name: Gérer le cycle de vie des documents SharePoint
           href: auto-apply-retention-labels-scenario.md
-    - name: Éliminer des données
-      href: disposition.md
+        - name: Gérer la destruction des données
+          href: disposition.md
     - name: Gestion des boîtes aux lettres inactives
       items:
         - name: Vue d’ensemble des boîtes aux lettres inactives

@@ -423,7 +423,7 @@
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: Corriger les messages malveillants
               href: ./office-365-security/remediate-malicious-email-delivered-office-365.md
-            - name: Consulter et lire vos rapports PACM
+            - name: Afficher les rapports ATP dans le Centre de sécurité et conformité
               href: ./office-365-security/view-reports-for-atp.md
             - name: Comprendre les dernières attaques grâce aux analyses des menaces
               href: ./mtp/latest-attack-campaigns.md
