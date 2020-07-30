@@ -137,6 +137,8 @@
                   href: mtp/advanced-hunting-query-emails-devices.md
                 - name: Accédez à la recherche
                   href: mtp/advanced-hunting-go-hunt.md
+                - name: Étendre la couverture des données
+                  href: mtp/advanced-hunting-extend-data.md
                 - name: Schéma des données
                   items:
                     - name: Comprendre le schéma
