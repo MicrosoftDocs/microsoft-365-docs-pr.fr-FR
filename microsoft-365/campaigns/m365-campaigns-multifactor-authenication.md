@@ -14,6 +14,7 @@ ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - MiniMaven
@@ -23,21 +24,21 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurez l’authentification multifacteur.
-ms.openlocfilehash: 35171688f9e224bdcb9ce8a592cc80124d253d2d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a0bf5167ae6b5268f7bfeabd4ae554ae5f279dbe
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633700"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527149"
 ---
-# <a name="set-up-multifactor-authentication"></a><span data-ttu-id="38332-103">Configurez l’authentification multifacteur.</span><span class="sxs-lookup"><span data-stu-id="38332-103">Set up multifactor authentication</span></span>
+# <a name="set-up-multifactor-authentication"></a><span data-ttu-id="c1c4d-103">Configurez l’authentification multifacteur.</span><span class="sxs-lookup"><span data-stu-id="c1c4d-103">Set up multifactor authentication</span></span>
 
-<span data-ttu-id="38332-104">L’authentification multifacteur offre davantage de sécurité pour votre entreprise.</span><span class="sxs-lookup"><span data-stu-id="38332-104">Multi-factor authentication provides more security for your business.</span></span> <span data-ttu-id="38332-105">Une fois que votre administrateur a besoin d’utiliser l’authentification multifacteur, vous pouvez configurer l’application Microsoft Authenticator pour vous permettre de vous connecter à des applications clés en toute sécurité avec votre téléphone.</span><span class="sxs-lookup"><span data-stu-id="38332-105">After your admin has required you to use MFA, you can set up the Microsoft Authenticator app to let you log into key apps securely with your phone.</span></span> 
+<span data-ttu-id="c1c4d-104">L’authentification multifacteur offre davantage de sécurité pour votre entreprise.</span><span class="sxs-lookup"><span data-stu-id="c1c4d-104">Multi-factor authentication provides more security for your business.</span></span> <span data-ttu-id="c1c4d-105">Une fois que votre administrateur a besoin d’utiliser l’authentification multifacteur, vous pouvez configurer l’application Microsoft Authenticator pour vous permettre de vous connecter à des applications clés en toute sécurité avec votre téléphone.</span><span class="sxs-lookup"><span data-stu-id="c1c4d-105">After your admin has required you to use MFA, you can set up the Microsoft Authenticator app to let you log into key apps securely with your phone.</span></span> 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MmQR] 
 
-<span data-ttu-id="38332-106">Pour plus d’informations, consultez la rubrique [configuration de l’authentification multifacteur dans Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)</span><span class="sxs-lookup"><span data-stu-id="38332-106">See more at [Set up multifactor authentication in Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)</span></span>
+<span data-ttu-id="c1c4d-106">Pour plus d’informations, consultez la rubrique [configuration de l’authentification multifacteur dans Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)</span><span class="sxs-lookup"><span data-stu-id="c1c4d-106">See more at [Set up multifactor authentication in Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)</span></span>
 
-## <a name="use-the-outlook-app-in-your-devices"></a><span data-ttu-id="38332-107">Utiliser l’application Outlook dans vos appareils</span><span class="sxs-lookup"><span data-stu-id="38332-107">Use the Outlook app in your devices</span></span>
+## <a name="use-the-outlook-app-in-your-devices"></a><span data-ttu-id="c1c4d-107">Utiliser l’application Outlook dans vos appareils</span><span class="sxs-lookup"><span data-stu-id="c1c4d-107">Use the Outlook app in your devices</span></span>
 
-<span data-ttu-id="38332-108">Une fois que votre administrateur a besoin d’utiliser l’authentification multifacteur et que vous avez configuré une application d’authentificateur en tant que deuxième forme d’authentification, nous vous recommandons d’installer et d’utiliser uniquement l’application Outlook pour accéder à votre messagerie Microsoft 365 pour les campagnes.</span><span class="sxs-lookup"><span data-stu-id="38332-108">After your admin has required you to use MFA and you've set up an authenticator app as a second form of authentication, we recommend that you install and only use the Outlook app to access your Microsoft 365 for Campaigns email.</span></span> <span data-ttu-id="38332-109">Pour plus d’informations sur l’installation des applications Office, y compris Outlook, sur votre téléphone, consultez la rubrique [set up Mobile Devices](../business/set-up-mobile-devices.md) .</span><span class="sxs-lookup"><span data-stu-id="38332-109">See [Set up mobile devices](../business/set-up-mobile-devices.md) for how to install Office apps, including Outlook, on your phone.</span></span>
+<span data-ttu-id="c1c4d-108">Une fois que votre administrateur a besoin d’utiliser l’authentification multifacteur et que vous avez configuré une application d’authentificateur en tant que deuxième forme d’authentification, nous vous recommandons d’installer et d’utiliser uniquement l’application Outlook pour accéder à votre messagerie Microsoft 365 pour les campagnes.</span><span class="sxs-lookup"><span data-stu-id="c1c4d-108">After your admin has required you to use MFA and you've set up an authenticator app as a second form of authentication, we recommend that you install and only use the Outlook app to access your Microsoft 365 for Campaigns email.</span></span> <span data-ttu-id="c1c4d-109">Pour plus d’informations sur l’installation des applications Office, y compris Outlook, sur votre téléphone, consultez la rubrique [set up Mobile Devices](../business/set-up-mobile-devices.md) .</span><span class="sxs-lookup"><span data-stu-id="c1c4d-109">See [Set up mobile devices](../business/set-up-mobile-devices.md) for how to install Office apps, including Outlook, on your phone.</span></span>
