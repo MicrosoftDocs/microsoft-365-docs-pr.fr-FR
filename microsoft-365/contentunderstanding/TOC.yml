@@ -1,0 +1,22 @@
+- name: Prise en main de la compréhension du contenu
+  items:
+    - name: Présentation de l’explication des documents
+      href: document-understanding-overview.md
+    - name: Vue d’ensemble du traitement des formulaires
+      href: form-processing-overview.md
+    - name: Différence entre une présentation de document et des modèles de traitement de formulaire
+      href: difference-between-document-understanding-and-form-processing-model.md
+    - name: Créer un centre de contenu
+      href: create-a-content-center.md
+    - name: Créer un classifieur
+      href: create-a-classifier.md
+    - name: Créer un extracteur
+      href: create-an-extractor.md
+    - name: Appliquer un modèle
+      href: apply-a-model.md
+    - name: Créer un modèle de traitement de formulaire
+      href: create-a-form-processing-model.md
+- name: Prise en main du programme d’installation
+  items:
+    - name: Configurer la présentation du contenu
+      href: set-up-content-understanding.md

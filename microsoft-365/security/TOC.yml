@@ -315,6 +315,8 @@
                       href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
                 - name: Stratégies de sécurité prédéfinies
                   href: ./office-365-security/preset-security-policies.md
+                - name: Analyseur de configuration pour les stratégies de sécurité prédéfinies
+                  href: ./office-365-security/configuration-analyzer-for-security-policies.md
                 - name: En-têtes de messages anti-courrier indésirable
                   href: ./office-365-security/anti-spam-message-headers.md
                 - name: Combinaison des stratégies et des protections

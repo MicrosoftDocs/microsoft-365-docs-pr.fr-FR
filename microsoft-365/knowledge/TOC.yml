@@ -1,0 +1,16 @@
+- name: Prise en main de la gestion des connaissances
+  items:
+    - name: Vue d’ensemble de la gestion des connaissances
+      href: knowledge-management-overview.md
+    - name: Présentation du centre de rubriques
+      href: topic-center-overview.md
+    - name: Utilisation des rubriques dans le Centre des rubriques
+      href: work-with-topics.md
+    - name: Accorder aux utilisateurs des autorisations sur le Centre des rubriques
+      href: give-user-permissions-to-the-topic-center.md
+- name: Prise en main du programme d’installation
+  items:
+    - name: Configurer la gestion des connaissances
+      href: set-up-knowledge-network.md
+    - name: Gérer votre réseau de gestion des connaissances
+      href: manage-knowledge-network.md
