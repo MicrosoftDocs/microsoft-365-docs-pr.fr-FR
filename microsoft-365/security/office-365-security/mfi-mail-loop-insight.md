@@ -1,5 +1,5 @@
 ---
-title: Informations sur les boucles de courrier
+title: Corriger les éventuelles indications de boucle de messagerie
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,24 +12,32 @@ localization_priority: Normal
 ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 ms.custom:
 - seo-marvel-apr2020
-description: Les administrateurs peuvent en savoir plus sur la vue de boucle de courrier dans le tableau de bord de flux de messagerie dans le centre de sécurité & conformité.
-ms.openlocfilehash: 80767a265734c542db8e24cf58d0a1c0df469780
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Les administrateurs peuvent apprendre à utiliser la fonction de résolution des problèmes possibles dans le tableau de bord de flux de messagerie dans le centre de sécurité & Compliance pour identifier et corriger les boucles de messagerie au sein de leur organisation.
+ms.openlocfilehash: 54240cffc534b4be708492b37b827636edab280e
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819315"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577621"
 ---
-# <a name="mail-loop-insight"></a><span data-ttu-id="3f09d-103">Informations sur les boucles de courrier</span><span class="sxs-lookup"><span data-stu-id="3f09d-103">Mail loop insight</span></span>
+# <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a><span data-ttu-id="ff777-103">Corriger les éventuelles boucles de courrier dans le centre de sécurité & conformité</span><span class="sxs-lookup"><span data-stu-id="ff777-103">Fix possible mail loop insight in the Security & Compliance Center</span></span>
 
-<span data-ttu-id="3f09d-104">Une boucle de courrier est incorrecte car elle gaspille des ressources système, consomme le quota de volume de courrier de votre organisation et envoie des notifications d’échec de remise confuses (également appelées notifications de non-remise) aux expéditeurs d’origine.</span><span class="sxs-lookup"><span data-stu-id="3f09d-104">A mail loop is bad because it wastes system resources, consumes your organization's mail volume quota, and sends confusing non-delivery reports (also known as NDRs or bounce messages) to the original senders.</span></span> <span data-ttu-id="3f09d-105">Cet aperçu indique quand une boucle de courrier est trouvée dans votre organisation, les domaines de messagerie impliqués dans la boucle et le nombre de messages de la journée précédente qui se trouvaient dans la boucle.</span><span class="sxs-lookup"><span data-stu-id="3f09d-105">This insight reports when a mail loop is found in your organization, the email domains that are involved in the loop, and the number of messages from the previous day that were in the loop.</span></span>
+<span data-ttu-id="ff777-104">Une boucle de courrier est incorrecte car elle gaspille des ressources système, consomme le quota de volume de courrier de votre organisation et envoie des notifications d’échec de remise confuses (également appelées notifications de non-remise) aux expéditeurs d’origine.</span><span class="sxs-lookup"><span data-stu-id="ff777-104">A mail loop is bad because it wastes system resources, consumes your organization's mail volume quota, and sends confusing non-delivery reports (also known as NDRs or bounce messages) to the original senders.</span></span>
 
-![Vue de boucle de courrier dans le tableau de bord de flux de messagerie dans le centre de sécurité & conformité](../../media/c3f707cb-4c89-4e88-989c-81ce1d1d6b99.png)
+<span data-ttu-id="ff777-105">La **fonctionnalité corriger la boucle de courrier possible** dans la zone **recommandé pour vous** du [tableau de bord de flux de messagerie](mail-flow-insights-v2.md) dans le centre de sécurité & conformité vous avertit lorsqu’une boucle de courrier est détectée dans votre organisation.</span><span class="sxs-lookup"><span data-stu-id="ff777-105">The **Fix possible mail loop** insight in the **Recommended for you** area of the [Mail flow dashboard](mail-flow-insights-v2.md) in the Security & Compliance Center notifies you when a mail loop is detected in your organization.</span></span> <span data-ttu-id="ff777-106">Cette vue ne s’affiche qu’une fois la condition détectée (si vous n’avez pas de boucles de courrier, vous ne verrez pas la vue d’ensemble).</span><span class="sxs-lookup"><span data-stu-id="ff777-106">This insight appears only after the condition is detected (if you don't have any mail loops, you won't see the insight).</span></span>
 
-<span data-ttu-id="3f09d-107">Vous pouvez cliquer sur **afficher les détails** pour afficher les détails dans un volet flyout.</span><span class="sxs-lookup"><span data-stu-id="3f09d-107">You can click **View details** to see the details in a flyout pane.</span></span> <span data-ttu-id="3f09d-108">Nous allons également identifier les scénarios de boucle les plus courants et fournir les actions recommandées (le cas échéant) pour corriger la boucle.</span><span class="sxs-lookup"><span data-stu-id="3f09d-108">We also identify the most common loop scenarios and provide the recommended actions (if available) to fix the loop.</span></span>
+![Réparer le ralentissement des règles de flux de messagerie dans la zone recommandé pour vous du tableau de bord flux de messagerie](../../media/mfi-fix-possible-mail-loop.png)
 
-![Volet flyout après avoir cliqué sur Afficher les détails dans un aperçu de boucle inappropriée dans le tableau de bord de flux de messagerie](../../media/f7e21300-c62f-41ec-853f-4a2775cd8aa7.png)
+<span data-ttu-id="ff777-108">Lorsque vous cliquez sur **afficher les détails** dans le widget, un lanceur apparaît avec davantage d’informations :</span><span class="sxs-lookup"><span data-stu-id="ff777-108">When you click **View details** on the widget, a flyout appears with more information:</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="3f09d-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3f09d-110">Related topics</span></span>
+- <span data-ttu-id="ff777-109">**Domaine**</span><span class="sxs-lookup"><span data-stu-id="ff777-109">**Domain**</span></span>
+- <span data-ttu-id="ff777-110">**Nombre de messages**: vous pouvez cliquer sur **afficher les exemples de messages** pour afficher les résultats du [suivi](message-trace-scc.md) des messages pour un exemple de messages qui ont été affectés par la boucle.</span><span class="sxs-lookup"><span data-stu-id="ff777-110">**Number of messages**: You can click **View sample messages** to see the [message trace](message-trace-scc.md) results for a sample of the messages that were affected by the loop.</span></span>
+- <span data-ttu-id="ff777-111">**Type de domaine**«par exemple, faisant autorité ou ne faisant pas autorité.</span><span class="sxs-lookup"><span data-stu-id="ff777-111">**Domain type**" For example, Authoritative or Non-authoritative.</span></span>
+- <span data-ttu-id="ff777-112">**Enregistrement MX**: l’hôte (**serveur de messagerie**) et les valeurs de **priorité** de l’enregistrement MX pour le domaine.</span><span class="sxs-lookup"><span data-stu-id="ff777-112">**MX record**: The host (**Mail server**) and **Priority** values of the MX record for the domain.</span></span>
+- <span data-ttu-id="ff777-113">**Raison** de la boucle et **Comment résoudre**: nous allons essayer d’identifier les scénarios de boucle de courrier les plus courants et de fournir les actions recommandées (le cas échéant) pour corriger la boucle.</span><span class="sxs-lookup"><span data-stu-id="ff777-113">**Loop reason** and **How to fix**: We'll try to identify the most common mail loop scenarios and provide the recommended actions (if available) to fix the loop.</span></span>
 
-<span data-ttu-id="3f09d-111">Pour plus d’informations sur les autres flux de messagerie dans le tableau de bord de flux de messagerie, voir [mail Flow Insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="3f09d-111">For more information about other mail flow insights in the mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
+![Fenêtre volante de détails qui apparaît après avoir cliqué sur Afficher les détails dans la boîte de message de correction possible](../../media/mfi-fix-possible-mail-loop-details.png)
+
+## <a name="related-topics"></a><span data-ttu-id="ff777-115">Sujets associés</span><span class="sxs-lookup"><span data-stu-id="ff777-115">Related topics</span></span>
+
+<span data-ttu-id="ff777-116">Pour plus d’informations sur les autres informations du tableau de bord de flux de messagerie, consultez [la rubrique mail Flow Insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="ff777-116">For information about other insights in the Mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>

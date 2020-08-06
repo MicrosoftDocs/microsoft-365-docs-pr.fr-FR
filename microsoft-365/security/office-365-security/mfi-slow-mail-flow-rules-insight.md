@@ -1,11 +1,11 @@
 ---
-title: Informations sur les règles de flux de messagerie lent
+title: Réparer le ralentissement des règles de flux de messagerie
 f1.keywords:
 - NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
-ms.date: 5/3/2018
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,32 +13,39 @@ localization_priority: Normal
 ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 ms.custom:
 - seo-marvel-apr2020
-description: Les administrateurs peuvent en savoir plus sur les règles de flux de messagerie lentes du tableau de bord de flux de messagerie dans le centre de sécurité & conformité.
-ms.openlocfilehash: 52ddb6bf5ab6998309fd3122c59636c14b3da1dd
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Les administrateurs peuvent apprendre à utiliser le correctif lent les règles de flux de messagerie du centre de sécurité & Compliance Center pour identifier et corriger les règles de flux de messagerie inefficaces ou rompues (également appelées règles de transport) dans leur organisation.
+ms.openlocfilehash: bb1c09c2809260be8086059259a1aeec3f1fb3eb
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819363"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577154"
 ---
-# <a name="slow-mail-flow-rules-insight"></a><span data-ttu-id="bbf4d-103">Informations sur les règles de flux de messagerie lent</span><span class="sxs-lookup"><span data-stu-id="bbf4d-103">Slow mail flow rules insight</span></span>
+# <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a><span data-ttu-id="6a76d-103">Réparer le ralentissement des règles de flux de messagerie dans le centre de sécurité & conformité</span><span class="sxs-lookup"><span data-stu-id="6a76d-103">Fix slow mail flow rules insight in the Security & Compliance Center</span></span>
 
-<span data-ttu-id="bbf4d-104">Des règles inefficaces de flux de messagerie (également appelées règles de transport) peuvent entraîner des retards de flux de messagerie pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="bbf4d-104">Inefficient mail flow rules (also known as transport rules) can lead to mail flow delays for your organization.</span></span> <span data-ttu-id="bbf4d-105">Cette vue d’État indique les règles de flux de messagerie qui ont un impact sur le flux de messagerie de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="bbf4d-105">This insight reports mail flow rules that have an impact on your organization's mail flow.</span></span> <span data-ttu-id="bbf4d-106">Voici des exemples de ces types de règles :</span><span class="sxs-lookup"><span data-stu-id="bbf4d-106">Examples of these types of rules are:</span></span>
+<span data-ttu-id="6a76d-104">Des règles inefficaces de flux de messagerie (également appelées règles de transport) peuvent entraîner des retards de flux de messagerie pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="6a76d-104">Inefficient mail flow rules (also known as transport rules) can lead to mail flow delays for your organization.</span></span> <span data-ttu-id="6a76d-105">Cette vue d’État indique les règles de flux de messagerie qui ont un impact sur le flux de messagerie de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="6a76d-105">This insight reports mail flow rules that have an impact on your organization's mail flow.</span></span> <span data-ttu-id="6a76d-106">Voici des exemples de ces types de règles :</span><span class="sxs-lookup"><span data-stu-id="6a76d-106">Examples of these types of rules include:</span></span>
 
-- <span data-ttu-id="bbf4d-107">Conditions utilisées par **est membre de** pour les grands groupes.</span><span class="sxs-lookup"><span data-stu-id="bbf4d-107">Conditions that use **Is member of** for large groups.</span></span>
+- <span data-ttu-id="6a76d-107">Conditions utilisées par **est membre de** pour les grands groupes.</span><span class="sxs-lookup"><span data-stu-id="6a76d-107">Conditions that use **Is member of** for large groups.</span></span>
+- <span data-ttu-id="6a76d-108">Conditions qui utilisent des critères de correspondance des expressions régulières complexes (Regex).</span><span class="sxs-lookup"><span data-stu-id="6a76d-108">Conditions that use complex regular expression (regex) pattern matching.</span></span>
+- <span data-ttu-id="6a76d-109">Conditions d’utilisation de l’archivage de contenu dans les pièces jointes.</span><span class="sxs-lookup"><span data-stu-id="6a76d-109">Conditions that use content checking in attachments.</span></span>
 
-- <span data-ttu-id="bbf4d-108">Conditions qui utilisent des critères de correspondance des expressions régulières complexes (Regex).</span><span class="sxs-lookup"><span data-stu-id="bbf4d-108">Conditions that use complex regular expression (regex) pattern matching.</span></span>
+<span data-ttu-id="6a76d-110">Les **règles de flux de messagerie de résolution lente** dans la zone **recommandé pour vous** du [tableau de bord de flux de messagerie](mail-flow-insights-v2.md) dans le centre de sécurité & conformité vous avertit lorsqu’une règle de flux de messagerie prend trop de temps pour se terminer.</span><span class="sxs-lookup"><span data-stu-id="6a76d-110">The **Fix slow mail flow rules** insight in the **Recommended for you** area of the [Mail flow dashboard](mail-flow-insights-v2.md) in the Security & Compliance Center notifies you when a mail flow rule is taking too long to complete.</span></span> <span data-ttu-id="6a76d-111">Cette vue ne s’affiche qu’une fois la condition détectée (si vous n’avez pas de boucles de courrier, vous ne verrez pas la vue d’ensemble).</span><span class="sxs-lookup"><span data-stu-id="6a76d-111">This insight appears only after the condition is detected (if you don't have any mail loops, you won't see the insight).</span></span>
 
-- <span data-ttu-id="bbf4d-109">Conditions d’utilisation de l’archivage de contenu dans les pièces jointes.</span><span class="sxs-lookup"><span data-stu-id="bbf4d-109">Conditions that use content checking in attachments.</span></span>
+<span data-ttu-id="6a76d-112">Vous pouvez utiliser cette notification pour identifier et ajuster les règles de flux de messagerie afin de réduire les retards de flux de messagerie.</span><span class="sxs-lookup"><span data-stu-id="6a76d-112">You can use this notification to help you to identify and fine-tune mail flow rules to help reduce mail flow delays.</span></span>
 
-<span data-ttu-id="bbf4d-110">Le centre d’analyse vous aidera à identifier et à ajuster les règles de flux de messagerie afin de réduire les délais de flux de messagerie.</span><span class="sxs-lookup"><span data-stu-id="bbf4d-110">The insight will help you to identify and fine-tune mail flow rules to help reduce mail flow delays.</span></span>
+![Réparer le ralentissement des règles de flux de messagerie dans la zone recommandé pour vous du tableau de bord flux de messagerie](../../media/mfi-fix-slow-mail-flow-rules.png)
 
-![Des règles de flux de messagerie lentes dans le tableau de bord de flux de messagerie dans le centre de sécurité & conformité](../../media/1dd90faa-f065-4b10-8b47-d35dc127fc26.png)
+<span data-ttu-id="6a76d-114">Lorsque vous cliquez sur **afficher les détails** dans le widget, un lanceur apparaît avec davantage d’informations :</span><span class="sxs-lookup"><span data-stu-id="6a76d-114">When you click **View details** on the widget, a flyout appears with more information:</span></span>
 
-<span data-ttu-id="bbf4d-112">Lorsque vous cliquez sur **afficher les détails**, un volet flyout apparaît dans lequel vous pouvez examiner la règle.</span><span class="sxs-lookup"><span data-stu-id="bbf4d-112">When you click **View details**, a flyout pane appears where you can review the rule.</span></span> <span data-ttu-id="bbf4d-113">Dans le volet flyout, peut également cliquer sur **afficher les exemples de messages** pour voir les types de messages concernés par la règle.</span><span class="sxs-lookup"><span data-stu-id="bbf4d-113">In the flyout pane, can also click **view sample messages** to see what kind of messages are impacted by the rule.</span></span>
+- <span data-ttu-id="6a76d-115">**Règle**: vous pouvez pointer sur le résumé pour afficher toutes les conditions, les exceptions et les actions de la règle.</span><span class="sxs-lookup"><span data-stu-id="6a76d-115">**Rule**: You can hover over the summary to see all of the conditions, exceptions, and actions of the rule.</span></span> <span data-ttu-id="6a76d-116">Vous pouvez cliquer sur le résumé pour modifier la règle dans le centre d’administration Exchange.</span><span class="sxs-lookup"><span data-stu-id="6a76d-116">You can click on the summary to edit the rule in the Exchange admin center (EAC).</span></span>
+- <span data-ttu-id="6a76d-117">**Nombre de messages évalués**: vous pouvez cliquer sur **afficher les exemples de messages** pour afficher les résultats de [suivi](message-trace-scc.md) des messages pour un exemple de messages qui ont été affectés par la règle.</span><span class="sxs-lookup"><span data-stu-id="6a76d-117">**Number of messages evaluated**: You can click **View sample messages** to see the [message trace](message-trace-scc.md) results for a sample of the messages that were affected by the rule.</span></span>
+- <span data-ttu-id="6a76d-118">**Temps moyen passé sur chaque message**</span><span class="sxs-lookup"><span data-stu-id="6a76d-118">**Average time spent on each message**</span></span>
+- <span data-ttu-id="6a76d-119">**Temps médian passé sur un message**: valeur centrale séparant la partie supérieure de la moitié inférieure des données de temps.</span><span class="sxs-lookup"><span data-stu-id="6a76d-119">**Median time spent on a message**: The middle value that separates the upper half from the lower half of time data.</span></span>
 
-![Volet flyout après avoir cliqué sur Afficher les détails dans une règle de flux de messagerie lente vue d’ensemble du tableau de bord de flux de messagerie](../../media/2cbd43b7-1f21-4338-a70c-7b50de5c69cd.png)
+![Fenêtre volante de détails qui apparaît après avoir cliqué sur Afficher les détails dans la boîte de message Fix ralentissement des règles de flux de messagerie](../../media/mfi-fix-slow-mail-flow-rules-details.png)
 
-## <a name="related-topics"></a><span data-ttu-id="bbf4d-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="bbf4d-115">Related topics</span></span>
+<span data-ttu-id="6a76d-121">Pour plus d’informations sur les conditions et les exceptions dans les règles de flux de messagerie dans Exchange Online, consultez la rubrique [mail Flow Rule conditions and exceptions (prédicats) in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions).</span><span class="sxs-lookup"><span data-stu-id="6a76d-121">For more information about conditions and exceptions in mail flow rules in Exchange Online, see [Mail flow rule conditions and exceptions (predicates) in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions).</span></span>
 
-<span data-ttu-id="bbf4d-116">Pour plus d’informations sur les autres flux de messagerie dans le tableau de bord de flux de messagerie, voir [mail Flow Insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="bbf4d-116">For more information about other mail flow insights in the mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
+## <a name="related-topics"></a><span data-ttu-id="6a76d-122">Sujets associés</span><span class="sxs-lookup"><span data-stu-id="6a76d-122">Related topics</span></span>
+
+<span data-ttu-id="6a76d-123">Pour plus d’informations sur les autres informations du tableau de bord de flux de messagerie, consultez [la rubrique mail Flow Insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="6a76d-123">For information about other insights in the Mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
