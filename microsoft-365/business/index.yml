@@ -12,12 +12,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 86b644f7b35c6bcb2c02b6ee53ee468019caf75d
-  ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+  ms.openlocfilehash: ae67faeeae80f948b12eeb4af47c7bcc5d48148c
+  ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 07/22/2020
-  ms.locfileid: "45204778"
+  ms.lasthandoff: 08/04/2020
+  ms.locfileid: "46560826"
 productDirectory:
   title: Sécuriser le travail à distance avec Microsoft 365 Business Premium
   items:
@@ -33,6 +33,10 @@ productDirectory:
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
     summary: Azure AD Premium P1 est désormais inclus dans Microsoft 365 Business Premium !
     url: https://aka.ms/aadp1smbblog
+  - title: Participez au webinaire sur les partenaires, et réduisez les risques dans le monde du travail à distance.
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
+    summary: 19 août, 8h - 9h Pacifique/Fidji
+    url: https://aka.ms/GrowwithMicrosoft365
 conceptualContent:
   items:
   - title: Qu’est-ce que Microsoft 365 Business Premium ?
@@ -80,9 +84,9 @@ conceptualContent:
     - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-smb-technical-fundamentals-content-content-used-for-delivery
       itemType: download
       text: Les principes fondamentaux de la technologie
-    - url: https://www.microsoft.com/microsoft-365/partners/resources/securing-remote-work-checklist
+    - url: https://aka.ms/SMBSecurityKit
       itemType: download
-      text: Liste de contrôle pour la sécurisation du travail à distance
+      text: Kit de travail à distance sécurisé
     - url: https://cct.transform.microsoft.com/
       itemType: deploy
       text: Outil de conseil client
