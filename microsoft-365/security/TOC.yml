@@ -489,28 +489,30 @@
             - name: Informations sur le flux de messagerie dans le centre de sécurité et conformité
               href: ./office-365-security/mail-flow-insights-v2.md
               items:
-                - name: Rapport carte de flux de courrier
+                - name: Aperçu des messages transférés automatiquement
+                  href: ./office-365-security/mfi-auto-forwarded-messages-report.md
+                - name: Résoudre les problèmes de boucles de courrier possibles
+                  href: ./office-365-security/mfi-mail-loop-insight.md
+                - name: Résoudre les règles de flux de messagerie lent
+                  href: ./office-365-security/mfi-slow-mail-flow-rules-insight.md
+                - name: Carte du flux de messagerie
                   href: ./office-365-security/mfi-mail-flow-map-report.md
-                - name: Informations sur l’état du flux de courrier des principaux domaines
-                  href: ./office-365-security/mfi-domain-mail-flow-status-insight.md
-                - name: Rapport de clients d’authentification SMTP
-                  href: ./office-365-security/mfi-smtp-auth-clients-report.md
-                - name: Informations sur la correction du domaine de l’expéditeur
-                  href: ./office-365-security/mfi-sender-domain-insight.md
-                - name: Rapport de non-remise
-                  href: ./office-365-security/mfi-non-delivery-report.md
+                - name: Informations sur les nouveaux domaines transmis par courrier électronique
+                  href: ./office-365-security/mfi-new-domains-being-forwarded-email.md
+                - name: Informations sur les courriers électroniques de nouveaux utilisateurs
+                  href: ./office-365-security/mfi-new-users-forwarding-email.md
                 - name: Rapport de domaine non accepté
                   href: ./office-365-security/mfi-non-accepted-domain-report.md
-                - name: Flux de courrier entrant et sortant
+                - name: Rapport de non-remise
+                  href: ./office-365-security/mfi-non-delivery-report.md
+                - name: Informations sur le flux de courrier entrant et sortant
                   href: ./office-365-security/mfi-outbound-and-inbound-mail-flow.md
-                - name: Alertes de files d’attente et files d’attente
+                - name: Informations sur les files d’attente
                   href: ./office-365-security/mfi-queue-alerts-and-queues.md
-                - name: Rapport des messages transférés automatiquement
-                  href: ./office-365-security/mfi-auto-forwarded-messages-report.md
-                - name: Informations sur les boucles de courrier
-                  href: ./office-365-security/mfi-mail-loop-insight.md
-                - name: Informations sur les règles de flux de messagerie lent
-                  href: ./office-365-security/mfi-slow-mail-flow-rules-insight.md
+                - name: Informations et rapports sur les clients SMTP AUTH
+                  href: ./office-365-security/mfi-smtp-auth-clients-report.md
+                - name: Informations sur l’état du flux de courrier des principaux domaines
+                  href: ./office-365-security/mfi-domain-mail-flow-status-insight.md
         - name: Solutions de sécurité
           items:
             - name: "Conseils de Sécurité\_Microsoft pour les campagnes électorales, les organisations à but non lucratif et d’autres organisations flexibles"

@@ -1,84 +1,53 @@
-### YamlMime:YamlDocument
-documentType: LandingData
-title: Documentation et ressources sur le Bureau géré Microsoft
+### YamlMime:Landing
+title: Documentation sur le Bureau géré Microsoft
+summary: Microsoft Managed Desktop réunit Microsoft 365 Enterprise, la gestion des appareils basée sur le Cloud par Microsoft et la surveillance de la sécurité, ce qui vous permet de libérer vos équipes informatiques afin de vous concentrer sur les besoins fondamentaux de l’entreprise.
 metadata:
   title: Documentation sur le Bureau géré Microsoft
-  description: null
-  keywords: 'appareil, application, gestion'
+  description: Microsoft Managed Desktop réunit Microsoft 365 Enterprise, la gestion des appareils basée sur le Cloud par Microsoft et la surveillance de la sécurité, ce qui vous permet de libérer vos équipes informatiques afin de vous concentrer sur les besoins fondamentaux de l’entreprise.
+  keywords: device, app, management
+  ms.service: m365-md
+  ms.topic: landing-page
   author: jaimeo
   ms.author: jaimeo
-  ms.topic: landing-page
-  ms.devlang: na
-  ms.service: m365-md
-sections:
-  - items:
-      - type: markdown
-        text: 'Microsoft Managed Desktop réunit Microsoft 365 Enterprise, la gestion des appareils basée sur le Cloud par Microsoft et la surveillance de la sécurité, ce qui vous permet de libérer vos équipes informatiques afin de vous concentrer sur les besoins fondamentaux de l’entreprise.'
-  - items:
-      - type: list
-        style: cards
-        className: cardsM
-        columns: 2
-        items:
-          - href: intro/index.md
-            html: "<p>Présentation du Bureau géré Microsoft pour les décisionnaires\_: sa description, son fonctionnement et ses fonctionnalités utiles</p>"
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_overview.svg'
-              alt: ''
-            title: "Qu’est-ce que le Bureau géré Microsoft\_?"
-          - href: service-description/index.md
-            html: <p>Description détaillée de tous les éléments du Bureau géré Microsoft</p>
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
-              alt: ''
-            title: Description du service
-          - href: get-ready/index.md
-            html: <p>Procédure complète pour préparer votre environnement et votre organisation à l’utilisation du service</p>
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_support.svg'
-              alt: ''
-            title: Préparez-vous
-          - href: get-started/index.md
-            html: '<p>Associez votre organisation au Bureau géré Microsoft, notamment avec la configuration des appareils et le déploiement d’applications</p>'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_whats-new.svg'
-              alt: ''
-            title: Prise en main
-          - href: working-with-managed-desktop/index.md
-            html: <p>Toutes vos activités quotidiennes avec le service</p>
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_portal.svg'
-              alt: ''
-            title: Utilisation du Bureau géré Microsoft
-  - title: Nouveaux articles et publications de blog
-    items:
-      - type: paragraph
-        text: Prenez connaissance des dernières et plus importantes informations qu'il faut savoir.
-      - type: list
-        style: cards
-        className: cardsM
-        columns: 2
-        items:
-          - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482'
-            title: '[Feuille de route] Votre feuille de route complète pour le Bureau géré Microsoft'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
-          - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182'
-            title: "[Livre blanc] Étude\_: demande croissante pour les services de bureau gérés"
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
-          - href: 'https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw'
-            title: '[Livre électronique] Émerveillez votre entreprise grâce à un espace de travail moderne'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_guide.svg'
-              alt: ''
-  - title: Vidéos
-    items:
-      - type: paragraph
-        text: Découvrez les avantages du Bureau géré Microsoft présentés par le Directeur des Technologies chez Indiana Pacers.
-      - type: markdown
-        text: '>[!VIDEO https://www.youtube.com/embed/GXVRu49Gmxc]'
-      - type: paragraph
-        text: Le Directeur Général du Bureau géré Microsoft partage tous les points forts du service lors de la Conférence Ignite annuelle.
-      - type: markdown
-        text: '>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ksbj]'
+  ms.date: 07/13/2020
+  ms.openlocfilehash: 08ff51dcc2ecc7bb5f7a11616f011964d99287f2
+  ms.sourcegitcommit: 48f3c002678906189bfba079bbf055d67d08a60f
+  ms.translationtype: HT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 08/05/2020
+  ms.locfileid: "46564142"
+landingContent:
+- title: À propos de bureau géré Microsoft
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Qu’est-ce que le bureau géré Microsoft ?
+      url: /microsoft-365/managed-desktop/intro/
+    - text: Description du service
+      url: /microsoft-365/managed-desktop/service-description
+  - linkListType: get-started
+    links:
+    - text: Préparez-vous
+      url: get-ready/index.md
+    - text: Prise en main
+      url: get-started/index.md
+    - text: Utilisation du Bureau géré Microsoft
+      url: /microsoft-365/managed-desktop/working-with-managed-desktop/
+- title: Nouveaux articles et publications de blog
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: '[Feuille de route] Votre feuille de route complète pour le Bureau géré Microsoft'
+      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482
+    - text: '[Livre blanc] Étude : demande croissante pour les services de bureau gérés'
+      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182
+    - text: '[Livre électronique] Émerveillez votre entreprise grâce à un espace de travail moderne'
+      url: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw
+- title: Vidéos
+  linkLists:
+  - linkListType: video
+    links:
+    - text: Découvrez les avantages de l’application Bureau gérée Microsoft, le responsable de l’ingénierie chez Lloyds Banking Group.
+      url: https://www.youtube.com/watch?v=B9Gqj66qxNo&feature=youtu.be
+    - text: Points forts de la version Bureau géré Microsoft dans la Conférence sur l’allumage annuel
+      url: /microsoft-365/managed-desktop/service-description
