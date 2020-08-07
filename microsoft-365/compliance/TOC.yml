@@ -335,14 +335,6 @@
           href: restore-an-inactive-mailbox.md
         - name: Suppression d’une boîte aux lettres inactive
           href: delete-an-inactive-mailbox.md
-    - name: Surveiller la gouvernance des données
-      items:
-        - name: Afficher l’activité des étiquettes pour les documents
-          href: view-label-activity-for-documents.md
-        - name: Afficher l’utilisation d’étiquette avec les analytiques d’étiquette
-          href: label-analytics.md
-        - name: Affichage des rapports de gouvernance des données
-          href: view-the-data-governance-reports.md
     - name: Plus d’informations sur la gouvernance des données
       items:
         - name: Regarder des vidéos de l’équipe de gouvernance des données Microsoft
