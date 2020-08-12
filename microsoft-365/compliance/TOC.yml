@@ -261,20 +261,22 @@
       items:
         - name: Vue d’ensemble de l’archivage de données tierces
           href: archiving-third-party-data.md
-        - name: Archiver des données de message Bloomberg (préversion)
-          href: archive-bloomberg-message-data.md
-        - name: Archiver des données Facebook (Aperçu)
-          href: archive-facebook-data-with-sample-connector.md
-        - name: Importer des données de ressources humaines (Aperçu)
-          href: import-hr-data.md
-        - name: Archiver les données ICE Chat (préversion)
-          href: archive-icechat-data.md
-        - name: Archiver les données de Bloomberg instantanée
-          href: archive-instant-bloomberg-data.md
-        - name: Archiver des données LinkedIn
-          href: archive-linkedin-data.md
-        - name: Archiver des données Twitter (Aperçu)
-          href: archive-twitter-data-with-sample-connector.md
+        - name: "Connecteurs de données\_Microsoft"
+          items:
+            - name: Message Bloomberg
+              href: archive-bloomberg-message-data.md
+            - name: Facebook Business
+              href: archive-facebook-data-with-sample-connector.md
+            - name: Données RH
+              href: import-hr-data.md
+            - name: Conversation ICE
+              href: archive-icechat-data.md
+            - name: Instant Bloomberg
+              href: archive-instant-bloomberg-data.md
+            - name: LinkedIn
+              href: archive-linkedin-data.md
+            - name: Twitter
+              href: archive-twitter-data-with-sample-connector.md
         - name: Collaborer avec un partenaire pour archiver des données tierces
           href: work-with-partner-to-archive-third-party-data.md
         - name: Rechercher des données tierces
