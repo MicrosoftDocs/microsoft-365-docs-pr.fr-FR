@@ -13,45 +13,27 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: 6dc99bbfb674c3119fb1926abe5690381a3d78cd
-  ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+  ms.openlocfilehash: 648b9a3256aaca8eaabba80af1edee3beccf1ac2
+  ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 07/29/2020
-  ms.locfileid: "46521194"
+  ms.lasthandoff: 08/12/2020
+  ms.locfileid: "46641618"
 landingContent:
-- title: Gérer la protection des informations
+- title: Gérer la protection et la gouvernance des informations
   linkLists:
   - linkListType: overview
     links:
-    - text: Étiquettes de confidentialité
-      url: sensitivity-labels.md
-    - text: Protection contre la perte de données (DLP)
-      url: data-loss-prevention-policies.md
-    - text: Types d’informations sensibles
-      url: custom-sensitive-info-types.md
-    - text: Chiffrement du courrier électronique
-      url: email-encryption.md
-    - text: Clé client
-      url: customer-key-overview.md
-- title: Gérer la gouvernance des informations
-  linkLists:
-  - linkListType: overview
-    links:
-    - text: Stratégies et étiquettes de rétention
-      url: retention.md
-    - text: Gestion des enregistrements
-      url: records-management.md
-    - text: Gestionnaire de plan de fichiers
-      url: file-plan-manager.md
-    - text: Rétention basée sur des événements
-      url: event-driven-retention.md
-    - text: Importation PST
-      url: importing-pst-files-to-office-365.md
-    - text: Connecteurs de données tiers
-      url: archiving-third-party-data.md
-    - text: Rapports de gouvernance des données
-      url: view-the-data-governance-reports.md
+    - text: Ayez une bonne connaissance de vos données
+      url: protect-information.md#know-your-data
+    - text: Protégez vos données
+      url: protect-information.md#protect-your-data
+    - text: Évitez les pertes de données
+      url: protect-information.md#prevent-data-loss
+    - text: Gouvernez vos données
+      url: manage-information-governance.md
+    - text: 'Rubrique d’apprentissage : Gérer la protection et la gouvernance des informations'
+      url: /learn/paths/m365-compliance-information
 - title: Gérer les risques internes
   linkLists:
   - linkListType: overview
