@@ -243,7 +243,7 @@
   items:
     - name: Gérer la gouvernance des informations
       href: manage-information-governance.md
-    - name: Importer des données
+    - name: Importer les données de la boîte aux lettres
       items:
         - name: Vue d’ensemble de l’importation de fichiers PST
           href: importing-pst-files-to-office-365.md
@@ -251,8 +251,6 @@
           href: use-network-upload-to-import-pst-files.md
         - name: Utiliser l’envoi de lecteurs pour importer des fichiers PST
           href: use-drive-shipping-to-import-pst-files-to-office-365.md
-        - name: 'Utiliser l’outil de collecte PST pour rechercher, copier et supprimer les fichiers PST'
-          href: find-copy-and-delete-pst-files-in-your-organization.md
         - name: Filtrer les données lors de l’importation de fichiers PST
           href: filter-data-when-importing-pst-files.md
         - name: FAQ sur l’importation de fichiers PST
