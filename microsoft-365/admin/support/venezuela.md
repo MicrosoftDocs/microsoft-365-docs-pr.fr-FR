@@ -20,18 +20,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/27/2020
 ms.locfileid: "44402305"
 ---
-# <a name="contact-support-for-venezuela"></a><span data-ttu-id="f5082-103">Contacter le support pour le Venezuela</span><span class="sxs-lookup"><span data-stu-id="f5082-103">Contact support for Venezuela</span></span>
+# <a name="contact-support-for-venezuela"></a><span data-ttu-id="bcfbd-103">Contacter le support pour le Venezuela</span><span class="sxs-lookup"><span data-stu-id="bcfbd-103">Contact support for Venezuela</span></span>
 
-<span data-ttu-id="f5082-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="f5082-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="bcfbd-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="bcfbd-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="f5082-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="f5082-105">Phone number</span></span>
-<span data-ttu-id="f5082-106">0800 100 8763</span><span class="sxs-lookup"><span data-stu-id="f5082-106">0800 100 8763</span></span>
+## <a name="phone-number"></a><span data-ttu-id="bcfbd-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="bcfbd-105">Phone number</span></span>
+<span data-ttu-id="bcfbd-106">0800 100 8763</span><span class="sxs-lookup"><span data-stu-id="bcfbd-106">0800 100 8763</span></span>
 
-## <a name="hours"></a><span data-ttu-id="f5082-107">Heures</span><span class="sxs-lookup"><span data-stu-id="f5082-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="f5082-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="f5082-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="bcfbd-107">Heures</span><span class="sxs-lookup"><span data-stu-id="bcfbd-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="bcfbd-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="bcfbd-108">Billing Support:</span></span>
 
-<span data-ttu-id="f5082-109">Espagnol : Lun-ven 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="f5082-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="bcfbd-109">Espagnol : Lun-ven 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="bcfbd-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="f5082-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="f5082-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="bcfbd-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="bcfbd-110">Technical Support:</span></span>
 
-<span data-ttu-id="f5082-111">Espagnol : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="f5082-111">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="bcfbd-111">Espagnol : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="bcfbd-111">Spanish: 24 hours a day, 7 days a week</span></span>
