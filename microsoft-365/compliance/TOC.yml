@@ -343,8 +343,12 @@
       items:
         - name: Gestion des enregistrements
           href: records-management.md
-        - name: Enregistrements
+        - name: Découvrir les enregistrements
           href: records.md
+        - name: Déclarer les enregistrements
+          href: declare-records.md
+        - name: Contrôle de version d’enregistrement
+          href: record-versioning.md
 - name: Gestion de l’eDiscovery
   items:
     - name: eDiscovery dans Microsoft 365
