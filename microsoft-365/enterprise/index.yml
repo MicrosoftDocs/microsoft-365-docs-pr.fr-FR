@@ -12,13 +12,13 @@ metadata:
   ms.collection: M365-subscription-management
   author: robmazz
   ms.author: robmazz
-  ms.date: 11/29/2019
-  ms.openlocfilehash: 31685a610f6560296dc72b7624f81a5927d56ec2
-  ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
+  ms.date: 07/28/2020
+  ms.openlocfilehash: 0fb4b195ebe6175afcc32291325b70848cc53901
+  ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 05/16/2020
-  ms.locfileid: "44268256"
+  ms.lasthandoff: 08/14/2020
+  ms.locfileid: "46686669"
 highlightedContent:
   items:
   - title: Découvrez Microsoft 365 Entreprise
@@ -34,23 +34,9 @@ conceptualContent:
   title: Obtenir de l’aide avec Microsoft 365 Entreprise et d’autres ressources
   summary: Explorez les services, fonctionnalités et des conseils sur le déploiement Microsoft 365 Entreprise.
   items:
-  - title: Contrôler la feuille de route pour le déploiement
-    links:
-    - url: deploy-microsoft-365-enterprise.md
-      itemType: deploy
-      text: Vue d’ensemble du déploiement
-    - url: deploy-foundation-infrastructure.md
-      itemType: how-to-guide
-      text: Infrastructure de base
-    - url: deploy-workloads.md
-      itemType: how-to-guide
-      text: Charges de travail
-    - url: desktop-deployment-center-home.md
-      itemType: get-started
-      text: Centre de déploiement du bureau
   - title: Déploiement des éléments clés
     links:
-    - url: identity-infrastructure.md
+    - url: identity-roadmap-microsoft-365.md
       itemType: how-to-guide
       text: Infrastructure d’identités
     - url: https://docs.microsoft.com/windows/deployment/

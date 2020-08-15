@@ -1,0 +1,84 @@
+---
+title: Optimiser les appels de page dans les pages de sites de publication modernes et classiques SharePoint Online
+ms.author: kvice
+author: kelleyvice-msft
+manager: laurawi
+ms.date: 03/11/2020
+audience: ITPro
+ms.topic: conceptual
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- Ent_O365
+- Strat_O365_Enterprise
+- SPO_Content
+f1.keywords:
+- CSH
+ms.custom: Adm_O365
+ms.reviewer: sstewart
+search.appverid:
+- MET150
+description: Découvrez comment optimiser les pages de sites de publication modernes et classiques dans SharePoint Online en limitant le nombre d’appels aux points de terminaison de service SharePoint Online.
+ms.openlocfilehash: b3c41dfe308f1546887f28cf0e8fbe9ab4dc2761
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46690205"
+---
+# <a name="optimize-page-calls-in-sharepoint-online-modern-and-classic-publishing-site-pages"></a><span data-ttu-id="a905a-103">Optimiser les appels de page dans les pages de sites de publication modernes et classiques SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="a905a-103">Optimize page calls in SharePoint Online modern and classic publishing site pages</span></span>
+
+<span data-ttu-id="a905a-104">Les sites de publication modernes et classiques SharePoint Online contiennent des liens qui chargent des données à partir des fonctionnalités SharePoint et des réseaux de distribution de contenu (ou qui font appel à ceux-ci).</span><span class="sxs-lookup"><span data-stu-id="a905a-104">Both SharePoint Online modern and classic publishing sites contain links that load data from (or make calls to) SharePoint features and CDNs.</span></span> <span data-ttu-id="a905a-105">Plus le nombre d’appels effectués par une page est grand, plus la page prend de temps à charger.</span><span class="sxs-lookup"><span data-stu-id="a905a-105">The more calls made by a page, the longer the page takes to load.</span></span> <span data-ttu-id="a905a-106">Il s’agit de la **latence perçue par l’utilisateur final** ou **EUPL**.</span><span class="sxs-lookup"><span data-stu-id="a905a-106">This is known as **end user perceived latency** or **EUPL**.</span></span>
+
+<span data-ttu-id="a905a-107">Cet article vous permet de comprendre comment déterminer le nombre et l’impact des appels vers des points de terminaison externes à partir de vos pages de sites de publications modernes et classiques et comment limiter leur effet sur la latence perçue par l’utilisateur final.</span><span class="sxs-lookup"><span data-stu-id="a905a-107">This article will help you understand how to determine the number and impact of calls to external endpoints from your modern and classic publishing site pages and how to limit their effect on end user perceived latency.</span></span>
+
+>[!NOTE]
+><span data-ttu-id="a905a-108">Pour plus d’informations sur les performances dans les portails modernes SharePoint Online, consultez [Performances offertes par l’expérience moderne de SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance).</span><span class="sxs-lookup"><span data-stu-id="a905a-108">For more information about performance in SharePoint Online modern portals, see [Performance in the modern SharePoint experience](https://docs.microsoft.com/sharepoint/modern-experience-performance).</span></span>
+
+## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-page-calls"></a><span data-ttu-id="a905a-109">Utiliser l’outil Diagnostic de page pour SharePoint pour analyser les appels de page</span><span class="sxs-lookup"><span data-stu-id="a905a-109">Use the Page Diagnostics for SharePoint tool to analyze page calls</span></span>
+
+<span data-ttu-id="a905a-110">L’outil Diagnostic de page pour SharePoint est une extension de navigateur pour le nouveau Microsoft Edge (https://www.microsoft.com/edge) et les navigateurs Chrome que vous pouvez utiliser pour analyser les pages de sites de publication SharePoint classiques et les portails modernes.</span><span class="sxs-lookup"><span data-stu-id="a905a-110">The Page Diagnostics for SharePoint tool is a browser extension for the new Microsoft Edge (https://www.microsoft.com/edge) and Chrome browsers that analyzes both SharePoint Online modern portal and classic publishing site pages.</span></span> <span data-ttu-id="a905a-111">L’outil fournit un rapport pour chaque page analysée montrant comment la page se comporte par rapport à un ensemble défini de critères de performance.</span><span class="sxs-lookup"><span data-stu-id="a905a-111">The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria.</span></span> <span data-ttu-id="a905a-112">Pour installer et découvrir l’outil Diagnostic de page pour SharePoint, consultez [Utiliser l’outil Diagnostic de page pour SharePoint Online](page-diagnostics-for-spo.md).</span><span class="sxs-lookup"><span data-stu-id="a905a-112">To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).</span></span>
+
+>[!NOTE]
+><span data-ttu-id="a905a-113">L’outil Diagnostic de page fonctionne uniquement pour SharePoint Online et ne peut pas être utilisé sur une page système SharePoint.</span><span class="sxs-lookup"><span data-stu-id="a905a-113">The Page Diagnostics tool only works for SharePoint Online, and cannot be used on a SharePoint system page.</span></span>
+
+<span data-ttu-id="a905a-114">Lorsque vous analysez une page de site SharePoint avec l’outil Diagnostic de page pour SharePoint, vous pouvez voir des informations sur les appels externes dans les résultats **Requêtes à SharePoint** dans le volet _Tests de diagnostic_.</span><span class="sxs-lookup"><span data-stu-id="a905a-114">When you analyze a SharePoint site page with the Page Diagnostics for SharePoint tool, you can see information about external calls in the **Requests to SharePoint** result in the _Diagnostic tests_ pane.</span></span> <span data-ttu-id="a905a-115">La ligne s’affiche en vert si la page du site contient moins que le nombre d’appels de référence, et en rouge si la page dépasse le nombre d’appels de référence.</span><span class="sxs-lookup"><span data-stu-id="a905a-115">The line will appear in green if the site page contains fewer than the baseline number of calls, and red if the page exceeds the baseline number.</span></span> <span data-ttu-id="a905a-116">Le nombre de référence est différent pour les pages modernes et classiques car les pages de sites classiques utilisent HTTP1.1 et les pages modernes utilisent HTTP2.0 :</span><span class="sxs-lookup"><span data-stu-id="a905a-116">The baseline number is different for modern and classic pages because classic site pages use HTTP1.1 and modern pages use HTTP2.0:</span></span>
+
+- <span data-ttu-id="a905a-117">Les pages de sites modernes ne doivent pas contenir plus de **25** appels</span><span class="sxs-lookup"><span data-stu-id="a905a-117">Modern site pages should contain no more than **25** calls</span></span>
+- <span data-ttu-id="a905a-118">Les pages de publication classiques ne doivent pas contenir plus de **6** appels</span><span class="sxs-lookup"><span data-stu-id="a905a-118">Classic publishing pages should contain no more than **6** calls</span></span>
+
+<span data-ttu-id="a905a-119">Les résultats possibles sont les suivants :</span><span class="sxs-lookup"><span data-stu-id="a905a-119">Possible results include:</span></span>
+
+- <span data-ttu-id="a905a-120">**Attention requise** (rouge) : la page dépasse le nombre d’appels de référence</span><span class="sxs-lookup"><span data-stu-id="a905a-120">**Attention required** (red): The page exceeds the baseline number of calls</span></span>
+- <span data-ttu-id="a905a-121">**Aucune action requise** (vert) : la page contient moins d’appels que le nombre d’appels de référence</span><span class="sxs-lookup"><span data-stu-id="a905a-121">**No action required** (green): The page contains fewer than the baseline number of calls</span></span>
+
+<span data-ttu-id="a905a-122">Si le résultat **Requêtes à SharePoint** apparaît dans la section **Attention requise**, vous pouvez cliquer sur le résultat pour obtenir des détails, notamment le nombre total d’appels sur la page et une liste d’URL.</span><span class="sxs-lookup"><span data-stu-id="a905a-122">If the **Requests to SharePoint** result appears in the **Attention required** section, you can click the result for details, including the total number of calls on the page and a list of the URLs.</span></span>
+
+![Résultats de requêtes à SharePoint](../media/modern-portal-optimization/pagediag-requests.png)
+
+## <a name="remediate-performance-issues-related-to-too-many-calls-on-a-page"></a><span data-ttu-id="a905a-124">Résoudre les problèmes de performances liés à un trop grand nombre d’appels sur une page</span><span class="sxs-lookup"><span data-stu-id="a905a-124">Remediate performance issues related to too many calls on a page</span></span>
+
+<span data-ttu-id="a905a-125">Si une page contient un trop grand nombre d’appels, vous pouvez utiliser la liste d’URL dans les résultats **Requêtes à SharePoint** pour déterminer s’il existe des appels répétés, des appels qui devraient être groupés ou des appels qui renvoient des données qui devraient être mises en cache.</span><span class="sxs-lookup"><span data-stu-id="a905a-125">If a page contains too many calls, you can use the list of URLs in the **Requests to Sharepoint** results to determine whether there are any repeated calls, calls that should be batched, or calls that return data that should be cached.</span></span>
+
+<span data-ttu-id="a905a-126">**Le traitement par lots des appels REST** permet de réduire la dégradation des performances.</span><span class="sxs-lookup"><span data-stu-id="a905a-126">**Batching REST calls** can help to reduce performance overhead.</span></span> <span data-ttu-id="a905a-127">Pour plus d’informations sur le traitement par lots d’appels d’API, consultez [Effectuer des requêtes de lot avec les API REST](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis).</span><span class="sxs-lookup"><span data-stu-id="a905a-127">For more information about API call batching, see [Make batch requests with the REST APIs](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis).</span></span>
+
+<span data-ttu-id="a905a-128">**L’utilisation d’un cache** pour stocker les résultats d’un appel d’API peut améliorer les performances d’une demande d’urgence en permettant au client d’utiliser les données mises en cache au lieu d’effectuer un appel supplémentaire pour chaque chargement de page suivant.</span><span class="sxs-lookup"><span data-stu-id="a905a-128">**Using a cache** to store the results of an API call can improve the performance of a warm request by allowing the client to use the cached data instead of making an additional call for each subsequent page load.</span></span> <span data-ttu-id="a905a-129">Il existe de multiples façons d'aborder cette solution en fonction des besoins de l'entreprise.</span><span class="sxs-lookup"><span data-stu-id="a905a-129">There are multiple ways to approach this solution depending on the business requirement.</span></span> <span data-ttu-id="a905a-130">En règle générale, si les données sont identiques pour tous les utilisateurs, l’utilisation d’un service de mise en cache de niveau intermédiaire comme [_Cache_ Azure Redis](https://azure.microsoft.com/services/cache/) constitue une option idéale pour réduire considérablement le trafic d’API sur un site, car les utilisateurs demandent les données du service de mise en cache plutôt que directement à partir de SPO.</span><span class="sxs-lookup"><span data-stu-id="a905a-130">Typically if the data will be the same for all users, using a middle-tier caching service like [_Azure Redis_ cache](https://azure.microsoft.com/services/cache/) is a great option to significantly reduce API traffic against a site, as the users would request the data from the caching service instead of directly from SPO.</span></span> <span data-ttu-id="a905a-131">Les seuls appels SPO nécessaires sont pour actualiser le cache du niveau intermédiaire.</span><span class="sxs-lookup"><span data-stu-id="a905a-131">The only SPO calls needed would be to refresh the middle-tier's cache.</span></span> <span data-ttu-id="a905a-132">Si les données fluctuent en fonction de chaque utilisateur individuel, il peut être préférable d’implémenter un cache côté client, tel que LocalStorage ou même un cookie.</span><span class="sxs-lookup"><span data-stu-id="a905a-132">If the data will fluctuate on an individual user basis, it may be best to implement a client side cache, like LocalStorage or even a Cookie.</span></span> <span data-ttu-id="a905a-133">Cela a pour but de réduire encore les volumes d’appels en éliminant les demandes subséquentes effectuées par le même utilisateur pour la durée du cache, mais sera moins efficace qu’un service de mise en cache dédié.</span><span class="sxs-lookup"><span data-stu-id="a905a-133">This will still reduce call volumes by eliminating subsequent requests made by the same user for the cache duration, but will be less efficient than a dedicated caching service.</span></span> <span data-ttu-id="a905a-134">PnP vous permet d’utiliser LocalStorage en ne nécessitant que peu de développement supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="a905a-134">PnP allows you to use LocalStorage with little additional development required.</span></span>
+
+<span data-ttu-id="a905a-135">Avant d’apporter des révisions de page pour résoudre les problèmes de performances, notez le temps de chargement des pages dans les résultats de l’analyse.</span><span class="sxs-lookup"><span data-stu-id="a905a-135">Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results.</span></span> <span data-ttu-id="a905a-136">Exécutez à nouveau l’outil après votre révision pour déterminer si le nouveau résultat est inclus dans la norme de référence et vérifier le nouveau temps de chargement des pages pour voir s’il y a eu une amélioration.</span><span class="sxs-lookup"><span data-stu-id="a905a-136">Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.</span></span>
+
+![Résultats du temps de chargement des pages](../media/modern-portal-optimization/pagediag-page-load-time.png)
+
+>[!NOTE]
+><span data-ttu-id="a905a-138">Le temps de chargement des pages peut varier en fonction de nombreux facteurs tels que la charge réseau, l’heure de la journée et d’autres conditions transitoires.</span><span class="sxs-lookup"><span data-stu-id="a905a-138">Page load time can vary based on a variety of factors such as network load, time of day, and other transient conditions.</span></span> <span data-ttu-id="a905a-139">Vous devez tester le temps de chargement des pages plusieurs fois avant et après avoir apporté des modifications pour vous aider à faire la moyenne des résultats.</span><span class="sxs-lookup"><span data-stu-id="a905a-139">You should test page load time a few times before and after making changes to help you average the results.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="a905a-140">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a905a-140">Related topics</span></span>
+
+[<span data-ttu-id="a905a-141">Optimisation des performances SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="a905a-141">Tune SharePoint Online performance</span></span>](tune-sharepoint-online-performance.md)
+
+[<span data-ttu-id="a905a-142">Optimisation des performances Office 365</span><span class="sxs-lookup"><span data-stu-id="a905a-142">Tune Office 365 performance</span></span>](tune-microsoft-365-performance.md)
+
+[<span data-ttu-id="a905a-143">Performances offertes par l’expérience moderne de SharePoint</span><span class="sxs-lookup"><span data-stu-id="a905a-143">Performance in the modern SharePoint experience</span></span>](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+
+[<span data-ttu-id="a905a-144">Réseaux de distribution de contenu</span><span class="sxs-lookup"><span data-stu-id="a905a-144">Content delivery networks</span></span>](content-delivery-networks.md)
+
+[<span data-ttu-id="a905a-145">Utilisation du réseau de distribution de contenu Office 365 avec SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="a905a-145">Use the Office 365 Content Delivery Network (CDN) with SharePoint Online</span></span>](use-microsoft-365-cdn-with-spo.md)

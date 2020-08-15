@@ -106,8 +106,6 @@
         - name: Utiliser les rapports
           href: working-with-managed-desktop/reports.md
           items:
-            - name: Rapport de conformité de l'appareil.
-              href: working-with-managed-desktop/device-compliance-report.md
             - name: Rapport d’inventaire des appareils
               href: working-with-managed-desktop/device-inventory-report.md
         - name: Utiliser les informations
