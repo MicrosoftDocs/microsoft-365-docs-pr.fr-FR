@@ -6,8 +6,6 @@
       href: compliance-quick-tasks.md
     - name: Nouveautés du centre de conformité
       href: whats-new.md
-    - name: Mises à jour récentes apportées au contenu de conformité
-      href: recently-updated-topics-mcc.md
     - name: "Centre de conformité Microsoft\_365"
       href: microsoft-365-compliance-center.md
     - name: "Catalogue de solutions Microsoft\_365"
@@ -341,13 +339,13 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=867039'
     - name: Gestion des enregistrements
       items:
-        - name: Gestion des enregistrements
+        - name: Découvrez la gestion des enregistrements
           href: records-management.md
-        - name: Découvrir les enregistrements
-          href: records.md
+        - name: Prise en main de la gestion des enregistrements
+          href: get-started-with-records-management.md
         - name: Déclarer les enregistrements
           href: declare-records.md
-        - name: Contrôle de version d’enregistrement
+        - name: Utiliser le contrôle de version d’enregistrement
           href: record-versioning.md
 - name: Gestion de l’eDiscovery
   items:
