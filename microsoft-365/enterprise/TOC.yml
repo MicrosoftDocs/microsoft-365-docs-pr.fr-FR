@@ -30,7 +30,15 @@
               href: microsoft-365-ip-web-service.md
             - name: "Autres points de terminaison supplémentaires non inclus dans les services\_web"
               href: additional-office365-ip-addresses-and-urls.md
-        - name: Utiliser CDN Office 365 avec SharePoint Online
+            - name: Autres exigences de sécurité réseau pour Office 365 GCC High et DoD
+              href: additional-network-security-requirements-for-office-365-gcchigh-and-dod.md
+            - name: Enregistrements DNS pour Office 365 DoD
+              href: dns-records-for-office-365-dod.md
+            - name: Enregistrements DNS pour Office 365 GCC High
+              href: dns-records-for-office-365-gcc-high.md
+        - name: Démarrage rapide du réseau de distribution de contenu (CDN)
+          href: office-365-cdn-quickstart.md
+        - name: Utiliser CDN avec SharePoint Online
           href: use-microsoft-365-cdn-with-spo.md
         - name: Optimiser la connectivité pour les utilisateurs distants
           items:
@@ -45,6 +53,8 @@
         - name: "ExpressRoute pour Office\_365"
           href: azure-expressroute.md
           items:
+            - name: Implémentation d’ExpressRoute
+              href: implementing-expressroute.md
             - name: "Routage avec ExpressRoute pour Office\_365"
               href: routing-with-expressroute.md
     - name: Gestion
@@ -53,6 +63,8 @@
           items:
             - name: "Points de terminaison Microsoft\_365"
               href: microsoft-365-endpoints.md
+            - name: "Gestion des points de terminaison Office\_365"
+              href: managing-office-365-endpoints.md
             - name: Points de terminaison internationaux
               href: urls-and-ip-address-ranges.md
             - name: Points de terminaison DoD du gouvernement américain
@@ -395,6 +407,8 @@
   items:
     - name: Feuille de route
       href: client-server-software-roadmap-microsoft-365.md
+    - name: 'Modèles architecturaux pour SharePoint, Exchange, Skype Entreprise et Lync'
+      href: architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md
     - name: Prévision
       items:
         - name: Planifier votre mise à niveau
