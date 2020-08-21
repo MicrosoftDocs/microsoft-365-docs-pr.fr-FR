@@ -610,7 +610,7 @@
         - name: Ajout d’un domaine à la location d’un client avec Windows PowerShell pour les partenaires avec accès délégué
           href: add-a-domain-to-a-client-tenancy-with-windows-powershell-for-delegated-access-pe.md
         - name: Connexion à Exchange Online via Remote Windows PowerShell pour les partenaires avec accès délégué
-          href: connect-to-exchange-online-tenants-with-remote-windows-powershell-for-delegated.md
+          href: 'https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell'
         - name: Récupération des données des rapports d’un client via Windows PowerShell pour les partenaires avec accès délégué
           href: retrieve-customer-tenant-reporting-data-with-windows-powershell-for-delegated-ac.md
     - name: Gérer Microsoft Teams
