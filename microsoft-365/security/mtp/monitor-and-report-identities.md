@@ -15,23 +15,23 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6e884e6fc67670f25e48747324c15b158cc5c284
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 7b29e91527f4c9cf6fd466ef730c9c4e9552b10e
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034033"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866882"
 ---
-# <a name="identity-monitoring-and-reporting-in-the-microsoft-365-security-center"></a><span data-ttu-id="72097-104">Surveillance et création de rapports d’identité dans le centre de sécurité Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="72097-104">Identity monitoring and reporting in the Microsoft 365 security center</span></span>
+# <a name="identity-monitoring-and-reporting-in-the-microsoft-365-security-center"></a><span data-ttu-id="43c20-104">Surveillance et création de rapports d’identité dans le centre de sécurité Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="43c20-104">Identity monitoring and reporting in the Microsoft 365 security center</span></span>
 
-<span data-ttu-id="72097-105">Vous pouvez surveiller les identités de votre organisation et effectuer le suivi des comportements suspects ou risqués.</span><span class="sxs-lookup"><span data-stu-id="72097-105">You can monitor the identities in your organization and keep track of suspicious or risky behaviors.</span></span> <span data-ttu-id="72097-106">Dans la catégorie **identités** des **rapports**, vous pouvez effectuer le suivi des éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="72097-106">In the **Identities** category of **Reports**, you can track:</span></span>
+<span data-ttu-id="43c20-105">Surveillez les identités de votre organisation et assurez le suivi des comportements suspects ou risqués.</span><span class="sxs-lookup"><span data-stu-id="43c20-105">Monitor the identities in your organization and keep track of suspicious or risky behaviors.</span></span> <span data-ttu-id="43c20-106">Dans la catégorie **identités** des **rapports**, vous pouvez effectuer le suivi des éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="43c20-106">In the **Identities** category of **Reports**, you can track:</span></span>
 
-* <span data-ttu-id="72097-107">Comptes d’utilisateur présentant le plus d’anomalies</span><span class="sxs-lookup"><span data-stu-id="72097-107">Users with the most detected anomalies</span></span>
-* <span data-ttu-id="72097-108">Nombre d’utilisateurs signalés à risque par les stratégies d’accès conditionnel</span><span class="sxs-lookup"><span data-stu-id="72097-108">How many users are reported at risk by conditional access policies</span></span>
-* <span data-ttu-id="72097-109">Nombre d’administrateurs généraux dans votre organisation</span><span class="sxs-lookup"><span data-stu-id="72097-109">The number of global admins in your org</span></span>
+* <span data-ttu-id="43c20-107">Comptes d’utilisateur présentant le plus d’anomalies</span><span class="sxs-lookup"><span data-stu-id="43c20-107">Users with the most detected anomalies</span></span>
+* <span data-ttu-id="43c20-108">Nombre d’utilisateurs signalés à risque par les stratégies d’accès conditionnel</span><span class="sxs-lookup"><span data-stu-id="43c20-108">How many users are reported at risk by conditional access policies</span></span>
+* <span data-ttu-id="43c20-109">Nombre d’administrateurs généraux dans votre organisation</span><span class="sxs-lookup"><span data-stu-id="43c20-109">The number of global admins in your org</span></span>
 
 ![Catégorie d’identités de la page rapports](../../media/identities.png)
 
-<span data-ttu-id="72097-111">Pour les utilisateurs ayant des détections spécifiques, vous pouvez explorer l’alerte spécifique et enquêter dans le centre de sécurité Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="72097-111">For users with specific detections, you can explore the specific alert and investigate in Microsoft Defender Security Center.</span></span> <span data-ttu-id="72097-112">Les détections incluent des anomalies telles que les utilisateurs qui se connectent à partir d’emplacements inconnus.</span><span class="sxs-lookup"><span data-stu-id="72097-112">Detections include anomalies such as users who sign in from unfamiliar locations.</span></span>
+<span data-ttu-id="43c20-111">Pour les utilisateurs ayant des détections spécifiques, vous pouvez explorer l’alerte spécifique et enquêter dans le centre de sécurité Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="43c20-111">For users with specific detections, you can explore the specific alert and investigate in Microsoft Defender Security Center.</span></span> <span data-ttu-id="43c20-112">Les détections incluent des anomalies telles que les utilisateurs qui se connectent à partir d’emplacements inconnus.</span><span class="sxs-lookup"><span data-stu-id="43c20-112">Detections include anomalies such as users who sign in from unfamiliar locations.</span></span>
 
-<span data-ttu-id="72097-113">Pour un ensemble complet d’événements de risque, reportez-vous à la rubrique [événements de risque d’Azure Active Directory](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-risk-events).</span><span class="sxs-lookup"><span data-stu-id="72097-113">For a complete set of risk events, see [Azure Active Directory risk events](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-risk-events).</span></span>
+<span data-ttu-id="43c20-113">Pour un ensemble complet d’événements de risque, reportez-vous à la rubrique [événements de risque d’Azure Active Directory](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-risk-events).</span><span class="sxs-lookup"><span data-stu-id="43c20-113">For a complete set of risk events, see [Azure Active Directory risk events](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-risk-events).</span></span>

@@ -15,22 +15,22 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9bb0a7d0ce7def52089ec64a35edc5a2475b342
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 79113aa4097da26a3a12a9ed99b1c5a8b3ad3d81
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034009"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46866742"
 ---
-# <a name="data-monitoring-and-reporting-in-the-microsoft-365-security-center"></a><span data-ttu-id="be0dc-104">Surveillance et création de rapports sur les données dans le centre de sécurité Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="be0dc-104">Data monitoring and reporting in the Microsoft 365 security center</span></span>
+# <a name="data-monitoring-and-reporting-in-the-microsoft-365-security-center"></a><span data-ttu-id="ddbb8-104">Surveillance et création de rapports sur les données dans le centre de sécurité Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="ddbb8-104">Data monitoring and reporting in the Microsoft 365 security center</span></span>
 
-<span data-ttu-id="be0dc-105">La catégorie **Données** permet de suivre l’activité des utilisateurs susceptible d’entraîner la divulgation non autorisée de données.</span><span class="sxs-lookup"><span data-stu-id="be0dc-105">The **Data** category helps track user activity that could lead to unauthorized data disclosure.</span></span> <span data-ttu-id="be0dc-106">Voici le travail des rapports de stratégie DLP existants, ainsi qu’un rapport de correspondance de stratégie DLP tiers.</span><span class="sxs-lookup"><span data-stu-id="be0dc-106">These are the rework of existing DLP policy reports plus a third-party DLP policy match report.</span></span>
+<span data-ttu-id="ddbb8-105">La catégorie **Données** permet de suivre l’activité des utilisateurs susceptible d’entraîner la divulgation non autorisée de données.</span><span class="sxs-lookup"><span data-stu-id="ddbb8-105">The **Data** category helps track user activity that could lead to unauthorized data disclosure.</span></span> <span data-ttu-id="ddbb8-106">Il s’agit de la réutilisation des rapports de stratégie DLP existants, ainsi qu’un rapport de correspondance de stratégie DLP tiers.</span><span class="sxs-lookup"><span data-stu-id="ddbb8-106">They are the rework of existing DLP policy reports plus a third-party DLP policy match report.</span></span>
 
-<span data-ttu-id="be0dc-107">Vous pouvez voir les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="be0dc-107">You can see:</span></span>
+<span data-ttu-id="ddbb8-107">Vous pouvez voir les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="ddbb8-107">You can see:</span></span>
 
-* <span data-ttu-id="be0dc-108">Utilisateurs partageant le plus grand nombre de fichiers à partir d’applications cloud</span><span class="sxs-lookup"><span data-stu-id="be0dc-108">Users who share the most files from cloud apps</span></span>
-* <span data-ttu-id="be0dc-109">Nombre de correspondances de stratégie DLP effectuées</span><span class="sxs-lookup"><span data-stu-id="be0dc-109">How many DLP policy matches occurred</span></span>
-* <span data-ttu-id="be0dc-110">Nombre de remplacements de stratégies DLP ou de faux positifs signalés</span><span class="sxs-lookup"><span data-stu-id="be0dc-110">How many DLP policies overrides or false positives are reported</span></span>
-* <span data-ttu-id="be0dc-111">Combien de correspondances de stratégies DLP ont eu lieu dans des services Cloud tiers via la sécurité de l’application Cloud de Microsoft</span><span class="sxs-lookup"><span data-stu-id="be0dc-111">How many DLP policy matches happened in 3rd party cloud services via Microsoft Cloud App Security</span></span>
+- <span data-ttu-id="ddbb8-108">Utilisateurs partageant le plus grand nombre de fichiers à partir d’applications cloud</span><span class="sxs-lookup"><span data-stu-id="ddbb8-108">Users who share the most files from cloud apps</span></span>
+- <span data-ttu-id="ddbb8-109">Nombre de correspondances de stratégie DLP effectuées</span><span class="sxs-lookup"><span data-stu-id="ddbb8-109">How many DLP policy matches occurred</span></span>
+- <span data-ttu-id="ddbb8-110">Nombre de remplacements de stratégies DLP ou de faux positifs signalés</span><span class="sxs-lookup"><span data-stu-id="ddbb8-110">How many DLP policies overrides or false positives are reported</span></span>
+- <span data-ttu-id="ddbb8-111">Combien de correspondances de stratégies DLP ont eu lieu dans des services Cloud tiers via la sécurité de l’application Cloud de Microsoft</span><span class="sxs-lookup"><span data-stu-id="ddbb8-111">How many DLP policy matches happened in third-party cloud services via Microsoft Cloud App Security</span></span>
 
 ![Page des rapports de catégorie de données](../../media/data.png)
