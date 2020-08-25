@@ -313,6 +313,8 @@
                       href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
                     - name: Signaler les courriers indésirables et les tentatives de hameçonnage dans Outlook sur le web
                       href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
+                    - name: Signaler le courrier indésirable et les tentatives d’hameçonnage dans Outlook pour iOS et Android
+                      href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-for-iOS-and-Android.md
                     - name: Soumettez manuellement des messages à Microsoft
                       href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
                     - name: Utiliser des règles de transport pour bloquer le signalement des courriers indésirables à Microsoft
@@ -382,6 +384,8 @@
                   href: ./office-365-security/support-for-validation-of-dkim-signed-messages.md
                 - name: Utiliser DMARC pour valider les e-mails
                   href: ./office-365-security/use-dmarc-to-validate-email.md
+            - name: Installer Application Guard pour Office
+              href: ./office-365-security/install-app-guard.md
             - name: Rapports intelligents et aperçus dans le centre de sécurité et conformité
               href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
             - name: Vue d’ensemble du tableau de bord de sécurité
