@@ -293,7 +293,7 @@
           items:
             - name: Validation des paramètres sur Android ou iOS
               href: ../business/validate-settings-on-android-or-ios.md
-        - name: "Définir les paramètres de protection des appareils pour les PC Windows\_10"
+        - name: Modifier ou créer les paramètres de protection des appareils pour les PC Windows 10
           href: ../business/protection-settings-for-windows-10-pcs.md
           items:
             - name: "Validation des paramètres sur les PC Windows\_10"

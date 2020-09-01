@@ -102,6 +102,8 @@
               href: get-started/project-visio.md
             - name: Nouveau Microsoft Edge
               href: get-started/edge-browser-app.md
+            - name: Applications Microsoft 365 pour Entreprise
+              href: get-started/m365-apps.md
     - name: Utilisation du Bureau géré Microsoft
       href: working-with-managed-desktop/index.md
       items:
@@ -123,7 +125,7 @@
               href: working-with-managed-desktop/security-update-insights.md
         - name: Support pour les administrateurs
           href: working-with-managed-desktop/admin-support.md
-        - name: Prise en charge des utilisateurs finaux
+        - name: Support pour les utilisateurs
           href: working-with-managed-desktop/end-user-support.md
         - name: Gérer les applications
           href: working-with-managed-desktop/manage-apps.md
