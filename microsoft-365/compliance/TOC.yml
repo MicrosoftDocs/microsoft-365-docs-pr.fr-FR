@@ -548,10 +548,10 @@
         - name: Exporter les données de cas
           href: exporting-data-ediscover20.md
           items:
+            - name: Télécharger les documents d'un jeu à réviser
+              href: download-documents-from-review-set.md
             - name: Exporter des documents d’un jeu à réviser
               href: export-documents-from-review-set.md
-            - name: Télécharger l’exportation des travaux
-              href: download-export-jobs.md
         - name: Gérer les tâches
           href: managing-jobs-ediscovery20.md
         - name: Configurer des paramètres de cas
