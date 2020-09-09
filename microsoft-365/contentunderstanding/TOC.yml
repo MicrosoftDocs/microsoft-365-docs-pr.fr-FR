@@ -4,7 +4,7 @@
       href: document-understanding-overview.md
     - name: Vue d’ensemble du traitement des formulaires
       href: form-processing-overview.md
-    - name: Différence entre une présentation de document et des modèles de traitement de formulaire
+    - name: Différences entre la présentation des documents et les modèles de traitement des formulaires
       href: difference-between-document-understanding-and-form-processing-model.md
     - name: Créer un centre de contenu
       href: create-a-content-center.md
