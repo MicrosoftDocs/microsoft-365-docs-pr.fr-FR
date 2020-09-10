@@ -936,7 +936,7 @@
 - name: Offres pour la conformité
   items:
     - name: Offres pour la conformité Microsoft
-      href: offering-home.md
+      href: offering-home.yml
     - name: Global
       items:
         - name: Point de référence CIS

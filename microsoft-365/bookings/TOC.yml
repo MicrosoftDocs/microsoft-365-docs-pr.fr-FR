@@ -1,0 +1,45 @@
+- name: Microsoft Bookings
+  href: bookings-overview.md
+  items:
+    - name: Configuration
+      items:
+        - name: Accès aux réservations
+          href: get-access.md
+        - name: Entrer vos informations professionnelles
+          href: enter-business-information.md
+        - name: Définir vos offres de service
+          href: define-service-offerings.md
+        - name: Planifier les fermetures de bureau et les congés
+          href: schedule-closures-time-off-vacation.md
+        - name: Définir vos stratégies de planification
+          href: set-scheduling-policies.md
+        - name: Personnaliser et publier votre page de réservation
+          href: customize-booking-page.md
+        - name: Créer une réservation manuelle
+          href: create-a-manual-booking.md
+        - name: Planifier les fermetures de bureau et les congés
+          href: schedule-closures-time-off-vacation.md
+        - name: Heures d’employé
+          href: employee-hours.md
+        - name: Ajouter des questions personnalisées et requises à la page de réservation
+          href: add-questions.md
+        - name: Définir le temps de mémoire tampon
+          href: set-buffer-time.md
+        - name: Suivi des activités et des mesures
+          href: metrics-and-activity-tracking.md
+        - name: Définir la langue et le fuseau horaire
+          href: set-language-time-zones.md
+    - name: Obtenir l’application de livres
+      href: get-bookings-app.md
+    - name: Application bookings et visites virtuelles dans Microsoft teams
+      href: 'https://docs.microsoft.com/en-us/microsoftteams/bookings-app-admin?toc=/microsoft-365/bookings/toc.json&bc=/microsoft-365/bookings/breadcrumb/toc.json'
+    - name: Graphique de comparaison-application Web et application teams
+      href: comparison-chart.md
+    - name: Supprimer un calendrier de réservation
+      href: delete-calendar.md
+    - name: Activer ou désactiver les réservations Microsoft
+      href: turn-bookings-on-or-off.md
+    - name: Informations de création de rapports sur Microsoft bookings
+      href: reporting-info.md
+    - name: Questions fréquemment posées sur Microsoft bookings (FAQ)
+      href: bookings-faq.md

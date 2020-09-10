@@ -1,0 +1,52 @@
+### YamlMime:Landing
+title: Microsoft Bookings
+summary: Planifiez et gérez les rendez-vous avec Microsoft bookings. Inclut l’intégration à Outlook et les notifications automatiques.
+metadata:
+  title: Microsoft Bookings
+  description: Planifiez et gérez les rendez-vous avec Microsoft bookings. Inclut l’intégration à Outlook et les notifications automatiques.
+  ms.service: bookings
+  ms.topic: landing-page
+  author: dmaguire
+  ms.author: dmaguire
+  manager: serdars
+  audience: Admin
+  ms.date: 07/21/2020
+  ms.openlocfilehash: 7fb9456dfeb6481aebe1f81307a30c4cfad0ec02
+  ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 09/09/2020
+  ms.locfileid: "47419611"
+landingContent:
+- title: À propos de Microsoft bookings
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Qu’est-ce que Microsoft bookings ?
+      url: bookings-overview.md
+  - linkListType: download
+    links:
+    - text: Obtenir l’application de livres
+      url: get-bookings-app.md
+- title: Configurer Microsoft bookings
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Entrer vos informations professionnelles
+      url: enter-business-information.md
+    - text: Définir vos stratégies de planification
+      url: set-scheduling-policies.md
+    - text: Définir vos offres de service
+      url: define-service-offerings.md
+    - text: Définir les heures de travail des employés
+      url: employee-hours.md
+    - text: Personnaliser et publier votre page de réservation
+      url: customize-booking-page.md
+    - text: Créer et doter vos livres
+      url: create-a-manual-booking.md
+- title: Inviter des personnes à réserver des rendez-vous
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Personnaliser votre page de réservation
+      url: customize-booking-page.md
