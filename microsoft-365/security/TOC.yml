@@ -7,21 +7,6 @@
           href: top-security-tasks-for-remote-work.md
         - name: Sécurité Microsoft 365 pour les décideurs d’entreprise
           href: Microsoft-365-security-for-bdm.md
-        - name: Atelier de formation du directeur général de la sécurité de l'information (SRCO)
-          href: ./office-365-security/ciso-workshop.md
-          items:
-            - name: "Module\_1 – Réunion de cybersécurité Microsoft"
-              href: ./office-365-security/ciso-workshop-module-1.md
-            - name: "Module\_2 – Gestion de la sécurité"
-              href: ./office-365-security/ciso-workshop-module-2.md
-            - name: "Module 3\_–\_Identité et accès utilisateur de confiance Zéro"
-              href: ./office-365-security/ciso-workshop-module-3.md
-            - name: "Module\_4a – Stratégie de protection contre les menaces, partie\_I"
-              href: ./office-365-security/ciso-workshop-module-4a.md
-            - name: "Module\_4b – Stratégie de protection contre les menaces, partie\_II"
-              href: ./office-365-security/ciso-workshop-module-4b.md
-            - name: "Module\_5 – Protection des informations"
-              href: ./office-365-security/ciso-workshop-module-5.md
     - name: Configurations des identités et de l’accès aux appareils
       href: ../enterprise/microsoft-365-policies-configurations.md
       items:
@@ -85,9 +70,9 @@
               href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#start-the-microsoft-threat-protection-service'
             - name: Créer une alerte de test
               href: mtp/generate-test-alert.md
-        - name: Guides de procédures
+        - name: Guides pratiques
           items:
-            - name: Créer un environnement d’essai
+            - name: Créer un laboratoire d’évaluation ou un environnement pilote
               href: mtp/mtp-evaluation.md
             - name: Déployer les services pris en charge
               href: mtp/deploy-supported-services.md
@@ -219,22 +204,62 @@
                   href: mtp/monitor-devices.md
                 - name: Surveillance d’applications et création de rapports
                   href: mtp/monitor-apps.md
+            - name: API
+              items: null
+        - name: Référence
+          items:
             - name: Paramètres & paramètres
               items:
                 - name: Gérer l’accès
                   href: mtp/mtp-permissions.md
                 - name: Définition du fuseau horaire
                   href: mtp/mtp-time-zone.md
-            - name: Afficher les profils d’appareils
-              href: mtp/device-profile.md
-            - name: Envoyer des commentaires
-              href: mtp/feedback.md
-            - name: Créer des tâches et des tickets ServiceNow
+                - name: Afficher les profils d’appareils
+                  href: mtp/device-profile.md
+                - name: Envoyer des commentaires
+                  href: mtp/feedback.md
+                - name: Créer des tâches et des tickets ServiceNow
+                  items:
+                    - name: Présentation de l’intégration de ServiceNow
+                      href: ./mtp/tickets.md
+                    - name: Tickets ServiceNow dans le centre de sécurité
+                      href: ./mtp/tickets-security-center.md
+            - name: API de protection contre les menaces Microsoft (préversion)
               items:
-                - name: Présentation de l’intégration de ServiceNow
-                  href: ./mtp/tickets.md
-                - name: Tickets ServiceNow dans le centre de sécurité
-                  href: ./mtp/tickets-security-center.md
+                - name: Vue d’ensemble des API de protection contre les menaces Microsoft (préversion)
+                  href: mtp/api-overview.md
+                - name: Prise en main des API de la protection contre les menaces Microsoft (Preview)
+                  items:
+                    - name: Licence et conditions d’utilisation de l’API de protection contre les menaces Microsoft
+                      href: mtp/api-terms.md
+                    - name: Accéder aux API de protection contre les menaces Microsoft
+                      href: mtp/api-access.md
+                    - name: Exemple Hello World
+                      href: mtp/api-hello-world.md
+                    - name: Accédez au contexte de l’application
+                      href: mtp/api-create-app-web.md
+                    - name: Obtenir l’accès avec le contexte utilisateur
+                      href: mtp/api-create-app-user-context.md
+                    - name: Obtenir l’accès de l’application partenaire
+                      href: mtp/api-partner-access.md
+                    - name: Autres ressources API
+                      href: mtp/api-articles.md
+                - name: API de protection contre les menaces Microsoft et schéma (préversion)
+                  items:
+                    - name: API de protection contre les menaces Microsoft prises en charge
+                      href: mtp/api-supported.md
+                    - name: Codes d’erreur de l’API REST communs
+                      href: mtp/api-error-codes.md
+                    - name: API de recherche avancée de menaces
+                      href: mtp/api-advanced-hunting.md
+                    - name: API d’incident
+                      items:
+                        - name: Méthodes et propriétés d’incident
+                          href: mtp/api-incident.md
+                        - name: Répertorier les incidents
+                          href: mtp/api-list-incidents.md
+                        - name: Incident de mise à jour
+                          href: mtp/api-update-incidents.md
     - name: "Sécurité Office\_365"
       items:
         - name: Prise en main
