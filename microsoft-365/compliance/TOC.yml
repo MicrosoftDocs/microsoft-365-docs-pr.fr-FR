@@ -107,12 +107,14 @@
           href: what-the-dlp-functions-look-for.md
     - name: Classifieurs entraînables
       items:
+        - name: Découvrez les classificateurs de formation (préversion)
+          href: classifier-learn-about.md
         - name: Prise en main des classificateurs de formation (préversion)
-          href: classifier-getting-started-with.md
-        - name: Utilisation d’un classificateur intégré (préversion)
-          href: classifier-using-a-ready-to-use-classifier.md
-        - name: Création et formation d’un classificateur (préversion)
-          href: classifier-creating-a-trainable-classifier.md
+          href: classifier-get-started-with.md
+        - name: Comment reformer un classificateur en conformité de communications (préversion)
+          href: classifier-how-to-retrain-comms-compliance.md
+        - name: Comment reformer un classificateur en explorateur de contenu (préversion)
+          href: classifier-how-to-retrain-content-explorer.md
     - name: Classification des données
       items:
         - name: Comprendre la classification des données

@@ -70,10 +70,24 @@
               href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#start-the-microsoft-threat-protection-service'
             - name: Créer une alerte de test
               href: mtp/generate-test-alert.md
+        - name: Exécuter un pilote en production
+          items:
+            - name: Présentation du pilote
+              href: mtp/mtp-pilot.md
+            - name: Planification
+              href: mtp/mtp-pilot-plan.md
+            - name: Préparation
+              href: mtp/prepare-mtpeval.md
+            - name: Simuler une attaque
+              href: mtp/mtp-pilot-simulate.md
+            - name: Fermer et synthétiser
+              href: mtp/mtp-pilot-close.md
         - name: Guides pratiques
           items:
             - name: Créer un laboratoire d’évaluation ou un environnement pilote
               href: mtp/mtp-evaluation.md
+            - name: Exécuter le guide opérationnel du pilote
+              href: mtp/mtp-pilot.md
             - name: Déployer les services pris en charge
               href: mtp/deploy-supported-services.md
             - name: Activer la Protection Microsoft contre les menaces
@@ -94,16 +108,18 @@
                       href: mtp/manage-incidents.md
             - name: Enquêtes et réponses automatisées
               items:
-                - name: Vue d’ensemble d’AIR
+                - name: Présentation de l’examen et de la réponse automatisés
                   href: mtp/mtp-autoir.md
-                - name: Actions de correction
+                - name: Configuration de l’examen automatisé et des fonctionnalités de réponse
+                  href: mtp/mtp-configure-auto-investigation-response.md
+                - name: Correction des actions en attente suite à des examens automatisés
                   href: mtp/mtp-remediation-actions.md
-                - name: Le Centre de notifications
+                - name: Visiter le Centre de notifications
                   href: mtp/mtp-action-center.md
-                - name: Consulter les détails et les résultats d'une investigation automatisée
-                  href: mtp/mtp-autoir-results.md
-                - name: Approuver ou refuser des actions en attente
+                - name: Approuver ou refuser les actions de correction en attente
                   href: mtp/mtp-autoir-actions.md
+                - name: Consulter les détails et les résultats des enquêtes automatisées
+                  href: mtp/mtp-autoir-results.md
                 - name: Signaler le faux positif/négatif
                   href: mtp/mtp-autoir-report-false-positives-negatives.md
             - name: Repérage avancé
@@ -214,8 +230,6 @@
                   href: mtp/monitor-devices.md
                 - name: Surveillance d’applications et création de rapports
                   href: mtp/monitor-apps.md
-            - name: API
-              items: null
         - name: Référence
           items:
             - name: Paramètres & paramètres
