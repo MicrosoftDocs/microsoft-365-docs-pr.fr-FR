@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: 648b9a3256aaca8eaabba80af1edee3beccf1ac2
-  ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
+  ms.openlocfilehash: 69387d2697c91d637fa6a3ab19a07f4924037637
+  ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 08/12/2020
-  ms.locfileid: "46641618"
+  ms.lasthandoff: 09/22/2020
+  ms.locfileid: "48201452"
 landingContent:
 - title: Gérer la protection et la gouvernance des informations
   linkLists:
@@ -66,8 +66,8 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Score de conformité
-      url: compliance-score.md
+    - text: Gestionnaire de conformité
+      url: compliance-manager.md
     - text: Plan d’action de conformité RGPD
       url: gdpr-action-plan.md
     - text: Protection des informations pour le RGPD
