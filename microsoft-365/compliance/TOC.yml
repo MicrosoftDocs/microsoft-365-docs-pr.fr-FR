@@ -14,6 +14,8 @@
       href: use-your-free-azure-ad-subscription-in-office-365.md
     - name: "Planifier la sécurité et la conformité dans Office\_365"
       href: plan-for-security-and-compliance.md
+    - name: Extensibilité de la conformité
+      href: compliance-extensibility.md
 - name: Gérer les risques internes
   items:
     - name: Gestion des risques internes
@@ -258,6 +260,8 @@
               href: retention-policies-sharepoint.md
             - name: "La rétention pour Microsoft\_Teams"
               href: retention-policies-teams.md
+            - name: Conservation pour Yammer
+              href: retention-policies-yammer.md
             - name: La rétention pour Exchange
               href: retention-policies-exchange.md
         - name: Prise en main de la rétention
@@ -310,8 +314,52 @@
               href: archive-instant-bloomberg-data.md
             - name: LinkedIn
               href: archive-linkedin-data.md
+            - name: Données de badges physiques
+              href: import-physical-badging-data.md
             - name: Twitter
               href: archive-twitter-data-with-sample-connector.md
+        - name: Connecteurs de données Globanet
+          items:
+            - name: EML
+              href: archive-eml-data.md
+            - name: FX Connect
+              href: archive-fxconnect-data.md
+            - name: Reuters Eikon
+              href: archive-reuterseikon-data.md
+            - name: Slack
+              href: archive-slack-data.md
+            - name: Symphony
+              href: archive-symphony-data.md
+            - name: Délimité par le texte
+              href: archive-text-delimited-data.md
+            - name: Webex Teams
+              href: archive-webexteams-data.md
+            - name: Espace de travail sur Facebook
+              href: archive-workplacefromfacebook-data.md
+            - name: Réunions Zoom
+              href: archive-zoommeetings-data.md
+            - name: Slack
+              href: archive-slack-data.md
+            - name: Réunions Zoom
+              href: archive-zoommeetings-data.md
+        - name: Connecteurs de données de TeleMessage
+          items:
+            - name: Android
+              href: archive-android-archiver-data.md
+            - name: Réseau AT&T
+              href: archive-att-network-archiver-data.md
+            - name: Réseau Bell
+              href: archive-bell-network-data.md
+            - name: Numéro d'entreprise
+              href: archive-enterprise-number-data.md
+            - name: Réseau O2
+              href: archive-o2-network-data.md
+            - name: Réseau TELUS
+              href: archive-telus-network-data.md
+            - name: Réseau Verizon
+              href: archive-verizon-network-data.md
+            - name: WhatsApp
+              href: archive-whatsapp-data.md
         - name: Collaborer avec un partenaire pour archiver des données tierces
           href: work-with-partner-to-archive-third-party-data.md
         - name: Rechercher des données tierces
@@ -794,31 +842,30 @@
       href: alert-policies.md
 - name: Gérer les risques de conformité
   items:
+    - name: Gestionnaire de conformité
+      items:
+        - name: En savoir plus sur le Gestionnaire de conformité
+          href: compliance-manager.md
+        - name: Gestionnaire de conformité Quickstart
+          href: compliance-manager-quickstart.md
+        - name: Prise en main du Gestionnaire de conformité
+          href: compliance-manager-setup.md
+        - name: Créer et gérer des évaluations
+          href: compliance-manager-assessments.md
+        - name: Travailler avec des modèles d'évaluation
+          href: compliance-manager-templates.md
+        - name: Liste des modèles de Gestionnaire de conformité
+          href: compliance-manager-templates-list.md
+        - name: Affectation et exécution d’actions d’amélioration
+          href: compliance-manager-improvement-actions.md
+        - name: Comment votre score de conformité est calculé
+          href: compliance-score-calculation.md
+        - name: Forum aux questions (FAQ)
+          href: compliance-manager-faq.md
+        - name: Gestionnaire de conformité (classique)
+          href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: Portail d’approbation de services Microsoft
       href: get-started-with-service-trust-portal.md
-    - name: Score de conformité et Gestionnaire de conformité (préversion)
-      items:
-        - name: Score de conformité (préversion)
-          href: compliance-score.md
-        - name: Configurer le score de conformité
-          href: compliance-score-setup.md
-        - name: Personnaliser le score de conformité avec les évaluations
-          href: compliance-score-assessments.md
-        - name: Assigner et effectuer des opérations avec des actions d’amélioration
-          href: compliance-score-improvement-actions.md
-        - name: Le calcul de votre score
-          href: compliance-score-methodology.md
-        - name: Forum aux questions (FAQ)
-          href: compliance-score-faq.md
-        - name: Gestionnaire de conformité (préversion)
-          href: compliance-manager-overview.md
-          items:
-            - name: Nouveautés du Gestionnaire de conformité (préversion)
-              href: compliance-manager-release-notes.md
-            - name: Utilisation du Gestionnaire de conformité (préversion)
-              href: working-with-compliance-manager.md
-            - name: Gestionnaire de conformité (classique)
-              href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: Outil de demande de la personne concernée du RGPD
       href: manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md
     - name: "Protection des informations Office\_365 pour le RGPD"
