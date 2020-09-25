@@ -246,6 +246,8 @@
           href: form-a-query-to-find-sensitive-data-stored-on-sites.md
         - name: "Fonctionnement du DLP entre le Centre de sécurité et conformité et le Centre d’administration\_Exchange"
           href: how-dlp-works-between-admin-centers.md
+        - name: Utiliser des étiquettes de confidentialité comme condition dans les stratégies de protection contre la perte de données (préversion)
+          href: dlp-sensitivity-label-as-condition.md
 - name: Gérer la gouvernance des informations
   items:
     - name: Gouvernez vos données
