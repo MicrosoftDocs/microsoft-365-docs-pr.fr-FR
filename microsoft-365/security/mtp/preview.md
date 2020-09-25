@@ -1,7 +1,7 @@
 ---
-title: Fonctionnalités d’aperçu de la protection contre les menaces Microsoft
-description: Découvrez les nouvelles fonctionnalités de sécurité Microsoft 365
-keywords: Aperçu, nouvelle M365 sécurité, sécurité, 365, fonctionnalités
+title: Fonctionnalités d’aperçu dans la Protection Microsoft contre les menaces
+description: En savoir plus sur les nouvelles fonctionnalités de la Sécurité Microsoft 365
+keywords: aperçu, nouveautés, sécurité M365, sécurité, 365, capacités
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -21,47 +21,47 @@ search.appverid:
 - MET150
 ms.openlocfilehash: f01f76ac591b4c2be9873fa87ec416939158acd3
 ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/22/2020
 ms.locfileid: "48195502"
 ---
-# <a name="microsoft-threat-protection-preview-features"></a><span data-ttu-id="8be4c-104">Fonctionnalités d’aperçu de la protection contre les menaces Microsoft</span><span class="sxs-lookup"><span data-stu-id="8be4c-104">Microsoft Threat Protection preview features</span></span>
+# <a name="microsoft-threat-protection-preview-features"></a><span data-ttu-id="2107b-104">Fonctionnalités d’aperçu de la Protection Microsoft contre les menaces</span><span class="sxs-lookup"><span data-stu-id="2107b-104">Microsoft Threat Protection preview features</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="8be4c-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="8be4c-105">**Applies to:**</span></span>
-- <span data-ttu-id="8be4c-106">Protection Microsoft contre les menaces</span><span class="sxs-lookup"><span data-stu-id="8be4c-106">Microsoft Threat Protection</span></span>
+<span data-ttu-id="2107b-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="2107b-105">**Applies to:**</span></span>
+- <span data-ttu-id="2107b-106">Protection Microsoft contre les menaces</span><span class="sxs-lookup"><span data-stu-id="2107b-106">Microsoft Threat Protection</span></span>
 
 
-<span data-ttu-id="8be4c-107">Le service de protection contre les menaces Microsoft est constamment mis à jour pour inclure de nouvelles améliorations et fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="8be4c-107">The Microsoft Threat Protection service is constantly being updated to include new feature enhancements and capabilities.</span></span>
+<span data-ttu-id="2107b-107">Nous mettons constamment à jour le service Protection Microsoft contre les menaces de manière à inclure de nouvelles capacités et améliorations de fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="2107b-107">The Microsoft Threat Protection service is constantly being updated to include new feature enhancements and capabilities.</span></span>
 
-<span data-ttu-id="8be4c-108">Découvrez les nouvelles fonctionnalités de la version d’évaluation de Microsoft Threat Protection et soyez parmi les premières à essayer les fonctionnalités à venir en activant l’aperçu.</span><span class="sxs-lookup"><span data-stu-id="8be4c-108">Learn about new features in the Microsoft Threat Protection preview release and be among the first to try upcoming features by turning on the preview experience.</span></span>
+<span data-ttu-id="2107b-108">Découvrez les nouvelles fonctionnalités de la préversion de la Protection Microsoft contre les menaces et soyez parmi les premiers à essayer les fonctionnalités à venir en activant l’expérience de préversion.</span><span class="sxs-lookup"><span data-stu-id="2107b-108">Learn about new features in the Microsoft Threat Protection preview release and be among the first to try upcoming features by turning on the preview experience.</span></span>
 
-<span data-ttu-id="8be4c-109">Pour plus d’informations sur les nouvelles fonctionnalités généralement disponibles, voir [Nouveautés de la Protection Microsoft contre les menaces](whats-new.md).</span><span class="sxs-lookup"><span data-stu-id="8be4c-109">For more information on new capabilities that are generally available, see [What's new in Microsoft Threat Protection](whats-new.md).</span></span>
+<span data-ttu-id="2107b-109">Si vous souhaitez en savoir plus sur les nouvelles fonctionnalités généralement disponibles, veuillez consulter [Nouveautés de la Protection Microsoft contre les menaces](whats-new.md).</span><span class="sxs-lookup"><span data-stu-id="2107b-109">For more information on new capabilities that are generally available, see [What's new in Microsoft Threat Protection](whats-new.md).</span></span>
 
-## <a name="turn-on-preview-features"></a><span data-ttu-id="8be4c-110">Activer les fonctionnalités d’aperçu</span><span class="sxs-lookup"><span data-stu-id="8be4c-110">Turn on preview features</span></span>
-<span data-ttu-id="8be4c-111">Vous aurez accès aux fonctionnalités à venir, sur lesquelles vous pouvez faire part de vos commentaires afin d’améliorer l’expérience globale avant que les fonctionnalités soient disponibles en général.</span><span class="sxs-lookup"><span data-stu-id="8be4c-111">You'll have access to upcoming features which you can provide feedback on to help improve the overall experience before features are generally available.</span></span>
+## <a name="turn-on-preview-features"></a><span data-ttu-id="2107b-110">Activer les fonctionnalités d’aperçu</span><span class="sxs-lookup"><span data-stu-id="2107b-110">Turn on preview features</span></span>
+<span data-ttu-id="2107b-111">Vous aurez accès aux fonctionnalités à venir et pourrez ainsi nous faire part de vos commentaires pour améliorer l’expérience globale avant que ces fonctionnalités soient généralement disponibles.</span><span class="sxs-lookup"><span data-stu-id="2107b-111">You'll have access to upcoming features which you can provide feedback on to help improve the overall experience before features are generally available.</span></span>
 
-<span data-ttu-id="8be4c-112">Activez le paramètre aperçu de l’expérience pour commencer à utiliser les fonctionnalités à venir.</span><span class="sxs-lookup"><span data-stu-id="8be4c-112">Turn on the preview experience setting to be among the first to try upcoming features.</span></span>
+<span data-ttu-id="2107b-112">Activez le paramètre d’expérience de préversion pour être parmi les premiers à essayer les fonctionnalités à venir.</span><span class="sxs-lookup"><span data-stu-id="2107b-112">Turn on the preview experience setting to be among the first to try upcoming features.</span></span>
 
-1. <span data-ttu-id="8be4c-113">Dans le volet de navigation, sélectionnez **paramètres**.</span><span class="sxs-lookup"><span data-stu-id="8be4c-113">In the navigation pane, select **Settings**.</span></span>
+1. <span data-ttu-id="2107b-113">Dans le volet de navigation, sélectionnez **Paramètres**.</span><span class="sxs-lookup"><span data-stu-id="2107b-113">In the navigation pane, select **Settings**.</span></span>
 
-2. <span data-ttu-id="8be4c-114">Sélectionnez **Microsoft Threat Protection**.</span><span class="sxs-lookup"><span data-stu-id="8be4c-114">Select **Microsoft Threat Protection**.</span></span>
+2. <span data-ttu-id="2107b-114">Sélectionnez **Protection Microsoft contre les menaces**.</span><span class="sxs-lookup"><span data-stu-id="2107b-114">Select **Microsoft Threat Protection**.</span></span>
 
 
-3. <span data-ttu-id="8be4c-115">Sélectionnez **Aperçu**  >  **des fonctionnalités activer les fonctionnalités d’aperçu**.</span><span class="sxs-lookup"><span data-stu-id="8be4c-115">Select **Preview features** > **Turn on preview features**.</span></span> 
+3. <span data-ttu-id="2107b-115">Sélectionnez **Fonctionnalités d’aperçu** > **Activer les fonctionnalités d’aperçu**.</span><span class="sxs-lookup"><span data-stu-id="2107b-115">Select **Preview features** > **Turn on preview features**.</span></span> 
 
-3. <span data-ttu-id="8be4c-116">Sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="8be4c-116">Select **Save**.</span></span>
+3. <span data-ttu-id="2107b-116">Sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="2107b-116">Select **Save**.</span></span>
 
-<span data-ttu-id="8be4c-117">Vous saurez que les fonctionnalités d’aperçu sont activées lorsque vous voyez que la case à cocher **activer l’aperçu des fonctionnalités** est activée.</span><span class="sxs-lookup"><span data-stu-id="8be4c-117">You'll know you have preview features turned on when you see that the **Turn on preview features** check box is selected.</span></span> 
+<span data-ttu-id="2107b-117">Vous savez que vous avez activé les fonctionnalités d’aperçu lorsque la case **Activer les fonctionnalités d’aperçu** est cochée.</span><span class="sxs-lookup"><span data-stu-id="2107b-117">You'll know you have preview features turned on when you see that the **Turn on preview features** check box is selected.</span></span> 
 
-## <a name="preview-features"></a><span data-ttu-id="8be4c-118">Fonctionnalités de préversion</span><span class="sxs-lookup"><span data-stu-id="8be4c-118">Preview features</span></span>
-<span data-ttu-id="8be4c-119">Les fonctionnalités et améliorations suivantes sont actuellement disponibles lors de l’aperçu :</span><span class="sxs-lookup"><span data-stu-id="8be4c-119">The following features and enhancements are currently available on preview:</span></span>
+## <a name="preview-features"></a><span data-ttu-id="2107b-118">Fonctionnalités d’aperçu</span><span class="sxs-lookup"><span data-stu-id="2107b-118">Preview features</span></span>
+<span data-ttu-id="2107b-119">Les fonctionnalités et améliorations suivantes sont actuellement disponibles en mode aperçu :</span><span class="sxs-lookup"><span data-stu-id="2107b-119">The following features and enhancements are currently available on preview:</span></span>
 
-- <span data-ttu-id="8be4c-120">**[API de protection contre les menaces Microsoft](api-overview.md)** : les API de protection contre les menaces Microsoft Lop vous permettent d’automatiser les flux de travail en fonction de l’incident partagé et des tableaux de la chasse avancée.</span><span class="sxs-lookup"><span data-stu-id="8be4c-120">**[Microsoft Threat Protection APIs](api-overview.md)** - The lop-level Microsoft Threat Protection APIs will enable you to automate workflows based on the shared incident and advanced hunting tables.</span></span> 
-- <span data-ttu-id="8be4c-121">**[Table IdentityDirectoryEvents dans la chasse avancée](advanced-hunting-identitydirectoryevents-table.md)** : recherchez des événements impliquant un contrôleur de domaine sur site exécutant Active Directory (AD).</span><span class="sxs-lookup"><span data-stu-id="8be4c-121">**[IdentityDirectoryEvents table in advanced hunting](advanced-hunting-identitydirectoryevents-table.md)** — Find events involving an on-premises domain controller running Active Directory (AD).</span></span> <span data-ttu-id="8be4c-122">Ce tableau couvre un éventail d’événements liés à l’identité, ainsi que des événements système sur le contrôleur de domaine.</span><span class="sxs-lookup"><span data-stu-id="8be4c-122">This table covers a range of identity-related events as well as system events on the domain controller.</span></span>
-- <span data-ttu-id="8be4c-123">**[Effectuer des actions dans la chasse avancée](advanced-hunting-take-action.md)** — il doit rapidement contenir des menaces ou des ressources compromises que vous trouvez dans la [chasse avancée](advanced-hunting-overview.md).</span><span class="sxs-lookup"><span data-stu-id="8be4c-123">**[Take action in advanced hunting](advanced-hunting-take-action.md)** — Quickly contain threats or address compromised assets that you find in [advanced hunting](advanced-hunting-overview.md).</span></span>
-- <span data-ttu-id="8be4c-124">**[Guide de référence de schéma dans le portail](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** : Obtenez des informations sur les tables de schéma de chasse avancées directement dans le centre de sécurité.</span><span class="sxs-lookup"><span data-stu-id="8be4c-124">**[In-portal schema reference](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — Get information about advanced hunting schema tables directly in the security center.</span></span> <span data-ttu-id="8be4c-125">En plus des descriptions de table et de colonne, cette référence pratique fournit des informations sur les types d’événement pris en charge ( `ActionType` valeurs) et les exemples de requêtes.</span><span class="sxs-lookup"><span data-stu-id="8be4c-125">In addition to table and column descriptions, this convenient reference provides information about supported event types (`ActionType` values) and sample queries.</span></span>
+- <span data-ttu-id="2107b-120">**[API Protection Microsoft contre les menaces](api-overview.md)**  : les API Protection Microsoft contre les menaces vous permettent d’automatiser les flux de travail en fonction des tableaux partagés d’incidents de recherche avancée de menaces.</span><span class="sxs-lookup"><span data-stu-id="2107b-120">**[Microsoft Threat Protection APIs](api-overview.md)** - The lop-level Microsoft Threat Protection APIs will enable you to automate workflows based on the shared incident and advanced hunting tables.</span></span> 
+- <span data-ttu-id="2107b-121">**[Tableau IdentityDirectoryEvents dans la recherche avancée de menaces](advanced-hunting-identitydirectoryevents-table.md)**  : recherchez les événements impliquant un contrôleur de domaine local exécutant Active Directory (AD).</span><span class="sxs-lookup"><span data-stu-id="2107b-121">**[IdentityDirectoryEvents table in advanced hunting](advanced-hunting-identitydirectoryevents-table.md)** — Find events involving an on-premises domain controller running Active Directory (AD).</span></span> <span data-ttu-id="2107b-122">Ce tableau couvre un ensemble d’événements liés à l’identité, ainsi que des événements système sur le contrôleur de domaine.</span><span class="sxs-lookup"><span data-stu-id="2107b-122">This table covers a range of identity-related events as well as system events on the domain controller.</span></span>
+- <span data-ttu-id="2107b-123">**[Agir lors de la recherche avancée de menaces](advanced-hunting-take-action.md)**  : éliminez rapidement les menaces ou les ressources d’adresses compromises détectées lors de la [recherche avancée de menaces](advanced-hunting-overview.md).</span><span class="sxs-lookup"><span data-stu-id="2107b-123">**[Take action in advanced hunting](advanced-hunting-take-action.md)** — Quickly contain threats or address compromised assets that you find in [advanced hunting](advanced-hunting-overview.md).</span></span>
+- <span data-ttu-id="2107b-124">**[Référence de schéma dans le portail](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)**  : informez-vous sur les tableaux de schémas de recherche avancée de menaces directement dans le centre de sécurité.</span><span class="sxs-lookup"><span data-stu-id="2107b-124">**[In-portal schema reference](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — Get information about advanced hunting schema tables directly in the security center.</span></span> <span data-ttu-id="2107b-125">Outre des descriptions des tableaux et des colonnes, cette référence pratique fournit des informations sur les types d’événements pris en charge (valeurs `ActionType`) et des exemples de requêtes.</span><span class="sxs-lookup"><span data-stu-id="2107b-125">In addition to table and column descriptions, this convenient reference provides information about supported event types (`ActionType` values) and sample queries.</span></span>
 
