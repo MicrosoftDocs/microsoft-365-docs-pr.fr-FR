@@ -15,14 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: a81589b0ecb5022bed19b2c42288ab5464cbddf4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ROBOTS: NOINDEX, NOFOLLOW
+description: Baliser des documents dans un ensemble de preuves pour identifier leur pertinence pour votre enquête.
+ms.openlocfilehash: b94d42c2ed1ec58257641e3df4619cbd155603b0
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069591"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285200"
 ---
-# <a name="tag-documents-in-evidence"></a><span data-ttu-id="88166-102">Marquer des documents dans des preuves</span><span class="sxs-lookup"><span data-stu-id="88166-102">Tag documents in evidence</span></span>
+# <a name="tag-documents-in-evidence"></a><span data-ttu-id="0a702-103">Marquer des documents dans des preuves</span><span class="sxs-lookup"><span data-stu-id="0a702-103">Tag documents in evidence</span></span>
 
-<span data-ttu-id="88166-103">Contenu à paraître prochainement.</span><span class="sxs-lookup"><span data-stu-id="88166-103">Content coming soon.</span></span>
+<span data-ttu-id="0a702-104">Contenu à paraître prochainement.</span><span class="sxs-lookup"><span data-stu-id="0a702-104">Content coming soon.</span></span>

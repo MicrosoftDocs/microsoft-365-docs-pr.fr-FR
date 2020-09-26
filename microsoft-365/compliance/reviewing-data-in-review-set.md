@@ -16,15 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
-description: ''
-ms.openlocfilehash: 9c978144df9e254ac3072e3d0d2ed4a0403fad43
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Découvrez comment examiner les données d’un cas dans un jeu de révision dans Advanced eDiscovery.
+ms.openlocfilehash: 890edc0e813f620944cea1e73bc8f9dc45132eb3
+ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081551"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48285350"
 ---
-# <a name="review-case-data-in-advanced-ediscovery"></a><span data-ttu-id="1d1f7-102">Vérifier les données de cas dans Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="1d1f7-102">Review case data in Advanced eDiscovery</span></span>
+# <a name="review-case-data-in-advanced-ediscovery"></a><span data-ttu-id="4fd51-103">Vérifier les données de cas dans Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="4fd51-103">Review case data in Advanced eDiscovery</span></span>
 
-
-<span data-ttu-id="1d1f7-103">Bientôt disponible</span><span class="sxs-lookup"><span data-stu-id="1d1f7-103">Coming soon</span></span>
+<span data-ttu-id="4fd51-104">À venir.</span><span class="sxs-lookup"><span data-stu-id="4fd51-104">Coming soon.</span></span>
