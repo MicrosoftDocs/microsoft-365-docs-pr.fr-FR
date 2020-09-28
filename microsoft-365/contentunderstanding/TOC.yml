@@ -1,22 +1,44 @@
 - name: Prise en main de la compréhension du contenu
   items:
+    - name: Présentation de Microsoft SharePoint Syntex
+      href: microsoft-sharepoint-syntex-overview.md
     - name: Présentation de l’explication des documents
       href: document-understanding-overview.md
     - name: Vue d’ensemble du traitement des formulaires
       href: form-processing-overview.md
     - name: Différences entre la présentation des documents et les modèles de traitement des formulaires
       href: difference-between-document-understanding-and-form-processing-model.md
+    - name: En savoir plus sur les modèles via le modèle d’exemple
+      href: learn-about-document-understanding-models-through-the-sample-model.md
     - name: Créer un centre de contenu
       href: create-a-content-center.md
     - name: Créer un classifieur
       href: create-a-classifier.md
     - name: Créer un extracteur
       href: create-an-extractor.md
+    - name: Vue d’ensemble des types d’explications
+      href: explanation-types-overview.md
     - name: Appliquer un modèle
       href: apply-a-model.md
     - name: Créer un modèle de traitement de formulaire
       href: create-a-form-processing-model.md
-- name: Prise en main du programme d’installation
+    - name: Application d’une étiquette de rétention
+      href: apply-a-retention-label-to-a-model.md
+    - name: Analyse de l’utilisation des modèles
+      href: model-usage-analytics.md
+- name: Configuration et administration
   items:
     - name: Configurer la présentation du contenu
       href: set-up-content-understanding.md
+    - name: Balisage d’image
+      href: image-tagging.md
+- name: Services de contenu
+  items:
+    - name: Importer à l’aide de SKOS
+      href: import-term-set-skos.md
+    - name: Référence de mise en forme SKOS
+      href: skos-format-reference.md
+    - name: Type de contenu poussé vers le Hub
+      href: push-content-type-to-hub.md
+    - name: Rapports de magasin de termes
+      href: term-store-analytics.md
