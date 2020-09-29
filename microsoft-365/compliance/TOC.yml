@@ -151,8 +151,10 @@
       items:
         - name: Comprendre le chiffrement
           href: encryption.md
-        - name: Chiffrement à double clé (préversion)
+        - name: Chiffrement à double clé (DKE)
           href: double-key-encryption.md
+        - name: FAQ sur le chiffrement à double clé
+          href: double-key-encryption-overview.md
         - name: "Chiffrement du service Office\_365"
           href: office-365-service-encryption.md
         - name: Clé client
@@ -340,10 +342,6 @@
               href: archive-workplacefromfacebook-data.md
             - name: Réunions Zoom
               href: archive-zoommeetings-data.md
-            - name: Slack
-              href: archive-slack-data.md
-            - name: Réunions Zoom
-              href: archive-zoommeetings-data.md
         - name: Connecteurs de données de TeleMessage
           items:
             - name: Android
@@ -425,7 +423,7 @@
               href: configure-edge-to-export-search-results.md
             - name: Rechercher et supprimer des messages électroniques
               href: search-for-and-delete-messages-in-your-organization.md
-            - name: Rechercher les boîtes aux lettres sur le cloud des utilisateurs locaux
+            - name: Rechercher des données de conversation Teams pour les utilisateurs locaux
               href: search-cloud-based-mailboxes-for-on-premises-users.md
             - name: Modification en bloc de plusieurs recherches de contenu
               href: bulk-edit-content-searches.md
