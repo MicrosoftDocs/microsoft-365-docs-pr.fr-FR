@@ -388,8 +388,6 @@
           href: restore-an-inactive-mailbox.md
         - name: Suppression d’une boîte aux lettres inactive
           href: delete-an-inactive-mailbox.md
-    - name: Vidéos de l’équipe de gouvernance des données Microsoft
-      href: 'https://go.microsoft.com/fwlink/?linkid=867039'
     - name: Gestion des enregistrements
       items:
         - name: Découvrez la gestion des enregistrements
