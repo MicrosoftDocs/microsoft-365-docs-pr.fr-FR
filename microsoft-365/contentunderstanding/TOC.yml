@@ -1,13 +1,15 @@
-- name: Prise en main de Microsoft SharePoint Syntex
+- name: En savoir plus sur Microsoft SharePoint Syntex
   items:
-    - name: Présentation de Microsoft SharePoint Syntex
-      href: microsoft-sharepoint-syntex-overview.md
+    - name: Introduction à SharePoint Syntex
+      href: index.md
     - name: Présentation de l’explication des documents
       href: document-understanding-overview.md
     - name: Vue d’ensemble du traitement des formulaires
       href: form-processing-overview.md
     - name: Différences entre la présentation des documents et les modèles de traitement des formulaires
       href: difference-between-document-understanding-and-form-processing-model.md
+- name: Prise en main des modèles
+  items:
     - name: En savoir plus sur les modèles via le modèle d’exemple
       href: learn-about-document-understanding-models-through-the-sample-model.md
     - name: Créer un centre de contenu
