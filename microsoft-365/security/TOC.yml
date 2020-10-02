@@ -38,7 +38,7 @@
       items:
         - name: Vue d’ensemble
           items:
-            - name: "Qu’est-ce que la protection Microsoft contre les menaces\_?"
+            - name: "Qu’est-ce que la Protection Microsoft contre les menaces\_?"
               href: mtp/microsoft-threat-protection.md
             - name: Nouveautés de la protection Microsoft contre les menaces
               href: mtp/whats-new.md
@@ -439,8 +439,6 @@
               href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
             - name: Vue d’ensemble du tableau de bord de sécurité
               href: ./office-365-security/security-dashboard.md
-            - name: Afficher des informations sur les fichiers malveillants
-              href: ./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md
         - name: "Office\_365\_– Protection avancée contre les menaces"
           href: ./office-365-security/office-365-atp.md
           items:
@@ -452,19 +450,23 @@
               items:
                 - name: Tâches de configuration d’administrateur général
                   items:
-                    - name: Configuration des stratégies de liens fiables PACM
-                      href: ./office-365-security/set-up-atp-safe-links-policies.md
-                    - name: Définir des stratégies de pièces jointes fiables PACM
+                    - name: "Définir des stratégies de pièces jointes fiables dans Office\_365 PACM"
                       href: ./office-365-security/set-up-atp-safe-attachments-policies.md
-                    - name: "Configurer une liste d’URL personnalisée «\_ne pas réécrire\_»"
-                      href: ./office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md
-                    - name: Configurer une liste d’URL bloquée personnalisée
-                      href: ./office-365-security/set-up-a-custom-blocked-urls-list-atp.md
+                    - name: "Définir des stratégies de liens fiables dans Office\_365 PACM"
+                      href: ./office-365-security/set-up-atp-safe-links-policies.md
+                    - name: "Configurer les paramètres généraux pour les liens approuvés dans Office\_365 PACM"
+                      href: ./office-365-security/configure-global-settings-for-safe-links.md
                 - name: Tâches de configuration d’administrateur de rôle
                   items:
                     - name: 'Activer PACM pour SharePoint, OneDrive et Microsoft Teams.'
                       href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
-            - name: Affichages de campagne
+            - name: "Pièces jointes fiables dans Office\_365 PACM"
+              href: ./office-365-security/atp-safe-attachments.md
+            - name: 'PACM pour SharePoint, OneDrive et Microsoft Teams'
+              href: ./office-365-security/atp-for-spo-odb-and-teams.md
+            - name: "Liens approuvés dans Office\_365 PACM"
+              href: ./office-365-security/atp-safe-links.md
+            - name: "Campaign Views dans Office\_365 - Protection avancée contre les menaces"
               href: ./office-365-security/campaigns.md
             - name: Enquêtes et réponses automatisées
               items:
@@ -490,8 +492,6 @@
               href: ./office-365-security/view-reports-for-atp.md
             - name: Comprendre les dernières attaques grâce aux analyses des menaces
               href: ./mtp/latest-attack-campaigns.md
-            - name: Que sont les pages d’avertissement de liens fiables de PACM
-              href: ./office-365-security/atp-safe-links-warning-pages.md
             - name: Utiliser les suivis des menaces
               href: ./office-365-security/threat-trackers.md
             - name: Simulateur d’attaques dans Office 365 - Protection avancée contre les menaces
@@ -515,14 +515,6 @@
               items:
                 - name: Fonctionnement de l’examen et de la réponse automatisés
                   href: ./office-365-security/automated-investigation-response-office.md
-                - name: Fonctionnement des liens fiables PACM
-                  href: ./office-365-security/how-atp-safe-links-works.md
-                - name: Fonctionnement des pièces jointes fiables de PACM
-                  href: ./office-365-security/how-atp-safe-attachments-works.md
-                - name: Remise dynamique et aperçu des détails
-                  href: ./office-365-security/dynamic-delivery-and-previewing.md
-                - name: 'PACM pour SharePoint, OneDrive et Microsoft Teams'
-                  href: ./office-365-security/atp-for-spo-odb-and-teams.md
                 - name: Fonctionnement de l’examen des menaces et de la réponse à celles-ci
                   href: ./office-365-security/office-365-ti.md
         - name: Gestion des incidents de sécurité
@@ -677,7 +669,7 @@
                   href: ./office-365-security/set-up-virtual-certificate-collection-to-validate-s-mime.md
         - name: Microsoft 365 pour entreprise
           href: 'https://docs.microsoft.com/microsoft-365/enterprise'
-        - name: "Microsoft\_365\_Entreprise"
+        - name: "Qu’est-ce que Microsoft\_365\_Entreprises\_?"
           href: 'https://docs.microsoft.com/microsoft-365/admin/admin-home'
     - name: Conformité Microsoft 365
       href: 'https://docs.microsoft.com/microsoft-365/compliance/'
