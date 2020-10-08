@@ -495,7 +495,7 @@
               href: ./office-365-security/mail-flow-rules-transport-rules-0.md
             - name: Signaler les e-mails indésirables et l’hameçonnage dans Outlook sur le web
               href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
-            - name: Signaler les e-mails indésirables et les tentatives d’hameçonnage dans Outlook pour iOS et Android
+            - name: Signaler le courrier indésirable et les tentatives d’hameçonnage dans Outlook pour iOS et Android
               href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-for-ios-and-android.md
             - name: Exécuter un rapport de groupe de rôles d’administrateur dans EOP autonome
               href: ./office-365-security/run-an-administrator-role-group-report-in-eop-eop.md
