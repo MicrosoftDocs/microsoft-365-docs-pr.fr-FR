@@ -2,11 +2,11 @@
   items:
     - name: Introduction à SharePoint Syntex
       href: index.md
-    - name: Présentation de l’explication des documents
+    - name: Présentation de la compréhension de document
       href: document-understanding-overview.md
     - name: Vue d’ensemble du traitement des formulaires
       href: form-processing-overview.md
-    - name: Différences entre la présentation des documents et les modèles de traitement des formulaires
+    - name: Différence entre la compréhension de document et les modèles de traitement de formulaire
       href: difference-between-document-understanding-and-form-processing-model.md
 - name: Prise en main des modèles
   items:
@@ -18,7 +18,7 @@
       href: create-a-classifier.md
     - name: Créer un extracteur
       href: create-an-extractor.md
-    - name: Types d’explications
+    - name: Types d’explication
       href: explanation-types-overview.md
     - name: Appliquer un modèle
       href: apply-a-model.md
@@ -28,7 +28,7 @@
       href: apply-a-retention-label-to-a-model.md
     - name: Analyse de l’utilisation des modèles
       href: model-usage-analytics.md
-    - name: Utilisation de la taxonomie de magasin de termes lors de la création d’un extracteur
+    - name: Utiliser la taxonomie du magasin de termes lors de la création d’un extracteur
       href: leverage-term-store-taxonomy.md
 - name: Adoption
   items:
@@ -38,8 +38,6 @@
   items:
     - name: Configurer la compréhension de contenu
       href: set-up-content-understanding.md
-    - name: Balisage d’image
-      href: image-tagging.md
 - name: Services de contenu
   items:
     - name: Importer à l’aide de SKOS
@@ -48,5 +46,5 @@
       href: skos-format-reference.md
     - name: Type de contenu poussé vers le Hub
       href: push-content-type-to-hub.md
-    - name: Rapports de magasin de termes
+    - name: Rapports de banque de termes
       href: term-store-analytics.md
