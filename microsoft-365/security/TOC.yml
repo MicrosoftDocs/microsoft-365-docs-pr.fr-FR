@@ -9,20 +9,20 @@
         - name: Sécurité Microsoft 365 pour les décideurs d’entreprise
           href: Microsoft-365-security-for-bdm.md
     - name: Configurations des identités et de l’accès aux appareils
-      href: ../enterprise/microsoft-365-policies-configurations.md
+      href: ./office-365-security/microsoft-365-policies-configurations.md
       items:
         - name: Travail préparatoire
-          href: ../enterprise/identity-access-prerequisites.md
+          href: ./office-365-security/identity-access-prerequisites.md
         - name: Stratégies communes pour les identités et l’accès aux appareils
-          href: ../enterprise/identity-access-policies.md
+          href: ./office-365-security/identity-access-policies.md
         - name: Stratégies pour les invités et les utilisateurs externes
-          href: ../enterprise/identity-access-policies-guest-access.md
+          href: ./office-365-security/identity-access-policies-guest-access.md
         - name: Stratégies d’accès recommandées pour Teams
-          href: ../enterprise/teams-access-policies.md
+          href: ./office-365-security/teams-access-policies.md
         - name: Stratégies d’accès à Exchange Online
-          href: ../enterprise/secure-email-recommended-policies.md
+          href: ./office-365-security/secure-email-recommended-policies.md
         - name: Stratégies d’accès à SharePoint Online recommandées
-          href: ../enterprise/sharepoint-file-access-policies.md
+          href: ./office-365-security/sharepoint-file-access-policies.md
     - name: Degré de sécurisation Microsoft
       items:
         - name: Vue d’ensemble du score sécurisé
@@ -422,6 +422,8 @@
               href: ./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
             - name: Création de sites d’équipe dans un environnement de développement/test dans le cadre d’une campagne électorale
               href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
+            - name: Balises utilisateur dans Office 365 – Protection avancée contre les menaces
+              href: ./office-365-security/user-tags.md
             - name: S/MIME
               href: ./office-365-security/s-mime-for-message-signing-and-encryption.md
               items:
