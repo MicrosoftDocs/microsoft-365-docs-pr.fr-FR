@@ -250,6 +250,8 @@
           href: how-dlp-works-between-admin-centers.md
         - name: Utiliser des étiquettes de confidentialité comme condition dans les stratégies de protection contre la perte de données (préversion)
           href: dlp-sensitivity-label-as-condition.md
+        - name: Utilisation de stratégies de protection contre la perte de données pour les applications cloud non-Microsoft
+          href: dlp-use-policies-non-microsoft-cloud-apps.md
 - name: Gérer la gouvernance des informations
   items:
     - name: Gouvernez vos données
