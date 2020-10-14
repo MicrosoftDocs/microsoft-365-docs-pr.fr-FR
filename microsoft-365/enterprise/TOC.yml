@@ -277,6 +277,8 @@
           href: microsoft-365-inter-tenant-collaboration.md
         - name: Migration de boîtes aux lettres inter-clients
           href: cross-tenant-mailbox-migration.md
+        - name: Migrations client vers client
+          href: microsoft-365-tenant-to-tenant-migrations.md
     - name: Multi-Géo
       items:
         - name: Microsoft 365 Multigéographie
