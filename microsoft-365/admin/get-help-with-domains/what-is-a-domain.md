@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: pebaum
 author: pebaum
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,40 +22,40 @@ description: Découvrez ce qu’est un domaine et comment vous pouvez acheter un
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: 9104c77218c483b61c57a38e37e8e2661db1aa15
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 0c59fb6bc5f9a7796c84a0370c771bf90102dec0
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399859"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48645118"
 ---
-# <a name="what-is-a-domain"></a><span data-ttu-id="e6710-103">Qu’est-ce qu’un domaine ?</span><span class="sxs-lookup"><span data-stu-id="e6710-103">What is a domain?</span></span>
+# <a name="what-is-a-domain"></a><span data-ttu-id="ce6fc-103">Qu’est-ce qu’un domaine ?</span><span class="sxs-lookup"><span data-stu-id="ce6fc-103">What is a domain?</span></span>
 
- <span data-ttu-id="e6710-104">**[Consultez les Forums aux questions sur les domaines](../setup/domains-faq.md)** si vous ne trouvez pas ce que vous recherchez.</span><span class="sxs-lookup"><span data-stu-id="e6710-104">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
+ <span data-ttu-id="ce6fc-104">**[Consultez les Forums aux questions sur les domaines](../setup/domains-faq.md)** si vous ne trouvez pas ce que vous recherchez.</span><span class="sxs-lookup"><span data-stu-id="ce6fc-104">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
   
-<span data-ttu-id="e6710-105">[] Un domaine est un nom unique qui apparaît après le signe **@** dans les adresses de messagerie et après **www.**</span><span class="sxs-lookup"><span data-stu-id="e6710-105">A domain is a unique name that appears after the **@** sign in email addresses, and after **www.**</span></span> <span data-ttu-id="e6710-106">dans les adresses web.</span><span class="sxs-lookup"><span data-stu-id="e6710-106">in web addresses.</span></span> <span data-ttu-id="e6710-107">Il prend généralement la forme du nom de votre organisation et d’un suffixe Internet standard, tel que *yourbusiness. <span> com* ou *stateuniversity. <span> edu*.</span><span class="sxs-lookup"><span data-stu-id="e6710-107">It typically takes the form of your organization's name and a standard Internet suffix, such as *yourbusiness.<span>com* or *stateuniversity.<span>edu*.</span></span> 
+<span data-ttu-id="ce6fc-105">[] Un domaine est un nom unique qui apparaît après le signe **@** dans les adresses de messagerie et après **www.**</span><span class="sxs-lookup"><span data-stu-id="ce6fc-105">A domain is a unique name that appears after the **@** sign in email addresses, and after **www.**</span></span> <span data-ttu-id="ce6fc-106">dans les adresses web.</span><span class="sxs-lookup"><span data-stu-id="ce6fc-106">in web addresses.</span></span> <span data-ttu-id="ce6fc-107">Il prend généralement la forme du nom de votre organisation et d’un suffixe Internet standard, tel que *yourbusiness. <span> com* ou *stateuniversity. <span> edu*.</span><span class="sxs-lookup"><span data-stu-id="ce6fc-107">It typically takes the form of your organization's name and a standard Internet suffix, such as *yourbusiness.<span>com* or *stateuniversity.<span>edu*.</span></span> 
   
-<span data-ttu-id="e6710-108">Utilisation d’un domaine personnalisé tel que *Rob@contoso. <span> com* avec Microsoft 365 peut vous aider à créer une crédibilité et une reconnaissance pour votre marque.</span><span class="sxs-lookup"><span data-stu-id="e6710-108">Using a custom domain like *rob@contoso.<span>com* with Microsoft 365 can help build credibility and recognition for your brand.</span></span> 
+<span data-ttu-id="ce6fc-108">Utilisation d’un domaine personnalisé tel que *Rob@contoso. <span> com* avec Microsoft 365 peut vous aider à créer une crédibilité et une reconnaissance pour votre marque.</span><span class="sxs-lookup"><span data-stu-id="ce6fc-108">Using a custom domain like *rob@contoso.<span>com* with Microsoft 365 can help build credibility and recognition for your brand.</span></span> 
   
-## <a name="choose-the-experience-thats-best-for-you"></a><span data-ttu-id="e6710-109">Sélectionnez l'expérience qui répond à vos besoins :</span><span class="sxs-lookup"><span data-stu-id="e6710-109">Choose the experience that's best for you:</span></span>
+## <a name="choose-the-experience-thats-best-for-you"></a><span data-ttu-id="ce6fc-109">Sélectionnez l'expérience qui répond à vos besoins :</span><span class="sxs-lookup"><span data-stu-id="ce6fc-109">Choose the experience that's best for you:</span></span>
 
- <span data-ttu-id="e6710-110">**Acheter un nouveau domaine :**</span><span class="sxs-lookup"><span data-stu-id="e6710-110">**Buy a new Domain:**</span></span>
+ <span data-ttu-id="ce6fc-110">**Acheter un nouveau domaine :**</span><span class="sxs-lookup"><span data-stu-id="ce6fc-110">**Buy a new Domain:**</span></span>
   
-<span data-ttu-id="e6710-111">Utiliser Microsoft 365 pour acheter un nouveau domaine-nous allons tout définir.</span><span class="sxs-lookup"><span data-stu-id="e6710-111">Use Microsoft 365 to buy a new domain - we'll set everything up.</span></span> [<span data-ttu-id="e6710-112">Pour en savoir plus.</span><span class="sxs-lookup"><span data-stu-id="e6710-112">Learn more.</span></span>](buy-a-domain-name.md)
+<span data-ttu-id="ce6fc-111">Utiliser Microsoft 365 pour acheter un nouveau domaine-nous allons tout définir.</span><span class="sxs-lookup"><span data-stu-id="ce6fc-111">Use Microsoft 365 to buy a new domain - we'll set everything up.</span></span> [<span data-ttu-id="ce6fc-112">Pour en savoir plus.</span><span class="sxs-lookup"><span data-stu-id="ce6fc-112">Learn more.</span></span>](buy-a-domain-name.md)
   
- <span data-ttu-id="e6710-113">**Utiliser un domaine qui vous appartient déjà :**</span><span class="sxs-lookup"><span data-stu-id="e6710-113">**Use a domain you already own:**</span></span>
+ <span data-ttu-id="ce6fc-113">**Utiliser un domaine qui vous appartient déjà :**</span><span class="sxs-lookup"><span data-stu-id="ce6fc-113">**Use a domain you already own:**</span></span>
   
-<span data-ttu-id="e6710-114">Si vous possédez déjà un domaine comme *You@yourcompany. <span> com* vous pouvez l’ajouter et commencer à utiliser OneDrive et les applications Microsoft immédiatement.</span><span class="sxs-lookup"><span data-stu-id="e6710-114">If you already own a domain like  *you@yourcompany.<span>com*  you can add it and start using OneDrive and Microsoft apps right away.</span></span> <span data-ttu-id="e6710-115">Vous devrez toutefois prendre quelques minutes pour configurer la messagerie et Skype Entreprise.</span><span class="sxs-lookup"><span data-stu-id="e6710-115">You'll need to take a few minutes to setup mail and Skype for Business.</span></span> 
+<span data-ttu-id="ce6fc-114">Si vous possédez déjà un domaine comme  *You@yourcompany. <span> com*  vous pouvez l’ajouter et commencer à utiliser OneDrive et les applications Microsoft immédiatement.</span><span class="sxs-lookup"><span data-stu-id="ce6fc-114">If you already own a domain like  *you@yourcompany.<span>com*  you can add it and start using OneDrive and Microsoft apps right away.</span></span> <span data-ttu-id="ce6fc-115">Vous devrez toutefois prendre quelques minutes pour configurer la messagerie et Skype Entreprise.</span><span class="sxs-lookup"><span data-stu-id="ce6fc-115">You'll need to take a few minutes to setup mail and Skype for Business.</span></span> 
   
 > [!TIP]
-> <span data-ttu-id="e6710-p104">vous ne savez pas si votre domaine est enregistré ? [Obtenir de l'aide pour rechercher votre bureau d'enregistrement de domaines](find-your-domain-registrar.md).</span><span class="sxs-lookup"><span data-stu-id="e6710-p104">Not sure where your domain is registered? - [Get help finding your domain registrar](find-your-domain-registrar.md)</span></span>
+> <span data-ttu-id="ce6fc-p104">vous ne savez pas si votre domaine est enregistré ? [Obtenir de l'aide pour rechercher votre bureau d'enregistrement de domaines](find-your-domain-registrar.md).</span><span class="sxs-lookup"><span data-stu-id="ce6fc-p104">Not sure where your domain is registered? - [Get help finding your domain registrar](find-your-domain-registrar.md)</span></span>
   
- <span data-ttu-id="e6710-118">**Utiliser temporairement un domaine par défaut :**</span><span class="sxs-lookup"><span data-stu-id="e6710-118">**Use a default domain for now:**</span></span>
+ <span data-ttu-id="ce6fc-118">**Utiliser temporairement un domaine par défaut :**</span><span class="sxs-lookup"><span data-stu-id="ce6fc-118">**Use a default domain for now:**</span></span>
   
-<span data-ttu-id="e6710-119">Vous pouvez utiliser un domaine par défaut comme *yourcompany. onmicrosoft. <span> com* pour vous connecter pour le moment et ajouter un domaine personnalisé ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="e6710-119">You can use a default domain like  *yourcompany.onmicrosoft.<span>com*  to log in for now and add a custom domain later.</span></span> <span data-ttu-id="e6710-120">Étant donné que vous ne pouvez pas modifier ou renommer votre domaine par défaut, assurez-vous de choisir le bon !</span><span class="sxs-lookup"><span data-stu-id="e6710-120">You can't change or rename your default domain - so make sure it's what you want before moving on.</span></span> 
+<span data-ttu-id="ce6fc-119">Vous pouvez utiliser un domaine par défaut comme  *yourcompany. onmicrosoft. <span> com*  pour vous connecter pour le moment et ajouter un domaine personnalisé ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="ce6fc-119">You can use a default domain like  *yourcompany.onmicrosoft.<span>com*  to log in for now and add a custom domain later.</span></span> <span data-ttu-id="ce6fc-120">Étant donné que vous ne pouvez pas modifier ou renommer votre domaine par défaut, assurez-vous de choisir le bon !</span><span class="sxs-lookup"><span data-stu-id="ce6fc-120">You can't change or rename your default domain - so make sure it's what you want before moving on.</span></span> 
   
-## <a name="feeling-stuck"></a><span data-ttu-id="e6710-121">Vous êtes bloqué ?</span><span class="sxs-lookup"><span data-stu-id="e6710-121">Feeling stuck?</span></span>
+## <a name="feeling-stuck"></a><span data-ttu-id="ce6fc-121">Vous êtes bloqué ?</span><span class="sxs-lookup"><span data-stu-id="ce6fc-121">Feeling stuck?</span></span>
 
-<span data-ttu-id="e6710-122">Appeler le support Microsoft- [obtenir de l’aide sur la configuration d’un domaine](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="e6710-122">Call Microsoft Support - [Get help setting up a domain](../contact-support-for-business-products.md)</span></span>
+<span data-ttu-id="ce6fc-122">Appeler le support Microsoft- [obtenir de l’aide sur la configuration d’un domaine](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="ce6fc-122">Call Microsoft Support - [Get help setting up a domain](../contact-support-for-business-products.md)</span></span>
   
 
