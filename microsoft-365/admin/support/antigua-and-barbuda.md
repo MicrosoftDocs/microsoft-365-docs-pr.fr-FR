@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,27 +13,27 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Découvrez comment contacter le support pour votre pays ou région.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 31a8e07f066bf4af1f59eb4d59bc360b9d4de7f6
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: c831f2b1ce749c9bc96be70fd4be416b85076ecf
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398701"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48644314"
 ---
-# <a name="contact-support-for-antigua-and-barbuda"></a><span data-ttu-id="e4574-103">Contacter le support pour Antigua-et-Barbuda</span><span class="sxs-lookup"><span data-stu-id="e4574-103">Contact support for Antigua and Barbuda</span></span>
+# <a name="contact-support-for-antigua-and-barbuda"></a><span data-ttu-id="8ffe7-103">Contacter le support pour Antigua-et-Barbuda</span><span class="sxs-lookup"><span data-stu-id="8ffe7-103">Contact support for Antigua and Barbuda</span></span>
 
-<span data-ttu-id="e4574-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="e4574-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="8ffe7-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="8ffe7-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="e4574-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="e4574-105">Phone number</span></span>
-<span data-ttu-id="e4574-106">+ 1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="e4574-106">+1 312 843 5145</span></span>
+## <a name="phone-number"></a><span data-ttu-id="8ffe7-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="8ffe7-105">Phone number</span></span>
+<span data-ttu-id="8ffe7-106">+ 1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="8ffe7-106">+1 312 843 5145</span></span>
 
-## <a name="hours"></a><span data-ttu-id="e4574-107">Heures</span><span class="sxs-lookup"><span data-stu-id="e4574-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="e4574-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="e4574-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="8ffe7-107">Heures</span><span class="sxs-lookup"><span data-stu-id="8ffe7-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="8ffe7-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="8ffe7-108">Billing Support:</span></span>
 
-<span data-ttu-id="e4574-109">Anglais : Lun-ven 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="e4574-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="8ffe7-109">Anglais : Mon-Fri 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="8ffe7-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="e4574-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="e4574-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="8ffe7-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="8ffe7-110">Technical Support:</span></span>
 
-<span data-ttu-id="e4574-111">Anglais : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="e4574-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="8ffe7-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="8ffe7-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="e4574-112">Frais d’appels internationaux appliqués</span><span class="sxs-lookup"><span data-stu-id="e4574-112">International call charges apply</span></span>
+<span data-ttu-id="8ffe7-112">Frais d’appels internationaux appliqués</span><span class="sxs-lookup"><span data-stu-id="8ffe7-112">International call charges apply</span></span>
