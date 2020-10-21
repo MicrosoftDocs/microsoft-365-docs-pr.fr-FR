@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,23 +13,23 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Découvrez où envoyer le paiement pour votre abonnement.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2bd1cac531d0b3bfd3b950d761ceddddbb8f9952
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 94004cdfe359d1e7dab84dec736165fa0bda16af
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401665"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48649542"
 ---
-# <a name="payment-information-for-kuwait"></a><span data-ttu-id="4a72e-103">Informations de paiement pour le Koweït</span><span class="sxs-lookup"><span data-stu-id="4a72e-103">Payment information for Kuwait</span></span>
+# <a name="payment-information-for-kuwait"></a><span data-ttu-id="5bdf6-103">Informations de paiement pour le Koweït</span><span class="sxs-lookup"><span data-stu-id="5bdf6-103">Payment information for Kuwait</span></span>
 
-<span data-ttu-id="4a72e-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="4a72e-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="5bdf6-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="5bdf6-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="4a72e-105">Veuillez payer en USD uniquement et référencer le ou les numéros de votre facture sur votre bordereau de paiement.</span><span class="sxs-lookup"><span data-stu-id="4a72e-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="5bdf6-105">Veuillez payer en USD uniquement et référencer le ou les numéros de votre facture sur votre bordereau de paiement.</span><span class="sxs-lookup"><span data-stu-id="5bdf6-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="4a72e-106">Transfert de fonds électronique</span><span class="sxs-lookup"><span data-stu-id="4a72e-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="5bdf6-106">Transfert de fonds électronique</span><span class="sxs-lookup"><span data-stu-id="5bdf6-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="4a72e-107">**Banque :** Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="4a72e-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="4a72e-108">**Code SWIFT :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="4a72e-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="4a72e-109">**IBAN :** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="4a72e-109">**IBAN:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="4a72e-110">**Numéro de compte :** 12510049</span><span class="sxs-lookup"><span data-stu-id="4a72e-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="4a72e-111">**Nom du compte :** LIBRAIRIE</span><span class="sxs-lookup"><span data-stu-id="4a72e-111">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="5bdf6-107">**Banque :** Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="5bdf6-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="5bdf6-108">**Code SWIFT :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="5bdf6-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="5bdf6-109">**IBAN :** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="5bdf6-109">**IBAN:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="5bdf6-110">**Numéro de compte :** 12510049</span><span class="sxs-lookup"><span data-stu-id="5bdf6-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="5bdf6-111">**Nom du compte :** LIBRAIRIE</span><span class="sxs-lookup"><span data-stu-id="5bdf6-111">**Account Name:** MICROSOFT</span></span>  

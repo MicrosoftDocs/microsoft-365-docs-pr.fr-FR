@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,29 +13,29 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Découvrez comment contacter le support pour votre pays ou région.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 620db5e60b219ec1d2cc29e3c64ddaffb38babfb
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 03101d45c22a592756c83dc9d45c623fba39e48d
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44397537"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48641950"
 ---
-# <a name="contact-support-for-israel"></a><span data-ttu-id="7eaad-103">Contacter le support pour Israël</span><span class="sxs-lookup"><span data-stu-id="7eaad-103">Contact support for Israel</span></span>
+# <a name="contact-support-for-israel"></a><span data-ttu-id="42c67-103">Contacter le support pour Israël</span><span class="sxs-lookup"><span data-stu-id="42c67-103">Contact support for Israel</span></span>
 
-<span data-ttu-id="7eaad-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="7eaad-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="42c67-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="42c67-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="7eaad-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="7eaad-105">Phone number</span></span>
-<span data-ttu-id="7eaad-106">1 809 344 179</span><span class="sxs-lookup"><span data-stu-id="7eaad-106">1 809 344 179</span></span>
+## <a name="phone-number"></a><span data-ttu-id="42c67-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="42c67-105">Phone number</span></span>
+<span data-ttu-id="42c67-106">1 809 344 179</span><span class="sxs-lookup"><span data-stu-id="42c67-106">1 809 344 179</span></span>
 
-## <a name="hours"></a><span data-ttu-id="7eaad-107">Heures</span><span class="sxs-lookup"><span data-stu-id="7eaad-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="7eaad-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="7eaad-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="42c67-107">Heures</span><span class="sxs-lookup"><span data-stu-id="42c67-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="42c67-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="42c67-108">Billing Support:</span></span>
 
-<span data-ttu-id="7eaad-109">Hébreu : Dim-jeudi 9 AM-6 PM</span><span class="sxs-lookup"><span data-stu-id="7eaad-109">Hebrew: Sun-Thu 9 AM-6 PM</span></span>
+<span data-ttu-id="42c67-109">Hébreu : Sun-Thu 9 AM-6 PM</span><span class="sxs-lookup"><span data-stu-id="42c67-109">Hebrew: Sun-Thu 9 AM-6 PM</span></span>
 
-<span data-ttu-id="7eaad-110">Anglais : Lun-ven 9 AM-6 PM</span><span class="sxs-lookup"><span data-stu-id="7eaad-110">English: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="42c67-110">Anglais : Mon-Fri 9 AM-6 PM</span><span class="sxs-lookup"><span data-stu-id="42c67-110">English: Mon-Fri 9 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="7eaad-111">Support technique :</span><span class="sxs-lookup"><span data-stu-id="7eaad-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="42c67-111">Support technique :</span><span class="sxs-lookup"><span data-stu-id="42c67-111">Technical Support:</span></span>
 
-<span data-ttu-id="7eaad-112">Hébreu : Dim-jeudi 9 AM-6 PM</span><span class="sxs-lookup"><span data-stu-id="7eaad-112">Hebrew: Sun-Thu 9 AM-6 PM</span></span>
+<span data-ttu-id="42c67-112">Hébreu : Sun-Thu 9 AM-6 PM</span><span class="sxs-lookup"><span data-stu-id="42c67-112">Hebrew: Sun-Thu 9 AM-6 PM</span></span>
 
-<span data-ttu-id="7eaad-113">Anglais : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="7eaad-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="42c67-113">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="42c67-113">English: 24 hours a day, 7 days a week</span></span>

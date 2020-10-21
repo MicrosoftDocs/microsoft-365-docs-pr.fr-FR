@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,24 +13,24 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Découvrez où envoyer le paiement pour votre abonnement.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fa51151d548418f97390236237a8633838fa71a7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f2c991da23ec8f039c38c35e0cc9a6de99f84861
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44404093"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48649294"
 ---
-# <a name="payment-information-for-malta"></a><span data-ttu-id="bdbce-103">Informations de paiement pour Malte</span><span class="sxs-lookup"><span data-stu-id="bdbce-103">Payment information for Malta</span></span>
+# <a name="payment-information-for-malta"></a><span data-ttu-id="e2f37-103">Informations de paiement pour Malte</span><span class="sxs-lookup"><span data-stu-id="e2f37-103">Payment information for Malta</span></span>
 
-<span data-ttu-id="bdbce-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="bdbce-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="e2f37-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="e2f37-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="bdbce-105">Payez en EUR seulement et numéro (s) de facture de référence sur votre bordereau de paiement.</span><span class="sxs-lookup"><span data-stu-id="bdbce-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="e2f37-105">Payez en EUR seulement et numéro (s) de facture de référence sur votre bordereau de paiement.</span><span class="sxs-lookup"><span data-stu-id="e2f37-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="bdbce-106">Transfert de fonds électronique</span><span class="sxs-lookup"><span data-stu-id="bdbce-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="e2f37-106">Transfert de fonds électronique</span><span class="sxs-lookup"><span data-stu-id="e2f37-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="bdbce-107">**Banque :** Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="bdbce-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="bdbce-108">**Code SWIFT/BIC :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="bdbce-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
-<span data-ttu-id="bdbce-109">**IBAN :** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="bdbce-109">**IBAN:** GB31CITI18500812207591</span></span>  
-<span data-ttu-id="bdbce-110">**Code de tri :** 185008</span><span class="sxs-lookup"><span data-stu-id="bdbce-110">**SORT Code:** 185008</span></span>  
-<span data-ttu-id="bdbce-111">**Numéro de compte :** 12207591</span><span class="sxs-lookup"><span data-stu-id="bdbce-111">**Account Number:** 12207591</span></span>  
-<span data-ttu-id="bdbce-112">**Nom du compte :** LIBRAIRIE</span><span class="sxs-lookup"><span data-stu-id="bdbce-112">**Account Name:** MICROSOFT</span></span>
+<span data-ttu-id="e2f37-107">**Banque :** Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="e2f37-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="e2f37-108">**Code SWIFT/BIC :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="e2f37-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
+<span data-ttu-id="e2f37-109">**IBAN :** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="e2f37-109">**IBAN:** GB31CITI18500812207591</span></span>  
+<span data-ttu-id="e2f37-110">**Code de tri :** 185008</span><span class="sxs-lookup"><span data-stu-id="e2f37-110">**SORT Code:** 185008</span></span>  
+<span data-ttu-id="e2f37-111">**Numéro de compte :** 12207591</span><span class="sxs-lookup"><span data-stu-id="e2f37-111">**Account Number:** 12207591</span></span>  
+<span data-ttu-id="e2f37-112">**Nom du compte :** LIBRAIRIE</span><span class="sxs-lookup"><span data-stu-id="e2f37-112">**Account Name:** MICROSOFT</span></span>
