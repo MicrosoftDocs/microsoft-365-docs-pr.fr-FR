@@ -634,6 +634,8 @@
               href: attorney-privilege-detection.md
             - name: Jeux de conversation à réviser
               href: conversation-review-sets.md
+            - name: Prise en charge linguistique CJC
+              href: ediscovery-cjk-support.md
             - name: Attribution d’autorisations de eDiscovery
               href: assign-ediscovery-permissions.md
             - name: Requêtes par mots clés et conditions de recherche
