@@ -4,7 +4,7 @@ author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -13,24 +13,24 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Découvrez où envoyer le paiement pour votre abonnement.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 804a31953a9073005201d1aa35d56d8cdeb74351
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 9d0b6cb118005ae7e3ae8e110a436faa9829e4b5
+ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401245"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48647254"
 ---
-# <a name="payment-information-for-hong-kong"></a><span data-ttu-id="f8a96-103">Informations de paiement pour Hong Kong</span><span class="sxs-lookup"><span data-stu-id="f8a96-103">Payment information for Hong Kong</span></span>
+# <a name="payment-information-for-hong-kong"></a><span data-ttu-id="c51fc-103">Informations de paiement pour Hong Kong</span><span class="sxs-lookup"><span data-stu-id="c51fc-103">Payment information for Hong Kong</span></span>
 
-<span data-ttu-id="f8a96-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="f8a96-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="c51fc-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="c51fc-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="f8a96-105">Veuillez suivre les instructions de paiement sur votre facture et votre numéro (s) de facture de référence sur votre bordereau de paiement.</span><span class="sxs-lookup"><span data-stu-id="f8a96-105">Please follow payment instructions on your invoice and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="c51fc-105">Veuillez suivre les instructions de paiement sur votre facture et votre numéro (s) de facture de référence sur votre bordereau de paiement.</span><span class="sxs-lookup"><span data-stu-id="c51fc-105">Please follow payment instructions on your invoice and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="f8a96-106">Transfert de fonds électronique</span><span class="sxs-lookup"><span data-stu-id="f8a96-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="c51fc-106">Transfert de fonds électronique</span><span class="sxs-lookup"><span data-stu-id="c51fc-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="f8a96-107">**Banque :** HSBC, Hong Kong</span><span class="sxs-lookup"><span data-stu-id="f8a96-107">**Bank:** HSBC, Hong Kong</span></span>  
-<span data-ttu-id="f8a96-108">**Code de la Banque :** 004</span><span class="sxs-lookup"><span data-stu-id="f8a96-108">**Bank Code:** 004</span></span>  
-<span data-ttu-id="f8a96-109">**Code de succursale :** 848</span><span class="sxs-lookup"><span data-stu-id="f8a96-109">**Branch Code:** 848</span></span>  
-<span data-ttu-id="f8a96-110">**Code SWIFT :** HSBCHKHH</span><span class="sxs-lookup"><span data-stu-id="f8a96-110">**SWIFT Code:** HSBCHKHH</span></span>  
-<span data-ttu-id="f8a96-111">**Numéro de compte :** 848342259001</span><span class="sxs-lookup"><span data-stu-id="f8a96-111">**Account Number:** 848342259001</span></span>    
-<span data-ttu-id="f8a96-112">**Nom du compte :** Microsoft Payments Pte Ltd-Payco facture</span><span class="sxs-lookup"><span data-stu-id="f8a96-112">**Account Name:** Microsoft Payments Pte Ltd-Payco Invoice</span></span>
+<span data-ttu-id="c51fc-107">**Banque :** HSBC, Hong Kong</span><span class="sxs-lookup"><span data-stu-id="c51fc-107">**Bank:** HSBC, Hong Kong</span></span>  
+<span data-ttu-id="c51fc-108">**Code de la Banque :** 004</span><span class="sxs-lookup"><span data-stu-id="c51fc-108">**Bank Code:** 004</span></span>  
+<span data-ttu-id="c51fc-109">**Code de succursale :** 848</span><span class="sxs-lookup"><span data-stu-id="c51fc-109">**Branch Code:** 848</span></span>  
+<span data-ttu-id="c51fc-110">**Code SWIFT :** HSBCHKHH</span><span class="sxs-lookup"><span data-stu-id="c51fc-110">**SWIFT Code:** HSBCHKHH</span></span>  
+<span data-ttu-id="c51fc-111">**Numéro de compte :** 848342259001</span><span class="sxs-lookup"><span data-stu-id="c51fc-111">**Account Number:** 848342259001</span></span>    
+<span data-ttu-id="c51fc-112">**Nom du compte :** Facture de Ltd-Payco de PTE de paiement Microsoft</span><span class="sxs-lookup"><span data-stu-id="c51fc-112">**Account Name:** Microsoft Payments Pte Ltd-Payco Invoice</span></span>
