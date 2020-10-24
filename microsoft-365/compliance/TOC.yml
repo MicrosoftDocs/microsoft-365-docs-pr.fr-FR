@@ -238,6 +238,8 @@
           href: create-test-tune-dlp-policy.md
         - name: Utilisation des notifications et des conseils de stratégie dans les stratégies DLP
           href: use-notifications-and-policy-tips.md
+        - name: Configurez et affichez les alertes pour les stratégies DLP (Preview)
+          href: dlp-configure-view-alerts-policies.md
         - name: Ce qu’incluent les modèles de stratégie DLP
           href: what-the-dlp-policy-templates-include.md
         - name: Création d’une stratégie DLP pour protéger les documents avec l’ICF ou d’autres propriétés

@@ -82,7 +82,7 @@
           href: services-in-china/apply-for-a-fapiao.md
         - name: Parité de la protection des données Azure
           href: services-in-china/parity-between-azure-information-protection.md
-    - name: Gérer les utilisateurs et les groupes
+    - name: 'Gérer les utilisateurs, les groupes et les mots de passe'
       href: add-users/index.yml
       items:
         - name: Utilisateurs
@@ -109,14 +109,6 @@
               href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
             - name: Restaurer un utilisateur
               href: add-users/restore-user.md
-            - name: Réinitialiser les mots de passe
-              href: add-users/reset-passwords.md
-            - name: Définir les mots de passe pour qu’ils n’expirent jamais
-              href: add-users/set-password-to-never-expire.md
-            - name: Autoriser les utilisateurs à réinitialiser des mots de passe
-              href: add-users/let-users-reset-passwords.md
-            - name: Renvoyer leur mot de passe aux utilisateurs
-              href: add-users/resend-user-password.md
             - name: Créer un modèle pour ajouter des utilisateurs
               href: add-users/create-and-use-a-template-to-add-users.md
             - name: Mettre à niveau les utilisateurs vers les applications les plus récentes
@@ -137,6 +129,20 @@
               href: create-groups/restore-deleted-group.md
             - name: Gérer l’accès invité aux groupes
               href: create-groups/manage-guest-access-in-groups.md
+        - name: Mots de passe
+          items:
+            - name: Réinitialiser les mots de passe
+              href: add-users/reset-passwords.md
+            - name: Autoriser les utilisateurs à réinitialiser des mots de passe
+              href: add-users/let-users-reset-passwords.md
+            - name: Définir les mots de passe pour qu’ils n’expirent jamais
+              href: add-users/set-password-to-never-expire.md
+            - name: Renvoyer leur mot de passe aux utilisateurs
+              href: add-users/resend-user-password.md
+            - name: Désactiver les mots de passe forts
+              href: add-users/strong-password.md
+            - name: Définir la stratégie d’expiration de mot de passe
+              href: manage/set-password-expiration-policy.md
     - name: Gérer la messagerie et les calendriers
       href: email/index.yml
       items:
