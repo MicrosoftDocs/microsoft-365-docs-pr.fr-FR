@@ -1,0 +1,67 @@
+---
+title: Rapports Microsoft 365 dans le centre d’administration-rapport d’utilisation de Yammer Device
+f1.keywords:
+- NOCSH
+ms.author: sirkkuw
+author: Sirkkuw
+manager: scotv
+audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+- Adm_NonTOC
+ms.custom: AdminSurgePortfolio
+ROBOTS: NOINDEX, NOFOLLOW
+search.appverid:
+- BCS160
+- MST160
+- MET150
+- MOE150
+description: Obtenir le rapport d’utilisation de Yammer sur les appareils sur lesquels vos utilisateurs utilisent Yammer.
+ms.openlocfilehash: fae76e9ef769248217140c059004efc7ad330928
+ms.sourcegitcommit: c51de5e1a4cb9c4a7a9854a4226b32453d9e73e0
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48779330"
+---
+# <a name="microsoft-365-reports-in-the-admin-center---yammer-device-usage-report"></a><span data-ttu-id="7eb10-103">Rapports Microsoft 365 dans le centre d’administration-rapport d’utilisation de Yammer Device</span><span class="sxs-lookup"><span data-stu-id="7eb10-103">Microsoft 365 Reports in the admin center - Yammer device usage report</span></span>
+
+<span data-ttu-id="7eb10-104">Le tableau de bord **rapports** Microsoft 365 affiche une vue d’ensemble de l’activité sur les produits de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="7eb10-104">The Microsoft 365 **Reports** dashboard shows you the activity overview across the products in your organization.</span></span> <span data-ttu-id="7eb10-105">Il vous permet d'explorer les rapports au niveau de chaque produit afin d'offrir des informations plus précises sur les activités pour chaque produit.</span><span class="sxs-lookup"><span data-stu-id="7eb10-105">It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product.</span></span> <span data-ttu-id="7eb10-106">Consultez [la rubrique Présentation des rapports](activity-reports.md).</span><span class="sxs-lookup"><span data-stu-id="7eb10-106">Check out [the Reports overview topic](activity-reports.md).</span></span>
+  
+<span data-ttu-id="7eb10-p102">Les rapports d'utilisation de Yammer sur les appareils vous donnent des informations sur les appareils sur lesquels vos utilisateurs utilisent Yammer. Vous pouvez afficher le nombre d'utilisateurs quotidiens par type d'appareil et le nombre d'utilisateurs par type d'appareil. Vous pouvez afficher les deux sur une période donnée. Vous pouvez également consulter les détails par utilisateur.</span><span class="sxs-lookup"><span data-stu-id="7eb10-p102">The Yammer device usage reports give you information about which devices your users are using Yammer on. You can view the number of daily users by device type, and number of users by device type. You can view both over a selected time period. You can also view details per user.</span></span>
+  
+> [!NOTE]
+> <span data-ttu-id="7eb10-111">Vous devez être un administrateur général, un lecteur global ou un lecteur de rapports dans Microsoft 365 ou un administrateur Exchange, SharePoint, teams, Team communications ou Skype entreprise pour afficher des rapports.</span><span class="sxs-lookup"><span data-stu-id="7eb10-111">You must be a global administrator, global reader or reports reader in Microsoft 365 or an Exchange, SharePoint, Teams Service, Teams Communications, or Skype for Business administrator to see reports.</span></span>  
+ 
+## <a name="how-do-i-get-to-the-yammer-device-usage-report"></a><span data-ttu-id="7eb10-112">Comment accéder au rapport d'utilisation de Yammer sur les appareils ?</span><span class="sxs-lookup"><span data-stu-id="7eb10-112">How do I get to the Yammer device usage report?</span></span>
+
+1. <span data-ttu-id="7eb10-113">Dans le centre d’administration, accédez à la page **Rapports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Utilisation</a>.</span><span class="sxs-lookup"><span data-stu-id="7eb10-113">In the admin center, go to the **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a> page.</span></span> 
+2. <span data-ttu-id="7eb10-114">À partir de la page d’accueil du tableau de bord, cliquez sur le bouton **afficher plus** sur la carte Yammer.</span><span class="sxs-lookup"><span data-stu-id="7eb10-114">From the dashboard homepage, click on the **View more** button on the Yammer card.</span></span>
+  
+## <a name="interpret-the-yammer-device-usage-report"></a><span data-ttu-id="7eb10-115">Interpréter le rapport d’utilisation des appareils Yammer</span><span class="sxs-lookup"><span data-stu-id="7eb10-115">Interpret the Yammer device usage report</span></span>
+
+<span data-ttu-id="7eb10-116">Vous pouvez afficher l’utilisation dans le rapport OneDrive en sélectionnant l’onglet utilisation de l' **appareil** .</span><span class="sxs-lookup"><span data-stu-id="7eb10-116">You can view the usage in the OneDrive report by choosing the **Device usage** tab.</span></span><br/><span data-ttu-id="7eb10-117">![Rapports Microsoft 365-rapport d’utilisation de l’appareil Microsoft Yammer.](../../media/e21af4c0-0ad2-4485-8ab1-2f82d7dfa90e.png)</span><span class="sxs-lookup"><span data-stu-id="7eb10-117">![Microsoft 365 reports - Microsoft Yammer device usage report.](../../media/e21af4c0-0ad2-4485-8ab1-2f82d7dfa90e.png)</span></span>
+
+<span data-ttu-id="7eb10-118">Sélectionnez **choisir les colonnes** pour ajouter ou supprimer des colonnes dans le rapport.</span><span class="sxs-lookup"><span data-stu-id="7eb10-118">Select **Choose columns** to add or remove columns from the report.</span></span>  <br/> <span data-ttu-id="7eb10-119">![Rapport d’utilisation de Yammer pour les appareils-choisir les colonnes](../../media/fc1fc8db-e197-4878-85c7-7ba0d67b9379.png)</span><span class="sxs-lookup"><span data-stu-id="7eb10-119">![Yammer device usage report - choose columns](../../media/fc1fc8db-e197-4878-85c7-7ba0d67b9379.png)</span></span>
+
+<span data-ttu-id="7eb10-120">Vous pouvez également exporter les données du rapport dans un fichier. csv Excel en sélectionnant le lien **Exporter** .</span><span class="sxs-lookup"><span data-stu-id="7eb10-120">You can also export the report data into an Excel .csv file by selecting the **Export** link.</span></span> <span data-ttu-id="7eb10-121">Cela a pour effet d'exporter les données de tous les utilisateurs afin d'effectuer un tri et un filtrage simples à des fins d'analyse approfondie.</span><span class="sxs-lookup"><span data-stu-id="7eb10-121">This exports data of all users and enables you to do simple sorting and filtering for further analysis.</span></span> <span data-ttu-id="7eb10-122">Si vous avez moins de 2000 utilisateurs, vous pouvez trier et filtrer dans le tableau, au sein du rapport proprement dit.</span><span class="sxs-lookup"><span data-stu-id="7eb10-122">If you have less than 2000 users, you can sort and filter within the table in the report itself.</span></span> <span data-ttu-id="7eb10-123">Si vous avez plus de 2000 utilisateurs, pour filtrer et trier les données, vous devez préalablement les exporter.</span><span class="sxs-lookup"><span data-stu-id="7eb10-123">If you have more than 2000 users, in order to filter and sort, you will need to export the data.</span></span> 
+  
+|<span data-ttu-id="7eb10-124">Item</span><span class="sxs-lookup"><span data-stu-id="7eb10-124">Item</span></span>|<span data-ttu-id="7eb10-125">Description</span><span class="sxs-lookup"><span data-stu-id="7eb10-125">Description</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="7eb10-126">**Métrique**</span><span class="sxs-lookup"><span data-stu-id="7eb10-126">**Metric**</span></span>|<span data-ttu-id="7eb10-127">**Définition**</span><span class="sxs-lookup"><span data-stu-id="7eb10-127">**Definition**</span></span>|
+|<span data-ttu-id="7eb10-128">Nom d’utilisateur</span><span class="sxs-lookup"><span data-stu-id="7eb10-128">Username</span></span>  <br/> |<span data-ttu-id="7eb10-129">Adresse e-mail de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="7eb10-129">The email address of the user.</span></span> <span data-ttu-id="7eb10-130">Vous pouvez afficher l'adresse de courrier réelle ou rendre ce champ anonyme.</span><span class="sxs-lookup"><span data-stu-id="7eb10-130">You can display the actual email address or make this field anonymous.</span></span> <span data-ttu-id="7eb10-131">Cette grille affiche les utilisateurs qui se sont connectés à Yammer à l’aide du compte Microsoft 365 ou qui ont ouvert une session sur le réseau à l’aide de l’authentification unique.</span><span class="sxs-lookup"><span data-stu-id="7eb10-131">This grid shows users who logged into Yammer using the Microsoft 365 account or who logged into the network using single sign-on.</span></span> <br/> |
+|<span data-ttu-id="7eb10-132">Nom d’affichage</span><span class="sxs-lookup"><span data-stu-id="7eb10-132">Display name</span></span>  <br/> |<span data-ttu-id="7eb10-133">Nom complet de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="7eb10-133">The full name of the user.</span></span> <span data-ttu-id="7eb10-134">Vous pouvez afficher l'adresse de courrier réelle ou rendre ce champ anonyme.</span><span class="sxs-lookup"><span data-stu-id="7eb10-134">You can display the actual email address or make this field anonymous.</span></span>  <br/> |
+|<span data-ttu-id="7eb10-135">État de l’utilisateur</span><span class="sxs-lookup"><span data-stu-id="7eb10-135">User state</span></span>  <br/> |<span data-ttu-id="7eb10-136">L’une des trois valeurs suivantes : actif, supprimé ou suspendu.</span><span class="sxs-lookup"><span data-stu-id="7eb10-136">One of three values: Active, Deleted, or Suspended.</span></span> <span data-ttu-id="7eb10-137">Ces rapports affichent des données pour les utilisateurs actifs, suspendus et supprimés.</span><span class="sxs-lookup"><span data-stu-id="7eb10-137">These reports show data for active, suspended, and deleted users.</span></span> <span data-ttu-id="7eb10-138">Ils ne reflètent pas les utilisateurs en attente, car ceux-ci ne peuvent pas publier, lire ou aimer un message.</span><span class="sxs-lookup"><span data-stu-id="7eb10-138">They do not reflect pending users, because pending users cannot post, read, or like a message.</span></span>   <br/> |
+|<span data-ttu-id="7eb10-139">Date de modification de l’État (UTC)</span><span class="sxs-lookup"><span data-stu-id="7eb10-139">State change date (UTC)</span></span>  <br/> |<span data-ttu-id="7eb10-140">Date à laquelle l’état de l’utilisateur a été modifié dans Yammer.</span><span class="sxs-lookup"><span data-stu-id="7eb10-140">The date on which the user's state was changed in Yammer.</span></span>  <br/> |
+|<span data-ttu-id="7eb10-141">Date de la dernière activité (UTC)</span><span class="sxs-lookup"><span data-stu-id="7eb10-141">Last activity date (UTC)</span></span>  <br/> |<span data-ttu-id="7eb10-142">Date (UTC) de la dernière date à laquelle l’utilisateur a participé à une activité Yammer.</span><span class="sxs-lookup"><span data-stu-id="7eb10-142">The last date (UTC) that the user participated in an Yammer activity.</span></span>  <br/> |
+|<span data-ttu-id="7eb10-143">Web</span><span class="sxs-lookup"><span data-stu-id="7eb10-143">Web</span></span>  <br/> |<span data-ttu-id="7eb10-144">Indique si l’utilisateur a utilisé Yammer sur le Web.</span><span class="sxs-lookup"><span data-stu-id="7eb10-144">Indicates if the user has used Yammer on the web.</span></span>  <br/> |
+|<span data-ttu-id="7eb10-145">Windows Phone</span><span class="sxs-lookup"><span data-stu-id="7eb10-145">Windows phone</span></span>  <br/> | <span data-ttu-id="7eb10-146">Indique si l’utilisateur a utilisé Yammer sur un Windows Phone.</span><span class="sxs-lookup"><span data-stu-id="7eb10-146">Indicates if the user has used Yammer on a Windows phone.</span></span>  <br/> |
+|<span data-ttu-id="7eb10-147">Téléphone Android</span><span class="sxs-lookup"><span data-stu-id="7eb10-147">Android phone</span></span>  <br/> |<span data-ttu-id="7eb10-148">Indique si l’utilisateur a utilisé Yammer sur un téléphone Android.</span><span class="sxs-lookup"><span data-stu-id="7eb10-148">Indicates if the user has used Yammer on an Android phone.</span></span> <br/>|
+|<span data-ttu-id="7eb10-149">iPhone</span><span class="sxs-lookup"><span data-stu-id="7eb10-149">iphone</span></span> <br/> | <span data-ttu-id="7eb10-150">Indique si l’utilisateur a utilisé Yammer sur un iPhone.</span><span class="sxs-lookup"><span data-stu-id="7eb10-150">Indicates if the user has used Yammer on an iPhone.</span></span>  <br/> |
+|<span data-ttu-id="7eb10-151">réglages</span><span class="sxs-lookup"><span data-stu-id="7eb10-151">ipad</span></span>  <br/> |<span data-ttu-id="7eb10-152">Indique si l’utilisateur a utilisé Yammer sur un iPad.</span><span class="sxs-lookup"><span data-stu-id="7eb10-152">Indicates if the user has used Yammer on an iPad.</span></span> <br/>|
+|<span data-ttu-id="7eb10-153">deux</span><span class="sxs-lookup"><span data-stu-id="7eb10-153">other</span></span>  <br/> |<span data-ttu-id="7eb10-154">Indique si l’utilisateur a utilisé Yammer sur un autre appareil, non mentionné précédemment.</span><span class="sxs-lookup"><span data-stu-id="7eb10-154">Indicates if the user has used Yammer on another device, not listed previously.</span></span> <br/>|
+|||
