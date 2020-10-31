@@ -210,6 +210,8 @@
       items:
         - name: Surveiller l’activité des utilisateurs à l’aide des rapports
           href: activity-reports/activity-reports.md
+        - name: Surveiller la productivité des utilisateurs avec le score de productivité
+          href: productivity/productivity-score.md
         - name: Modifier les coordonnées de votre organisation
           href: manage/change-address-contact-and-more.md
         - name: Mettre à jour vos coordonnées d’administrateur
