@@ -266,6 +266,8 @@
           href: dlp-sensitivity-label-as-condition.md
         - name: Utilisation de stratégies de protection contre la perte de données pour les applications cloud non-Microsoft
           href: dlp-use-policies-non-microsoft-cloud-apps.md
+        - name: Conditions et exceptions de la stratégie DLP (aperçu)
+          href: dlp-conditions-and-exceptions.md
 - name: Gérer la gouvernance des informations
   items:
     - name: Gouvernez vos données
