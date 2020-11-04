@@ -2,7 +2,7 @@
 title: Rapport de non-remise dans le tableau de bord de flux de messagerie
 f1.keywords:
 - NOCSH
-ms.author: chrisda
+ms.author: siosulli
 author: chrisda
 manager: dansimp
 audience: ITPro
@@ -13,54 +13,54 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Les administrateurs peuvent apprendre à utiliser le rapport sur les détails de non-remise dans le tableau de bord de flux de messagerie dans le centre de sécurité & conformité pour surveiller les codes d’erreur les plus fréquemment rencontrés dans les notifications d’échec de remise (également appelés notifications de non-remise) des expéditeurs de votre organisation.
-ms.openlocfilehash: bc530cce54b3d4fd9f414920a8fb58f4322f6b5c
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 4967b3b5c294566e46bbc715dd6702c23d618105
+ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195963"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48877680"
 ---
-# <a name="non-delivery-report-in-the-security--compliance-center"></a><span data-ttu-id="7969b-103">Notification d’échec de remise dans le centre de sécurité & conformité</span><span class="sxs-lookup"><span data-stu-id="7969b-103">Non-delivery report in the Security & Compliance Center</span></span>
+# <a name="non-delivery-report-in-the-security--compliance-center"></a><span data-ttu-id="feb63-103">Notification d’échec de remise dans le centre de sécurité & conformité</span><span class="sxs-lookup"><span data-stu-id="feb63-103">Non-delivery report in the Security & Compliance Center</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-<span data-ttu-id="7969b-104">Le **rapport de non-remise** dans le [tableau de bord de flux de messagerie](mail-flow-insights-v2.md) dans le centre de [sécurité & conformité](https://protection.office.com) affiche les codes d’erreur les plus détectés dans les notifications d’échec de remise (également appelées notifications de non-remise) pour les utilisateurs de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="7969b-104">The **Non-delivery report** in the [Mail flow dashboard](mail-flow-insights-v2.md) in the [Security & Compliance Center](https://protection.office.com) shows the most-encountered error codes in non-delivery reports (also known as NDRs or bounce messages) for users in your organization.</span></span> <span data-ttu-id="7969b-105">Ce rapport affiche les détails des notifications d’échec de remise afin que vous puissiez résoudre les problèmes de remise des messages.</span><span class="sxs-lookup"><span data-stu-id="7969b-105">This report shows the details of NDRs so you can troubleshoot email delivery problems.</span></span>
+<span data-ttu-id="feb63-104">Le **rapport de non-remise** dans le [tableau de bord de flux de messagerie](mail-flow-insights-v2.md) dans le centre de [sécurité & conformité](https://protection.office.com) affiche les codes d’erreur les plus détectés dans les notifications d’échec de remise (également appelées notifications de non-remise) pour les utilisateurs de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="feb63-104">The **Non-delivery report** in the [Mail flow dashboard](mail-flow-insights-v2.md) in the [Security & Compliance Center](https://protection.office.com) shows the most-encountered error codes in non-delivery reports (also known as NDRs or bounce messages) for users in your organization.</span></span> <span data-ttu-id="feb63-105">Ce rapport affiche les détails des notifications d’échec de remise afin que vous puissiez résoudre les problèmes de remise des messages.</span><span class="sxs-lookup"><span data-stu-id="feb63-105">This report shows the details of NDRs so you can troubleshoot email delivery problems.</span></span>
 
 ![Widget rapport de non-remise dans le tableau de bord de flux de messagerie dans le centre de sécurité & conformité](../../media/mfi-non-delivery-report-widget.png)
 
-## <a name="report-view-for-the-non-delivery-report"></a><span data-ttu-id="7969b-107">Affichage de rapport pour la notification d’échec de remise</span><span class="sxs-lookup"><span data-stu-id="7969b-107">Report view for the Non-delivery report</span></span>
+## <a name="report-view-for-the-non-delivery-report"></a><span data-ttu-id="feb63-107">Affichage de rapport pour la notification d’échec de remise</span><span class="sxs-lookup"><span data-stu-id="feb63-107">Report view for the Non-delivery report</span></span>
 
-<span data-ttu-id="7969b-108">Cliquez sur le widget **rapport de non-remise** pour accéder à la **notification**d’échec de remise.</span><span class="sxs-lookup"><span data-stu-id="7969b-108">Clicking on the **Non-delivery report** widget will take you to the **Non-delivery report**.</span></span>
+<span data-ttu-id="feb63-108">Cliquez sur le widget **rapport de non-remise** pour accéder à la **notification** d’échec de remise.</span><span class="sxs-lookup"><span data-stu-id="feb63-108">Clicking on the **Non-delivery report** widget will take you to the **Non-delivery report**.</span></span>
 
-<span data-ttu-id="7969b-109">Par défaut, l’activité de tous les codes d’erreur est affichée.</span><span class="sxs-lookup"><span data-stu-id="7969b-109">By default, the activity for all error codes is shown.</span></span> <span data-ttu-id="7969b-110">Si vous cliquez sur **afficher les données pour**, vous pouvez sélectionner un code d’erreur spécifique dans la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="7969b-110">If you click **Show data for**, you can select a specific error code from the dropdown.</span></span>
+<span data-ttu-id="feb63-109">Par défaut, l’activité de tous les codes d’erreur est affichée.</span><span class="sxs-lookup"><span data-stu-id="feb63-109">By default, the activity for all error codes is shown.</span></span> <span data-ttu-id="feb63-110">Si vous cliquez sur **afficher les données pour** , vous pouvez sélectionner un code d’erreur spécifique dans la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="feb63-110">If you click **Show data for** , you can select a specific error code from the dropdown.</span></span>
 
-<span data-ttu-id="7969b-111">Si vous pointez sur une couleur spécifique (code d’erreur) sur un jour spécifique du graphique, vous verrez le nombre total de messages pour l’erreur.</span><span class="sxs-lookup"><span data-stu-id="7969b-111">If you hover over a specific color (error code) on a specific day in the chart, you'll see the total number of messages for the error.</span></span>
+<span data-ttu-id="feb63-111">Si vous pointez sur une couleur spécifique (code d’erreur) sur un jour spécifique du graphique, vous verrez le nombre total de messages pour l’erreur.</span><span class="sxs-lookup"><span data-stu-id="feb63-111">If you hover over a specific color (error code) on a specific day in the chart, you'll see the total number of messages for the error.</span></span>
 
 ![Affichage de rapport dans le rapport de domaine non accepté](../../media/mfi-non-delivery-report-overview-view.png)
 
-## <a name="details-table-view-for-the-non-delivery-report"></a><span data-ttu-id="7969b-113">Vue de la table Détails pour la notification d’échec de remise</span><span class="sxs-lookup"><span data-stu-id="7969b-113">Details table view for the Non-delivery report</span></span>
+## <a name="details-table-view-for-the-non-delivery-report"></a><span data-ttu-id="feb63-113">Vue de la table Détails pour la notification d’échec de remise</span><span class="sxs-lookup"><span data-stu-id="feb63-113">Details table view for the Non-delivery report</span></span>
 
-<span data-ttu-id="7969b-114">Si vous cliquez sur **afficher la table des détails** dans un affichage de rapport, les informations suivantes s’affichent :</span><span class="sxs-lookup"><span data-stu-id="7969b-114">If you click **View details table** in a report view, the following information is shown:</span></span>
+<span data-ttu-id="feb63-114">Si vous cliquez sur **afficher la table des détails** dans un affichage de rapport, les informations suivantes s’affichent :</span><span class="sxs-lookup"><span data-stu-id="feb63-114">If you click **View details table** in a report view, the following information is shown:</span></span>
 
-- <span data-ttu-id="7969b-115">**Date**</span><span class="sxs-lookup"><span data-stu-id="7969b-115">**Date**</span></span>
-- <span data-ttu-id="7969b-116">**Code de rapport de non-remise**</span><span class="sxs-lookup"><span data-stu-id="7969b-116">**Non-delivery report code**</span></span>
-- <span data-ttu-id="7969b-117">**Count**</span><span class="sxs-lookup"><span data-stu-id="7969b-117">**Count**</span></span>
-- <span data-ttu-id="7969b-118">**Exemples de messages**: ID de message d’un exemple de messages concernés.</span><span class="sxs-lookup"><span data-stu-id="7969b-118">**Sample messages**: The message IDs of a sample of affected messages.</span></span>
+- <span data-ttu-id="feb63-115">**Date**</span><span class="sxs-lookup"><span data-stu-id="feb63-115">**Date**</span></span>
+- <span data-ttu-id="feb63-116">**Code de rapport de non-remise**</span><span class="sxs-lookup"><span data-stu-id="feb63-116">**Non-delivery report code**</span></span>
+- <span data-ttu-id="feb63-117">**Count**</span><span class="sxs-lookup"><span data-stu-id="feb63-117">**Count**</span></span>
+- <span data-ttu-id="feb63-118">**Exemples de messages** : ID de message d’un exemple de messages concernés.</span><span class="sxs-lookup"><span data-stu-id="feb63-118">**Sample messages** : The message IDs of a sample of affected messages.</span></span>
 
-<span data-ttu-id="7969b-119">Si vous cliquez sur **filtres** dans un affichage tableau détaillé, vous pouvez spécifier une plage de dates avec **Date de début** et date de **fin**.</span><span class="sxs-lookup"><span data-stu-id="7969b-119">If you click **Filters** in a details table view, you can specify a date range with **Start date** and **End date**.</span></span>
+<span data-ttu-id="feb63-119">Si vous cliquez sur **filtres** dans un affichage tableau détaillé, vous pouvez spécifier une plage de dates avec **Date de début** et date de **fin**.</span><span class="sxs-lookup"><span data-stu-id="feb63-119">If you click **Filters** in a details table view, you can specify a date range with **Start date** and **End date**.</span></span>
 
-<span data-ttu-id="7969b-120">Pour envoyer par courrier électronique le rapport pour une plage de dates spécifique à un ou plusieurs destinataires, cliquez sur **demander un téléchargement**.</span><span class="sxs-lookup"><span data-stu-id="7969b-120">To email the report for a specific date range to one or more recipients, click **Request download**.</span></span>
+<span data-ttu-id="feb63-120">Pour envoyer par courrier électronique le rapport pour une plage de dates spécifique à un ou plusieurs destinataires, cliquez sur **demander un téléchargement**.</span><span class="sxs-lookup"><span data-stu-id="feb63-120">To email the report for a specific date range to one or more recipients, click **Request download**.</span></span>
 
-<span data-ttu-id="7969b-121">Lorsque vous sélectionnez une ligne dans le tableau, une fenêtre mobile apparaît avec les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="7969b-121">When you select a row in the table, a flyout appears with the following information:</span></span>
+<span data-ttu-id="feb63-121">Lorsque vous sélectionnez une ligne dans le tableau, une fenêtre mobile apparaît avec les informations suivantes :</span><span class="sxs-lookup"><span data-stu-id="feb63-121">When you select a row in the table, a flyout appears with the following information:</span></span>
 
-- <span data-ttu-id="7969b-122">**Date**</span><span class="sxs-lookup"><span data-stu-id="7969b-122">**Date**</span></span>
-- <span data-ttu-id="7969b-123">**Code de rapport de non-remise**: vous pouvez cliquer sur le lien pour trouver des informations supplémentaires sur les causes et solutions pour le code d’erreur spécifique.</span><span class="sxs-lookup"><span data-stu-id="7969b-123">**Non-delivery report code**: You can click on the link to find for more information about the causes and solutions for the specific error code.</span></span>
-- <span data-ttu-id="7969b-124">**Count**</span><span class="sxs-lookup"><span data-stu-id="7969b-124">**Count**</span></span>
-- <span data-ttu-id="7969b-125">**Exemples de messages**: vous pouvez cliquer sur **afficher les exemples de messages** pour afficher les résultats du [suivi](message-trace-scc.md) des messages pour un exemple des messages concernés.</span><span class="sxs-lookup"><span data-stu-id="7969b-125">**Sample messages**: You can click **View sample messages** to see the [message trace](message-trace-scc.md) results for a sample of the affected messages.</span></span>
+- <span data-ttu-id="feb63-122">**Date**</span><span class="sxs-lookup"><span data-stu-id="feb63-122">**Date**</span></span>
+- <span data-ttu-id="feb63-123">**Code de rapport de non-remise** : vous pouvez cliquer sur le lien pour trouver des informations supplémentaires sur les causes et solutions pour le code d’erreur spécifique.</span><span class="sxs-lookup"><span data-stu-id="feb63-123">**Non-delivery report code** : You can click on the link to find for more information about the causes and solutions for the specific error code.</span></span>
+- <span data-ttu-id="feb63-124">**Count**</span><span class="sxs-lookup"><span data-stu-id="feb63-124">**Count**</span></span>
+- <span data-ttu-id="feb63-125">**Exemples de messages** : vous pouvez cliquer sur **afficher les exemples de messages** pour afficher les résultats du [suivi](message-trace-scc.md) des messages pour un exemple des messages concernés.</span><span class="sxs-lookup"><span data-stu-id="feb63-125">**Sample messages** : You can click **View sample messages** to see the [message trace](message-trace-scc.md) results for a sample of the affected messages.</span></span>
 
 ![Menu volant des détails après la sélection d’une ligne dans la vue du tableau de détails dans le rapport de non-remise](../../media/mfi-non-delivery-report-details-flyout.png)
 
-## <a name="related-topics"></a><span data-ttu-id="7969b-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7969b-127">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="feb63-127">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="feb63-127">Related topics</span></span>
 
-<span data-ttu-id="7969b-128">Pour plus d’informations sur les autres informations du tableau de bord de flux de messagerie, consultez [la rubrique mail Flow Insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="7969b-128">For information about other insights in the Mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
+<span data-ttu-id="feb63-128">Pour plus d’informations sur les autres informations du tableau de bord de flux de messagerie, consultez [la rubrique mail Flow Insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="feb63-128">For information about other insights in the Mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
