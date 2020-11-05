@@ -296,8 +296,8 @@
           href: create-apply-retention-labels.md
         - name: Appliquer automatiquement une étiquette de rétention au contenu
           href: apply-retention-labels-automatically.md
-        - name: "Se conformer à la réglementation SEC Rule\_17 a-4"
-          href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
+        - name: Verrouiller des stratégies pour restreindre les modifications
+          href: retention-preservation-lock.md
         - name: Créer des étiquettes de rétention avec PowerShell
           href: bulk-create-publish-labels-using-powershell.md
         - name: Débuter la rétention lorsqu’un événement se produit
@@ -426,6 +426,8 @@
           href: declare-records.md
         - name: Utiliser le contrôle de version d’enregistrement
           href: record-versioning.md
+        - name: Ressources pour les exigences réglementaires
+          href: retention-regulatory-requirements.md
 - name: Gestion de l’eDiscovery
   items:
     - name: eDiscovery dans Microsoft 365
@@ -531,6 +533,8 @@
               href: data-spillage-scenariosearch-and-purge.md
             - name: Conserver les destinataires Cci pour la recherche
               href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
+            - name: Déchiffrement dans les outils eDiscovery
+              href: ediscovery-decryption.md
             - name: Résoudre les problèmes eDiscovery courants
               href: ediscovery-troubleshooting-common-issues.md
             - name: Relancer une recherche ayant échoué
@@ -660,6 +664,8 @@
               href: permissions-filtering-for-content-search.md
             - name: Configurer les limites de conformité
               href: set-up-compliance-boundaries.md
+            - name: Déchiffrement dans les outils eDiscovery
+              href: ediscovery-decryption.md
             - name: Rechercher des activités eDiscovery dans le journal d’audit
               href: search-for-ediscovery-activities-in-the-audit-log.md
             - name: Dépannage d’AzCopy
