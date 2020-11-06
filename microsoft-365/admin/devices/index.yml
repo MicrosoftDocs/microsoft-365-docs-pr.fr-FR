@@ -1,0 +1,68 @@
+### YamlMime:Landing
+title: Protéger et gérer les périphériques et les données d’application
+summary: Consultez ces ressources pour aider les administrateurs à choisir entre l’appareil et les méthodes de gestion des données d’application.
+metadata:
+  title: Protéger et gérer les périphériques et les données d’application
+  description: Gérer et protéger les périphériques et les données d’application
+  ms.service: O365-administration
+  ms.topic: landing-page
+  author: Sirkkuw
+  ms.author: sirkkuw
+  ms.date: 09/09/2020
+  localization_priority: Priority
+  ms.custom: AdminSurgePortfolio
+  ms.openlocfilehash: a70d8471d8344f7bf479e050c59d6c6b3d97f5fe
+  ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 11/06/2020
+  ms.locfileid: "48930259"
+landingContent:
+- title: Différentes méthodes MDM et MAM
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Examiner les options de protection des données des applications et des appareils
+      url: choose-device-security.md
+- title: Gérer les périphériques et les données d’application avec Microsoft Intune
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Vue d’ensemble de l’enregistrement des appareils
+      url: https://docs.microsoft.com/mem/intune/enrollment/device-enrollment
+  - linkListType: how-to-guide
+    links:
+    - text: Configurer l’inscription automatique pour les appareils Windows 10
+      url: https://docs.microsoft.com/mem/intune/enrollment/quickstart-setup-auto-enrollment
+    - text: Configurer l’inscription Android
+      url: https://docs.microsoft.com/mem/intune/enrollment/android-enroll
+    - text: Configurer l’inscription iOS/iPados
+      url: https://docs.microsoft.com/mem/intune/enrollment/ios-enroll
+- title: Gérer les appareils et les données d’application avec Microsoft 365 Business Premium
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Afficher et gérer les stratégies de gestion des applications et des appareils
+      url: ../../business/view-policies-and-devices.md
+    - text: Supprimer des données d'entreprise sur des appareils
+      url: ../../business/remove-company-data.md
+    - text: Rétablir les paramètres d’usine des appareils Windows
+      url: ../../business/reset-devices-to-factory-settings.md
+- title: Gérer les appareils et les données d’application avec Microsoft 365 pour les entreprises
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Vue d’ensemble de Microsoft 365 pour les entreprises
+      url: ../../enterprise/microsoft-365-overview.md
+    - text: Carte routière de gestion des appareils pour Microsoft 365 pour les entreprises
+      url: ../../enterprise/device-management-roadmap-microsoft-365.md
+- title: Gérer les périphériques et les données d’application avec une mobilité et une sécurité de base
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Vue d’ensemble de la sécurité et de la mobilité de base
+      url: ../basic-mobility-security/overview.md
+    - text: Configuration de la mobilité et de la sécurité de base
+      url: ../basic-mobility-security/set-up.md
+    - text: Fonctionnalités de la mobilité et de la sécurité de base
+      url: ../basic-mobility-security/capabilities.md
