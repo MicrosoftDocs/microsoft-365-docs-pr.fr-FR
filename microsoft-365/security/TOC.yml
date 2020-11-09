@@ -292,6 +292,8 @@
       items:
         - name: Vue d’ensemble
           items:
+            - name: Feuille de route de sécurité
+              href: ./office-365-security/security-roadmap.md
             - name: "Exchange\_Online Protection"
               items:
                 - name: Vue d’ensemble d’Exchange Online Protection
@@ -318,8 +320,6 @@
               href: ./office-365-security/atp-for-spo-odb-and-teams.md
             - name: "Nouveau Centre de sécurité Microsoft\_365"
               href: ./mtp/overview-security-center.md
-            - name: Feuille de route de sécurité
-              href: ./office-365-security/security-roadmap.md
             - name: Explorateur de menaces (et détections en temps réel)
               href: ./office-365-security/threat-explorer.md
             - name: Vue d’ensemble d’AIR
@@ -376,9 +376,11 @@
               href: ./office-365-security/siem-server-integration.md
             - name: "Intégration d’informations de sécurité et gestion d’événements avec Defender pour Office\_365"
               href: ./office-365-security/siem-integration-with-office-365-ti.md
-            - name: Configurer des stratégies anti-hameçonnage
+            - name: Sécurisé par défaut.
+              href: ./office-365-security/secure-by-default.md
+            - name: Configurer des stratégies anti-hameçonnage ATP
               href: ./office-365-security/configure-atp-anti-phishing-policies.md
-            - name: Configurer des stratégies anti-programme malveillant
+            - name: Configuration de stratégies anti-programme malveillant
               href: ./office-365-security/configure-anti-malware-policies.md
             - name: Configuration de stratégies de blocage du courrier indésirable
               href: ./office-365-security/configure-your-spam-filter-policies.md
@@ -461,6 +463,12 @@
               href: ./office-365-security/configuration-analyzer-for-security-policies.md
             - name: "Simulateur d’attaques dans Defender pour Office\_365"
               href: ./office-365-security/attack-simulator.md
+            - name: Simuler une attaque par hameçonnage avec une formation à la simulation d’attaque
+              href: ./office-365-security/attack-simulation-training.md
+            - name: Créer une charge personnalisée pour une formation à la simulation d’attaque
+              href: ./office-365-security/attack-simulation-training-payloads.md
+            - name: Découvrez les formations à la simulation d’attaque
+              href: ./office-365-security/attack-simulation-training-insights.md
             - name: "Paramètres recommandés pour configurer la sécurité dans EOP et Defender pour Office\_365"
               href: ./office-365-security/recommended-settings-for-eop-and-office365-atp.md
             - name: Meilleures pratiques pour configurer EOP
