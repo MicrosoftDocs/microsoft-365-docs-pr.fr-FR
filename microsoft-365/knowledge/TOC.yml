@@ -11,6 +11,6 @@
 - name: Prise en main du programme d’installation
   items:
     - name: Configurer la gestion des connaissances
-      href: set-up-knowledge-network.md
+      href: set-up-topic-experiences.md
     - name: Gérer votre réseau de gestion des connaissances
-      href: manage-knowledge-network.md
+      href: topic-experiences-discovery.md
