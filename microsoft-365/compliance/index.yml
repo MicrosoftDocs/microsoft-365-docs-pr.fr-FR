@@ -13,23 +13,23 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: e2f29cdb3604dd05e665cf326b7d9d014a94f3bf
-  ms.sourcegitcommit: 6b1d0bea86ced26cae51695c0077adce8bcff3c4
+  ms.openlocfilehash: 0bce37e2ad20ddde556608a72d7df3a1879ae427
+  ms.sourcegitcommit: f941495e9257a0013b4a6a099b66c649e24ce8a1
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 09/30/2020
-  ms.locfileid: "48309001"
+  ms.lasthandoff: 11/11/2020
+  ms.locfileid: "48993331"
 landingContent:
 - title: Gérer la protection et la gouvernance des informations
   linkLists:
   - linkListType: overview
     links:
     - text: Ayez une bonne connaissance de vos données
-      url: protect-information.md#know-your-data
+      url: information-protection.md#know-your-data
     - text: Protégez vos données
-      url: protect-information.md#protect-your-data
+      url: information-protection.md#protect-your-data
     - text: Évitez les pertes de données
-      url: protect-information.md#prevent-data-loss
+      url: information-protection.md#prevent-data-loss
     - text: Gouvernez vos données
       url: manage-information-governance.md
     - text: 'Rubrique d’apprentissage : Gérer la protection et la gouvernance des informations'
@@ -82,3 +82,5 @@ landingContent:
     links:
     - text: Déployer la protection des informations pour la confidentialité des données
       url: ../solutions/information-protection-deploy.md
+    - text: Illustrations sur la conformité et la protection des informations
+      url: ../solutions/productivity-illustrations.md#microsoft-365-information-protection-and-compliance-capabilities
