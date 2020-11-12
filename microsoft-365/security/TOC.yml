@@ -47,16 +47,18 @@
               href: mtp/preview.md
             - name: "Centre de sécurité Microsoft\_365"
               href: mtp/overview-security-center.md
+            - name: Résoudre des problèmes
+              href: ./mtp/troubleshoot.md
+            - name: Tests sectoriels
+              href: ./mtp/top-scoring-industry-tests.md
+        - name: Planification
+          items:
             - name: Conditions préalables
               href: mtp/prerequisites.md
             - name: Sécurité et confidentialité des données
               href: mtp/data-privacy.md
             - name: Portails de sécurité Microsoft
               href: mtp/portals.md
-            - name: Résoudre des problèmes
-              href: ./mtp/troubleshoot.md
-            - name: Tests sectoriels
-              href: ./mtp/top-scoring-industry-tests.md
         - name: Évaluer les fonctionnalités
           items:
             - name: Vue d’ensemble du laboratoire
@@ -71,28 +73,30 @@
               href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#start-the-microsoft-threat-protection-service'
             - name: Créer une alerte de test
               href: mtp/generate-test-alert.md
-        - name: Exécuter votre projet pilote en production
+        - name: Déployer
           items:
-            - name: Présentation du pilote
-              href: mtp/mtp-pilot.md
-            - name: Planification
-              href: mtp/mtp-pilot-plan.md
-            - name: Préparation
-              href: mtp/prepare-mtpeval.md
-            - name: Simuler une attaque
-              href: mtp/mtp-pilot-simulate.md
-            - name: Fermer et synthétiser
-              href: mtp/mtp-pilot-close.md
+            - name: Activer la Protection Microsoft contre les menaces
+              href: mtp/mtp-enable.md
+            - name: Exécuter votre projet pilote en production
+              items:
+                - name: Présentation du pilote
+                  href: mtp/mtp-pilot.md
+                - name: Planification
+                  href: mtp/mtp-pilot-plan.md
+                - name: Préparation
+                  href: mtp/prepare-mtpeval.md
+                - name: Simuler une attaque
+                  href: mtp/mtp-pilot-simulate.md
+                - name: Fermer et synthétiser
+                  href: mtp/mtp-pilot-close.md
+            - name: Déployer les services pris en charge
+              href: mtp/deploy-supported-services.md
         - name: Guides pratiques
           items:
             - name: Créer un laboratoire d’évaluation ou un environnement pilote
               href: mtp/mtp-evaluation.md
             - name: Exécuter le guide opérationnel du pilote
               href: mtp/mtp-pilot.md
-            - name: Déployer les services pris en charge
-              href: mtp/deploy-supported-services.md
-            - name: "Activer Microsoft\_365 Defender"
-              href: mtp/mtp-enable.md
             - name: Activer la FAQ
               href: mtp/mtp-enable-faq.md
             - name: Incidents

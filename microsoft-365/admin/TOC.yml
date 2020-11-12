@@ -224,18 +224,20 @@
           href: manage/pin-apps-to-app-launcher.md
         - name: Mettre à niveau les utilisateurs vers les applications les plus récentes
           href: setup/upgrade-users-to-latest-office-client.md
-        - name: Conditions préalables au déploiement centralisé des compléments
-          href: manage/centralized-deployment-of-add-ins.md
+        - name: Déploiement centralisé des compléments
+          items:
+            - name: Conditions préalables au déploiement centralisé des compléments
+              href: manage/centralized-deployment-of-add-ins.md
+            - name: Déployer des compléments dans le centre d’administration
+              href: manage/manage-deployment-of-add-ins.md
+            - name: Gérer des compléments dans le centre d’administration
+              href: manage/manage-addins-in-the-admin-center.md
+            - name: Forum aux questions sur le déploiement centralisé
+              href: manage/centralized-deployment-faq.md
         - name: Gérer les actualités de l’industrie
           href: manage/manage-industry-news.md
-        - name: Déployer des compléments dans le centre d’administration
-          href: manage/manage-deployment-of-add-ins.md
-        - name: Gérer des compléments dans le centre d’administration
-          href: manage/manage-addins-in-the-admin-center.md
         - name: "Gérer les paramètres de Office\_Scripts"
           href: manage/manage-office-scripts-settings.md
-        - name: Forum aux questions sur le déploiement centralisé
-          href: manage/centralized-deployment-faq.md
         - name: Rechercher un partenaire ou un revendeur
           href: manage/find-your-partner-or-reseller.md
         - name: Gérer les messages du Centre de messages
