@@ -82,7 +82,7 @@
 - name: Gérer la protection des informations
   items:
     - name: 'Connaissez vos données, protégez-les et évitez les pertes de données'
-      href: protect-information.md
+      href: information-protection.md
     - name: Types d’informations sensibles
       items:
         - name: Définitions d’entités des types d’informations sensibles
