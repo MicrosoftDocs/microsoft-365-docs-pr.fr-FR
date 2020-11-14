@@ -240,8 +240,6 @@
               href: dlp-configure-endpoints-script.md
             - name: Intégrer les ordinateurs virtuels d’infrastructure de bureau virtuel (VDI) non persistants.
               href: dlp-configure-endpoints-vdi.md
-        - name: Prise en main des recommandations en matière de stratégie DLP
-          href: get-started-with-dlp-policy-recommendations.md
         - name: Prise en main de la stratégie DLP par défaut
           href: get-started-with-the-default-dlp-policy.md
         - name: "Création d’une stratégie\_DLP à partir d’un modèle"
@@ -342,6 +340,8 @@
               href: archive-twitter-data-with-sample-connector.md
         - name: Connecteurs de données Globanet
           items:
+            - name: CellTrust
+              href: archive-celltrust-data.md
             - name: Cisco Jabber
               href: archive-ciscojabberonmssql-data.md
             - name: EML
@@ -350,10 +350,16 @@
               href: archive-fxconnect-data.md
             - name: Jive
               href: archive-jive-data.md
+            - name: Base de données MS SQL
+              href: archive-mssqldatabaseimporter-data.md
             - name: Pivot
               href: archive-pivot-data.md
+            - name: Gestion de Reuters
+              href: archive-reutersdealing-data.md
             - name: Reuters Eikon
               href: archive-reuterseikon-data.md
+            - name: Reuters FX
+              href: archive-reutersfx-data.md
             - name: Découverte électronique de marge
               href: archive-slack-data.md
             - name: Symphony
@@ -366,6 +372,8 @@
               href: archive-webexteams-data.md
             - name: Espace de travail sur Facebook
               href: archive-workplacefromfacebook-data.md
+            - name: XIP
+              href: archive-xip-data.md
             - name: XSLT/XML
               href: archive-xslt-xml-data.md
             - name: Réunions Zoom

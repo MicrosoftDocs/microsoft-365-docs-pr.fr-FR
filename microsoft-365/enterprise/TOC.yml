@@ -415,8 +415,6 @@
           href: manage-microsoft-365-groups.md
         - name: Gouvernance
           href: manage-microsoft-365-identity-governance.md
-        - name: Récupérer des éléments supprimés dans la boîte aux lettres d’un utilisateur
-          href: recover-deleted-items-in-a-mailbox.md
         - name: Synchronisation d’annuaires
           items:
             - name: Afficher l’état
@@ -604,7 +602,7 @@
                   href: disable-access-to-services-while-assigning-user-licenses.md
         - name: Groupes
           items:
-            - name: Maintenir l’appartenance à un groupe
+            - name: Conservation de l’adhésion au groupe de sécurité
               href: maintain-group-membership-with-microsoft-365-powershell.md
             - name: "Gestion des groupes Microsoft\_365"
               href: manage-microsoft-365-groups-with-powershell.md
