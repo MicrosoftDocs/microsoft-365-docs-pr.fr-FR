@@ -467,10 +467,10 @@
               href: 'https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade'
             - name: "Project\_Server\_2010"
               href: project-server-2010-end-of-support.md
-- name: Sécurité
-  href: 'https://docs.microsoft.com/microsoft-365/security/'
 - name: Conformité
-  href: 'https://docs.microsoft.com/microsoft-365/compliance/'
+  href: ../compliance/index.yml
+- name: Sécurité
+  href: ../security/index.yml
 - name: Services cloud
   items:
     - name: Feuille de route
@@ -564,7 +564,7 @@
           href: cmdlet-references-for-microsoft-365-services.md
         - name: Ressources de la communauté PowerShell
           href: microsoft-365-powershell-community-resources.md
-    - name: 'Gérer les comptes d’utilisateurs, les licences et les groupes avec PowerShell'
+    - name: 'Gérer les comptes d’utilisateurs, mots de passe, les licences et les groupes avec PowerShell'
       href: manage-user-accounts-and-licenses-with-microsoft-365-powershell.md
       items:
         - name: Comptes d’utilisateur
@@ -581,6 +581,8 @@
               href: delete-and-restore-user-accounts-with-microsoft-365-powershell.md
             - name: Bloquer
               href: block-user-accounts-with-microsoft-365-powershell.md
+            - name: Mots de passe
+              href: manage-passwords-with-microsoft-365-powershell.md
         - name: Licences et services
           items:
             - name: Affichage des licences et des services
@@ -602,6 +604,8 @@
                   href: disable-access-to-services-while-assigning-user-licenses.md
         - name: Groupes
           items:
+            - name: Gérer les groupes de sécurité
+              href: manage-security-groups-with-microsoft-365-powershell.md
             - name: Conservation de l’adhésion au groupe de sécurité
               href: maintain-group-membership-with-microsoft-365-powershell.md
             - name: "Gestion des groupes Microsoft\_365"
@@ -723,10 +727,6 @@
       href: contoso-info-protect.md
     - name: Synthèse de la sécurité
       href: contoso-security-summary.md
-- name: Conformité Microsoft 365
-  href: ../compliance/index.yml
-- name: Sécurité Microsoft 365
-  href: ../security/index.yml
 - name: "Architecture et solutions Microsoft\_365"
   href: ../solutions/index.yml
 - name: Gestion de la continuité d’activité d’entreprise (EBCM) avec les services Cloud
