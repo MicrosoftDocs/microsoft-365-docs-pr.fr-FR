@@ -169,6 +169,8 @@
                       href: mtp/advanced-hunting-alertinfo-table.md
                     - name: AppFileEvents
                       href: mtp/advanced-hunting-appfileevents-table.md
+                    - name: CloudAppEvents
+                      href: mtp/advanced-hunting-cloudappevents-table.md
                     - name: DeviceEvents
                       href: mtp/advanced-hunting-deviceevents-table.md
                     - name: DeviceFileCertificateInfo
@@ -428,10 +430,8 @@
               href: ./office-365-security/support-for-anonymous-inbound-email-messages-over-ipv6.md
             - name: Configuration de groupes et d’utilisateurs pour un environnement de développement/test pour une campagne électorale
               href: ./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
-            - name: Créer des sites d’équipe dans un environnement de développement/test dans le cadre d’une campagne électorale
+            - name: Création de sites d’équipe dans un environnement de développement/test dans le cadre d’une campagne électorale
               href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
-            - name: "Balises utilisateur dans Defender pour Office\_365"
-              href: ./office-365-security/user-tags.md
             - name: S/MIME
               href: ./office-365-security/s-mime-for-message-signing-and-encryption.md
               items:
