@@ -289,7 +289,7 @@
           href: security-and-compliance/set-up-multi-factor-authentication.md
         - name: "Activer l’authentification moderne pour Office\_2013"
           href: security-and-compliance/enable-modern-authentication.md
-        - name: Sécuriser Microsoft Business Premium
+        - name: "Sécuriser Microsoft\_365 Business Premium"
           items:
             - name: Conditions préalables pour la protection des données
               href: ../business/pre-requisites-for-data-protection.md
@@ -297,6 +297,10 @@
               href: ../business/security-features.md
             - name: Renforcer la protection contre les menaces
               href: ../business/increase-threat-protection.md
+            - name: Menaces détectées par l’antivirus Microsoft Defender
+              href: ../business/threats-detected-defender-av.md
+            - name: Examiner les menaces détectées et prendre des mesures
+              href: ../business/review-threats-take-action.md
             - name: Configurer les fonctionnalités de conformité
               href: ../business/set-up-compliance.md
         - name: Niveau de sécurité
