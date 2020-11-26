@@ -477,9 +477,7 @@
           items:
             - name: Configurer le filtrage des autorisations pour la recherche de contenu
               href: permissions-filtering-for-content-search.md
-            - name: Augmenter la vitesse de téléchargement lors de l’exportation de résultats de recherche
-              href: increase-download-speeds-when-exporting-ediscovery-results.md
-            - name: Modifier la taille des fichiers PST lors de l’exportation de résultats de recherche
+            - name: Modifier la taille des fichiers PST lors de l’exportation des résultats de recherche
               href: change-the-size-of-pst-files-when-exporting-results.md
             - name: Désactiver les rapports lorsque vous exportez des résultats de recherche
               href: disable-reports-when-you-export-content-search-results.md
@@ -1021,7 +1019,7 @@
               href: gdpr-dpia-azure.md
             - name: "Dynamics\_365"
               href: gdpr-dpia-dynamics.md
-            - name: Aide et support Microsoft et services professionnels
+            - name: Support et services professionnels Microsoft
               href: gdpr-dpia-prof-services.md
             - name: "Office\_365"
               href: gdpr-dpia-office365.md

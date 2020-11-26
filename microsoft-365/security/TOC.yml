@@ -39,7 +39,7 @@
       items:
         - name: Vue d’ensemble
           items:
-            - name: "Qu’est-ce que Microsoft\_365 Defender\_?"
+            - name: "Présentation de Microsoft\_365 Defender"
               href: mtp/microsoft-threat-protection.md
             - name: "Nouveautés de Microsoft\_365 Defender"
               href: mtp/whats-new.md
@@ -139,9 +139,11 @@
                       href: mtp/advanced-hunting-expert-training.md
                     - name: Utiliser des requêtes partagées
                       href: mtp/advanced-hunting-shared-queries.md
-                    - name: 'Rechercher sur les appareils, les e-mails, les applications et les identités'
+                    - name: 'Repérer des menaces sur les appareils, les e-mails, les applications et les identités'
                       href: mtp/advanced-hunting-query-emails-devices.md
-                    - name: Transition de Defender pour point de terminaison
+                    - name: Repérer des menaces de ransomware
+                      href: mtp/advanced-hunting-find-ransomware.md
+                    - name: Transition à partir de Microsoft Defender pour point de terminaison
                       href: mtp/advanced-hunting-migrate-from-mdatp.md
                 - name: Travailler avec les résultats de la requête
                   href: mtp/advanced-hunting-query-results.md
