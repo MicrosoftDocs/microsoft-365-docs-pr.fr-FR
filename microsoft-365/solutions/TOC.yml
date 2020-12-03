@@ -109,14 +109,16 @@
           items:
             - name: Vue d’ensemble
               href: collaboration-governance-overview.md
-            - name: La gouvernance en premier
+            - name: Créer votre plan de gouvernance
               href: collaboration-governance-first.md
-            - name: Groupes avec SharePoint
-              href: groups-sharepoint-governance.md
-            - name: 'Groupes, SharePoint et Teams'
-              href: groups-sharepoint-teams-governance.md
-            - name: Référence des interactions avec les services
-              href: groups-services-interactions.md
+            - name: Paramètres dans les services
+              items:
+                - name: Groupes avec SharePoint
+                  href: groups-sharepoint-governance.md
+                - name: 'Groupes, SharePoint et Teams'
+                  href: groups-sharepoint-teams-governance.md
+                - name: Groupes avec d’autres services
+                  href: groups-services-interactions.md
             - name: Accès
               href: groups-teams-access-governance.md
             - name: Conformité

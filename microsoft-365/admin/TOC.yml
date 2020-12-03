@@ -121,6 +121,8 @@
               href: create-groups/compare-groups.md
             - name: Créer un groupe
               href: create-groups/create-groups.md
+            - name: Expliquer les groupes
+              href: create-groups/explain-groups-knowledge-worker.md
             - name: Gérer les groupes
               href: create-groups/manage-groups.md
             - name: Ajouter des membres à un groupe ou en supprimer
@@ -205,12 +207,12 @@
               href: get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md
         - name: Résoudre les problèmes liés aux domaines
           href: get-help-with-domains/find-and-fix-issues.md
-    - name: Gérer vos données et vos services
+    - name: Gérer vos données et services
       href: manage/index.yml
       items:
-        - name: Surveiller l’activité des utilisateurs à l’aide des rapports
+        - name: "Surveiller l’activité de Microsoft\_365 à l’aide des rapports"
           href: activity-reports/activity-reports.md
-        - name: Surveiller la productivité des utilisateurs avec le score de productivité
+        - name: Niveau de productivité Microsoft – vue d’ensemble
           href: productivity/productivity-score.md
           items:
             - name: Collaboration sur du contenu
