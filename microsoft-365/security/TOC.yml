@@ -527,7 +527,7 @@
               href: ./office-365-security/campaigns.md
             - name: Examiner les e-mails malveillants
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
-            - name: Afficher les rapports dans le Centre de sécurité et de conformité
+            - name: "Afficher les rapports Defender pour Office\_365 dans le Centre de sécurité et conformité"
               href: ./office-365-security/view-reports-for-atp.md
             - name: Afficher les détails et les résultats d’une analyse automatisée
               href: ./office-365-security/air-view-investigation-results.md
