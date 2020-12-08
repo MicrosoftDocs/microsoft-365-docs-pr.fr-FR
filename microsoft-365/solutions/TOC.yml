@@ -99,10 +99,20 @@
       items:
         - name: Affiches sur l’architecture Teams
           href: 'https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
-        - name: Solutions téléphoniques
+        - name: Déployer la voix Teams dans Microsoft 365
           items:
-            - name: Choisissez votre solution vocale Teams
+            - name: Vue d’ensemble
+              href: deploy-voice.md
+            - name: "Étape 1. Choisissez votre solution vocale\_:"
               href: 'https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: "Étape\_2. - Configurer le système téléphonique"
+              href: 'https://docs.microsoft.com/microsoftteams/setting-up-your-phone-system?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+            - name: "Étape\_3. - Configurer la connectivité RTC"
+              items:
+                - name: L’option du forfait d'appels
+                  href: 'https://docs.microsoft.com/microsoftteams/set-up-calling-plans?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+                - name: L’option du routage direct
+                  href: 'https://docs.microsoft.com/microsoftteams/direct-routing-configure?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: Etude de cas pour les entreprises multinationales
               href: 'https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Gouvernance de la collaboration

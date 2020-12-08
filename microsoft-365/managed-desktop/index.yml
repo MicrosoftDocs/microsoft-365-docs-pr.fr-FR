@@ -1,21 +1,21 @@
 ### YamlMime:Landing
-title: Documentation sur le Bureau géré Microsoft
-summary: Microsoft Managed Desktop réunit Microsoft 365 Enterprise, la gestion des appareils basée sur le Cloud par Microsoft et la surveillance de la sécurité, ce qui vous permet de libérer vos équipes informatiques afin de vous concentrer sur les besoins fondamentaux de l’entreprise.
+title: Documentation sur Microsoft Managed Desktop
+summary: Microsoft Managed Desktop est une solution ITaaS unique qui associe la gestion des points de terminaison et la surveillance de la sécurité de manière à offrir aux utilisateurs une expérience d’appareil sécurisée et productive qui mérite la confiance des professionnels de l’informatique.
 metadata:
-  title: Documentation sur le Bureau géré Microsoft
+  title: Documentation sur Microsoft Managed Desktop
   description: Microsoft Managed Desktop réunit Microsoft 365 Enterprise, la gestion des appareils basée sur le Cloud par Microsoft et la surveillance de la sécurité, ce qui vous permet de libérer vos équipes informatiques afin de vous concentrer sur les besoins fondamentaux de l’entreprise.
   keywords: device, app, management
   ms.service: m365-md
   ms.topic: landing-page
   author: jaimeo
   ms.author: jaimeo
-  ms.date: 07/13/2020
-  ms.openlocfilehash: 08ff51dcc2ecc7bb5f7a11616f011964d99287f2
-  ms.sourcegitcommit: 48f3c002678906189bfba079bbf055d67d08a60f
+  ms.date: 12/04/2020
+  ms.openlocfilehash: 59d8d4ae0986af58c086ea08f486feca5cb23f71
+  ms.sourcegitcommit: 9d5ddfc856926ce6919498c9c42a7421fef78328
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 08/05/2020
-  ms.locfileid: "46564142"
+  ms.lasthandoff: 12/04/2020
+  ms.locfileid: "49576774"
 landingContent:
 - title: À propos de bureau géré Microsoft
   linkLists:
@@ -31,23 +31,35 @@ landingContent:
       url: get-ready/index.md
     - text: Prise en main
       url: get-started/index.md
-    - text: Utilisation du Bureau géré Microsoft
+    - text: Utilisation de Microsoft Managed Desktop
       url: /microsoft-365/managed-desktop/working-with-managed-desktop/
-- title: Nouveaux articles et publications de blog
+- title: Publications d’articles et de blog
   linkLists:
-  - linkListType: whats-new
+  - linkListType: learn
     links:
-    - text: '[Feuille de route] Votre feuille de route complète pour le Bureau géré Microsoft'
-      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482
-    - text: '[Livre blanc] Étude : demande croissante pour les services de bureau gérés'
-      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182
-    - text: '[Livre électronique] Émerveillez votre entreprise grâce à un espace de travail moderne'
-      url: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw
-- title: Vidéos
+    - text: '[Blog] les appareils d’espace de travail sont les nouveaux  « snacks gratuits »'
+      url: https://techcommunity.microsoft.com/t5/microsoft-managed-desktop/workplace-devices-are-the-new-free-snacks/ba-p/1675936
+    - text: '[Livre blanc] Etude : Microsoft Managed Desktop fait gagner du temps et de l’argent'
+      url: https://techcommunity.microsoft.com/t5/microsoft-managed-desktop/study-microsoft-managed-desktop-saves-time-and-costs/ba-p/1403408
+    - text: '[Livre blanc] Microsoft Managed Desktop peut aider à booster l’engagement'
+      url: https://techcommunity.microsoft.com/t5/microsoft-managed-desktop/microsoft-managed-desktop-can-help-boost-engagement/ba-p/1031932
+    - text: '[Livre blanc] SA Power Networks déploie Microsoft Managed Desktop pour répondre aux besoins croissants de l’utilisateur'
+      url: https://customers.microsoft.com/story/832888-sa-power-networks-case-study-energy-microsoft-managed-desktop
+- title: Avantages et points forts
   linkLists:
   - linkListType: video
     links:
-    - text: Découvrez les avantages de l’application Bureau gérée Microsoft, le responsable de l’ingénierie chez Lloyds Banking Group.
+    - text: Microsoft Managed Desktop - Expérience de l’administrateur informatique
+      url: https://www.youtube.com/watch?v=UQ8VRSysUXw&feature=youtu.be
+    - text: Les avantages de Microsoft Managed Desktop pour les entreprises
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE4yjfL
+    - text: Microsoft Managed Desktop - Expériences fantastiques des appareils
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE41urx?autoplay=false
+    - text: Microsoft Managed Desktop - Opérations de sécurité
+      url: https://www.microsoft.com/videoplayer/embed/RE4COuk
+    - text: Microsoft Managed Desktop - Processus de modification et de publication
+      url: https://www.microsoft.com/videoplayer/embed/RE4COuk
+    - text: Shiproom / IGM / épisode 29 - La priorité de l’expérience utilisateur en matière de sécurité
+      url: https://www.youtube.com/watch?v=im11J9C1MTA&feature=youtu.be
+    - text: Shiproom / Lloyds Banking/épisode / épisode 25 - Le leadership dans un contexte de transformation rapide
       url: https://www.youtube.com/watch?v=B9Gqj66qxNo&feature=youtu.be
-    - text: Points forts de la version Bureau géré Microsoft dans la Conférence sur l’allumage annuel
-      url: /microsoft-365/managed-desktop/service-description
