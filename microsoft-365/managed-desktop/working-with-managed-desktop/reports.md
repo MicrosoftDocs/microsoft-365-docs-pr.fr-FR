@@ -1,7 +1,7 @@
 ---
 title: Utiliser les rapports
 description: ''
-keywords: Bureau géré Microsoft, Microsoft 365, service, documentation
+keywords: Bureau géré Microsoft, Microsoft 365, service, documentation
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
@@ -9,19 +9,41 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 6981bdc0c0e79952701fdba91b1d43b317003af9
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: bfd8305d23e0e6d761c629ee3048c6204f702d37
+ms.sourcegitcommit: 98146c67a1d99db5510fa130340d3b7be8d81b21
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686237"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49585327"
 ---
-# <a name="work-with-reports"></a><span data-ttu-id="0f28b-103">Utiliser les rapports</span><span class="sxs-lookup"><span data-stu-id="0f28b-103">Work with reports</span></span>
+# <a name="work-with-reports"></a><span data-ttu-id="889ab-103">Utiliser les rapports</span><span class="sxs-lookup"><span data-stu-id="889ab-103">Work with reports</span></span>
 
-<span data-ttu-id="0f28b-104">Microsoft Managed Desktop fournit des rapports dont les administrateurs informatiques de votre client peuvent se servir pour comprendre les différents aspects de la population des appareils.</span><span class="sxs-lookup"><span data-stu-id="0f28b-104">Microsoft Managed Desktop provides reports that IT admins in your tenant can use to understand various aspects of the population of devices.</span></span> <span data-ttu-id="0f28b-105">Vous accédez aux rapports dans le [portail d’administration ](https://aka.ms/mmdportal)sous **Reporting**.</span><span class="sxs-lookup"><span data-stu-id="0f28b-105">You access the reports in the [Admin portal ](https://aka.ms/mmdportal)under **Reporting**.</span></span>
+<span data-ttu-id="889ab-104">Microsoft Managed Desktop fournit plusieurs rapports et tableaux de bord que les administrateurs informatiques de votre organisation peuvent utiliser pour comprendre différents aspects de la population des appareils.</span><span class="sxs-lookup"><span data-stu-id="889ab-104">Microsoft Managed Desktop provides several reports and dashboards that IT admins in your organization can use to understand various aspects of the population of devices.</span></span><span data-ttu-id="889ab-105">Vous trouverez des rapports à deux emplacements : dans le [Gestionnaire de points de terminaison Microsoft](https://endpoint.microsoft.com) et dans le [centre d’administration 365 de Microsoft](https://admin.microsoft.com/adminportal/home?previewoff=false#/microsoftmanageddesktop).</span><span class="sxs-lookup"><span data-stu-id="889ab-105"> You'll find reports in two locations: in [Microsoft Endpoint Manager](https://endpoint.microsoft.com) and in the [Microsoft 365 Admin Center](https://admin.microsoft.com/adminportal/home?previewoff=false#/microsoftmanageddesktop).</span></span> 
 
+## <a name="reports-in-microsoft-endpoint-manager"></a><span data-ttu-id="889ab-106">Rapports dans le gestionnaire de points de terminaison Microsoft</span><span class="sxs-lookup"><span data-stu-id="889ab-106">Reports in Microsoft Endpoint Manager</span></span>
 
+<span data-ttu-id="889ab-107">La console du gestionnaire de point de terminaison Microsoft rassemble des rapports à partir de plusieurs produits dans un même emplacement pour vous aider à surveiller et à étudier les problèmes liés à la configuration et aux périphériques de votre organisation Azure AD (« client »).</span><span class="sxs-lookup"><span data-stu-id="889ab-107">The Microsoft Endpoint Manager console brings together reporting from several products into a single location to help you monitor and investigate issues with your Azure AD organization ("tenant") configuration and devices.</span></span> <span data-ttu-id="889ab-108">Le bureau géré Microsoft comporte une section sous **rapports** dans le menu principal, dans laquelle vous pouvez trouver des rapports spécifiques à la gestion du bureau géré Microsoft des appareils que vous avez enregistrés.</span><span class="sxs-lookup"><span data-stu-id="889ab-108">Microsoft Managed desktop has a section under **Reports** in the main menu where you can find reports specific to Microsoft Managed Desktop's management of the devices you’ve registered.</span></span>
 
-## <a name="device-inventory-report"></a><span data-ttu-id="0f28b-106">Rapport d’inventaire des appareils</span><span class="sxs-lookup"><span data-stu-id="0f28b-106">Device inventory report</span></span>
+<span data-ttu-id="889ab-109">En outre, dans plusieurs emplacements de Microsoft Endpoint Manager, vous pouvez filtrer les rapports d’autres groupes de produits pour inclure ou exclure spécifiquement vos appareils gérés par le bureau géré Microsoft.</span><span class="sxs-lookup"><span data-stu-id="889ab-109">Additionally, in several locations throughout Microsoft Endpoint Manager you can filter reports from other product groups to specifically include or exclude your devices that are managed by Microsoft Managed Desktop.</span></span> <span data-ttu-id="889ab-110">Ces rapports ont intégré cette fonctionnalité de filtrage :</span><span class="sxs-lookup"><span data-stu-id="889ab-110">These reports have integrated this filtering capability:</span></span>
 
-<span data-ttu-id="0f28b-107">La vue **périphériques** propose un onglet **Exporter tout** qui [télécharge un rapport d’inventaire détaillé](device-inventory-report.md).</span><span class="sxs-lookup"><span data-stu-id="0f28b-107">The **Devices** view offers an **Export all** tab that [downloads a detailed inventory report](device-inventory-report.md).</span></span>
+- <span data-ttu-id="889ab-111">**Tous les appareils**</span><span class="sxs-lookup"><span data-stu-id="889ab-111">**All devices**</span></span>
+- <span data-ttu-id="889ab-112">**Conformité des appareils**</span><span class="sxs-lookup"><span data-stu-id="889ab-112">**Device compliance**</span></span>
+- <span data-ttu-id="889ab-113">**Appareils non conformes**</span><span class="sxs-lookup"><span data-stu-id="889ab-113">**Noncompliant devices**</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="889ab-114">Les rôles de bureau géré Microsoft personnalisés garantissent l’accès uniquement aux rapports de bureau géré Microsoft.</span><span class="sxs-lookup"><span data-stu-id="889ab-114">Custom Microsoft Managed Desktop roles guarantee access only to the Microsoft Managed Desktop reports.</span></span> <span data-ttu-id="889ab-115">Pour accéder à d’autres parties du gestionnaire de points de terminaison Microsoft, telles que **tous les appareils**, consultez la rubrique [contrôle d’accès basé sur un rôle avec Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control).</span><span class="sxs-lookup"><span data-stu-id="889ab-115">To access other parts of Microsoft Endpoint Manager, such as **All devices**, see [Role-based access control with Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control).</span></span> 
+
+## <a name="reports-in-microsoft-365-admin-center"></a><span data-ttu-id="889ab-116">Rapports dans le centre d’administration Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="889ab-116">Reports in Microsoft 365 Admin Center</span></span>
+
+<span data-ttu-id="889ab-117">Vous trouverez des rapports Microsoft Managed Desktop Insights en ouvrant le [Centre d’administration microsoft 365](https://admin.microsoft.com/adminportal/home?previewoff=false#/microsoftmanageddesktop), puis en accédant à **rapports** et en sélectionnant **Microsoft Managed Desktop**.</span><span class="sxs-lookup"><span data-stu-id="889ab-117">You can find Microsoft Managed Desktop insights reports by opening the [Microsoft 365 Admin Center](https://admin.microsoft.com/adminportal/home?previewoff=false#/microsoftmanageddesktop), and then navigating to **Reports** and selecting **Microsoft Managed Desktop**.</span></span> <span data-ttu-id="889ab-118">Vous pouvez également suivre le lien direct vers ces rapports à partir de l’onglet **bureau géré Microsoft** de la page d’accueil du [Gestionnaire de points de terminaison Microsoft](https://endpoint.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="889ab-118">You can also follow the direct link to these reports from the **Microsoft Managed Desktop** tab on the homepage [Microsoft Endpoint Manager](https://endpoint.microsoft.com).</span></span> 
+
+<span data-ttu-id="889ab-119">Ces rapports sont les suivants :</span><span class="sxs-lookup"><span data-stu-id="889ab-119">These reports include:</span></span> 
+
+- <span data-ttu-id="889ab-120">[Perspectives sur l’utilisation](usage-insights.md) : cette vue fournit des mesures d’utilisation pour vos appareils de bureau gérés par Microsoft.</span><span class="sxs-lookup"><span data-stu-id="889ab-120">[Usage insights](usage-insights.md) - This view provides usage metrics for your Microsoft Managed Desktop devices.</span></span>
+- <span data-ttu-id="889ab-121">[Perspectives de fiabilité](reliability-insights.md) : cette vue vous fournit un résumé de l’intégrité de vos appareils gérés.</span><span class="sxs-lookup"><span data-stu-id="889ab-121">[Reliability insights](reliability-insights.md) - This view provides you with a health summary of your managed devices.</span></span>
+- <span data-ttu-id="889ab-122">Informations sur la [batterie](battery-insights.md) : cette vue affiche des informations sur la consommation d’énergie des applications et la durée de vie de la batterie pour les périphériques de votre environnement.</span><span class="sxs-lookup"><span data-stu-id="889ab-122">[Battery insights](battery-insights.md) - This view shows you information about the energy consumption of apps and projected battery life for devices in your environment.</span></span>
+- <span data-ttu-id="889ab-123">[Perspectives sur la mise à jour de sécurité Windows](security-update-insights.md) : cette vue vous montre des informations sur l’état des mises à jour de sécurité pour vos appareils de bureau gérés par Microsoft.</span><span class="sxs-lookup"><span data-stu-id="889ab-123">[Windows security update insights](security-update-insights.md) - This view shows you information about the status of security updates for your Microsoft Managed Desktop devices.</span></span>
+
+ ## <a name="inventory-data"></a><span data-ttu-id="889ab-124">Données d’inventaire</span><span class="sxs-lookup"><span data-stu-id="889ab-124">Inventory data</span></span>
+
+<span data-ttu-id="889ab-125">Outre les autres rapports, vous pouvez exporter des informations sur les appareils gérés par le bureau géré Microsoft.</span><span class="sxs-lookup"><span data-stu-id="889ab-125">In addition to the other reports, you can export information about the devices managed by Microsoft Managed Desktop.</span></span> <span data-ttu-id="889ab-126">Dans l’affichage **périphériques** de la zone **périphériques** du gestionnaire de points de terminaison Microsoft, utilisez l’onglet **Exporter tout** pour [Télécharger un rapport d’inventaire détaillé](device-inventory-report.md).</span><span class="sxs-lookup"><span data-stu-id="889ab-126">In the **Devices** view of the **Devices** area of Microsoft Endpoint Manager, use the **Export all** tab to [download a detailed inventory report](device-inventory-report.md).</span></span>
