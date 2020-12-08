@@ -125,9 +125,6 @@
           items:
             - name: Rapport d’inventaire des appareils
               href: working-with-managed-desktop/device-inventory-report.md
-        - name: Utiliser les informations
-          href: working-with-managed-desktop/insights.md
-          items:
             - name: Informations d’utilisation
               href: working-with-managed-desktop/usage-insights.md
             - name: Informations de fiabilité
