@@ -18,8 +18,32 @@
       href: compliance-extensibility.md
 - name: Gérer les risques internes
   items:
+    - name: Solutions de risque interne Microsoft 365
+      href: insider-risk-solution-overview.md
+    - name: Conformité des communications
+      items:
+        - name: Vue d’ensemble
+          href: communication-compliance-solution-overview.md
+        - name: En savoir plus sur la conformité des communications
+          href: communication-compliance.md
+        - name: Planifier la conformité des communications
+          href: communication-compliance-plan.md
+        - name: Prise en main de la conformité des communications
+          href: communication-compliance-configure.md
+        - name: Examiner et corriger les alertes de conformité des communications
+          href: communication-compliance-investigate-remediate.md
+        - name: Référence sur les fonctionnalités de conformité des communications
+          href: communication-compliance-feature-reference.md
+        - name: "Etude de cas\_: contoso configure rapidement une stratégie de langage choquant"
+          href: communication-compliance-case-study.md
+        - name: "Stratégies de supervision dans Office\_365"
+          href: supervision-policies.md
+        - name: "Configurer des stratégies de supervision pour Office\_365"
+          href: configure-supervision-policies.md
     - name: Gestion des risques internes
       items:
+        - name: Vue d’ensemble
+          href: insider-risk-management-solution-overview.md
         - name: En savoir plus sur la gestion des risques internes Microsoft
           href: insider-risk-management.md
         - name: Planifier la gestion des risques Insider
@@ -40,27 +64,12 @@
           href: insider-risk-management-users.md
         - name: Créer des modèles d’avertissement sur les risques internes
           href: insider-risk-management-notices.md
-    - name: Conformité des communications
-      items:
-        - name: En savoir plus sur la conformité des communications
-          href: communication-compliance.md
-        - name: Planifier la conformité des communications
-          href: communication-compliance-plan.md
-        - name: Prise en main de la conformité des communications
-          href: communication-compliance-configure.md
-        - name: Examiner et corriger les alertes de conformité des communications
-          href: communication-compliance-investigate-remediate.md
-        - name: Référence sur les fonctionnalités de conformité des communications
-          href: communication-compliance-feature-reference.md
-        - name: "Etude de cas\_: contoso configure rapidement une stratégie de langage choquant"
-          href: communication-compliance-case-study.md
-        - name: "Stratégies de supervision dans Office\_365"
-          href: supervision-policies.md
-        - name: "Configurer des stratégies de supervision pour Office\_365"
-          href: configure-supervision-policies.md
     - name: Obstacles aux informations
-      href: information-barriers.md
       items:
+        - name: Vue d’ensemble
+          href: information-barriers-solution-overview.md
+        - name: En savoir plus sur les obstacles aux informations
+          href: information-barriers.md
         - name: Définir des stratégies d’obstacle aux informations
           href: information-barriers-policies.md
         - name: Attributs pour les stratégies d’obstacle aux informations
@@ -71,6 +80,8 @@
           href: information-barriers-edit-segments-policies.md
     - name: Gestion des accès privilégiés
       items:
+        - name: Vue d’ensemble
+          href: privileged-access-management-solution-overview.md
         - name: En savoir plus sur la gestion des accès privilégiés
           href: privileged-access-management-overview.md
         - name: Prise en main de la gestion des accès privilégiés
@@ -477,7 +488,7 @@
           items:
             - name: Configurer le filtrage des autorisations pour la recherche de contenu
               href: permissions-filtering-for-content-search.md
-            - name: Modifier la taille des fichiers PST lors de l’exportation des résultats de recherche
+            - name: Modifier la taille des fichiers PST lors de l’exportation de résultats de recherche
               href: change-the-size-of-pst-files-when-exporting-results.md
             - name: Désactiver les rapports lorsque vous exportez des résultats de recherche
               href: disable-reports-when-you-export-content-search-results.md
