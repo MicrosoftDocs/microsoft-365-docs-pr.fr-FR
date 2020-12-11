@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 6064ee5c086f99ff3d5bc4c04ed4d29b87429255
-  ms.sourcegitcommit: ca733da1ed919b286a93068b560608e82f8def05
+  ms.openlocfilehash: ef129fe2a7fc38ffb9cfaa8ae40322712faabbc8
+  ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 11/10/2020
-  ms.locfileid: "48990528"
+  ms.lasthandoff: 12/10/2020
+  ms.locfileid: "49620586"
 highlightedContent:
   items:
   - title: Confier des responsabilités aux télétravailleurs
@@ -54,10 +54,10 @@ productDirectory:
     links:
     - url: /MicrosoftTeams/quick-start-meetings-live-events
       text: Réunions et événements en direct dans Microsoft Teams
+    - url: solutions/deploy-voice.md
+      text: Planifier et déployer une solution vocale Teams
     - url: /MicrosoftTeams/business-voice/whats-business-voice
-      text: Téléphonie Microsoft 365 Business
-    - url: /MicrosoftTeams/cloud-voice-landing-page
-      text: Voix cloud dans Microsoft Teams
+      text: Microsoft 365 Business Voice
     - url: /SkypeForBusiness/hybrid/msft-telephony-solutions
       text: Solutions de téléphonie Microsoft
   - title: Collaborer avec votre équipe
@@ -90,14 +90,16 @@ productDirectory:
     - url: solutions/configure-teams-three-tiers-protection.md
       text: Configurer trois niveaux de protection avec Microsoft Teams
     - url: /windows/security/threat-protection/microsoft-defender-atp/deployment-phases
-      text: Déployer Microsoft Defender – Protection avancée contre les menaces
+      text: Déployer Microsoft Defender pour point de terminaison
     - url: security/office-365-security/office-365-atp.md
-      text: Déployer Office 365 – Protection avancée contre les menaces
+      text: Déployer Microsoft Defender pour Office 365
     - url: security/office-365-security/microsoft-365-policies-configurations.md
       text: Configurer la protection de l’identité et de l’accès aux appareils
   - title: Protéger vos informations et respecter les réglementations
     imageSrc: https://docs.microsoft.com/office/media/icons/certificate-blue.svg
     links:
+    - url: compliance/insider-risk-solution-overview.md
+      text: Solutions de risque interne dans Microsoft 365
     - url: compliance/compliance-quick-tasks.md
       text: Tâches rapides pour démarrer avec la conformité Microsoft 365
     - url: compliance/information-protection.md
@@ -106,8 +108,6 @@ productDirectory:
       text: Gérer la gouvernance des informations
     - url: compliance/overview-data-investigations.md
       text: Gérer les investigations internes et externes
-    - url: compliance/insider-risk-management.md
-      text: Gérer les risques internes
   - title: Déployer et gérer vos ordinateurs de bureau et appareils
     imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
     links:
