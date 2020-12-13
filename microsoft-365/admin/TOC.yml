@@ -198,7 +198,7 @@
         - name: "Piloter Microsoft\_365 depuis mon domaine personnalisé"
           href: misc/pilot-microsoft-365-from-my-custom-domain.md
         - name: Forum aux questions sur les domaines
-          href: setup/domains-faq.md
+          href: setup/domains-faq.yml
         - name: Instructions propres à l’hôte
           items:
             - name: Modifier les serveurs de noms auprès d’un hôte DNS
@@ -207,7 +207,7 @@
               href: get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md
         - name: Résoudre les problèmes liés aux domaines
           href: get-help-with-domains/find-and-fix-issues.md
-    - name: Gérer vos données et services
+    - name: Gérer vos données et vos services
       href: manage/index.yml
       items:
         - name: "Surveiller l’activité de Microsoft\_365 à l’aide des rapports"
