@@ -106,6 +106,8 @@
           href: custom-sensitive-info-types.md
         - name: Créer des types d’informations sensibles personnalisés à l’aide de la correspondance de données exacte
           href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
+        - name: Modifier le schéma de correspondance des données exactes pour utiliser la correspondance configurable
+          href: sit-modify-edm-schema-configurable-match.md
         - name: Créer un type d’informations sensibles personnalisé – Centre de Conformité et Sécurité
           href: create-a-custom-sensitive-information-type.md
         - name: Créer un type d’informations sensibles personnalisé – PowerShell
