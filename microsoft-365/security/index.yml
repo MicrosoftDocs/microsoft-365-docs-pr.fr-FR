@@ -24,11 +24,11 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Microsoft 365 Defender ?
+    - text: Qu’est-ce que Microsoft 365 Defender ?
       url: mtp/microsoft-threat-protection.md
     - text: Centre de sécurité Microsoft 365
       url: mtp/overview-security-center.md
-- title: Commencer par les versions d’évaluation gratuites
+- title: Commencer avec les essais gratuits
   linkLists:
   - linkListType: overview
     links:
@@ -36,25 +36,25 @@ landingContent:
       url: mtp/mtp-evaluation.md
     - text: Guide opérationnel pilote de Microsoft 365 Defender
       url: mtp/mtp-pilot.md
-- title: Sécuriser vos employés distants
+- title: Sécuriser vos employés en télétravail
   linkLists:
   - linkListType: get-started
     links:
     - text: Sécuriser vos employés en télétravail
       url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
-- title: Microsoft Defender pour identité
+- title: Microsoft Defender pour Identity
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Microsoft Defender pour identité ?
+    - text: Qu’est-ce que Microsoft Defender pour Identity ?
       url: https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp
-    - text: Architecture de Microsoft Defender pour identité
+    - text: Architecture de Microsoft Defender pour Identity
       url: https://docs.microsoft.com/azure-advanced-threat-protection/atp-architecture
 - title: Defender pour Office 365
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Defender pour Office 365 ?
+    - text: Qu’est-ce que Defender pour Office 365 ?
       url: office-365-security/office-365-atp.md
     - text: Description du service Defender pour Office 365
       url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
@@ -66,7 +66,7 @@ landingContent:
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
     - text: Présentation des fonctionnalités
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview
-- title: Azure Defender_
+- title: Azure Defender
   linkLists:
   - linkListType: overview
     links:

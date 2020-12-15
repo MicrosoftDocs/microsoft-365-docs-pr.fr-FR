@@ -8,6 +8,8 @@
       href: work-with-topics.md
     - name: Accorder aux utilisateurs des autorisations sur le Centre des rubriques
       href: give-user-permissions-to-the-topic-center.md
+    - name: Préparer votre environnement
+      href: topic-experiences-get-ready.md
 - name: Configuration et administration
   items:
     - name: Sécurité des rubriques
@@ -24,3 +26,7 @@
       href: topic-experiences-user-permissions.md
     - name: Modifier le nom du centre de rubriques
       href: topic-experiences-administration.md
+- name: Adoption
+  items:
+    - name: Prise en main de l’adoption du moteur
+      href: topics-adoption-getstarted.md
