@@ -8,9 +8,19 @@
       href: work-with-topics.md
     - name: Accorder aux utilisateurs des autorisations sur le Centre des rubriques
       href: give-user-permissions-to-the-topic-center.md
-- name: Prise en main du programme d’installation
+- name: Configuration et administration
   items:
-    - name: Configurer la gestion des connaissances
+    - name: Sécurité des rubriques
+      href: topic-experiences-security-privacy.md
+    - name: Planifier des expériences de rubrique
+      href: plan-topic-experiences.md
+    - name: Configurer des expériences de rubrique
       href: set-up-topic-experiences.md
-    - name: Gérer votre réseau de gestion des connaissances
+    - name: Gérer la découverte de rubrique
       href: topic-experiences-discovery.md
+    - name: Gérer la visibilité des rubriques
+      href: topic-experiences-knowledge-rules.md
+    - name: Gérer les autorisations des rubriques
+      href: topic-experiences-user-permissions.md
+    - name: Modifier le nom du centre de rubriques
+      href: topic-experiences-administration.md
