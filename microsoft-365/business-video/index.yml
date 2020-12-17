@@ -1,0 +1,84 @@
+### YamlMime:Hub
+title: Formation Microsoft 365 pour les petites entreprises
+summary: Découvrez comment configurer et gérer Microsoft 365 pour votre entreprise.
+brand: m365
+metadata:
+  title: Formation Microsoft 365 pour les petites entreprises
+  description: Configurez et gérez Microsoft 365 dans le centre d’administration Microsoft 365.
+  ms.service: O365-administration
+  ms.prod: microsoft-365-business
+  ms.topic: hub-page
+  author: Sirkkuw
+  ms.author: sirkkuw
+  ms.date: 12/16/2020
+  localization_priority: Priority
+  ms.custom: AdminSurgePortfolio
+  ms.openlocfilehash: d66e3a5c56fbc6676a21ec9729d44fac64e3abe3
+  ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "49701959"
+productDirectory:
+  items:
+  - title: Prise en main
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
+    summary: Planifiez votre déplacement vers Microsoft 365 pour les entreprises.
+    url: what-is-microsoft-365.md
+  - title: Configurer Microsoft 365 Entreprises
+    imageSrc: https://docs.microsoft.com/office/media/icons/add-to-cloud-blue.svg
+    summary: Ajouter un domaine, ajouter des utilisateurs, configurer des stratégies de sécurité...
+    url: sign-up.md
+  - title: Configurer des ordinateurs
+    imageSrc: https://docs.microsoft.com/office/media/icons/device-desktop-download-blue.svg
+    summary: Installer Office, configurer le courrier électronique, migrer les fichiers...
+    url: upgrade.md
+  - title: Configurer des appareils mobiles
+    imageSrc: https://docs.microsoft.com/office/media/icons/device-mobile-download-blue.svg
+    summary: Installez les applications Office sur les appareils mobiles.
+    url: work-from-anywhere.md
+  - title: Collaborer avec d’autres personnes
+    imageSrc: https://docs.microsoft.com/office/media/icons/collaborate-blue.svg
+    summary: Travaillez avec les employés et les clients dans Teams.
+    url: collab-outlook-teams.md
+  - title: Stocker et partager des fichiers
+    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-storage-folder-blue.svg
+    summary: Stockez les fichiers en toute sécurité et accédez à partir de n’importe où.
+    url: overview-file-sharing.md
+  - title: Configurer voix entreprise
+    imageSrc: https://docs.microsoft.com/office/media/icons/call-phone-blue.svg
+    summary: Configurez le service téléphonique et la Conférence.
+    url: business-voice.md
+  - title: Configurer les applications métiers
+    imageSrc: https://docs.microsoft.com/office/media/icons/task-list-planning-blue.svg
+    summary: Configurer et en savoir plus sur les réservations, les listes, les tâches...
+    url: overview-bookings.md
+  - title: Gérer votre abonnement
+    imageSrc: https://docs.microsoft.com/office/media/icons/settings.svg
+    summary: Gérer les utilisateurs, réinitialiser les mots de passe, afficher votre facture...
+    url: what-is-admin.md
+  - title: Gérer vos appareils
+    imageSrc: https://docs.microsoft.com/office/media/icons/devices-2-blue.svg
+    summary: Configurez les stratégies pour les appareils personnels et de travail.
+    url: secure-win-10-pro-devices.md
+  - title: Sécuriser votre activité
+    imageSrc: https://docs.microsoft.com/office/media/icons/security-blue.svg
+    summary: Configurez les fonctionnalités de sécurité et de conformité.
+    url: overview-m365-security.md
+  - title: Obtenir une assistance
+    imageSrc: https://docs.microsoft.com/office/media/icons/headset-blue.svg
+    summary: Obtenez de l’aide concernant Microsoft 365 pour les entreprises.
+    url: find-help-answers.md
+additionalContent:
+  sections:
+  - title: En savoir plus
+    items:
+    - title: En savoir plus sur Office
+      summary: Découvrez comment utiliser Word, Excel, PowerPoint et d’autres applications Office.
+      url: https://support.microsoft.com/training
+    - title: Basculer à partir de l’espace de travail Google
+      summary: Découvrez comment passer à Microsoft 365 pour les entreprises.
+      url: https://support.microsoft.com/office/cff9f9fb-956e-4cb9-8b64-d7ebc1911123
+    - title: Rechercher d’autres ressources d’administration
+      summary: Accédez au site d’aide du centre d’administration 365 de Microsoft.
+      url: ../admin/index.yml
