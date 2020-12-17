@@ -1,5 +1,5 @@
 - name: Centre de solutions et d'architecture Microsoft 365
-  href: solution-architecture-center.md
+  href: index.yml
   displayName: Home
 - name: Illustrations de solutions et d’architectures
   items:
@@ -7,10 +7,10 @@
       href: productivity-illustrations.md
     - name: Modèles d’architecture cloud Microsoft
       href: cloud-architecture-models.md
+    - name: Modèles et icônes Architecture
+      href: architecture-icons-templates.md
 - name: Solutions de la fondation Microsoft 365
   items:
-    - name: Vue d’ensemble
-      href: foundation-solutions-overview.md
     - name: Confier des responsabilités aux travailleurs à distance avec Microsoft 365
       items:
         - name: Vue d’ensemble
@@ -93,8 +93,6 @@
           href: information-protection-deploy-monitor-respond.md
 - name: Scénarios et solutions de charge de travail
   items:
-    - name: Vue d’ensemble
-      href: workload-solutions-scenarios-overview.md
     - name: Travail en équipe et collaboration
       items:
         - name: Affiches sur l’architecture Teams
@@ -211,8 +209,6 @@
           href: team-security-isolation-dev-test.md
 - name: Conseils spécifiques par secteurs
   items:
-    - name: Vue d’ensemble
-      href: industry-specific-guidance-overview.md
     - name: Finances
       items:
         - name: Sécurité et conformité pour les services financiers
