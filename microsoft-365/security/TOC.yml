@@ -119,7 +119,7 @@
                   href: mtp/mtp-autoir.md
                 - name: Configuration de l’examen automatisé et des fonctionnalités de réponse
                   href: mtp/mtp-configure-auto-investigation-response.md
-                - name: Correction des actions en attente suite à des examens automatisés
+                - name: Actions de correction
                   href: mtp/mtp-remediation-actions.md
                 - name: Visiter le Centre de notifications
                   href: mtp/mtp-action-center.md
@@ -366,7 +366,7 @@
           items:
             - name: "Exchange\_Online Protection"
               items:
-                - name: Configurer la stratégie anti-hameçonnage par défaut dans EOP
+                - name: Configurer des stratégies anti-hameçonnage dans EOP
                   href: ./office-365-security/configure-anti-phishing-policies-eop.md
                 - name: Configurer une protection d'Exchange Online (EOP) autonome pour envoyer des courriers indésirables dans le dossier courrier indésirable
                   href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
