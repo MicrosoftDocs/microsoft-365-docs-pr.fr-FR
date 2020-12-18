@@ -1,4 +1,4 @@
-- name: En savoir plus sur Microsoft SharePoint Syntex
+- name: En savoir plus sur le traitement de formulaires dans Microsoft SharePoint Syntex
   items:
     - name: Introduction à SharePoint Syntex
       href: index.md
@@ -8,9 +8,9 @@
       href: form-processing-overview.md
     - name: Différence entre la compréhension de document et les modèles de traitement de formulaire
       href: difference-between-document-understanding-and-form-processing-model.md
-- name: Prise en main des modèles
+- name: Prise en main de la rétention
   items:
-    - name: En savoir plus sur les modèles via le modèle d’exemple
+    - name: En savoir plus sur les modèles de présentation des documents via le modèle d’exemple
       href: learn-about-document-understanding-models-through-the-sample-model.md
     - name: Créer un centre de contenu
       href: create-a-content-center.md
@@ -18,13 +18,13 @@
       href: create-a-classifier.md
     - name: Créer un extracteur
       href: create-an-extractor.md
-    - name: Types d’explication
+    - name: Types d’explications
       href: explanation-types-overview.md
     - name: Appliquer un modèle
       href: apply-a-model.md
     - name: Créer un modèle de traitement de formulaire
       href: create-a-form-processing-model.md
-    - name: Application d’une étiquette de rétention
+    - name: Appliquer une autre étiquette de rétention
       href: apply-a-retention-label-to-a-model.md
     - name: Analyse de l’utilisation des modèles
       href: model-usage-analytics.md
@@ -32,7 +32,7 @@
       href: leverage-term-store-taxonomy.md
 - name: Adoption
   items:
-    - name: Prise en main de l’adoption
+    - name: Prise en main de l’infrastructure d’adoption de service
       href: adoption-getstarted.md
 - name: Configuration et administration
   items:
@@ -44,7 +44,7 @@
       href: import-term-set-skos.md
     - name: Référence de mise en forme SKOS
       href: skos-format-reference.md
-    - name: Type de contenu poussé vers le Hub
+    - name: Types de contenu Push vers un Hub
       href: push-content-type-to-hub.md
     - name: Rapports de banque de termes
       href: term-store-analytics.md

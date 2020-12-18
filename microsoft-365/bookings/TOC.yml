@@ -3,45 +3,45 @@
   items:
     - name: Configuration
       items:
-        - name: Accès aux réservations
+        - name: "Accès à Microsoft\_Bookings"
           href: get-access.md
-        - name: Entrer vos informations professionnelles
+        - name: Protégez vos informations
           href: enter-business-information.md
         - name: Définir vos offres de service
           href: define-service-offerings.md
         - name: Ajouter du personnel aux réservations
           href: add-staff.md
-        - name: Planifier les fermetures de bureau et les congés
+        - name: Planifier des fermetures d’entreprise et des congés
           href: schedule-closures-time-off-vacation.md
-        - name: Définir vos stratégies de planification
+        - name: Définition de vos stratégies de planification
           href: set-scheduling-policies.md
         - name: Personnaliser et publier votre page de réservation
           href: customize-booking-page.md
         - name: Créer une réservation manuelle
           href: create-a-manual-booking.md
-        - name: Planifier les fermetures de bureau et les congés
+        - name: Planifier des fermetures d’entreprise et des congés
           href: schedule-closures-time-off-vacation.md
-        - name: Heures d’employé
+        - name: Heures des employés
           href: employee-hours.md
-        - name: Ajouter des questions personnalisées et requises à la page de réservation
+        - name: Ajouter des questions personnalisées et requises à la page réservation
           href: add-questions.md
-        - name: Définir le temps de mémoire tampon
+        - name: Définition de la durée du tampon
           href: set-buffer-time.md
-        - name: Suivi des activités et des mesures
+        - name: Statistiques et suivi des activités
           href: metrics-and-activity-tracking.md
-        - name: Définir la langue et le fuseau horaire
+        - name: Définition de la langue et du fuseau horaire
           href: set-language-time-zones.md
-    - name: Obtenir l’application de livres
+    - name: Obtenir l’application bookings
       href: get-bookings-app.md
-    - name: Application bookings et visites virtuelles dans Microsoft teams
+    - name: App Books et visites virtuelles dans Microsoft teams
       href: 'https://docs.microsoft.com/microsoftteams/bookings-app-admin?toc=/microsoft-365/bookings/toc.json&bc=/microsoft-365/bookings/breadcrumb/toc.json'
     - name: Graphique de comparaison-application Web et application teams
       href: comparison-chart.md
-    - name: Supprimer un calendrier de réservation
+    - name: Supprimer un calendrier
       href: delete-calendar.md
-    - name: Activer ou désactiver les réservations Microsoft
+    - name: Activer ou désactiver Microsoft bookings
       href: turn-bookings-on-or-off.md
-    - name: Informations de création de rapports sur Microsoft bookings
+    - name: Informations de rapport pour Microsoft bookings
       href: reporting-info.md
-    - name: Questions fréquemment posées sur Microsoft bookings (FAQ)
+    - name: Forum aux questions sur Microsoft Books Forum aux questions (FAQ)
       href: bookings-faq.md

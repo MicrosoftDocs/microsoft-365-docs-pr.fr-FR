@@ -1,24 +1,24 @@
-- name: Prise en main de la gestion des connaissances
+- name: Découvrir les expériences de sujets
   items:
-    - name: Vue d’ensemble de la gestion des connaissances
-      href: knowledge-management-overview.md
-    - name: Présentation du centre de rubriques
-      href: topic-center-overview.md
-    - name: Utilisation des rubriques dans le Centre des rubriques
-      href: work-with-topics.md
-    - name: Accorder aux utilisateurs des autorisations sur le Centre des rubriques
-      href: give-user-permissions-to-the-topic-center.md
+    - name: Présentation des expériences de sujets
+      href: index.md
+    - name: Vue d’ensemble des expériences
+      href: topic-experiences-overview.md
+    - name: Rubriques d’expérience découverte et gestion
+      href: topic-experiences-discovery-curation.md
+    - name: Rubriques présentant les rôles
+      href: topic-experiences-roles.md
     - name: Préparer votre environnement
       href: topic-experiences-get-ready.md
 - name: Configuration et administration
   items:
-    - name: Sécurité des rubriques
+    - name: Sécurité des sujets
       href: topic-experiences-security-privacy.md
-    - name: Planifier des expériences de rubrique
+    - name: Planifier les expériences de sujets
       href: plan-topic-experiences.md
-    - name: Configurer des expériences de rubrique
+    - name: Configurer les expériences de sujets
       href: set-up-topic-experiences.md
-    - name: Gérer la découverte de rubrique
+    - name: Gérer la découverte de rubriques
       href: topic-experiences-discovery.md
     - name: Gérer la visibilité des rubriques
       href: topic-experiences-knowledge-rules.md
@@ -26,7 +26,19 @@
       href: topic-experiences-user-permissions.md
     - name: Modifier le nom du centre de rubriques
       href: topic-experiences-administration.md
+- name: Utiliser les sujets
+  items:
+    - name: Vue d’ensemble du centre de rubriques
+      href: topic-center-overview.md
+    - name: Gérer les sujets dans le centre de rubriques
+      href: manage-topics.md
+    - name: Création d’un projet
+      href: create-a-topic.md
+    - name: Modifier une rubrique
+      href: edit-a-topic.md
+    - name: Filtrage de sécurité
+      href: topic-experiences-security-trimming.md
 - name: Adoption
   items:
-    - name: Prise en main de l’adoption du moteur
+    - name: Prise en main de l’adoption
       href: topics-adoption-getstarted.md
