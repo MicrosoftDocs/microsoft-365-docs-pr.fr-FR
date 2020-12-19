@@ -4,88 +4,87 @@ description: En savoir plus sur le Centre des rubriques.
 author: efrene
 ms.author: efrene
 manager: pamgreen
-ms.date: 8/1/2020
 audience: admin
 ms.topic: article
-ms.service: o365-administration
+ms.prod: microsoft-365-enterprise
 search.appverid: ''
+ms.collection: enabler-strategic
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: 39a851ed3613057c7b3b931a94a79fed235d277a
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+ms.openlocfilehash: ea0e3ba186956e35a7c7b619b1cd032726f7952f
+ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988829"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49698620"
 ---
-# <a name="topic-center-overview-preview"></a><span data-ttu-id="78fa9-103">Présentation du centre de rubriques (aperçu)</span><span class="sxs-lookup"><span data-stu-id="78fa9-103">Topic center overview (Preview)</span></span>
+# <a name="topic-center-overview-preview"></a><span data-ttu-id="51fc4-103">Présentation du centre de rubriques (aperçu)</span><span class="sxs-lookup"><span data-stu-id="51fc4-103">Topic center overview (Preview)</span></span>
 
 > [!Note] 
-> <span data-ttu-id="78fa9-104">Le contenu de cet article est destiné à Project cortex privé preview.</span><span class="sxs-lookup"><span data-stu-id="78fa9-104">The content in this article is for Project Cortex Private Preview.</span></span> <span data-ttu-id="78fa9-105">[En savoir plus sur le Projet cortex](https://aka.ms/projectcortex).</span><span class="sxs-lookup"><span data-stu-id="78fa9-105">[Find out more about Project Cortex](https://aka.ms/projectcortex).</span></span>
+> <span data-ttu-id="51fc4-104">Le contenu de cet article est destiné à Project cortex privé preview.</span><span class="sxs-lookup"><span data-stu-id="51fc4-104">The content in this article is for Project Cortex Private Preview.</span></span> <span data-ttu-id="51fc4-105">[En savoir plus sur le Projet cortex](https://aka.ms/projectcortex).</span><span class="sxs-lookup"><span data-stu-id="51fc4-105">[Find out more about Project Cortex](https://aka.ms/projectcortex).</span></span>
 
-<span data-ttu-id="78fa9-106">Le centre de rubrique est un site SharePoint moderne qui sert de centre de connaissances pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="78fa9-106">The topic center is a Modern SharePoint site that serves as a center of knowledge for your organization.</span></span> <span data-ttu-id="78fa9-107">Il est créé lors de la configuration de la [gestion des connaissances](set-up-topic-experiences.md) dans le centre d’administration 365 de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="78fa9-107">It is created during [Knowledge Management setup](set-up-topic-experiences.md) in the Microsoft 365 admin center.</span></span>
+<span data-ttu-id="51fc4-106">Le centre de rubrique est un site SharePoint moderne qui sert de centre de connaissances pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="51fc4-106">The topic center is a Modern SharePoint site that serves as a center of knowledge for your organization.</span></span> <span data-ttu-id="51fc4-107">Il est créé lors de l’installation de la rubrique dans le centre [d'](set-up-topic-experiences.md) administration 365 de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="51fc4-107">It is created during [Topic Experiences setup](set-up-topic-experiences.md) in the Microsoft 365 admin center.</span></span>
 
-<span data-ttu-id="78fa9-108">Le centre de la rubrique dispose d’une page d’accueil par défaut où vous pouvez voir les rubriques auxquelles vous avez été connecté ou que vous avez suggéré de vous connecter.</span><span class="sxs-lookup"><span data-stu-id="78fa9-108">The topic center has a default home page where you can see the topics to which you have been connected or suggested to be connected.</span></span> <span data-ttu-id="78fa9-109">Les utilisateurs disposant des autorisations appropriées peuvent également :</span><span class="sxs-lookup"><span data-stu-id="78fa9-109">Users with the proper permissions can also:</span></span>
+<span data-ttu-id="51fc4-108">Le centre de la rubrique dispose d’une page d’accueil par défaut (mes rubriques) où tous les utilisateurs de rubrique peuvent voir les rubriques auxquelles ils ont une connexion.</span><span class="sxs-lookup"><span data-stu-id="51fc4-108">The Topic center has a default home page (My topics) where all Topic Experience users can see the topics to which they have a connection.</span></span> 
 
-- <span data-ttu-id="78fa9-110">Créer une page de rubrique</span><span class="sxs-lookup"><span data-stu-id="78fa9-110">Create a new topic page</span></span>
-- <span data-ttu-id="78fa9-111">Confirmer ou rejeter les rubriques suggérées</span><span class="sxs-lookup"><span data-stu-id="78fa9-111">Confirm or reject suggested topics</span></span>
-- <span data-ttu-id="78fa9-112">Modifier et publier des modifications apportées à une page de rubrique</span><span class="sxs-lookup"><span data-stu-id="78fa9-112">Edit and publish changes to a topic page</span></span>
+<span data-ttu-id="51fc4-109">Tandis que tous les utilisateurs sous licence pouvant consulter les rubriques auront accès au centre des rubriques, les responsables des connaissances pourront également gérer les rubriques via la page **gérer les rubriques** .</span><span class="sxs-lookup"><span data-stu-id="51fc4-109">While all licensed users who can view topics will have access to the Topic center, knowledge managers will also be able to manage topics through the **Manage topics** page.</span></span> <span data-ttu-id="51fc4-110">L’onglet gérer les rubriques s’affiche uniquement pour les utilisateurs qui disposent des autorisations de **gestion des rubriques** .</span><span class="sxs-lookup"><span data-stu-id="51fc4-110">The Manage topics tab will only display to users who have the **Manage topics** permissions.</span></span> 
+
+## <a name="where-is-my-topic-center"></a><span data-ttu-id="51fc4-111">Où se trouve mon centre de rubriques</span><span class="sxs-lookup"><span data-stu-id="51fc4-111">Where is my Topic center</span></span>
+
+<span data-ttu-id="51fc4-112">Le centre de rubrique est créé lors de l’installation de la rubrique.</span><span class="sxs-lookup"><span data-stu-id="51fc4-112">The Topic center is created during Topic Experiences setup.</span></span> <span data-ttu-id="51fc4-113">Une fois l’installation terminée, un administrateur peut trouver l’URL dans la [page de gestion du Centre des rubriques](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-administration#to-access-topics-management-settings).</span><span class="sxs-lookup"><span data-stu-id="51fc4-113">After setup completes, an admin can find the URL on the [Topic center management page](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-administration#to-access-topics-management-settings).</span></span>
+
+
+1. <span data-ttu-id="51fc4-114">Dans le centre d’administration Microsoft 365, cliquez sur **paramètres**, puis sur paramètres de l' **organisation**.</span><span class="sxs-lookup"><span data-stu-id="51fc4-114">In the Microsoft 365 admin center, click **Settings**, then **Org settings**.</span></span>
+2. <span data-ttu-id="51fc4-115">Sous l’onglet **services** , cliquez sur le **réseau de connaissances**.</span><span class="sxs-lookup"><span data-stu-id="51fc4-115">On the **Services** tab, click **Knowledge network**.</span></span>
+
+    ![Connecter des personnes aux connaissances](../media/admin-org-knowledge-options-completed.png) </br>
+
+3. <span data-ttu-id="51fc4-117">Sélectionnez l’onglet **Centre des rubriques** . Sous **adresse du site** est un lien vers votre centre de rubriques.</span><span class="sxs-lookup"><span data-stu-id="51fc4-117">Select the **Topic center** tab. Under **Site address** is a link to your Topic center.</span></span>
+
+    ![connaissances-réseau-paramètres](../media/knowledge-network-settings-topic-center.png) </br>
+
+
+
+## <a name="home-page"></a><span data-ttu-id="51fc4-119">Page d’accueil</span><span class="sxs-lookup"><span data-stu-id="51fc4-119">Home page</span></span>
+
+<span data-ttu-id="51fc4-120">Sur la page d’accueil du centre de la rubrique, vous pouvez voir les rubriques de votre organisation sur lesquelles vous disposez d’une connexion.</span><span class="sxs-lookup"><span data-stu-id="51fc4-120">On the Topic center home page, you can see the topics in your organization to which you have a connection.</span></span>
+
+- <span data-ttu-id="51fc4-121">Connexions suggérées : vous verrez des rubriques suggérées répertoriées sous **nous avons répertorié dans ces rubriques. Est-ce que nous obtenons le droit ?**.</span><span class="sxs-lookup"><span data-stu-id="51fc4-121">Suggested connections - You will see suggested topics listed under **We've listed you on these topics. Did we get it right?**.</span></span> <span data-ttu-id="51fc4-122">Voici des rubriques où votre connexion à la rubrique a été suggérée via AI.</span><span class="sxs-lookup"><span data-stu-id="51fc4-122">These are topics where your connection to the topic has been suggested through AI.</span></span> <span data-ttu-id="51fc4-123">Par exemple, vous pouvez être le propriétaire d’un fichier ou d’un site connexe.</span><span class="sxs-lookup"><span data-stu-id="51fc4-123">For example, you may be the owner of a related file or site.</span></span> <span data-ttu-id="51fc4-124">Les rubriques suggérées vous demanderont de confirmer la connexion à la rubrique.</span><span class="sxs-lookup"><span data-stu-id="51fc4-124">Suggested topics will ask you to confirm you connection to the topic.</span></span>
+
+   ![Connexions suggérées](../media/knowledge-management/my-topics.png) </br>
+ 
+- <span data-ttu-id="51fc4-126">Connexions confirmées : ce sont des rubriques dans lesquelles vous êtes épinglé sur le sujet par un autre utilisateur ou vous avez confirmé votre connexion à la rubrique.</span><span class="sxs-lookup"><span data-stu-id="51fc4-126">Confirmed connections - These are topics where you are pinned on the topic by another user or you've confirmed your connection to the topic.</span></span> <span data-ttu-id="51fc4-127">Les rubriques seront déplacées de la section suggestion vers confirmée lorsque vous confirmerez une connexion suggérée.</span><span class="sxs-lookup"><span data-stu-id="51fc4-127">Topics will move from the suggested to confirmed section when you confirm a suggested connection.</span></span>
+ 
+   ![Rubriques confirmées](../media/knowledge-management/my-topics-confirmed.png) </br>
+
+<span data-ttu-id="51fc4-129">Une fois qu’un utilisateur confirme sa connexion à une rubrique, il peut apporter des modifications à la page de rubrique pour qu’il organise sa connexion.</span><span class="sxs-lookup"><span data-stu-id="51fc4-129">Once a user confirms their connection to a topic, the user can make edits to the topic page to curate their connection.</span></span> <span data-ttu-id="51fc4-130">Par exemple, ils peuvent fournir des informations supplémentaires sur leur connexion à la rubrique.</span><span class="sxs-lookup"><span data-stu-id="51fc4-130">For example, they can provide more information about their connection to the topic.</span></span>
+
+
+## <a name="manage-topics-page"></a><span data-ttu-id="51fc4-131">Page gérer les rubriques</span><span class="sxs-lookup"><span data-stu-id="51fc4-131">Manage topics page</span></span>
+
+<span data-ttu-id="51fc4-132">Pour travailler dans la section **gérer les rubriques** du Centre des rubriques, vous devez disposer des autorisations gérer les *rubriques* requises pour le rôle gestionnaire de connaissances.</span><span class="sxs-lookup"><span data-stu-id="51fc4-132">To work in the **Manage Topics** section of Topic center, you need to have the required *Manage topics* permissions needed for the knowledge manager role.</span></span> <span data-ttu-id="51fc4-133">Votre administrateur peut attribuer ces autorisations aux utilisateurs lors de la configuration de la [gestion des connaissances](set-up-topic-experiences.md), ou les nouveaux utilisateurs peuvent être ajoutés par la [suite](topic-experiences-knowledge-rules.md) par un administrateur via le centre d’administration Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="51fc4-133">Your admin can assign these permissions to users during [knowledge management setup](set-up-topic-experiences.md), or new users can be [added afterwards](topic-experiences-knowledge-rules.md) by an admin through the Microsoft 365 admin center.</span></span>
+
+<span data-ttu-id="51fc4-134">Dans la page gérer les rubriques, le tableau de bord de rubrique affiche des rubriques identifiées à partir des emplacements source spécifiés.</span><span class="sxs-lookup"><span data-stu-id="51fc4-134">On the Manage Topics page, the topic dashboard shows topics that were identified from your specified source locations.</span></span> <span data-ttu-id="51fc4-135">Chaque rubrique indique la date à laquelle la rubrique a été découverte et, si des commentaires y ont été fournis.</span><span class="sxs-lookup"><span data-stu-id="51fc4-135">Each topic will show the date the topic was discovered and if any feedback has been provided on it.</span></span> <span data-ttu-id="51fc4-136">Un utilisateur qui a été affecté les autorisations **gérer les rubriques** peut consulter les rubriques non confirmées et choisir de :</span><span class="sxs-lookup"><span data-stu-id="51fc4-136">A user who was assigned **Manage topics** permissions can review the unconfirmed topics and choose to:</span></span>
+- <span data-ttu-id="51fc4-137">Confirmez la rubrique : met en surbrillance la rubrique pour les utilisateurs qui ont accès et leur permet de voir la page de rubrique et de rubrique associée.</span><span class="sxs-lookup"><span data-stu-id="51fc4-137">Confirm the topic: Highlights the topic to users who have access and lets them see the associated topic card and topic page.</span></span>
+- <span data-ttu-id="51fc4-138">Rejeter la rubrique : rend le sujet non disponible pour les utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="51fc4-138">Reject the topic: Makes the topic not available to users.</span></span> <span data-ttu-id="51fc4-139">La rubrique est déplacée vers l’onglet **rejeté** et peut être confirmée ultérieurement si nécessaire. Guide de gestion des connaissances</span><span class="sxs-lookup"><span data-stu-id="51fc4-139">The topic is moved to the **Rejected** tab and can be confirmed later if needed.a knowledge manager can guide</span></span> 
 
 > [!Note] 
-> <span data-ttu-id="78fa9-113">Vous pouvez en savoir plus sur chaque tâche dans [utilisation des rubriques dans le Centre des rubriques](work-with-topics.md).</span><span class="sxs-lookup"><span data-stu-id="78fa9-113">You can learn more about each task in [Work with topics in the topic center](work-with-topics.md).</span></span>
-
-## <a name="where-is-the-topic-center"></a><span data-ttu-id="78fa9-114">Où se trouve le centre de la rubrique</span><span class="sxs-lookup"><span data-stu-id="78fa9-114">Where is the topic center</span></span>
-
-<span data-ttu-id="78fa9-115">Votre centre de rubrique est créé lors de la configuration de la gestion des connaissances.</span><span class="sxs-lookup"><span data-stu-id="78fa9-115">Your topic center is created during Knowledge Management setup.</span></span> <span data-ttu-id="78fa9-116">Une fois l’installation terminée, un administrateur peut trouver l’URL dans la [page de gestion du centre de connaissances](topic-experiences-discovery.md).</span><span class="sxs-lookup"><span data-stu-id="78fa9-116">After setup completes, an admin can find the URL on the [knowledge center management page](topic-experiences-discovery.md).</span></span>
-
-1. <span data-ttu-id="78fa9-117">Dans le centre d’administration 365 de Microsoft, sélectionnez **configuration** dans le volet de navigation, puis, dans la section **connaissances** de l’organisation, sélectionnez **connecter des personnes aux connaissances**.</span><span class="sxs-lookup"><span data-stu-id="78fa9-117">In the Microsoft 365 admin center, select **Setup** in the navigation pane, and in the **Organizational Knowledge** section, select **Connect people to knowledge**.</span></span>
-
-   ![Connecter des personnes aux connaissances](../media/content-understanding/manage-connect-people-to-knowledge.png) </br>
-
-2. <span data-ttu-id="78fa9-119">Sur la page **connecter des personnes à la connaissance** , dans la section **en un clin d’œil** , consultez l’adresse du Centre des **rubriques** pour l’URL du site.</span><span class="sxs-lookup"><span data-stu-id="78fa9-119">On the **Connect people to knowledge** page, in the **At a glance** section, see **Topic center address** for the site URL.</span></span>
-
-## <a name="home-page"></a><span data-ttu-id="78fa9-120">Page d’accueil</span><span class="sxs-lookup"><span data-stu-id="78fa9-120">Home page</span></span>
-
-<span data-ttu-id="78fa9-121">Pour afficher le centre de la rubrique, vous devez disposer des autorisations d’affichage des rubriques et des expériences.</span><span class="sxs-lookup"><span data-stu-id="78fa9-121">To see the topic center, you need to have permissions to view topics and the topic experiences.</span></span> <span data-ttu-id="78fa9-122">Votre administrateur peut attribuer ces autorisations aux utilisateurs lors de la configuration de la [gestion des connaissances](set-up-topic-experiences.md), ou les nouveaux utilisateurs peuvent être ajoutés par la [suite](give-user-permissions-to-the-topic-center.md) par un administrateur via le centre d’administration Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="78fa9-122">Your admin can assign these permissions to users during [knowledge management setup](set-up-topic-experiences.md), or new users can be [added afterwards](give-user-permissions-to-the-topic-center.md) by an admin through the Microsoft 365 admin center.</span></span>
-
-<span data-ttu-id="78fa9-123">Sur la page d’accueil</span><span class="sxs-lookup"><span data-stu-id="78fa9-123">On the home page</span></span> 
-- <span data-ttu-id="78fa9-124">**Afficher les rubriques** : afficher les expériences.</span><span class="sxs-lookup"><span data-stu-id="78fa9-124">**View topics** : view topic experiences.</span></span> <span data-ttu-id="78fa9-125">Ainsi, vous pouvez voir les rubriques de l’organisation et obtenir des commentaires sur les sujets où vous avez été connecté :</span><span class="sxs-lookup"><span data-stu-id="78fa9-125">So you can see topics in the organization and give feedback on topics where you have been connected:</span></span>
-1. <span data-ttu-id="78fa9-126">Connexions suggérées : rubriques où ma connexion a été suggérée</span><span class="sxs-lookup"><span data-stu-id="78fa9-126">Suggested connections - these are topics where my connection has been suggested</span></span>
-2. <span data-ttu-id="78fa9-127">Connexions confirmées : rubriques où je suis épinglé sur le sujet ou j’ai confirmé que mes rubriques de connexion seront déplacées de la section suggestion vers confirmée lorsque je confirme une connexion suggérée.</span><span class="sxs-lookup"><span data-stu-id="78fa9-127">Confirmed connections - these are topics where I am pinned on the topic or I've confirmed my connection Topics will move from the suggested to confirmed section when I confirm a suggested connection.</span></span>
-<span data-ttu-id="78fa9-128">Une fois que je suis épinglé, les modifications apportées à la page de rubrique peuvent être réalisées pour répartir ma connexion.</span><span class="sxs-lookup"><span data-stu-id="78fa9-128">Once I'm pinned, edits to the topic page can be done to curate my connection.</span></span>
-
-- <span data-ttu-id="78fa9-129">**Créer et modifier des rubriques** : une nouvelle rubrique est disponible et vous pouvez modifier des pages</span><span class="sxs-lookup"><span data-stu-id="78fa9-129">**Create and edit topics** : New topic is available and you can edit pages</span></span>
+> <span data-ttu-id="51fc4-140">Pour plus d’informations sur la gestion des rubriques de la page gérer les rubriques, voir [Manage topics](manage-topics.md) .</span><span class="sxs-lookup"><span data-stu-id="51fc4-140">See [Manage topics](manage-topics.md) for more details about topic managing topics in the Manage topics page.</span></span>
 
 
-## <a name="permissions-to-use-the-manage-topics-capability-topic-center"></a><span data-ttu-id="78fa9-130">Autorisations d’utilisation du centre de la rubrique gérer les rubriques Capability</span><span class="sxs-lookup"><span data-stu-id="78fa9-130">Permissions to use the Manage Topics capability topic center</span></span>
+## <a name="create-or-edit-a-topic"></a><span data-ttu-id="51fc4-141">Création ou modification d’une rubrique</span><span class="sxs-lookup"><span data-stu-id="51fc4-141">Create or edit a topic</span></span>
 
-<span data-ttu-id="78fa9-131">Pour travailler dans la section gérer les rubriques du Centre des rubriques, vous devez disposer des autorisations requises.</span><span class="sxs-lookup"><span data-stu-id="78fa9-131">To work in the Manage Topics section of topic center, you need to have the required permissions.</span></span> <span data-ttu-id="78fa9-132">Votre administrateur peut attribuer ces autorisations aux utilisateurs lors de la configuration de la [gestion des connaissances](set-up-topic-experiences.md), ou les nouveaux utilisateurs peuvent être ajoutés par la [suite](give-user-permissions-to-the-topic-center.md) par un administrateur via le centre d’administration Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="78fa9-132">Your admin can assign these permissions to users during [knowledge management setup](set-up-topic-experiences.md), or new users can be [added afterwards](give-user-permissions-to-the-topic-center.md) by an admin through the Microsoft 365 admin center.</span></span>
+<span data-ttu-id="51fc4-142">Si vous disposez des autorisations **créer et modifier des rubriques** , vous pourrez :</span><span class="sxs-lookup"><span data-stu-id="51fc4-142">If you have **Create and edit topics** permissions, you will be able to:</span></span>
 
-<span data-ttu-id="78fa9-133">Les utilisateurs du Centre des rubriques peuvent disposer de deux jeux d’autorisations :</span><span class="sxs-lookup"><span data-stu-id="78fa9-133">Topic center users can be given two sets of permissions:</span></span>
-
-- <span data-ttu-id="78fa9-134">**Gérer les rubriques** : utilisez le tableau de bord de rubrique pour consulter les rubriques dans l’organisation.</span><span class="sxs-lookup"><span data-stu-id="78fa9-134">**Manage topics** : Use the topic dashboard to review topics across the organization.</span></span> <span data-ttu-id="78fa9-135">Les utilisateurs peuvent effectuer des actions telles que la confirmation et le rejet des rubriques non confirmées.</span><span class="sxs-lookup"><span data-stu-id="78fa9-135">Users can perform actions such as confirming and rejecting unconfirmed topics.</span></span>
-
-<span data-ttu-id="78fa9-136">Un utilisateur peut recevoir les deux ensembles d’autorisations, ou un seul si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="78fa9-136">A user can be given both sets of permissions, or only one if needed.</span></span> 
-
-## <a name="reviewing-topics-in-the-topic-dashboard"></a><span data-ttu-id="78fa9-137">Consultation des rubriques dans le tableau de bord de rubrique</span><span class="sxs-lookup"><span data-stu-id="78fa9-137">Reviewing topics in the topic dashboard</span></span>
-
-<span data-ttu-id="78fa9-138">Le tableau de bord de rubrique affiche des rubriques qui ont été extraites de vos emplacements source spécifiés.</span><span class="sxs-lookup"><span data-stu-id="78fa9-138">The topic dashboard shows topics that were mined from your specified source locations.</span></span> <span data-ttu-id="78fa9-139">Chaque rubrique indique la date à laquelle la rubrique a été découverte et, si des commentaires y ont été fournis.</span><span class="sxs-lookup"><span data-stu-id="78fa9-139">Each topic will show the date the topic was discovered and if any feedback has been provided on it.</span></span> <span data-ttu-id="78fa9-140">Un utilisateur qui a été affecté les autorisations **gérer les rubriques** peut consulter les rubriques non confirmées et choisir de :</span><span class="sxs-lookup"><span data-stu-id="78fa9-140">A user who was assigned **Manage topics** permissions can review the unconfirmed topics and choose to:</span></span>
-- <span data-ttu-id="78fa9-141">Confirmez la rubrique : met en surbrillance la rubrique pour les utilisateurs qui ont accès et leur permet de voir la page de rubrique et de rubrique associée.</span><span class="sxs-lookup"><span data-stu-id="78fa9-141">Confirm the topic: Highlights the topic to users who have access and lets them see the associated topic card and topic page.</span></span>
-- <span data-ttu-id="78fa9-142">Rejeter la rubrique : rend le sujet non disponible pour les utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="78fa9-142">Reject the topic: Makes the topic not available to users.</span></span> <span data-ttu-id="78fa9-143">La rubrique est déplacée vers l’onglet **rejeté** et peut être confirmée plus tard si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="78fa9-143">The topic is moved to the **Rejected** tab and can be confirmed later if needed.</span></span>
-
-## <a name="create-or-edit-a-topic"></a><span data-ttu-id="78fa9-144">Création ou modification d’une rubrique</span><span class="sxs-lookup"><span data-stu-id="78fa9-144">Create or edit a topic</span></span>
-
-<span data-ttu-id="78fa9-145">Si vous disposez des autorisations **créer et modifier des rubriques** , vous pouvez choisir d’effectuer les actions suivantes :</span><span class="sxs-lookup"><span data-stu-id="78fa9-145">If you have **Create and edit topics** permissions, you can choose to:</span></span>
-
-- <span data-ttu-id="78fa9-146">Modifier des rubriques existantes : vous pouvez apporter des modifications aux pages de rubrique existantes qui ont été créées par le biais de la découverte.</span><span class="sxs-lookup"><span data-stu-id="78fa9-146">Edit existing topics: You can make changes to existing topic pages that were created through discovery.</span></span>
-- <span data-ttu-id="78fa9-147">Créer des rubriques : vous pouvez créer de nouvelles rubriques pour celles qui n’ont pas été trouvées par le biais de la découverte ou si les outils AI n’ont pas trouvé suffisamment de preuves pour créer une rubrique.</span><span class="sxs-lookup"><span data-stu-id="78fa9-147">Create new topics: You can create new topics for ones that were not found through discovery, or if AI tools did not find enough evidence to create a topic.</span></span>
+- <span data-ttu-id="51fc4-143">[Modifier des rubriques existantes](edit-a-topic.md): vous pouvez apporter des modifications aux pages de rubrique existantes qui ont été créées par le biais de la découverte.</span><span class="sxs-lookup"><span data-stu-id="51fc4-143">[Edit existing topics](edit-a-topic.md): You can make changes to existing topic pages that were created through discovery.</span></span>
+- <span data-ttu-id="51fc4-144">[Créer des rubriques](create-a-topic.md): vous pouvez créer de nouvelles rubriques pour celles qui n’ont pas été trouvées par le biais de la découverte ou si les outils ai n’ont pas trouvé suffisamment de preuves pour créer une rubrique.</span><span class="sxs-lookup"><span data-stu-id="51fc4-144">[Create new topics](create-a-topic.md): You can create new topics for ones that were not found through discovery, or if AI tools did not find enough evidence to create a topic.</span></span>
 
 
 
 
 
 
-## <a name="see-also"></a><span data-ttu-id="78fa9-148">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="78fa9-148">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="51fc4-145">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="51fc4-145">See also</span></span>
 
 
 
