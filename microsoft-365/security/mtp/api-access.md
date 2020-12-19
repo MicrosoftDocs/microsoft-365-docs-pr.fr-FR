@@ -19,63 +19,75 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: bf7a6a70cefda7bfac83d42f8e8dd6355c479914
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 5e01aaf2ee9255fd909b26278346fd4ccf54729a
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48845015"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719237"
 ---
-# <a name="access-the-microsoft-365-defender-apis"></a><span data-ttu-id="ae073-104">Accéder aux API Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="ae073-104">Access the Microsoft 365 Defender APIs</span></span>
+# <a name="access-the-microsoft-365-defender-apis"></a><span data-ttu-id="dba00-104">Accéder aux API Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="dba00-104">Access the Microsoft 365 Defender APIs</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
+<span data-ttu-id="dba00-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="dba00-105">**Applies to:**</span></span>
 
-<span data-ttu-id="ae073-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="ae073-105">**Applies to:**</span></span>
-- <span data-ttu-id="ae073-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="ae073-106">Microsoft 365 Defender</span></span>
+- <span data-ttu-id="dba00-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="dba00-106">Microsoft 365 Defender</span></span>
 
->[!IMPORTANT] 
-><span data-ttu-id="ae073-107">Certaines informations se rapportent à des produits précommercialisés susceptibles d’être modifiés de manière substantielle avant leur publication commerciale.</span><span class="sxs-lookup"><span data-stu-id="ae073-107">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="ae073-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span><span class="sxs-lookup"><span data-stu-id="ae073-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="dba00-107">Certaines informations se rapportent à des produits précommercialisés susceptibles d’être modifiés de manière substantielle avant leur publication commerciale.</span><span class="sxs-lookup"><span data-stu-id="dba00-107">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="dba00-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span><span class="sxs-lookup"><span data-stu-id="dba00-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
 
+<span data-ttu-id="dba00-109">Microsoft 365 Defender expose une grande partie de ses données et actions via un ensemble d’API de programmation.</span><span class="sxs-lookup"><span data-stu-id="dba00-109">Microsoft 365 Defender exposes much of its data and actions through a set of programmatic APIs.</span></span> <span data-ttu-id="dba00-110">Ces API vous aident à automatiser les flux de travail et à utiliser pleinement les fonctionnalités de Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="dba00-110">These APIs help you automate workflows and make full use of Microsoft 365 Defender's capabilities.</span></span>
 
- <span data-ttu-id="ae073-109">Microsoft 365 Defender expose une grande partie de ses données et actions via un ensemble d’API de programmation.</span><span class="sxs-lookup"><span data-stu-id="ae073-109">Microsoft 365 Defender exposes much of its data and actions through a set of programmatic APIs.</span></span> <span data-ttu-id="ae073-110">Ces API vous permettront d’automatiser les flux de travail et d’innover en fonction des fonctionnalités de Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="ae073-110">Those APIs will enable you to automate workflows and innovate based on  Microsoft 365 Defender capabilities.</span></span> <span data-ttu-id="ae073-111">L’accès à l’API nécessite l’authentification OAuth 2.0.</span><span class="sxs-lookup"><span data-stu-id="ae073-111">The API access requires OAuth2.0 authentication.</span></span> <span data-ttu-id="ae073-112">Pour plus d’informations, reportez-vous au [flux de code d’autorisation OAuth 2,0](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).</span><span class="sxs-lookup"><span data-stu-id="ae073-112">For more information, see [OAuth 2.0 Authorization Code Flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).</span></span>
+<span data-ttu-id="dba00-111">En règle générale, vous devez effectuer les étapes suivantes pour utiliser les API :</span><span class="sxs-lookup"><span data-stu-id="dba00-111">In general, you'll need to take the following steps to use the APIs:</span></span>
 
+- <span data-ttu-id="dba00-112">Créer une application Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="dba00-112">Create an Azure Active Directory application</span></span>
+- <span data-ttu-id="dba00-113">Obtenir un jeton d’accès à l’aide de cette application</span><span class="sxs-lookup"><span data-stu-id="dba00-113">Get an access token using this application</span></span>
+- <span data-ttu-id="dba00-114">Utiliser le jeton pour accéder à l’API Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="dba00-114">Use the token to access the Microsoft 365 Defender API</span></span>
 
-<span data-ttu-id="ae073-113">En règle générale, vous devez effectuer les étapes suivantes pour utiliser les API :</span><span class="sxs-lookup"><span data-stu-id="ae073-113">In general, you'll need to take the following steps to use the APIs:</span></span>
-- <span data-ttu-id="ae073-114">Créer une application AAD</span><span class="sxs-lookup"><span data-stu-id="ae073-114">Create an AAD application</span></span>
-- <span data-ttu-id="ae073-115">Obtenir un jeton d’accès à l’aide de cette application</span><span class="sxs-lookup"><span data-stu-id="ae073-115">Get an access token using this application</span></span>
-- <span data-ttu-id="ae073-116">Utiliser le jeton pour accéder à l’API Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="ae073-116">Use the token to access  Microsoft 365 Defender API</span></span>
+> [!NOTE]
+> <span data-ttu-id="dba00-115">L’accès à l’API nécessite l’authentification OAuth 2.0.</span><span class="sxs-lookup"><span data-stu-id="dba00-115">API access requires OAuth2.0 authentication.</span></span> <span data-ttu-id="dba00-116">Pour plus d’informations, reportez-vous au [flux de code d’autorisation OAuth 2,0](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).</span><span class="sxs-lookup"><span data-stu-id="dba00-116">For more information, see [OAuth 2.0 Authorization Code Flow](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).</span></span>
 
+<span data-ttu-id="dba00-117">Une fois que vous avez effectué ces étapes, vous êtes prêt à accéder à l’API Microsoft 365 Defender à l’aide d’un contexte particulier.</span><span class="sxs-lookup"><span data-stu-id="dba00-117">Once you've accomplished these steps, you're ready to access the Microsoft 365 Defender API using a particular context.</span></span>
 
-<span data-ttu-id="ae073-117">Vous pouvez accéder à l’API Microsoft 365 Defender avec un **contexte d’application** ou un **contexte utilisateur**.</span><span class="sxs-lookup"><span data-stu-id="ae073-117">You can access Microsoft 365 Defender API with **Application Context** or **User Context**.</span></span>
+## <a name="application-context-recommended"></a><span data-ttu-id="dba00-118">Contexte d’application (recommandé)</span><span class="sxs-lookup"><span data-stu-id="dba00-118">Application context (Recommended)</span></span>
 
-- <span data-ttu-id="ae073-118">**Contexte de l’application : (recommandé)**</span><span class="sxs-lookup"><span data-stu-id="ae073-118">**Application Context: (Recommended)**</span></span> <br>
-    <span data-ttu-id="ae073-119">Utilisé par les applications qui s’exécutent sans qu’aucun utilisateur ne soit connecté.</span><span class="sxs-lookup"><span data-stu-id="ae073-119">Used by apps that run without a signed-in user present.</span></span> <span data-ttu-id="ae073-120">par exemple, les applications qui s’exécutent en tant que services ou démons d’arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="ae073-120">for example, apps that run as background services or daemons.</span></span>
+<span data-ttu-id="dba00-119">Utilisez ce contexte pour les applications qui s’exécutent sans qu’un utilisateur connecté soit présent, tel que des services d’arrière-plan ou des démons.</span><span class="sxs-lookup"><span data-stu-id="dba00-119">Use this context for apps that run without a signed-in user present, such as background services or daemons.</span></span>
 
-    <span data-ttu-id="ae073-121">Étapes à suivre pour accéder à l’API Microsoft 365 Defender avec le contexte de l’application :</span><span class="sxs-lookup"><span data-stu-id="ae073-121">Steps that need to be taken to access  Microsoft 365 Defender API with application context:</span></span>
+1. <span data-ttu-id="dba00-120">Créez une application Web Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="dba00-120">Create an Azure Active Directory web application.</span></span>
+2. <span data-ttu-id="dba00-121">Attribuez les autorisations souhaitées à l’application.</span><span class="sxs-lookup"><span data-stu-id="dba00-121">Assign the desired permissions to the application.</span></span>
+3. <span data-ttu-id="dba00-122">Créez une clé pour l’application.</span><span class="sxs-lookup"><span data-stu-id="dba00-122">Create a key for the application.</span></span>
+4. <span data-ttu-id="dba00-123">Obtenir un jeton de sécurité à l’aide de l’application et de sa clé.</span><span class="sxs-lookup"><span data-stu-id="dba00-123">Get a security token using the application and its key.</span></span>
+5. <span data-ttu-id="dba00-124">Utilisez le jeton pour accéder à l’API Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="dba00-124">Use the token to access  Microsoft 365 Defender API.</span></span>
 
-  1. <span data-ttu-id="ae073-122">Créer une application Web AAD.</span><span class="sxs-lookup"><span data-stu-id="ae073-122">Create an AAD Web-Application.</span></span>
-  2. <span data-ttu-id="ae073-123">Attribuez l’autorisation souhaitée à l’exemple applicationFor, **incident. Read. All** , **AdvancedHunting. Read. All**.</span><span class="sxs-lookup"><span data-stu-id="ae073-123">Assign the desired permission to the applicationFor example, **Incident.Read.All** , **AdvancedHunting.Read.All**.</span></span> 
-  3. <span data-ttu-id="ae073-124">Créez une clé pour cette application.</span><span class="sxs-lookup"><span data-stu-id="ae073-124">Create a key for this Application.</span></span>
-  4. <span data-ttu-id="ae073-125">Obtenir un jeton à l’aide de l’application avec sa clé.</span><span class="sxs-lookup"><span data-stu-id="ae073-125">Get token using the application with its key.</span></span>
-  5. <span data-ttu-id="ae073-126">Utiliser le jeton pour accéder à l’API Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="ae073-126">Use the token to access  Microsoft 365 Defender API</span></span>
+<span data-ttu-id="dba00-125">Pour plus d’informations, consultez **[la rubrique créer une application pour accéder à Microsoft 365 Defender sans utilisateur](api-create-app-web.md)**.</span><span class="sxs-lookup"><span data-stu-id="dba00-125">For more information, see **[Create an app to access Microsoft 365 Defender without a user](api-create-app-web.md)**.</span></span>
 
-     <span data-ttu-id="ae073-127">Pour plus d’informations, consultez la rubrique [Get Access with application Context](api-create-app-web.md).</span><span class="sxs-lookup"><span data-stu-id="ae073-127">For more information, see [Get access with application context](api-create-app-web.md).</span></span>
+## <a name="user-context"></a><span data-ttu-id="dba00-126">Contexte utilisateur</span><span class="sxs-lookup"><span data-stu-id="dba00-126">User context</span></span>
 
+<span data-ttu-id="dba00-127">Utilisez ce contexte pour effectuer des actions au nom d’un utilisateur unique.</span><span class="sxs-lookup"><span data-stu-id="dba00-127">Use this context to perform actions on behalf of a single user.</span></span>
 
-- <span data-ttu-id="ae073-128">**Contexte utilisateur :**</span><span class="sxs-lookup"><span data-stu-id="ae073-128">**User Context:**</span></span> <br>
-    <span data-ttu-id="ae073-129">Permet d’effectuer des actions dans l’API pour le compte d’un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="ae073-129">Used to perform actions in the API on behalf of a user.</span></span>
+1. <span data-ttu-id="dba00-128">Créez une application native Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="dba00-128">Create an Azure Active Directory native application.</span></span>
+2. <span data-ttu-id="dba00-129">Attribuez l’autorisation souhaitée à l’application.</span><span class="sxs-lookup"><span data-stu-id="dba00-129">Assign the desired permission to the application.</span></span>
+3. <span data-ttu-id="dba00-130">Obtenir un jeton de sécurité à l’aide des informations d’identification de l’utilisateur pour l’application.</span><span class="sxs-lookup"><span data-stu-id="dba00-130">Get a security token using the user credentials for the application.</span></span>
+4. <span data-ttu-id="dba00-131">Utilisez le jeton pour accéder à l’API Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="dba00-131">Use the token to access  Microsoft 365 Defender API.</span></span>
 
-    <span data-ttu-id="ae073-130">Étapes à suivre pour accéder à l’API Microsoft 365 Defender avec le contexte de l’application :</span><span class="sxs-lookup"><span data-stu-id="ae073-130">Steps that needs to be taken to access  Microsoft 365 Defender API with application context:</span></span>
-  1. <span data-ttu-id="ae073-131">Créer une application native AAD.</span><span class="sxs-lookup"><span data-stu-id="ae073-131">Create AAD Native-Application.</span></span>
-  2. <span data-ttu-id="ae073-132">Attribuez l’autorisation souhaitée à l’application.</span><span class="sxs-lookup"><span data-stu-id="ae073-132">Assign the desired permission to the application.</span></span> <span data-ttu-id="ae073-133">Par exemple, **incident. Read** , **AdvancedHunting. Read**.</span><span class="sxs-lookup"><span data-stu-id="ae073-133">For example, **Incident.Read** , **AdvancedHunting.Read**.</span></span>
-  3. <span data-ttu-id="ae073-134">Obtenir un jeton à l’aide de l’application avec des informations d’identification utilisateur.</span><span class="sxs-lookup"><span data-stu-id="ae073-134">Get token using the application with user credentials.</span></span>
-  4. <span data-ttu-id="ae073-135">Utiliser le jeton pour accéder à l’API Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="ae073-135">Use the token to access  Microsoft 365 Defender API</span></span>
+<span data-ttu-id="dba00-132">Pour plus d’informations, consultez **[la rubrique créer une application pour accéder aux API Microsoft 365 Defender au nom d’un utilisateur](api-create-app-user-context.md)**.</span><span class="sxs-lookup"><span data-stu-id="dba00-132">For more information, see **[Create an app to access Microsoft 365 Defender APIs on behalf of a user](api-create-app-user-context.md)**.</span></span>
 
-     <span data-ttu-id="ae073-136">Pour plus d’informations, consultez la rubrique [Get Access with User Context](api-create-app-user-context.md).</span><span class="sxs-lookup"><span data-stu-id="ae073-136">For more information, see [Get access with user context](api-create-app-user-context.md).</span></span>
+## <a name="partner-context"></a><span data-ttu-id="dba00-133">Contexte partenaire</span><span class="sxs-lookup"><span data-stu-id="dba00-133">Partner context</span></span>
 
+<span data-ttu-id="dba00-134">Utilisez ce contexte lorsque vous devez fournir une application à de nombreux utilisateurs sur [plusieurs clients](https://docs.microsoft.com/azure/active-directory/develop/single-and-multi-tenant-apps).</span><span class="sxs-lookup"><span data-stu-id="dba00-134">Use this context when you need to provide an app to many users across [multiple tenants](https://docs.microsoft.com/azure/active-directory/develop/single-and-multi-tenant-apps).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="ae073-137">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ae073-137">Related topics</span></span>
-- [<span data-ttu-id="ae073-138">API Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="ae073-138">Microsoft 365 Defender APIs</span></span>](api-supported.md)
-- [<span data-ttu-id="ae073-139">Accéder à Microsoft 365 Defender avec le contexte d’application</span><span class="sxs-lookup"><span data-stu-id="ae073-139">Access  Microsoft 365 Defender with application context</span></span>](api-create-app-web.md)
-- [<span data-ttu-id="ae073-140">Accéder à Microsoft 365 Defender avec le contexte utilisateur</span><span class="sxs-lookup"><span data-stu-id="ae073-140">Access  Microsoft 365 Defender with user context</span></span>](api-create-app-user-context.md)
+1. <span data-ttu-id="dba00-135">Créez une application mutualisée mutualisée d’Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="dba00-135">Create an Azure Active Directory multi-tenant application.</span></span>
+2. <span data-ttu-id="dba00-136">Attribuez l’autorisation souhaitée à l’application.</span><span class="sxs-lookup"><span data-stu-id="dba00-136">Assign the desired permission to the application.</span></span>
+3. <span data-ttu-id="dba00-137">Obtenir le consentement de l' [administrateur](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant) pour l’application de chaque client.</span><span class="sxs-lookup"><span data-stu-id="dba00-137">Get [admin consent](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant) for the app from each tenant.</span></span>
+4. <span data-ttu-id="dba00-138">Obtenir un jeton de sécurité à l’aide des informations d’identification de l’utilisateur en fonction de l’ID de client d’un client.</span><span class="sxs-lookup"><span data-stu-id="dba00-138">Get a security token using user credentials based on a customer's tenant ID.</span></span>
+5. <span data-ttu-id="dba00-139">Utilisez le jeton pour accéder à l’API Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="dba00-139">Use the token to access  Microsoft 365 Defender API.</span></span>
+
+<span data-ttu-id="dba00-140">Pour plus d’informations, consultez la rubrique **[créer une application avec un accès partenaire aux API Microsoft 365 Defender](api-partner-access.md)**.</span><span class="sxs-lookup"><span data-stu-id="dba00-140">For more information, see **[Create an app with partner access to Microsoft 365 Defender APIs](api-partner-access.md)**.</span></span>
+
+## <a name="related-articles"></a><span data-ttu-id="dba00-141">Articles connexes</span><span class="sxs-lookup"><span data-stu-id="dba00-141">Related articles</span></span>
+
+- [<span data-ttu-id="dba00-142">Vue d’ensemble des API Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="dba00-142">Microsoft 365 Defender APIs overview</span></span>](api-overview.md)
+- [<span data-ttu-id="dba00-143">Autorisation 2,0 OAuth pour l’authentification de l’utilisateur et l’accès à l’API</span><span class="sxs-lookup"><span data-stu-id="dba00-143">OAuth 2.0 authorization for user sign in and API access</span></span>](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+- [<span data-ttu-id="dba00-144">Gérer les secrets dans vos applications serveur avec le coffre de clés Azure</span><span class="sxs-lookup"><span data-stu-id="dba00-144">Manage secrets in your server apps with Azure Key Vault</span></span>](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
+- [<span data-ttu-id="dba00-145">Créer une application « Hello World » qui accède aux API Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="dba00-145">Create a 'Hello world' application that accesses the Microsoft 365 APIs</span></span>](api-hello-world.md)

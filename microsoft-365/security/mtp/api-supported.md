@@ -1,6 +1,6 @@
 ---
-title: API Microsoft 365 Defender prises en charge
-description: API Microsoft 365 Defender prises en charge
+title: API Microsoft 365 Defender prises en charge
+description: API Microsoft 365 Defender prises en charge
 keywords: MTP, API, API
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
@@ -19,41 +19,45 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b7c0accf2d649d4ad6177260294922ee17783f2c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: dbb7613dae3755b0fb794a3d68b5b424d765cc62
+ms.sourcegitcommit: d6b1da2e12d55f69e4353289e90f5ae2f60066d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48844959"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49719321"
 ---
-# <a name="supported-microsoft-365-defender-apis"></a><span data-ttu-id="a14d3-104">API Microsoft 365 Defender prises en charge</span><span class="sxs-lookup"><span data-stu-id="a14d3-104">Supported Microsoft 365 Defender APIs</span></span> 
+# <a name="supported-microsoft-365-defender-apis"></a><span data-ttu-id="80b8d-104">API Microsoft 365 Defender prises en charge</span><span class="sxs-lookup"><span data-stu-id="80b8d-104">Supported Microsoft 365 Defender APIs</span></span> 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-<span data-ttu-id="a14d3-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="a14d3-105">**Applies to:**</span></span>
-- <span data-ttu-id="a14d3-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="a14d3-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="80b8d-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="80b8d-105">**Applies to:**</span></span>
+- <span data-ttu-id="80b8d-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="80b8d-106">Microsoft 365 Defender</span></span>
 
->[!IMPORTANT] 
-><span data-ttu-id="a14d3-107">Certaines informations se rapportent à des produits précommercialisés susceptibles d’être modifiés de manière substantielle avant leur publication commerciale.</span><span class="sxs-lookup"><span data-stu-id="a14d3-107">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="a14d3-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span><span class="sxs-lookup"><span data-stu-id="a14d3-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="80b8d-107">Certaines informations se rapportent à des produits précommercialisés susceptibles d’être modifiés de manière substantielle avant leur publication commerciale.</span><span class="sxs-lookup"><span data-stu-id="80b8d-107">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="80b8d-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span><span class="sxs-lookup"><span data-stu-id="80b8d-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
 
+## <a name="list-of-available-apis"></a><span data-ttu-id="80b8d-109">Liste des API disponibles</span><span class="sxs-lookup"><span data-stu-id="80b8d-109">List of available APIs</span></span>
 
-### <a name="end-point-uris"></a><span data-ttu-id="a14d3-109">URI de point de terminaison :</span><span class="sxs-lookup"><span data-stu-id="a14d3-109">End Point URIs:</span></span>
+<span data-ttu-id="80b8d-110">Article</span><span class="sxs-lookup"><span data-stu-id="80b8d-110">Article</span></span> | <span data-ttu-id="80b8d-111">Description</span><span class="sxs-lookup"><span data-stu-id="80b8d-111">Description</span></span>
+-|-
+[<span data-ttu-id="80b8d-112">API de recherche avancée de menaces</span><span class="sxs-lookup"><span data-stu-id="80b8d-112">Advanced Hunting API</span></span>](api-advanced-hunting.md) | <span data-ttu-id="80b8d-113">Exécuter des requêtes de chasse avancées.</span><span class="sxs-lookup"><span data-stu-id="80b8d-113">Run Advanced Hunting queries.</span></span>
+[<span data-ttu-id="80b8d-114">API d’incident</span><span class="sxs-lookup"><span data-stu-id="80b8d-114">Incident APIs</span></span>](api-incident.md) | <span data-ttu-id="80b8d-115">Répertorier et mettre à jour les incidents, ainsi que d’autres tâches pratiques.</span><span class="sxs-lookup"><span data-stu-id="80b8d-115">List and update incidents, along with other practical tasks.</span></span>
 
-- <span data-ttu-id="a14d3-110">L’URI de la base de service est : https://api.security.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="a14d3-110">The service base URI is: https://api.security.microsoft.com</span></span> <br>
+### <a name="endpoint-uris"></a><span data-ttu-id="80b8d-116">URI de point de terminaison</span><span class="sxs-lookup"><span data-stu-id="80b8d-116">Endpoint URIs</span></span>
 
->[!NOTE]
-><span data-ttu-id="a14d3-111">Pour de meilleures performances, vous pouvez utiliser le serveur plus près de votre emplacement géographique :</span><span class="sxs-lookup"><span data-stu-id="a14d3-111">For better performance, you can use server closer to your Geo location:</span></span>
-> - <span data-ttu-id="a14d3-112">api-us.security.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="a14d3-112">api-us.security.microsoft.com</span></span>
-> - <span data-ttu-id="a14d3-113">api-eu.security.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="a14d3-113">api-eu.security.microsoft.com</span></span>
-> - <span data-ttu-id="a14d3-114">api-uk.security.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="a14d3-114">api-uk.security.microsoft.com</span></span>
+<span data-ttu-id="80b8d-117">L’URI de base pour les deux API principales est : https://api.security.microsoft.com .</span><span class="sxs-lookup"><span data-stu-id="80b8d-117">The base URI for both of the main APIs is: https://api.security.microsoft.com.</span></span> <span data-ttu-id="80b8d-118">Pour de meilleures performances, utilisez un serveur plus près de votre géolocalisation :</span><span class="sxs-lookup"><span data-stu-id="80b8d-118">For better performance, use a server closer to your geolocation:</span></span>
 
- - <span data-ttu-id="a14d3-115">La ressource pour l’acquisition de jetons doit être : https://api.security.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="a14d3-115">The resource for token acquisition should be: https://api.security.microsoft.com</span></span>
+- <span data-ttu-id="80b8d-119">États-Unis : api-us.security.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="80b8d-119">The United States: api-us.security.microsoft.com</span></span>
+- <span data-ttu-id="80b8d-120">Europe : api-eu.security.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="80b8d-120">Europe: api-eu.security.microsoft.com</span></span>
+- <span data-ttu-id="80b8d-121">Royaume-Uni : api-uk.security.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="80b8d-121">The United Kingdom: api-uk.security.microsoft.com</span></span>
 
- - <span data-ttu-id="a14d3-116">Toutes les API sous ```/api``` chemin d’accès sont des API OData.</span><span class="sxs-lookup"><span data-stu-id="a14d3-116">All the APIs under ```/api``` path are OData APIs.</span></span> <span data-ttu-id="a14d3-117">p ```https://api.security.microsoft.com/api/incidents```</span><span class="sxs-lookup"><span data-stu-id="a14d3-117">e.g. ```https://api.security.microsoft.com/api/incidents```</span></span>
+<span data-ttu-id="80b8d-122">Les jetons peuvent être obtenus en accédant à https://api.security.microsoft.com .</span><span class="sxs-lookup"><span data-stu-id="80b8d-122">Tokens can be acquired by accessing https://api.security.microsoft.com.</span></span>
 
-## <a name="list-of-available-apis"></a><span data-ttu-id="a14d3-118">Liste des API disponibles :</span><span class="sxs-lookup"><span data-stu-id="a14d3-118">List of available APIs:</span></span>
+<span data-ttu-id="80b8d-123">Toutes les API sur le `/api` chemin d’accès utilisent le protocole [OData](https://docs.microsoft.com/odata/overview) , par exemple, https://api.security.microsoft.com/api/incidents .</span><span class="sxs-lookup"><span data-stu-id="80b8d-123">All APIs along the `/api` path use the [OData](https://docs.microsoft.com/odata/overview) Protocol; for example, https://api.security.microsoft.com/api/incidents.</span></span>
 
-<span data-ttu-id="a14d3-119">Rubrique</span><span class="sxs-lookup"><span data-stu-id="a14d3-119">Topic</span></span> | <span data-ttu-id="a14d3-120">Description</span><span class="sxs-lookup"><span data-stu-id="a14d3-120">Description</span></span>
-:---|:---
-[<span data-ttu-id="a14d3-121">API de recherche avancée de menaces</span><span class="sxs-lookup"><span data-stu-id="a14d3-121">Advanced Hunting API</span></span>](api-advanced-hunting.md) | <span data-ttu-id="a14d3-122">Exécuter des requêtes de chasse avancées à partir de l’API.</span><span class="sxs-lookup"><span data-stu-id="a14d3-122">Run Advanced Hunting queries from API.</span></span>
-[<span data-ttu-id="a14d3-123">API d’incident</span><span class="sxs-lookup"><span data-stu-id="a14d3-123">Incident APIs</span></span>](api-incident.md) | <span data-ttu-id="a14d3-124">Exécutez des appels d’API liés aux incidents, tels que : répertorier les incidents, mettre à jour l’incident et plus encore.</span><span class="sxs-lookup"><span data-stu-id="a14d3-124">Run incident related API calls such as: list incidents, update incident and more.</span></span>
+## <a name="related-articles"></a><span data-ttu-id="80b8d-124">Articles connexes</span><span class="sxs-lookup"><span data-stu-id="80b8d-124">Related articles</span></span>
+
+- [<span data-ttu-id="80b8d-125">Vue d’ensemble des API Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="80b8d-125">Microsoft 365 Defender APIs overview</span></span>](api-overview.md)
+- [<span data-ttu-id="80b8d-126">Accéder aux API de protection contre les menaces Microsoft</span><span class="sxs-lookup"><span data-stu-id="80b8d-126">Access the Microsoft Threat Protection APIs</span></span>](api-access.md)
+- [<span data-ttu-id="80b8d-127">En savoir plus sur les limites d’API et la gestion des licences</span><span class="sxs-lookup"><span data-stu-id="80b8d-127">Learn about API limits and licensing</span></span>](api-terms.md)
+- [<span data-ttu-id="80b8d-128">Comprendre les codes d’erreur</span><span class="sxs-lookup"><span data-stu-id="80b8d-128">Understand error codes</span></span>](api-error-codes.md)
