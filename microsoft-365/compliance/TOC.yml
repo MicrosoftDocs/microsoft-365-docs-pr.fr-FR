@@ -172,6 +172,8 @@
           href: office-365-service-encryption.md
         - name: Clé client
           items:
+            - name: "Clé client pour Microsoft\_365 au niveau du client (préversion publique)"
+              href: customer-key-tenant-level.md
             - name: Chiffrement de service avec une clé client dans Office 365
               href: customer-key-overview.md
             - name: "Configurer la clé client pour Office\_365"
