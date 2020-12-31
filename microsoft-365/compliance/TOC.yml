@@ -589,7 +589,7 @@
           items:
             - name: Ajout de consignataires à un cas
               href: add-custodians-to-case.md
-            - name: Ajout en bloc de consignataires à un cas
+            - name: Importer plusieurs consignataires dans un cas
               href: bulk-add-custodians.md
             - name: Gérer dépositaires
               href: manage-new-custodians.md
