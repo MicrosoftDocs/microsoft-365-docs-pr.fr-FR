@@ -120,15 +120,15 @@
           href: document-fingerprinting.md
         - name: Fonctions DLP pour les informations sensibles
           href: what-the-dlp-functions-look-for.md
-    - name: Classifieurs entraînables
+    - name: Classifieurs avec capacité d’apprentissage
       items:
-        - name: Découvrez les classificateurs de formation (préversion)
+        - name: En savoir plus sur les classifieurs avec capacité d’apprentissage
           href: classifier-learn-about.md
-        - name: Prise en main des classificateurs de formation (préversion)
+        - name: Prise en main des classifieurs avec capacité d’apprentissage
           href: classifier-get-started-with.md
-        - name: Comment reformer un classificateur en conformité de communications (préversion)
+        - name: Comment reformer un classifieur en conformité de communications
           href: classifier-how-to-retrain-comms-compliance.md
-        - name: Comment reformer un classificateur en explorateur de contenu (préversion)
+        - name: Comment reformer un classificateur en explorateur de contenu
           href: classifier-how-to-retrain-content-explorer.md
     - name: Classification des données
       items:
@@ -629,7 +629,7 @@
             - name: Requêtes par mots clés et conditions de recherche
               href: keyword-queries-and-search-conditions.md
             - name: Statistiques de recherche
-              href: search-statistics.md
+              href: search-statistics-in-advanced-ediscovery.md
             - name: Ajouter des résultats de recherche à un jeu à réviser
               href: add-data-to-review-set.md
         - name: Gérer les jeux à réviser
@@ -792,83 +792,6 @@
               href: run-reports-in-advanced-ediscovery.md
     - name: Retrait des outils eDiscovery hérités
       href: legacy-ediscovery-retirement.md
-- name: Gestion des investigations de données
-  items:
-    - name: Vue d’ensemble des investigations de données
-      href: overview-data-investigations.md
-    - name: Gérer un incident d’écoulement de données
-      href: manage-data-spillage-incidents.md
-    - name: Affecter des autorisations pour les investigations de données
-      href: data-investigations-permissions.md
-    - name: Créer une nouvelle investigation
-      href: create-new-investigation.md
-    - name: Rechercher des données dans une investigation
-      href: search-for-data.md
-      items:
-        - name: Créer des requêtes de recherche
-          href: build-search-queries.md
-        - name: Statistiques de recherche
-          href: search-statistics.md
-    - name: Consulter les données dans des preuves
-      href: review-data-in-evidence.md
-      items:
-        - name: Envoyer une requête
-          href: evidence-query.md
-        - name: Baliser des documents
-          href: tag-documents.md
-        - name: Annoter et préparer des documents pour la publication
-          href: annotate-and-redact-documents.md
-        - name: Charger des données n’appartenant pas à Office 365
-          href: load-non-office365-data.md
-        - name: Correction d’erreur lors du traitement des données
-          href: error-remediation.md
-        - name: Supprimer des éléments de leur emplacement d’origine
-          href: delete-items-from-original-locations.md
-    - name: Exécuter les données d’analyse pour investiguer plus rapidement
-      href: run-analytics-to-investigate-faster.md
-      items:
-        - name: Threading de messagerie
-          href: email-threading.md
-        - name: Détection des quasi-duplicatas
-          href: near-duplicates.md
-        - name: Thèmes
-          href: themes.md
-        - name: Utiliser le module de pertinence
-          href: use-relevance-module.md
-    - name: Gérer les personnes d’intérêt dans une investigation
-      href: manage-people-of-interest.md
-      items:
-        - name: Indexer les données de personnes dans une investigation
-          href: index-data-people-of-interest.md
-        - name: Afficher l’activité d’audit de personnes dans une investigation
-          href: view-people-of-interest-activity.md
-    - name: Exporter des données à partir d’une investigation
-      href: export-data.md
-      items:
-        - name: Exporter des documents à partir de preuves
-          href: export-documents-from-incident.md
-        - name: Télécharger l’exportation des travaux
-          href: download-export-jobs-from-a-data-investigation.md
-    - name: Configurer les paramètres d’investigation
-      items:
-        - name: Ajouter ou supprimer des membres à partir d’une investigation
-          href: add-remove-members.md
-        - name: Configurer les paramètres de recherche et d’analyse
-          href: configure-search-analytics-settings.md
-        - name: Fermer ou supprimer une investigation
-          href: close-or-delete-investigation.md
-    - name: Référence des investigations de données
-      items:
-        - name: Notes de publication
-          href: data-investigations-release-notes.md
-        - name: Limites des investigations de données
-          href: limits-datainvestigations.md
-        - name: Types de fichiers pris en charge
-          href: supported-filetypes-datainvestigations.md
-        - name: Champs de métadonnées de document
-          href: document-metadata-fields.md
-        - name: Gérer les tâches
-          href: manage-jobs.md
 - name: Gérer les conversations
   items:
     - name: Comment identifier le type de conservation placé sur une boîte aux lettres
