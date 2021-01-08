@@ -1,59 +1,59 @@
-- name: Formation Microsoft 365 pour les petites entreprises
+- name: "Formation Microsoft\_365 pour les petites entreprises"
   href: index.yml
   items:
     - name: Prise en main
       items:
-        - name: Qu’est-ce que Microsoft 365
+        - name: "Qu’est-ce que Microsoft\_365\_?"
           href: what-is-microsoft-365.md
         - name: Vue d’ensemble de la configuration
           href: setup-overview.md
-        - name: Choisir un abonnement
+        - name: Choisissez un abonnement
           href: Choose-subscription.md
-    - name: Configuration Cloud
+    - name: Configuration cloud
       items:
-        - name: Inscription à un abonnement
+        - name: S’inscrire pour un abonnement
           href: sign-up.md
         - name: Configurer le service
           href: set-up.md
-        - name: Sécurisation des PC Windows 10
+        - name: "Sécuriser les PC Windows\_10"
           href: secure-win10-pcs.md
-        - name: Créer un site Web GoDaddy
+        - name: Créer un site web GoDaddy
           href: create-web-site.md
-    - name: Configuration de l’appareil
+    - name: Configuration des appareils
       items:
-        - name: Mise à niveau vers Windows 10 professionnel
+        - name: "Mettre à niveau vers Windows\_10 Professionnel"
           href: upgrade.md
-        - name: Connecter des PC à Microsoft 365
+        - name: "Connecter des PC à Microsoft\_365\_Business Premium"
           href: connect.md
-        - name: Installer les applications Microsoft Office
+        - name: Installer des applications Microsoft Office
           href: install-office.md
         - name: Configurer Outlook pour le courrier électronique
           href: setup-outlook.md
-        - name: Importer et rediriger le courrier
+        - name: Importer et rediriger un courrier
           href: import-email.md
-        - name: Déplacer vos fichiers vers OneDrive
+        - name: Déplacer vos fichiers sur OneDrive
           href: files-to-onedrive.md
-        - name: Déplacer des fichiers de société vers SharePoint
+        - name: Déplacer des fichiers de l’entreprise sur SharePoint
           href: files-to-sharepoint.md
     - name: Mobile
       items:
-        - name: Travailler de n’importe où
+        - name: Travailler en tout lieu
           href: work-from-anywhere.md
-        - name: Installer des applications Office sur Android
+        - name: Installer des applications sur Android
           href: install-apps-android.md
-        - name: Installer des applications Office sur iOS
+        - name: Installer des applications sur iOS
           href: install-apps-ios.md
-        - name: Obtenir l’application mobile d’administration
+        - name: Télécharger l’application mobile Admin
           href: admin-mobile.md
     - name: Collaborer
       items:
         - name: Utiliser Outlook et Teams
           href: collab-outlook-teams.md
-        - name: Créer une adresse de messagerie de groupe
+        - name: Créer une adresse e-mail de groupe
           href: group-email.md
         - name: Créer un calendrier partagé
           href: shared-calendar.md
-        - name: Créer une équipe à l’échelle de l’Organisation
+        - name: Créer une équipe à l’échelle de l’organisation dans Teams
           href: org-wide-team.md
         - name: Créer une équipe avec des invités
           href: team-with-guests.md
@@ -63,33 +63,33 @@
           href: start-and-pin-chats.md
         - name: Vue d’ensemble des réunions en ligne
           href: overview-online-meetings.md
-        - name: Planifier une réunion avec des invités
+        - name: Planifier une réunion Teams avec des invités
           href: schedule-guest-meeting.md
-        - name: Participer à une réunion avec des invités
+        - name: Rejoindre une réunion Teams avec des invités
           href: join-guest-meeting.md
     - name: Stockage cloud
       items:
-        - name: Vue d’ensemble du partage
+        - name: Présentation du partage
           href: overview-file-sharing.md
-        - name: Emplacement de stockage des fichiers
+        - name: Choisir un emplacement de stockage pour vos fichiers
           href: store-files.md
-        - name: Partager des fichiers en toute sécurité en externe
+        - name: Partager en toute sécurité des fichiers en externe
           href: securely-share-files-externally.md
-        - name: Partager facilement des fichiers en externe
+        - name: Partager aisément des fichiers en externe
           href: share-files-externally.md
-    - name: Voix entreprise
+    - name: "Business\_Voice"
       items:
-        - name: Vue d’ensemble de la fonctionnalité voix entreprise
+        - name: Vue d’ensemble de Business Voice
           href: business-voice.md
-        - name: Acheter un complément voix entreprise
+        - name: Acheter le module complémentaire Business Voice
           href: buy-business-voice.md
     - name: Applications de productivité
       items:
-        - name: Vue d’ensemble des réservations
+        - name: Vue d’ensemble de Bookings
           href: overview-bookings.md
         - name: Planifier un événement
           href: plan-event.md
-    - name: Gérer des services
+    - name: Gérer les services
       items:
         - name: "Qu’est-ce qu’un administrateur\_?"
           href: what-is-admin.md
@@ -97,11 +97,13 @@
           href: admin-center-overview.md
         - name: 'Afficher, télécharger ou imprimer votre facture'
           href: view-bill.md
+        - name: Acheter de nouvelles licences
+          href: buy-licenses.md
         - name: Mettre à jour votre mode de paiement
           href: update-payment.md
-        - name: Réinitialiser les mots de passe utilisateur
+        - name: Réinitialiser les mots de passe des utilisateurs
           href: reset-user-passwords.md
-        - name: Configurer la réinitialisation du mot de passe en libre-service
+        - name: Utiliser la réinitialisation de mot de passe en libre-service
           href: set-up-self-serve-password-reset.md
         - name: Ajouter un utilisateur
           href: add-user.md
@@ -109,37 +111,37 @@
           href: delete-user.md
         - name: Ajouter un autre administrateur
           href: add-admin.md
-        - name: Modifier un nom d’utilisateur ou un message électronique
+        - name: Modifier un nom d’utilisateur et une adresse de messagerie
           href: change-user-name-email.md
         - name: Transférer des utilisateurs vers un autre abonnement
           href: change-subscription.md
-        - name: Créer une signature à l’échelle de l’entreprise
+        - name: Créer une signature pour toute l’entreprise
           href: company-wide-signature.md
-        - name: Agir sur le rapport d’utilisation
+        - name: Prendre des mesures sur la base du rapport sur l’utilisation
           href: act-on-report.md
         - name: Ajouter un autre domaine
           href: add-domain.md
     - name: Gestion des appareils
       items:
-        - name: Sécuriser les appareils Windows 10 professionnel
+        - name: "Sécuriser les appareils Windows\_10"
           href: secure-win-10-pro-devices.md
         - name: Sécuriser les applications Office sur iOS
           href: secure-office-on-ios.md
-    - name: Sécurité & conformité
+    - name: Sécurité et conformité
       items:
-        - name: Vue d’ensemble de la sécurité Microsoft 365 Business Premium
+        - name: "Vue d’ensemble de la sécurité de Microsoft\_365 Business Premium"
           href: overview-m365-security.md
-        - name: Sécuriser les comptes d’employés avec l’authentification multifacteur
+        - name: Sécuriser les comptes des employés avec une authentification multifacteur
           href: turn-on-mfa.md
         - name: Configurer la connexion à deux facteurs sur votre téléphone
           href: set-up-mfa.md
-        - name: Activer la détection des programmes malveillants
+        - name: Activer la détection de programmes malveillants
           href: anti-malware.md
-        - name: Créer des règles de messagerie pour les ransomware
+        - name: Créer des règles pour vos e-mails pour les rançongiciels
           href: prevent-ransom-in-email.md
-        - name: Arrêter les messages électroniques de transfert automatique
+        - name: Arrêter le transfert automatique d’e-mails
           href: stop-email-auto-forward.md
-        - name: Configurer le hameçonnage
+        - name: Configurer les stratégies d’anti-hameçonnage et d’anti-hameçonnage
           href: setup-anti-phishing.md
         - name: Gérer les pièces jointes fiables
           href: safe-attachments.md
@@ -149,11 +151,11 @@
           href: set-up-dlp.md
         - name: Créer des étiquettes de sensibilité
           href: create-sensitivity-labels.md
-    - name: Support
+    - name: Assistance
       items:
         - name: Trouver des réponses et de l’aide
           href: find-help-answers.md
-        - name: Obtenir de l’aide ou de l’assistance
+        - name: Obtenir de l’aide ou une assistance technique
           href: get-help-support.md
-        - name: Installation rapide de l’employé
+        - name: Configuration rapide pour les employés
           href: employee-quick-setup.md
