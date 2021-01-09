@@ -8,6 +8,8 @@
           href: top-security-tasks-for-remote-work.md
         - name: Sécurité Microsoft 365 pour les décideurs d’entreprise
           href: Microsoft-365-security-for-bdm.md
+        - name: Recommandations de sécurité pour les comptes prioritaires
+          href: ./office-365-security/security-recommendations-for-priority-accounts.md
     - name: Configurations des identités et de l’accès aux appareils
       href: ./office-365-security/microsoft-365-policies-configurations.md
       items:
@@ -420,8 +422,6 @@
               href: ./office-365-security/email-validation-and-authentication.md
             - name: Donner aux utilisateurs l’accès au Centre de sécurité
               href: ./office-365-security/grant-access-to-the-security-and-compliance-center.md
-            - name: Recommandations de sécurité pour les comptes prioritaires
-              href: ./office-365-security/security-recommendations-for-priority-accounts.md
             - name: "Documents sécurisés dans\_Defender pour Office\_365"
               href: ./office-365-security/safe-docs.md
             - name: "Configurer les stratégies de la fonctionnalité Liens fiables dans Defender pour Office\_365"
