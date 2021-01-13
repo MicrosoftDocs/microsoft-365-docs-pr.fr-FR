@@ -796,9 +796,9 @@
       items:
         - name: "Configuration de la Gestion des droits relatifs à l’information (IRM) pour utiliser un serveur AD\_RMS local"
           href: configure-irm-to-use-an-on-premises-ad-rms-server.md
-- name: "Office\_365 Entreprise"
-  href: 'https://docs.microsoft.com/Office365/Enterprise'
-- name: "Applications Microsoft\_365 pour les entreprises"
-  href: 'https://docs.microsoft.com/office365/admin/admin-home'
+- name: "Microsoft\_365 Entreprise"
+  href: 'https://docs.microsoft.com/microsoft-365/enterprise/'
 - name: "Sécurité Microsoft\_365"
   href: 'https://docs.microsoft.com/microsoft-365/security/'
+- name: "Applications Microsoft\_365 pour les entreprises"
+  href: 'https://docs.microsoft.com/office365/admin/admin-home'
