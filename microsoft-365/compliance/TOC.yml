@@ -241,6 +241,8 @@
           href: endpoint-dlp-learn-about.md
         - name: Prise en main des points de terminaison de protection contre la perte de données
           href: endpoint-dlp-getting-started.md
+        - name: Configurer les paramètres de proxy et de connexion Internet pour la protection contre la perte de données de point de terminaison
+          href: endpoint-dlp-configure-proxy.md
         - name: Utilisation des points de terminaison protection contre la perte de données
           href: endpoint-dlp-using.md
         - name: "Outils et méthodes d’intégration DLP pour les points de terminaison pour les appareils Windows\_10"
@@ -463,7 +465,7 @@
           href: retention-regulatory-requirements.md
 - name: Gestion de l’eDiscovery
   items:
-    - name: eDiscovery dans Microsoft 365
+    - name: "Solutions eDiscovery Microsoft\_365"
       href: ediscovery.md
     - name: Recherche de contenu
       items:
@@ -580,9 +582,11 @@
       items:
         - name: Présentation de Advanced eDiscovery
           href: overview-ediscovery-20.md
-        - name: Prise en main Advanced eDiscovery
+        - name: Configurer Advanced eDiscovery
           href: get-started-with-advanced-ediscovery.md
-        - name: Utilisation des sources de données consignataires et non consignataires
+        - name: Créer un cas d’ Advanced eDiscovery
+          href: create-and-manage-advanced-ediscoveryv2-case.md
+        - name: Gérer des sources de données consignataires et non consignataires
           href: managing-custodians.md
           items:
             - name: Ajout de consignataires à un cas
@@ -595,7 +599,7 @@
               href: view-custodian-activity.md
             - name: Ajout de sources de données non consignataires à un cas
               href: non-custodial-data-sources.md
-        - name: Utiliser des communications
+        - name: Gérer les communications de consignataires
           href: managing-custodian-communications.md
           items:
             - name: Créer une notification de conservation
@@ -608,7 +612,7 @@
               href: acknowledge-hold-notification.md
         - name: Gérer les suspensions
           href: managing-holds.md
-        - name: Utiliser les erreurs de traitement
+        - name: Gérer les erreurs de traitement
           href: processing-data-for-case.md
           items:
             - name: Indexation avancée des données des consignataires
@@ -677,6 +681,8 @@
               href: configure-search-and-analytics-settings-in-advanced-ediscovery.md
         - name: "Référence d’Advanced\_eDiscovery"
           items:
+            - name: Alignement d’Advanced eDiscovery avec EDRM
+              href: advanced-ediscovery-edrm.md
             - name: Limites d’Advanced eDiscovery
               href: limits-ediscovery20.md
             - name: Types de fichiers pris en charge
@@ -796,9 +802,9 @@
       items:
         - name: "Configuration de la Gestion des droits relatifs à l’information (IRM) pour utiliser un serveur AD\_RMS local"
           href: configure-irm-to-use-an-on-premises-ad-rms-server.md
-- name: "Microsoft\_365 Entreprise"
+- name: "Microsoft\_365\_Entreprise"
   href: 'https://docs.microsoft.com/microsoft-365/enterprise/'
 - name: "Sécurité Microsoft\_365"
   href: 'https://docs.microsoft.com/microsoft-365/security/'
-- name: "Applications Microsoft\_365 pour les entreprises"
+- name: "Microsoft\_365 Apps for business"
   href: 'https://docs.microsoft.com/office365/admin/admin-home'
