@@ -24,6 +24,8 @@
           href: setup/o365-setup-wizard-and-setup-page.md
         - name: "Sécuriser des ordinateurs Windows\_10"
           href: ../business/secure-win-10-pcs.md
+        - name: Télécharger des logiciels et des clés de produit
+          href: setup/download-software-licenses-csp.md
         - name: Installer les applications Office
           href: setup/install-applications.md
         - name: Configuration des appareils windows
@@ -360,12 +362,32 @@
               href: basic-mobility-security/overview.md
             - name: "Comparez la fonction Mobility\_+\_Security de Base et Intune"
               href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
-            - name: "FAQ Mobility\_+\_Security de Base"
-              href: basic-mobility-security/frequently-asked-questions.md
             - name: "Fonctionnalités Mobility\_+\_Security de Base"
               href: basic-mobility-security/capabilities.md
-            - name: "Comparez la fonction Mobility\_+\_Security de Base et Intune"
-              href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
+            - name: "Configurer Mobility\_+\_Security"
+              href: basic-mobility-security/set-up.md
+            - name: Créer des stratégies de sécurité d’appareils
+              href: basic-mobility-security/create-device-security-policies.md
+            - name: Configurer un certificat APNs pour les appareils iOS
+              href: basic-mobility-security/create-an-apns-certificate-for-ios-devices.md
+            - name: Gérer les paramètres d’accès aux appareils
+              href: basic-mobility-security/manage-device-access-settings.md
+            - name: Obtenir des détails sur les appareils gérés
+              href: basic-mobility-security/get-details-about-managed-devices.md
+            - name: Gérer les appareils inscrits
+              href: basic-mobility-security/manage-enrolled-devices.md
+            - name: Inscrire votre appareil mobile
+              href: basic-mobility-security/enroll-your-mobile-device.md
+            - name: Confidentialité et sécurité
+              href: basic-mobility-security/privacy-and-security.md
+            - name: Foire aux questions
+              href: basic-mobility-security/frequently-asked-questions.md
+            - name: Effacer des appareils mobiles
+              href: basic-mobility-security/wipe-mobile-device.md
+            - name: "Désactiver l’option Mobility\_et\_Security de base"
+              href: basic-mobility-security/turn-off.md
+            - name: Résoudre des problèmes
+              href: basic-mobility-security/troubleshoot.md
     - name: Collaborer avec les clients
       href: work-with-customers/index.yml
       items:
