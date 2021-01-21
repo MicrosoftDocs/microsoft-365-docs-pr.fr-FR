@@ -93,6 +93,22 @@
           href: information-protection-deploy-monitor-respond.md
 - name: Scénarios et solutions de charge de travail
   items:
+    - name: Vue d’ensemble
+      href: workload-solutions-scenarios-overview.md
+    - name: Gérez les clients
+      items:
+        - name: Vue d’ensemble
+          href: tenant-management-overview.md
+        - name: Étape 1. Vos clients
+          href: tenant-management-tenants.md
+        - name: "Étape\_2. Mise en réseau optimale"
+          href: tenant-management-networking.md
+        - name: "Étape\_3. Identité"
+          href: tenant-management-identity.md
+        - name: "Étape\_4. Migration"
+          href: tenant-management-migration.md
+        - name: "Étape\_5. Données de gestion des appareils et des applications"
+          href: tenant-management-device-management.md
     - name: Travail en équipe et collaboration
       items:
         - name: Affiches sur l’architecture Teams
