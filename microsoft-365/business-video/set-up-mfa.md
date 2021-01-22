@@ -1,5 +1,5 @@
 ---
-title: Configurer la connexion multifacteur sur votre téléphone
+title: Configurer la sign-in multi-facteur sur votre téléphone
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,38 +16,39 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Découvrez comment configurer l’authentification multifacteur sur votre téléphone.
-ms.openlocfilehash: 0f86b93514f974d440ed2f58ee837ce9b497a53c
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: b682ec58c73d90b0936c107ab8fef1de5aff867d
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49702365"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49925933"
 ---
-# <a name="set-up-multi-factor-authentication-on-your-phone"></a><span data-ttu-id="a4b58-103">Configurer l’authentification multifacteur sur votre téléphone</span><span class="sxs-lookup"><span data-stu-id="a4b58-103">Set up multi-factor authentication on your phone</span></span>
+# <a name="set-up-multi-factor-authentication-on-your-phone"></a><span data-ttu-id="70371-103">Configurer l’authentification multifacteur sur votre téléphone</span><span class="sxs-lookup"><span data-stu-id="70371-103">Set up multi-factor authentication on your phone</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MmQR?autoplay=false]
 
-<span data-ttu-id="a4b58-104">L’authentification multifacteur offre davantage de sécurité pour votre entreprise.</span><span class="sxs-lookup"><span data-stu-id="a4b58-104">Multi-factor authentication provides more security for your business.</span></span> <span data-ttu-id="a4b58-105">Procédez comme suit pour le configurer.</span><span class="sxs-lookup"><span data-stu-id="a4b58-105">Follow these steps to set it up.</span></span>
+<span data-ttu-id="70371-104">L’authentification multifacteur offre une sécurité renforcée pour votre entreprise.</span><span class="sxs-lookup"><span data-stu-id="70371-104">Multi-factor authentication provides more security for your business.</span></span> <span data-ttu-id="70371-105">Suivez ces étapes pour la configurer.</span><span class="sxs-lookup"><span data-stu-id="70371-105">Follow these steps to set it up.</span></span>
 
-## <a name="try-it"></a><span data-ttu-id="a4b58-106">Essayez !</span><span class="sxs-lookup"><span data-stu-id="a4b58-106">Try it!</span></span>
+## <a name="try-it"></a><span data-ttu-id="70371-106">Essayez !</span><span class="sxs-lookup"><span data-stu-id="70371-106">Try it!</span></span>
 
-1. <span data-ttu-id="a4b58-107">Lorsque vous vous connectez à [https://office.com](https://office.com) , vous verrez l’invite **more information required** .</span><span class="sxs-lookup"><span data-stu-id="a4b58-107">When you sign in to [https://office.com](https://office.com), you'll see the **More information required** prompt.</span></span> <span data-ttu-id="a4b58-108">Cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="a4b58-108">Choose **Next**.</span></span>
-1. <span data-ttu-id="a4b58-109">Sous **étape 1**, choisissez **application mobile** dans la liste déroulante **téléphone d’authentification** .</span><span class="sxs-lookup"><span data-stu-id="a4b58-109">Under **Step 1**, choose **Mobile app** from the **Authentication phone** drop-down list.</span></span>
-1. <span data-ttu-id="a4b58-110">Sous Comment voulez-vous utiliser l’application mobile ?, sélectionnez la méthode que vous souhaitez utiliser pour vous connecter :</span><span class="sxs-lookup"><span data-stu-id="a4b58-110">Under How do you want to use the mobile app?, select the method you want to use to sign in:</span></span>
-    - <span data-ttu-id="a4b58-111">Sélectionnez **recevoir les notifications de vérification** pour s’authentifier directement à partir de votre application mobile, qui peut inclure l’authentification par empreinte digitale.</span><span class="sxs-lookup"><span data-stu-id="a4b58-111">Select **Receive notifications for verification** to authenticate directly from your mobile app, which may include fingerprint authentication.</span></span>
-    - <span data-ttu-id="a4b58-112">Sélectionnez **utiliser le code de vérification** pour entrer un nouveau code de vérification chaque fois que vous vous authentifiez.</span><span class="sxs-lookup"><span data-stu-id="a4b58-112">Select **Use verification code** to enter a new verification code each time you authenticate.</span></span>
-1. <span data-ttu-id="a4b58-113">Sélectionnez **Configurer**.</span><span class="sxs-lookup"><span data-stu-id="a4b58-113">Choose **Set up**.</span></span>
-1. <span data-ttu-id="a4b58-114">Laissez la fenêtre **configurer l’application mobile** ouverte sur votre ordinateur.</span><span class="sxs-lookup"><span data-stu-id="a4b58-114">Leave the **Configure mobile app** window open on your computer.</span></span>
-1. <span data-ttu-id="a4b58-115">Sur votre appareil mobile, accédez au magasin d’applications, recherchez « Microsoft Authenticator », sélectionnez-le, installez-le, puis ouvrez-le.</span><span class="sxs-lookup"><span data-stu-id="a4b58-115">On your mobile device, go to the app store, search for "Microsoft Authenticator," select it, install it, and open it.</span></span>
-1. <span data-ttu-id="a4b58-116">Dans l’authentificateur, suivez les invites pour terminer l’Assistant, puis choisissez le signe plus (+) pour ajouter votre compte.</span><span class="sxs-lookup"><span data-stu-id="a4b58-116">In Authenticator, follow the prompts to complete the wizard, and then choose the plus (+) sign to add your account.</span></span>
-1. <span data-ttu-id="a4b58-117">Choisissez un **compte professionnel ou scolaire**, choisissez **autoriser** lorsque vous êtes invité à prendre des photos et enregistrer une vidéo, puis suivez les instructions pour numériser le code QR dans la fenêtre ouverte de votre ordinateur.</span><span class="sxs-lookup"><span data-stu-id="a4b58-117">Choose **Work or school account**, choose **Allow** when prompted for permission to take pictures and record video, and then follow the instructions to scan the QR code in the open window on your computer.</span></span>
-1. <span data-ttu-id="a4b58-118">Une fois que le compte a été ajouté, sélectionnez **obtenu**.</span><span class="sxs-lookup"><span data-stu-id="a4b58-118">After the account has been added, choose **Got It**.</span></span>
-1. <span data-ttu-id="a4b58-119">Sur votre ordinateur, cliquez sur **suivant**, puis de nouveau sur **suivant** .</span><span class="sxs-lookup"><span data-stu-id="a4b58-119">On your computer, choose **Next**, and then choose **Next** again.</span></span>
-1. <span data-ttu-id="a4b58-120">Notez le code qui s’affiche sur votre appareil mobile, entrez le code sur votre ordinateur dans le champ à l' **étape 2**, puis cliquez sur **vérifier**.</span><span class="sxs-lookup"><span data-stu-id="a4b58-120">Make a note of the code that appears on your mobile device, enter the code on your computer in the box under **Step 2**, and then choose **Verify**.</span></span>
-1. <span data-ttu-id="a4b58-121">Dans les zones de l' **étape 3**, entrez un numéro de téléphone de sauvegarde, comme votre numéro de bureau, choisissez **suivant**, puis sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="a4b58-121">In the boxes under **Step 3**, enter a backup phone number, such as your office number, choose **Next**, and then choose **Done**.</span></span>
+1. <span data-ttu-id="70371-107">Lorsque vous vous [https://office.com](https://office.com) connectez, l’invite Plus **d’informations requises** s’affiche.</span><span class="sxs-lookup"><span data-stu-id="70371-107">When you sign in to [https://office.com](https://office.com), you'll see the **More information required** prompt.</span></span> <span data-ttu-id="70371-108">Cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="70371-108">Choose **Next**.</span></span>
+1. <span data-ttu-id="70371-109">Sous **l’étape 1,** choisissez **Application mobile dans** la liste de listes de listes des téléphones d’authentification. </span><span class="sxs-lookup"><span data-stu-id="70371-109">Under **Step 1**, choose **Mobile app** from the **Authentication phone** drop-down list.</span></span>
+1. <span data-ttu-id="70371-110">Sous Comment voulez-vous utiliser l’application mobile ?, sélectionnez la méthode à utiliser pour vous inscrire :</span><span class="sxs-lookup"><span data-stu-id="70371-110">Under How do you want to use the mobile app?, select the method you want to use to sign in:</span></span>
+    - <span data-ttu-id="70371-111">Sélectionnez **Recevoir des notifications pour vérification** afin de vous authentifier directement à partir de votre application mobile, ce qui peut inclure l’authentification par empreinte digitale.</span><span class="sxs-lookup"><span data-stu-id="70371-111">Select **Receive notifications for verification** to authenticate directly from your mobile app, which may include fingerprint authentication.</span></span>
+    - <span data-ttu-id="70371-112">Sélectionnez **Utiliser le code de vérification** pour entrer un nouveau code de vérification chaque fois que vous vous authentifier.</span><span class="sxs-lookup"><span data-stu-id="70371-112">Select **Use verification code** to enter a new verification code each time you authenticate.</span></span>
+1. <span data-ttu-id="70371-113">Sélectionnez **Configurer**.</span><span class="sxs-lookup"><span data-stu-id="70371-113">Choose **Set up**.</span></span>
+1. <span data-ttu-id="70371-114">Laissez la **fenêtre Configurer l’application mobile** ouverte sur votre ordinateur.</span><span class="sxs-lookup"><span data-stu-id="70371-114">Leave the **Configure mobile app** window open on your computer.</span></span>
+1. <span data-ttu-id="70371-115">Sur votre appareil mobile, allez dans l’App Store, recherchez « Microsoft Authenticator », sélectionnez-le, installez-le et ouvrez-le.</span><span class="sxs-lookup"><span data-stu-id="70371-115">On your mobile device, go to the app store, search for "Microsoft Authenticator," select it, install it, and open it.</span></span>
+1. <span data-ttu-id="70371-116">Dans Authenticator, suivez les invites pour terminer l’Assistant, puis choisissez le signe plus (+) pour ajouter votre compte.</span><span class="sxs-lookup"><span data-stu-id="70371-116">In Authenticator, follow the prompts to complete the wizard, and then choose the plus (+) sign to add your account.</span></span>
+1. <span data-ttu-id="70371-117">Choisissez **un compte** scolaire  ou scolaire, choisissez Autoriser lorsque vous y avez demandé l’autorisation de prendre des photos et d’enregistrer des vidéos, puis suivez les instructions pour analyser le code QR dans la fenêtre ouverte de votre ordinateur.</span><span class="sxs-lookup"><span data-stu-id="70371-117">Choose **Work or school account**, choose **Allow** when prompted for permission to take pictures and record video, and then follow the instructions to scan the QR code in the open window on your computer.</span></span>
+1. <span data-ttu-id="70371-118">Une fois que le compte a été ajouté, sélectionnez **Got It**.</span><span class="sxs-lookup"><span data-stu-id="70371-118">After the account has been added, choose **Got It**.</span></span>
+1. <span data-ttu-id="70371-119">Sur votre ordinateur, choisissez **Suivant,** puis choisissez **à nouveau Suivant.**</span><span class="sxs-lookup"><span data-stu-id="70371-119">On your computer, choose **Next**, and then choose **Next** again.</span></span>
+1. <span data-ttu-id="70371-120">Notez le code qui apparaît sur votre appareil mobile, entrez le code sur votre ordinateur dans la zone sous Étape **2,** puis choisissez **Vérifier**.</span><span class="sxs-lookup"><span data-stu-id="70371-120">Make a note of the code that appears on your mobile device, enter the code on your computer in the box under **Step 2**, and then choose **Verify**.</span></span>
+1. <span data-ttu-id="70371-121">Dans les zones sous **Étape 3,** entrez un numéro de téléphone de sauvegarde, tel que votre numéro de bureau, choisissez **Suivant,** puis choisissez **Terminé.**</span><span class="sxs-lookup"><span data-stu-id="70371-121">In the boxes under **Step 3**, enter a backup phone number, such as your office number, choose **Next**, and then choose **Done**.</span></span>
