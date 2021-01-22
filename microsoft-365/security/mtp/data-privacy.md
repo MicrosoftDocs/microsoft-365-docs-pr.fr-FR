@@ -1,9 +1,9 @@
 ---
-title: Sécurité et confidentialité des données Microsoft 365 Defender
+title: Sécurité et confidentialité des données de Microsoft 365 Defender
 description: Décrit la confidentialité et la sécurité des données du service.
 keywords: confidentialité, données, sécurité, centre de gestion de la confidentialité, collecte d’informations
 search.product: eADQiWindows 10XVcnh
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -19,27 +19,28 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8ed9c4c2601e0026d074aeb05964a8282239b55e
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.technology: m365d
+ms.openlocfilehash: 70a3c881c2f68aacdeac00e615f3d09ed90c9f1e
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843899"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49932045"
 ---
-# <a name="microsoft-365-defender-data-security-and-privacy"></a><span data-ttu-id="a0de3-104">Sécurité et confidentialité des données Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="a0de3-104">Microsoft 365 Defender data security and privacy</span></span>
+# <a name="microsoft-365-defender-data-security-and-privacy"></a><span data-ttu-id="47381-104">Sécurité et confidentialité des données de Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="47381-104">Microsoft 365 Defender data security and privacy</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="a0de3-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="a0de3-105">**Applies to:**</span></span>
-- <span data-ttu-id="a0de3-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="a0de3-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="47381-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="47381-105">**Applies to:**</span></span>
+- <span data-ttu-id="47381-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="47381-106">Microsoft 365 Defender</span></span>
 
-<span data-ttu-id="a0de3-107">Microsoft 365 Defender fonctionne dans les centres de données Microsoft Azure dans l’Union européenne, le Royaume-Uni et les États-Unis.</span><span class="sxs-lookup"><span data-stu-id="a0de3-107">Microsoft 365 Defender operates in Microsoft Azure data centers in the European Union, The United Kingdom, and the United States.</span></span> <span data-ttu-id="a0de3-108">Les données client collectées par le service sont stockées au repos dans (a) l’emplacement géographique du client tel qu’identifié lors de la mise en service ou, (b) si Microsoft 365 Defender utilise un autre service Microsoft Online pour traiter ces données, la géolocalisation, telle que définie par les règles de stockage de données de cet autre service en ligne.</span><span class="sxs-lookup"><span data-stu-id="a0de3-108">Customer data collected by the service is stored at rest in (a) the geographic location of the tenant as identified during provisioning or, (b) if Microsoft 365 Defender uses another Microsoft online service to process such data, the geolocation as defined by the data storage rules of that other online service.</span></span>
+<span data-ttu-id="47381-107">Microsoft 365 Defender fonctionne dans les centres de données Microsoft Azure dans l’Union européenne, le Royaume-Uni et les États-Unis.</span><span class="sxs-lookup"><span data-stu-id="47381-107">Microsoft 365 Defender operates in Microsoft Azure data centers in the European Union, The United Kingdom, and the United States.</span></span> <span data-ttu-id="47381-108">Les données client collectées par le service sont stockées au repos dans (a) l’emplacement géographique du client identifié lors de l’approvisionnement ou(b) si Microsoft 365 Defender utilise un autre service en ligne Microsoft pour traiter ces données, la géolocalisation telle que définie par les règles de stockage des données de cet autre service en ligne.</span><span class="sxs-lookup"><span data-stu-id="47381-108">Customer data collected by the service is stored at rest in (a) the geographic location of the tenant as identified during provisioning or, (b) if Microsoft 365 Defender uses another Microsoft online service to process such data, the geolocation as defined by the data storage rules of that other online service.</span></span>
 
-<span data-ttu-id="a0de3-109">Les données client sous forme pseudonyme peuvent également être stockées dans des systèmes de stockage et de traitement centralisés aux États-Unis.</span><span class="sxs-lookup"><span data-stu-id="a0de3-109">Customer data in pseudonymized form might also be stored in central storage and processing systems in the United States.</span></span>
+<span data-ttu-id="47381-109">Les données client sous forme pseudonyme peuvent également être stockées dans des systèmes de stockage et de traitement centraux aux États-Unis.</span><span class="sxs-lookup"><span data-stu-id="47381-109">Customer data in pseudonymized form might also be stored in central storage and processing systems in the United States.</span></span>
 
 
-<span data-ttu-id="a0de3-110">Pour plus d’informations sur le stockage des données et les informations de confidentialité des produits spécifiques, consultez les articles suivants :</span><span class="sxs-lookup"><span data-stu-id="a0de3-110">For more information on the data storage and privacy information of the specific products, see:</span></span>
-- [<span data-ttu-id="a0de3-111">Microsoft Defender pour le stockage et la confidentialité des données de point de terminaison</span><span class="sxs-lookup"><span data-stu-id="a0de3-111">Microsoft Defender for Endpoint data storage and privacy</span></span>](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
-- [<span data-ttu-id="a0de3-112">Sécurité des données sur la sécurité et confidentialité Microsoft Cloud App Security</span><span class="sxs-lookup"><span data-stu-id="a0de3-112">Microsoft Cloud App Security data security and privacy</span></span>](https://docs.microsoft.com/cloud-app-security/cas-compliance-trust)
-- [<span data-ttu-id="a0de3-113">Confidentialité, sécurité et transparence de Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="a0de3-113">Microsoft 365 privacy, security, and transparency</span></span>](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/privacy-security-and-transparency#advanced-threat-protection)
+<span data-ttu-id="47381-110">Pour plus d’informations sur le stockage des données et les informations de confidentialité des produits spécifiques, voir :</span><span class="sxs-lookup"><span data-stu-id="47381-110">For more information on the data storage and privacy information of the specific products, see:</span></span>
+- [<span data-ttu-id="47381-111">Microsoft Defender pour le stockage et la confidentialité des données des points de terminaison</span><span class="sxs-lookup"><span data-stu-id="47381-111">Microsoft Defender for Endpoint data storage and privacy</span></span>](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+- [<span data-ttu-id="47381-112">Sécurité des données sur la sécurité et confidentialité Microsoft Cloud App Security</span><span class="sxs-lookup"><span data-stu-id="47381-112">Microsoft Cloud App Security data security and privacy</span></span>](https://docs.microsoft.com/cloud-app-security/cas-compliance-trust)
+- [<span data-ttu-id="47381-113">Confidentialité, sécurité et transparence de Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="47381-113">Microsoft 365 privacy, security, and transparency</span></span>](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/privacy-security-and-transparency#advanced-threat-protection)
