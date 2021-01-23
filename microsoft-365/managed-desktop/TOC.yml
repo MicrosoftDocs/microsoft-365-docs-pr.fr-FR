@@ -70,11 +70,13 @@
           items:
             - name: Utilisation de Microsoft Consulting Services
               href: get-ready/apps-MCS.md
-        - name: Utiliser l’outil de préparation et d’évaluation
+        - name: Utiliser les outils de préparation d’évaluation
           href: get-ready/readiness-assessment-tool.md
           items:
-            - name: Résoudre les problèmes détectés par l’outil de préparation et d’évaluation
+            - name: Résoudre les problèmes détectés par l’outil de préparation et d’évaluation en ligne
               href: get-ready/readiness-assessment-fix.md
+            - name: Vérifier la préparation d’évaluation téléchargeable
+              href: get-ready/readiness-assessment-downloadable.md
     - name: Prise en main du Bureau géré Microsoft
       href: get-started/index.md
       items:
