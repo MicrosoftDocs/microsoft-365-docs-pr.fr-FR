@@ -96,16 +96,17 @@
       href: information-protection.md
     - name: Types d’informations sensibles
       items:
+        - name: En savoir plus sur les types d’informations sensibles
+          href: sensitive-information-type-learn-about.md
         - name: Définitions d’entités des types d’informations sensibles
           href: sensitive-information-type-entity-definitions.md
         - name: Éléments recherchés par les fonctions DLP
           href: what-the-dlp-functions-look-for.md
         - name: Personnaliser un type d’informations sensibles intégré
           href: customize-a-built-in-sensitive-information-type.md
-        - name: Types d’informations sensibles personnalisés
-          href: custom-sensitive-info-types.md
         - name: Créer des types d’informations sensibles personnalisés à l’aide de la correspondance de données exacte
           href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
+        - name: Commencer à travailler avec des types d’informations sensibles personnalisées
         - name: Utiliser l’Assistant de schéma de correspondance exacte des données et de type d’informations sensibles
           href: sit-edm-wizard.md
         - name: Modifier le schéma de correspondance des données exactes pour utiliser la correspondance configurable
@@ -806,5 +807,5 @@
   href: 'https://docs.microsoft.com/microsoft-365/enterprise/'
 - name: "Sécurité Microsoft\_365"
   href: 'https://docs.microsoft.com/microsoft-365/security/'
-- name: "Microsoft\_365 Apps for business"
+- name: "Applications Microsoft\_365 pour les entreprises"
   href: 'https://docs.microsoft.com/office365/admin/admin-home'
