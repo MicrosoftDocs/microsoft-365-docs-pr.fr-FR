@@ -106,7 +106,6 @@
           href: customize-a-built-in-sensitive-information-type.md
         - name: Créer des types d’informations sensibles personnalisés à l’aide de la correspondance de données exacte
           href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
-        - name: Commencer à travailler avec des types d’informations sensibles personnalisées
         - name: Utiliser l’Assistant de schéma de correspondance exacte des données et de type d’informations sensibles
           href: sit-edm-wizard.md
         - name: Modifier le schéma de correspondance des données exactes pour utiliser la correspondance configurable
