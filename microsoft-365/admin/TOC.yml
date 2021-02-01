@@ -66,6 +66,8 @@
           href: admin-overview/admin-mobile-app.md
         - name: Nouveautés du centre d’administration
           href: whats-new-in-preview.md
+        - name: "Effectuer une recherche dans le Centre d’administration Microsoft\_365"
+          href: manage/search-in-the-mac.md
         - name: Rester informé des modifications
           href: manage/stay-on-top-of-updates.md
         - name: Gérer plusieurs clients
