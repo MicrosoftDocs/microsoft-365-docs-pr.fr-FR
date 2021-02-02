@@ -152,8 +152,6 @@
           href: encryption-sensitivity-labels.md
         - name: Appliquer automatiquement une étiquette sensibilité au contenu
           href: apply-sensitivity-label-automatically.md
-        - name: Afficher l’utilisation d’étiquette grâce à la page Analyse des étiquettes
-          href: label-analytics.md
         - name: 'Utiliser des étiquettes de confidentialité avec les équipes, les groupes et les sites'
           href: sensitivity-labels-teams-groups-sites.md
         - name: Activer les étiquettes de confidentialité pour les fichiers Office dans SharePoint et OneDrive
