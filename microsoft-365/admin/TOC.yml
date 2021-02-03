@@ -184,8 +184,6 @@
               href: email/resolve-issues-with-shared-mailboxes.md
         - name: Configurer la boîte de réception Prioritaire
           href: setup/configure-focused-inbox.md
-        - name: À propos de la collaboration par courrier électronique
-          href: email/email-collaboration.md
         - name: Ajouter un utilisateur ou un contact à un groupe de distribution
           href: email/add-user-or-contact-to-distribution-list.md
         - name: Gérer le courrier pêle-mêle pour votre organisation.
