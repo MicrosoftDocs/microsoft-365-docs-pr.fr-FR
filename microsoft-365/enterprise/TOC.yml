@@ -113,14 +113,16 @@
               href: azure-integration.md
             - name: Azure ExpressRoute
               href: azure-expressroute.md
-        - name: Prise en charge des applications clientes
+        - name: Prise en charge des applications client et services
           items:
+            - name: Prise en charge des applications client et services
+              href: microsoft-365-client-services-app-support.md
             - name: Authentification basée sur des certificats
               href: microsoft-365-client-support-certificate-based-authentication.md
             - name: Accès conditionnel
               href: microsoft-365-client-support-conditional-access.md
-            - name: Authentification moderne
-              href: microsoft-365-client-support-modern-authentication.md
+            - name: Authentification multifacteur
+              href: microsoft-365-client-support-multi-factor-authentication.md
             - name: Authentification unique
               href: microsoft-365-client-support-single-sign-on.md
             - name: "Choisir entre Mobility\_+\_Security de base et Intune"
