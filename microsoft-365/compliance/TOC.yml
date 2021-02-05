@@ -232,57 +232,63 @@
     - name: Protection contre la perte de données (DLP)
       items:
         - name: En savoir plus sur DLP
-          href: data-loss-prevention-policies.md
-        - name: DLP et Microsoft Teams
-          href: dlp-microsoft-teams.md
-        - name: En savoir plus sur les points de terminaison de protection contre la perte de données
-          href: endpoint-dlp-learn-about.md
-        - name: Prise en main des points de terminaison de protection contre la perte de données
-          href: endpoint-dlp-getting-started.md
-        - name: Configurer les paramètres de proxy et de connexion Internet pour la protection contre la perte de données de point de terminaison
-          href: endpoint-dlp-configure-proxy.md
-        - name: Utilisation des points de terminaison protection contre la perte de données
-          href: endpoint-dlp-using.md
-        - name: "Outils et méthodes d’intégration DLP pour les points de terminaison pour les appareils Windows\_10"
           items:
-            - name: "Outils et méthodes d’intégration pour les appareils Windows\_10."
-              href: dlp-configure-endpoints.md
-            - name: "Appareils Windows\_10 intégrés via une stratégie de groupe"
-              href: dlp-configure-endpoints-gp.md
-            - name: Intégrer les appareils Windows 10 à l’aide des outils de gestion des appareils mobiles
-              href: dlp-configure-endpoints-mdm.md
-            - name: Appareils Windows 10 intégrés utilisant Configuration Manager
-              href: dlp-configure-endpoints-sccm.md
-            - name: Intégrer les appareils Windows 10 utilisant un script local
-              href: dlp-configure-endpoints-script.md
-            - name: Intégrer les ordinateurs virtuels d’infrastructure de bureau virtuel (VDI) non persistants.
-              href: dlp-configure-endpoints-vdi.md
-        - name: Prise en main de la stratégie DLP par défaut
-          href: get-started-with-the-default-dlp-policy.md
-        - name: "Création d’une stratégie\_DLP à partir d’un modèle"
-          href: create-a-dlp-policy-from-a-template.md
-        - name: 'Création, test et réglage d’une stratégie DLP'
-          href: create-test-tune-dlp-policy.md
-        - name: Utilisation des notifications et des conseils de stratégie dans les stratégies DLP
-          href: use-notifications-and-policy-tips.md
-        - name: Configurez et affichez les alertes pour les stratégies DLP (Preview)
-          href: dlp-configure-view-alerts-policies.md
-        - name: Ce qu’incluent les modèles de stratégie DLP
-          href: what-the-dlp-policy-templates-include.md
-        - name: Création d’une stratégie DLP pour protéger les documents avec l’ICF ou d’autres propriétés
-          href: protect-documents-that-have-fci-or-other-properties.md
-        - name: "Affichage des rapports\_DLP"
-          href: view-the-dlp-reports.md
-        - name: Créer une requête pour trouver des données sensibles stockées sur des sites
-          href: form-a-query-to-find-sensitive-data-stored-on-sites.md
-        - name: "Fonctionnement du DLP entre le Centre de sécurité et conformité et le Centre d’administration\_Exchange"
-          href: how-dlp-works-between-admin-centers.md
-        - name: Utiliser des étiquettes de confidentialité comme condition dans les stratégies de protection contre la perte de données (préversion)
-          href: dlp-sensitivity-label-as-condition.md
-        - name: Utilisation de stratégies de protection contre la perte de données pour les applications cloud non-Microsoft
-          href: dlp-use-policies-non-microsoft-cloud-apps.md
-        - name: Conditions et exceptions de la stratégie DLP (aperçu)
-          href: dlp-conditions-and-exceptions.md
+            - name: En savoir plus sur DLP
+              href: data-loss-prevention-policies.md
+            - name: En savoir plus sur les points de terminaison de protection contre la perte de données
+              href: endpoint-dlp-learn-about.md
+        - name: Prise en main de la protection contre la perte de données
+          items:
+            - name: Prise en main de la stratégie DLP par défaut
+              href: get-started-with-the-default-dlp-policy.md
+            - name: "Création d’une stratégie\_DLP à partir d’un modèle"
+              href: create-a-dlp-policy-from-a-template.md
+            - name: 'Création, test et réglage d’une stratégie DLP'
+              href: create-test-tune-dlp-policy.md
+            - name: Prise en main des points de terminaison de protection contre la perte de données
+              href: endpoint-dlp-getting-started.md
+            - name: Configurer les paramètres de proxy et de connexion Internet pour la protection contre la perte de données de point de terminaison
+              href: endpoint-dlp-configure-proxy.md
+            - name: "Outils et méthodes d’intégration DLP pour les points de terminaison pour les appareils Windows\_10"
+              items:
+                - name: "Outils et méthodes d’intégration pour les appareils Windows\_10."
+                  href: dlp-configure-endpoints.md
+                - name: "Appareils Windows\_10 intégrés via une stratégie de groupe"
+                  href: dlp-configure-endpoints-gp.md
+                - name: Intégrer les appareils Windows 10 à l’aide des outils de gestion des appareils mobiles
+                  href: dlp-configure-endpoints-mdm.md
+                - name: Appareils Windows 10 intégrés utilisant Configuration Manager
+                  href: dlp-configure-endpoints-sccm.md
+                - name: Intégrer les appareils Windows 10 utilisant un script local
+                  href: dlp-configure-endpoints-script.md
+                - name: Intégrer les ordinateurs virtuels d’infrastructure de bureau virtuel (VDI) non persistants.
+                  href: dlp-configure-endpoints-vdi.md
+        - name: Utiliser la DLP
+          items:
+            - name: DLP et Microsoft Teams
+              href: dlp-microsoft-teams.md
+            - name: Utilisation de la protection contre la perte de données de point de terminaison
+              href: endpoint-dlp-using.md
+            - name: Utilisation des notifications et des conseils de stratégie dans les stratégies DLP
+              href: use-notifications-and-policy-tips.md
+            - name: Ce qu’incluent les modèles de stratégie DLP
+              href: what-the-dlp-policy-templates-include.md
+            - name: Création d’une stratégie DLP pour protéger les documents avec l’ICF ou d’autres propriétés
+              href: protect-documents-that-have-fci-or-other-properties.md
+            - name: "Affichage des rapports\_DLP"
+              href: view-the-dlp-reports.md
+            - name: Créer une requête pour trouver des données sensibles stockées sur des sites
+              href: form-a-query-to-find-sensitive-data-stored-on-sites.md
+            - name: "Fonctionnement du DLP entre le Centre de sécurité et conformité et le Centre d’administration\_Exchange"
+              href: how-dlp-works-between-admin-centers.md
+            - name: Configurez et affichez les alertes pour les stratégies DLP (préversion)
+              href: dlp-configure-view-alerts-policies.md
+            - name: Utiliser des étiquettes de confidentialité comme condition dans les stratégies de protection contre la perte de données (préversion)
+              href: dlp-sensitivity-label-as-condition.md
+            - name: Utilisation de stratégies de protection contre la perte de données pour les applications cloud non-Microsoft
+              href: dlp-use-policies-non-microsoft-cloud-apps.md
+            - name: Conditions et exceptions de la stratégie DLP (aperçu)
+              href: dlp-conditions-and-exceptions.md
 - name: Gérer la gouvernance des informations
   items:
     - name: Gouvernez vos données
@@ -729,6 +735,8 @@
       items:
         - name: Effectuer une recherche dans le journal d’audit
           href: search-the-audit-log-in-security-and-compliance.md
+        - name: Utiliser un script PowerShell pour effectuer une recherche dans le journal d’audit
+          href: audit-log-search-script.md
         - name: Activer ou désactiver la recherche dans le journal d’audit
           href: turn-audit-log-search-on-or-off.md
         - name: Propriétés détaillées dans le journal d’audit
