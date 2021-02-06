@@ -666,6 +666,8 @@
               href: themes-in-advanced-ediscovery.md
             - name: Utiliser le module de Pertinence pour analyser des données
               href: using-relevance.md
+            - name: Retrait du module Pertinence
+              href: relevance-module-retirement.md
         - name: Exporter les données de cas
           href: exporting-data-ediscover20.md
           items:
