@@ -1,22 +1,22 @@
-- name: Découvrir les expériences de sujets
+- name: "Prise en main de Microsoft\_Viva"
   items:
-    - name: Présentation des expériences de sujets
+    - name: Présentation de Microsoft Viva
       href: index.md
-    - name: Vue d’ensemble des expériences
+    - name: Vue d’ensemble de Microsoft Viva
       href: topic-experiences-overview.md
-    - name: Rubriques d’expérience découverte et gestion
+    - name: Découverte et gestion de Microsoft Viva
       href: topic-experiences-discovery-curation.md
-    - name: Rubriques présentant les rôles
+    - name: Rôles de Microsoft Viva
       href: topic-experiences-roles.md
     - name: Préparer votre environnement
       href: topic-experiences-get-ready.md
 - name: Configuration et administration
   items:
-    - name: Sécurité des sujets
+    - name: Sécurité des rubriques
       href: topic-experiences-security-privacy.md
-    - name: Planifier les expériences de sujets
+    - name: Planifier les rubriques
       href: plan-topic-experiences.md
-    - name: Configurer les expériences de sujets
+    - name: Configurer les rubriques
       href: set-up-topic-experiences.md
     - name: Gérer la découverte de rubriques
       href: topic-experiences-discovery.md
@@ -38,6 +38,8 @@
       href: edit-a-topic.md
     - name: Filtrage de sécurité
       href: topic-experiences-security-trimming.md
+    - name: Rechercher des rubriques
+      href: search.md
 - name: Adoption
   items:
     - name: Prise en main de l’adoption
