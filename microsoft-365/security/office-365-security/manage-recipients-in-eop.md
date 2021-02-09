@@ -1,5 +1,5 @@
 ---
-title: Gérer les destinataires dans une EOP autonome
+title: Gérer les destinataires dans EOP autonome
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -8,33 +8,36 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 2921f544-8257-4bae-8e3a-ce9250e9f162
 ms.custom:
 - seo-marvel-apr2020
-description: Les administrateurs peuvent en savoir plus sur les différents types d’objets destinataire dans un environnement Exchange Online Protection (EOP) autonome.
-ms.openlocfilehash: c277365fb8a5c43108faa15a375af39ecc086eed
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+description: Les administrateurs peuvent en savoir plus sur les différents types d’objets destinataire dans Exchange Online Protection (EOP) autonome.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 20d1c3e77c916e2c04a9c35eceb410859eb85ba0
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48201729"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150266"
 ---
-# <a name="manage-recipients-in-standalone-eop"></a><span data-ttu-id="a0072-103">Gérer les destinataires dans une EOP autonome</span><span class="sxs-lookup"><span data-stu-id="a0072-103">Manage recipients in standalone EOP</span></span>
+# <a name="manage-recipients-in-standalone-eop"></a><span data-ttu-id="5e243-103">Gérer les destinataires dans EOP autonome</span><span class="sxs-lookup"><span data-stu-id="5e243-103">Manage recipients in standalone EOP</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+<span data-ttu-id="5e243-104">**S’applique à**</span><span class="sxs-lookup"><span data-stu-id="5e243-104">**Applies to**</span></span>
+-  [<span data-ttu-id="5e243-105">Exchange Online Protection autonome</span><span class="sxs-lookup"><span data-stu-id="5e243-105">Exchange Online Protection standalone</span></span>](https://go.microsoft.com/fwlink/?linkid=2148611)
 
-<span data-ttu-id="a0072-104">Les organisations Exchange Online Protection (EOP) autonomes sans boîtes aux lettres Exchange Online prennent en charge les types de destinataires suivants :</span><span class="sxs-lookup"><span data-stu-id="a0072-104">Standalone Exchange Online Protection (EOP) organizations without Exchange Online mailboxes support the following types of recipients:</span></span>
+<span data-ttu-id="5e243-106">Les organisations Exchange Online Protection autonomes (EOP) sans boîtes aux lettres Exchange Online peuvent prendre en charge les types de destinataires suivants :</span><span class="sxs-lookup"><span data-stu-id="5e243-106">Standalone Exchange Online Protection (EOP) organizations without Exchange Online mailboxes support the following types of recipients:</span></span>
 
-- <span data-ttu-id="a0072-105">**Utilisateurs de messagerie**: les utilisateurs de messagerie sont les principaux types de comptes d’utilisateur dans votre organisation EOP autonome.</span><span class="sxs-lookup"><span data-stu-id="a0072-105">**Mail users**: Mail users are the fundamental type of user accounts in your standalone EOP organization.</span></span> <span data-ttu-id="a0072-106">Les utilisateurs de messagerie disposent d’informations d’identification d’ouverture de session dans votre organisation EOP, mais ils ont des adresses de messagerie externes (leurs boîtes aux lettres sont situées en dehors de votre organisation EOP).</span><span class="sxs-lookup"><span data-stu-id="a0072-106">Mail users have logon credentials in your EOP organization, but they have external email addresses (their mailboxes are located outside of your EOP organization).</span></span>
+- <span data-ttu-id="5e243-107">**Utilisateurs de messagerie**: les utilisateurs de messagerie sont le type fondamental de comptes d’utilisateur dans votre organisation EOP autonome.</span><span class="sxs-lookup"><span data-stu-id="5e243-107">**Mail users**: Mail users are the fundamental type of user accounts in your standalone EOP organization.</span></span> <span data-ttu-id="5e243-108">Les utilisateurs de messagerie ont des informations d’identification de connexion dans votre organisation EOP, mais ils ont des adresses de messagerie externes (leurs boîtes aux lettres sont situées en dehors de votre organisation EOP).</span><span class="sxs-lookup"><span data-stu-id="5e243-108">Mail users have logon credentials in your EOP organization, but they have external email addresses (their mailboxes are located outside of your EOP organization).</span></span>
 
-  <span data-ttu-id="a0072-107">Pour plus d'informations sur la gestion des utilisateurs de messagerie dans EOP, consultez la rubrique [Gestion des utilisateurs de messagerie dans EOP](manage-mail-users-in-eop.md).</span><span class="sxs-lookup"><span data-stu-id="a0072-107">For more information about managing mail users in EOP, see [Manage mail users in EOP](manage-mail-users-in-eop.md).</span></span>
+  <span data-ttu-id="5e243-109">Pour plus d'informations sur la gestion des utilisateurs de messagerie dans EOP, consultez la rubrique [Gestion des utilisateurs de messagerie dans EOP](manage-mail-users-in-eop.md).</span><span class="sxs-lookup"><span data-stu-id="5e243-109">For more information about managing mail users in EOP, see [Manage mail users in EOP](manage-mail-users-in-eop.md).</span></span>
 
-- <span data-ttu-id="a0072-108">**Groupes**: vous pouvez créer les types de groupes suivants :</span><span class="sxs-lookup"><span data-stu-id="a0072-108">**Groups**: You can create the following types of groups:</span></span>
+- <span data-ttu-id="5e243-110">**Groupes**: vous pouvez créer les types de groupes suivants :</span><span class="sxs-lookup"><span data-stu-id="5e243-110">**Groups**: You can create the following types of groups:</span></span>
 
-  - <span data-ttu-id="a0072-109">Groupes de distribution</span><span class="sxs-lookup"><span data-stu-id="a0072-109">Distribution groups</span></span>
-  - <span data-ttu-id="a0072-110">Groupes de sécurité à extension messagerie</span><span class="sxs-lookup"><span data-stu-id="a0072-110">Mail-enabled security groups</span></span>
+  - <span data-ttu-id="5e243-111">Groupes de distribution</span><span class="sxs-lookup"><span data-stu-id="5e243-111">Distribution groups</span></span>
+  - <span data-ttu-id="5e243-112">Groupes de sécurité à extension messagerie</span><span class="sxs-lookup"><span data-stu-id="5e243-112">Mail-enabled security groups</span></span>
 
-  <span data-ttu-id="a0072-111">Pour plus d'informations sur la gestion des groupes dans EOP, consultez la rubrique [Gestion des groupes dans Exchange Online Protection (EOP)](manage-groups-in-eop.md).</span><span class="sxs-lookup"><span data-stu-id="a0072-111">For more information about managing groups in EOP, see [Manage groups in EOP](manage-groups-in-eop.md).</span></span>
+  <span data-ttu-id="5e243-113">Pour plus d'informations sur la gestion des groupes dans EOP, consultez la rubrique [Gestion des groupes dans Exchange Online Protection (EOP)](manage-groups-in-eop.md).</span><span class="sxs-lookup"><span data-stu-id="5e243-113">For more information about managing groups in EOP, see [Manage groups in EOP](manage-groups-in-eop.md).</span></span>
