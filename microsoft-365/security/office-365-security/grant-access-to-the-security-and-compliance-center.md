@@ -10,58 +10,63 @@ audience: Admin
 ms.topic: how-to
 f1_keywords:
 - ms.o365.cc.PermissionsHelp
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Strat_O365_IP
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
-description: Les utilisateurs doivent disposer d’autorisations dans le centre de conformité Microsoft 365 Security & pour pouvoir gérer les fonctionnalités de sécurité ou de conformité.
+description: Des autorisations doivent être attribuées aux utilisateurs dans le Centre de conformité et sécurité Microsoft 365 & avant de pouvoir gérer l’une de ses fonctionnalités de sécurité ou de conformité.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1bf8da85a0e090a9d74934ea5084f547d6a8794f
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 9e19825ce0f8224b2aee8e1419ef5d1ad425aadb
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616607"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165414"
 ---
-# <a name="give-users-access-to-the-security--compliance-center"></a><span data-ttu-id="b2c09-103">Octroi de l’accès au Centre de conformité et sécurité aux utilisateurs</span><span class="sxs-lookup"><span data-stu-id="b2c09-103">Give users access to the Security & Compliance Center</span></span>
+# <a name="give-users-access-to-the-security--compliance-center"></a><span data-ttu-id="0ea42-103">Octroi de l’accès au Centre de conformité et sécurité aux utilisateurs</span><span class="sxs-lookup"><span data-stu-id="0ea42-103">Give users access to the Security & Compliance Center</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+<span data-ttu-id="0ea42-104">**S’applique à**</span><span class="sxs-lookup"><span data-stu-id="0ea42-104">**Applies to**</span></span>
+- [<span data-ttu-id="0ea42-105">Exchange Online Protection</span><span class="sxs-lookup"><span data-stu-id="0ea42-105">Exchange Online Protection</span></span>](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [<span data-ttu-id="0ea42-106">Microsoft Defender pour Office 365 plan 1 et plan 2</span><span class="sxs-lookup"><span data-stu-id="0ea42-106">Microsoft Defender for Office 365 plan 1 and plan 2</span></span>](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [<span data-ttu-id="0ea42-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="0ea42-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-<span data-ttu-id="b2c09-104">Les utilisateurs doivent disposer d’autorisations dans le centre de conformité & de sécurité avant de pouvoir gérer les fonctionnalités de sécurité ou de conformité.</span><span class="sxs-lookup"><span data-stu-id="b2c09-104">Users need to be assigned permissions in the Security & Compliance Center before they can manage any of its security or compliance features.</span></span> <span data-ttu-id="b2c09-105">En tant qu’administrateur général ou membre du groupe de rôles OrganizationManagement dans le centre de sécurité & conformité, vous pouvez accorder ces autorisations aux utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="b2c09-105">As a global admin or member of the OrganizationManagement role group in the Security & Compliance Center, you can give these permissions to users.</span></span> <span data-ttu-id="b2c09-106">Ceux-ci pourront uniquement gérer les fonctionnalités de sécurité ou de conformité auxquelles vous leur donnez accès.</span><span class="sxs-lookup"><span data-stu-id="b2c09-106">Users will only be able to manage the security or compliance features that you give them access to.</span></span>
+<span data-ttu-id="0ea42-108">Des autorisations doivent être attribuées aux utilisateurs dans le Centre de sécurité & conformité avant de pouvoir gérer l’une de ses fonctionnalités de sécurité ou de conformité.</span><span class="sxs-lookup"><span data-stu-id="0ea42-108">Users need to be assigned permissions in the Security & Compliance Center before they can manage any of its security or compliance features.</span></span> <span data-ttu-id="0ea42-109">En tant qu’administrateur global ou membre du groupe de rôles OrganizationManagement dans le Centre de sécurité & conformité, vous pouvez accorder ces autorisations aux utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="0ea42-109">As a global admin or member of the OrganizationManagement role group in the Security & Compliance Center, you can give these permissions to users.</span></span> <span data-ttu-id="0ea42-110">Ceux-ci pourront uniquement gérer les fonctionnalités de sécurité ou de conformité auxquelles vous leur donnez accès.</span><span class="sxs-lookup"><span data-stu-id="0ea42-110">Users will only be able to manage the security or compliance features that you give them access to.</span></span>
 
-<span data-ttu-id="b2c09-107">Pour plus d’informations sur les différentes autorisations que vous pouvez accorder aux utilisateurs dans le centre de sécurité & conformité, consultez [la rubrique autorisations dans le centre de sécurité & conformité](permissions-in-the-security-and-compliance-center.md).</span><span class="sxs-lookup"><span data-stu-id="b2c09-107">For more information about the different permissions you can give to users in the Security & Compliance Center, check out [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
+<span data-ttu-id="0ea42-111">Pour plus d’informations sur les différentes autorisations que vous pouvez accorder aux utilisateurs dans le Centre de sécurité & conformité, consultez [Autorisations](permissions-in-the-security-and-compliance-center.md)dans le Centre de sécurité & conformité.</span><span class="sxs-lookup"><span data-stu-id="0ea42-111">For more information about the different permissions you can give to users in the Security & Compliance Center, check out [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="b2c09-108">Ce qu'il faut savoir avant de commencer</span><span class="sxs-lookup"><span data-stu-id="b2c09-108">What do you need to know before you begin?</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="0ea42-112">Ce qu'il faut savoir avant de commencer</span><span class="sxs-lookup"><span data-stu-id="0ea42-112">What do you need to know before you begin?</span></span>
 
-- <span data-ttu-id="b2c09-109">Vous devez être un administrateur général ou un membre du groupe de rôles OrganizationManagement dans le centre de sécurité & Compliance Center pour effectuer les étapes décrites dans cet article.</span><span class="sxs-lookup"><span data-stu-id="b2c09-109">You need to be a global admin, or a member of the OrganizationManagement role group in the Security & Compliance Center, to complete the steps in this article.</span></span>
+- <span data-ttu-id="0ea42-113">Vous devez être un administrateur global ou un membre du groupe de rôles OrganizationManagement dans le Centre de sécurité & conformité, pour effectuer les étapes de cet article.</span><span class="sxs-lookup"><span data-stu-id="0ea42-113">You need to be a global admin, or a member of the OrganizationManagement role group in the Security & Compliance Center, to complete the steps in this article.</span></span>
 
-- <span data-ttu-id="b2c09-110">Les groupes de rôles pour le centre de sécurité & conformité peuvent avoir des noms similaires aux groupes de rôles dans Exchange Online, mais ils ne sont pas identiques.</span><span class="sxs-lookup"><span data-stu-id="b2c09-110">Role groups for the Security & Compliance Center might have similar names to the role groups in Exchange Online, but they're not the same.</span></span>
+- <span data-ttu-id="0ea42-114">Les groupes de rôles pour le Centre de sécurité & conformité peuvent avoir des noms similaires aux groupes de rôles dans Exchange Online, mais ils ne sont pas identiques.</span><span class="sxs-lookup"><span data-stu-id="0ea42-114">Role groups for the Security & Compliance Center might have similar names to the role groups in Exchange Online, but they're not the same.</span></span>
 
-- <span data-ttu-id="b2c09-111">Les appartenances aux groupes de rôles ne sont pas partagées entre Exchange Online et le centre de sécurité & conformité.</span><span class="sxs-lookup"><span data-stu-id="b2c09-111">Role group memberships aren't shared between Exchange Online and the Security & Compliance Center.</span></span>
+- <span data-ttu-id="0ea42-115">Les appartenances aux groupes de rôles ne sont pas partagées entre Exchange Online et le Centre de sécurité & conformité.</span><span class="sxs-lookup"><span data-stu-id="0ea42-115">Role group memberships aren't shared between Exchange Online and the Security & Compliance Center.</span></span>
 
-- <span data-ttu-id="b2c09-112">Les autorisations des partenaires DAP (Delegated Access permission) avec administrer de la part de (administrateur) ne peuvent pas accéder au centre de conformité &.</span><span class="sxs-lookup"><span data-stu-id="b2c09-112">Delegated Access Permission (DAP) partners with Administer On Behalf Of (AOBO) permissions can't access the Security & Compliance Center.</span></span>
+- <span data-ttu-id="0ea42-116">Les partenaires avec autorisation d’accès délégué (DAP) avec des autorisations Administrer au nom de (AOBO) ne peuvent pas accéder au Centre de sécurité & conformité.</span><span class="sxs-lookup"><span data-stu-id="0ea42-116">Delegated Access Permission (DAP) partners with Administer On Behalf Of (AOBO) permissions can't access the Security & Compliance Center.</span></span>
 
-## <a name="use-the-security--compliance-center-to-give-another-user-access-to-the-security--compliance-center"></a><span data-ttu-id="b2c09-113">Utiliser le centre de sécurité & conformité pour accorder à un autre utilisateur l’accès au centre de sécurité & conformité</span><span class="sxs-lookup"><span data-stu-id="b2c09-113">Use the Security & Compliance Center to give another user access to the Security & Compliance Center</span></span>
+## <a name="use-the-security--compliance-center-to-give-another-user-access-to-the-security--compliance-center"></a><span data-ttu-id="0ea42-117">Utiliser le Centre de sécurité & conformité pour accorder à un autre utilisateur l’accès au Centre de sécurité & conformité</span><span class="sxs-lookup"><span data-stu-id="0ea42-117">Use the Security & Compliance Center to give another user access to the Security & Compliance Center</span></span>
 
-1. <span data-ttu-id="b2c09-114">Ouvrez le centre de sécurité & conformité à l’adresse <https://protection.office.com> , puis accédez à **autorisations**.</span><span class="sxs-lookup"><span data-stu-id="b2c09-114">Open the Security & Compliance Center at <https://protection.office.com> and then go to **Permissions**.</span></span> <span data-ttu-id="b2c09-115">Pour accéder directement à l’onglet **autorisations** , ouvrez <https://protection.office.com/permissions> .</span><span class="sxs-lookup"><span data-stu-id="b2c09-115">To go directly to the **Permissions** tab, open <https://protection.office.com/permissions>.</span></span>
+1. <span data-ttu-id="0ea42-118">Ouvrez le Centre de sécurité & conformité, puis <https://protection.office.com> allez à **Autorisations.**</span><span class="sxs-lookup"><span data-stu-id="0ea42-118">Open the Security & Compliance Center at <https://protection.office.com> and then go to **Permissions**.</span></span> <span data-ttu-id="0ea42-119">Pour aller directement à **l’onglet Autorisations,** ouvrez <https://protection.office.com/permissions> .</span><span class="sxs-lookup"><span data-stu-id="0ea42-119">To go directly to the **Permissions** tab, open <https://protection.office.com/permissions>.</span></span>
 
-2. <span data-ttu-id="b2c09-116">Dans la liste des groupes de rôles, sélectionnez le groupe de rôles, puis cliquez sur **modifier** l' ![ icône modifier ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) .</span><span class="sxs-lookup"><span data-stu-id="b2c09-116">From the list of role groups, choose the role group, and then click **Edit** ![Edit icon](../../media/O365-MDM-CreatePolicy-EditIcon.gif).</span></span>
+2. <span data-ttu-id="0ea42-120">Dans la liste des groupes de rôles,  choisissez le groupe de rôles, puis cliquez sur Modifier ![ l’icône ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) Modifier.</span><span class="sxs-lookup"><span data-stu-id="0ea42-120">From the list of role groups, choose the role group, and then click **Edit** ![Edit icon](../../media/O365-MDM-CreatePolicy-EditIcon.gif).</span></span>
 
-3. <span data-ttu-id="b2c09-117">Dans la page des propriétés du groupe de rôles sous **membres**, cliquez sur **Ajouter** une ![ icône ](../../media/ITPro-EAC-AddIcon.gif) et sélectionnez le nom de l’utilisateur (ou des utilisateurs) que vous souhaitez ajouter.</span><span class="sxs-lookup"><span data-stu-id="b2c09-117">In the role group's properties page under **Members**, click **Add**![Add Icon](../../media/ITPro-EAC-AddIcon.gif) and select the name of the user (or users) you want to add.</span></span>
+3. <span data-ttu-id="0ea42-121">Dans la page des propriétés du groupe de rôles sous **Membres,** cliquez sur Ajouter une icône et sélectionnez le nom de l’utilisateur (ou des ![ utilisateurs) que vous ](../../media/ITPro-EAC-AddIcon.gif) souhaitez ajouter.</span><span class="sxs-lookup"><span data-stu-id="0ea42-121">In the role group's properties page under **Members**, click **Add**![Add Icon](../../media/ITPro-EAC-AddIcon.gif) and select the name of the user (or users) you want to add.</span></span>
 
-4. <span data-ttu-id="b2c09-118">Une fois que vous avez sélectionné tous les utilisateurs que vous souhaitez ajouter au groupe de rôles, cliquez sur **ajouter- \>** puis sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="b2c09-118">When you've selected all of the users you want to add to the role group, click **add-\>** and then **OK**.</span></span>
+4. <span data-ttu-id="0ea42-122">Lorsque vous avez sélectionné tous les utilisateurs que vous souhaitez ajouter au groupe de rôles, cliquez sur **Ajouter, \>** puis **SUR OK.**</span><span class="sxs-lookup"><span data-stu-id="0ea42-122">When you've selected all of the users you want to add to the role group, click **add-\>** and then **OK**.</span></span>
 
-5. <span data-ttu-id="b2c09-119">Lorsque vous avez terminé, cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="b2c09-119">When you're finished, click **Save**.</span></span>
+5. <span data-ttu-id="0ea42-123">Lorsque vous avez terminé, cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="0ea42-123">When you're finished, click **Save**.</span></span>
 
-## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a><span data-ttu-id="b2c09-120">Utiliser la sécurité & Centre de conformité PowerShell pour accorder à un autre utilisateur l’accès au centre de sécurité & conformité</span><span class="sxs-lookup"><span data-stu-id="b2c09-120">Use Security & Compliance Center PowerShell to give another user access to the Security & Compliance Center</span></span>
+## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a><span data-ttu-id="0ea42-124">Utiliser le Centre de sécurité & conformité PowerShell pour accorder à un autre utilisateur l’accès au Centre de sécurité & conformité</span><span class="sxs-lookup"><span data-stu-id="0ea42-124">Use Security & Compliance Center PowerShell to give another user access to the Security & Compliance Center</span></span>
 
-1. <span data-ttu-id="b2c09-121">[Connectez-vous au Centre de conformité et sécurité PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).</span><span class="sxs-lookup"><span data-stu-id="b2c09-121">[Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).</span></span>
+1. <span data-ttu-id="0ea42-125">[Se connecter à l’interface PowerShell du Centre de sécurité et conformité](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).</span><span class="sxs-lookup"><span data-stu-id="0ea42-125">[Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).</span></span>
 
-2. <span data-ttu-id="b2c09-122">Utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="b2c09-122">Use the following syntax:</span></span>
+2. <span data-ttu-id="0ea42-126">Utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="0ea42-126">Use the following syntax:</span></span>
 
    ```powershell
    Add-RoleGroupMember -Identity <RoleGroup> -Member <UserIdentity>
@@ -75,18 +80,18 @@ ms.locfileid: "49616607"
    Add-RoleGroupMember -Identity "Organization Management" -Member MatildaS
    ```
 
-<span data-ttu-id="b2c09-123">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, voir [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember)</span><span class="sxs-lookup"><span data-stu-id="b2c09-123">For detailed syntax and parameter issues, see [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember)</span></span>
+<span data-ttu-id="0ea42-127">Pour des problèmes de syntaxe et de paramètres détaillés, voir [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember)</span><span class="sxs-lookup"><span data-stu-id="0ea42-127">For detailed syntax and parameter issues, see [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember)</span></span>
 
-### <a name="how-do-you-know-this-worked"></a><span data-ttu-id="b2c09-124">Comment savoir si cela a fonctionné ?</span><span class="sxs-lookup"><span data-stu-id="b2c09-124">How do you know this worked?</span></span>
+### <a name="how-do-you-know-this-worked"></a><span data-ttu-id="0ea42-128">Comment savoir si cela a fonctionné ?</span><span class="sxs-lookup"><span data-stu-id="0ea42-128">How do you know this worked?</span></span>
 
-<span data-ttu-id="b2c09-125">Pour vérifier que vous avez bien autorisé l’accès au centre de sécurité & conformité, effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="b2c09-125">To verify that you've successfully granted access to the Security & Compliance Center, do either of the following steps:</span></span>
+<span data-ttu-id="0ea42-129">Pour vérifier que vous avez bien accordé l’accès au Centre de sécurité & conformité, vous devez suivre l’une des étapes suivantes :</span><span class="sxs-lookup"><span data-stu-id="0ea42-129">To verify that you've successfully granted access to the Security & Compliance Center, do either of the following steps:</span></span>
 
-- <span data-ttu-id="b2c09-126">Dans le centre de sécurité & conformité, accédez à **autorisations** et sélectionnez le groupe de rôles.</span><span class="sxs-lookup"><span data-stu-id="b2c09-126">In the Security & Compliance Center, go to **Permissions** and select the role group.</span></span> <span data-ttu-id="b2c09-127">Dans la fenêtre mobile des détails qui s’ouvre, vérifiez les membres du groupe de rôles.</span><span class="sxs-lookup"><span data-stu-id="b2c09-127">In the details flyout that opens, verify the members of the role group.</span></span>
+- <span data-ttu-id="0ea42-130">Dans le Centre de sécurité & conformité, sélectionnez le groupe de **rôles Autorisations.**</span><span class="sxs-lookup"><span data-stu-id="0ea42-130">In the Security & Compliance Center, go to **Permissions** and select the role group.</span></span> <span data-ttu-id="0ea42-131">Dans le volant d’informations qui s’ouvre, vérifiez les membres du groupe de rôles.</span><span class="sxs-lookup"><span data-stu-id="0ea42-131">In the details flyout that opens, verify the members of the role group.</span></span>
 
-- <span data-ttu-id="b2c09-128">Dans sécurité & Centre de conformité PowerShell, remplacez \<RoleGroupName\> par le nom du groupe de rôles, puis exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="b2c09-128">In Security & Compliance Center PowerShell, replace \<RoleGroupName\> with the name of the role group, and run the following command:</span></span>
+- <span data-ttu-id="0ea42-132">Dans le Centre & de sécurité PowerShell, remplacez-le par le nom du groupe de rôles \<RoleGroupName\> et exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="0ea42-132">In Security & Compliance Center PowerShell, replace \<RoleGroupName\> with the name of the role group, and run the following command:</span></span>
 
   ```powershell
   Get-RoleGroupMember -Identity "<RoleGroupName>"
   ```
 
-  <span data-ttu-id="b2c09-129">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, consultez la rubrique [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember).</span><span class="sxs-lookup"><span data-stu-id="b2c09-129">For detailed syntax and parameter information, see [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember).</span></span>
+  <span data-ttu-id="0ea42-133">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, [voir Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember).</span><span class="sxs-lookup"><span data-stu-id="0ea42-133">For detailed syntax and parameter information, see [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember).</span></span>
