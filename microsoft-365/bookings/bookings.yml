@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Microsoft Bookings
-summary: Planifiez et gérez les rendez-vous avec Microsoft bookings. Inclut l’intégration à Outlook et les notifications automatiques.
+summary: Planifier et gérer des rendez-vous avec Microsoft Bookings. Inclut l’intégration à Outlook et les notifications automatisées.
 metadata:
   title: Microsoft Bookings
-  description: Planifiez et gérez les rendez-vous avec Microsoft bookings. Inclut l’intégration à Outlook et les notifications automatiques.
+  description: Planifier et gérer des rendez-vous avec Microsoft Bookings. Inclut l’intégration à Outlook et les notifications automatisées.
   ms.service: bookings
   ms.topic: landing-page
   author: dmaguire
@@ -18,23 +18,23 @@ metadata:
   ms.lasthandoff: 09/09/2020
   ms.locfileid: "47419611"
 landingContent:
-- title: À propos de Microsoft bookings
+- title: À propos de Microsoft Bookings
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Microsoft bookings ?
+    - text: Qu’est-ce que Microsoft Bookings ?
       url: bookings-overview.md
   - linkListType: download
     links:
-    - text: Obtenir l’application de livres
+    - text: Obtenir l’application bookings
       url: get-bookings-app.md
-- title: Configurer Microsoft bookings
+- title: Configurer Microsoft Bookings
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Entrer vos informations professionnelles
+    - text: Protégez vos informations
       url: enter-business-information.md
-    - text: Définir vos stratégies de planification
+    - text: Définition de vos stratégies de planification
       url: set-scheduling-policies.md
     - text: Définir vos offres de service
       url: define-service-offerings.md
@@ -42,9 +42,9 @@ landingContent:
       url: employee-hours.md
     - text: Personnaliser et publier votre page de réservation
       url: customize-booking-page.md
-    - text: Créer et doter vos livres
+    - text: Créer et créer du personnel pour vos réservations
       url: create-a-manual-booking.md
-- title: Inviter des personnes à réserver des rendez-vous
+- title: Inviter des personnes à prendre des rendez-vous
   linkLists:
   - linkListType: how-to-guide
     links:
