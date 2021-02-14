@@ -21,4 +21,4 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46695810"
 ---
-# <a name="office-365-measurements-for-network-performance-recommendations"></a><span data-ttu-id="015c1-103">Mesures Office 365 pour les recommandations en matière de performances réseau</span><span class="sxs-lookup"><span data-stu-id="015c1-103">Office 365 measurements for network performance recommendations</span></span>
+# <a name="office-365-measurements-for-network-performance-recommendations"></a><span data-ttu-id="ab282-103">Mesures Office 365 pour les recommandations en matière de performances réseau</span><span class="sxs-lookup"><span data-stu-id="ab282-103">Office 365 measurements for network performance recommendations</span></span>
