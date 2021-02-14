@@ -1,5 +1,5 @@
 ---
-title: Principes de conception multinationale de Microsoft 365
+title: Principes de conception multinationaux pour Microsoft 365
 description: Description.
 ms.author: samanro
 author: samanro
@@ -19,6 +19,6 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 07/29/2020
 ms.locfileid: "46521098"
 ---
-# <a name="multi-national-design-principles-for-microsoft-365"></a><span data-ttu-id="f2ab6-103">Principes de conception multinationale de Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="f2ab6-103">Multi-national design principles for Microsoft 365</span></span>
+# <a name="multi-national-design-principles-for-microsoft-365"></a><span data-ttu-id="c6570-103">Principes de conception multinationaux pour Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="c6570-103">Multi-national design principles for Microsoft 365</span></span>
 
-<span data-ttu-id="f2ab6-104">Texte</span><span class="sxs-lookup"><span data-stu-id="f2ab6-104">Text</span></span>
+<span data-ttu-id="c6570-104">Texte</span><span class="sxs-lookup"><span data-stu-id="c6570-104">Text</span></span>

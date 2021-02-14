@@ -1,7 +1,7 @@
 ---
-title: Commander des appareils dans le bureau géré Microsoft
+title: Commander des appareils dans Le Bureau géré Microsoft
 description: ''
-keywords: Bureau géré Microsoft, Microsoft 365, service, documentation
+keywords: Bureau géré Microsoft, Microsoft 365, service, documentation
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
@@ -16,11 +16,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 07/30/2020
 ms.locfileid: "46529528"
 ---
-# <a name="order-microsoft-managed-desktop-devices"></a><span data-ttu-id="d1417-103">Commander des appareils de bureau gérés Microsoft</span><span class="sxs-lookup"><span data-stu-id="d1417-103">Order Microsoft Managed Desktop devices</span></span>
+# <a name="order-microsoft-managed-desktop-devices"></a><span data-ttu-id="8d6e0-103">Commander des appareils bureau géré Microsoft</span><span class="sxs-lookup"><span data-stu-id="8d6e0-103">Order Microsoft Managed Desktop devices</span></span>
 
-<span data-ttu-id="d1417-104">Nous vous recommandons de travailler avec l’un de nos partenaires d’appareils approuvés.</span><span class="sxs-lookup"><span data-stu-id="d1417-104">We recommend working with one of our approved device partners.</span></span> <span data-ttu-id="d1417-105">Vous pouvez utiliser votre contact de compte Microsoft pour plus d’informations sur la configuration d’un partenariat d’appareils.</span><span class="sxs-lookup"><span data-stu-id="d1417-105">You can work with your Microsoft account contact for more help setting up a device partnership.</span></span>
+<span data-ttu-id="8d6e0-104">Nous vous recommandons de collaborer avec l’un de nos partenaires d’appareils approuvés.</span><span class="sxs-lookup"><span data-stu-id="8d6e0-104">We recommend working with one of our approved device partners.</span></span> <span data-ttu-id="8d6e0-105">Vous pouvez travailler avec votre contact de compte Microsoft pour obtenir de l’aide sur la configuration d’un partenariat d’appareil.</span><span class="sxs-lookup"><span data-stu-id="8d6e0-105">You can work with your Microsoft account contact for more help setting up a device partnership.</span></span>
 
-<span data-ttu-id="d1417-106">En attendant, vous pouvez passer en revue la liste des [appareils approuvés actuellement](../service-description/device-list.md) pris en charge pour une utilisation avec le bureau géré Microsoft.</span><span class="sxs-lookup"><span data-stu-id="d1417-106">In the meantime, you can review the list of [currently approved devices](../service-description/device-list.md) that are supported for use with Microsoft Managed Desktop.</span></span>
+<span data-ttu-id="8d6e0-106">En attendant, vous pouvez consulter [](../service-description/device-list.md) la liste des appareils actuellement approuvés qui sont pris en charge pour une utilisation avec Bureau géré Microsoft.</span><span class="sxs-lookup"><span data-stu-id="8d6e0-106">In the meantime, you can review the list of [currently approved devices](../service-description/device-list.md) that are supported for use with Microsoft Managed Desktop.</span></span>
 
 
 
