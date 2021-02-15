@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Découvrez comment contacter le support pour votre pays ou région.
+description: Découvrez comment contacter le support technique pour votre pays ou région.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: b410b4452b462133e1217eb4c11c571964ab9ff4
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,20 +20,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640318"
 ---
-# <a name="contact-support-for-pitcairn-islands"></a><span data-ttu-id="9fb69-103">Contacter le support pour les îles Pitcairn</span><span class="sxs-lookup"><span data-stu-id="9fb69-103">Contact support for Pitcairn Islands</span></span>
+# <a name="contact-support-for-pitcairn-islands"></a><span data-ttu-id="8a12a-103">Contacter le support technique de Pitcairn (îles)</span><span class="sxs-lookup"><span data-stu-id="8a12a-103">Contact support for Pitcairn Islands</span></span>
 
-<span data-ttu-id="9fb69-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="9fb69-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="8a12a-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="8a12a-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="9fb69-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="9fb69-105">Phone number</span></span>
-<span data-ttu-id="9fb69-106">+ 1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="9fb69-106">+1 312 843 5148</span></span>
+## <a name="phone-number"></a><span data-ttu-id="8a12a-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="8a12a-105">Phone number</span></span>
+<span data-ttu-id="8a12a-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="8a12a-106">+1 312 843 5148</span></span>
 
-## <a name="hours"></a><span data-ttu-id="9fb69-107">Heures</span><span class="sxs-lookup"><span data-stu-id="9fb69-107">Hours</span></span>
-<span data-ttu-id="9fb69-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="9fb69-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="8a12a-107">Heures</span><span class="sxs-lookup"><span data-stu-id="8a12a-107">Hours</span></span>
+<span data-ttu-id="8a12a-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="8a12a-108">Billing Support:</span></span>
 
-<span data-ttu-id="9fb69-109">Anglais : Mon-Fri 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="9fb69-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="8a12a-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="8a12a-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="9fb69-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="9fb69-110">Technical Support:</span></span>
+<span data-ttu-id="8a12a-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="8a12a-110">Technical Support:</span></span>
 
-<span data-ttu-id="9fb69-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="9fb69-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="8a12a-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="8a12a-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="9fb69-112">Frais d’appels internationaux appliqués</span><span class="sxs-lookup"><span data-stu-id="9fb69-112">International call charges apply</span></span>
+<span data-ttu-id="8a12a-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="8a12a-112">International call charges apply</span></span>

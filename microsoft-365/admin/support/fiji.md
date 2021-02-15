@@ -1,5 +1,5 @@
 ---
-title: Informations de support pour les îles Fidji
+title: Informations de support pour Fidji
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Découvrez comment contacter le support pour votre pays ou région.
+description: Découvrez comment contacter le support technique pour votre pays ou région.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 55d212b498e97916b01f355613861bb0779ffc0e
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,22 +20,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642682"
 ---
-# <a name="contact-support-for-fiji"></a><span data-ttu-id="2402f-103">Contacter le support pour les îles Fidji</span><span class="sxs-lookup"><span data-stu-id="2402f-103">Contact support for Fiji</span></span>
+# <a name="contact-support-for-fiji"></a><span data-ttu-id="14392-103">Contacter le support technique pour Fidji</span><span class="sxs-lookup"><span data-stu-id="14392-103">Contact support for Fiji</span></span>
 
-<span data-ttu-id="2402f-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="2402f-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="14392-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="14392-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="2402f-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="2402f-105">Phone number</span></span>
-<span data-ttu-id="2402f-106">004 890 1001</span><span class="sxs-lookup"><span data-stu-id="2402f-106">004 890 1001</span></span>
+## <a name="phone-number"></a><span data-ttu-id="14392-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="14392-105">Phone number</span></span>
+<span data-ttu-id="14392-106">004 890 1001</span><span class="sxs-lookup"><span data-stu-id="14392-106">004 890 1001</span></span>
 
-<span data-ttu-id="2402f-107">Après la numérotation, entrez</span><span class="sxs-lookup"><span data-stu-id="2402f-107">After dialing, enter</span></span>
+<span data-ttu-id="14392-107">Après la numérotation, entrez</span><span class="sxs-lookup"><span data-stu-id="14392-107">After dialing, enter</span></span>
 
-<span data-ttu-id="2402f-108">877 860 4596</span><span class="sxs-lookup"><span data-stu-id="2402f-108">877 860 4596</span></span>
+<span data-ttu-id="14392-108">877 860 4596</span><span class="sxs-lookup"><span data-stu-id="14392-108">877 860 4596</span></span>
 
-## <a name="hours"></a><span data-ttu-id="2402f-109">Heures</span><span class="sxs-lookup"><span data-stu-id="2402f-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="2402f-110">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="2402f-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="14392-109">Heures</span><span class="sxs-lookup"><span data-stu-id="14392-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="14392-110">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="14392-110">Billing Support:</span></span>
 
-<span data-ttu-id="2402f-111">Anglais : Mon-Fri 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="2402f-111">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="14392-111">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="14392-111">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="2402f-112">Support technique :</span><span class="sxs-lookup"><span data-stu-id="2402f-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="14392-112">Support technique :</span><span class="sxs-lookup"><span data-stu-id="14392-112">Technical Support:</span></span>
 
-<span data-ttu-id="2402f-113">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="2402f-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="14392-113">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="14392-113">English: 24 hours a day, 7 days a week</span></span>

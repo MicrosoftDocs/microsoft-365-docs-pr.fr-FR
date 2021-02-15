@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Découvrez comment contacter le support pour votre pays ou région.
+description: Découvrez comment contacter le support technique pour votre pays ou région.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: aa74f60ab87bccacefb11822edd02c75b5bdacc9
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,22 +20,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48639802"
 ---
-# <a name="contact-support-for-singapore"></a><span data-ttu-id="a11fe-103">Contacter le support pour Singapour</span><span class="sxs-lookup"><span data-stu-id="a11fe-103">Contact support for Singapore</span></span>
+# <a name="contact-support-for-singapore"></a><span data-ttu-id="fc586-103">Contacter le support pour Singapour</span><span class="sxs-lookup"><span data-stu-id="fc586-103">Contact support for Singapore</span></span>
 
-<span data-ttu-id="a11fe-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="a11fe-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="fc586-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="fc586-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="a11fe-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="a11fe-105">Phone number</span></span>
-<span data-ttu-id="a11fe-106">1 800 622 1856</span><span class="sxs-lookup"><span data-stu-id="a11fe-106">1 800 622 1856</span></span>
+## <a name="phone-number"></a><span data-ttu-id="fc586-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="fc586-105">Phone number</span></span>
+<span data-ttu-id="fc586-106">1 800 622 1856</span><span class="sxs-lookup"><span data-stu-id="fc586-106">1 800 622 1856</span></span>
 
-## <a name="hours"></a><span data-ttu-id="a11fe-107">Heures</span><span class="sxs-lookup"><span data-stu-id="a11fe-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="a11fe-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="a11fe-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="fc586-107">Heures</span><span class="sxs-lookup"><span data-stu-id="fc586-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="fc586-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="fc586-108">Billing Support:</span></span>
 
-<span data-ttu-id="a11fe-109">Anglais : Mon-Fri 9 AM-6 PM</span><span class="sxs-lookup"><span data-stu-id="a11fe-109">English: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="fc586-109">Anglais : Mon-Fri 9h00 à 18h00</span><span class="sxs-lookup"><span data-stu-id="fc586-109">English: Mon-Fri 9 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="a11fe-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="a11fe-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="fc586-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="fc586-110">Technical Support:</span></span>
 
-<span data-ttu-id="a11fe-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="a11fe-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="fc586-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="fc586-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="a11fe-112">Autre numéro de téléphone : 6622 1855</span><span class="sxs-lookup"><span data-stu-id="a11fe-112">Alternative Phone Number: 6622 1855</span></span>
+<span data-ttu-id="fc586-112">Autre numéro de téléphone : 6622 1855</span><span class="sxs-lookup"><span data-stu-id="fc586-112">Alternative Phone Number: 6622 1855</span></span>
 
-<span data-ttu-id="a11fe-113">Frais d’appels locaux appliqués</span><span class="sxs-lookup"><span data-stu-id="a11fe-113">Local call charges apply</span></span>
+<span data-ttu-id="fc586-113">Frais d’appel local applicables</span><span class="sxs-lookup"><span data-stu-id="fc586-113">Local call charges apply</span></span>
