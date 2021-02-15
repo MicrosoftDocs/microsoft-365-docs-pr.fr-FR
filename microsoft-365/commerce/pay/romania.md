@@ -20,17 +20,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48646906"
 ---
-# <a name="payment-information-for-romania"></a><span data-ttu-id="d5eff-103">Informations de paiement pour la Roumanie</span><span class="sxs-lookup"><span data-stu-id="d5eff-103">Payment information for Romania</span></span>
+# <a name="payment-information-for-romania"></a><span data-ttu-id="c0643-103">Informations de paiement pour la Roumanie</span><span class="sxs-lookup"><span data-stu-id="c0643-103">Payment information for Romania</span></span>
 
-<span data-ttu-id="d5eff-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="d5eff-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="c0643-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="c0643-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="d5eff-105">Payez en EUR seulement et numéro (s) de facture de référence sur votre bordereau de paiement.</span><span class="sxs-lookup"><span data-stu-id="d5eff-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="c0643-105">Veuillez payer en EUR uniquement et référencer les numéro(s) de facture à votre paiement.</span><span class="sxs-lookup"><span data-stu-id="c0643-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="d5eff-106">Transfert de fonds électronique</span><span class="sxs-lookup"><span data-stu-id="d5eff-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="c0643-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="c0643-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="d5eff-107">**Banque :** Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="d5eff-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="d5eff-108">**Code SWIFT :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="d5eff-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="d5eff-109">**IBAN :** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="d5eff-109">**IBAN:** GB31CITI18500812207591</span></span>  
-<span data-ttu-id="d5eff-110">**Code de tri :** 185008</span><span class="sxs-lookup"><span data-stu-id="d5eff-110">**SORT Code:** 185008</span></span>  
-<span data-ttu-id="d5eff-111">**Numéro de compte :** 12207591</span><span class="sxs-lookup"><span data-stu-id="d5eff-111">**Account Number:** 12207591</span></span>  
-<span data-ttu-id="d5eff-112">**Nom du compte :** LIBRAIRIE</span><span class="sxs-lookup"><span data-stu-id="d5eff-112">**Account Name:** MICROSOFT</span></span>
+<span data-ttu-id="c0643-107">**Banque :** Bank, Londres</span><span class="sxs-lookup"><span data-stu-id="c0643-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="c0643-108">**Code SWIFT :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="c0643-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="c0643-109">**IBAN :** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="c0643-109">**IBAN:** GB31CITI18500812207591</span></span>  
+<span data-ttu-id="c0643-110">**Code SORT :** 185008</span><span class="sxs-lookup"><span data-stu-id="c0643-110">**SORT Code:** 185008</span></span>  
+<span data-ttu-id="c0643-111">**Numéro de compte :** 12207591</span><span class="sxs-lookup"><span data-stu-id="c0643-111">**Account Number:** 12207591</span></span>  
+<span data-ttu-id="c0643-112">**Nom du compte :** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="c0643-112">**Account Name:** MICROSOFT</span></span>

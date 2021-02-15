@@ -20,16 +20,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48646966"
 ---
-# <a name="payment-information-for-kenya"></a><span data-ttu-id="9f67c-103">Informations de paiement pour le Kenya</span><span class="sxs-lookup"><span data-stu-id="9f67c-103">Payment information for Kenya</span></span>
+# <a name="payment-information-for-kenya"></a><span data-ttu-id="de7c0-103">Informations de paiement pour le Kenya</span><span class="sxs-lookup"><span data-stu-id="de7c0-103">Payment information for Kenya</span></span>
 
-<span data-ttu-id="9f67c-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="9f67c-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="de7c0-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="de7c0-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="9f67c-105">Veuillez payer en USD uniquement et référencer le ou les numéros de votre facture sur votre bordereau de paiement.</span><span class="sxs-lookup"><span data-stu-id="9f67c-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="de7c0-105">N’hésitez pas à payer en USD uniquement et à référencer vos numéro(s) de facture sur votre facture.</span><span class="sxs-lookup"><span data-stu-id="de7c0-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="9f67c-106">Transfert de fonds électronique</span><span class="sxs-lookup"><span data-stu-id="9f67c-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="de7c0-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="de7c0-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="9f67c-107">**Banque :** Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="9f67c-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="9f67c-108">**Code SWIFT :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="9f67c-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="9f67c-109">**IBAN :** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="9f67c-109">**IBAN:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="9f67c-110">**Numéro de compte :** 12510049</span><span class="sxs-lookup"><span data-stu-id="9f67c-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="9f67c-111">**Nom du compte :** LIBRAIRIE</span><span class="sxs-lookup"><span data-stu-id="9f67c-111">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="de7c0-107">**Banque :** Bank, Londres</span><span class="sxs-lookup"><span data-stu-id="de7c0-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="de7c0-108">**Code SWIFT :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="de7c0-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="de7c0-109">**IBAN :** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="de7c0-109">**IBAN:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="de7c0-110">**Numéro de compte :** 12510049</span><span class="sxs-lookup"><span data-stu-id="de7c0-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="de7c0-111">**Nom du compte :** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="de7c0-111">**Account Name:** MICROSOFT</span></span>  

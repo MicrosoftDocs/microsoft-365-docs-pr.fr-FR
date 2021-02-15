@@ -20,16 +20,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48647206"
 ---
-# <a name="payment-information-for-indonesia"></a><span data-ttu-id="56a16-103">Informations de paiement pour l’Indonésie</span><span class="sxs-lookup"><span data-stu-id="56a16-103">Payment information for Indonesia</span></span>
+# <a name="payment-information-for-indonesia"></a><span data-ttu-id="bface-103">Informations de paiement pour l’Indonésie</span><span class="sxs-lookup"><span data-stu-id="bface-103">Payment information for Indonesia</span></span>
 
-<span data-ttu-id="56a16-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="56a16-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span> 
+<span data-ttu-id="bface-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="bface-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span> 
 
-<span data-ttu-id="56a16-105">Veuillez payer uniquement les numéros de factures de référence sur votre bordereau de paiement.</span><span class="sxs-lookup"><span data-stu-id="56a16-105">Please pay in IDR only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="bface-105">Veuillez payer en IDR uniquement et référencer les numéro(s) de facture à votre paiement.</span><span class="sxs-lookup"><span data-stu-id="bface-105">Please pay in IDR only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="56a16-106">Transfert de fonds électronique</span><span class="sxs-lookup"><span data-stu-id="56a16-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="bface-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="bface-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="56a16-107">**Banque :** Citibank, Indonésie</span><span class="sxs-lookup"><span data-stu-id="56a16-107">**Bank:** Citibank, Indonesia</span></span>  
-<span data-ttu-id="56a16-108">**Branche :** Djakarta</span><span class="sxs-lookup"><span data-stu-id="56a16-108">**Branch:** Jakarta</span></span>  
-<span data-ttu-id="56a16-109">**Code SWIFT :** CITIIDJX</span><span class="sxs-lookup"><span data-stu-id="56a16-109">**SWIFT Code:** CITIIDJX</span></span>  
-<span data-ttu-id="56a16-110">**Numéro de compte :** 104468055</span><span class="sxs-lookup"><span data-stu-id="56a16-110">**Account Number:** 104468055</span></span>  
-<span data-ttu-id="56a16-111">**Nom du compte :** PT Microsoft Indonésie</span><span class="sxs-lookup"><span data-stu-id="56a16-111">**Account Name:** PT Microsoft Indonesia</span></span>  
+<span data-ttu-id="bface-107">**Banque :** Bank, Indonésie</span><span class="sxs-lookup"><span data-stu-id="bface-107">**Bank:** Citibank, Indonesia</span></span>  
+<span data-ttu-id="bface-108">**Branche :** Qu’est-ce que c</span><span class="sxs-lookup"><span data-stu-id="bface-108">**Branch:** Jakarta</span></span>  
+<span data-ttu-id="bface-109">**Code SWIFT :** CITIIDJX</span><span class="sxs-lookup"><span data-stu-id="bface-109">**SWIFT Code:** CITIIDJX</span></span>  
+<span data-ttu-id="bface-110">**Numéro de compte :** 104468055</span><span class="sxs-lookup"><span data-stu-id="bface-110">**Account Number:** 104468055</span></span>  
+<span data-ttu-id="bface-111">**Nom du compte :** PT Microsoft Indonésie</span><span class="sxs-lookup"><span data-stu-id="bface-111">**Account Name:** PT Microsoft Indonesia</span></span>  

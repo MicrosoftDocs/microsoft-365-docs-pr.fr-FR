@@ -1,5 +1,5 @@
 ---
-title: Informations de paiement pour le Panama
+title: Informations de paiement pour panama
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,16 +20,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48648862"
 ---
-# <a name="payment-information-for-panama"></a><span data-ttu-id="e33f1-103">Informations de paiement pour le Panama</span><span class="sxs-lookup"><span data-stu-id="e33f1-103">Payment information for Panama</span></span>
+# <a name="payment-information-for-panama"></a><span data-ttu-id="27d53-103">Informations de paiement pour panama</span><span class="sxs-lookup"><span data-stu-id="27d53-103">Payment information for Panama</span></span>
 
-<span data-ttu-id="e33f1-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="e33f1-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="27d53-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="27d53-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="e33f1-105">Payez uniquement en USD et numéro (s) de facture de référence sur la remise de paiement.</span><span class="sxs-lookup"><span data-stu-id="e33f1-105">Please pay in USD only and reference invoice number(s) on the payment remittance.</span></span>
+<span data-ttu-id="27d53-105">Veuillez payer en USD uniquement et référencer les numéro(s) de facture en paiement.</span><span class="sxs-lookup"><span data-stu-id="27d53-105">Please pay in USD only and reference invoice number(s) on the payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="e33f1-106">Transfert de fonds électronique</span><span class="sxs-lookup"><span data-stu-id="e33f1-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="27d53-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="27d53-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="e33f1-107">**Banque :** Bank of America</span><span class="sxs-lookup"><span data-stu-id="e33f1-107">**Bank:** Bank of America</span></span>   
-<span data-ttu-id="e33f1-108">**Branche :** Comptent</span><span class="sxs-lookup"><span data-stu-id="e33f1-108">**Branch:** Dallas</span></span>   
-<span data-ttu-id="e33f1-109">**Code SWIFT :** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="e33f1-109">**SWIFT Code:** BOFAUS3N</span></span>   
-<span data-ttu-id="e33f1-110">**Numéro de compte :** 4426587954</span><span class="sxs-lookup"><span data-stu-id="e33f1-110">**Account Number:** 4426587954</span></span>   
-<span data-ttu-id="e33f1-111">**Nom du compte :** Librairie</span><span class="sxs-lookup"><span data-stu-id="e33f1-111">**Account Name:** Microsoft</span></span>  
+<span data-ttu-id="27d53-107">**Banque :** Bank of America</span><span class="sxs-lookup"><span data-stu-id="27d53-107">**Bank:** Bank of America</span></span>   
+<span data-ttu-id="27d53-108">**Branche :** Dallas</span><span class="sxs-lookup"><span data-stu-id="27d53-108">**Branch:** Dallas</span></span>   
+<span data-ttu-id="27d53-109">**Code SWIFT :** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="27d53-109">**SWIFT Code:** BOFAUS3N</span></span>   
+<span data-ttu-id="27d53-110">**Numéro de compte :** 4426587954</span><span class="sxs-lookup"><span data-stu-id="27d53-110">**Account Number:** 4426587954</span></span>   
+<span data-ttu-id="27d53-111">**Nom du compte :** Microsoft</span><span class="sxs-lookup"><span data-stu-id="27d53-111">**Account Name:** Microsoft</span></span>  

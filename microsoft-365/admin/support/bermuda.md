@@ -1,5 +1,5 @@
 ---
-title: Informations de support pour les Bermudes
+title: Informations de support pour les Îles
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Découvrez comment contacter le support pour votre pays ou région.
+description: Découvrez comment contacter le support technique pour votre pays ou région.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: adc344d596a2a37f0f995fb8675abc8fb0b9d875
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,18 +20,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48643870"
 ---
-# <a name="contact-support-for-bermuda"></a><span data-ttu-id="67725-103">Contacter le support pour les Bermudes</span><span class="sxs-lookup"><span data-stu-id="67725-103">Contact support for Bermuda</span></span>
+# <a name="contact-support-for-bermuda"></a><span data-ttu-id="ce74f-103">Contacter le support technique pour les Îles</span><span class="sxs-lookup"><span data-stu-id="ce74f-103">Contact support for Bermuda</span></span>
 
-<span data-ttu-id="67725-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="67725-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="ce74f-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="ce74f-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="67725-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="67725-105">Phone number</span></span>
-<span data-ttu-id="67725-106">1 877 639 9636</span><span class="sxs-lookup"><span data-stu-id="67725-106">1 877 639 9636</span></span>
+## <a name="phone-number"></a><span data-ttu-id="ce74f-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="ce74f-105">Phone number</span></span>
+<span data-ttu-id="ce74f-106">1 877 639 9636</span><span class="sxs-lookup"><span data-stu-id="ce74f-106">1 877 639 9636</span></span>
 
-## <a name="hours"></a><span data-ttu-id="67725-107">Heures</span><span class="sxs-lookup"><span data-stu-id="67725-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="67725-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="67725-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="ce74f-107">Heures</span><span class="sxs-lookup"><span data-stu-id="ce74f-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="ce74f-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="ce74f-108">Billing Support:</span></span>
 
-<span data-ttu-id="67725-109">Anglais : Mon-Fri 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="67725-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="ce74f-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="ce74f-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="67725-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="67725-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="ce74f-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="ce74f-110">Technical Support:</span></span>
 
-<span data-ttu-id="67725-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="67725-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="ce74f-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="ce74f-111">English: 24 hours a day, 7 days a week</span></span>

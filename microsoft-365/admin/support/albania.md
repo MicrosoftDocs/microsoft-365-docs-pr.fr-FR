@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Découvrez comment contacter le support pour votre pays ou région.
+description: Découvrez comment contacter le support technique pour votre pays ou région.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: fccc168aa2b20cdcb5858a2cf1deab5eb6bfc296
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,24 +20,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48644386"
 ---
-# <a name="contact-support-for-albania"></a><span data-ttu-id="7d36e-103">Contacter le support pour l’Albanie</span><span class="sxs-lookup"><span data-stu-id="7d36e-103">Contact support for Albania</span></span>
+# <a name="contact-support-for-albania"></a><span data-ttu-id="b1200-103">Contacter le support pour l’Albanie</span><span class="sxs-lookup"><span data-stu-id="b1200-103">Contact support for Albania</span></span>
 
-<span data-ttu-id="7d36e-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="7d36e-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="b1200-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="b1200-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="7d36e-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="7d36e-105">Phone number</span></span>
-<span data-ttu-id="7d36e-106">04 451 5151</span><span class="sxs-lookup"><span data-stu-id="7d36e-106">04 451 5151</span></span>
+## <a name="phone-number"></a><span data-ttu-id="b1200-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="b1200-105">Phone number</span></span>
+<span data-ttu-id="b1200-106">04 451 5151</span><span class="sxs-lookup"><span data-stu-id="b1200-106">04 451 5151</span></span>
 
-<span data-ttu-id="7d36e-107">Sélectionnez l’option 9</span><span class="sxs-lookup"><span data-stu-id="7d36e-107">Select option 9</span></span>
+<span data-ttu-id="b1200-107">Sélectionner l’option 9</span><span class="sxs-lookup"><span data-stu-id="b1200-107">Select option 9</span></span>
 
-<span data-ttu-id="7d36e-108">Entrez le code 7700</span><span class="sxs-lookup"><span data-stu-id="7d36e-108">Enter code 7700</span></span>
+<span data-ttu-id="b1200-108">Entrer le code 7700</span><span class="sxs-lookup"><span data-stu-id="b1200-108">Enter code 7700</span></span>
 
-## <a name="hours"></a><span data-ttu-id="7d36e-109">Heures</span><span class="sxs-lookup"><span data-stu-id="7d36e-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="7d36e-110">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="7d36e-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="b1200-109">Heures</span><span class="sxs-lookup"><span data-stu-id="b1200-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="b1200-110">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="b1200-110">Billing Support:</span></span>
 
-<span data-ttu-id="7d36e-111">Anglais : Mon-Fri 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="7d36e-111">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="b1200-111">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="b1200-111">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="7d36e-112">Support technique :</span><span class="sxs-lookup"><span data-stu-id="7d36e-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="b1200-112">Support technique :</span><span class="sxs-lookup"><span data-stu-id="b1200-112">Technical Support:</span></span>
 
-<span data-ttu-id="7d36e-113">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="7d36e-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="b1200-113">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="b1200-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="7d36e-114">Frais d’appels locaux appliqués</span><span class="sxs-lookup"><span data-stu-id="7d36e-114">Local call charges apply</span></span>
+<span data-ttu-id="b1200-114">Frais d’appel local applicables</span><span class="sxs-lookup"><span data-stu-id="b1200-114">Local call charges apply</span></span>

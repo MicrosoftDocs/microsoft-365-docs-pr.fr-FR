@@ -20,16 +20,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48648370"
 ---
-# <a name="payment-information-for-taiwan"></a><span data-ttu-id="ca6f4-103">Informations de paiement pour Taïwan</span><span class="sxs-lookup"><span data-stu-id="ca6f4-103">Payment information for Taiwan</span></span>
+# <a name="payment-information-for-taiwan"></a><span data-ttu-id="33c97-103">Informations de paiement pour Taïwan</span><span class="sxs-lookup"><span data-stu-id="33c97-103">Payment information for Taiwan</span></span>
 
-<span data-ttu-id="ca6f4-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="ca6f4-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span> 
+<span data-ttu-id="33c97-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="33c97-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span> 
 
-<span data-ttu-id="ca6f4-105">Veuillez payer dans N.T.</span><span class="sxs-lookup"><span data-stu-id="ca6f4-105">Please pay in N.T.</span></span> <span data-ttu-id="ca6f4-106">Dollars uniquement et numéro (s) de facture de référence sur votre bordereau de paiement.</span><span class="sxs-lookup"><span data-stu-id="ca6f4-106">Dollars only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="33c97-105">Veuillez payer en N.T.</span><span class="sxs-lookup"><span data-stu-id="33c97-105">Please pay in N.T.</span></span> <span data-ttu-id="33c97-106">Dollars uniquement et référencer les numéro(s) de facture(s) de votre paiement.</span><span class="sxs-lookup"><span data-stu-id="33c97-106">Dollars only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="ca6f4-107">Transfert de fonds électronique</span><span class="sxs-lookup"><span data-stu-id="ca6f4-107">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="33c97-107">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="33c97-107">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="ca6f4-108">**Banque bénéficiaire :** LIMITE DE CITIBANK TAÏWAN</span><span class="sxs-lookup"><span data-stu-id="ca6f4-108">**Beneficiary Bank:** CITIBANK TAIWAN LIMITED</span></span>  
-<span data-ttu-id="ca6f4-109">**Code de banque et code de succursale :** 0210018</span><span class="sxs-lookup"><span data-stu-id="ca6f4-109">**Bank Code and Branch Code:** 0210018</span></span>  
-<span data-ttu-id="ca6f4-110">**Code SWIFT :** CITITWTX</span><span class="sxs-lookup"><span data-stu-id="ca6f4-110">**SWIFT Code:** CITITWTX</span></span>  
-<span data-ttu-id="ca6f4-111">**Numéro de compte :** 5038946139</span><span class="sxs-lookup"><span data-stu-id="ca6f4-111">**Account Number:** 5038946139</span></span>  
-<span data-ttu-id="ca6f4-112">**Nom du compte :** MICROSOFT TAÏWAN CORPORATION</span><span class="sxs-lookup"><span data-stu-id="ca6f4-112">**Account Name:** MICROSOFT TAIWAN CORPORATION</span></span>    
+<span data-ttu-id="33c97-108">**Banque du bénéficiaire :** BANK TAIWAN LIMITED</span><span class="sxs-lookup"><span data-stu-id="33c97-108">**Beneficiary Bank:** CITIBANK TAIWAN LIMITED</span></span>  
+<span data-ttu-id="33c97-109">**Code bancaire et code de succursale** : 0210018</span><span class="sxs-lookup"><span data-stu-id="33c97-109">**Bank Code and Branch Code:** 0210018</span></span>  
+<span data-ttu-id="33c97-110">**Code SWIFT :** CITITWTX</span><span class="sxs-lookup"><span data-stu-id="33c97-110">**SWIFT Code:** CITITWTX</span></span>  
+<span data-ttu-id="33c97-111">**Numéro de compte :** 5038946139</span><span class="sxs-lookup"><span data-stu-id="33c97-111">**Account Number:** 5038946139</span></span>  
+<span data-ttu-id="33c97-112">**Nom du compte :** MICROSOFT TAIWAN CORPORATION</span><span class="sxs-lookup"><span data-stu-id="33c97-112">**Account Name:** MICROSOFT TAIWAN CORPORATION</span></span>    

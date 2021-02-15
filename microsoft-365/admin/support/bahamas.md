@@ -1,5 +1,5 @@
 ---
-title: Informations de support pour les Bahamas
+title: Informations de support pour Le Bahamas
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Support
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Découvrez comment contacter le support pour votre pays ou région.
+description: Découvrez comment contacter le support technique pour votre pays ou région.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 05cb30d879aeb022ea86ae4e2d69633ff1d7de29
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,18 +20,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48644086"
 ---
-# <a name="contact-support-for-bahamas"></a><span data-ttu-id="a55b1-103">Contacter le support pour les Bahamas</span><span class="sxs-lookup"><span data-stu-id="a55b1-103">Contact support for Bahamas</span></span>
+# <a name="contact-support-for-bahamas"></a><span data-ttu-id="e5554-103">Contacter le support technique pour Le Bahamas</span><span class="sxs-lookup"><span data-stu-id="e5554-103">Contact support for Bahamas</span></span>
 
-<span data-ttu-id="a55b1-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="a55b1-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="e5554-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="e5554-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="a55b1-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="a55b1-105">Phone number</span></span>
-<span data-ttu-id="a55b1-106">800 865 9408</span><span class="sxs-lookup"><span data-stu-id="a55b1-106">800 865 9408</span></span>
+## <a name="phone-number"></a><span data-ttu-id="e5554-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="e5554-105">Phone number</span></span>
+<span data-ttu-id="e5554-106">800 865 9408</span><span class="sxs-lookup"><span data-stu-id="e5554-106">800 865 9408</span></span>
 
-## <a name="hours"></a><span data-ttu-id="a55b1-107">Heures</span><span class="sxs-lookup"><span data-stu-id="a55b1-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="a55b1-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="a55b1-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="e5554-107">Heures</span><span class="sxs-lookup"><span data-stu-id="e5554-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="e5554-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="e5554-108">Billing Support:</span></span>
 
-<span data-ttu-id="a55b1-109">Anglais : Mon-Fri 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="a55b1-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="e5554-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="e5554-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="a55b1-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="a55b1-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="e5554-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="e5554-110">Technical Support:</span></span>
 
-<span data-ttu-id="a55b1-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="a55b1-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="e5554-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="e5554-111">English: 24 hours a day, 7 days a week</span></span>

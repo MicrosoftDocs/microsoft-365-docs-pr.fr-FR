@@ -20,17 +20,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48647482"
 ---
-# <a name="payment-information-for-germany"></a><span data-ttu-id="3a8eb-103">Informations de paiement pour l’Allemagne</span><span class="sxs-lookup"><span data-stu-id="3a8eb-103">Payment information for Germany</span></span>
+# <a name="payment-information-for-germany"></a><span data-ttu-id="3294e-103">Informations de paiement pour l’Allemagne</span><span class="sxs-lookup"><span data-stu-id="3294e-103">Payment information for Germany</span></span>
 
-<span data-ttu-id="3a8eb-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="3a8eb-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="3294e-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="3294e-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="3a8eb-105">Payez en EUR seulement et numéro (s) de facture de référence sur votre bordereau de paiement.</span><span class="sxs-lookup"><span data-stu-id="3a8eb-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="3294e-105">Veuillez payer en EUR uniquement et référencer les numéro(s) de facture à votre paiement.</span><span class="sxs-lookup"><span data-stu-id="3294e-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="3a8eb-106">Transfert de fonds électronique</span><span class="sxs-lookup"><span data-stu-id="3a8eb-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="3294e-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="3294e-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="3a8eb-107">**Banque :** Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="3a8eb-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="3a8eb-108">**Code SWIFT/BIC :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="3a8eb-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
-<span data-ttu-id="3a8eb-109">**IBAN :** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="3a8eb-109">**IBAN:** GB31CITI18500812207591</span></span>  
-<span data-ttu-id="3a8eb-110">**Code de tri :** 185008</span><span class="sxs-lookup"><span data-stu-id="3a8eb-110">**SORT Code:** 185008</span></span>  
-<span data-ttu-id="3a8eb-111">**Numéro de compte :** 12207591</span><span class="sxs-lookup"><span data-stu-id="3a8eb-111">**Account Number:** 12207591</span></span>  
-<span data-ttu-id="3a8eb-112">**Nom du compte :** LIBRAIRIE</span><span class="sxs-lookup"><span data-stu-id="3a8eb-112">**Account Name:** MICROSOFT</span></span> 
+<span data-ttu-id="3294e-107">**Banque :** Bank, Londres</span><span class="sxs-lookup"><span data-stu-id="3294e-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="3294e-108">**Code SWIFT/BIC :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="3294e-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
+<span data-ttu-id="3294e-109">**IBAN :** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="3294e-109">**IBAN:** GB31CITI18500812207591</span></span>  
+<span data-ttu-id="3294e-110">**Code SORT :** 185008</span><span class="sxs-lookup"><span data-stu-id="3294e-110">**SORT Code:** 185008</span></span>  
+<span data-ttu-id="3294e-111">**Numéro de compte :** 12207591</span><span class="sxs-lookup"><span data-stu-id="3294e-111">**Account Number:** 12207591</span></span>  
+<span data-ttu-id="3294e-112">**Nom du compte :** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="3294e-112">**Account Name:** MICROSOFT</span></span> 
