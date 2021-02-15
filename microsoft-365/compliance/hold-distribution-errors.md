@@ -24,6 +24,6 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 02/04/2021
 ms.locfileid: "50099827"
 ---
-# <a name="troubleshoot-ediscovery-hold-errors"></a><span data-ttu-id="bb306-103">Résoudre les erreurs de la découverte électronique</span><span class="sxs-lookup"><span data-stu-id="bb306-103">Troubleshoot eDiscovery hold errors</span></span>
+# <a name="troubleshoot-ediscovery-hold-errors"></a><span data-ttu-id="1b4a8-103">Résoudre les erreurs de la découverte électronique</span><span class="sxs-lookup"><span data-stu-id="1b4a8-103">Troubleshoot eDiscovery hold errors</span></span>
 
-<span data-ttu-id="bb306-104">commencer à ajouter du contenu ici</span><span class="sxs-lookup"><span data-stu-id="bb306-104">start adding content here</span></span>
+<span data-ttu-id="1b4a8-104">commencer à ajouter du contenu ici</span><span class="sxs-lookup"><span data-stu-id="1b4a8-104">start adding content here</span></span>
