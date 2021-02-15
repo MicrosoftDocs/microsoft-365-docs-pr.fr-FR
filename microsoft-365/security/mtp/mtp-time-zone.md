@@ -27,19 +27,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49932837"
 ---
-# <a name="set-the-time-zone-for-microsoft-365-defender"></a><span data-ttu-id="cde83-104">Définir le fuseau horaire pour Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="cde83-104">Set the time zone for Microsoft 365 Defender</span></span>
+# <a name="set-the-time-zone-for-microsoft-365-defender"></a><span data-ttu-id="26723-104">Définir le fuseau horaire pour Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="26723-104">Set the time zone for Microsoft 365 Defender</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="cde83-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="cde83-105">**Applies to:**</span></span>
-- <span data-ttu-id="cde83-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="cde83-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="26723-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="26723-105">**Applies to:**</span></span>
+- <span data-ttu-id="26723-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="26723-106">Microsoft 365 Defender</span></span>
 
 
 
-<span data-ttu-id="cde83-107">Microsoft 365 Defender peut afficher les informations de date et d’heure à l’aide de votre fuseau horaire local ou UTC.</span><span class="sxs-lookup"><span data-stu-id="cde83-107">Microsoft 365 Defender can display date and time information using either your local time zone or UTC.</span></span> <span data-ttu-id="cde83-108">Le fuseau horaire sélectionné s’applique à toutes les informations de date et d’heure indiquées dans les fonctionnalités suivantes du centre de sécurité Microsoft 365 :</span><span class="sxs-lookup"><span data-stu-id="cde83-108">The selected time zone will apply to all date and time information shown in the following features in the Microsoft 365 security center:</span></span>
-- <span data-ttu-id="cde83-109">Incidents</span><span class="sxs-lookup"><span data-stu-id="cde83-109">Incidents</span></span>
-- <span data-ttu-id="cde83-110">Enquête et correction automatiques, y compris le centre de notifications</span><span class="sxs-lookup"><span data-stu-id="cde83-110">Automated investigation and remediation, including the action center</span></span>
-- <span data-ttu-id="cde83-111">Repérage avancé</span><span class="sxs-lookup"><span data-stu-id="cde83-111">Advanced hunting</span></span>
+<span data-ttu-id="26723-107">Microsoft 365 Defender peut afficher les informations de date et d’heure à l’aide de votre fuseau horaire local ou UTC.</span><span class="sxs-lookup"><span data-stu-id="26723-107">Microsoft 365 Defender can display date and time information using either your local time zone or UTC.</span></span> <span data-ttu-id="26723-108">Le fuseau horaire sélectionné s’applique à toutes les informations de date et d’heure indiquées dans les fonctionnalités suivantes du centre de sécurité Microsoft 365 :</span><span class="sxs-lookup"><span data-stu-id="26723-108">The selected time zone will apply to all date and time information shown in the following features in the Microsoft 365 security center:</span></span>
+- <span data-ttu-id="26723-109">Incidents</span><span class="sxs-lookup"><span data-stu-id="26723-109">Incidents</span></span>
+- <span data-ttu-id="26723-110">Enquête et correction automatiques, y compris le centre de notifications</span><span class="sxs-lookup"><span data-stu-id="26723-110">Automated investigation and remediation, including the action center</span></span>
+- <span data-ttu-id="26723-111">Repérage avancé</span><span class="sxs-lookup"><span data-stu-id="26723-111">Advanced hunting</span></span>
 
-<span data-ttu-id="cde83-112">Pour définir le fuseau horaire de ces **fonctionnalités,** go to Settings  >  **Microsoft 365 Defender**  >  **Time zone**.</span><span class="sxs-lookup"><span data-stu-id="cde83-112">To set the time zone for these features, go to **Settings** > **Microsoft 365 Defender** > **Time zone**.</span></span>
+<span data-ttu-id="26723-112">Pour définir le fuseau horaire de ces **fonctionnalités,** go to Settings  >  **Microsoft 365 Defender**  >  **Time zone**.</span><span class="sxs-lookup"><span data-stu-id="26723-112">To set the time zone for these features, go to **Settings** > **Microsoft 365 Defender** > **Time zone**.</span></span>
