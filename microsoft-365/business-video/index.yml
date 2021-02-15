@@ -35,7 +35,7 @@ productDirectory:
     url: upgrade.md
   - title: Configurer des appareils mobiles
     imageSrc: https://docs.microsoft.com/office/media/icons/device-mobile-download-blue.svg
-    summary: Installez les applications Office sur les appareils mobiles.
+    summary: Installez les applications Office sur des appareils mobiles.
     url: work-from-anywhere.md
   - title: Collaborer avec d’autres personnes
     imageSrc: https://docs.microsoft.com/office/media/icons/collaborate-blue.svg
@@ -76,7 +76,7 @@ additionalContent:
     - title: En savoir plus sur Office
       summary: Découvrez comment utiliser Word, Excel, PowerPoint et d’autres applications Office.
       url: https://support.microsoft.com/training
-    - title: Basculer à partir de Google Workspace
+    - title: Passer de Google Workspace
       summary: Découvrez comment basculer vers Microsoft 365 pour les entreprises.
       url: moveto-microsoft-365/move-from-google-workspace-overview.md
     - title: Rechercher d’autres ressources d’administration
