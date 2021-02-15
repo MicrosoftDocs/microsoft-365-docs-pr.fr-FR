@@ -20,8 +20,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48637678"
 ---
-# <a name="payment-information-for-brazil"></a><span data-ttu-id="0ef95-103">Informations de paiement pour le Brésil</span><span class="sxs-lookup"><span data-stu-id="0ef95-103">Payment information for Brazil</span></span>
+# <a name="payment-information-for-brazil"></a><span data-ttu-id="7797c-103">Informations de paiement pour le Brésil</span><span class="sxs-lookup"><span data-stu-id="7797c-103">Payment information for Brazil</span></span>
 
-<span data-ttu-id="0ef95-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="0ef95-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="7797c-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="7797c-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="0ef95-105">Suivez les instructions de paiement de votre facture et de votre numéro (s) de facture de référence sur la remise de paiement.</span><span class="sxs-lookup"><span data-stu-id="0ef95-105">Please follow payment instruction on your invoice and reference invoice number(s) on the payment remittance.</span></span>  
+<span data-ttu-id="7797c-105">Suivez les instructions de paiement sur votre facture et référencez vos numéro(s) de facture en cas de paiement.</span><span class="sxs-lookup"><span data-stu-id="7797c-105">Please follow payment instruction on your invoice and reference invoice number(s) on the payment remittance.</span></span>  
