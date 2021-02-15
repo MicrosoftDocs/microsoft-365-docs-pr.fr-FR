@@ -648,7 +648,7 @@
               href: ./office-365-security/set-up-anti-phishing-policies.md
             - name: Rétrodiffusion dans EOP
               href: ./office-365-security/backscatter-messages-and-eop.md
-            - name: Niveau de réclamation en bloc (seuil de probabilité de courrier indésirable)
+            - name: Niveau de réclamation en bloc (BCL)
               href: ./office-365-security/bulk-complaint-level-values.md
             - name: Notifications de courrier indésirable pour l’utilisateur final
               href: ./office-365-security/use-spam-notifications-to-release-and-report-quarantined-messages.md
