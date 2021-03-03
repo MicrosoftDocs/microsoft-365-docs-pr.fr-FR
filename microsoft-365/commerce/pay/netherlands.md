@@ -1,8 +1,8 @@
 ---
 title: Informations de paiement pour les Pays-Bas
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
+author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
 audience: Admin
@@ -13,24 +13,33 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Découvrez où envoyer le paiement pour votre abonnement.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f8fbe40237e4ec9eec7eaf242b98df9f677b08cf
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: c0b74ce7fa1021f8a405afafcb9cdfb2522a5bbf
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649054"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406935"
 ---
-# <a name="payment-information-for-netherlands"></a><span data-ttu-id="c1f80-103">Informations de paiement pour les Pays-Bas</span><span class="sxs-lookup"><span data-stu-id="c1f80-103">Payment information for Netherlands</span></span>
+# <a name="payment-information-for-netherlands"></a><span data-ttu-id="ac87d-103">Informations de paiement pour les Pays-Bas</span><span class="sxs-lookup"><span data-stu-id="ac87d-103">Payment information for Netherlands</span></span>
 
-<span data-ttu-id="c1f80-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="c1f80-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="ac87d-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="ac87d-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="c1f80-105">Veuillez payer en EUR uniquement et référencer les numéro(s) de facture à votre paiement.</span><span class="sxs-lookup"><span data-stu-id="c1f80-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="ac87d-105">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="ac87d-105">Electronic Funds Transfer</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="c1f80-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="c1f80-106">Electronic Funds Transfer</span></span>
+<span data-ttu-id="ac87d-106">**Veuillez payer en EUR et référencer les numéro(s) de facture à votre paiement.**</span><span class="sxs-lookup"><span data-stu-id="ac87d-106">**Please pay in EUR and reference invoice number(s) on your payment remittance.**</span></span>
 
-<span data-ttu-id="c1f80-107">**Banque :** Bank, Londres</span><span class="sxs-lookup"><span data-stu-id="c1f80-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="c1f80-108">**Code SWIFT/BIC :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="c1f80-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
-<span data-ttu-id="c1f80-109">**IBAN :** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="c1f80-109">**IBAN:** GB31CITI18500812207591</span></span>  
-<span data-ttu-id="c1f80-110">**Code SORT :** 185008</span><span class="sxs-lookup"><span data-stu-id="c1f80-110">**SORT Code:** 185008</span></span>  
-<span data-ttu-id="c1f80-111">**Numéro de compte :** 12207591</span><span class="sxs-lookup"><span data-stu-id="c1f80-111">**Account Number:** 12207591</span></span>  
-<span data-ttu-id="c1f80-112">**Nom du compte :** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="c1f80-112">**Account Name:** MICROSOFT</span></span>
+<span data-ttu-id="ac87d-107">Si vous avez une facture facturée par **Microsoft Ireland Operations Limited,** utilisez les informations bancaires ci-après :</span><span class="sxs-lookup"><span data-stu-id="ac87d-107">If you have an invoice billed by **Microsoft Ireland Operations Limited**, use this bank information:</span></span>
+
+<span data-ttu-id="ac87d-108">Banque :Bankbank, Londres</span><span class="sxs-lookup"><span data-stu-id="ac87d-108">Bank: Citibank, London</span></span>\
+<span data-ttu-id="ac87d-109">Code SWIFT : CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="ac87d-109">SWIFT Code: CITIGB2L</span></span>\
+<span data-ttu-id="ac87d-110">Code IBAN : GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="ac87d-110">IBAN Code: GB31CITI18500812207591</span></span>\
+<span data-ttu-id="ac87d-111">Numéro de compte : 12207591</span><span class="sxs-lookup"><span data-stu-id="ac87d-111">Account Number: 12207591</span></span>\
+<span data-ttu-id="ac87d-112">Nom du compte : MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="ac87d-112">Account Name: MICROSOFT</span></span>
+
+<span data-ttu-id="ac87d-113">Si vous avez une facture facturée par **Microsoft BV** pour les commandes et la consommation à compter du 1er mars 2021, utilisez les informations bancaires ci-après :</span><span class="sxs-lookup"><span data-stu-id="ac87d-113">If you have an invoice billed by **Microsoft BV** for orders and consumption starting March 1, 2021, use this bank information:</span></span>
+
+<span data-ttu-id="ac87d-114">Banque :Bank Europe plc</span><span class="sxs-lookup"><span data-stu-id="ac87d-114">Bank: Citibank Europe plc</span></span>\
+<span data-ttu-id="ac87d-115">Code SWIFT : CITIIE2X</span><span class="sxs-lookup"><span data-stu-id="ac87d-115">SWIFT Code: CITIIE2X</span></span>\
+<span data-ttu-id="ac87d-116">Code IBAN : IE70CITI99005170000128</span><span class="sxs-lookup"><span data-stu-id="ac87d-116">IBAN Code: IE70CITI99005170000128</span></span>\
+<span data-ttu-id="ac87d-117">Numéro de compte : 70000128</span><span class="sxs-lookup"><span data-stu-id="ac87d-117">Account Number: 70000128</span></span>\
+<span data-ttu-id="ac87d-118">Nom du compte : MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="ac87d-118">Account Name: MICROSOFT</span></span>
