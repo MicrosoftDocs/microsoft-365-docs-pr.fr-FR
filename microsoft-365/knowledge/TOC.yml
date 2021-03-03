@@ -1,12 +1,12 @@
-- name: "Prise en main de Microsoft\_Viva"
+- name: Rubriques de Microsoft Viva
+  href: index.md
+- name: "Prise en main des rubriques de Microsoft\_Viva"
   items:
-    - name: Présentation de Microsoft Viva
-      href: index.md
-    - name: Vue d’ensemble de Microsoft Viva
+    - name: Vue d’ensemble des rubriques de Microsoft Viva
       href: topic-experiences-overview.md
-    - name: Découverte et gestion de Microsoft Viva
+    - name: Découverte et gestion des rubriques de Microsoft Viva
       href: topic-experiences-discovery-curation.md
-    - name: Rôles de Microsoft Viva
+    - name: Rôles des rubriques de Microsoft Viva
       href: topic-experiences-roles.md
     - name: Préparer votre environnement
       href: topic-experiences-get-ready.md
@@ -28,6 +28,8 @@
       href: topic-experiences-administration.md
 - name: Utiliser les sujets
   items:
+    - name: Prise en main des rubriques de Viva
+      href: get-started-with-viva-topics.md
     - name: Vue d’ensemble du centre de rubriques
       href: topic-center-overview.md
     - name: Gérer les sujets dans le centre de rubriques

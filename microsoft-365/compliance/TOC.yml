@@ -237,6 +237,8 @@
               href: data-loss-prevention-policies.md
             - name: En savoir plus sur les points de terminaison de protection contre la perte de données
               href: endpoint-dlp-learn-about.md
+            - name: En savoir plus sur le scanner local de protection contre la perte de données Microsoft 365 (préversion)
+              href: dlp-on-premises-scanner-learn.md
         - name: Prise en main de la protection contre la perte de données
           items:
             - name: Prise en main de la stratégie DLP par défaut
@@ -245,6 +247,8 @@
               href: create-a-dlp-policy-from-a-template.md
             - name: 'Création, test et réglage d’une stratégie DLP'
               href: create-test-tune-dlp-policy.md
+            - name: Prise en main du scanner local de protection contre la perte de données Microsoft 365 (préversion)
+              href: dlp-on-premises-scanner-get-started.md
             - name: Prise en main des points de terminaison de protection contre la perte de données
               href: endpoint-dlp-getting-started.md
             - name: Configurer les paramètres de proxy et de connexion Internet pour la protection contre la perte de données de point de terminaison
@@ -269,6 +273,8 @@
               href: dlp-microsoft-teams.md
             - name: Utilisation de la protection contre la perte de données de point de terminaison
               href: endpoint-dlp-using.md
+            - name: Utilisation du scanner local de protection contre la perte de données Microsoft 365 (préversion)
+              href: dlp-on-premises-scanner-use.md
             - name: Utilisation des notifications et des conseils de stratégie dans les stratégies DLP
               href: use-notifications-and-policy-tips.md
             - name: Ce qu’incluent les modèles de stratégie DLP
