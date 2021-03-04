@@ -158,6 +158,8 @@
           href: sensitivity-labels-sharepoint-onedrive-files.md
         - name: Gérer les étiquettes de confidentialité dans les applications Office
           href: sensitivity-labels-office-apps.md
+        - name: Activer la co-édition pour des documents chiffrés par des étiquettes de confidentialité (aperçu)
+          href: sensitivity-labels-coauthoring.md
     - name: Chiffrement
       items:
         - name: Comprendre le chiffrement
