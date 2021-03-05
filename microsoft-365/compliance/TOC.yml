@@ -36,10 +36,6 @@
           href: communication-compliance-feature-reference.md
         - name: "Etude de cas\_: contoso configure rapidement une stratégie de langage choquant"
           href: communication-compliance-case-study.md
-        - name: "Stratégies de supervision dans Office\_365"
-          href: supervision-policies.md
-        - name: "Configurer des stratégies de supervision pour Office\_365"
-          href: configure-supervision-policies.md
     - name: Gestion des risques internes
       items:
         - name: Vue d’ensemble
