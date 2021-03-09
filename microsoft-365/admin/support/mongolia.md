@@ -9,35 +9,34 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Découvrez comment contacter le support technique pour votre pays ou région.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 880108ad28a6230102e3e65f87372595e66b7f24
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: babdfd3ed314e4fa0317d8e8afef3963685e6ab2
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641014"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50545703"
 ---
-# <a name="contact-support-for-mongolia"></a><span data-ttu-id="42771-103">Contacter le support technique pour la Mongolie</span><span class="sxs-lookup"><span data-stu-id="42771-103">Contact support for Mongolia</span></span>
+# <a name="contact-support-for-mongolia"></a><span data-ttu-id="cd1c1-103">Contacter le support technique pour la Mongolie</span><span class="sxs-lookup"><span data-stu-id="cd1c1-103">Contact support for Mongolia</span></span>
 
-<span data-ttu-id="42771-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="42771-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="cd1c1-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="cd1c1-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="42771-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="42771-105">Phone number</span></span>
-<span data-ttu-id="42771-106">+7 499 922 86 23</span><span class="sxs-lookup"><span data-stu-id="42771-106">+7 499 922 86 23</span></span>
+## <a name="phone-number"></a><span data-ttu-id="cd1c1-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="cd1c1-105">Phone number</span></span>
+<span data-ttu-id="cd1c1-106">+7 499 922 86 23</span><span class="sxs-lookup"><span data-stu-id="cd1c1-106">+7 499 922 86 23</span></span>
 
-## <a name="hours"></a><span data-ttu-id="42771-107">Heures</span><span class="sxs-lookup"><span data-stu-id="42771-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="42771-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="42771-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="cd1c1-107">Heures</span><span class="sxs-lookup"><span data-stu-id="cd1c1-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="cd1c1-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="cd1c1-108">Billing Support:</span></span>
 
-<span data-ttu-id="42771-109">Russe : Mon-Fri 10h00-19h00</span><span class="sxs-lookup"><span data-stu-id="42771-109">Russian: Mon-Fri 10 AM-7 PM Moscow</span></span>
+<span data-ttu-id="cd1c1-109">Russe : Mon-Fri 10h00-19h00</span><span class="sxs-lookup"><span data-stu-id="cd1c1-109">Russian: Mon-Fri 10 AM-7 PM Moscow</span></span>
 
-<span data-ttu-id="42771-110">Anglais : Mon-Fri 9h00 à 17h00 à Londres</span><span class="sxs-lookup"><span data-stu-id="42771-110">English: Mon-Fri 9 AM-5 PM London</span></span>
+<span data-ttu-id="cd1c1-110">Anglais : Mon-Fri 9h00 à 17h00 à Londres</span><span class="sxs-lookup"><span data-stu-id="cd1c1-110">English: Mon-Fri 9 AM-5 PM London</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="42771-111">Support technique :</span><span class="sxs-lookup"><span data-stu-id="42771-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="cd1c1-111">Support technique :</span><span class="sxs-lookup"><span data-stu-id="cd1c1-111">Technical Support:</span></span>
 
-<span data-ttu-id="42771-112">Russe : Mon-Fri 7h00-20h00 à Russie</span><span class="sxs-lookup"><span data-stu-id="42771-112">Russian: Mon-Fri 7 AM-8 PM Moscow</span></span>
+<span data-ttu-id="cd1c1-112">Russe : Mon-Fri 7h00-20h00 à Russie</span><span class="sxs-lookup"><span data-stu-id="cd1c1-112">Russian: Mon-Fri 7 AM-8 PM Moscow</span></span>
 
-<span data-ttu-id="42771-113">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="42771-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="cd1c1-113">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="cd1c1-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="42771-114">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="42771-114">International call charges apply</span></span>
+<span data-ttu-id="cd1c1-114">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="cd1c1-114">International call charges apply</span></span>
