@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Découvrez où envoyer le paiement pour votre abonnement.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d6d0c9dcd1e5dcafecce95b1ab30ef54301b45f2
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: af2c24b878c07a118b3cec96dccd42d93192d50e
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637894"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50549519"
 ---
-# <a name="payment-information-for-barbados"></a><span data-ttu-id="b7185-103">Informations de paiement pour les Jamaïques</span><span class="sxs-lookup"><span data-stu-id="b7185-103">Payment information for Barbados</span></span>
+# <a name="payment-information-for-barbados"></a><span data-ttu-id="7af3c-103">Informations de paiement pour les Jamaïques</span><span class="sxs-lookup"><span data-stu-id="7af3c-103">Payment information for Barbados</span></span>
 
-<span data-ttu-id="b7185-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="b7185-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="7af3c-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="7af3c-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="b7185-105">N’hésitez pas à payer en USD uniquement et à référencer vos numéro(s) de facture sur votre facture.</span><span class="sxs-lookup"><span data-stu-id="b7185-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="7af3c-105">N’hésitez pas à payer en USD uniquement et à référencer vos numéro(s) de facture sur votre facture.</span><span class="sxs-lookup"><span data-stu-id="7af3c-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="b7185-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="b7185-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="7af3c-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="7af3c-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="b7185-107">**Banque :** Bank of America</span><span class="sxs-lookup"><span data-stu-id="b7185-107">**Bank:** Bank of America</span></span>  
-<span data-ttu-id="b7185-108">**Branche :** Dallas</span><span class="sxs-lookup"><span data-stu-id="b7185-108">**Branch:** Dallas</span></span>  
-<span data-ttu-id="b7185-109">**Code SWIFT :** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="b7185-109">**SWIFT Code:** BOFAUS3N</span></span>  
-<span data-ttu-id="b7185-110">**Numéro de compte :** 4426587954</span><span class="sxs-lookup"><span data-stu-id="b7185-110">**Account Number:** 4426587954</span></span>  
-<span data-ttu-id="b7185-111">**Nom du compte :** Microsoft</span><span class="sxs-lookup"><span data-stu-id="b7185-111">**Account Name:** Microsoft</span></span>  
+<span data-ttu-id="7af3c-107">**Banque :** Bank of America</span><span class="sxs-lookup"><span data-stu-id="7af3c-107">**Bank:** Bank of America</span></span>  
+<span data-ttu-id="7af3c-108">**Branche :** Dallas</span><span class="sxs-lookup"><span data-stu-id="7af3c-108">**Branch:** Dallas</span></span>  
+<span data-ttu-id="7af3c-109">**Code SWIFT :** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="7af3c-109">**SWIFT Code:** BOFAUS3N</span></span>  
+<span data-ttu-id="7af3c-110">**Numéro de compte :** 4426587954</span><span class="sxs-lookup"><span data-stu-id="7af3c-110">**Account Number:** 4426587954</span></span>  
+<span data-ttu-id="7af3c-111">**Nom du compte :** Microsoft</span><span class="sxs-lookup"><span data-stu-id="7af3c-111">**Account Name:** Microsoft</span></span>  
