@@ -9,41 +9,40 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Découvrez comment contacter le support technique pour votre pays ou région.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c38e684716579624edf307a6e8bce930f8437f0a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 950ef5ac5bf4585a2519b54f2ff6737707286f09
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642886"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547599"
 ---
-# <a name="contact-support-for-eritrea"></a><span data-ttu-id="c8e05-103">Contacter le support pour l’Éthiopie</span><span class="sxs-lookup"><span data-stu-id="c8e05-103">Contact support for Eritrea</span></span>
+# <a name="contact-support-for-eritrea"></a><span data-ttu-id="13a47-103">Contacter le support pour l’Éthiopie</span><span class="sxs-lookup"><span data-stu-id="13a47-103">Contact support for Eritrea</span></span>
 
-<span data-ttu-id="c8e05-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="c8e05-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="13a47-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="13a47-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="c8e05-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="c8e05-105">Phone number</span></span>
-<span data-ttu-id="c8e05-106">+974 44 119418</span><span class="sxs-lookup"><span data-stu-id="c8e05-106">+974 44 119418</span></span>
+## <a name="phone-number"></a><span data-ttu-id="13a47-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="13a47-105">Phone number</span></span>
+<span data-ttu-id="13a47-106">+974 44 119418</span><span class="sxs-lookup"><span data-stu-id="13a47-106">+974 44 119418</span></span>
 
-<span data-ttu-id="c8e05-107">Sélectionner l’option 2</span><span class="sxs-lookup"><span data-stu-id="c8e05-107">Select option 2</span></span>
+<span data-ttu-id="13a47-107">Sélectionner l’option 2</span><span class="sxs-lookup"><span data-stu-id="13a47-107">Select option 2</span></span>
 
-<span data-ttu-id="c8e05-108">Sélectionner l’option 9</span><span class="sxs-lookup"><span data-stu-id="c8e05-108">Select option 9</span></span>
+<span data-ttu-id="13a47-108">Sélectionner l’option 9</span><span class="sxs-lookup"><span data-stu-id="13a47-108">Select option 9</span></span>
 
-<span data-ttu-id="c8e05-109">Entrer le code 7700</span><span class="sxs-lookup"><span data-stu-id="c8e05-109">Enter code 7700</span></span>
+<span data-ttu-id="13a47-109">Entrer le code 7700</span><span class="sxs-lookup"><span data-stu-id="13a47-109">Enter code 7700</span></span>
 
-## <a name="hours"></a><span data-ttu-id="c8e05-110">Heures</span><span class="sxs-lookup"><span data-stu-id="c8e05-110">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="c8e05-111">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="c8e05-111">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="13a47-110">Heures</span><span class="sxs-lookup"><span data-stu-id="13a47-110">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="13a47-111">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="13a47-111">Billing Support:</span></span>
 
-<span data-ttu-id="c8e05-112">Arabe : Sun-Thu 10h00 à 18h00</span><span class="sxs-lookup"><span data-stu-id="c8e05-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="13a47-112">Arabe : Sun-Thu 10h00 à 18h00</span><span class="sxs-lookup"><span data-stu-id="13a47-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="c8e05-113">Anglais : Mon-Fri 10h00 à 18h00</span><span class="sxs-lookup"><span data-stu-id="c8e05-113">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="13a47-113">Anglais : Mon-Fri 10h00 à 18h00</span><span class="sxs-lookup"><span data-stu-id="13a47-113">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="c8e05-114">Support technique :</span><span class="sxs-lookup"><span data-stu-id="c8e05-114">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="13a47-114">Support technique :</span><span class="sxs-lookup"><span data-stu-id="13a47-114">Technical Support:</span></span>
 
-<span data-ttu-id="c8e05-115">Arabe : Sun-Thu 10h00 à 18h00</span><span class="sxs-lookup"><span data-stu-id="c8e05-115">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="13a47-115">Arabe : Sun-Thu 10h00 à 18h00</span><span class="sxs-lookup"><span data-stu-id="13a47-115">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="c8e05-116">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="c8e05-116">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="13a47-116">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="13a47-116">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="c8e05-117">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="c8e05-117">International call charges apply</span></span>
+<span data-ttu-id="13a47-117">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="13a47-117">International call charges apply</span></span>
