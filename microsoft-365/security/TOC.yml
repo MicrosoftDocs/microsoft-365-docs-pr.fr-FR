@@ -53,6 +53,8 @@
               href: mtp/microsoft-365-security-center-mdo.md
             - name: "Réacheminement de Defender pour point de terminaison dans le Centre de sécurité Microsoft\_365"
               href: mtp/microsoft-365-security-mde-redirection.md
+            - name: "Réacheminement de Defender pour Office 365 dans le Centre de sécurité Microsoft\_365"
+              href: mtp/microsoft-365-security-mdo-redirection.md
             - name: Fonctionnalités en préversion
               href: mtp/preview.md
             - name: Résoudre des problèmes
