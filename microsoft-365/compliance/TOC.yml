@@ -44,16 +44,18 @@
           href: insider-risk-management.md
         - name: Planifier la gestion des risques Insider
           href: insider-risk-management-plan.md
-        - name: Prise en main des paramètres des risques internes
-          href: insider-risk-management-settings.md
         - name: Prise en main de la gestion des risques internes
           href: insider-risk-management-configure.md
+        - name: Prise en main des paramètres des risques internes
+          href: insider-risk-management-settings.md
         - name: Créer et gérer les stratégies de risques internes
           href: insider-risk-management-policies.md
         - name: Identifier les alertes de risques internes
           href: insider-risk-management-alerts.md
         - name: Agir sur les cas de risques internes
           href: insider-risk-management-cases.md
+        - name: Passer en revue des activités avec le journal d’audit des risques Insider
+          href: insider-risk-management-audit-log.md
         - name: Examiner les données à l’aide de l’explorateur de contenu des risques internes
           href: insider-risk-management-content-explorer.md
         - name: Gérer le flux de travail avec le tableau de bord utilisateurs
@@ -237,8 +239,12 @@
               href: data-loss-prevention-policies.md
             - name: En savoir plus sur les points de terminaison de protection contre la perte de données
               href: endpoint-dlp-learn-about.md
-            - name: En savoir plus sur le scanner local de protection contre la perte de données Microsoft 365 (préversion)
+            - name: En savoir plus sur la stratégie de protection par défaut contre la perte de données dans Microsoft Teams (préviersion)
+              href: dlp-teams-default-policy.md
+            - name: "En savoir plus sur le scanneur local de protection contre la perte de données Microsoft\_365 (préversion)"
               href: dlp-on-premises-scanner-learn.md
+            - name: En savoir plus sur l’extension de la conformité Microsoft.
+              href: dlp-chrome-learn-about.md
         - name: Prise en main de la protection contre la perte de données
           items:
             - name: Prise en main de la stratégie DLP par défaut
@@ -253,6 +259,8 @@
               href: endpoint-dlp-getting-started.md
             - name: Configurer les paramètres de proxy et de connexion Internet pour la protection contre la perte de données de point de terminaison
               href: endpoint-dlp-configure-proxy.md
+            - name: Prise en main de l’extension de conformité Microsoft (préversion)
+              href: dlp-chrome-get-started.md
             - name: "Outils et méthodes d’intégration DLP pour les points de terminaison pour les appareils Windows\_10"
               items:
                 - name: "Outils et méthodes d’intégration pour les appareils Windows\_10."
