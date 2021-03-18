@@ -540,6 +540,8 @@
               href: de-duplication-in-ediscovery-search-results.md
             - name: Différences entre les résultats de recherche estimés et réels
               href: differences-between-estimated-and-actual-ediscovery-search-results.md
+            - name: Contenu stocké dans les boîtes aux lettres pour eDiscovery
+              href: what-is-stored-in-exo-mailbox.md
             - name: Déchiffrement dans les outils eDiscovery
               href: ediscovery-decryption.md
         - name: Scripts PowerShell de recherche de contenu
@@ -570,6 +572,8 @@
               href: assign-ediscovery-permissions.md
             - name: Requêtes par mots clés et conditions de recherche
               href: keyword-queries-and-search-conditions.md
+            - name: Contenu stocké dans les boîtes aux lettres pour eDiscovery
+              href: what-is-stored-in-exo-mailbox.md
             - name: Configurer le filtrage des autorisations de recherche
               href: permissions-filtering-for-content-search.md
             - name: Configurer les limites de conformité
@@ -635,14 +639,27 @@
         - name: Gérer les erreurs de traitement
           href: processing-data-for-case.md
           items:
-            - name: Indexation avancée des données des consignataires
+            - name: Indexation avancée u contenu des consignataires
               href: indexing-custodian-data.md
-            - name: Correction d’erreur lors du traitement des données
+            - name: Correction d’erreur lors du traitement du contenu
               href: error-remediation-when-processing-data-in-advanced-ediscovery.md
             - name: Correction d’erreur sur élément unique
               href: single-item-error-remediation.md
+        - name: Collecter le contenu d’un cas (aperçu)
+          items:
+            - name: En savoir plus sur les collections (aperçu)
+              href: collections-overview.md
+            - name: Créer une collection au brouillon (aperçu)
+              href: create-draft-collection.md
+            - name: Valider une collection au brouillon vers un ensemble de révisions (aperçu)
+              href: commit-draft-collection.md
+            - name: Statistiques et rapports de collection (aperçu)
+              href: collection-statistics-reports.md
+            - name: Créer des requêtes de recherche de collections
+              href: building-search-queries.md
+            - name: Requêtes par mots clés et conditions de recherche
+              href: keyword-queries-and-search-conditions.md
         - name: Collecter des données pour un cas
-          href: collecting-data-for-ediscovery.md
           items:
             - name: Créer une recherche
               href: create-search-to-collect-data.md
@@ -661,7 +678,7 @@
               href: load-non-Office-365-data-into-a-review-set.md
             - name: Ajouter des données dans un autre jeu à réviser
               href: add-data-to-review-set-from-another-review-set.md
-        - name: Examiner les données de cas
+        - name: Évaluer le contenu de cas
           items:
             - name: Utiliser le tableau de bord du groupe révision
               href: advanced-ediscovery-dashboard.md
@@ -671,7 +688,7 @@
               href: review-set-search.md
             - name: Étiqueter les documents d’un jeu à réviser
               href: tagging-documents.md
-        - name: Analyser les données de cas
+        - name: Analyser le contenu de cas
           href: analyzing-data-in-review-set.md
           items:
             - name: Détection des quasi-duplicatas
@@ -680,11 +697,11 @@
               href: email-threading-in-advanced-ediscovery.md
             - name: Thèmes
               href: themes-in-advanced-ediscovery.md
-            - name: Utiliser le module de Pertinence pour analyser des données
+            - name: Utiliser le module Pertinence pour analyser des données
               href: using-relevance.md
             - name: Retrait du module Pertinence
               href: relevance-module-retirement.md
-        - name: Exporter les données de cas
+        - name: Exportation du contenu de cas
           href: exporting-data-ediscover20.md
           items:
             - name: Télécharger les documents d'un jeu à réviser
@@ -725,6 +742,8 @@
               href: permissions-filtering-for-content-search.md
             - name: Configurer les limites de conformité
               href: set-up-compliance-boundaries.md
+            - name: Contenu stocké dans les boîtes aux lettres pour eDiscovery
+              href: what-is-stored-in-exo-mailbox.md
             - name: Déchiffrement dans les outils eDiscovery
               href: ediscovery-decryption.md
             - name: Collecter des informations de diagnostic eDiscovery
