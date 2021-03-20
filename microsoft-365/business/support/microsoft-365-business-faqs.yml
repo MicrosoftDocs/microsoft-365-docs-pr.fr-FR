@@ -14,12 +14,12 @@ metadata:
   audience: microsoft-business 
   keywords: Microsoft 365 Business Premium, Microsoft 365, SMB, FAQ, frequently asked questions, answers, business
   ms.date: 07/21/2020
-  ms.openlocfilehash: bdbdd8d2709bc70923eddf54af4c9b719789ad48
-  ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+  ms.openlocfilehash: 13e1804a14bc41365d7c2a8757694f7dfecd7d76
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 12/11/2020
-  ms.locfileid: "49658169"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50912441"
 title: Forum Aux Questions Microsoft 365 Business Premium
 summary: ''
 sections:
@@ -73,7 +73,7 @@ sections:
       **Autres droits**:
 
 
-      - Les clients Microsoft 365 Business Premium ont également accès à Windows Virtual Desktop et aux fonctionnalités d’activation d’ordinateurs partagés d’Office. Pour plus d’informations, consultez le [blog Microsoft 365 Business Premium](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog). Voir aussi la [description du service Microsoft 365 pour les entreprises.](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)
+      - Les clients Microsoft 365 Business Premium ont également accès à Windows Virtual Desktop et aux fonctionnalités d’activation d’ordinateurs partagés d’Office. Pour plus d’informations, consultez le [blog Microsoft 365 Business Premium](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog). Voir aussi la [description du service Microsoft 365 pour les entreprises.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)
   - question: Qui doit envisager l’adoption de Microsoft 365 Business Premium ?
     answer: >
       Microsoft 365 Business Premium est une solution de sécurité complète, basée sur le Cloud, qui vous permet de :
@@ -111,7 +111,7 @@ sections:
       Si le matériel que vous utilisez aujourd’hui exécute Windows 7 Professionnel ou une version ultérieure, il respecte probablement la configuration minimale requise pour Microsoft 365 Business Premium. Certaines fonctionnalités de Windows 10, telles que Cortana, Windows Hello et le tactile multipoint requièrent du matériel spécifique qui n’est disponible que sur les PC récents. Voir [Configuration requise pour Windows 10 Professionnel](https://www.microsoft.com/windows/windows-10-specifications) pour plus d’informations.
 
 
-      Le degré de compatibilité de Windows 10 avec les applications de bureau (Win32) existantes devrait être élevé également, la plupart des applications fonctionnant sans aucune modification nécessaire. Les clients et leurs conseillers informatiques doivent lire la procédure de test des applications recommandée pour la [compatibilité avec Windows 10](https://docs.microsoft.com/windows/deployment/planning/windows-10-compatibility#recommended-application-testing-process) et passer en revue la [Configuration requise pour Office](https://products.office.com/office-system-requirements#subscription-plans-section) pour garantir une transition harmonieuse vers Microsoft 365 Business Premium.
+      Le degré de compatibilité de Windows 10 avec les applications de bureau (Win32) existantes devrait être élevé également, la plupart des applications fonctionnant sans aucune modification nécessaire. Les clients et leurs conseillers informatiques doivent lire la procédure de test des applications recommandée pour la [compatibilité avec Windows 10](/windows/deployment/planning/windows-10-compatibility#recommended-application-testing-process) et passer en revue la [Configuration requise pour Office](https://products.office.com/office-system-requirements#subscription-plans-section) pour garantir une transition harmonieuse vers Microsoft 365 Business Premium.
   - question: Qu’est-ce que Windows 10 Affaires ?
     answer: >
       Windows 10 Affaires est un ensemble de services de Cloud et de fonctionnalités de gestion d'appareils qui complète Windows 10 Professionnel et permet de réaliser de manière centralisée la gestion et les contrôles de sécurité de Microsoft 365 Business Premium.
@@ -172,7 +172,7 @@ sections:
   questions:
   - question: Quels éléments les clients doivent-ils prendre en compte lorsqu'ils planifient un déploiement de Microsoft 365 Business Premium ?
     answer: >
-      Le chemin le plus direct vers un déploiement réussi de Microsoft 365 Business Premium consiste à entrer en contact avec un Microsoft Partner. Ceux-ci ont une formation complète et de l'expérience sur un large éventail de scénarios clients ; ils sont les mieux équipés pour bien comprendre votre environnement et vos besoins. Les clients qui disposent d'un personnel informatique expérimenté peuvent utiliser le guide [Prise en main de Microsoft 365 Business Premium](https://docs.microsoft.com/microsoft-365/business/microsoft-365-business-overview) pour les aider à déployer Microsoft 365 Business Premium.
+      Le chemin le plus direct vers un déploiement réussi de Microsoft 365 Business Premium consiste à entrer en contact avec un Microsoft Partner. Ceux-ci ont une formation complète et de l'expérience sur un large éventail de scénarios clients ; ils sont les mieux équipés pour bien comprendre votre environnement et vos besoins. Les clients qui disposent d'un personnel informatique expérimenté peuvent utiliser le guide [Prise en main de Microsoft 365 Business Premium](../microsoft-365-business-overview.md) pour les aider à déployer Microsoft 365 Business Premium.
   - question: Microsoft 365 Business Premium inclut-il toutes les fonctionnalités de Microsoft Intune ?
     answer: Oui, les abonnés Microsoft 365 Business Premium sont titulaires d’une licence pour utiliser les fonctionnalités Intune complètes pour iOS, Android, macOS et d’autres fonctionnalités de gestion des appareils sur plusieurs plateformes. Les fonctionnalités non disponibles dans la console de gestion simplifiée dans Microsoft 365 Business Premium, telles que la gestion des applications tierces, la configuration des profils Wi-Fi et les certificats VPN, peuvent être gérées dans la console Intune complète.
   - question: Azure Active Directory (Azure AD) Premium P1 est-il fourni avec Microsoft 365 Business Premium ?
@@ -188,10 +188,10 @@ sections:
     answer: Toutes les extensions qui peuvent être ajoutées à Microsoft 365 Business Standard peuvent être ajoutées à Microsoft 365 Business Premium. Cela signifie que vous pouvez acheter Office 365 Cloud App Security, Advanced Compliance, Threat Intelligence, MyAnalytics, Power BI Pro et Audioconférence.
   - question: Puis-je ajouter Système téléphonique et des forfaits d’appel à Microsoft 365 Business Premium ?
     answer: >
-      Oui, vous pouvez acheter un abonnement Business Voice. [Business Voice est](https://docs.microsoft.com/microsoftteams/business-voice/whats-business-voice) une solution téléphonique conçue pour les petites et moyennes entreprises de 300 utilisateurs qui regroupent le système téléphonique, l’audioconférence, un forfait d’appels nationaux, etc. Les fonctionnalités du système téléphonique que vous recevrez incluent la messagerie vocale, l’ID de l’appelant, le parcage d’appel, le transport d’appel, les attendants automatiques et les files d’attente d’appels. <br> Pour savoir si Business Voice est disponible dans votre pays ou région, consultez La disponibilité des pays et régions [pour Business Voice.](https://docs.microsoft.com/microsoftteams/business-voice/country-region-availability) Pour plus d’informations sur les tarifs, [voir Tarification pour Business Voice.](https://go.microsoft.com/fwlink/?linkid=2127221)
+      Oui, vous pouvez acheter un abonnement Business Voice. [Business Voice est](/microsoftteams/business-voice/whats-business-voice) une solution téléphonique conçue pour les petites et moyennes entreprises de 300 utilisateurs qui regroupent le système téléphonique, l’audioconférence, un forfait d’appels nationaux, etc. Les fonctionnalités du système téléphonique que vous recevrez incluent la messagerie vocale, l’ID de l’appelant, le parcage d’appel, le transport d’appel, les attendants automatiques et les files d’attente d’appels. <br> Pour savoir si Business Voice est disponible dans votre pays ou région, consultez La disponibilité des pays et régions [pour Business Voice.](/microsoftteams/business-voice/country-region-availability) Pour plus d’informations sur les tarifs, [voir Tarification pour Business Voice.](https://go.microsoft.com/fwlink/?linkid=2127221)
   - question: Les clients Microsoft 365 Business Premium peuvent-ils utiliser Microsoft Defender pour endpoint ?
     answer: >
-      Oui, Microsoft Defender pour le point de terminaison est disponible en tant que module de développement microsoft 365 Business Premium lorsqu’il est acheté auprès d’un fournisseur [de solutions Microsoft Cloud.](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)
+      Oui, Microsoft Defender pour point de terminaison est disponible en tant que module de développement microsoft 365 Business Premium lorsqu’il est acheté auprès d’un fournisseur [de solutions Microsoft Cloud.](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)
 - name: Possibilité de devenir partenaire
   questions:
   - question: Où puis-je obtenir plus d’informations sur les possibilités de devenir un Microsoft Partner et les avantages qui y sont liés ?

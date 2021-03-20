@@ -25,38 +25,35 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Découvrez vos options d’achat de Microsoft 365 Business Premium et des instructions pas à pas pour l’acheter à partir de l’Centre partenaires Microsoft.
-ms.openlocfilehash: 550ab62b46ffc09f8c4822a2e1741ee51b4579ca
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 9f29846a7017259340b2125b09bc9fa5f935501b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400937"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913323"
 ---
-# <a name="get-microsoft-365-business-premium"></a><span data-ttu-id="3d823-103">Obtenir Microsoft 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="3d823-103">Get Microsoft 365 Business Premium</span></span>
+# <a name="get-microsoft-365-business-premium"></a><span data-ttu-id="b4434-103">Obtenir Microsoft 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="b4434-103">Get Microsoft 365 Business Premium</span></span>
 
-## <a name="get-microsoft-365-business-premium-from-microsoft"></a><span data-ttu-id="3d823-104">Obtenir Microsoft 365 Business Premium auprès de Microsoft</span><span class="sxs-lookup"><span data-stu-id="3d823-104">Get Microsoft 365 Business Premium from Microsoft</span></span>
+## <a name="get-microsoft-365-business-premium-from-microsoft"></a><span data-ttu-id="b4434-104">Obtenir Microsoft 365 Business Premium auprès de Microsoft</span><span class="sxs-lookup"><span data-stu-id="b4434-104">Get Microsoft 365 Business Premium from Microsoft</span></span>
 
-<span data-ttu-id="3d823-105">Si vous n’avez pas de partenaire et que vous souhaitez obtenir Microsoft 365 Business Premium, vous pouvez [l’acheter ici.](https://www.microsoft.com/en-US/microsoft-365/business)</span><span class="sxs-lookup"><span data-stu-id="3d823-105">If you don't have a partner and want to get Microsoft 365 Business Premium, you can [buy it here](https://www.microsoft.com/en-US/microsoft-365/business).</span></span>
+<span data-ttu-id="b4434-105">Si vous n’avez pas de partenaire et que vous souhaitez obtenir Microsoft 365 Business Premium, vous pouvez [l’acheter ici.](https://www.microsoft.com/en-US/microsoft-365/business)</span><span class="sxs-lookup"><span data-stu-id="b4434-105">If you don't have a partner and want to get Microsoft 365 Business Premium, you can [buy it here](https://www.microsoft.com/en-US/microsoft-365/business).</span></span>
 
-<span data-ttu-id="3d823-106">Pour obtenir des instructions détaillées, voir s’inscrire à [Microsoft 365 Business Premium.](sign-up.md)</span><span class="sxs-lookup"><span data-stu-id="3d823-106">See [sign up for Microsoft 365 Business Premium](sign-up.md) for detailed instructions.</span></span>
+<span data-ttu-id="b4434-106">Pour obtenir des instructions détaillées, voir s’inscrire à [Microsoft 365 Business Premium.](sign-up.md)</span><span class="sxs-lookup"><span data-stu-id="b4434-106">See [sign up for Microsoft 365 Business Premium](sign-up.md) for detailed instructions.</span></span>
 
-<span data-ttu-id="3d823-107">Vous pouvez également vous rendre dans un [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) pour acheter Microsoft 365 Business Premium et obtenir de l’aide sur la configuration.</span><span class="sxs-lookup"><span data-stu-id="3d823-107">You can also head over to a [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) to buy Microsoft 365 Business Premium and get setup help.</span></span>
+<span data-ttu-id="b4434-107">Vous pouvez également vous rendre dans un [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) pour acheter Microsoft 365 Business Premium et obtenir de l’aide sur la configuration.</span><span class="sxs-lookup"><span data-stu-id="b4434-107">You can also head over to a [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) to buy Microsoft 365 Business Premium and get setup help.</span></span>
   
-## <a name="get-microsoft-365-business-premium-from-microsoft-partner-center"></a><span data-ttu-id="3d823-108">Obtenir Microsoft 365 Business Premium à partir de l’Centre de partenaires Microsoft</span><span class="sxs-lookup"><span data-stu-id="3d823-108">Get Microsoft 365 Business Premium from Microsoft Partner Center</span></span>
+## <a name="get-microsoft-365-business-premium-from-microsoft-partner-center"></a><span data-ttu-id="b4434-108">Obtenir Microsoft 365 Business Premium à partir de l’Centre de partenaires Microsoft</span><span class="sxs-lookup"><span data-stu-id="b4434-108">Get Microsoft 365 Business Premium from Microsoft Partner Center</span></span>
 
-1. <span data-ttu-id="3d823-109">Connectez-vous à l'[Espace partenaires Microsoft](https://go.microsoft.com/fwlink/p/?linkid=849910) à l'aide des informations d'identification que vous avez créées lorsque vous vous êtes inscrit au programme Fournisseurs de services cloud.</span><span class="sxs-lookup"><span data-stu-id="3d823-109">Sign in at [Microsoft Partner Center](https://go.microsoft.com/fwlink/p/?linkid=849910) by using the credentials you created when you enrolled to the Cloud Service Provider (CSP) program.</span></span> 
+1. <span data-ttu-id="b4434-109">Connectez-vous à l'[Espace partenaires Microsoft](https://go.microsoft.com/fwlink/p/?linkid=849910) à l'aide des informations d'identification que vous avez créées lorsque vous vous êtes inscrit au programme Fournisseurs de services cloud.</span><span class="sxs-lookup"><span data-stu-id="b4434-109">Sign in at [Microsoft Partner Center](https://go.microsoft.com/fwlink/p/?linkid=849910) by using the credentials you created when you enrolled to the Cloud Service Provider (CSP) program.</span></span> 
     
-2. <span data-ttu-id="3d823-110">Dans le Tableau de bord du partenaire, sélectionnez **Clients,** puis sélectionnez votre client ou ajoutez un nouveau client avant d’obtenir Microsoft 365 Business Premium.</span><span class="sxs-lookup"><span data-stu-id="3d823-110">On the Partner Dashboard, choose **Customers**, then select your customer or add a new customer before you get Microsoft 365 Business Premium.</span></span>
+2. <span data-ttu-id="b4434-110">Dans le Tableau de bord du partenaire, sélectionnez **Clients,** puis sélectionnez votre client ou ajoutez un nouveau client avant d’obtenir Microsoft 365 Business Premium.</span><span class="sxs-lookup"><span data-stu-id="b4434-110">On the Partner Dashboard, choose **Customers**, then select your customer or add a new customer before you get Microsoft 365 Business Premium.</span></span>
     
     ![Dans l’Centre de partenaires Microsoft, ajoutez un client.](../media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
   
-3. <span data-ttu-id="3d823-112">Dans la **page** Abonnement du client, sélectionnez Ajouter un **abonnement,** choisissez l’option Petite Entreprise sous Catalogue, puis choisissez **Microsoft 365 Business Premium**.</span><span class="sxs-lookup"><span data-stu-id="3d823-112">On the customer's **Subscription** page, select **Add subscription**, choose the Small business option under Catalog, and then choose **Microsoft 365 Business Premium**.</span></span>
+3. <span data-ttu-id="b4434-112">Dans la **page** Abonnement du client, sélectionnez Ajouter un **abonnement,** choisissez l’option Petite Entreprise sous Catalogue, puis choisissez **Microsoft 365 Business Premium**.</span><span class="sxs-lookup"><span data-stu-id="b4434-112">On the customer's **Subscription** page, select **Add subscription**, choose the Small business option under Catalog, and then choose **Microsoft 365 Business Premium**.</span></span>
     
-    <span data-ttu-id="3d823-113">Sélectionnez le nombre de licences dont vous avez besoin (jusqu'à 300).</span><span class="sxs-lookup"><span data-stu-id="3d823-113">Select the number of licenses you need (up to 300).</span></span> <span data-ttu-id="3d823-114">Si vous avez plus de 300 utilisateurs, consultez [Plutôt Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=862316) Entreprise.</span><span class="sxs-lookup"><span data-stu-id="3d823-114">If you have more than 300 users, see [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316) instead.</span></span> 
+    <span data-ttu-id="b4434-113">Sélectionnez le nombre de licences dont vous avez besoin (jusqu'à 300).</span><span class="sxs-lookup"><span data-stu-id="b4434-113">Select the number of licenses you need (up to 300).</span></span> <span data-ttu-id="b4434-114">Si vous avez plus de 300 utilisateurs, consultez [Plutôt Microsoft 365](../enterprise/index.yml) Entreprise.</span><span class="sxs-lookup"><span data-stu-id="b4434-114">If you have more than 300 users, see [Microsoft 365 Enterprise](../enterprise/index.yml) instead.</span></span> 
     
     ![Dans la page Nouvel abonnement, choisissez petite entreprise.](../media/52d99e89-2175-4974-84bb-dd626048541b.png)
   
-    <span data-ttu-id="3d823-116">Effectuer le reste des étapes pour ajouter un nouveau client, y compris le nom de l’entreprise.</span><span class="sxs-lookup"><span data-stu-id="3d823-116">Complete the rest of the steps for adding a new customer, including the business name.</span></span>
-    
-
-
+    <span data-ttu-id="b4434-116">Effectuer le reste des étapes pour ajouter un nouveau client, y compris le nom de l’entreprise.</span><span class="sxs-lookup"><span data-stu-id="b4434-116">Complete the rest of the steps for adding a new customer, including the business name.</span></span>
