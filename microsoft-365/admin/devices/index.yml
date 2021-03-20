@@ -11,12 +11,12 @@ metadata:
   ms.date: 09/09/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: a70d8471d8344f7bf479e050c59d6c6b3d97f5fe
-  ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+  ms.openlocfilehash: 2b15d19025f42db0b4f79adb6f4156f7a115f227
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 11/06/2020
-  ms.locfileid: "48930259"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50910437"
 landingContent:
 - title: Différentes méthodes MDM et MAM
   linkLists:
@@ -29,15 +29,15 @@ landingContent:
   - linkListType: overview
     links:
     - text: Vue d’ensemble de l’inscription des appareils
-      url: https://docs.microsoft.com/mem/intune/enrollment/device-enrollment
+      url: /mem/intune/enrollment/device-enrollment
   - linkListType: how-to-guide
     links:
     - text: Configurer l’inscription automatique pour les appareils Windows 10
-      url: https://docs.microsoft.com/mem/intune/enrollment/quickstart-setup-auto-enrollment
+      url: /mem/intune/enrollment/quickstart-setup-auto-enrollment
     - text: Configurer l’inscription Android
-      url: https://docs.microsoft.com/mem/intune/enrollment/android-enroll
+      url: /mem/intune/enrollment/android-enroll
     - text: Configurer l’inscription iOS/iPadOS
-      url: https://docs.microsoft.com/mem/intune/enrollment/ios-enroll
+      url: /mem/intune/enrollment/ios-enroll
 - title: Gérer les appareils et les données d’application avec Microsoft 365 Business Premium
   linkLists:
   - linkListType: how-to-guide
