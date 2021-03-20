@@ -4,13 +4,12 @@ ms.author: dansimp
 author: dansimp
 ms.prod: m365-security
 ms.topic: include
-ms.openlocfilehash: 7924a91f8ee9cc004d196a4d17bf4dae015464c6
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
-ms.translationtype: MT
+ms.openlocfilehash: 822a841294e263edc1f961b7c00dfc97f55c176e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50151241"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903884"
 ---
 > [!IMPORTANT]
-> <span data-ttu-id="7880e-101">Le [Centre de sécurité Microsoft 365](https://security.microsoft.com) est à présent disponible en préversion publique.</span><span class="sxs-lookup"><span data-stu-id="7880e-101">The improved [Microsoft 365 security center](https://security.microsoft.com) is now available in public preview.</span></span> <span data-ttu-id="7880e-102">Cette nouvelle expérience apporte Defender pour Endpoint, Defender pour Office 365, Microsoft 365 Defender et bien plus encore dans le Centre de sécurité Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="7880e-102">This new experience brings Defender for Endpoint, Defender for Office 365, Microsoft 365 Defender, and more into  the Microsoft 365 security center.</span></span> <span data-ttu-id="7880e-103">Les équipes de sécurité peuvent désormais gérer tous les points de terminaison, le courrier électronique et les examens entre produits, la configuration et la correction sans avoir à naviguer vers des portails de produits distincts.</span><span class="sxs-lookup"><span data-stu-id="7880e-103">Security teams can now manage all endpoint, email and cross product investigations, configuration and remediation without the need to navigate to separate product portals.</span></span> <span data-ttu-id="7880e-104">[En savoir plus sur ce qui a changé.](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)</span><span class="sxs-lookup"><span data-stu-id="7880e-104">[Learn more about what's changed](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center).</span></span>
-
+> <span data-ttu-id="7b1fc-101">Le [Centre de sécurité Microsoft 365](https://security.microsoft.com) est à présent disponible en préversion publique.</span><span class="sxs-lookup"><span data-stu-id="7b1fc-101">The improved [Microsoft 365 security center](https://security.microsoft.com) is now available in public preview.</span></span> <span data-ttu-id="7b1fc-102">Cette nouvelle expérience introduit Defender pour point de terminaison, Defender pour Office 365, Microsoft 365 Defender, et bien plus encore dans le centre de sécurité Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="7b1fc-102">This new experience brings Defender for Endpoint, Defender for Office 365, Microsoft 365 Defender, and more into  the Microsoft 365 security center.</span></span> <span data-ttu-id="7b1fc-103">Les équipes de sécurité peuvent désormais gérer tous les points de terminaison, les e-mails et les enquêtes entre produits, la configuration et la correction, sans avoir à accéder à des portails de produit distincts.</span><span class="sxs-lookup"><span data-stu-id="7b1fc-103">Security teams can now manage all endpoint, email and cross product investigations, configuration and remediation without the need to navigate to separate product portals.</span></span> <span data-ttu-id="7b1fc-104">[Découvrez les modifications](../mtp/overview-security-center.md).</span><span class="sxs-lookup"><span data-stu-id="7b1fc-104">[Learn more about what's changed](../mtp/overview-security-center.md).</span></span>

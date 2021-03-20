@@ -8,10 +8,10 @@ f1.keywords:
 ms.author: macapara
 ms.openlocfilehash: d0131a83b224ff6e26d476c0dcf3df49e5ba4bc7
 ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/29/2020
 ms.locfileid: "41600005"
 ---
 >[!IMPORTANT]
-><span data-ttu-id="b6ef6-101">Certaines informations concernent des produits pré-publiés qui peuvent être considérablement modifiés avant leur commercialisation.</span><span class="sxs-lookup"><span data-stu-id="b6ef6-101">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="b6ef6-102">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span><span class="sxs-lookup"><span data-stu-id="b6ef6-102">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
+><span data-ttu-id="a7dcb-101">Certaines informations ont trait à un produit préalablement publié, qui peut être modifié de manière significative avant sa publication commerciale.</span><span class="sxs-lookup"><span data-stu-id="a7dcb-101">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="a7dcb-102">Microsoft n’offre aucune garantie, explicite ou implicite, concernant les informations fournies ici.</span><span class="sxs-lookup"><span data-stu-id="a7dcb-102">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
