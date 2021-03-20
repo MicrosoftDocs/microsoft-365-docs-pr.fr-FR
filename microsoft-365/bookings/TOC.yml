@@ -34,7 +34,7 @@
     - name: Obtenir l’application bookings
       href: get-bookings-app.md
     - name: App Books et visites virtuelles dans Microsoft teams
-      href: 'https://docs.microsoft.com/microsoftteams/bookings-app-admin?toc=/microsoft-365/bookings/toc.json&bc=/microsoft-365/bookings/breadcrumb/toc.json'
+      href: /microsoftteams/bookings-app-admin?bc=%2fmicrosoft-365%2fbookings%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fbookings%2ftoc.json
     - name: Graphique de comparaison-application Web et application teams
       href: comparison-chart.md
     - name: Supprimer un calendrier
