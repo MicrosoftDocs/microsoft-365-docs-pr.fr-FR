@@ -1,0 +1,67 @@
+- name: "Sécurité Microsoft\_365"
+  href: index.yml
+  expanded: true
+  items:
+    - name: "Sécurité Office\_365"
+      href: index.yml
+      items:
+        - name: Vue d’ensemble
+          items:
+            - name: Feuille de route de sécurité
+              href: security-roadmap.md
+            - name: "Exchange\_Online Protection"
+              items:
+                - name: Vue d’ensemble d’Exchange Online Protection
+                  href: exchange-online-protection-overview.md
+                - name: Fonctionnalités EOP
+                  href: eop-features.md
+                - name: Autorisations dans EOP autonome
+                  href: feature-permissions-in-eop.md
+                - name: Centre d’administration Exchange dans EOP autonome
+                  href: exchange-admin-center-in-exchange-online-protection-eop.md
+                - name: Gérer les destinataires dans EOP autonome
+                  href: manage-recipients-in-eop.md
+                - name: "Flux de courriers dans\_EOP"
+                  href: mail-flow-in-eop.md
+                - name: Quarantaine
+                  href: quarantine-email-messages.md
+                - name: Rapports d’audit dans EOP autonome
+                  href: auditing-reports-in-eop.md
+            - name: "Defender pour Office\_365"
+              href: defender-for-office-365.md
+            - name: "Nouveautés de Defender pour Office\_365"
+              href: whats-new-in-defender-for-office-365.md
+            - name: "Defender pour Office\_365 pour SharePoint, OneDrive et Microsoft\_Teams"
+              href: mdo-for-spo-odb-and-teams.md
+            - name: "Nouveau Centre de sécurité Microsoft\_365"
+              href: threat-explorer.md
+            - name: Vue d’ensemble d’AIR
+              href: office-365-air.md
+            - name: Fonctionnement de l’analyse et de la réponse automatisées
+              href: automated-investigation-response-office.md
+            - name: Actions de correction
+              href: air-remediation-actions.md
+            - name: Protection anti-programme malveillant
+              href: anti-malware-protection.md
+            - name: Protection anti-courrier indésirable
+              href: anti-spam-protection.md
+            - name: Protection anti-hameçonnage
+              href: anti-phishing-protection.md
+            - name: Protection contre l’usurpation d’identité
+              href: anti-spoofing-protection.md
+            - name: "Pièces jointes sécurisées dans\_Defender pour Office\_365"
+              href: safe-attachments.md
+            - name: "Liens fiables dans\_Defender pour Office\_365"
+              href: safe-links.md
+            - name: Protection contre le courrier indésirable sortant
+              href: outbound-spam-controls.md
+            - name: Vue d’ensemble du tableau de bord de sécurité
+              href: security-dashboard.md
+            - name: Fonctionnement de l’examen des menaces et de la réponse à celles-ci
+              href: office-365-ti.md
+            - name: "Réponse aux incidents de sécurité Office\_365"
+              href: office365-security-incident-response-overview.md
+            - name: Informations sur le flux de courriers dans le Centre de sécurité et de conformité
+              href: mail-flow-insights-v2.md
+            - name: "Conseils de Sécurité\_Microsoft pour les campagnes électorales, les organisations à but non lucratif et d’autres organisations Agile"
+              href: microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md

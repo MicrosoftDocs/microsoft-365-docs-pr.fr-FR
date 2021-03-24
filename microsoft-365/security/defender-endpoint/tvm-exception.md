@@ -1,0 +1,147 @@
+---
+title: 'Créer et afficher des exceptions pour les recommandations de sécurité : gestion des menaces et des vulnérabilités'
+description: Créer et surveiller des exceptions pour les recommandations de sécurité dans la gestion des menaces et des vulnérabilités.
+keywords: correction tvm microsoft defender atp, tvm mdatp, gestion des menaces et des vulnérabilités, gestion des vulnérabilités des menaces &, correction de la gestion des vulnérabilités des menaces &, correction tvm intune, sccm de correction tvm
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: m365-security
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+ms.author: ellevin
+author: levinec
+localization_priority: Normal
+manager: dansimp
+audience: ITPro
+ms.collection:
+- m365-security-compliance
+- m365initiative-defender-endpoint
+ms.topic: conceptual
+ms.technology: mde
+ms.openlocfilehash: c8ad69930ce4faecbffbc6d2fab59bbe2cac06fa
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51063766"
+---
+# <a name="create-and-view-exceptions-for-security-recommendations---threat-and-vulnerability-management"></a><span data-ttu-id="4e51e-104">Créer et afficher des exceptions pour les recommandations de sécurité : gestion des menaces et des vulnérabilités</span><span class="sxs-lookup"><span data-stu-id="4e51e-104">Create and view exceptions for security recommendations - threat and vulnerability management</span></span>
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+<span data-ttu-id="4e51e-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="4e51e-105">**Applies to:**</span></span>
+
+- [<span data-ttu-id="4e51e-106">Microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="4e51e-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [<span data-ttu-id="4e51e-107">Gestion des menaces et des vulnérabilités</span><span class="sxs-lookup"><span data-stu-id="4e51e-107">Threat and vulnerability management</span></span>](next-gen-threat-and-vuln-mgt.md)
+- [<span data-ttu-id="4e51e-108">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="4e51e-108">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+
+><span data-ttu-id="4e51e-109">Vous souhaitez découvrir Microsoft Defender pour le point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="4e51e-109">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="4e51e-110">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="4e51e-110">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+
+<span data-ttu-id="4e51e-111">En remplacement d’une demande de correction lorsqu’une recommandation n’est pas pertinente pour le moment, vous pouvez créer des exceptions pour les recommandations.</span><span class="sxs-lookup"><span data-stu-id="4e51e-111">As an alternative to a remediation request when a recommendation is not relevant at the moment, you can create exceptions for recommendations.</span></span> <span data-ttu-id="4e51e-112">Si votre organisation dispose de groupes d’appareils, vous serez en mesure d’étenduer l’exception à des groupes d’appareils spécifiques.</span><span class="sxs-lookup"><span data-stu-id="4e51e-112">If your organization has device groups, you will be able to scope the exception to specific device groups.</span></span> <span data-ttu-id="4e51e-113">Des exceptions peuvent être créées pour les groupes d’appareils sélectionnés ou pour tous les groupes d’appareils passés et présents.</span><span class="sxs-lookup"><span data-stu-id="4e51e-113">Exceptions can either be created for selected device groups, or for all device groups past and present.</span></span>  
+
+<span data-ttu-id="4e51e-114">Lorsqu’une exception est créée pour une recommandation, la recommandation n’est pas active avant la fin de la durée de l’exception.</span><span class="sxs-lookup"><span data-stu-id="4e51e-114">When an exception is created for a recommendation, the recommendation will not be active until the end of the exception duration.</span></span> <span data-ttu-id="4e51e-115">L’état de recommandation change en **Exception complète ou** Exception **partielle** (par groupe d’appareils).</span><span class="sxs-lookup"><span data-stu-id="4e51e-115">The recommendation state will change to **Full exception** or **Partial exception** (by device group).</span></span>
+
+## <a name="permissions"></a><span data-ttu-id="4e51e-116">Autorisations</span><span class="sxs-lookup"><span data-stu-id="4e51e-116">Permissions</span></span>
+
+<span data-ttu-id="4e51e-117">Seuls les utilisateurs ayant des autorisations de « gestion des exceptions » peuvent gérer les exceptions (y compris la création ou l’annulation).</span><span class="sxs-lookup"><span data-stu-id="4e51e-117">Only users with “exceptions handling” permissions can manage exceptions (including creating or canceling).</span></span> <span data-ttu-id="4e51e-118">[En savoir plus sur les rôles RBAC.](user-roles.md)</span><span class="sxs-lookup"><span data-stu-id="4e51e-118">[Learn more about RBAC roles](user-roles.md).</span></span>
+
+![Affichage de l’autorisation de gestion des exceptions.](images/tvm-exception-permissions.png)
+
+## <a name="create-an-exception"></a><span data-ttu-id="4e51e-120">Créer une exception</span><span class="sxs-lookup"><span data-stu-id="4e51e-120">Create an exception</span></span>
+
+<span data-ttu-id="4e51e-121">Sélectionnez une recommandation de sécurité pour la création d’une exception, puis sélectionnez **Options d’exception** et remplissez le formulaire.</span><span class="sxs-lookup"><span data-stu-id="4e51e-121">Select a security recommendation you would like create an exception for, and then select **Exception options** and fill out the form.</span></span>  
+
+![Affichage de l’emplacement du bouton « options d’exception » dans un volant de recommandations de sécurité.](images/tvm-exception-options.png)
+
+### <a name="exception-by-device-group"></a><span data-ttu-id="4e51e-123">Exception par groupe d’appareils</span><span class="sxs-lookup"><span data-stu-id="4e51e-123">Exception by device group</span></span>
+
+<span data-ttu-id="4e51e-124">Appliquez l’exception à tous les groupes d’appareils actuels ou choisissez des groupes d’appareils spécifiques.</span><span class="sxs-lookup"><span data-stu-id="4e51e-124">Apply the exception to all current device groups or choose specific device groups.</span></span> <span data-ttu-id="4e51e-125">Les groupes d’appareils futurs ne seront pas inclus dans l’exception.</span><span class="sxs-lookup"><span data-stu-id="4e51e-125">Future device groups won't be included in the exception.</span></span> <span data-ttu-id="4e51e-126">Les groupes d’appareils qui ont déjà une exception ne sont pas affichés dans la liste.</span><span class="sxs-lookup"><span data-stu-id="4e51e-126">Device groups that already have an exception will not be displayed in the list.</span></span> <span data-ttu-id="4e51e-127">Si vous sélectionnez uniquement certains groupes d’appareils, l’état de recommandation change de « actif » à « exception partielle ».</span><span class="sxs-lookup"><span data-stu-id="4e51e-127">If you only select certain device groups, the recommendation state will change from “active” to “partial exception.”</span></span> <span data-ttu-id="4e51e-128">L’état est « exception complète » si vous sélectionnez tous les groupes d’appareils.</span><span class="sxs-lookup"><span data-stu-id="4e51e-128">The state will change to “full exception” if you select all the device groups.</span></span>
+
+![Affichage de la dropdown des groupes d’appareils.](images/tvm-exception-device-group-500.png)
+
+#### <a name="filtered-views"></a><span data-ttu-id="4e51e-130">Affichages filtrés</span><span class="sxs-lookup"><span data-stu-id="4e51e-130">Filtered views</span></span>
+
+<span data-ttu-id="4e51e-131">Si vous avez filtré par groupe d’appareils sur l’une des pages de gestion des menaces et des vulnérabilités, seuls vos groupes d’appareils filtrés apparaîtront en tant qu’options.</span><span class="sxs-lookup"><span data-stu-id="4e51e-131">If you have filtered by device group on any of the threat and vulnerability management pages, only your filtered device groups will appear as options.</span></span>
+
+<span data-ttu-id="4e51e-132">Il s’agit du bouton à filtrer par groupe d’appareils sur l’une des pages de gestion des menaces et des vulnérabilités :</span><span class="sxs-lookup"><span data-stu-id="4e51e-132">This is the button to filter by device group on any of the threat and vulnerability management pages:</span></span> 
+
+![Affichage du filtre des groupes d’appareils sélectionnés.](images/tvm-selected-device-groups.png)
+
+<span data-ttu-id="4e51e-134">Affichage des exceptions avec groupes d’appareils filtrés :</span><span class="sxs-lookup"><span data-stu-id="4e51e-134">Exception view with filtered device groups:</span></span>
+
+![Affichage de la dropdown de groupe d’appareils filtré.](images/tvm-exception-device-filter500.png)
+
+#### <a name="large-number-of-device-groups"></a><span data-ttu-id="4e51e-136">Grand nombre de groupes d’appareils</span><span class="sxs-lookup"><span data-stu-id="4e51e-136">Large number of device groups</span></span>
+
+<span data-ttu-id="4e51e-137">Si votre organisation compte plus de 20 groupes d’appareils, sélectionnez **Modifier** en plus de l’option de groupe d’appareils filtré.</span><span class="sxs-lookup"><span data-stu-id="4e51e-137">If your organization has more than 20 device groups, select **Edit** next to the filtered device group option.</span></span>
+
+![Montrant comment modifier un grand nombre de groupes.](images/tvm-exception-edit-groups.png)
+
+<span data-ttu-id="4e51e-139">Un volant s’affiche où vous pouvez rechercher et choisir les groupes d’appareils que vous souhaitez inclure.</span><span class="sxs-lookup"><span data-stu-id="4e51e-139">A flyout will appear where you can search and choose device groups you want included.</span></span> <span data-ttu-id="4e51e-140">Sélectionnez l’icône de coche sous Recherche pour vérifier/décocher tout.</span><span class="sxs-lookup"><span data-stu-id="4e51e-140">Select the check mark icon below Search to check/uncheck all.</span></span>
+
+![Affichage du volant de groupe d’appareils de grande taille.](images/tvm-exception-device-group-flyout-400.png)
+
+### <a name="global-exceptions"></a><span data-ttu-id="4e51e-142">Exceptions globales</span><span class="sxs-lookup"><span data-stu-id="4e51e-142">Global exceptions</span></span>
+
+<span data-ttu-id="4e51e-143">Si vous avez des autorisations d’administrateur général (appelées administrateur Microsoft Defender ATP), vous pourrez créer et annuler une exception globale.</span><span class="sxs-lookup"><span data-stu-id="4e51e-143">If you have global administrator permissions (called Microsoft Defender ATP administrator), you will be able to create and cancel a global exception.</span></span> <span data-ttu-id="4e51e-144">Elle affecte tous **les** groupes d’appareils actuels et futurs de votre organisation, et seul un utilisateur ayant des autorisations similaires peut le modifier.</span><span class="sxs-lookup"><span data-stu-id="4e51e-144">It affects **all** current and future device groups in your organization, and only a user with similar permission would be able to change it.</span></span> <span data-ttu-id="4e51e-145">L’état de recommandation va changer de « actif » à « exception complète ».</span><span class="sxs-lookup"><span data-stu-id="4e51e-145">The recommendation state will change from “active” to “full exception.”</span></span>
+
+![Affichage de l’option d’exception globale.](images/tvm-exception-global.png)
+
+<span data-ttu-id="4e51e-147">Voici quelques éléments à garder à l’esprit :</span><span class="sxs-lookup"><span data-stu-id="4e51e-147">Some things to keep in mind:</span></span>
+
+- <span data-ttu-id="4e51e-148">Si une recommandation fait l’objet d’une exception globale, les exceptions nouvellement créées pour les groupes d’appareils sont suspendues jusqu’à ce que l’exception globale ait expiré ou ait été annulée.</span><span class="sxs-lookup"><span data-stu-id="4e51e-148">If a recommendation is under global exception, then newly created exceptions for device groups will be suspended until the global exception has expired or been cancelled.</span></span> <span data-ttu-id="4e51e-149">Après ce point, les nouvelles exceptions de groupe d’appareils entreront en vigueur jusqu’à leur expiration.</span><span class="sxs-lookup"><span data-stu-id="4e51e-149">After that point, the new device group exceptions will go into effect until they expire.</span></span>
+- <span data-ttu-id="4e51e-150">Si une recommandation a déjà des exceptions pour des groupes d’appareils spécifiques et qu’une exception globale est créée, l’exception de groupe d’appareils est suspendue jusqu’à son expiration ou l’exception globale est annulée avant son expiration.</span><span class="sxs-lookup"><span data-stu-id="4e51e-150">If a recommendation already has exceptions for specific device groups and a global exception is created, then the device group exception will be suspended until it expires or the global exception is cancelled before it expires.</span></span>
+
+### <a name="justification"></a><span data-ttu-id="4e51e-151">Justification</span><span class="sxs-lookup"><span data-stu-id="4e51e-151">Justification</span></span>
+
+<span data-ttu-id="4e51e-152">Sélectionnez votre justification pour l’exception que vous devez déposer au lieu de corriger la recommandation de sécurité en question.</span><span class="sxs-lookup"><span data-stu-id="4e51e-152">Select your justification for the exception you need to file instead of remediating the security recommendation in question.</span></span> <span data-ttu-id="4e51e-153">Remplissez le contexte de justification, puis définissez la durée de l’exception.</span><span class="sxs-lookup"><span data-stu-id="4e51e-153">Fill out the justification context, then set the exception duration.</span></span>
+
+<span data-ttu-id="4e51e-154">La liste suivante détaille les justifications des options d’exception :</span><span class="sxs-lookup"><span data-stu-id="4e51e-154">The following list details the justifications behind the exception options:</span></span>
+
+- <span data-ttu-id="4e51e-155">**Contrôle tiers** - Un produit ou un logiciel tiers répond déjà à cette recommandation : le choix de ce type de justification réduit votre score d’exposition et augmente votre score de sécurité car votre risque est réduit</span><span class="sxs-lookup"><span data-stu-id="4e51e-155">**Third party control** - A third party product or software already addresses this recommendation       - Choosing this justification type will lower your exposure score and increase your secure score because your risk is reduced</span></span>
+- <span data-ttu-id="4e51e-156">**Atténuation de remplacement** : un outil interne répond déjà à cette recommandation : le choix de ce type de justification réduit votre score d’exposition et augmente votre score de sécurité car votre risque est réduit</span><span class="sxs-lookup"><span data-stu-id="4e51e-156">**Alternate mitigation** - An internal tool already addresses this recommendation       - Choosing this justification type will lower your exposure score and increase your secure score because your risk is reduced</span></span>
+- <span data-ttu-id="4e51e-157">**Risque accepté :** pose un risque faible et/ou l’implémentation de la recommandation est trop coûteuse</span><span class="sxs-lookup"><span data-stu-id="4e51e-157">**Risk accepted** - Poses low risk and/or implementing the recommendation is too expensive</span></span>
+- <span data-ttu-id="4e51e-158">**Correction planifiée (grâce)** : déjà planifiée mais en attente d’exécution ou d’autorisation</span><span class="sxs-lookup"><span data-stu-id="4e51e-158">**Planned remediation (grace)** - Already planned but is awaiting execution or authorization</span></span>
+
+## <a name="view-all-exceptions"></a><span data-ttu-id="4e51e-159">Afficher toutes les exceptions</span><span class="sxs-lookup"><span data-stu-id="4e51e-159">View all exceptions</span></span>
+
+<span data-ttu-id="4e51e-160">Accédez à **l’onglet Exceptions** dans la page **Correction.**</span><span class="sxs-lookup"><span data-stu-id="4e51e-160">Navigate to the **Exceptions** tab in the **Remediation** page.</span></span> <span data-ttu-id="4e51e-161">Vous pouvez filtrer par justification, type et état.</span><span class="sxs-lookup"><span data-stu-id="4e51e-161">You can filter by justification, type, and status.</span></span>
+
+ <span data-ttu-id="4e51e-162">Sélectionnez une exception pour ouvrir un volant avec plus de détails.</span><span class="sxs-lookup"><span data-stu-id="4e51e-162">Select an exception to open a flyout with more details.</span></span> <span data-ttu-id="4e51e-163">Les exceptions par groupe d’appareils auront une liste de chaque groupe d’appareils couvert par l’exception, que vous pouvez exporter.</span><span class="sxs-lookup"><span data-stu-id="4e51e-163">Exceptions per devices group will have a list of every device group the exception covers, which you can export.</span></span> <span data-ttu-id="4e51e-164">Vous pouvez également afficher la recommandation associée ou annuler l’exception.</span><span class="sxs-lookup"><span data-stu-id="4e51e-164">You can also view the related recommendation or cancel the exception.</span></span>
+
+![Affichage de l’onglet « Exceptions » dans la page Correction.](images/tvm-exception-view.png)
+
+## <a name="how-to-cancel-an-exception"></a><span data-ttu-id="4e51e-166">Comment annuler une exception</span><span class="sxs-lookup"><span data-stu-id="4e51e-166">How to cancel an exception</span></span>
+
+<span data-ttu-id="4e51e-167">Pour annuler une exception, accédez à **l’onglet Exceptions** dans la page **Correction.**</span><span class="sxs-lookup"><span data-stu-id="4e51e-167">To cancel an exception, navigate to the **Exceptions** tab in the **Remediation** page.</span></span> <span data-ttu-id="4e51e-168">Sélectionnez l’exception.</span><span class="sxs-lookup"><span data-stu-id="4e51e-168">Select the exception.</span></span>
+
+<span data-ttu-id="4e51e-169">Pour annuler l’exception pour tous les groupes d’appareils ou pour une exception globale, sélectionnez l’exception Annuler pour tous les groupes **d’appareils.**</span><span class="sxs-lookup"><span data-stu-id="4e51e-169">To cancel the exception for all device groups or for a global exception, select the **Cancel exception for all device groups** button.</span></span> <span data-ttu-id="4e51e-170">Vous pourrez uniquement annuler les exceptions pour les groupes d’appareils pour qui vous avez des autorisations.</span><span class="sxs-lookup"><span data-stu-id="4e51e-170">You will only be able to cancel exceptions for device groups you have permissions for.</span></span>
+
+![Bouton Annuler.](images/tvm-exception-cancel.png)
+
+### <a name="cancel-the-exception-for-a-specific-device-group"></a><span data-ttu-id="4e51e-172">Annuler l’exception pour un groupe d’appareils spécifique</span><span class="sxs-lookup"><span data-stu-id="4e51e-172">Cancel the exception for a specific device group</span></span>
+
+<span data-ttu-id="4e51e-173">Sélectionnez le groupe d’appareils spécifique pour annuler l’exception.</span><span class="sxs-lookup"><span data-stu-id="4e51e-173">Select the specific device group to cancel the exception for it.</span></span> <span data-ttu-id="4e51e-174">Un volant s’affiche pour le groupe d’appareils, et vous pouvez sélectionner **l’exception Annuler.**</span><span class="sxs-lookup"><span data-stu-id="4e51e-174">A flyout will appear for the device group, and you can select **Cancel exception**.</span></span>
+
+![Montrant comment sélectionner un groupe d’appareils spécifique.](images/tvm-exception-device-group-hover.png)
+
+## <a name="view-impact-after-exceptions-are-applied"></a><span data-ttu-id="4e51e-176">Afficher l’impact après application des exceptions</span><span class="sxs-lookup"><span data-stu-id="4e51e-176">View impact after exceptions are applied</span></span>
+
+<span data-ttu-id="4e51e-177">Dans la page Recommandations  en matière de sécurité, sélectionnez Personnaliser les colonnes et cochez les cases pour les appareils exposés **(après les exceptions)** et **l’impact (après les exceptions).**</span><span class="sxs-lookup"><span data-stu-id="4e51e-177">In the Security Recommendations page, select **Customize columns** and check the boxes for **Exposed devices (after exceptions)** and **Impact (after exceptions)**.</span></span>
+
+![Affichage des options de personnalisation des colonnes.](images/tvm-after-exceptions.png)
+
+<span data-ttu-id="4e51e-179">La colonne appareils exposés (après les exceptions) affiche les autres appareils qui sont encore exposés aux vulnérabilités après l’application des exceptions.</span><span class="sxs-lookup"><span data-stu-id="4e51e-179">The exposed devices (after exceptions) column shows the remaining devices that are still exposed to vulnerabilities after exceptions are applied.</span></span> <span data-ttu-id="4e51e-180">Les justifications d’exception qui affectent l’exposition incluent « contrôle tiers » et « atténuation de remplacement ».</span><span class="sxs-lookup"><span data-stu-id="4e51e-180">Exception justifications that affect the exposure include ‘third party control’ and ‘alternate mitigation’.</span></span> <span data-ttu-id="4e51e-181">D’autres justifications ne réduisent pas l’exposition d’un appareil et sont toujours considérées comme exposées.</span><span class="sxs-lookup"><span data-stu-id="4e51e-181">Other justifications do not reduce the exposure of a device, and they are still considered exposed.</span></span>
+
+<span data-ttu-id="4e51e-182">L’impact (après les exceptions) indique l’impact restant sur le score d’exposition ou le score sécurisé après l’application des exceptions.</span><span class="sxs-lookup"><span data-stu-id="4e51e-182">The impact (after exceptions) shows remaining impact to exposure score or secure score after exceptions are applied.</span></span> <span data-ttu-id="4e51e-183">Les justifications d’exception qui affectent les scores incluent « contrôle tiers » et « atténuation alternative ».</span><span class="sxs-lookup"><span data-stu-id="4e51e-183">Exception justifications that affect the scores include ‘third party control’ and ‘alternate mitigation.’</span></span> <span data-ttu-id="4e51e-184">D’autres justifications ne réduisent pas l’exposition d’un appareil, de sorte que le score d’exposition et le score de sécurité ne changent pas.</span><span class="sxs-lookup"><span data-stu-id="4e51e-184">Other justifications do not reduce the exposure of a device, and so the exposure score and secure score do not change.</span></span>
+
+![Affichage des colonnes dans le tableau.](images/tvm-after-exceptions-table.png)
+
+## <a name="related-topics"></a><span data-ttu-id="4e51e-186">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4e51e-186">Related topics</span></span>
+
+- [<span data-ttu-id="4e51e-187">Vue d’ensemble de la gestion des menaces et des vulnérabilités</span><span class="sxs-lookup"><span data-stu-id="4e51e-187">Threat and vulnerability management overview</span></span>](next-gen-threat-and-vuln-mgt.md)
+- [<span data-ttu-id="4e51e-188">Corriger les vulnérabilités</span><span class="sxs-lookup"><span data-stu-id="4e51e-188">Remediate vulnerabilities</span></span>](tvm-remediation.md)
+- [<span data-ttu-id="4e51e-189">Recommandations de sécurité</span><span class="sxs-lookup"><span data-stu-id="4e51e-189">Security recommendations</span></span>](tvm-security-recommendation.md)
+- [<span data-ttu-id="4e51e-190">Score d’exposition</span><span class="sxs-lookup"><span data-stu-id="4e51e-190">Exposure score</span></span>](tvm-exposure-score.md)
+- [<span data-ttu-id="4e51e-191">Score de sécurité Microsoft pour les appareils</span><span class="sxs-lookup"><span data-stu-id="4e51e-191">Microsoft Secure Score for Devices</span></span>](tvm-microsoft-secure-score-devices.md)
