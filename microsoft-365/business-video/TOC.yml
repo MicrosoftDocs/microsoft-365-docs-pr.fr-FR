@@ -103,6 +103,8 @@
           href: view-bill.md
         - name: Acheter de nouvelles licences
           href: buy-licenses.md
+        - name: Supprimer les licences existantes
+          href: remove-existing-licenses.md
         - name: Mettre à jour votre mode de paiement
           href: update-payment.md
         - name: Réinitialiser les mots de passe des utilisateurs
