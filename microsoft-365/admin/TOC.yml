@@ -314,7 +314,7 @@
             - name: Configurer les fonctionnalités de conformité
               href: ../business/set-up-compliance.md
         - name: Niveau de sécurité
-          href: ../security/mtp/microsoft-secure-score.md
+          href: 'https://docs.microsoft.com/microsoft-365/security/defender/microsoft-secure-score'
         - name: Guide de la conformité avec le RGPD
           href: security-and-compliance/gdpr-compliance.md
     - name: Gérer les données des appareils et des applications.
