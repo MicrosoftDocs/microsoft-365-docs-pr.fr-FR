@@ -1,7 +1,7 @@
 # [Microsoft Defender pour point de terminaison](index.yml)
 
 ## [Vue d’ensemble]()
-### [Qu’est-ce que Microsoft Defender pour point de terminaison ?](microsoft-defender-advanced-threat-protection.md)
+### [Qu’est-ce que Microsoft Defender pour point de terminaison ?](microsoft-defender-endpoint.md)
 ### [Configuration minimale requise](minimum-requirements.md)
 ### [Nouveautés de Microsoft Defender pour point de terminaison](whats-new-in-microsoft-defender-atp.md)
 ### [Fonctionnalités en préversion](preview.md)
@@ -178,7 +178,7 @@
 ##### [Définir les préférences](linux-preferences.md)
 ##### [Détecter et bloquer les applications potentiellement indésirables](linux-pua.md)
 ##### [Planifier des analyses avec Microsoft Defender pour Endpoint pour Linux](linux-schedule-scan-atp.md)
-##### [Planifier une mise à jour de Microsoft Defender pour endpoint (Linux)](linux-update-MDE-Linux.md)
+##### [Planifier une mise à jour de Microsoft Defender for Endpoint (Linux)](linux-update-MDE-Linux.md)
 
 #### [Résoudre les problèmes]()
 ##### [Résoudre les problèmes d’installation](linux-support-install.md)
@@ -189,14 +189,14 @@
 #### [Confidentialité](linux-privacy.md)
 #### [Resources](linux-resources.md)
 
-### [Microsoft Defender pour le point de terminaison pour Android]()
+### [Microsoft Defender pour point de terminaison pour Android]()
 #### [Vue d’ensemble de Microsoft Defender pour point de terminaison pour Android](microsoft-defender-endpoint-android.md)
 
 #### [Déployer]()
 ##### [Déployer Microsoft Defender pour endpoint pour Android avec Microsoft Intune](android-intune.md)
 
 #### [Configurer]()
-##### [Configurer Microsoft Defender pour les fonctionnalités Endpoint pour Android](android-configure.md)
+##### [Configurer Microsoft Defender pour les fonctionnalités endpoint pour Android](android-configure.md)
 
 #### [Confidentialité]()
 ##### [Microsoft Defender pour le point de terminaison pour Android : informations de confidentialité](android-privacy.md)
@@ -391,7 +391,7 @@
 #### [API Microsoft Defender pour point de terminaison]()
 ##### [Prise en main]()
 ###### [Licence et termes de l’API Microsoft Defender for Endpoint](api-terms-of-use.md)
-###### [Accéder aux API Microsoft Defender for Endpoint](apis-intro.md)
+###### [Accéder aux API Microsoft Defender pour les points de terminaison](apis-intro.md)
 ###### [Hello World](api-hello-world.md)
 ###### [Accédez au contexte de l’application](exposed-apis-create-app-webapp.md)
 ###### [Obtenir l’accès avec le contexte utilisateur](exposed-apis-create-app-nativeapp.md)
@@ -451,7 +451,7 @@
 ####### [Méthodes et propriétés des indicateurs](ti-indicator.md)
 ####### [Indicateur d’soumission](post-ti-indicator.md)
 ####### [Indicateurs de liste](get-ti-indicators-collection.md)
-####### [Supprimer l’indicateur](delete-ti-indicator-by-id.md)
+####### [Supprimer un indicateur](delete-ti-indicator-by-id.md)
 
 ###### [Domaine]()
 ####### [Obtenir les alertes liées au domaine](get-domain-related-alerts.md)
@@ -504,7 +504,7 @@
 ####### [Lister les ordinateurs par recommandation](get-recommendation-machines.md)
 ####### [Liste des vulnérabilités par recommandation](get-recommendation-vulnerabilities.md)
 
-##### [Utilisation des API : exemples]()
+##### [Utilisation des API - Exemples]()
 ###### [Microsoft Flow](api-microsoft-flow.md)
 ###### [Power BI](api-power-bi.md)
 ###### [Recherche avancée à l’aide de Python](run-advanced-query-sample-python.md)
@@ -517,7 +517,7 @@
 ##### [Diffuser en continu des événements de recherche avancée sur votre compte de stockage](raw-data-export-storage.md)
 
 #### [Intégration SIEM]()
-##### [Comprendre les concepts d’intelligence des menaces](threat-indicator-concepts.md)
+##### [Comprendre les concepts d’intelligence contre les menaces](threat-indicator-concepts.md)
 ##### [En savoir plus sur les différentes façons d’en tirer les détections](configure-siem.md)
 ##### [Activer l’intégration SIEM](enable-siem-integration.md)
 ##### [Configurer Micro Focus ArcSight pour tirer les détections](configure-arcsight.md)

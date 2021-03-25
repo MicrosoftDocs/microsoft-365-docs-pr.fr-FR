@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Documentation microsoft defender pour point de terminaison
+title: Documentation de Microsoft Defender pour les points de terminaison
 summary: Microsoft Defender pour le point de terminaison offre une protection préventive, une détection post-violation, des enquêtes automatisées et une réponse.
 metadata:
   title: Documentation de Microsoft Defender pour les points de terminaison
-  description: 'Découvrez Microsoft Defender pour le point de terminaison et optimisez les fonctionnalités de sécurité intégrées pour protéger les appareils, détecter les activités malveillantes et corriger les menaces # Obligatoire ; description de l’article qui s’affiche dans les résultats de la recherche. < 160 chars.'
+  description: 'En savoir plus sur Microsoft Defender pour point de terminaison et optimiser les fonctionnalités de sécurité intégrées pour protéger les appareils, détecter les activités malveillantes et corriger les menaces # Obligatoire ; description de l’article qui s’affiche dans les résultats de la recherche. < 160 chars.'
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -13,19 +13,19 @@ metadata:
   ms.author: macapara
   ms.date: 02/5/2021
   localization_priority: Priority
-  ms.openlocfilehash: a183f4d09b596f6dbecf2dc0636ff516b1b26eb6
-  ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+  ms.openlocfilehash: efa23f4c40021d95185203c22c8bba5009e15f2f
+  ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51067721"
+  ms.lasthandoff: 03/24/2021
+  ms.locfileid: "51185742"
 landingContent:
 - title: Microsoft Defender pour point de terminaison
   linkLists:
   - linkListType: overview
     links:
     - text: Qu’est-ce que Microsoft Defender pour point de terminaison ?
-      url: microsoft-defender-advanced-threat-protection.md
+      url: microsoft-defender-endpoint.md
   - linkListType: whats-new
     links:
     - text: Nouveautés de Microsoft Defender pour point de terminaison
