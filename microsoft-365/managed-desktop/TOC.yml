@@ -21,6 +21,8 @@
           href: service-description/device-lifecycle.md
         - name: Configuration requise de l’appareil
           href: service-description/device-requirements.md
+        - name: Images d’un appareil
+          href: service-description/device-images.md
         - name: Appareils du programme
           href: service-description/device-list.md
           items:

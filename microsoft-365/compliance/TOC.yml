@@ -377,7 +377,7 @@
               href: import-physical-badging-data.md
             - name: Twitter
               href: archive-twitter-data-with-sample-connector.md
-        - name: Connecteurs de données Globanet
+        - name: Connecteurs de données Veritas
           items:
             - name: CellTrust
               href: archive-celltrust-data.md
@@ -411,10 +411,10 @@
               href: archive-symphony-data.md
             - name: Délimité par le texte
               href: archive-text-delimited-data.md
-            - name: Pages web
-              href: archive-webpagecapture-data.md
             - name: Webex Teams
               href: archive-webexteams-data.md
+            - name: Pages web
+              href: archive-webpagecapture-data.md
             - name: Espace de travail sur Facebook
               href: archive-workplacefromfacebook-data.md
             - name: XIP
