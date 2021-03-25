@@ -1,0 +1,104 @@
+### YamlMime:Landing
+title: Documentation microsoft defender pour point de terminaison
+summary: Microsoft Defender pour le point de terminaison offre une protection préventive, une détection post-violation, des enquêtes automatisées et une réponse.
+metadata:
+  title: Documentation de Microsoft Defender pour les points de terminaison
+  description: 'Découvrez Microsoft Defender pour le point de terminaison et optimisez les fonctionnalités de sécurité intégrées pour protéger les appareils, détecter les activités malveillantes et corriger les menaces # Obligatoire ; description de l’article qui s’affiche dans les résultats de la recherche. < 160 chars.'
+  services: office-365-security-compliance
+  ms.service: O365-seccomp
+  ms.subservice: subservice
+  ms.topic: landing-page
+  ms.collection: m365-security-compliance
+  author: mjcaparas
+  ms.author: macapara
+  ms.date: 02/5/2021
+  localization_priority: Priority
+  ms.openlocfilehash: a183f4d09b596f6dbecf2dc0636ff516b1b26eb6
+  ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51067721"
+landingContent:
+- title: Microsoft Defender pour point de terminaison
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Qu’est-ce que Microsoft Defender pour point de terminaison ?
+      url: microsoft-defender-advanced-threat-protection.md
+  - linkListType: whats-new
+    links:
+    - text: Nouveautés de Microsoft Defender pour point de terminaison
+      url: whats-new-in-microsoft-defender-atp.md
+  - linkListType: video
+    links:
+    - text: Vidéo vue d’ensemble
+      url: https://www.microsoft.com/videoplayer/embed/RE4vnC4?rel=0
+- title: Évaluer & déployer le service
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Évaluer Microsoft Defender pour le point de terminaison
+      url: evaluation-lab.md
+    - text: Planifier votre déploiement
+      url: deployment-strategy.md
+  - linkListType: deploy
+    links:
+    - text: Guide de déploiement
+      url: deployment-phases.md
+    - text: Intégrer les appareils pris en charge
+      url: onboard-configure.md
+  - linkListType: how-to-guide
+    links:
+    - text: Guide de migration
+      url: migration-guides.md
+  - linkListType: video
+    links:
+    - text: Vidéo d’intégration
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE4bGqr
+- title: Opérations de sécurité
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Détection et réponse au point de terminaison
+      url: overview-endpoint-detection-response.md
+    - text: Blocage et blocage de l’accès aux blocages
+      url: behavioral-blocking-containment.md
+    - text: Examen et réponse automatisés (AIR)
+      url: automated-investigations.md
+    - text: Repérage avancé
+      url: advanced-hunting-overview.md
+    - text: Spécialistes des menaces Microsoft
+      url: microsoft-threat-experts.md
+    - text: Analyses de menaces
+      url: threat-analytics.md
+- title: Utiliser Microsoft Defender pour le point de terminaison sur d’autres plateformes
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Microsoft Defender pour point de terminaison pour Mac
+      url: microsoft-defender-endpoint-mac.md
+    - text: Microsoft Defender pour point de terminaison iOS
+      url: microsoft-defender-endpoint-ios.md
+    - text: Microsoft Defender pour point de terminaison pour Linux
+      url: microsoft-defender-endpoint-linux.md
+    - text: Microsoft Defender pour le point de terminaison pour Android
+      url: microsoft-defender-endpoint-android.md
+- title: Référence
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Gestion et API
+      url: management-apis.md
+    - text: Intégration des partenaires
+      url: partner-integration.md
+- title: Administration de la sécurité
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Gestion des & menaces
+      url: next-gen-threat-and-vuln-mgt.md
+    - text: Réduction de la surface d’attaque
+      url: overview-attack-surface-reduction.md
+    - text: Protection nouvelle génération
+      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10
