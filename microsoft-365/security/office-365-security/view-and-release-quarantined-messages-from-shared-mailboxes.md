@@ -1,0 +1,75 @@
+---
+title: Afficher et libérer les messages mis en quarantaine à partir de boîtes aux lettres partagées
+ms.author: chrisda
+author: chrisda
+manager: dansimp
+ms.reviewer: ''
+ms.date: ''
+audience: ITPro
+ms.topic: how-to
+localization_priority: Normal
+search.appverid:
+- MET150
+ms.assetid: ''
+ms.collection:
+- M365-security-compliance
+ROBOTS: NOINDEX
+description: Les utilisateurs peuvent apprendre à afficher et à agir sur les messages mis en quarantaine qui ont été envoyés à des boîtes aux lettres partagées pour qui ils ont des autorisations.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 9490a9d5b2b4191d6c039be2758e2e0ba0c981cd
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51204511"
+---
+# <a name="view-and-release-quarantined-messages-from-shared-mailboxes"></a><span data-ttu-id="1ecd8-103">Afficher et libérer les messages mis en quarantaine à partir de boîtes aux lettres partagées</span><span class="sxs-lookup"><span data-stu-id="1ecd8-103">View and release quarantined messages from shared mailboxes</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="1ecd8-104">Les fonctionnalités décrites dans cet article sont actuellement en prévisualisation, ne sont pas disponibles pour tout le monde et peuvent faire l’objet de changements.</span><span class="sxs-lookup"><span data-stu-id="1ecd8-104">The features that are described in this article are currently in Preview, aren't available to everyone, and are subject to change.</span></span>
+
+<span data-ttu-id="1ecd8-105">Les utilisateurs peuvent gérer les messages mis en quarantaine lorsqu’ils sont l’un des destinataires, comme décrit dans Rechercher et libérer les messages mis en quarantaine en tant [qu’utilisateur dans EOP.](find-and-release-quarantined-messages-as-a-user.md)</span><span class="sxs-lookup"><span data-stu-id="1ecd8-105">Users can manage quarantined messages where they are one of the recipients as described in [Find and release quarantined messages as a user in EOP](find-and-release-quarantined-messages-as-a-user.md).</span></span> <span data-ttu-id="1ecd8-106">Mais qu’en est-il des boîtes aux lettres partagées où l’utilisateur dispose des autorisations Accès total et Envoyer en tant que ou Envoyer de la part de la boîte aux lettres comme décrit dans les boîtes aux lettres partagées [dans Exchange Online](/exchange/collaboration-exo/shared-mailboxes)?</span><span class="sxs-lookup"><span data-stu-id="1ecd8-106">But what about shared mailboxes where the user has Full Access and Send As or Send on Behalf permissions to the mailbox as described in [Shared mailboxes in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)?</span></span>
+
+<span data-ttu-id="1ecd8-107">Auparavant, la possibilité pour les utilisateurs de gérer les messages mis en quarantaine envoyés à une boîte aux lettres partagée nécessitait aux administrateurs de laisser le mappage automatique activé pour la boîte aux lettres partagée (il est activé par défaut lorsqu’un administrateur donne à un utilisateur l’accès à une autre boîte aux lettres).</span><span class="sxs-lookup"><span data-stu-id="1ecd8-107">Previously, the ability for users to manage quarantined messages sent to a shared mailbox required admins to leave automapping enabled for the shared mailbox (it's enabled by default when an admin gives a user access to another mailbox).</span></span> <span data-ttu-id="1ecd8-108">Toutefois, en fonction de la taille et du nombre de boîtes aux lettres  à qui l’utilisateur a accès, les performances peuvent être réduites lorsque Outlook tente d’ouvrir toutes les boîtes aux lettres à l’accès de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="1ecd8-108">However, depending on the size and number of mailboxes that the user has access to, performance can suffer as Outlooks tries to open *all* mailboxes that the user has access to.</span></span> <span data-ttu-id="1ecd8-109">Pour cette raison, de nombreux administrateurs choisissent de [supprimer le mappage automatique pour les boîtes aux lettres partagées.](/outlook/troubleshoot/profiles-and-accounts/remove-automapping-for-shared-mailbox)</span><span class="sxs-lookup"><span data-stu-id="1ecd8-109">For this reason, many admins choose to [remove automapping for shared mailboxes](/outlook/troubleshoot/profiles-and-accounts/remove-automapping-for-shared-mailbox).</span></span>
+
+<span data-ttu-id="1ecd8-110">À présent, le mappage automatique n’est plus nécessaire pour que les utilisateurs gèrent les messages mis en quarantaine qui ont été envoyés à des boîtes aux lettres partagées.</span><span class="sxs-lookup"><span data-stu-id="1ecd8-110">Now, automapping is no longer required for users to manage quarantined messages that were sent to shared mailboxes.</span></span> <span data-ttu-id="1ecd8-111">Cela fonctionne simplement.</span><span class="sxs-lookup"><span data-stu-id="1ecd8-111">It just works.</span></span> <span data-ttu-id="1ecd8-112">Il existe deux méthodes différentes pour accéder aux messages mis en quarantaine qui ont été envoyés à une boîte aux lettres partagée :</span><span class="sxs-lookup"><span data-stu-id="1ecd8-112">There are two different methods to access quarantined messages that were sent to a shared mailbox:</span></span>
+
+- <span data-ttu-id="1ecd8-113">Si l’administrateur a activé les notifications de courrier indésirable pour l’utilisateur final dans les [stratégies](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-your-spam-filter-policies) anti-courrier indésirable, tout utilisateur qui a accès aux notifications de courrier indésirable de l’utilisateur final dans la boîte aux lettres partagée peut cliquer sur le bouton Réviser dans la notification pour passer en quarantaine dans le Centre de sécurité & conformité. </span><span class="sxs-lookup"><span data-stu-id="1ecd8-113">If the admin has [enabled end-user spam notifications](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-your-spam-filter-policies) in anti-spam policies, any user that has access to the end-user spam notifications in the shared mailbox can click the **Review** button in the notification to go to quarantine in the Security & Compliance Center.</span></span> <span data-ttu-id="1ecd8-114">Notez que cette méthode permet uniquement aux utilisateurs de gérer les messages mis en quarantaine qui ont été envoyés à la boîte aux lettres partagée.</span><span class="sxs-lookup"><span data-stu-id="1ecd8-114">Note that this method only allows users to manage quarantined messages that were sent to the shared mailbox.</span></span> <span data-ttu-id="1ecd8-115">Les utilisateurs ne peuvent pas gérer leurs propres messages de mise en quarantaine dans ce contexte.</span><span class="sxs-lookup"><span data-stu-id="1ecd8-115">Users can't manage their own quarantine messages in this context.</span></span>
+
+- <span data-ttu-id="1ecd8-116">L’utilisateur peut être mis en quarantaine dans le Centre de [sécurité & conformité.](find-and-release-quarantined-messages-as-a-user.md)</span><span class="sxs-lookup"><span data-stu-id="1ecd8-116">The user can [go to the quarantine in the Security & Compliance Center](find-and-release-quarantined-messages-as-a-user.md).</span></span> <span data-ttu-id="1ecd8-117">Par défaut, seuls les messages envoyés à l’utilisateur sont affichés.</span><span class="sxs-lookup"><span data-stu-id="1ecd8-117">By default, only messages that were sent to the user are shown.</span></span> <span data-ttu-id="1ecd8-118">Toutefois, l’utilisateur peut modifier les résultats du tri **(le** bouton **ID** de message par  défaut) en adresse de messagerie du **destinataire,** entrer l’adresse e-mail de la boîte aux lettres partagée, puis cliquer sur Actualiser pour voir les messages mis en quarantaine qui ont été envoyés à la boîte aux lettres partagée.</span><span class="sxs-lookup"><span data-stu-id="1ecd8-118">However, the user can change the **Sort results** (the **Message ID button** by default) to **Recipient email address**, enter the shared mailbox email address, and then click **Refresh** to see the quarantined messages that were sent to the shared mailbox.</span></span>
+
+  ![Tri des messages mis en quarantaine par adresse de messagerie du destinataire.](../../media/quarantine-sort-results-by-recipient-email-address.png)
+
+<span data-ttu-id="1ecd8-120">Quelle que soit la méthode utilisée, les utilisateurs peuvent éviter toute confusion en incluant la colonne **Destinataire** pour les messages mis en quarantaine.</span><span class="sxs-lookup"><span data-stu-id="1ecd8-120">Regardless of the method, users can avoid confusion by including the **Recipient** column for quarantined messages.</span></span> <span data-ttu-id="1ecd8-121">Le nombre maximal de colonnes à afficher est de 7. L’utilisateur doit donc cliquer sur Modifier les  **colonnes,** supprimer une colonne existante (par exemple, **type** de stratégie), sélectionner le **destinataire,** puis cliquer sur Enregistrer ou enregistrer par **défaut.**</span><span class="sxs-lookup"><span data-stu-id="1ecd8-121">The maximum number of columns to display is 7, so the user will need to click **Modify columns**, remove an existing column (for example, **Policy type**), select **Recipient**, and then click **Save** or **Save as default**.</span></span>
+
+  ![Supprimez la colonne Type de stratégie et ajoutez la colonne Destinataire en quarantaine.](../../media/quarantine-add-recipient-column.png)
+
+## <a name="things-to-keep-in-mind"></a><span data-ttu-id="1ecd8-123">Éléments à garder à l’esprit</span><span class="sxs-lookup"><span data-stu-id="1ecd8-123">Things to keep in mind</span></span>
+
+- <span data-ttu-id="1ecd8-124">Le premier utilisateur à agir sur le message mis en quarantaine décide de la fin du message pour toutes les personnes qui utilisent la boîte aux lettres partagée.</span><span class="sxs-lookup"><span data-stu-id="1ecd8-124">The first user to act on the quarantined message decides the fate of the message for everyone who uses the shared mailbox.</span></span> <span data-ttu-id="1ecd8-125">Par exemple, si une boîte aux lettres partagée est accessible par 10 utilisateurs et qu’un utilisateur décide de supprimer le message de mise en quarantaine, le message est supprimé pour les 10 utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="1ecd8-125">For example, if a shared mailbox is accessed by 10 users, and a user decides to delete the quarantine message, the message is deleted for all 10 users.</span></span> <span data-ttu-id="1ecd8-126">De même, si un utilisateur décide de libérer le message, il est publié dans la boîte aux lettres partagée et est accessible par tous les autres utilisateurs de la boîte aux lettres partagée.</span><span class="sxs-lookup"><span data-stu-id="1ecd8-126">Likewise, if a user decides to release the message, it's released to the shared mailbox and is accessible by all other users of the shared mailbox.</span></span>
+
+- <span data-ttu-id="1ecd8-127">Actuellement, le bouton Bloquer **l’expéditeur** n’est pas disponible dans le volant Détails pour les messages mis en quarantaine qui ont été **envoyés** à la boîte aux lettres partagée.</span><span class="sxs-lookup"><span data-stu-id="1ecd8-127">Currently, the **Block sender** button is not available in the **Details** flyout for quarantined messages that were sent to the shared mailbox.</span></span>
+
+- <span data-ttu-id="1ecd8-128">Pour gérer les messages mis en quarantaine pour la boîte aux lettres partagée dans [Exchange Online PowerShell,](/powershell/exchange/connect-to-exchange-online-powershell)l’utilisateur final doit utiliser la cmdlet [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) avec une adresse de messagerie de boîte aux lettres partagée pour la valeur du paramètre _RecipientAddress_ pour identifier les messages.</span><span class="sxs-lookup"><span data-stu-id="1ecd8-128">To manage quarantined messages for the shared mailbox in [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell), the end-user will need to use the [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) cmdlet with shared mailbox email address for the value of the _RecipientAddress_ parameter to identify the messages.</span></span> <span data-ttu-id="1ecd8-129">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="1ecd8-129">For example:</span></span>
+
+  ```powershell
+  Get-QuarantinedMessage -RecipientAddress officeparty@contoso.com
+  ```
+
+  <span data-ttu-id="1ecd8-130">Ensuite, l’utilisateur final peut sélectionner un message mis en quarantaine dans la liste pour afficher ou prendre des mesures.</span><span class="sxs-lookup"><span data-stu-id="1ecd8-130">Then, the end-user can select a quarantined message from the list to view or take action on.</span></span>
+
+  <span data-ttu-id="1ecd8-131">Cet exemple montre tous les messages mis en quarantaine qui ont été envoyés à la boîte aux lettres partagée, puis libère le premier message de la liste de la quarantaine (le premier message de la liste est 0, le deuxième est 1, et ainsi de suite).</span><span class="sxs-lookup"><span data-stu-id="1ecd8-131">This example shows all of the quarantined messages that were sent to the shared mailbox, and then releases the first message in the list from quarantine (the first message in the list is 0, the second is 1, and so on).</span></span>
+
+  ```powershell
+  $SharedMessages = Get-QuarantinedMessage -RecipientAddress officeparty@contoso.com | select -ExpandProperty Identity
+  $SharedMessages
+  Release-QuarantinedMessage -Identity $SharedMessages[0]
+  ```
+
+  <span data-ttu-id="1ecd8-132">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, consultez les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="1ecd8-132">For detailed syntax and parameter information, see the following topics:</span></span>
+
+  - [<span data-ttu-id="1ecd8-133">Get-QuarantineMessage</span><span class="sxs-lookup"><span data-stu-id="1ecd8-133">Get-QuarantineMessage</span></span>](/powershell/module/exchange/get-quarantinemessage)
+  - [<span data-ttu-id="1ecd8-134">Get-QuarantineMessageHeader</span><span class="sxs-lookup"><span data-stu-id="1ecd8-134">Get-QuarantineMessageHeader</span></span>](/powershell/module/exchange/get-quarantinemessageheader)
+  - [<span data-ttu-id="1ecd8-135">Preview-QuarantineMessage</span><span class="sxs-lookup"><span data-stu-id="1ecd8-135">Preview-QuarantineMessage</span></span>](/powershell/module/exchange/preview-quarantinemessage)
+  - [<span data-ttu-id="1ecd8-136">Release-QuarantineMessage</span><span class="sxs-lookup"><span data-stu-id="1ecd8-136">Release-QuarantineMessage</span></span>](/powershell/module/exchange/release-quarantinemessage)
