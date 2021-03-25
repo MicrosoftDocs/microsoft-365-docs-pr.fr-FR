@@ -6,8 +6,6 @@
   items:
     - name: "Essayer ou acheter Microsoft\_365"
       href: try-or-buy-microsoft-365.md
-    - name: Prolonger votre version d’essai
-      href: extend-your-trial.md
     - name: Acheter ou gérer des modules complémentaires
       href: buy-or-edit-an-add-on.md
     - name: "Aide pour les entreprises pour Microsoft\_365"
