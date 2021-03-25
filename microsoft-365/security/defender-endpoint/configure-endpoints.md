@@ -1,0 +1,56 @@
+---
+title: Outils et méthodes d’intégration pour les appareils Windows 10.
+description: Intégrer des appareils Windows 10 afin qu’ils peuvent envoyer des données de capteur au capteur Microsoft Defender ATP
+keywords: Intégrer des appareils Windows 10, stratégie de groupe, gestionnaire de configuration de point de terminaison, gestion des appareils mobiles, script local, gp, sccm, mdm, intune
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: m365-security
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+ms.author: macapara
+author: mjcaparas
+localization_priority: Normal
+manager: dansimp
+audience: ITPro
+ms.collection: M365-security-compliance
+ms.topic: conceptual
+ms.technology: mde
+ms.openlocfilehash: 1831d8927e761827f9bbcee84551433b68e3c6cc
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51165536"
+---
+# <a name="onboarding-tools-and-methods-for-windows-10-devices"></a><span data-ttu-id="dd70b-104">Outils et méthodes d’intégration pour les appareils Windows 10.</span><span class="sxs-lookup"><span data-stu-id="dd70b-104">Onboarding tools and methods for Windows 10 devices</span></span>
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+<span data-ttu-id="dd70b-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="dd70b-105">**Applies to:**</span></span>
+- [<span data-ttu-id="dd70b-106">Microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="dd70b-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="dd70b-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="dd70b-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [<span data-ttu-id="dd70b-108">Protection contre la perte de données de point de terminaison Microsoft 365 (DLP)</span><span class="sxs-lookup"><span data-stu-id="dd70b-108">Microsoft 365 Endpoint data loss prevention (DLP)</span></span>](/microsoft-365/compliance/endpoint-dlp-learn-about)
+
+><span data-ttu-id="dd70b-109">Vous souhaitez faire l’expérience de Defender pour point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="dd70b-109">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="dd70b-110">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="dd70b-110">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+
+<span data-ttu-id="dd70b-111">Les appareils de votre organisation doivent être configurés pour que le service Defender for Endpoint puisse obtenir des données de capteur de leur part.</span><span class="sxs-lookup"><span data-stu-id="dd70b-111">Devices in your organization must be configured so that the Defender for Endpoint service can get sensor data from them.</span></span> <span data-ttu-id="dd70b-112">Il existe différentes méthodes et outils de déploiement que vous pouvez utiliser pour configurer les appareils de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="dd70b-112">There are various methods and deployment tools that you can use to configure the devices in your organization.</span></span>
+
+<span data-ttu-id="dd70b-113">Les méthodes et outils de déploiement suivants sont pris en charge :</span><span class="sxs-lookup"><span data-stu-id="dd70b-113">The following deployment tools and methods are supported:</span></span>
+
+- <span data-ttu-id="dd70b-114">Stratégie de groupe</span><span class="sxs-lookup"><span data-stu-id="dd70b-114">Group Policy</span></span>
+- <span data-ttu-id="dd70b-115">Microsoft Endpoint Configuration Manager</span><span class="sxs-lookup"><span data-stu-id="dd70b-115">Microsoft Endpoint Configuration Manager</span></span>
+- <span data-ttu-id="dd70b-116">Gestion des appareils mobiles (y compris Microsoft Intune)</span><span class="sxs-lookup"><span data-stu-id="dd70b-116">Mobile Device Management (including Microsoft Intune)</span></span>
+- <span data-ttu-id="dd70b-117">Script local</span><span class="sxs-lookup"><span data-stu-id="dd70b-117">Local script</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="dd70b-118">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="dd70b-118">In this section</span></span>
+<span data-ttu-id="dd70b-119">Rubrique</span><span class="sxs-lookup"><span data-stu-id="dd70b-119">Topic</span></span> | <span data-ttu-id="dd70b-120">Description</span><span class="sxs-lookup"><span data-stu-id="dd70b-120">Description</span></span>
+:---|:---
+[<span data-ttu-id="dd70b-121">Intégrer des appareils Windows 10 à l’aide de la stratégie de groupe</span><span class="sxs-lookup"><span data-stu-id="dd70b-121">Onboard Windows 10 devices using Group Policy</span></span>](configure-endpoints-gp.md) | <span data-ttu-id="dd70b-122">Utilisez la stratégie de groupe pour déployer le package de configuration sur les appareils.</span><span class="sxs-lookup"><span data-stu-id="dd70b-122">Use Group Policy to deploy the configuration package on devices.</span></span>
+[<span data-ttu-id="dd70b-123">Intégrer des appareils Windows à l’aide de Microsoft Endpoint Configuration Manager</span><span class="sxs-lookup"><span data-stu-id="dd70b-123">Onboard Windows devices using Microsoft Endpoint Configuration Manager</span></span>](configure-endpoints-sccm.md) | <span data-ttu-id="dd70b-124">Vous pouvez utiliser Microsoft Endpoint Manager (branche actuelle) version 1606 ou Microsoft Endpoint Manager (branche actuelle) version 1602 ou une version antérieure pour déployer le package de configuration sur les appareils.</span><span class="sxs-lookup"><span data-stu-id="dd70b-124">You can use either use Microsoft Endpoint Manager (current branch) version 1606 or Microsoft Endpoint Manager (current branch) version 1602 or earlier to deploy the configuration package on devices.</span></span>
+[<span data-ttu-id="dd70b-125">Intégrer les appareils Windows 10 à l’aide des outils de gestion des appareils mobiles</span><span class="sxs-lookup"><span data-stu-id="dd70b-125">Onboard Windows 10 devices using Mobile Device Management tools</span></span>](configure-endpoints-mdm.md) | <span data-ttu-id="dd70b-126">Utilisez les outils de gestion des appareils mobiles ou Microsoft Intune pour déployer le package de configuration sur l’appareil.</span><span class="sxs-lookup"><span data-stu-id="dd70b-126">Use Mobile Device Management tools or Microsoft Intune to deploy the configuration package on device.</span></span>
+[<span data-ttu-id="dd70b-127">Intégrer les appareils Windows 10 utilisant un script local</span><span class="sxs-lookup"><span data-stu-id="dd70b-127">Onboard Windows 10 devices using a local script</span></span>](configure-endpoints-script.md) | <span data-ttu-id="dd70b-128">Découvrez comment utiliser le script local pour déployer le package de configuration sur les points de terminaison.</span><span class="sxs-lookup"><span data-stu-id="dd70b-128">Learn how to use the local script to deploy the configuration package on endpoints.</span></span>
+[<span data-ttu-id="dd70b-129">Intégrer les ordinateurs virtuels d’infrastructure de bureau virtuel (VDI) non persistants.</span><span class="sxs-lookup"><span data-stu-id="dd70b-129">Onboard non-persistent virtual desktop infrastructure (VDI) devices</span></span>](configure-endpoints-vdi.md) | <span data-ttu-id="dd70b-130">Découvrez comment utiliser le package de configuration pour configurer des appareils VDI.</span><span class="sxs-lookup"><span data-stu-id="dd70b-130">Learn how to use the configuration package to configure VDI devices.</span></span>
+
+
+><span data-ttu-id="dd70b-131">Vous souhaitez faire l’expérience de Defender pour point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="dd70b-131">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="dd70b-132">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="dd70b-132">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configureendpoints-belowfoldlink)
