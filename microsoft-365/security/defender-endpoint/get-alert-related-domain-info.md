@@ -1,0 +1,105 @@
+---
+title: Obtenir des informations sur les domaines associés à une alerte
+description: Récupérez tous les domaines liés à une alerte spécifique à l’aide de Microsoft Defender pour le point de terminaison.
+keywords: api, api de graphique, api pris en charge, obtenir des informations d’alerte, informations d’alerte, domaine associé
+search.product: eADQiWindows 10XVcnh
+ms.prod: m365-security
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+ms.author: macapara
+author: mjcaparas
+localization_priority: Normal
+manager: dansimp
+audience: ITPro
+ms.collection: M365-security-compliance
+ms.topic: article
+ms.technology: mde
+ms.openlocfilehash: 0cb09b23df8243d970069d087976ddc79394b67d
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51200412"
+---
+# <a name="get-alert-related-domain-information-api"></a><span data-ttu-id="20ce6-104">API Obtenir les informations de domaine associées à une alerte</span><span class="sxs-lookup"><span data-stu-id="20ce6-104">Get alert related domain information API</span></span>
+
+<span data-ttu-id="20ce6-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="20ce6-105">**Applies to:**</span></span> 
+- [<span data-ttu-id="20ce6-106">Microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="20ce6-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
+
+- <span data-ttu-id="20ce6-107">Vous souhaitez découvrir Microsoft Defender pour le point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="20ce6-107">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="20ce6-108">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="20ce6-108">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+
+[!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
+
+[!include[Improve request performance](../../includes/improve-request-performance.md)]
+
+
+## <a name="api-description"></a><span data-ttu-id="20ce6-109">Description de l’API</span><span class="sxs-lookup"><span data-stu-id="20ce6-109">API description</span></span>
+<span data-ttu-id="20ce6-110">Récupère tous les domaines liés à une alerte spécifique.</span><span class="sxs-lookup"><span data-stu-id="20ce6-110">Retrieves all domains related to a specific alert.</span></span>
+
+
+## <a name="limitations"></a><span data-ttu-id="20ce6-111">Limites</span><span class="sxs-lookup"><span data-stu-id="20ce6-111">Limitations</span></span>
+1. <span data-ttu-id="20ce6-112">Vous pouvez interroger la dernière mise à jour des alertes en fonction de votre période de rétention configurée.</span><span class="sxs-lookup"><span data-stu-id="20ce6-112">You can query on alerts last updated according to your configured retention period.</span></span>
+2. <span data-ttu-id="20ce6-113">Les limites de taux pour cette API sont de 100 appels par minute et de 1 500 appels par heure.</span><span class="sxs-lookup"><span data-stu-id="20ce6-113">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
+
+
+## <a name="permissions"></a><span data-ttu-id="20ce6-114">Autorisations</span><span class="sxs-lookup"><span data-stu-id="20ce6-114">Permissions</span></span>
+<span data-ttu-id="20ce6-115">L’une des autorisations suivantes est nécessaire pour appeler cette API.</span><span class="sxs-lookup"><span data-stu-id="20ce6-115">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="20ce6-116">Pour en savoir plus, notamment sur le choix des autorisations, voir [Utiliser Microsoft Defender pour les API de point de terminaison](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="20ce6-116">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md)</span></span>
+
+<span data-ttu-id="20ce6-117">Type d’autorisation</span><span class="sxs-lookup"><span data-stu-id="20ce6-117">Permission type</span></span> | <span data-ttu-id="20ce6-118">Autorisation</span><span class="sxs-lookup"><span data-stu-id="20ce6-118">Permission</span></span> | <span data-ttu-id="20ce6-119">Nom d’affichage de l’autorisation</span><span class="sxs-lookup"><span data-stu-id="20ce6-119">Permission display name</span></span>
+:---|:---|:---
+<span data-ttu-id="20ce6-120">Application</span><span class="sxs-lookup"><span data-stu-id="20ce6-120">Application</span></span> | <span data-ttu-id="20ce6-121">URL. Read.All</span><span class="sxs-lookup"><span data-stu-id="20ce6-121">URL.Read.All</span></span> | <span data-ttu-id="20ce6-122">« Lire les URL »</span><span class="sxs-lookup"><span data-stu-id="20ce6-122">'Read URLs'</span></span>
+<span data-ttu-id="20ce6-123">Déléguée (compte professionnel ou scolaire)</span><span class="sxs-lookup"><span data-stu-id="20ce6-123">Delegated (work or school account)</span></span> | <span data-ttu-id="20ce6-124">URL. Read.All</span><span class="sxs-lookup"><span data-stu-id="20ce6-124">URL.Read.All</span></span> | <span data-ttu-id="20ce6-125">« Lire les URL »</span><span class="sxs-lookup"><span data-stu-id="20ce6-125">'Read URLs'</span></span>
+
+>[!Note]
+> <span data-ttu-id="20ce6-126">Lors de l’obtention d’un jeton à l’aide des informations d’identification de l’utilisateur :</span><span class="sxs-lookup"><span data-stu-id="20ce6-126">When obtaining a token using user credentials:</span></span>
+>- <span data-ttu-id="20ce6-127">L’utilisateur doit avoir au moins l’autorisation de rôle suivante : « Afficher les données » (voir Créer et gérer des rôles [pour](user-roles.md) plus d’informations)</span><span class="sxs-lookup"><span data-stu-id="20ce6-127">The user needs to have at least the following role permission: 'View Data' (See [Create and manage roles](user-roles.md) for more information)</span></span>
+>- <span data-ttu-id="20ce6-128">L’utilisateur doit avoir accès à l’appareil associé à l’alerte, en fonction des paramètres de groupe d’appareils (pour plus d’informations, voir Créer et gérer des groupes d’appareils) [](machine-groups.md)</span><span class="sxs-lookup"><span data-stu-id="20ce6-128">The user needs to have access to the device associated with the alert, based on device group settings (See [Create and manage device groups](machine-groups.md) for more information)</span></span>
+
+## <a name="http-request"></a><span data-ttu-id="20ce6-129">Requête HTTP</span><span class="sxs-lookup"><span data-stu-id="20ce6-129">HTTP request</span></span>
+```
+GET /api/alerts/{id}/domains
+```
+
+## <a name="request-headers"></a><span data-ttu-id="20ce6-130">En-têtes de demande</span><span class="sxs-lookup"><span data-stu-id="20ce6-130">Request headers</span></span>
+
+<span data-ttu-id="20ce6-131">Nom</span><span class="sxs-lookup"><span data-stu-id="20ce6-131">Name</span></span> | <span data-ttu-id="20ce6-132">Type</span><span class="sxs-lookup"><span data-stu-id="20ce6-132">Type</span></span> | <span data-ttu-id="20ce6-133">Description</span><span class="sxs-lookup"><span data-stu-id="20ce6-133">Description</span></span>
+:---|:---|:---
+<span data-ttu-id="20ce6-134">Autorisation</span><span class="sxs-lookup"><span data-stu-id="20ce6-134">Authorization</span></span> | <span data-ttu-id="20ce6-135">Chaîne</span><span class="sxs-lookup"><span data-stu-id="20ce6-135">String</span></span> | <span data-ttu-id="20ce6-136">Porteur {token}.</span><span class="sxs-lookup"><span data-stu-id="20ce6-136">Bearer {token}.</span></span> <span data-ttu-id="20ce6-137">**Obligatoire**.</span><span class="sxs-lookup"><span data-stu-id="20ce6-137">**Required**.</span></span>
+
+
+## <a name="request-body"></a><span data-ttu-id="20ce6-138">Corps de la demande</span><span class="sxs-lookup"><span data-stu-id="20ce6-138">Request body</span></span>
+<span data-ttu-id="20ce6-139">Vide</span><span class="sxs-lookup"><span data-stu-id="20ce6-139">Empty</span></span>
+
+## <a name="response"></a><span data-ttu-id="20ce6-140">Réponse</span><span class="sxs-lookup"><span data-stu-id="20ce6-140">Response</span></span>
+<span data-ttu-id="20ce6-141">En cas de réussite et si l’alerte et le domaine existent : 200 - OK.</span><span class="sxs-lookup"><span data-stu-id="20ce6-141">If successful and alert and domain exist - 200 OK.</span></span> <span data-ttu-id="20ce6-142">Si l’alerte est in trouvée - 404 - In trouvé.</span><span class="sxs-lookup"><span data-stu-id="20ce6-142">If alert not found - 404 Not Found.</span></span>
+
+## <a name="example"></a><span data-ttu-id="20ce6-143">Exemple</span><span class="sxs-lookup"><span data-stu-id="20ce6-143">Example</span></span>
+
+<span data-ttu-id="20ce6-144">**Demande**</span><span class="sxs-lookup"><span data-stu-id="20ce6-144">**Request**</span></span>
+
+<span data-ttu-id="20ce6-145">Voici un exemple de demande.</span><span class="sxs-lookup"><span data-stu-id="20ce6-145">Here is an example of the request.</span></span>
+
+```http
+GET https://api.securitycenter.microsoft.com/alerts/636688558380765161_2136280442/domains
+```
+
+<span data-ttu-id="20ce6-146">**Réponse**</span><span class="sxs-lookup"><span data-stu-id="20ce6-146">**Response**</span></span>
+
+<span data-ttu-id="20ce6-147">Voici un exemple de réponse.</span><span class="sxs-lookup"><span data-stu-id="20ce6-147">Here is an example of the response.</span></span>
+
+```json
+{
+    "@odata.context": "https://api.securitycenter.microsoft.com/$metadata#Domains",
+    "value": [
+        {
+            "host": "www.example.com"
+        },
+        {
+            "host": "www.example2.com"
+        }
+        ...
+    ]
+}
+
+```

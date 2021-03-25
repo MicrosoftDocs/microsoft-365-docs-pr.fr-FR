@@ -123,7 +123,7 @@
 ##### [Déploiement basé sur Microsoft Intune](mac-install-with-intune.md)
 ##### [Déploiement basé sur JAMF Pro]()
 ###### [Déploiement de Microsoft Defender pour endpoint pour macOS à l’aide de Jamf Pro](mac-install-with-jamf.md)
-###### [Connexion à Jamf Pro](mac-install-jamfpro-login.md)
+###### [Connectez-vous à Jamf Pro](mac-install-jamfpro-login.md)
 ###### [Configurer des groupes d’appareils](mac-jamfpro-device-groups.md)
 ###### [Configurer des stratégies](mac-jamfpro-policies.md)
 ###### [Inscrire des appareils](mac-jamfpro-enroll-devices.md)
@@ -167,7 +167,7 @@
 #### [Nouveautés](linux-whatsnew.md)
 #### [Déployer]()
 ##### [Déploiement manuel](linux-install-manually.md)
-##### [Déploiement basé sur l’échelle](linux-install-with-puppet.md)
+##### [Déploiement basé sur l’art](linux-install-with-puppet.md)
 ##### [Déploiement ansible](linux-install-with-ansible.md)
 
 #### [Update](linux-updates.md)
@@ -196,7 +196,7 @@
 ##### [Déployer Microsoft Defender pour endpoint pour Android avec Microsoft Intune](android-intune.md)
 
 #### [Configurer]()
-##### [Configurer Microsoft Defender pour les fonctionnalités endpoint pour Android](android-configure.md)
+##### [Configurer Microsoft Defender pour les fonctionnalités Endpoint pour Android](android-configure.md)
 
 #### [Confidentialité]()
 ##### [Microsoft Defender pour le point de terminaison pour Android : informations de confidentialité](android-privacy.md)
@@ -274,7 +274,7 @@
 ### [Blocage et contenu comportementaux]()
 #### [Blocage et contenu comportementaux](behavioral-blocking-containment.md)
 #### [Blocage du comportement client](client-behavioral-blocking.md)
-#### [Blocage de la boucle de commentaires](feedback-loop-blocking.md)
+#### [Blocage de boucle de commentaires](feedback-loop-blocking.md)
 #### [EDR en mode bloc](edr-in-block-mode.md)
 
 ### [Examen et réponse automatisés (AIR)]()
@@ -504,7 +504,7 @@
 ####### [Lister les ordinateurs par recommandation](get-recommendation-machines.md)
 ####### [Liste des vulnérabilités par recommandation](get-recommendation-vulnerabilities.md)
 
-##### [Utilisation des API - Exemples]()
+##### [Utilisation des API : exemples]()
 ###### [Microsoft Flow](api-microsoft-flow.md)
 ###### [Power BI](api-power-bi.md)
 ###### [Recherche avancée à l’aide de Python](run-advanced-query-sample-python.md)
@@ -517,7 +517,7 @@
 ##### [Diffuser en continu des événements de recherche avancée sur votre compte de stockage](raw-data-export-storage.md)
 
 #### [Intégration SIEM]()
-##### [Comprendre les concepts d’intelligence contre les menaces](threat-indicator-concepts.md)
+##### [Comprendre les concepts d’intelligence des menaces](threat-indicator-concepts.md)
 ##### [En savoir plus sur les différentes façons d’en tirer les détections](configure-siem.md)
 ##### [Activer l’intégration SIEM](enable-siem-integration.md)
 ##### [Configurer Micro Focus ArcSight pour tirer les détections](configure-arcsight.md)
@@ -539,7 +539,7 @@
 ###### [Créer et gérer des balises d’appareil](machine-tags.md)
 
 #### [Intégration du fournisseur de services de sécurité géré (MSSP)]()
-##### [Configurer l’intégration des fournisseurs de services de sécurité gérés](configure-mssp-support.md)
+##### [Configurer l’intégration du fournisseur de services de sécurité géré](configure-mssp-support.md)
 ##### [Fournisseurs de services de sécurité gérés pris en charge](mssp-list.md)
 ##### [Accorder l’accès MSSP au portail](grant-mssp-access.md)
 ##### [Accéder au portail client MSSP](access-mssp-portal.md)
@@ -583,3 +583,7 @@
 #### [Résoudre les problèmes de réduction de la surface d’attaque]()
 ##### [Protection du réseau](troubleshoot-np.md)
 ##### [Règles de réduction de la surface d’attaque](troubleshoot-asr.md)
+
+# [Sécurité Microsoft 365](../index.yml)
+# [Microsoft 365 Defender](../defender/index.yml)
+# [Defender pour Office 365](../office-365-security/overview.md)
