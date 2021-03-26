@@ -452,7 +452,7 @@
         - name: Skype Entreprise
           href: /SkypeForBusiness/skype-for-business-online
         - name: "Microsoft\_Teams"
-          href: //MicrosoftTeams/quality-of-experience-review-guide
+          href: 'https://docs.microsoft.com/microsoftteams/upgrade-monitor-quality'
         - name: Yammer
           href: 'https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe'
         - name: Performances et optimisation
@@ -477,7 +477,11 @@
             - name: Planification de résolution des problèmes de performances
               href: performance-troubleshooting-plan.md
 - name: "Windows\_10"
-  href: /windows/deployment/
+  items:
+    - name: Comment vérifier l’état de la version
+      href: 'https://docs.microsoft.com/windows/deployment/update/check-release-health'
+    - name: Déployer et mettre à jour
+      href: /windows/deployment/
 - name: Microsoft 365 Apps for enterprise
   href: /deployoffice/deployment-guide-microsoft-365-apps
 - name: Appareils Surface
