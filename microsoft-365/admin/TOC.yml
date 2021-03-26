@@ -58,8 +58,6 @@
       items:
         - name: Vue d’ensemble du centre d’administration
           href: admin-overview/about-the-admin-center.md
-        - name: À propos du nouveau centre d’administration
-          href: microsoft-365-admin-center-preview.md
         - name: À propos des rôles d’administrateur
           href: add-users/about-admin-roles.md
         - name: Application mobile Admin
