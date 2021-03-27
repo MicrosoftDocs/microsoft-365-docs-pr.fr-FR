@@ -382,6 +382,6 @@
     - name: "Sécurité Microsoft\_365"
       href: ../index.yml
     - name: "Microsoft\_365\_Defender"
-      href: ../defender/index.yml
+      href: ../index.yml
     - name: "Microsoft\_Defender pour point de terminaison"
       href: ../defender-endpoint/index.yml
