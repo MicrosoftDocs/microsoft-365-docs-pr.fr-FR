@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Documentation de Microsoft Defender pour les points de terminaison
-summary: Microsoft Defender pour le point de terminaison offre une protection préventive, une détection post-violation, des enquêtes automatisées et une réponse.
+title: Documentation Microsoft Defender pour point de terminaison
+summary: Microsoft Defender pour point de terminaison fournit une protection préventive, une détection après violation, un examen automatisé et une réponse.
 metadata:
-  title: Documentation de Microsoft Defender pour les points de terminaison
-  description: 'En savoir plus sur Microsoft Defender pour point de terminaison et optimiser les fonctionnalités de sécurité intégrées pour protéger les appareils, détecter les activités malveillantes et corriger les menaces # Obligatoire ; description de l’article qui s’affiche dans les résultats de la recherche. < 160 chars.'
+  title: Documentation Microsoft Defender pour point de terminaison
+  description: Découvrez Microsoft Defender pour point de terminaison et optimisez les fonctionnalités de sécurité intégrées pour protéger les appareils, détecter une activité malveillante et corriger des menaces# Requis, la description de l’article qui est affichée dans les résultats de la recherche. > 160 caractères.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: efa23f4c40021d95185203c22c8bba5009e15f2f
   ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: fr-FR
   ms.lasthandoff: 03/24/2021
   ms.locfileid: "51185742"
@@ -24,21 +24,21 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Microsoft Defender pour point de terminaison ?
+    - text: Qu'est-ce que le Microsoft Defender pour point de terminaison ?
       url: microsoft-defender-endpoint.md
   - linkListType: whats-new
     links:
-    - text: Nouveautés de Microsoft Defender pour point de terminaison
+    - text: Nouveautés dans Microsoft Defender pour point de terminaison
       url: whats-new-in-microsoft-defender-atp.md
   - linkListType: video
     links:
-    - text: Vidéo vue d’ensemble
+    - text: Vidéo de vue d’ensemble
       url: https://www.microsoft.com/videoplayer/embed/RE4vnC4?rel=0
-- title: Évaluer & déployer le service
+- title: Évaluer et déployer le service
   linkLists:
   - linkListType: get-started
     links:
-    - text: Évaluer Microsoft Defender pour le point de terminaison
+    - text: Évaluer Microsoft Defender pour point de terminaison
       url: evaluation-lab.md
     - text: Planifier votre déploiement
       url: deployment-strategy.md
@@ -46,7 +46,7 @@ landingContent:
     links:
     - text: Guide de déploiement
       url: deployment-phases.md
-    - text: Intégrer les appareils pris en charge
+    - text: Intégration des appareils pris en charge
       url: onboard-configure.md
   - linkListType: how-to-guide
     links:
@@ -54,17 +54,17 @@ landingContent:
       url: migration-guides.md
   - linkListType: video
     links:
-    - text: Vidéo d’intégration
+    - text: Vidéo sur l’intégration
       url: https://www.microsoft.com/en-us/videoplayer/embed/RE4bGqr
 - title: Opérations de sécurité
   linkLists:
   - linkListType: overview
     links:
-    - text: Détection et réponse au point de terminaison
+    - text: Détection et réponse du point de terminaison
       url: overview-endpoint-detection-response.md
-    - text: Blocage et blocage de l’accès aux blocages
+    - text: Blocage et confinement comportementaux
       url: behavioral-blocking-containment.md
-    - text: Examen et réponse automatisés (AIR)
+    - text: Enquêtes et réponses automatisées (ERA)
       url: automated-investigations.md
     - text: Repérage avancé
       url: advanced-hunting-overview.md
@@ -72,17 +72,17 @@ landingContent:
       url: microsoft-threat-experts.md
     - text: Analyses de menaces
       url: threat-analytics.md
-- title: Utiliser Microsoft Defender pour le point de terminaison sur d’autres plateformes
+- title: Utiliser Microsoft Defender pour point de terminaison sur d’autres plateformes
   linkLists:
   - linkListType: overview
     links:
-    - text: Microsoft Defender pour point de terminaison pour Mac
+    - text: Microsoft Defender pour point de terminaison Mac
       url: microsoft-defender-endpoint-mac.md
     - text: Microsoft Defender pour point de terminaison iOS
       url: microsoft-defender-endpoint-ios.md
-    - text: Microsoft Defender pour point de terminaison pour Linux
+    - text: Microsoft Defender pour point de terminaison Linux
       url: microsoft-defender-endpoint-linux.md
-    - text: Microsoft Defender pour le point de terminaison pour Android
+    - text: Microsoft Defender pour point de terminaison Android
       url: microsoft-defender-endpoint-android.md
 - title: Référence
   linkLists:
@@ -90,15 +90,15 @@ landingContent:
     links:
     - text: Gestion et API
       url: management-apis.md
-    - text: Intégration des partenaires
+    - text: Intégration de partenaires
       url: partner-integration.md
 - title: Administration de la sécurité
   linkLists:
   - linkListType: overview
     links:
-    - text: Gestion des & menaces
+    - text: Gestion des menaces et des vulnérabilités
       url: next-gen-threat-and-vuln-mgt.md
-    - text: Réduction de la surface d’attaque
+    - text: Réduction de la surface d'attaque
       url: overview-attack-surface-reduction.md
-    - text: Protection nouvelle génération
+    - text: Protection de nouvelle génération
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10
