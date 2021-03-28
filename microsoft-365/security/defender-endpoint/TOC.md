@@ -33,7 +33,7 @@
 #### [Phase 2 : configuration](mcafee-to-microsoft-defender-setup.md)
 #### [Phase 3 : intégration](mcafee-to-microsoft-defender-onboard.md)
 ### [Passer de Symantec à Microsoft Defender pour point de terminaison]()
-#### [Vue d’ensemble de la migration](symantec-to-microsoft-defender-atp-migration.md)
+#### [Vue d’ensemble de la migration](symantec-to-microsoft-defender-endpoint-migration.md)
 #### [Phase 1 : préparation](symantec-to-microsoft-defender-atp-prepare.md)
 #### [Phase 2 : configuration](symantec-to-microsoft-defender-atp-setup.md)
 #### [Phase 3 : intégration](symantec-to-microsoft-defender-atp-onboard.md)
@@ -115,7 +115,7 @@
 ##### [Activer l’accès contrôlé aux dossiers](enable-controlled-folders.md)
 ##### [Personnaliser l’accès contrôlé aux dossiers](customize-controlled-folders.md)
 
-### [Microsoft Defender – Protection avancée contre les menaces pour Mac]()
+### [Microsoft Defender pour point de terminaison Mac]()
 #### [Vue d’ensemble de Microsoft Defender pour point de terminaison Mac](microsoft-defender-endpoint-mac.md)
 #### [Nouveautés](mac-whatsnew.md)
 
@@ -378,6 +378,8 @@
 ##### [Retrait des appareils](offboard-machines.md)
 
 #### [Configurer des paramètres de fuseau horaire du Centre de sécurité Microsoft Defender](time-settings.md)
+
+### [Résoudre des faux négatifs/positifs dans Microsoft Defender pour point de terminaison](defender-endpoint-false-positives-negatives.md)
 
 ### [Configurer l’intégration avec d’autres solutions Microsoft]()
 #### [Configurer l’accès conditionnel](configure-conditional-access.md)
