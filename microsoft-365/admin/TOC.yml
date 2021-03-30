@@ -57,7 +57,7 @@
     - name: "Vue d’ensemble du centre d’administration Microsoft\_365"
       items:
         - name: Vue d’ensemble du centre d’administration
-          href: admin-overview/about-the-admin-center.md
+          href: ../business-video/admin-center-overview.md
         - name: À propos des rôles d’administrateur
           href: add-users/about-admin-roles.md
         - name: Application mobile Admin
