@@ -379,8 +379,6 @@
               href: move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md
             - name: Gérer les groupes de rôles dans une application EOP autonome
               href: manage-admin-role-group-permissions-in-eop.md
-    - name: "Sécurité Microsoft\_365"
-      href: ../index.yml
     - name: "Microsoft\_365\_Defender"
       href: ../index.yml
     - name: "Microsoft\_Defender pour point de terminaison"

@@ -15,7 +15,7 @@
     - name: Description du service Bureau géré Microsoft
       href: service-description/index.md
       items:
-        - name: Régions et langues prises en charge
+        - name: Régions prises en charge
           href: service-description/regions-languages.md
         - name: Cycle de vie du produit
           href: service-description/device-lifecycle.md
@@ -96,6 +96,8 @@
           href: get-started/company-portal.md
         - name: Activer Enterprise State Roaming
           href: get-started/enterprise-state-roaming.md
+        - name: Localiser l’expérience utilisateur
+          href: get-started/localization.md
         - name: Configurer les appareils
           href: get-started/set-up-devices.md
           items:
