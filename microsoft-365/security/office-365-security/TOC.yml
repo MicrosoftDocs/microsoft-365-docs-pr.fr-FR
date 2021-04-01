@@ -95,7 +95,7 @@
         - name: Sécurisé par défaut.
           href: secure-by-default.md
         - name: 'Pour plus d’informations, voir Configurer les stratégies anti-hameçonnage dans Microsoft Defender pour Office 365.'
-          href: configure-atp-anti-phishing-policies.md
+          href: configure-mdo-anti-phishing-policies.md
         - name: Configuration de stratégies anti-programme malveillant
           href: configure-anti-malware-policies.md
         - name: Configuration de stratégies de blocage du courrier indésirable
