@@ -90,7 +90,7 @@
           items:
             - name: Vue d’ensemble
               href: defender/get-started.md
-            - name: Activer la Protection Microsoft contre les menaces
+            - name: "Activer Microsoft\_365 Defender"
               href: defender/m365d-enable.md
             - name: Déployer les services pris en charge
               href: defender/deploy-supported-services.md
@@ -140,6 +140,12 @@
                       href: defender/investigate-users.md
                 - name: Obtenir des notifications par e-mail
                   href: defender/get-incident-notifications.md
+            - name: Spécialistes des menaces Microsoft
+              items:
+                - name: Vue d’ensemble de Spécialistes des menaces Microsoft
+                  href: mtp/microsoft-threat-experts.md
+                - name: Configurer et gérer les fonctionnalités de Spécialistes des menaces Microsoft
+                  href: mtp/configure-microsoft-threat-experts.md
             - name: Enquêtes et réponses automatisées
               items:
                 - name: Présentation de l’examen et de la réponse automatisés
@@ -422,7 +428,7 @@
             - name: Sécurisé par défaut.
               href: ./office-365-security/secure-by-default.md
             - name: 'Pour plus d’informations, voir Configurer les stratégies anti-hameçonnage dans Microsoft Defender pour Office 365.'
-              href: ./office-365-security/configure-atp-anti-phishing-policies.md
+              href: ./office-365-security/configure-mdo-anti-phishing-policies.md
             - name: Configuration de stratégies anti-programme malveillant
               href: ./office-365-security/configure-anti-malware-policies.md
             - name: Configuration de stratégies de blocage du courrier indésirable

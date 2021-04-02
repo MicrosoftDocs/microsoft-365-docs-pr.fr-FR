@@ -145,6 +145,7 @@
 #### [Résoudre des problèmes]()
 ##### [Résoudre des problèmes d’installation](mac-support-install.md)
 ##### [Résoudre des problèmes de performance](mac-support-perf.md)
+##### [Résoudre des problèmes de connectivité cloud](troubleshoot-cloud-connect-mdemac.md)
 ##### [Résoudre des problèmes d’extension de kernel](mac-support-kext.md)
 ##### [Résoudre des problèmes de licence](mac-support-license.md)
 
@@ -586,6 +587,7 @@
 #### [Résoudre des problèmes de réduction de la surface d'attaque]()
 ##### [Protection du réseau](troubleshoot-np.md)
 ##### [Règles de réduction de la surface d’attaque](troubleshoot-asr.md)
+##### [Migrer vers des règles de réduction de la surface d’attaque](migrating-asr-rules.md)
 
 # [Microsoft 365 Defender](../index.yml)
 # [Defender pour Office 365](../office-365-security/overview.md)
