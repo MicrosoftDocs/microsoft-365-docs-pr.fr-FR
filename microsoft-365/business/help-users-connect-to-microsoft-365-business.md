@@ -2,8 +2,8 @@
 title: Aider les utilisateurs à se connecter à Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -28,21 +28,21 @@ search.appverid:
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
 description: Découvrez ce à quoi vous pouvez vous attendre une fois que l’installation de Business Cloud Suite est terminée et que vos stratégies d’appareil par défaut sont en place et prêtes à être appliquées.
-ms.openlocfilehash: d3aad182f7e233f239b35e35c032e8ca09c57769
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d3e47247197f2688388ed50057b16fde53e7e830
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400919"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578444"
 ---
-# <a name="help-users-connect-to-microsoft-365-business-premium"></a><span data-ttu-id="9ccab-103">Aider les utilisateurs à se connecter à Microsoft 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="9ccab-103">Help users connect to Microsoft 365 Business Premium</span></span>
+# <a name="help-users-connect-to-microsoft-365-business-premium"></a><span data-ttu-id="c9d92-103">Aider les utilisateurs à se connecter à Microsoft 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="c9d92-103">Help users connect to Microsoft 365 Business Premium</span></span>
 
-<span data-ttu-id="9ccab-104">Une fois l’installation terminée, vos stratégies d’appareil par défaut sont en place et prêtes à être appliquées.</span><span class="sxs-lookup"><span data-stu-id="9ccab-104">After you complete setup, your default device policies are in place and ready to apply.</span></span> <span data-ttu-id="9ccab-105">Sur les appareils mobiles, les utilisateurs téléchargent les applications Office.</span><span class="sxs-lookup"><span data-stu-id="9ccab-105">On mobile devices, users download Office apps.</span></span> <span data-ttu-id="9ccab-106">Les stratégies sont ensuite appliquées lorsque l’utilisateur se signe avec son compte scolaire ou scolaire.</span><span class="sxs-lookup"><span data-stu-id="9ccab-106">Policies are then applied when the user signs in with their work or school account.</span></span> <span data-ttu-id="9ccab-107">Il reste encore un peu de travail à faire avant que les stratégies ne s’appliquent aux PC Windows, telles qu’une mise à niveau sur place.</span><span class="sxs-lookup"><span data-stu-id="9ccab-107">There's a bit more work to do before policies apply to Windows PCs, such as an in-place upgrade.</span></span> <span data-ttu-id="9ccab-108">Consultez et partagez les rubriques suivantes pour aider les utilisateurs à se configurer et à se connecter :</span><span class="sxs-lookup"><span data-stu-id="9ccab-108">See and share the following topics to help users get set up and connected:</span></span>
+<span data-ttu-id="c9d92-104">Une fois l’installation terminée, vos stratégies d’appareil par défaut sont en place et prêtes à être appliquées.</span><span class="sxs-lookup"><span data-stu-id="c9d92-104">After you complete setup, your default device policies are in place and ready to apply.</span></span> <span data-ttu-id="c9d92-105">Sur les appareils mobiles, les utilisateurs téléchargent les applications Office.</span><span class="sxs-lookup"><span data-stu-id="c9d92-105">On mobile devices, users download Office apps.</span></span> <span data-ttu-id="c9d92-106">Les stratégies sont ensuite appliquées lorsque l’utilisateur se signe avec son compte scolaire ou scolaire.</span><span class="sxs-lookup"><span data-stu-id="c9d92-106">Policies are then applied when the user signs in with their work or school account.</span></span> <span data-ttu-id="c9d92-107">Il reste encore un peu de travail à faire avant que les stratégies ne s’appliquent aux PC Windows, telles qu’une mise à niveau sur place.</span><span class="sxs-lookup"><span data-stu-id="c9d92-107">There's a bit more work to do before policies apply to Windows PCs, such as an in-place upgrade.</span></span> <span data-ttu-id="c9d92-108">Consultez et partagez les rubriques suivantes pour aider les utilisateurs à se configurer et à se connecter :</span><span class="sxs-lookup"><span data-stu-id="c9d92-108">See and share the following topics to help users get set up and connected:</span></span>
   
-[<span data-ttu-id="9ccab-109">Configurer des appareils Windows pour les utilisateurs de Microsoft 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="9ccab-109">Set up Windows devices for Microsoft 365 Business Premium users</span></span>](set-up-windows-devices.md)
+[<span data-ttu-id="c9d92-109">Configurer des appareils Windows pour les utilisateurs de Microsoft 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="c9d92-109">Set up Windows devices for Microsoft 365 Business Premium users</span></span>](set-up-windows-devices.md)
   
-[<span data-ttu-id="9ccab-110">Utiliser le guide étape par étape pour ajouter des appareils et un profil Autopilot</span><span class="sxs-lookup"><span data-stu-id="9ccab-110">Use the step-by-step guide to add Autopilot devices and profile</span></span>](add-autopilot-devices-and-profile.md)
+[<span data-ttu-id="c9d92-110">Utiliser le guide étape par étape pour ajouter des appareils et un profil Autopilot</span><span class="sxs-lookup"><span data-stu-id="c9d92-110">Use the step-by-step guide to add Autopilot devices and profile</span></span>](add-autopilot-devices-and-profile.md)
   
-[<span data-ttu-id="9ccab-111">Configurer des appareils mobiles pour les utilisateurs de Microsoft 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="9ccab-111">Set up mobile devices for Microsoft 365 Business Premium users</span></span>](set-up-mobile-devices.md)
+[<span data-ttu-id="c9d92-111">Configurer des appareils mobiles pour les utilisateurs de Microsoft 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="c9d92-111">Set up mobile devices for Microsoft 365 Business Premium users</span></span>](set-up-mobile-devices.md)
   
 
