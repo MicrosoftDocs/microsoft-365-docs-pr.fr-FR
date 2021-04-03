@@ -57,23 +57,6 @@
       items:
         - name: Configuration requise pour le Bureau géré Microsoft
           href: get-ready/prerequisites.md
-        - name: Préparer le réseau
-          href: get-ready/network.md
-        - name: Préparer l'accès aux ressources locales
-          href: get-ready/authentication.md
-        - name: Préparer des lecteurs mappés
-          href: get-ready/mapped-drives.md
-        - name: Préparer les certificats et les profils réseau
-          href: get-ready/certs-wifi-lan.md
-        - name: Conditions préalables pour les comptes invité
-          href: get-ready/guest-accounts.md
-        - name: Préparer les ressources d’impression
-          href: get-ready/printing.md
-        - name: Préparer les applications
-          href: get-ready/apps.md
-          items:
-            - name: Utilisation de Microsoft Consulting Services
-              href: get-ready/apps-MCS.md
         - name: Utiliser les outils de préparation d’évaluation
           href: get-ready/readiness-assessment-tool.md
           items:
@@ -81,6 +64,23 @@
               href: get-ready/readiness-assessment-fix.md
             - name: Vérifier la préparation d’évaluation téléchargeable
               href: get-ready/readiness-assessment-downloadable.md
+        - name: Conditions préalables pour les comptes invité
+          href: get-ready/guest-accounts.md
+        - name: Préparer le réseau
+          href: get-ready/network.md
+        - name: Préparer les certificats et les profils réseau
+          href: get-ready/certs-wifi-lan.md
+        - name: Préparer l'accès aux ressources locales
+          href: get-ready/authentication.md
+        - name: Préparer les applications
+          href: get-ready/apps.md
+          items:
+            - name: Utilisation de Microsoft Consulting Services
+              href: get-ready/apps-MCS.md
+        - name: Préparer des lecteurs mappés
+          href: get-ready/mapped-drives.md
+        - name: Préparer les ressources d’impression
+          href: get-ready/printing.md
     - name: Prise en main du Bureau géré Microsoft
       href: get-started/index.md
       items:

@@ -2,8 +2,8 @@
 title: Installer des applications sur Android
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,27 +20,27 @@ search.appverid:
 - MET150
 - MOE150
 description: Découvrez comment installer Outlook et d’autres applications Office sur des appareils Android.
-ms.openlocfilehash: 8e4abb38ad56d9bfe8f5e3a580dd1075cd16a564
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: d474f8abed48844bbe8e92be62ede6da5056fe9a
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422542"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578878"
 ---
-# <a name="install-outlook-and-office-apps-on-android-devices"></a><span data-ttu-id="51de8-103">Installer des applications Outlook et Office sur des appareils Android</span><span class="sxs-lookup"><span data-stu-id="51de8-103">Install Outlook and Office apps on Android devices</span></span>
+# <a name="install-outlook-and-office-apps-on-android-devices"></a><span data-ttu-id="a995b-103">Installer les applications Outlook et Office sur les appareils Android</span><span class="sxs-lookup"><span data-stu-id="a995b-103">Install Outlook and Office apps on Android devices</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWfquk?autoplay=false]
 
-<span data-ttu-id="51de8-104">Si votre appareil Android est géré par Microsoft 365 Business Premium, vous pouvez être invité à configurer une sécurité supplémentaire lors de la première installation d’une application Office.</span><span class="sxs-lookup"><span data-stu-id="51de8-104">If your Android device is managed by Microsoft 365 Business Premium, you may be prompted to set up extra security the first time you install an Office app.</span></span> 
+<span data-ttu-id="a995b-104">Si votre appareil Android est géré par Microsoft 365 Business Premium, vous pouvez être invité à configurer une sécurité supplémentaire lors de la première installation d’une application Office.</span><span class="sxs-lookup"><span data-stu-id="a995b-104">If your Android device is managed by Microsoft 365 Business Premium, you may be prompted to set up extra security the first time you install an Office app.</span></span> 
 
-## <a name="try-it"></a><span data-ttu-id="51de8-105">Essayez !</span><span class="sxs-lookup"><span data-stu-id="51de8-105">Try it!</span></span>
+## <a name="try-it"></a><span data-ttu-id="a995b-105">Essayez !</span><span class="sxs-lookup"><span data-stu-id="a995b-105">Try it!</span></span>
 
-1. <span data-ttu-id="51de8-106">Sur votre appareil, choisissez le Google Play Store.</span><span class="sxs-lookup"><span data-stu-id="51de8-106">On your device, choose the Google Play Store.</span></span>
-2. <span data-ttu-id="51de8-107">Recherchez l’application Office que vous souhaitez installer.</span><span class="sxs-lookup"><span data-stu-id="51de8-107">Search for the Office app you want to install.</span></span> <span data-ttu-id="51de8-108">Nous&#39;utiliserons Outlook pour cet exemple.</span><span class="sxs-lookup"><span data-stu-id="51de8-108">We&#39;ll use Outlook for this example.</span></span>
-3. <span data-ttu-id="51de8-109">On the Outlook welcome screen, choose  **Get started**.</span><span class="sxs-lookup"><span data-stu-id="51de8-109">On the Outlook welcome screen, choose  **Get started**.</span></span>
-4. <span data-ttu-id="51de8-110">Dans la page **Ajouter un** compte, entrez votre adresse de messagerie Microsoft 365, puis choisissez **Continuer.**</span><span class="sxs-lookup"><span data-stu-id="51de8-110">On the  **Add Account**  page, enter your Microsoft 365 email address, and then choose  **Continue**.</span></span>
-5. <span data-ttu-id="51de8-111">Sous **Entrer votre mot de** passe, tapez votre mot de passe, puis choisissez Se **connectez.**</span><span class="sxs-lookup"><span data-stu-id="51de8-111">Under  **Enter your password** , type your password, and then choose  **Sign in**.</span></span>
-6. <span data-ttu-id="51de8-112">Sur la page suivante,  **sélectionnez Continuer**  si vous souhaitez ajouter un autre compte.</span><span class="sxs-lookup"><span data-stu-id="51de8-112">On the next page, choose  **Continue**  if you want to add another account.</span></span> <span data-ttu-id="51de8-113">Dans le cas contraire, **sélectionnez Ignorer.**</span><span class="sxs-lookup"><span data-stu-id="51de8-113">Otherwise, choose  **Skip**.</span></span>
-7. <span data-ttu-id="51de8-114">When prompted to add the Intune Company Portal app, choose  **Go to store**.</span><span class="sxs-lookup"><span data-stu-id="51de8-114">When prompted to add the Intune Company Portal app, choose  **Go to store**.</span></span>
-8. <span data-ttu-id="51de8-115">Installez et ouvrez l’application portail d’entreprise Intune, puis choisissez  **OK**  lorsque vous voyez le message que votre organisation protège les données dans cette application.</span><span class="sxs-lookup"><span data-stu-id="51de8-115">Install and open the Intune Company portal app, and then choose  **OK**  when you see the message that your organization protects data in this app.</span></span>
-9. <span data-ttu-id="51de8-116">Si vous êtes invité à entrer un code confidentiel, entrez un code confidentiel à 4 chiffres que vous&#39;utiliserez pour déverrouiller votre téléphone, choisissez  **Envoyer,** confirmez votre code confidentiel, puis choisissez Envoyer  **à**  nouveau.</span><span class="sxs-lookup"><span data-stu-id="51de8-116">If asked for a PIN, enter a 4-digit PIN that you&#39;ll use to unlock your phone, choose  **Send** , confirm your PIN, and then choose  **Send**  again.</span></span>
+1. <span data-ttu-id="a995b-106">Sur votre appareil, choisissez le Google Play Store.</span><span class="sxs-lookup"><span data-stu-id="a995b-106">On your device, choose the Google Play Store.</span></span>
+2. <span data-ttu-id="a995b-107">Recherchez l’application Office que vous souhaitez installer.</span><span class="sxs-lookup"><span data-stu-id="a995b-107">Search for the Office app you want to install.</span></span> <span data-ttu-id="a995b-108">Nous&#39;utiliserons Outlook pour cet exemple.</span><span class="sxs-lookup"><span data-stu-id="a995b-108">We&#39;ll use Outlook for this example.</span></span>
+3. <span data-ttu-id="a995b-109">On the Outlook welcome screen, choose  **Get started**.</span><span class="sxs-lookup"><span data-stu-id="a995b-109">On the Outlook welcome screen, choose  **Get started**.</span></span>
+4. <span data-ttu-id="a995b-110">Dans la page **Ajouter un** compte, entrez votre adresse de messagerie Microsoft 365, puis choisissez **Continuer.**</span><span class="sxs-lookup"><span data-stu-id="a995b-110">On the  **Add Account**  page, enter your Microsoft 365 email address, and then choose  **Continue**.</span></span>
+5. <span data-ttu-id="a995b-111">Sous **Entrer votre mot de** passe, tapez votre mot de passe, puis choisissez Se **connectez.**</span><span class="sxs-lookup"><span data-stu-id="a995b-111">Under  **Enter your password** , type your password, and then choose  **Sign in**.</span></span>
+6. <span data-ttu-id="a995b-112">Sur la page suivante,  **sélectionnez Continuer**  si vous souhaitez ajouter un autre compte.</span><span class="sxs-lookup"><span data-stu-id="a995b-112">On the next page, choose  **Continue**  if you want to add another account.</span></span> <span data-ttu-id="a995b-113">Dans le cas contraire, choisissez  **Skip**.</span><span class="sxs-lookup"><span data-stu-id="a995b-113">Otherwise, choose  **Skip**.</span></span>
+7. <span data-ttu-id="a995b-114">When prompted to add the Intune Company Portal app, choose  **Go to store**.</span><span class="sxs-lookup"><span data-stu-id="a995b-114">When prompted to add the Intune Company Portal app, choose  **Go to store**.</span></span>
+8. <span data-ttu-id="a995b-115">Installez et ouvrez l’application portail d’entreprise Intune, puis choisissez  **OK**  lorsque vous voyez le message que votre organisation protège les données dans cette application.</span><span class="sxs-lookup"><span data-stu-id="a995b-115">Install and open the Intune Company portal app, and then choose  **OK**  when you see the message that your organization protects data in this app.</span></span>
+9. <span data-ttu-id="a995b-116">Si vous êtes invité à entrer un code confidentiel, entrez un code confidentiel à 4 chiffres que vous&#39;utiliserez pour déverrouiller votre téléphone, choisissez **Envoyer,** confirmez votre code confidentiel, puis choisissez Envoyer à **nouveau.**</span><span class="sxs-lookup"><span data-stu-id="a995b-116">If asked for a PIN, enter a 4-digit PIN that you&#39;ll use to unlock your phone, choose  **Send** , confirm your PIN, and then choose  **Send**  again.</span></span>

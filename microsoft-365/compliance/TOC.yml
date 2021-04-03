@@ -710,6 +710,8 @@
               href: download-documents-from-review-set.md
             - name: Exporter des documents d’un jeu à réviser
               href: export-documents-from-review-set.md
+            - name: Exporter des documents vers un compte de stockage Azure
+              href: download-export-jobs.md
         - name: Gérer les tâches
           href: managing-jobs-ediscovery20.md
         - name: Configurer des paramètres de cas
