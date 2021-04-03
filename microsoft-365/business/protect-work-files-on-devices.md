@@ -2,8 +2,8 @@
 title: Protéger les fichiers de travail sur les appareils
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -28,23 +28,23 @@ search.appverid:
 - MOE150
 ms.assetid: 52089919-9a5e-475f-a49a-f65369487861
 description: 'Découvrez la configuration par défaut et l’ajout de stratégies de gestion des applications pour protéger les données d’entreprise sur les appareils mobiles personnels des utilisateurs. '
-ms.openlocfilehash: 6dd6bc5c16ffbbd6ed62f16ad11e1eeb8e06a193
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 7e3967dad47508e938b760d0eb96ba8685d886a1
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470904"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580031"
 ---
-# <a name="protect-work-files-on-devices"></a><span data-ttu-id="7e3e1-103">Protéger les fichiers de travail sur les appareils</span><span class="sxs-lookup"><span data-stu-id="7e3e1-103">Protect work files on devices</span></span>
+# <a name="protect-work-files-on-devices"></a><span data-ttu-id="34f75-103">Protéger les fichiers de travail sur les appareils</span><span class="sxs-lookup"><span data-stu-id="34f75-103">Protect work files on devices</span></span>
 
-<span data-ttu-id="7e3e1-104">Cet article s’applique à Microsoft 365 Business Premium.</span><span class="sxs-lookup"><span data-stu-id="7e3e1-104">This article applies to Microsoft 365 Business Premium.</span></span>
+<span data-ttu-id="34f75-104">Cet article s’applique à Microsoft 365 Business Premium.</span><span class="sxs-lookup"><span data-stu-id="34f75-104">This article applies to Microsoft 365 Business Premium.</span></span>
 
-<span data-ttu-id="7e3e1-105">Dans le monde d’aujourd’hui, les utilisateurs sont liés à leurs appareils, et à mesure que la vie personnelle et la vie professionnelle entrent en conflit, les données de votre entreprise peuvent se trouver sur l’appareil personnel d’un employé.</span><span class="sxs-lookup"><span data-stu-id="7e3e1-105">In today's world, users are tied to their devices, and as personal and work life collide, your company data can end up on an employee's personal device.</span></span> <span data-ttu-id="7e3e1-106">Les paramètres que vous configurez ici peuvent vous aider à reprendre le contrôle et à assurer la protection des fichiers professionnels, sans affecter aucun des paramètres personnels ou des données de l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="7e3e1-106">The settings that you configure here can help you take back control and provide protection for work files, without affecting any of the user's personal settings or data.</span></span>
+<span data-ttu-id="34f75-105">Dans le monde d’aujourd’hui, les utilisateurs sont liés à leurs appareils, et à mesure que la vie personnelle et la vie professionnelle entrent en conflit, les données de votre entreprise peuvent se trouver sur l’appareil personnel d’un employé.</span><span class="sxs-lookup"><span data-stu-id="34f75-105">In today's world, users are tied to their devices, and as personal and work life collide, your company data can end up on an employee's personal device.</span></span> <span data-ttu-id="34f75-106">Les paramètres que vous configurez ici peuvent vous aider à reprendre le contrôle et à assurer la protection des fichiers professionnels, sans affecter aucun des paramètres personnels ou des données de l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="34f75-106">The settings that you configure here can help you take back control and provide protection for work files, without affecting any of the user's personal settings or data.</span></span>
   
-## <a name="configuring-policies-during-setup"></a><span data-ttu-id="7e3e1-107">Configuration des stratégies pendant l'installation</span><span class="sxs-lookup"><span data-stu-id="7e3e1-107">Configuring policies during setup</span></span>
+## <a name="configuring-policies-during-setup"></a><span data-ttu-id="34f75-107">Configuration des stratégies pendant l'installation</span><span class="sxs-lookup"><span data-stu-id="34f75-107">Configuring policies during setup</span></span>
 
-<span data-ttu-id="7e3e1-108">Pendant l'installation, trois stratégies de gestion des applications sont ajoutées, une pour Windows 10, une pour iOS et une pour Android.</span><span class="sxs-lookup"><span data-stu-id="7e3e1-108">During setup, three application management policies are added, one each for Android, iOS, and Windows 10.</span></span> <span data-ttu-id="7e3e1-109">Chaque stratégie a les mêmes paramètres et elles s’appliquent à tous les utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="7e3e1-109">Each policy has the same settings and they apply to all users.</span></span> <span data-ttu-id="7e3e1-110">Les stratégies sont activées lorsque l'utilisateur se connecte à son compte professionnel sur son téléphone mobile.</span><span class="sxs-lookup"><span data-stu-id="7e3e1-110">The policies are activated when the user connects their work account to their mobile phone.</span></span>
+<span data-ttu-id="34f75-108">Pendant l'installation, trois stratégies de gestion des applications sont ajoutées, une pour Windows 10, une pour iOS et une pour Android.</span><span class="sxs-lookup"><span data-stu-id="34f75-108">During setup, three application management policies are added, one each for Android, iOS, and Windows 10.</span></span> <span data-ttu-id="34f75-109">Chaque stratégie a les mêmes paramètres et elles s’appliquent à tous les utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="34f75-109">Each policy has the same settings and they apply to all users.</span></span> <span data-ttu-id="34f75-110">Les stratégies sont activées lorsque l'utilisateur se connecte à son compte professionnel sur son téléphone mobile.</span><span class="sxs-lookup"><span data-stu-id="34f75-110">The policies are activated when the user connects their work account to their mobile phone.</span></span>
   
-<span data-ttu-id="7e3e1-p103">Nous vous recommandons d'accepter la configuration par défaut lors de l'installation. Une fois l'installation terminée, vous pouvez ajouter d'autres stratégies pour affiner la configuration et appliquer des niveaux de contrôle variables pour certains groupes d'utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="7e3e1-p103">We recommend that you accept the default configuration during setup. After setup completes, you can add more policies that let you fine-tune the configuration and let you apply varying levels of control for specific user groups.</span></span>
+<span data-ttu-id="34f75-p103">Nous vous recommandons d'accepter la configuration par défaut lors de l'installation. Une fois l'installation terminée, vous pouvez ajouter d'autres stratégies pour affiner la configuration et appliquer des niveaux de contrôle variables pour certains groupes d'utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="34f75-p103">We recommend that you accept the default configuration during setup. After setup completes, you can add more policies that let you fine-tune the configuration and let you apply varying levels of control for specific user groups.</span></span>
   
-<span data-ttu-id="7e3e1-113">Pour ajouter des stratégies après l'installation, consultez [Gérer les stratégies et les appareils dans le centre d'administration](manage.md).</span><span class="sxs-lookup"><span data-stu-id="7e3e1-113">To add policies after setup, see [Manage policies and devices in the admin center](manage.md).</span></span>
+<span data-ttu-id="34f75-113">Pour ajouter des stratégies après l'installation, consultez [Gérer les stratégies et les appareils dans le centre d'administration](manage.md).</span><span class="sxs-lookup"><span data-stu-id="34f75-113">To add policies after setup, see [Manage policies and devices in the admin center](manage.md).</span></span>
