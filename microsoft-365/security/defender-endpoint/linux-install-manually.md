@@ -1,5 +1,5 @@
 ---
-title: Déployer Microsoft Defender ATP pour Linux manuellement
+title: Déployer Microsoft Defender pour le point de terminaison pour Linux manuellement
 ms.reviewer: ''
 description: Décrit comment déployer Microsoft Defender ATP pour Linux manuellement à partir de la ligne de commande.
 keywords: microsoft, defender, atp, linux, installation, déployer, désinstallation, casque, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
@@ -16,197 +16,196 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 98b568206d4263a574c8de653fe5345dd344ba43
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: 91dda662b12893fb010e8bb46541a87ea4a8cd27
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408546"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587670"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-for-linux-manually"></a><span data-ttu-id="5ecd0-104">Déployer Microsoft Defender pour le point de terminaison pour Linux manuellement</span><span class="sxs-lookup"><span data-stu-id="5ecd0-104">Deploy Microsoft Defender for Endpoint for Linux manually</span></span>
+# <a name="deploy-microsoft-defender-for-endpoint-for-linux-manually"></a><span data-ttu-id="b78ec-104">Déployer Microsoft Defender pour le point de terminaison pour Linux manuellement</span><span class="sxs-lookup"><span data-stu-id="b78ec-104">Deploy Microsoft Defender for Endpoint for Linux manually</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="5ecd0-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="5ecd0-105">**Applies to:**</span></span>
-- [<span data-ttu-id="5ecd0-106">Microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="5ecd0-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="5ecd0-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="5ecd0-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="b78ec-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="b78ec-105">**Applies to:**</span></span>
+- [<span data-ttu-id="b78ec-106">Microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="b78ec-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="b78ec-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="b78ec-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="5ecd0-108">Vous souhaitez faire l’expérience de Defender for Endpoint ?</span><span class="sxs-lookup"><span data-stu-id="5ecd0-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="5ecd0-109">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> <span data-ttu-id="b78ec-108">Vous souhaitez faire l’expérience de Defender pour point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="b78ec-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="b78ec-109">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="b78ec-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-<span data-ttu-id="5ecd0-110">Cet article explique comment déployer Microsoft Defender pour Endpoint pour Linux manuellement.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-110">This article describes how to deploy Microsoft Defender for Endpoint for Linux manually.</span></span> <span data-ttu-id="5ecd0-111">Un déploiement réussi nécessite l’exécution de toutes les tâches suivantes :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-111">A successful deployment requires the completion of all of the following tasks:</span></span>
+<span data-ttu-id="b78ec-110">Cet article explique comment déployer Microsoft Defender pour Endpoint pour Linux manuellement.</span><span class="sxs-lookup"><span data-stu-id="b78ec-110">This article describes how to deploy Microsoft Defender for Endpoint for Linux manually.</span></span> <span data-ttu-id="b78ec-111">Un déploiement réussi nécessite l’exécution de toutes les tâches suivantes :</span><span class="sxs-lookup"><span data-stu-id="b78ec-111">A successful deployment requires the completion of all of the following tasks:</span></span>
 
-- [<span data-ttu-id="5ecd0-112">Déployer Microsoft Defender pour le point de terminaison pour Linux manuellement</span><span class="sxs-lookup"><span data-stu-id="5ecd0-112">Deploy Microsoft Defender for Endpoint for Linux manually</span></span>](#deploy-microsoft-defender-for-endpoint-for-linux-manually)
-  - [<span data-ttu-id="5ecd0-113">Conditions préalables et système requis</span><span class="sxs-lookup"><span data-stu-id="5ecd0-113">Prerequisites and system requirements</span></span>](#prerequisites-and-system-requirements)
-  - [<span data-ttu-id="5ecd0-114">Configurer le référentiel de logiciels Linux</span><span class="sxs-lookup"><span data-stu-id="5ecd0-114">Configure the Linux software repository</span></span>](#configure-the-linux-software-repository)
-    - [<span data-ttu-id="5ecd0-115">RHEL et variantes (CentOS et Oracle Linux)</span><span class="sxs-lookup"><span data-stu-id="5ecd0-115">RHEL and variants (CentOS and Oracle Linux)</span></span>](#rhel-and-variants-centos-and-oracle-linux)
-    - [<span data-ttu-id="5ecd0-116">SLES et variantes</span><span class="sxs-lookup"><span data-stu-id="5ecd0-116">SLES and variants</span></span>](#sles-and-variants)
-    - [<span data-ttu-id="5ecd0-117">Systèmes Ubuntu et Debian</span><span class="sxs-lookup"><span data-stu-id="5ecd0-117">Ubuntu and Debian systems</span></span>](#ubuntu-and-debian-systems)
-  - [<span data-ttu-id="5ecd0-118">Installation de l’application</span><span class="sxs-lookup"><span data-stu-id="5ecd0-118">Application installation</span></span>](#application-installation)
-  - [<span data-ttu-id="5ecd0-119">Télécharger le package d’intégration</span><span class="sxs-lookup"><span data-stu-id="5ecd0-119">Download the onboarding package</span></span>](#download-the-onboarding-package)
-  - [<span data-ttu-id="5ecd0-120">Configuration du client</span><span class="sxs-lookup"><span data-stu-id="5ecd0-120">Client configuration</span></span>](#client-configuration)
-  - [<span data-ttu-id="5ecd0-121">Script du programme d’installation</span><span class="sxs-lookup"><span data-stu-id="5ecd0-121">Installer script</span></span>](#installer-script)
-  - [<span data-ttu-id="5ecd0-122">Journal des problèmes d’installation</span><span class="sxs-lookup"><span data-stu-id="5ecd0-122">Log installation issues</span></span>](#log-installation-issues)
-  - [<span data-ttu-id="5ecd0-123">Mises à niveau du système d’exploitation</span><span class="sxs-lookup"><span data-stu-id="5ecd0-123">Operating system upgrades</span></span>](#operating-system-upgrades)
-  - [<span data-ttu-id="5ecd0-124">Désinstallation</span><span class="sxs-lookup"><span data-stu-id="5ecd0-124">Uninstallation</span></span>](#uninstallation)
+- [<span data-ttu-id="b78ec-112">Déployer Microsoft Defender pour le point de terminaison pour Linux manuellement</span><span class="sxs-lookup"><span data-stu-id="b78ec-112">Deploy Microsoft Defender for Endpoint for Linux manually</span></span>](#deploy-microsoft-defender-for-endpoint-for-linux-manually)
+  - [<span data-ttu-id="b78ec-113">Conditions préalables et système requis</span><span class="sxs-lookup"><span data-stu-id="b78ec-113">Prerequisites and system requirements</span></span>](#prerequisites-and-system-requirements)
+  - [<span data-ttu-id="b78ec-114">Configurer le référentiel de logiciels Linux</span><span class="sxs-lookup"><span data-stu-id="b78ec-114">Configure the Linux software repository</span></span>](#configure-the-linux-software-repository)
+    - [<span data-ttu-id="b78ec-115">RHEL et variantes (CentOS et Oracle Linux)</span><span class="sxs-lookup"><span data-stu-id="b78ec-115">RHEL and variants (CentOS and Oracle Linux)</span></span>](#rhel-and-variants-centos-and-oracle-linux)
+    - [<span data-ttu-id="b78ec-116">SLES et variantes</span><span class="sxs-lookup"><span data-stu-id="b78ec-116">SLES and variants</span></span>](#sles-and-variants)
+    - [<span data-ttu-id="b78ec-117">Systèmes Ubuntu et Debian</span><span class="sxs-lookup"><span data-stu-id="b78ec-117">Ubuntu and Debian systems</span></span>](#ubuntu-and-debian-systems)
+  - [<span data-ttu-id="b78ec-118">Installation de l’application</span><span class="sxs-lookup"><span data-stu-id="b78ec-118">Application installation</span></span>](#application-installation)
+  - [<span data-ttu-id="b78ec-119">Télécharger le package d’intégration</span><span class="sxs-lookup"><span data-stu-id="b78ec-119">Download the onboarding package</span></span>](#download-the-onboarding-package)
+  - [<span data-ttu-id="b78ec-120">Configuration du client</span><span class="sxs-lookup"><span data-stu-id="b78ec-120">Client configuration</span></span>](#client-configuration)
+  - [<span data-ttu-id="b78ec-121">Script du programme d’installation</span><span class="sxs-lookup"><span data-stu-id="b78ec-121">Installer script</span></span>](#installer-script)
+  - [<span data-ttu-id="b78ec-122">Journaux des problèmes d’installation</span><span class="sxs-lookup"><span data-stu-id="b78ec-122">Log installation issues</span></span>](#log-installation-issues)
+  - [<span data-ttu-id="b78ec-123">Mises à niveau du système d’exploitation</span><span class="sxs-lookup"><span data-stu-id="b78ec-123">Operating system upgrades</span></span>](#operating-system-upgrades)
+  - [<span data-ttu-id="b78ec-124">Désinstallation</span><span class="sxs-lookup"><span data-stu-id="b78ec-124">Uninstallation</span></span>](#uninstallation)
 
-## <a name="prerequisites-and-system-requirements"></a><span data-ttu-id="5ecd0-125">Conditions préalables et système requis</span><span class="sxs-lookup"><span data-stu-id="5ecd0-125">Prerequisites and system requirements</span></span>
+## <a name="prerequisites-and-system-requirements"></a><span data-ttu-id="b78ec-125">Conditions préalables et système requis</span><span class="sxs-lookup"><span data-stu-id="b78ec-125">Prerequisites and system requirements</span></span>
 
-<span data-ttu-id="5ecd0-126">Avant de commencer, consultez [Microsoft Defender pour Endpoint pour Linux](microsoft-defender-endpoint-linux.md) pour obtenir une description des conditions préalables et de la requise pour la version logicielle actuelle.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-126">Before you get started, see [Microsoft Defender for Endpoint for Linux](microsoft-defender-endpoint-linux.md) for a description of prerequisites and system requirements for the current software version.</span></span>
+<span data-ttu-id="b78ec-126">Avant de commencer, consultez [Microsoft Defender pour Endpoint pour Linux](microsoft-defender-endpoint-linux.md) pour obtenir une description des conditions préalables et de la requise pour la version logicielle actuelle.</span><span class="sxs-lookup"><span data-stu-id="b78ec-126">Before you get started, see [Microsoft Defender for Endpoint for Linux](microsoft-defender-endpoint-linux.md) for a description of prerequisites and system requirements for the current software version.</span></span>
 
-## <a name="configure-the-linux-software-repository"></a><span data-ttu-id="5ecd0-127">Configurer le référentiel de logiciels Linux</span><span class="sxs-lookup"><span data-stu-id="5ecd0-127">Configure the Linux software repository</span></span>
+## <a name="configure-the-linux-software-repository"></a><span data-ttu-id="b78ec-127">Configurer le référentiel de logiciels Linux</span><span class="sxs-lookup"><span data-stu-id="b78ec-127">Configure the Linux software repository</span></span>
 
-<span data-ttu-id="5ecd0-128">Defender pour le point de terminaison pour Linux peut être déployé à partir de l’un des canaux suivants (indiqués ci-dessous sous le nom *[canal]*) : *insiders-fast,* *insiders-slow* ou *prod*. Chacun de ces canaux correspond à un référentiel de logiciels Linux.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-128">Defender for Endpoint for Linux can be deployed from one of the following channels (denoted below as *[channel]*): *insiders-fast*, *insiders-slow*, or *prod*. Each of these channels corresponds to a Linux software repository.</span></span> <span data-ttu-id="5ecd0-129">Les instructions de configuration de votre appareil pour utiliser l’un de ces référentiels sont fournies ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-129">Instructions for configuring your device to use one of these repositories are provided below.</span></span>
+<span data-ttu-id="b78ec-128">Defender pour le point de terminaison pour Linux peut être déployé à partir de l’un des canaux suivants (indiqués ci-dessous sous le nom *[canal]*) : *insiders-fast,* *insiders-slow* ou *prod*. Chacun de ces canaux correspond à un référentiel de logiciels Linux.</span><span class="sxs-lookup"><span data-stu-id="b78ec-128">Defender for Endpoint for Linux can be deployed from one of the following channels (denoted below as *[channel]*): *insiders-fast*, *insiders-slow*, or *prod*. Each of these channels corresponds to a Linux software repository.</span></span> <span data-ttu-id="b78ec-129">Les instructions de configuration de votre appareil pour utiliser l’un de ces référentiels sont fournies ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="b78ec-129">Instructions for configuring your device to use one of these repositories are provided below.</span></span>
 
-<span data-ttu-id="5ecd0-130">Le choix du canal détermine le type et la fréquence des mises à jour proposées à votre appareil.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-130">The choice of the channel determines the type and frequency of updates that are offered to your device.</span></span> <span data-ttu-id="5ecd0-131">Les appareils *internes rapides* sont les premiers à recevoir des mises à jour et de nouvelles fonctionnalités, suivis ultérieurement par les *insiders-slow* et enfin par *prod*.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-131">Devices in *insiders-fast* are the first ones to receive updates and new features, followed later by *insiders-slow* and lastly by *prod*.</span></span>
+<span data-ttu-id="b78ec-130">Le choix du canal détermine le type et la fréquence des mises à jour proposées à votre appareil.</span><span class="sxs-lookup"><span data-stu-id="b78ec-130">The choice of the channel determines the type and frequency of updates that are offered to your device.</span></span> <span data-ttu-id="b78ec-131">Les appareils *internes rapides* sont les premiers à recevoir des mises à jour et de nouvelles fonctionnalités, suivis ultérieurement par les *insiders-slow* et enfin par *prod*.</span><span class="sxs-lookup"><span data-stu-id="b78ec-131">Devices in *insiders-fast* are the first ones to receive updates and new features, followed later by *insiders-slow* and lastly by *prod*.</span></span>
 
-<span data-ttu-id="5ecd0-132">Afin d’afficher un aperçu des nouvelles fonctionnalités et de fournir des commentaires préliminaires, il est recommandé de configurer certains appareils dans votre entreprise pour utiliser les *insiders-fast* ou *insider-slow*.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-132">In order to preview new features and provide early feedback, it is recommended that you configure some devices in your enterprise to use either *insiders-fast* or *insiders-slow*.</span></span>
+<span data-ttu-id="b78ec-132">Afin d’afficher un aperçu des nouvelles fonctionnalités et de fournir des commentaires préliminaires, il est recommandé de configurer certains appareils dans votre entreprise pour utiliser les *insiders-fast* ou *insider-slow*.</span><span class="sxs-lookup"><span data-stu-id="b78ec-132">In order to preview new features and provide early feedback, it is recommended that you configure some devices in your enterprise to use either *insiders-fast* or *insiders-slow*.</span></span>
 
 > [!WARNING]
-> <span data-ttu-id="5ecd0-133">Le basculement du canal après l’installation initiale nécessite la réinstallation du produit.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-133">Switching the channel after the initial installation requires the product to be reinstalled.</span></span> <span data-ttu-id="5ecd0-134">Pour basculer le canal de produit : désinstallez le package existant, configurez de nouveau votre appareil pour utiliser le nouveau canal et suivez les étapes de ce document pour installer le package à partir du nouvel emplacement.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-134">To switch the product channel: uninstall the existing package, re-configure your device to use the new channel, and follow the steps in this document to install the package from the new location.</span></span>
+> <span data-ttu-id="b78ec-133">Le basculement du canal après l’installation initiale nécessite la réinstallation du produit.</span><span class="sxs-lookup"><span data-stu-id="b78ec-133">Switching the channel after the initial installation requires the product to be reinstalled.</span></span> <span data-ttu-id="b78ec-134">Pour basculer le canal de produit : désinstallez le package existant, configurez de nouveau votre appareil pour utiliser le nouveau canal et suivez les étapes de ce document pour installer le package à partir du nouvel emplacement.</span><span class="sxs-lookup"><span data-stu-id="b78ec-134">To switch the product channel: uninstall the existing package, re-configure your device to use the new channel, and follow the steps in this document to install the package from the new location.</span></span>
 
-### <a name="rhel-and-variants-centos-and-oracle-linux"></a><span data-ttu-id="5ecd0-135">RHEL et variantes (CentOS et Oracle Linux)</span><span class="sxs-lookup"><span data-stu-id="5ecd0-135">RHEL and variants (CentOS and Oracle Linux)</span></span>
+### <a name="rhel-and-variants-centos-and-oracle-linux"></a><span data-ttu-id="b78ec-135">RHEL et variantes (CentOS et Oracle Linux)</span><span class="sxs-lookup"><span data-stu-id="b78ec-135">RHEL and variants (CentOS and Oracle Linux)</span></span>
 
-- <span data-ttu-id="5ecd0-136">Installez `yum-utils` s’il n’est pas encore installé :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-136">Install `yum-utils` if it isn't installed yet:</span></span>
+- <span data-ttu-id="b78ec-136">Installez `yum-utils` s’il n’est pas encore installé :</span><span class="sxs-lookup"><span data-stu-id="b78ec-136">Install `yum-utils` if it isn't installed yet:</span></span>
 
     ```bash
     sudo yum install yum-utils
     ```
 
-- <span data-ttu-id="5ecd0-137">Notez votre distribution et version, et identifiez l’entrée la plus proche (par majeure, puis mineure) sous `https://packages.microsoft.com/config/` .</span><span class="sxs-lookup"><span data-stu-id="5ecd0-137">Note your distribution and version, and identify the closest entry (by major, then minor) for it under `https://packages.microsoft.com/config/`.</span></span> <span data-ttu-id="5ecd0-138">Par exemple, RHEL 7.9 est plus proche de 7,4 que de 8.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-138">For instance, RHEL 7.9 is closer to 7.4 than to 8.</span></span>
+- <span data-ttu-id="b78ec-137">Notez votre distribution et version, et identifiez l’entrée la plus proche (par majeure, puis mineure) sous `https://packages.microsoft.com/config/` .</span><span class="sxs-lookup"><span data-stu-id="b78ec-137">Note your distribution and version, and identify the closest entry (by major, then minor) for it under `https://packages.microsoft.com/config/`.</span></span> <span data-ttu-id="b78ec-138">Par exemple, RHEL 7.9 est plus proche de 7,4 que de 8.</span><span class="sxs-lookup"><span data-stu-id="b78ec-138">For instance, RHEL 7.9 is closer to 7.4 than to 8.</span></span>
 
-    <span data-ttu-id="5ecd0-139">Dans les commandes ci-dessous, *remplacez [distro]* et *[version]* par les informations que vous avez identifiées :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-139">In the below commands, replace *[distro]* and *[version]* with the information you've identified:</span></span>
+    <span data-ttu-id="b78ec-139">Dans les commandes ci-dessous, *remplacez [distro]* et *[version]* par les informations que vous avez identifiées :</span><span class="sxs-lookup"><span data-stu-id="b78ec-139">In the below commands, replace *[distro]* and *[version]* with the information you've identified:</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="5ecd0-140">Dans le cas d’Oracle Linux, *remplacez [distro]* par « rhel ».</span><span class="sxs-lookup"><span data-stu-id="5ecd0-140">In case of Oracle Linux, replace *[distro]* with “rhel”.</span></span>
+    > <span data-ttu-id="b78ec-140">Dans le cas d’Oracle Linux, *remplacez [distro]* par « rhel ».</span><span class="sxs-lookup"><span data-stu-id="b78ec-140">In case of Oracle Linux, replace *[distro]* with “rhel”.</span></span>
 
     ```bash
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/[distro]/[version]/[channel].repo
     ```
 
-    <span data-ttu-id="5ecd0-141">Par exemple, si vous exécutez CentOS 7 et que vous souhaitez déployer Defender pour Endpoint pour Linux à partir du *canal prod* :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-141">For example, if you are running CentOS 7 and want to deploy Defender for Endpoint for Linux from the *prod* channel:</span></span>
+    <span data-ttu-id="b78ec-141">Par exemple, si vous exécutez CentOS 7 et que vous souhaitez déployer Defender pour Endpoint pour Linux à partir du *canal prod* :</span><span class="sxs-lookup"><span data-stu-id="b78ec-141">For example, if you are running CentOS 7 and want to deploy Defender for Endpoint for Linux from the *prod* channel:</span></span>
 
     ```bash
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/centos/7/prod.repo
     ```
 
-    <span data-ttu-id="5ecd0-142">Ou si vous souhaitez explorer de nouvelles fonctionnalités sur des appareils sélectionnés, vous pouvez déployer MDE pour Linux sur un canal rapide pour les *insiders* :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-142">Or if you wish to explore new features on selected devices, you might want to deploy MDE for Linux to *insiders-fast* channel:</span></span>
+    <span data-ttu-id="b78ec-142">Ou si vous souhaitez explorer de nouvelles fonctionnalités sur des appareils sélectionnés, vous pouvez déployer MDE pour Linux sur un canal rapide pour les *insiders* :</span><span class="sxs-lookup"><span data-stu-id="b78ec-142">Or if you wish to explore new features on selected devices, you might want to deploy MDE for Linux to *insiders-fast* channel:</span></span>
 
     ```bash
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/centos/7/insiders-fast.repo
     ```
 
-- <span data-ttu-id="5ecd0-143">Installez la clé publique Microsoft GPG :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-143">Install the Microsoft GPG public key:</span></span>
+- <span data-ttu-id="b78ec-143">Installez la clé publique Microsoft GPG :</span><span class="sxs-lookup"><span data-stu-id="b78ec-143">Install the Microsoft GPG public key:</span></span>
 
     ```bash
     sudo rpm --import http://packages.microsoft.com/keys/microsoft.asc
     ```
 
-- <span data-ttu-id="5ecd0-144">Téléchargez et rendez utilisables toutes les métadonnées pour les référentiels yum actuellement activés :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-144">Download and make usable all the metadata for the currently enabled yum repositories:</span></span>
+- <span data-ttu-id="b78ec-144">Téléchargez et rendez utilisables toutes les métadonnées pour les référentiels yum actuellement activés :</span><span class="sxs-lookup"><span data-stu-id="b78ec-144">Download and make usable all the metadata for the currently enabled yum repositories:</span></span>
 
     ```bash
     yum makecache
     ```
 
-### <a name="sles-and-variants"></a><span data-ttu-id="5ecd0-145">SLES et variantes</span><span class="sxs-lookup"><span data-stu-id="5ecd0-145">SLES and variants</span></span>
+### <a name="sles-and-variants"></a><span data-ttu-id="b78ec-145">SLES et variantes</span><span class="sxs-lookup"><span data-stu-id="b78ec-145">SLES and variants</span></span>
 
-- <span data-ttu-id="5ecd0-146">Notez votre distribution et version, et identifiez l’entrée la plus proche (par majeure, puis mineure) sous `https://packages.microsoft.com/config/` .</span><span class="sxs-lookup"><span data-stu-id="5ecd0-146">Note your distribution and version, and identify the closest entry(by major, then minor) for it under `https://packages.microsoft.com/config/`.</span></span>
+- <span data-ttu-id="b78ec-146">Notez votre distribution et version, et identifiez l’entrée la plus proche (par majeure, puis mineure) sous `https://packages.microsoft.com/config/` .</span><span class="sxs-lookup"><span data-stu-id="b78ec-146">Note your distribution and version, and identify the closest entry(by major, then minor) for it under `https://packages.microsoft.com/config/`.</span></span>
 
-    <span data-ttu-id="5ecd0-147">Dans les commandes suivantes, *remplacez [distro]* et *[version]* par les informations que vous avez identifiées :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-147">In the following commands, replace *[distro]* and *[version]* with the information you've identified:</span></span>
+    <span data-ttu-id="b78ec-147">Dans les commandes suivantes, *remplacez [distro]* et *[version]* par les informations que vous avez identifiées :</span><span class="sxs-lookup"><span data-stu-id="b78ec-147">In the following commands, replace *[distro]* and *[version]* with the information you've identified:</span></span>
 
     ```bash
     sudo zypper addrepo -c -f -n microsoft-[channel] https://packages.microsoft.com/config/[distro]/[version]/[channel].repo
     ```
 
-    <span data-ttu-id="5ecd0-148">Par exemple, si vous exécutez SLES 12 et que vous souhaitez déployer MDE pour Linux à partir du *canal prod* :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-148">For example, if you are running SLES 12 and wish to deploy MDE for Linux from the *prod* channel:</span></span>
+    <span data-ttu-id="b78ec-148">Par exemple, si vous exécutez SLES 12 et que vous souhaitez déployer MDE pour Linux à partir du *canal prod* :</span><span class="sxs-lookup"><span data-stu-id="b78ec-148">For example, if you are running SLES 12 and wish to deploy MDE for Linux from the *prod* channel:</span></span>
 
     ```bash
     sudo zypper addrepo -c -f -n microsoft-prod https://packages.microsoft.com/config/sles/12/prod.repo
     ```
 
-- <span data-ttu-id="5ecd0-149">Installez la clé publique Microsoft GPG :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-149">Install the Microsoft GPG public key:</span></span>
+- <span data-ttu-id="b78ec-149">Installez la clé publique Microsoft GPG :</span><span class="sxs-lookup"><span data-stu-id="b78ec-149">Install the Microsoft GPG public key:</span></span>
 
     ```bash
     sudo rpm --import http://packages.microsoft.com/keys/microsoft.asc
     ```
 
-### <a name="ubuntu-and-debian-systems"></a><span data-ttu-id="5ecd0-150">Systèmes Ubuntu et Debian</span><span class="sxs-lookup"><span data-stu-id="5ecd0-150">Ubuntu and Debian systems</span></span>
+### <a name="ubuntu-and-debian-systems"></a><span data-ttu-id="b78ec-150">Systèmes Ubuntu et Debian</span><span class="sxs-lookup"><span data-stu-id="b78ec-150">Ubuntu and Debian systems</span></span>
 
-- <span data-ttu-id="5ecd0-151">Installez `curl` s’il n’est pas encore installé :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-151">Install `curl` if it isn't installed yet:</span></span>
+- <span data-ttu-id="b78ec-151">Installez `curl` s’il n’est pas encore installé :</span><span class="sxs-lookup"><span data-stu-id="b78ec-151">Install `curl` if it isn't installed yet:</span></span>
 
     ```bash
     sudo apt-get install curl
     ```
 
-- <span data-ttu-id="5ecd0-152">Installez `libplist-utils` s’il n’est pas encore installé :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-152">Install `libplist-utils` if it isn't installed yet:</span></span>
+- <span data-ttu-id="b78ec-152">Installez `libplist-utils` s’il n’est pas encore installé :</span><span class="sxs-lookup"><span data-stu-id="b78ec-152">Install `libplist-utils` if it isn't installed yet:</span></span>
 
     ```bash
     sudo apt-get install libplist-utils
     ```
 
-- <span data-ttu-id="5ecd0-153">Notez votre distribution et version, et identifiez l’entrée la plus proche (par majeure, puis mineure) sous `https://packages.microsoft.com/config` .</span><span class="sxs-lookup"><span data-stu-id="5ecd0-153">Note your distribution and version, and identify the closest entry (by major, then minor) for it under `https://packages.microsoft.com/config`.</span></span>
+- <span data-ttu-id="b78ec-153">Notez votre distribution et version, et identifiez l’entrée la plus proche (par majeure, puis mineure) sous `https://packages.microsoft.com/config` .</span><span class="sxs-lookup"><span data-stu-id="b78ec-153">Note your distribution and version, and identify the closest entry (by major, then minor) for it under `https://packages.microsoft.com/config`.</span></span>
 
-    <span data-ttu-id="5ecd0-154">Dans la commande ci-dessous, *remplacez [distro]* et *[version]* par les informations que vous avez identifiées :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-154">In the below command, replace *[distro]* and *[version]* with the information you've identified:</span></span>
+    <span data-ttu-id="b78ec-154">Dans la commande ci-dessous, *remplacez [distro]* et *[version]* par les informations que vous avez identifiées :</span><span class="sxs-lookup"><span data-stu-id="b78ec-154">In the below command, replace *[distro]* and *[version]* with the information you've identified:</span></span>
 
     ```bash
     curl -o microsoft.list https://packages.microsoft.com/config/[distro]/[version]/[channel].list
     ```
 
-    <span data-ttu-id="5ecd0-155">Par exemple, si vous exécutez Ubuntu 18.04 et que vous souhaitez déployer MDE pour Linux à partir du *canal prod* :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-155">For example, if you are running Ubuntu 18.04 and wish to deploy MDE for Linux from the *prod* channel:</span></span>
+    <span data-ttu-id="b78ec-155">Par exemple, si vous exécutez Ubuntu 18.04 et que vous souhaitez déployer MDE pour Linux à partir du *canal prod* :</span><span class="sxs-lookup"><span data-stu-id="b78ec-155">For example, if you are running Ubuntu 18.04 and wish to deploy MDE for Linux from the *prod* channel:</span></span>
 
     ```bash
     curl -o microsoft.list https://packages.microsoft.com/config/ubuntu/18.04/prod.list
     ```
 
-- <span data-ttu-id="5ecd0-156">Installez la configuration du référentiel :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-156">Install the repository configuration:</span></span>
+- <span data-ttu-id="b78ec-156">Installez la configuration du référentiel :</span><span class="sxs-lookup"><span data-stu-id="b78ec-156">Install the repository configuration:</span></span>
 
     ```bash
     sudo mv ./microsoft.list /etc/apt/sources.list.d/microsoft-[channel].list
     ```
-    <span data-ttu-id="5ecd0-157">Par exemple, si vous avez choisi *le canal prod* :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-157">For example, if you chose *prod* channel:</span></span>
+    <span data-ttu-id="b78ec-157">Par exemple, si vous avez choisi *le canal prod* :</span><span class="sxs-lookup"><span data-stu-id="b78ec-157">For example, if you chose *prod* channel:</span></span>
     
     ```bash
     sudo mv ./microsoft.list /etc/apt/sources.list.d/microsoft-prod.list
     ```   
 
-- <span data-ttu-id="5ecd0-158">Installez le `gpg` package s’il n’est pas déjà installé :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-158">Install the `gpg` package if not already installed:</span></span>
+- <span data-ttu-id="b78ec-158">Installez le `gpg` package s’il n’est pas déjà installé :</span><span class="sxs-lookup"><span data-stu-id="b78ec-158">Install the `gpg` package if not already installed:</span></span>
 
     ```bash
     sudo apt-get install gpg
     ```
 
-  <span data-ttu-id="5ecd0-159">Si `gpg` ce n’est pas le cas, `gnupg` installez.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-159">If `gpg` is not available, then install `gnupg`.</span></span>
+  <span data-ttu-id="b78ec-159">Si `gpg` ce n’est pas le cas, `gnupg` installez.</span><span class="sxs-lookup"><span data-stu-id="b78ec-159">If `gpg` is not available, then install `gnupg`.</span></span>
 
-- <span data-ttu-id="5ecd0-160">Installez la clé publique Microsoft GPG :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-160">Install the Microsoft GPG public key:</span></span>
+- <span data-ttu-id="b78ec-160">Installez la clé publique Microsoft GPG :</span><span class="sxs-lookup"><span data-stu-id="b78ec-160">Install the Microsoft GPG public key:</span></span>
 
     ```bash
     curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
     ```
 
-- <span data-ttu-id="5ecd0-161">Installez le pilote https s’il n’est pas déjà présent :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-161">Install the https driver if it's not already present:</span></span>
+- <span data-ttu-id="b78ec-161">Installez le pilote https s’il n’est pas déjà présent :</span><span class="sxs-lookup"><span data-stu-id="b78ec-161">Install the https driver if it's not already present:</span></span>
 
     ```bash
     sudo apt-get install apt-transport-https
     ```
 
-- <span data-ttu-id="5ecd0-162">Mettez à jour les métadonnées du référentiel :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-162">Update the repository metadata:</span></span>
+- <span data-ttu-id="b78ec-162">Mettez à jour les métadonnées du référentiel :</span><span class="sxs-lookup"><span data-stu-id="b78ec-162">Update the repository metadata:</span></span>
 
     ```bash
     sudo apt-get update
     ```
 
-## <a name="application-installation"></a><span data-ttu-id="5ecd0-163">Installation de l’application</span><span class="sxs-lookup"><span data-stu-id="5ecd0-163">Application installation</span></span>
+## <a name="application-installation"></a><span data-ttu-id="b78ec-163">Installation de l’application</span><span class="sxs-lookup"><span data-stu-id="b78ec-163">Application installation</span></span>
 
-- <span data-ttu-id="5ecd0-164">RHEL et variantes (CentOS et Oracle Linux) :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-164">RHEL and variants (CentOS and Oracle Linux):</span></span>
+- <span data-ttu-id="b78ec-164">RHEL et variantes (CentOS et Oracle Linux) :</span><span class="sxs-lookup"><span data-stu-id="b78ec-164">RHEL and variants (CentOS and Oracle Linux):</span></span>
 
     ```bash
     sudo yum install mdatp
     ```
 
-    <span data-ttu-id="5ecd0-165">Si plusieurs référentiels Microsoft sont configurés sur votre appareil, vous pouvez être spécifique au référentiel à partir duquel installer le package.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-165">If you have multiple Microsoft repositories configured on your device, you can be specific about which repository to install the package from.</span></span> <span data-ttu-id="5ecd0-166">L’exemple suivant montre comment installer le package à partir du canal si vous avez également configuré le canal de référentiel `production` `insiders-fast` sur cet appareil.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-166">The following example shows how to install the package from the `production` channel if you also have the `insiders-fast` repository channel configured on this device.</span></span> <span data-ttu-id="5ecd0-167">Cette situation peut se produire si vous utilisez plusieurs produits Microsoft sur votre appareil.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-167">This situation can happen if you are using multiple Microsoft products on your device.</span></span> <span data-ttu-id="5ecd0-168">Selon la distribution et la version de votre serveur, l’alias du référentiel peut être différent de celui de l’exemple suivant.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-168">Depending on the distribution and the version of your server, the repository alias might be different than the one in the following example.</span></span>
+    <span data-ttu-id="b78ec-165">Si plusieurs référentiels Microsoft sont configurés sur votre appareil, vous pouvez être spécifique au référentiel à partir duquel installer le package.</span><span class="sxs-lookup"><span data-stu-id="b78ec-165">If you have multiple Microsoft repositories configured on your device, you can be specific about which repository to install the package from.</span></span> <span data-ttu-id="b78ec-166">L’exemple suivant montre comment installer le package à partir du canal si vous avez également configuré le canal de référentiel `production` `insiders-fast` sur cet appareil.</span><span class="sxs-lookup"><span data-stu-id="b78ec-166">The following example shows how to install the package from the `production` channel if you also have the `insiders-fast` repository channel configured on this device.</span></span> <span data-ttu-id="b78ec-167">Cette situation peut se produire si vous utilisez plusieurs produits Microsoft sur votre appareil.</span><span class="sxs-lookup"><span data-stu-id="b78ec-167">This situation can happen if you are using multiple Microsoft products on your device.</span></span> <span data-ttu-id="b78ec-168">Selon la distribution et la version de votre serveur, l’alias du référentiel peut être différent de celui de l’exemple suivant.</span><span class="sxs-lookup"><span data-stu-id="b78ec-168">Depending on the distribution and the version of your server, the repository alias might be different than the one in the following example.</span></span>
 
     ```bash
     # list all repositories
@@ -223,13 +222,13 @@ ms.locfileid: "51408546"
     sudo yum --enablerepo=packages-microsoft-com-prod install mdatp
     ```
 
-- <span data-ttu-id="5ecd0-169">SLES et variantes :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-169">SLES and variants:</span></span>
+- <span data-ttu-id="b78ec-169">SLES et variantes :</span><span class="sxs-lookup"><span data-stu-id="b78ec-169">SLES and variants:</span></span>
 
     ```bash
     sudo zypper install mdatp
     ```
 
-    <span data-ttu-id="5ecd0-170">Si plusieurs référentiels Microsoft sont configurés sur votre appareil, vous pouvez être spécifique au référentiel à partir duquel installer le package.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-170">If you have multiple Microsoft repositories configured on your device, you can be specific about which repository to install the package from.</span></span> <span data-ttu-id="5ecd0-171">L’exemple suivant montre comment installer le package à partir du canal si vous avez également configuré le canal de référentiel `production` `insiders-fast` sur cet appareil.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-171">The following example shows how to install the package from the `production` channel if you also have the `insiders-fast` repository channel configured on this device.</span></span> <span data-ttu-id="5ecd0-172">Cette situation peut se produire si vous utilisez plusieurs produits Microsoft sur votre appareil.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-172">This situation can happen if you are using multiple Microsoft products on your device.</span></span>
+    <span data-ttu-id="b78ec-170">Si plusieurs référentiels Microsoft sont configurés sur votre appareil, vous pouvez être spécifique au référentiel à partir duquel installer le package.</span><span class="sxs-lookup"><span data-stu-id="b78ec-170">If you have multiple Microsoft repositories configured on your device, you can be specific about which repository to install the package from.</span></span> <span data-ttu-id="b78ec-171">L’exemple suivant montre comment installer le package à partir du canal si vous avez également configuré le canal de référentiel `production` `insiders-fast` sur cet appareil.</span><span class="sxs-lookup"><span data-stu-id="b78ec-171">The following example shows how to install the package from the `production` channel if you also have the `insiders-fast` repository channel configured on this device.</span></span> <span data-ttu-id="b78ec-172">Cette situation peut se produire si vous utilisez plusieurs produits Microsoft sur votre appareil.</span><span class="sxs-lookup"><span data-stu-id="b78ec-172">This situation can happen if you are using multiple Microsoft products on your device.</span></span>
 
     ```bash
     zypper repos
@@ -246,13 +245,13 @@ ms.locfileid: "51408546"
     sudo zypper install packages-microsoft-com-prod:mdatp
     ```
 
-- <span data-ttu-id="5ecd0-173">Système Ubuntu et Debian :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-173">Ubuntu and Debian system:</span></span>
+- <span data-ttu-id="b78ec-173">Système Ubuntu et Debian :</span><span class="sxs-lookup"><span data-stu-id="b78ec-173">Ubuntu and Debian system:</span></span>
 
     ```bash
     sudo apt-get install mdatp
     ```
 
-    <span data-ttu-id="5ecd0-174">Si plusieurs référentiels Microsoft sont configurés sur votre appareil, vous pouvez être spécifique au référentiel à partir duquel installer le package.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-174">If you have multiple Microsoft repositories configured on your device, you can be specific about which repository to install the package from.</span></span> <span data-ttu-id="5ecd0-175">L’exemple suivant montre comment installer le package à partir du canal si vous avez également configuré le canal de référentiel `production` `insiders-fast` sur cet appareil.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-175">The following example shows how to install the package from the `production` channel if you also have the `insiders-fast` repository channel configured on this device.</span></span> <span data-ttu-id="5ecd0-176">Cette situation peut se produire si vous utilisez plusieurs produits Microsoft sur votre appareil.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-176">This situation can happen if you are using multiple Microsoft products on your device.</span></span>
+    <span data-ttu-id="b78ec-174">Si plusieurs référentiels Microsoft sont configurés sur votre appareil, vous pouvez être spécifique au référentiel à partir duquel installer le package.</span><span class="sxs-lookup"><span data-stu-id="b78ec-174">If you have multiple Microsoft repositories configured on your device, you can be specific about which repository to install the package from.</span></span> <span data-ttu-id="b78ec-175">L’exemple suivant montre comment installer le package à partir du canal si vous avez également configuré le canal de référentiel `production` `insiders-fast` sur cet appareil.</span><span class="sxs-lookup"><span data-stu-id="b78ec-175">The following example shows how to install the package from the `production` channel if you also have the `insiders-fast` repository channel configured on this device.</span></span> <span data-ttu-id="b78ec-176">Cette situation peut se produire si vous utilisez plusieurs produits Microsoft sur votre appareil.</span><span class="sxs-lookup"><span data-stu-id="b78ec-176">This situation can happen if you are using multiple Microsoft products on your device.</span></span>
 
     ```bash
     cat /etc/apt/sources.list.d/*
@@ -265,18 +264,18 @@ ms.locfileid: "51408546"
     sudo apt -t bionic install mdatp
     ```
 
-## <a name="download-the-onboarding-package"></a><span data-ttu-id="5ecd0-177">Télécharger le package d’intégration</span><span class="sxs-lookup"><span data-stu-id="5ecd0-177">Download the onboarding package</span></span>
+## <a name="download-the-onboarding-package"></a><span data-ttu-id="b78ec-177">Télécharger le package d’intégration</span><span class="sxs-lookup"><span data-stu-id="b78ec-177">Download the onboarding package</span></span>
 
-<span data-ttu-id="5ecd0-178">Téléchargez le package d’intégration à partir du Centre de sécurité Microsoft Defender :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-178">Download the onboarding package from Microsoft Defender Security Center:</span></span>
+<span data-ttu-id="b78ec-178">Téléchargez le package d’intégration à partir du Centre de sécurité Microsoft Defender :</span><span class="sxs-lookup"><span data-stu-id="b78ec-178">Download the onboarding package from Microsoft Defender Security Center:</span></span>
 
-1. <span data-ttu-id="5ecd0-179">Dans le Centre de sécurité Microsoft Defender, go to **Settings > Device Management > Onboarding**.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-179">In Microsoft Defender Security Center, go to **Settings > Device Management > Onboarding**.</span></span>
-2. <span data-ttu-id="5ecd0-180">Dans le premier menu déroulant, sélectionnez **Linux Server comme** système d’exploitation.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-180">In the first drop-down menu, select **Linux Server** as the operating system.</span></span> <span data-ttu-id="5ecd0-181">Dans le deuxième menu déroulant, sélectionnez **Script local (pour 10** appareils au plus) comme méthode de déploiement.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-181">In the second drop-down menu, select **Local Script (for up to 10 devices)** as the deployment method.</span></span>
-3. <span data-ttu-id="5ecd0-182">Sélectionnez **Télécharger le package d’intégration.**</span><span class="sxs-lookup"><span data-stu-id="5ecd0-182">Select **Download onboarding package**.</span></span> <span data-ttu-id="5ecd0-183">Enregistrez le fichier sous WindowsDefenderATPOnboardingPackage.zip.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-183">Save the file as WindowsDefenderATPOnboardingPackage.zip.</span></span>
+1. <span data-ttu-id="b78ec-179">Dans le Centre de sécurité Microsoft Defender, go to **Settings > Device Management > Onboarding**.</span><span class="sxs-lookup"><span data-stu-id="b78ec-179">In Microsoft Defender Security Center, go to **Settings > Device Management > Onboarding**.</span></span>
+2. <span data-ttu-id="b78ec-180">Dans le premier menu déroulant, sélectionnez **Linux Server comme** système d’exploitation.</span><span class="sxs-lookup"><span data-stu-id="b78ec-180">In the first drop-down menu, select **Linux Server** as the operating system.</span></span> <span data-ttu-id="b78ec-181">Dans le deuxième menu déroulant, sélectionnez **Script local (pour 10** appareils au plus) comme méthode de déploiement.</span><span class="sxs-lookup"><span data-stu-id="b78ec-181">In the second drop-down menu, select **Local Script (for up to 10 devices)** as the deployment method.</span></span>
+3. <span data-ttu-id="b78ec-182">Sélectionnez **Télécharger le package d’intégration.**</span><span class="sxs-lookup"><span data-stu-id="b78ec-182">Select **Download onboarding package**.</span></span> <span data-ttu-id="b78ec-183">Enregistrez le fichier sous WindowsDefenderATPOnboardingPackage.zip.</span><span class="sxs-lookup"><span data-stu-id="b78ec-183">Save the file as WindowsDefenderATPOnboardingPackage.zip.</span></span>
 
     ![Capture d’écran du Centre de sécurité Microsoft Defender](images/atp-portal-onboarding-linux.png)
 
-4. <span data-ttu-id="5ecd0-185">À partir d’une invite de commandes, vérifiez que vous avez le fichier.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-185">From a command prompt, verify that you have the file.</span></span>
-    <span data-ttu-id="5ecd0-186">Extrayons le contenu de l’archive :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-186">Extract the contents of the archive:</span></span>
+4. <span data-ttu-id="b78ec-185">À partir d’une invite de commandes, vérifiez que vous avez le fichier.</span><span class="sxs-lookup"><span data-stu-id="b78ec-185">From a command prompt, verify that you have the file.</span></span>
+    <span data-ttu-id="b78ec-186">Extrayons le contenu de l’archive :</span><span class="sxs-lookup"><span data-stu-id="b78ec-186">Extract the contents of the archive:</span></span>
 
     ```bash
     ls -l
@@ -296,66 +295,66 @@ ms.locfileid: "51408546"
     ```
 
 
-## <a name="client-configuration"></a><span data-ttu-id="5ecd0-187">Configuration du client</span><span class="sxs-lookup"><span data-stu-id="5ecd0-187">Client configuration</span></span>
+## <a name="client-configuration"></a><span data-ttu-id="b78ec-187">Configuration du client</span><span class="sxs-lookup"><span data-stu-id="b78ec-187">Client configuration</span></span>
 
-1. <span data-ttu-id="5ecd0-188">Copiez MicrosoftDefenderATPOnboardingLinuxServer.py vers l’appareil cible.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-188">Copy MicrosoftDefenderATPOnboardingLinuxServer.py to the target device.</span></span>
+1. <span data-ttu-id="b78ec-188">Copiez MicrosoftDefenderATPOnboardingLinuxServer.py vers l’appareil cible.</span><span class="sxs-lookup"><span data-stu-id="b78ec-188">Copy MicrosoftDefenderATPOnboardingLinuxServer.py to the target device.</span></span>
 
-    <span data-ttu-id="5ecd0-189">Initialement, l’appareil client n’est pas associé à une organisation.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-189">Initially the client device is not associated with an organization.</span></span> <span data-ttu-id="5ecd0-190">Notez que *l’attribut orgId* est vide :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-190">Note that the *orgId* attribute is blank:</span></span>
+    <span data-ttu-id="b78ec-189">Initialement, l’appareil client n’est pas associé à une organisation.</span><span class="sxs-lookup"><span data-stu-id="b78ec-189">Initially the client device is not associated with an organization.</span></span> <span data-ttu-id="b78ec-190">Notez que *l’attribut orgId* est vide :</span><span class="sxs-lookup"><span data-stu-id="b78ec-190">Note that the *orgId* attribute is blank:</span></span>
 
     ```bash
     mdatp health --field org_id
     ```
 
-2. <span data-ttu-id="5ecd0-191">Exécutez MicrosoftDefenderATPOnboardingLinuxServer.py et notez que, pour exécuter cette commande, vous devez avoir `python` installé sur l’appareil :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-191">Run MicrosoftDefenderATPOnboardingLinuxServer.py, and note that, in order to run this command, you must have `python` installed on the device:</span></span>
+2. <span data-ttu-id="b78ec-191">Exécutez MicrosoftDefenderATPOnboardingLinuxServer.py et notez que, pour exécuter cette commande, vous devez avoir `python` installé sur l’appareil :</span><span class="sxs-lookup"><span data-stu-id="b78ec-191">Run MicrosoftDefenderATPOnboardingLinuxServer.py, and note that, in order to run this command, you must have `python` installed on the device:</span></span>
 
     ```bash
     python MicrosoftDefenderATPOnboardingLinuxServer.py
     ```
 
-3. <span data-ttu-id="5ecd0-192">Vérifiez que l’appareil est désormais associé à votre organisation et signale un identificateur d’organisation valide :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-192">Verify that the device is now associated with your organization and reports a valid organization identifier:</span></span>
+3. <span data-ttu-id="b78ec-192">Vérifiez que l’appareil est désormais associé à votre organisation et signale un identificateur d’organisation valide :</span><span class="sxs-lookup"><span data-stu-id="b78ec-192">Verify that the device is now associated with your organization and reports a valid organization identifier:</span></span>
 
     ```bash
     mdatp health --field org_id
     ```
 
-4. <span data-ttu-id="5ecd0-193">Quelques minutes après avoir terminé l’installation, vous pouvez voir l’état en exécutant la commande suivante.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-193">A few minutes after you complete the installation, you can see the status by running the following command.</span></span> <span data-ttu-id="5ecd0-194">Une valeur de retour indique que le `1` produit fonctionne comme prévu :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-194">A return value of `1` denotes that the product is functioning as expected:</span></span>
+4. <span data-ttu-id="b78ec-193">Quelques minutes après avoir terminé l’installation, vous pouvez voir l’état en exécutant la commande suivante.</span><span class="sxs-lookup"><span data-stu-id="b78ec-193">A few minutes after you complete the installation, you can see the status by running the following command.</span></span> <span data-ttu-id="b78ec-194">Une valeur de retour indique que le `1` produit fonctionne comme prévu :</span><span class="sxs-lookup"><span data-stu-id="b78ec-194">A return value of `1` denotes that the product is functioning as expected:</span></span>
 
     ```bash
     mdatp health --field healthy
     ```
 
     > [!IMPORTANT]
-    > <span data-ttu-id="5ecd0-195">Lorsque le produit démarre pour la première fois, il télécharge les dernières définitions de logiciel anti-programme malveillant.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-195">When the product starts for the first time, it downloads the latest antimalware definitions.</span></span> <span data-ttu-id="5ecd0-196">Selon votre connexion Internet, cela peut prendre jusqu’à quelques minutes.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-196">Depending on your Internet connection, this can take up to a few minutes.</span></span> <span data-ttu-id="5ecd0-197">Pendant ce temps, la commande ci-dessus renvoie une valeur de `false` .</span><span class="sxs-lookup"><span data-stu-id="5ecd0-197">During this time the above command returns a value of `false`.</span></span> <span data-ttu-id="5ecd0-198">Vous pouvez vérifier l’état de la mise à jour des définitions à l’aide de la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-198">You can check the status of the definition update using the following command:</span></span>
+    > <span data-ttu-id="b78ec-195">Lorsque le produit démarre pour la première fois, il télécharge les dernières définitions de logiciel anti-programme malveillant.</span><span class="sxs-lookup"><span data-stu-id="b78ec-195">When the product starts for the first time, it downloads the latest antimalware definitions.</span></span> <span data-ttu-id="b78ec-196">Selon votre connexion Internet, cela peut prendre jusqu’à quelques minutes.</span><span class="sxs-lookup"><span data-stu-id="b78ec-196">Depending on your Internet connection, this can take up to a few minutes.</span></span> <span data-ttu-id="b78ec-197">Pendant ce temps, la commande ci-dessus renvoie une valeur de `false` .</span><span class="sxs-lookup"><span data-stu-id="b78ec-197">During this time the above command returns a value of `false`.</span></span> <span data-ttu-id="b78ec-198">Vous pouvez vérifier l’état de la mise à jour des définitions à l’aide de la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="b78ec-198">You can check the status of the definition update using the following command:</span></span>
     > ```bash
     > mdatp health --field definitions_status
     > ```
-    > <span data-ttu-id="5ecd0-199">Notez que vous devrez peut-être également configurer un proxy après avoir terminé l’installation initiale.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-199">Please note that you may also need to configure a proxy after completing the initial installation.</span></span> <span data-ttu-id="5ecd0-200">Voir [Configure Defender for Endpoint for Linux for static proxy discovery: Post-installation configuration](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration).</span><span class="sxs-lookup"><span data-stu-id="5ecd0-200">See [Configure Defender for Endpoint for Linux for static proxy discovery: Post-installation configuration](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration).</span></span>
+    > <span data-ttu-id="b78ec-199">Notez que vous devrez peut-être également configurer un proxy après avoir terminé l’installation initiale.</span><span class="sxs-lookup"><span data-stu-id="b78ec-199">Please note that you may also need to configure a proxy after completing the initial installation.</span></span> <span data-ttu-id="b78ec-200">Voir [Configure Defender for Endpoint for Linux for static proxy discovery: Post-installation configuration](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration).</span><span class="sxs-lookup"><span data-stu-id="b78ec-200">See [Configure Defender for Endpoint for Linux for static proxy discovery: Post-installation configuration](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration).</span></span>
 
-5. <span data-ttu-id="5ecd0-201">Exécutez un test de détection pour vérifier que l’appareil est correctement intégré et signaler au service.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-201">Run a detection test to verify that the device is properly onboarded and reporting to the service.</span></span> <span data-ttu-id="5ecd0-202">Effectuez les étapes suivantes sur l’appareil nouvellement intégré :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-202">Perform the following steps on the newly onboarded device:</span></span>
+5. <span data-ttu-id="b78ec-201">Exécutez un test de détection pour vérifier que l’appareil est correctement intégré et signaler au service.</span><span class="sxs-lookup"><span data-stu-id="b78ec-201">Run a detection test to verify that the device is properly onboarded and reporting to the service.</span></span> <span data-ttu-id="b78ec-202">Effectuez les étapes suivantes sur l’appareil nouvellement intégré :</span><span class="sxs-lookup"><span data-stu-id="b78ec-202">Perform the following steps on the newly onboarded device:</span></span>
 
-    - <span data-ttu-id="5ecd0-203">Assurez-vous que la protection en temps réel est activée (en raison de l’exécution de `1` la commande suivante) :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-203">Ensure that real-time protection is enabled (denoted by a result of `1` from running the following command):</span></span>
+    - <span data-ttu-id="b78ec-203">Assurez-vous que la protection en temps réel est activée (en raison de l’exécution de `1` la commande suivante) :</span><span class="sxs-lookup"><span data-stu-id="b78ec-203">Ensure that real-time protection is enabled (denoted by a result of `1` from running the following command):</span></span>
 
         ```bash
         mdatp health --field real_time_protection_enabled
         ```
 
-    - <span data-ttu-id="5ecd0-204">Ouvrez une fenêtre Terminal.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-204">Open a Terminal window.</span></span> <span data-ttu-id="5ecd0-205">Copiez et exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-205">Copy and execute the following command:</span></span>
+    - <span data-ttu-id="b78ec-204">Ouvrez une fenêtre Terminal.</span><span class="sxs-lookup"><span data-stu-id="b78ec-204">Open a Terminal window.</span></span> <span data-ttu-id="b78ec-205">Copiez et exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="b78ec-205">Copy and execute the following command:</span></span>
 
         ``` bash
         curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
         ```
 
-    - <span data-ttu-id="5ecd0-206">Le fichier doit avoir été mis en quarantaine par Defender for Endpoint pour Linux.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-206">The file should have been quarantined by Defender for Endpoint for Linux.</span></span> <span data-ttu-id="5ecd0-207">Utilisez la commande suivante pour lister toutes les menaces détectées :</span><span class="sxs-lookup"><span data-stu-id="5ecd0-207">Use the following command to list all the detected threats:</span></span>
+    - <span data-ttu-id="b78ec-206">Le fichier doit avoir été mis en quarantaine par Defender pour Endpoint pour Linux.</span><span class="sxs-lookup"><span data-stu-id="b78ec-206">The file should have been quarantined by Defender for Endpoint for Linux.</span></span> <span data-ttu-id="b78ec-207">Utilisez la commande suivante pour lister toutes les menaces détectées :</span><span class="sxs-lookup"><span data-stu-id="b78ec-207">Use the following command to list all the detected threats:</span></span>
 
         ```bash
         mdatp threat list
         ```
 
-## <a name="installer-script"></a><span data-ttu-id="5ecd0-208">Script du programme d’installation</span><span class="sxs-lookup"><span data-stu-id="5ecd0-208">Installer script</span></span>
+## <a name="installer-script"></a><span data-ttu-id="b78ec-208">Script du programme d’installation</span><span class="sxs-lookup"><span data-stu-id="b78ec-208">Installer script</span></span>
 
-<span data-ttu-id="5ecd0-209">Vous pouvez également utiliser un script bash de [programme](https://github.com/microsoft/mdatp-xplat/blob/master/linux/installation/mde_installer.sh) d’installation automatisé fourni dans notre référentiel [GitHub public.](https://github.com/microsoft/mdatp-xplat/)</span><span class="sxs-lookup"><span data-stu-id="5ecd0-209">Alternatively, you can use an automated [installer bash script](https://github.com/microsoft/mdatp-xplat/blob/master/linux/installation/mde_installer.sh) provided in our [public GitHub repository](https://github.com/microsoft/mdatp-xplat/).</span></span>
-<span data-ttu-id="5ecd0-210">Le script identifie la distribution et la version, et définit l’appareil pour qu’il tire le dernier package et l’installe.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-210">The script identifies the distribution and version, and sets up the device to pull the latest package and install it.</span></span>
-<span data-ttu-id="5ecd0-211">Vous pouvez également intégrer un script fourni.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-211">You can also onboard with a provided script.</span></span>
+<span data-ttu-id="b78ec-209">Vous pouvez également utiliser un script bash de [programme](https://github.com/microsoft/mdatp-xplat/blob/master/linux/installation/mde_installer.sh) d’installation automatisé fourni dans notre référentiel [GitHub public.](https://github.com/microsoft/mdatp-xplat/)</span><span class="sxs-lookup"><span data-stu-id="b78ec-209">Alternatively, you can use an automated [installer bash script](https://github.com/microsoft/mdatp-xplat/blob/master/linux/installation/mde_installer.sh) provided in our [public GitHub repository](https://github.com/microsoft/mdatp-xplat/).</span></span>
+<span data-ttu-id="b78ec-210">Le script identifie la distribution et la version, et définit l’appareil pour qu’il tire le dernier package et l’installe.</span><span class="sxs-lookup"><span data-stu-id="b78ec-210">The script identifies the distribution and version, and sets up the device to pull the latest package and install it.</span></span>
+<span data-ttu-id="b78ec-211">Vous pouvez également intégrer un script fourni.</span><span class="sxs-lookup"><span data-stu-id="b78ec-211">You can also onboard with a provided script.</span></span>
 
 ```bash
 ❯ ./mde_installer.sh --help
@@ -374,39 +373,39 @@ Options:
 -h|--help         display help
 ```
 
-<span data-ttu-id="5ecd0-212">En savoir plus [ici.](https://github.com/microsoft/mdatp-xplat/tree/master/linux/installation)</span><span class="sxs-lookup"><span data-stu-id="5ecd0-212">Read more [here](https://github.com/microsoft/mdatp-xplat/tree/master/linux/installation).</span></span>
+<span data-ttu-id="b78ec-212">En savoir plus [ici.](https://github.com/microsoft/mdatp-xplat/tree/master/linux/installation)</span><span class="sxs-lookup"><span data-stu-id="b78ec-212">Read more [here](https://github.com/microsoft/mdatp-xplat/tree/master/linux/installation).</span></span>
 
-## <a name="log-installation-issues"></a><span data-ttu-id="5ecd0-213">Journal des problèmes d’installation</span><span class="sxs-lookup"><span data-stu-id="5ecd0-213">Log installation issues</span></span>
+## <a name="log-installation-issues"></a><span data-ttu-id="b78ec-213">Journaux des problèmes d’installation</span><span class="sxs-lookup"><span data-stu-id="b78ec-213">Log installation issues</span></span>
 
-<span data-ttu-id="5ecd0-214">Pour [plus d’informations](linux-resources.md#log-installation-issues) sur la recherche du journal généré automatiquement par le programme d’installation en cas d’erreur, voir problèmes d’installation des journaux.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-214">See [Log installation issues](linux-resources.md#log-installation-issues) for more information on how to find the automatically generated log that is created by the installer when an error occurs.</span></span>
+<span data-ttu-id="b78ec-214">Pour [plus d’informations](linux-resources.md#log-installation-issues) sur la recherche du journal généré automatiquement par le programme d’installation en cas d’erreur, voir problèmes d’installation des journaux.</span><span class="sxs-lookup"><span data-stu-id="b78ec-214">See [Log installation issues](linux-resources.md#log-installation-issues) for more information on how to find the automatically generated log that is created by the installer when an error occurs.</span></span>
 
-## <a name="operating-system-upgrades"></a><span data-ttu-id="5ecd0-215">Mises à niveau du système d’exploitation</span><span class="sxs-lookup"><span data-stu-id="5ecd0-215">Operating system upgrades</span></span>
+## <a name="operating-system-upgrades"></a><span data-ttu-id="b78ec-215">Mises à niveau du système d’exploitation</span><span class="sxs-lookup"><span data-stu-id="b78ec-215">Operating system upgrades</span></span>
 
-<span data-ttu-id="5ecd0-216">Lors de la mise à niveau de votre système d’exploitation vers une nouvelle version majeure, vous devez d’abord désinstaller Defender pour Endpoint pour Linux, installer la mise à niveau, puis reconfigurer Defender pour Endpoint pour Linux sur votre appareil.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-216">When upgrading your operating system to a new major version, you must first uninstall Defender for Endpoint for Linux, install the upgrade, and finally reconfigure Defender for Endpoint for Linux on your device.</span></span>
+<span data-ttu-id="b78ec-216">Lors de la mise à niveau de votre système d’exploitation vers une nouvelle version majeure, vous devez d’abord désinstaller Defender pour Endpoint pour Linux, installer la mise à niveau, puis reconfigurer Defender pour Endpoint pour Linux sur votre appareil.</span><span class="sxs-lookup"><span data-stu-id="b78ec-216">When upgrading your operating system to a new major version, you must first uninstall Defender for Endpoint for Linux, install the upgrade, and finally reconfigure Defender for Endpoint for Linux on your device.</span></span>
 
-## <a name="how-to-migrate-from-insiders-fast-to-production-channel"></a><span data-ttu-id="5ecd0-217">Comment migrer de Insiders-Fast canal de production</span><span class="sxs-lookup"><span data-stu-id="5ecd0-217">How to migrate from Insiders-Fast to Production channel</span></span>
+## <a name="how-to-migrate-from-insiders-fast-to-production-channel"></a><span data-ttu-id="b78ec-217">Comment migrer de Insiders-Fast canal de production</span><span class="sxs-lookup"><span data-stu-id="b78ec-217">How to migrate from Insiders-Fast to Production channel</span></span>
 
-1. <span data-ttu-id="5ecd0-218">Désinstallez la version « Insiders-Fast channel » de MDE pour macOS.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-218">Uninstall the “Insiders-Fast channel” version of MDE for macOS.</span></span>
+1. <span data-ttu-id="b78ec-218">Désinstallez la version « Insiders-Fast channel » de MDE pour macOS.</span><span class="sxs-lookup"><span data-stu-id="b78ec-218">Uninstall the “Insiders-Fast channel” version of MDE for macOS.</span></span>
 
     ``
     sudo yum remove mdatp
     ``
 
-1. <span data-ttu-id="5ecd0-219">Désactiver le MDE pour le Insiders-Fast Linux  ``
+1. <span data-ttu-id="b78ec-219">Désactiver le MDE pour le Insiders-Fast Linux  ``
     sudo yum repolist
-    ``</span><span class="sxs-lookup"><span data-stu-id="5ecd0-219">Disable the MDE for Linux Insiders-Fast repo  ``
+    ``</span><span class="sxs-lookup"><span data-stu-id="b78ec-219">Disable the MDE for Linux Insiders-Fast repo  ``
     sudo yum repolist
  ``</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="5ecd0-220">La sortie doit afficher « packages-microsoft-com-fast-prod ».</span><span class="sxs-lookup"><span data-stu-id="5ecd0-220">The output should show “packages-microsoft-com-fast-prod”.</span></span>
+    > <span data-ttu-id="b78ec-220">La sortie doit afficher « packages-microsoft-com-fast-prod ».</span><span class="sxs-lookup"><span data-stu-id="b78ec-220">The output should show “packages-microsoft-com-fast-prod”.</span></span>
 
     ``
     sudo yum-config-manager --disable packages-microsoft-com-fast-prod
     ``
-1. <span data-ttu-id="5ecd0-221">Redéployer MDE pour Linux à l’aide du « canal de production ».</span><span class="sxs-lookup"><span data-stu-id="5ecd0-221">Redeploy MDE for Linux using the “Production channel”.</span></span>
+1. <span data-ttu-id="b78ec-221">Redéployer MDE pour Linux à l’aide du « canal de production ».</span><span class="sxs-lookup"><span data-stu-id="b78ec-221">Redeploy MDE for Linux using the “Production channel”.</span></span>
 
 
-## <a name="uninstallation"></a><span data-ttu-id="5ecd0-222">Désinstallation</span><span class="sxs-lookup"><span data-stu-id="5ecd0-222">Uninstallation</span></span>
+## <a name="uninstallation"></a><span data-ttu-id="b78ec-222">Désinstallation</span><span class="sxs-lookup"><span data-stu-id="b78ec-222">Uninstallation</span></span>
 
-<span data-ttu-id="5ecd0-223">Voir [Désinstaller](linux-resources.md#uninstall) pour plus d’informations sur la suppression de Defender pour Endpoint pour Linux des appareils clients.</span><span class="sxs-lookup"><span data-stu-id="5ecd0-223">See [Uninstall](linux-resources.md#uninstall) for details on how to remove Defender for Endpoint for Linux from client devices.</span></span>
+<span data-ttu-id="b78ec-223">Voir [Désinstaller](linux-resources.md#uninstall) pour plus d’informations sur la suppression de Defender pour Endpoint pour Linux des appareils clients.</span><span class="sxs-lookup"><span data-stu-id="b78ec-223">See [Uninstall](linux-resources.md#uninstall) for details on how to remove Defender for Endpoint for Linux from client devices.</span></span>
