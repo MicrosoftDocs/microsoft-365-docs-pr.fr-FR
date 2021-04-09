@@ -115,6 +115,8 @@
 ##### [Activer l’accès contrôlé aux dossiers](enable-controlled-folders.md)
 ##### [Personnaliser l’accès contrôlé aux dossiers](customize-controlled-folders.md)
 
+### [Appareils de réseau](network-devices.md)
+
 ### [Microsoft Defender pour point de terminaison Mac]()
 #### [Vue d’ensemble de Microsoft Defender pour point de terminaison Mac](microsoft-defender-endpoint-mac.md)
 #### [Nouveautés](mac-whatsnew.md)
