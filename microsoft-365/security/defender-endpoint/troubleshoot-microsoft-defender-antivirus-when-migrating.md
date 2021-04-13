@@ -1,0 +1,140 @@
+---
+title: Résoudre les problèmes de l'Antivirus Microsoft Defender lors de la migration à partir d'une solution tierce
+description: Résoudre les erreurs courantes lors de la migration vers l'Antivirus Microsoft Defender
+keywords: événement, code d'erreur, journalisation, résolution des problèmes, antivirus microsoft defender, antivirus windows defender, migration
+search.product: eADQiWindows 10XVcnh
+ms.prod: m365-security
+ms.mktglfcycl: manage
+ms.sitesec: library
+ms.localizationpriority: medium
+author: martyav
+ms.author: v-maave
+ms.custom: nextgen
+ms.date: 09/11/2018
+ms.reviewer: ''
+manager: dansimp
+ms.technology: mde
+ms.openlocfilehash: 2ca486b86c24e18ae08753b5e88f2eb42986dddf
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51690657"
+---
+# <a name="troubleshoot-microsoft-defender-antivirus-while-migrating-from-a-third-party-solution"></a><span data-ttu-id="a0e81-104">Résoudre les problèmes de l'Antivirus Microsoft Defender lors de la migration à partir d'une solution tierce</span><span class="sxs-lookup"><span data-stu-id="a0e81-104">Troubleshoot Microsoft Defender Antivirus while migrating from a third-party solution</span></span>
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+<span data-ttu-id="a0e81-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="a0e81-105">**Applies to:**</span></span>
+
+- [<span data-ttu-id="a0e81-106">Microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="a0e81-106">Microsoft Defender for Endpoint</span></span>](/microsoft-365/security/defender-endpoint/)
+
+
+<span data-ttu-id="a0e81-107">Vous trouverez de l'aide ici si vous rencontrez des problèmes lors de la migration d'une solution de sécurité tierce vers l'Antivirus Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="a0e81-107">You can find help here if you encounter issues while migrating from a third-party security solution to Microsoft Defender Antivirus.</span></span>
+
+## <a name="review-event-logs"></a><span data-ttu-id="a0e81-108">Passer en revue les journaux des événements</span><span class="sxs-lookup"><span data-stu-id="a0e81-108">Review event logs</span></span>
+
+<span data-ttu-id="a0e81-109">Ouvrez l'application Observateur  d'événements en sélectionnant l'icône Rechercher dans la barre des tâches et en recherchant l'Observateur *d'événements.*</span><span class="sxs-lookup"><span data-stu-id="a0e81-109">Open the Event viewer app by selecting the **Search** icon in the taskbar, and searching for *event viewer*.</span></span>
+
+<span data-ttu-id="a0e81-110">Vous pouvez trouver des informations sur l'Antivirus Microsoft Defender sous **Journaux des applications** et des services  >  **Microsoft**  >  **Windows**  >  **Windows Defender**.</span><span class="sxs-lookup"><span data-stu-id="a0e81-110">Information about Microsoft Defender Antivirus can be found under  **Applications and Services Logs** > **Microsoft** > **Windows** > **Windows Defender**.</span></span> 
+
+<span data-ttu-id="a0e81-111">À partir de là, **sélectionnez Ouvrir** sous **Opérationnel.**</span><span class="sxs-lookup"><span data-stu-id="a0e81-111">From there, select **Open** underneath **Operational**.</span></span>
+
+<span data-ttu-id="a0e81-112">La sélection d'un événement dans le volet d'informations vous permet d'obtenir plus d'informations sur un événement dans le volet inférieur, sous les **onglets** Général et Détails. </span><span class="sxs-lookup"><span data-stu-id="a0e81-112">Selecting an event from the details pane will show you more information about an event in the lower pane, under the **General** and **Details** tabs.</span></span>
+
+## <a name="microsoft-defender-antivirus-wont-start"></a><span data-ttu-id="a0e81-113">L'Antivirus Microsoft Defender ne démarre pas</span><span class="sxs-lookup"><span data-stu-id="a0e81-113">Microsoft Defender Antivirus won't start</span></span>
+
+<span data-ttu-id="a0e81-114">Ce problème peut se manifester sous la forme de plusieurs ID d'événement différents, qui ont tous la même cause sous-jacente.</span><span class="sxs-lookup"><span data-stu-id="a0e81-114">This issue can manifest in the form of  several different event IDs, all of which have the same underlying cause.</span></span>
+
+### <a name="associated-event-ids"></a><span data-ttu-id="a0e81-115">ID d'événement associés</span><span class="sxs-lookup"><span data-stu-id="a0e81-115">Associated event IDs</span></span>
+
+ <span data-ttu-id="a0e81-116">ID de l'événement</span><span class="sxs-lookup"><span data-stu-id="a0e81-116">Event ID</span></span> | <span data-ttu-id="a0e81-117">Nom du journal</span><span class="sxs-lookup"><span data-stu-id="a0e81-117">Log name</span></span> | <span data-ttu-id="a0e81-118">Description</span><span class="sxs-lookup"><span data-stu-id="a0e81-118">Description</span></span> | <span data-ttu-id="a0e81-119">Source</span><span class="sxs-lookup"><span data-stu-id="a0e81-119">Source</span></span>
+-|-|-|-
+<span data-ttu-id="a0e81-120">15 </span><span class="sxs-lookup"><span data-stu-id="a0e81-120">15</span></span> | <span data-ttu-id="a0e81-121">Application</span><span class="sxs-lookup"><span data-stu-id="a0e81-121">Application</span></span> | <span data-ttu-id="a0e81-122">Mise à jour Windows Defender statut de l'SECURITY_PRODUCT_STATE_OFF.</span><span class="sxs-lookup"><span data-stu-id="a0e81-122">Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_OFF.</span></span> | <span data-ttu-id="a0e81-123">Centre de sécurité</span><span class="sxs-lookup"><span data-stu-id="a0e81-123">Security Center</span></span>
+<span data-ttu-id="a0e81-124">5007</span><span class="sxs-lookup"><span data-stu-id="a0e81-124">5007</span></span> | <span data-ttu-id="a0e81-125">Microsoft-Windows-Windows Defender/Opérationnel</span><span class="sxs-lookup"><span data-stu-id="a0e81-125">Microsoft-Windows-Windows Defender/Operational</span></span> | <span data-ttu-id="a0e81-126">Windows Defender'antivirus a changé.</span><span class="sxs-lookup"><span data-stu-id="a0e81-126">Windows Defender Antivirus Configuration has changed.</span></span>  <span data-ttu-id="a0e81-127">S'il s'agit d'un événement inattendu, vous devez passer en revue les paramètres, car cela peut être le résultat d'un programme malveillant.</span><span class="sxs-lookup"><span data-stu-id="a0e81-127">If this is an unexpected event you should review the settings as this may be the result of malware.</span></span><br /><br /><span data-ttu-id="a0e81-128">**Ancienne valeur :** Default\IsServiceRunning = 0x0</span><span class="sxs-lookup"><span data-stu-id="a0e81-128">**Old value:** Default\IsServiceRunning = 0x0</span></span><br /><span data-ttu-id="a0e81-129">**Nouvelle valeur :** HKLM\SOFTWARE\Microsoft\Windows Defender\IsServiceRunning = 0x1</span><span class="sxs-lookup"><span data-stu-id="a0e81-129">**New value:** HKLM\SOFTWARE\Microsoft\Windows Defender\IsServiceRunning = 0x1</span></span> | <span data-ttu-id="a0e81-130">Windows Defender</span><span class="sxs-lookup"><span data-stu-id="a0e81-130">Windows Defender</span></span>
+<span data-ttu-id="a0e81-131">5010</span><span class="sxs-lookup"><span data-stu-id="a0e81-131">5010</span></span> | <span data-ttu-id="a0e81-132">Microsoft-Windows-Windows Defender/Opérationnel</span><span class="sxs-lookup"><span data-stu-id="a0e81-132">Microsoft-Windows-Windows Defender/Operational</span></span> | <span data-ttu-id="a0e81-133">Windows Defender antivirus pour les logiciels espions et autres logiciels potentiellement indésirables est désactivé.</span><span class="sxs-lookup"><span data-stu-id="a0e81-133">Windows Defender Antivirus scanning for spyware and other potentially unwanted software is disabled.</span></span> | <span data-ttu-id="a0e81-134">Windows Defender</span><span class="sxs-lookup"><span data-stu-id="a0e81-134">Windows Defender</span></span>
+
+### <a name="how-to-tell-if-microsoft-defender-antivirus-wont-start-because-a-third-party-antivirus-is-installed"></a><span data-ttu-id="a0e81-135">Comment savoir si l'Antivirus Microsoft Defender ne démarre pas car un antivirus tiers est installé</span><span class="sxs-lookup"><span data-stu-id="a0e81-135">How to tell if Microsoft Defender Antivirus won't start because a third-party antivirus is installed</span></span>
+
+<span data-ttu-id="a0e81-136">Sur un appareil Windows 10, si vous n'utilisez pas Microsoft Defender pour Endpoint et qu'un antivirus tiers est installé, l'Antivirus Microsoft Defender est automatiquement désactivé.</span><span class="sxs-lookup"><span data-stu-id="a0e81-136">On a Windows 10 device, if you are not using Microsoft Defender for Endpoint, and you have a third-party antivirus installed, then Microsoft Defender Antivirus will be automatically turned off.</span></span> <span data-ttu-id="a0e81-137">Si vous utilisez Microsoft Defender pour Endpoint avec un antivirus tiers installé, l'Antivirus Microsoft Defender démarre en mode passif, avec des fonctionnalités réduites.</span><span class="sxs-lookup"><span data-stu-id="a0e81-137">If you are using Microsoft Defender for Endpoint with a third-party antivirus installed, Microsoft Defender Antivirus will start in passive mode, with reduced functionality.</span></span>
+
+> [!TIP]
+> <span data-ttu-id="a0e81-138">Le scénario décrit s'applique uniquement à Windows 10.</span><span class="sxs-lookup"><span data-stu-id="a0e81-138">The scenario just described applies only to Windows 10.</span></span> <span data-ttu-id="a0e81-139">D'autres versions de Windows [ont des réponses différentes à](microsoft-defender-antivirus-compatibility.md) l'Antivirus Microsoft Defender en cours d'utilisation avec un logiciel de sécurité tiers.</span><span class="sxs-lookup"><span data-stu-id="a0e81-139">Other versions of Windows have [different responses](microsoft-defender-antivirus-compatibility.md) to Microsoft Defender Antivirus being run alongside third-party security software.</span></span>
+
+#### <a name="use-services-app-to-check-if-microsoft-defender-antivirus-is-turned-off"></a><span data-ttu-id="a0e81-140">Utiliser l'application Services pour vérifier si l'Antivirus Microsoft Defender est désactivé</span><span class="sxs-lookup"><span data-stu-id="a0e81-140">Use Services app to check if Microsoft Defender Antivirus is turned off</span></span>
+
+<span data-ttu-id="a0e81-141">Pour ouvrir l'application Services, sélectionnez l'icône **Rechercher** dans la barre des tâches et recherchez des *services.*</span><span class="sxs-lookup"><span data-stu-id="a0e81-141">To open the Services app, select the **Search** icon from the taskbar and search for *services*.</span></span> <span data-ttu-id="a0e81-142">Vous pouvez également ouvrir l'application à partir de la ligne de commande en tapant *services.msc*.</span><span class="sxs-lookup"><span data-stu-id="a0e81-142">You can also open the app from the command-line by typing *services.msc*.</span></span>
+
+<span data-ttu-id="a0e81-143">Les informations sur l'Antivirus Microsoft Defender sont répertoriées dans l'application Services sous **Windows Defender**  >  **Opérationnel**.</span><span class="sxs-lookup"><span data-stu-id="a0e81-143">Information about Microsoft Defender Antivirus will be listed within the Services app under **Windows Defender** > **Operational**.</span></span> <span data-ttu-id="a0e81-144">Le nom du service antivirus *est Windows Defender antivirus.*</span><span class="sxs-lookup"><span data-stu-id="a0e81-144">The antivirus service name is *Windows Defender Antivirus Service*.</span></span>
+
+<span data-ttu-id="a0e81-145">Lors de la vérification de l'application, vous pouvez constater que le service *antivirus Windows Defender* est prêt à être démarré manuellement, mais lorsque vous essayez de démarrer ce service manuellement, vous recevez un avertissement indiquant que le service antivirus Windows Defender a démarré sur l'ordinateur local, puis s'est *arrêté. Certains services s'arrêtent automatiquement s'ils ne sont pas utilisés par d'autres services ou programmes.*</span><span class="sxs-lookup"><span data-stu-id="a0e81-145">While checking the app, you may see that *Windows Defender Antivirus Service* is set to manual — but when you try to start this service manually, you get a warning stating, *The Windows Defender Antivirus Service service on Local Computer started and then stopped. Some services stop automatically if they are not in use by other services or programs.*</span></span>
+
+<span data-ttu-id="a0e81-146">Cela indique que l'Antivirus Microsoft Defender a été automatiquement désactivé pour préserver la compatibilité avec un antivirus tiers.</span><span class="sxs-lookup"><span data-stu-id="a0e81-146">This indicates that Microsoft Defender Antivirus has been automatically turned off to preserve compatibility with a third-party antivirus.</span></span>
+
+#### <a name="generate-a-detailed-report"></a><span data-ttu-id="a0e81-147">Générer un rapport détaillé</span><span class="sxs-lookup"><span data-stu-id="a0e81-147">Generate a detailed report</span></span>
+
+<span data-ttu-id="a0e81-148">Vous pouvez générer un rapport détaillé sur les stratégies de groupe actives en ouvrant une invite de commandes en **mode** d'administration, puis en entrant la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="a0e81-148">You can generate a detailed report about currently active group policies by opening a command prompt in **Run as admin** mode, then entering the following command:</span></span>
+
+```powershell
+GPresult.exe /h gpresult.html
+```
+
+<span data-ttu-id="a0e81-149">Cela génère un rapport situé sur *./gpresult.html*.</span><span class="sxs-lookup"><span data-stu-id="a0e81-149">This will generate a report located at *./gpresult.html*.</span></span> <span data-ttu-id="a0e81-150">Ouvrez ce fichier et vous pouvez voir les résultats suivants, selon la façon dont l'Antivirus Microsoft Defender a été désactivé.</span><span class="sxs-lookup"><span data-stu-id="a0e81-150">Open this file and you might see the following results, depending on how Microsoft Defender Antivirus was turned off.</span></span>
+
+##### <a name="group-policy-results"></a><span data-ttu-id="a0e81-151">Résultats de la stratégie de groupe</span><span class="sxs-lookup"><span data-stu-id="a0e81-151">Group policy results</span></span>
+
+##### <a name="if-security-settings-are-implemented-via-group-policy-gpo-at-the-domain-or-local-level-or-though-system-center-configuration-manager-sccm"></a><span data-ttu-id="a0e81-152">Si les paramètres de sécurité sont implémentés via la stratégie de groupe (GPO) au niveau du domaine ou au niveau local, ou via System Center Configuration Manager (SCCM)</span><span class="sxs-lookup"><span data-stu-id="a0e81-152">If security settings are implemented via group policy (GPO) at the domain or local level, or though System center configuration manager (SCCM)</span></span>
+
+<span data-ttu-id="a0e81-153">Dans le rapport GPResults, sous le titre *Composants Windows/Antivirus Windows Defender*, vous pouvez voir quelque chose comme l'entrée suivante, indiquant que l'Antivirus Microsoft Defender est désactivé.</span><span class="sxs-lookup"><span data-stu-id="a0e81-153">Within the GPResults report, under the heading, *Windows Components/Windows Defender Antivirus*, you may see something like the following entry, indicating that Microsoft Defender Antivirus is turned off.</span></span>
+
+<span data-ttu-id="a0e81-154">Stratégie</span><span class="sxs-lookup"><span data-stu-id="a0e81-154">Policy</span></span> | <span data-ttu-id="a0e81-155">Paramètre</span><span class="sxs-lookup"><span data-stu-id="a0e81-155">Setting</span></span> | <span data-ttu-id="a0e81-156">GPO qui a été gagné</span><span class="sxs-lookup"><span data-stu-id="a0e81-156">Winning GPO</span></span>
+-|-|-
+<span data-ttu-id="a0e81-157">Désactiver l'antivirus Windows Defender</span><span class="sxs-lookup"><span data-stu-id="a0e81-157">Turn off Windows Defender Antivirus</span></span> | <span data-ttu-id="a0e81-158">Activé</span><span class="sxs-lookup"><span data-stu-id="a0e81-158">Enabled</span></span> | <span data-ttu-id="a0e81-159">Win10-Workstations</span><span class="sxs-lookup"><span data-stu-id="a0e81-159">Win10-Workstations</span></span>
+
+###### <a name="if-security-settings-are-implemented-via-group-policy-preference-gpp"></a><span data-ttu-id="a0e81-160">Si les paramètres de sécurité sont implémentés via la stratégie de groupe de préférence (GPP)</span><span class="sxs-lookup"><span data-stu-id="a0e81-160">If security settings are implemented via Group policy preference (GPP)</span></span>
+
+<span data-ttu-id="a0e81-161">Sous l'en-tête, élément de Registre (chemin d'accès clé : HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender, Nom de la valeur : *DisableAntiSpyware)*, vous pouvez voir quelque chose comme l'entrée suivante, indiquant que l'Antivirus Microsoft Defender est désactivé.</span><span class="sxs-lookup"><span data-stu-id="a0e81-161">Under the heading, *Registry item (Key path: HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender, Value name: DisableAntiSpyware)*, you may see something like the following entry, indicating that Microsoft Defender Antivirus is turned off.</span></span>
+
+<span data-ttu-id="a0e81-162">DisableAntiSpyware</span><span class="sxs-lookup"><span data-stu-id="a0e81-162">DisableAntiSpyware</span></span> | -
+-|-
+<span data-ttu-id="a0e81-163">GPO qui a été gagné</span><span class="sxs-lookup"><span data-stu-id="a0e81-163">Winning GPO</span></span> | <span data-ttu-id="a0e81-164">Win10-Workstations</span><span class="sxs-lookup"><span data-stu-id="a0e81-164">Win10-Workstations</span></span>
+<span data-ttu-id="a0e81-165">Résultat : réussite</span><span class="sxs-lookup"><span data-stu-id="a0e81-165">Result: Success</span></span> | 
+<span data-ttu-id="a0e81-166">**Général**</span><span class="sxs-lookup"><span data-stu-id="a0e81-166">**General**</span></span> | 
+<span data-ttu-id="a0e81-167">Action</span><span class="sxs-lookup"><span data-stu-id="a0e81-167">Action</span></span> | <span data-ttu-id="a0e81-168">Update</span><span class="sxs-lookup"><span data-stu-id="a0e81-168">Update</span></span>
+<span data-ttu-id="a0e81-169">**Propriétés**</span><span class="sxs-lookup"><span data-stu-id="a0e81-169">**Properties**</span></span> | 
+<span data-ttu-id="a0e81-170">Ruche</span><span class="sxs-lookup"><span data-stu-id="a0e81-170">Hive</span></span> | <span data-ttu-id="a0e81-171">HKEY_LOCAL_MACHINE</span><span class="sxs-lookup"><span data-stu-id="a0e81-171">HKEY_LOCAL_MACHINE</span></span>
+<span data-ttu-id="a0e81-172">Chemin d'accès de la touche</span><span class="sxs-lookup"><span data-stu-id="a0e81-172">Key path</span></span> | <span data-ttu-id="a0e81-173">SOFTWARE\Policies\Microsoft\Windows Defender</span><span class="sxs-lookup"><span data-stu-id="a0e81-173">SOFTWARE\Policies\Microsoft\Windows Defender</span></span>
+<span data-ttu-id="a0e81-174">Nom de la valeur</span><span class="sxs-lookup"><span data-stu-id="a0e81-174">Value name</span></span> | <span data-ttu-id="a0e81-175">DisableAntiSpyware</span><span class="sxs-lookup"><span data-stu-id="a0e81-175">DisableAntiSpyware</span></span>
+<span data-ttu-id="a0e81-176">Type de valeur</span><span class="sxs-lookup"><span data-stu-id="a0e81-176">Value type</span></span> | <span data-ttu-id="a0e81-177">REG_DWORD</span><span class="sxs-lookup"><span data-stu-id="a0e81-177">REG_DWORD</span></span>
+<span data-ttu-id="a0e81-178">Données de la valeur</span><span class="sxs-lookup"><span data-stu-id="a0e81-178">Value data</span></span> | <span data-ttu-id="a0e81-179">0x1 (1)</span><span class="sxs-lookup"><span data-stu-id="a0e81-179">0x1 (1)</span></span>
+
+###### <a name="if-security-settings-are-implemented-via-registry-key"></a><span data-ttu-id="a0e81-180">Si les paramètres de sécurité sont implémentés via la clé de Registre</span><span class="sxs-lookup"><span data-stu-id="a0e81-180">If security settings are implemented via registry key</span></span>
+
+<span data-ttu-id="a0e81-181">Le rapport peut contenir le texte suivant, indiquant que l'Antivirus Microsoft Defender est désactivé :</span><span class="sxs-lookup"><span data-stu-id="a0e81-181">The report may contain the following text, indicating that Microsoft Defender Antivirus is turned off:</span></span>
+ 
+> <span data-ttu-id="a0e81-182">Registre (regedit.exe)</span><span class="sxs-lookup"><span data-stu-id="a0e81-182">Registry (regedit.exe)</span></span>
+>
+> <span data-ttu-id="a0e81-183">HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender DisableAntiSpyware (dword) 1 (hex)</span><span class="sxs-lookup"><span data-stu-id="a0e81-183">HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender DisableAntiSpyware (dword) 1 (hex)</span></span>
+
+###### <a name="if-security-settings-are-set-in-windows-or-your-windows-server-image"></a><span data-ttu-id="a0e81-184">Si les paramètres de sécurité sont définies dans Windows ou votre image Windows Server</span><span class="sxs-lookup"><span data-stu-id="a0e81-184">If security settings are set in Windows or your Windows Server image</span></span>
+
+<span data-ttu-id="a0e81-185">Votre administrateur imaginant peut avoir définie la stratégie de **[sécurité, DisableAntiSpyware,](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware)** localement via *GPEdit.exe*, *LGPO.exe* ou en modifiant le Registre dans leur séquence de tâches.</span><span class="sxs-lookup"><span data-stu-id="a0e81-185">Your imagining admin might have set the security policy, **[DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware)**, locally via *GPEdit.exe*, *LGPO.exe*, or by modifying the registry in their task sequence.</span></span> <span data-ttu-id="a0e81-186">Vous pouvez [configurer un identificateur d'image approuvé](/windows-hardware/manufacture/desktop/configure-a-trusted-image-identifier-for-windows-defender) pour l'Antivirus Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="a0e81-186">You can [configure a Trusted Image Identifier](/windows-hardware/manufacture/desktop/configure-a-trusted-image-identifier-for-windows-defender) for Microsoft Defender Antivirus.</span></span>
+
+### <a name="turn-microsoft-defender-antivirus-back-on"></a><span data-ttu-id="a0e81-187">Activer de nouveau l'Antivirus Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="a0e81-187">Turn Microsoft Defender Antivirus back on</span></span>
+
+<span data-ttu-id="a0e81-188">L'Antivirus Microsoft Defender s'active automatiquement si aucun autre antivirus n'est actif.</span><span class="sxs-lookup"><span data-stu-id="a0e81-188">Microsoft Defender Antivirus will automatically turn on if no other antivirus is currently active.</span></span> <span data-ttu-id="a0e81-189">Vous devez désactiver complètement l'antivirus tiers pour vous assurer que l'Antivirus Microsoft Defender peut s'exécuter avec toutes les fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="a0e81-189">You'll need to turn the third-party antivirus completely off to ensure Microsoft Defender Antivirus can run with full functionality.</span></span>
+
+> [!WARNING]
+> <span data-ttu-id="a0e81-190">Les solutions qui vous suggèrent de modifier les valeurs de début *Windows Defender* pour *wdboot,* *wdfilter,* *wdnisdrv*, *wdnissvc* et *windefend* dans HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services ne sont pas pris en compte et peuvent vous obliger à ré-imager votre système.</span><span class="sxs-lookup"><span data-stu-id="a0e81-190">Solutions suggesting that you edit the *Windows Defender* start values for *wdboot*, *wdfilter*, *wdnisdrv*, *wdnissvc*, and *windefend* in  HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services are unsupported, and may force you to re-image your system.</span></span>
+
+<span data-ttu-id="a0e81-191">Le mode passif est disponible si vous commencez à utiliser Microsoft Defender pour Endpoint et un antivirus tiers avec l'Antivirus Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="a0e81-191">Passive mode is available if you start using Microsoft Defender for Endpoint and a third-party antivirus together with Microsoft Defender Antivirus.</span></span> <span data-ttu-id="a0e81-192">Le mode passif permet à Microsoft Defender d'analyser les fichiers et de se mettre à jour lui-même, mais il ne remédie pas aux menaces.</span><span class="sxs-lookup"><span data-stu-id="a0e81-192">Passive mode allows Microsoft Defender to scan files and update itself, but it will not remediate threats.</span></span> <span data-ttu-id="a0e81-193">En outre, la surveillance du comportement via [la Protection](configure-real-time-protection-microsoft-defender-antivirus.md) en temps réel n'est pas disponible en mode passif, sauf si la protection contre la perte de données de point de terminaison [(DLP)](/microsoft-365/security/defender-endpoint/information-protection-in-windows-overview) est déployée.</span><span class="sxs-lookup"><span data-stu-id="a0e81-193">In addition, behavior monitoring via [Real Time Protection](configure-real-time-protection-microsoft-defender-antivirus.md) is not available under passive mode, unless [Endpoint data loss prevention (DLP)](/microsoft-365/security/defender-endpoint/information-protection-in-windows-overview) is deployed.</span></span>
+
+<span data-ttu-id="a0e81-194">Une autre fonctionnalité, appelée analyse périodique [limitée,](limited-periodic-scanning-microsoft-defender-antivirus.md)est disponible pour les utilisateurs finaux lorsque l'Antivirus Microsoft Defender est automatiquement éteint.</span><span class="sxs-lookup"><span data-stu-id="a0e81-194">Another feature, known as [limited periodic scanning](limited-periodic-scanning-microsoft-defender-antivirus.md), is available to end-users when Microsoft Defender Antivirus is set to automatically turn off.</span></span> <span data-ttu-id="a0e81-195">Cette fonctionnalité permet à l'Antivirus Microsoft Defender d'analyser régulièrement des fichiers avec un antivirus tiers, à l'aide d'un nombre limité de détections.</span><span class="sxs-lookup"><span data-stu-id="a0e81-195">This feature allows Microsoft Defender Antivirus to scan files periodically alongside a third-party antivirus, using a limited number of detections.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="a0e81-196">L'analyse périodique limitée n'est pas recommandée dans les environnements d'entreprise.</span><span class="sxs-lookup"><span data-stu-id="a0e81-196">Limited periodic scanning is not recommended in enterprise environments.</span></span> <span data-ttu-id="a0e81-197">Les fonctionnalités de détection, de gestion et de rapport disponibles lors de l'exécution de l'Antivirus Microsoft Defender dans ce mode sont réduites par rapport au mode actif.</span><span class="sxs-lookup"><span data-stu-id="a0e81-197">The detection, management and reporting capabilities available when running Microsoft Defender Antivirus in this mode are reduced as compared to active mode.</span></span>
+
+### <a name="see-also"></a><span data-ttu-id="a0e81-198">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a0e81-198">See also</span></span>
+
+* [<span data-ttu-id="a0e81-199">Compatibilité de l'Antivirus Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="a0e81-199">Microsoft Defender Antivirus compatibility</span></span>](microsoft-defender-antivirus-compatibility.md)
+* [<span data-ttu-id="a0e81-200">Antivirus Microsoft Defender dans l'application Sécurité Windows</span><span class="sxs-lookup"><span data-stu-id="a0e81-200">Microsoft Defender Antivirus in the Windows Security app</span></span>](microsoft-defender-security-center-antivirus.md)
