@@ -245,6 +245,8 @@
               href: dlp-on-premises-scanner-learn.md
             - name: En savoir plus sur l’extension de la conformité Microsoft.
               href: dlp-chrome-learn-about.md
+            - name: En savoir plus sur le tableau de bord des alertes de protection contre la perte de données
+              href: dlp-alerts-dashboard-learn.md
         - name: Prise en main de la protection contre la perte de données
           items:
             - name: Prise en main de la stratégie DLP par défaut
@@ -261,6 +263,8 @@
               href: endpoint-dlp-configure-proxy.md
             - name: Prise en main de l’extension de conformité Microsoft (préversion)
               href: dlp-chrome-get-started.md
+            - name: Prise en main du tableau de bord des alertes de protection contre la perte de données
+              href: dlp-alerts-dashboard-get-started.md
             - name: "Outils et méthodes d’intégration DLP pour les points de terminaison pour les appareils Windows\_10"
               items:
                 - name: "Outils et méthodes d’intégration pour les appareils Windows\_10."
@@ -594,6 +598,8 @@
               href: ediscovery-decryption.md
             - name: Collecter des informations de diagnostic eDiscovery
               href: ediscovery-diagnostic-info.md
+            - name: Résoudre les erreurs de mise en suspens de la découverte électronique
+              href: hold-distribution-errors.md
             - name: Résoudre les problèmes eDiscovery courants
               href: ediscovery-troubleshooting-common-issues.md
             - name: Relancer une recherche ayant échoué
@@ -748,6 +754,8 @@
               href: what-is-stored-in-exo-mailbox.md
             - name: Déchiffrement dans les outils eDiscovery
               href: ediscovery-decryption.md
+            - name: Résoudre les erreurs de mise en suspens de la découverte électronique
+              href: hold-distribution-errors.md
             - name: Collecter des informations de diagnostic eDiscovery
               href: ediscovery-diagnostic-info.md
             - name: Rechercher des activités eDiscovery dans le journal d’audit
@@ -766,6 +774,8 @@
       href: delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md
     - name: Augmenter le quota des éléments récupérables pour les boîtes aux lettres placées en conservation
       href: increase-the-recoverable-quota-for-mailboxes-on-hold.md
+    - name: Résoudre les erreurs de mise en suspens de la découverte électronique
+      href: hold-distribution-errors.md
     - name: Conserver les destinataires Cci et les destinataires de groupe de distribution étendue
       href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
 - name: Gérer les stratégies d’audit et d’alerte
