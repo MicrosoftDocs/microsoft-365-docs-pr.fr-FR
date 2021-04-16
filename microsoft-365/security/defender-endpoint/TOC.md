@@ -9,7 +9,7 @@
 ### [Vue d’ensemble du Centre de sécurité Microsoft Defender](use.md)
 ### [Vue d’ensemble du portail](portal-overview.md)
 ### [Microsoft Defender pour point de terminaison pour les clients du gouvernement des États-Unis](gov.md)
-### [Microsoft Defender pour point de terminaison pour les plateformes non Windows](non-windows.md)
+### [Microsoft Defender pour point de terminaison sur les plateformes non Windows](non-windows.md)
 
 ## [Évaluer les fonctionnalités](evaluation-lab.md)
 
@@ -85,6 +85,65 @@
 ##### [Personnaliser les règles de réduction de la surface d’attaque](customize-attack-surface-reduction.md)
 ##### [Afficher les événements de la réduction de la surface d’attaque](event-views.md)
 
+### Protection de nouvelle génération
+#### [Vue d’ensemble de l’antivirus Microsoft Defender](microsoft-defender-antivirus-in-windows-10.md)
+#### [Antivirus Microsoft Defender sur Windows Server](microsoft-defender-antivirus-on-windows-server.md)
+#### [Mieux ensemble : Antivirus Microsoft Defender et Microsoft Defender pour point de terminaison](why-use-microsoft-defender-antivirus.md)
+#### [Mieux ensemble : Antivirus Microsoft Defender et Office 365](office-365-microsoft-defender-antivirus.md)
+#### [Protection par le cloud et antivirus Microsoft Defender](cloud-protection-microsoft-defender-antivirus.md)
+#### [Évaluer l’antivirus Microsoft Defender](evaluate-microsoft-defender-antivirus.md)
+#### [Configurer les fonctionnalités antivirus Microsoft Defender](configure-microsoft-defender-antivirus-features.md)
+##### [Activer la protection par le cloud](enable-cloud-protection-microsoft-defender-antivirus.md)
+##### [Spécifier le niveau de protection pour le cloud](specify-cloud-protection-level-microsoft-defender-antivirus.md)
+##### [Configurer et valider les connexions réseau à un antivirus Microsoft Defender](configure-network-connections-microsoft-defender-antivirus.md)
+##### [Protéger les paramètres de sécurité avec la protection contre la falsifiation](prevent-changes-to-security-settings-with-tamper-protection.md)
+##### [ Activer le bloquage à première vue](configure-block-at-first-sight-microsoft-defender-antivirus.md)
+##### [Configurer le délai de blocage du cloud](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md)
+##### [Configurer la protection comportementale, heuristique et en temps réel.](configure-protection-features-microsoft-defender-antivirus.md)
+##### [Détecter et bloquer des applications potentiellement indésirables](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)
+##### [Activer et configurer la protection antivirus Microsoft Defender pour qu’il soit toujours activé dans les stratégies de groupe](configure-real-time-protection-microsoft-defender-antivirus.md)
+##### [Configurer la correction pour la détection d’antivirus Microsoft Defender](configure-remediation-microsoft-defender-antivirus.md)
+##### [Configurer des analyses antivirus Microsoft Defender rapides ou complètes](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
+##### [Utilisez une analyse périodique limitée dans Antivirus Microsoft Defender](limited-periodic-scanning-microsoft-defender-antivirus.md)
+#### [Compatibilité avec d’autres produits de sécurité](microsoft-defender-antivirus-compatibility.md)
+
+#### [Obtenir votre antivirus et vos mises à jour anti-programmes malveillants](manage-updates-baselines-microsoft-defender-antivirus.md)
+##### [Gérer les sources des mises à jour de la protection antivirus Microsoft Defender](manage-protection-updates-microsoft-defender-antivirus.md)
+##### [Gérer le calendrier de téléchargement et d’application des mises à jour de protection](manage-protection-update-schedule-microsoft-defender-antivirus.md)
+##### [Gérer les mises à jour de l'antivirus Microsoft Defender et les analyses des points de terminaison qui ne sont pas à jour](manage-outdated-endpoints-microsoft-defender-antivirus.md)
+##### [Gérer les mises à jour forcées en fonction des événements](manage-event-based-updates-microsoft-defender-antivirus.md)
+##### [Gérer les mises à jour pour les appareils mobiles et les machines virtuelles](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
+
+#### [Gérer l’antivirus Microsoft Defender pour votre organisation](configuration-management-reference-microsoft-defender-antivirus.md)
+##### [Utiliser Microsoft Endpoint Manager pour gérer l’antivirus Microsoft Defender](use-intune-config-manager-microsoft-defender-antivirus.md)
+##### [Utiliser les paramètres de stratégie de groupe pour gérer l’antivirus Microsoft Defender](use-group-policy-microsoft-defender-antivirus.md)
+##### [Utiliser des cmdlets PowerShell pour gérer l’antivirus Microsoft Defender](use-powershell-cmdlets-microsoft-defender-antivirus.md)
+##### [Utiliser Windows Management Instrumentation ( WMI) pour gérer l’antivirus Microsoft Defender](use-wmi-microsoft-defender-antivirus.md)
+##### [Utiliser l’outil mpcmdrun.exe pour gérer l’antivirus Microsoft Defender](command-line-arguments-microsoft-defender-antivirus.md)
+
+#### [Déployer et signaler sur l’antivirus Microsoft Defender](deploy-manage-report-microsoft-defender-antivirus.md)
+##### [Déployer et activer l’antivirus Microsoft Defender](deploy-microsoft-defender-antivirus.md)
+##### [Guide de déploiement de l’antivirus Microsoft Defender dans un environnement VDI (Virtual Desktop Infrastructure)](deployment-vdi-microsoft-defender-antivirus.md)
+##### [Signaler sur l’antivirus Microsoft Defender](report-monitor-microsoft-defender-antivirus.md)
+
+#### [Analyses et correction](review-scan-results-microsoft-defender-antivirus.md)
+##### [Configurer et exécuter des analyses à la demande avec l’antivirus Microsoft Defender](run-scan-microsoft-defender-antivirus.md).
+##### [Exécuter et examiner les résultats d’une analyse en mode Microsoft Defender hors ligne](microsoft-defender-offline.md)
+##### [Configurer les options d’analyse de l’antivirus Microsoft Defender](configure-advanced-scan-types-microsoft-defender-antivirus.md)
+##### [Restaurer des fichiers mis en quarantaine dans l’antivirus Microsoft Defender](restore-quarantined-files-microsoft-defender-antivirus.md)
+
+#### [Exclusions de l’antivirus Microsoft Defender](configure-exclusions-microsoft-defender-antivirus.md)
+##### [Exclusions basées sur l’extension de fichier et l’emplacement du dossier](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
+##### [Exclusions pour les fichiers ouverts par les processus](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
+##### [Exclusions pour Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
+##### [Erreurs courantes à éviter lors de la définition d’exclusions](common-exclusion-mistakes-microsoft-defender-antivirus.md)
+
+#### Résolution des problèmes de l’antivirus Microsoft Defender
+##### [Résoudre des problèmes de rapports antivirus Microsoft Defender dans Conformité de la mise à jour](troubleshoot-reporting.md)
+##### [Consulter les journaux d'événements et les codes d'erreur pour résoudre les problèmes liés à l'antivirus Microsoft Defender.](troubleshoot-microsoft-defender-antivirus.md)
+##### [Résoudre des problèmes de l’antivirus Microsoft Defender lors de la migration à partir d’une solution tierce](troubleshoot-microsoft-defender-antivirus-when-migrating.md)
+
+
 #### [Isolation basée sur le matériel]()
 ##### [Isolation basée sur le matériel dans Windows 10](overview-hardware-based-isolation.md)
 
@@ -115,10 +174,17 @@
 ##### [Activer l’accès contrôlé aux dossiers](enable-controlled-folders.md)
 ##### [Personnaliser l’accès contrôlé aux dossiers](customize-controlled-folders.md)
 
+
+### [Découverte d’appareils]()
+#### [Vue d’ensemble de la découverte d’appareils](device-discovery.md)
+#### [Configurer la découverte d’appareils](configure-device-discovery.md)
+#### [Forum aux questions sur la découverte d’appareils](device-discovery-faq.md)
+
+
 ### [Appareils de réseau](network-devices.md)
 
-### [Microsoft Defender pour point de terminaison Mac]()
-#### [Vue d’ensemble de Microsoft Defender pour point de terminaison Mac](microsoft-defender-endpoint-mac.md)
+### [Microsoft Defender pour point de terminaison macOS]()
+#### [Vue d’ensemble de Microsoft Defender pour point de terminaison macOS](microsoft-defender-endpoint-mac.md)
 #### [Nouveautés](mac-whatsnew.md)
 
 #### [Déployer]()

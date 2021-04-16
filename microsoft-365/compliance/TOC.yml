@@ -301,7 +301,7 @@
               href: how-dlp-works-between-admin-centers.md
             - name: Configurez et affichez les alertes pour les stratégies DLP (préversion)
               href: dlp-configure-view-alerts-policies.md
-            - name: Utiliser des étiquettes de confidentialité comme condition dans les stratégies de protection contre la perte de données (préversion)
+            - name: Utiliser des étiquettes de confidentialité comme condition dans les stratégies de protection contre la perte de données
               href: dlp-sensitivity-label-as-condition.md
             - name: Utilisation de stratégies de protection contre la perte de données pour les applications cloud non-Microsoft
               href: dlp-use-policies-non-microsoft-cloud-apps.md
@@ -385,8 +385,12 @@
           items:
             - name: CellTrust
               href: archive-celltrust-data.md
-            - name: Cisco Jabber
+            - name: Cisco Jabber sur MS SQL
               href: archive-ciscojabberonmssql-data.md
+            - name: Cisco Jabber sur Oracle (préversion)
+              href: archive-ciscojabberonoracle-data.md
+            - name: Cisco Jabber sur PostgreSQL (préversion)
+              href: archive-ciscojabberonpostgresql-data.md
             - name: EML
               href: archive-eml-data.md
             - name: FX Connect
