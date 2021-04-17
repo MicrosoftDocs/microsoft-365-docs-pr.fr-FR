@@ -1,0 +1,213 @@
+### YamlMime:FAQ
+metadata:
+  title: FAQ sur le chiffrement des messages
+  f1.keywords:
+  - NOCSH
+  ms.author: krowley
+  author: kccross
+  manager: laurawi
+  ms.date: 05/22/2020
+  audience: ITPro
+  ms.topic: overview
+  ms.service: O365-seccomp
+  localization_priority: Normal
+  search.appverid:
+  - MET150
+  ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
+  description: Vous avez une question sur le fonctionnement des nouvelles fonctionnalités de protection des messages ? Recherchez une réponse ici.
+  ms.custom: seo-marvel-apr2020
+  ms.openlocfilehash: 9a64866f7956e9b18b9e25c57431bf0855148ec8
+  ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 04/16/2021
+  ms.locfileid: "51876765"
+title: FAQ sur le chiffrement des messages
+summary: >
+  Vous avez une question sur le fonctionnement des nouvelles fonctionnalités de protection des messages ? Recherchez une réponse ici. En outre, jetez un œil aux questions fréquemment posées sur la protection des données dans [Azure Information Protection](/information-protection/get-started/faqs-rms) pour obtenir des réponses aux questions sur le service de protection des données, Azure Rights Management, dans Azure Information Protection.
+sections:
+- name: Ignoré
+  questions:
+  - question: Qu'est-ce que le chiffrement de messages Office 365 (OME) ?
+    answer: OME combine le chiffrement de courrier électronique et les fonctionnalités de gestion des droits. Les fonctionnalités de gestion des droits sont optimisées par Azure Information Protection.
+  - question: >
+      Qui peut utiliser OME ?
+    answer: "Vous pouvez utiliser les nouvelles fonctionnalités pour OME dans les conditions suivantes :\n  \n- Si vous n'avez jamais installé OME ou IRM pour Exchange Online dans Office 365.\n\n- Si vous avez installé OME et IRM, vous pouvez suivre ces étapes si vous utilisez le service Azure Rights Management d'Azure Information Protection.\n\n- Si vous utilisez Exchange Online avec le service AD RMS (Active Directory Rights Management), vous ne pouvez pas activer ces nouvelles fonctionnalités immédiatement. Au lieu de cela, vous devez [d'abord migrer AD RMS vers Azure Information Protection.](/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms) Une fois la migration terminée, vous pouvez configurer OME.\n\n  Si vous choisissez de continuer à utiliser AD RMS local avec Exchange Online au lieu de migrer vers Azure Information Protection, vous ne pourrez pas utiliser ces nouvelles fonctionnalités.\n"
+  - question: >
+      De quels abonnements ai-je besoin pour utiliser les nouvelles fonctionnalités OME ?
+    answer: "Pour utiliser les nouvelles fonctionnalités OME, vous avez besoin de l'un des plans suivants :\n  \n- Le chiffrement de messages Office 365 est proposé dans le cadre d'Office 365 Entreprise E3 et E5, Microsoft Entreprise E3 et E5, Microsoft 365 Business Premium, Office 365 A1, A3 et A5 et Office 365 Secteur Public G3 et G5. Les clients n'ont pas besoin de licences supplémentaires pour recevoir les nouvelles fonctionnalités de protection optimisées par Azure Information Protection.\n\n- Vous pouvez également ajouter Azure Information Protection Plan 1 aux plans suivants pour recevoir les nouvelles fonctionnalités de chiffrement de messages Office 365 : Exchange Online Plan 1, Exchange Online Plan 2, Office 365 F1, Microsoft 365 Business Basic, Microsoft 365 Business Standard ou Office 365 Entreprise E1.\n\n- Chaque utilisateur bénéficiant du chiffrement de messages Office 365 doit être titulaire d'une licence pour être couvert par la fonctionnalité.\n\n- Pour obtenir la liste complète, consultez les [descriptions du service Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) pour le chiffrement de messages Office 365.\n"
+  - question: >
+      Puis-je utiliser Exchange Online avec votre propre clé (BYOK) dans Azure Information Protection ?
+    answer: "Oui. Microsoft vous recommande d'effectuer les étapes de la mise en place de BYOK avant de configurer OME.\n  \nPour plus d'informations sur BYOK, voir Planification et mise en œuvre de votre clé [de client Azure Information Protection.](/information-protection/plan-design/plan-implement-tenant-key)\n  \n"
+  - question: >
+      OME et BYOK avec Azure Information Protection modifient-ils l'approche de Microsoft pour les demandes de données tierces, telles que les demandes d'accès ?
+    answer: "Non. OME et l'option de fournir et de contrôler vos propres clés de chiffrement, appelées BYOK, à partir d'Azure Information Protection n'ont pas été conçues pour répondre aux forces de l'ordre. OME, avec BYOK pour Azure Information Protection, a été conçu pour les clients axés sur la conformité. Microsoft prend au sérieux les demandes tierces pour les données client. En tant que fournisseur de services cloud, nous prônons toujours la confidentialité des données client. Dans le cas où nous obtenons une information, nous essayons toujours de rediriger le tiers vers le client pour obtenir les informations. (Lisez le blog de Brad Smith : Protection des données client contre [les espions du gouvernement).](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/) Nous publions régulièrement des informations détaillées sur la demande que nous recevons. Pour plus d'informations sur les [](https://www.microsoft.com/trustcenter/privacy/govt-requests-for-data) demandes de données tierces, voir Répondre aux demandes gouvernementales et d'application de la loi pour accéder aux données client sur le Centre de gestion de la confiance Microsoft. Voir également « Divulgation des données client » dans les conditions d'utilisation des services en ligne [(OST).](https://www.microsoft.com/Licensing/product-licensing/products.aspx)\n  \n"
+  - question: >
+      Comment cette fonctionnalité est-elle liée aux fonctionnalités héritées de chiffrement de messages Office 365 (OME) et de gestion des droits relatifs à l'information (IRM) ?
+    answer: "Les nouvelles fonctionnalités de chiffrement de messages Office 365 sont une évolution des solutions IRM et OME héritées existantes. Le tableau suivant fournit plus de détails.\n  \n**Comparaison des fonctionnalités OME, IRM et nouvelles fonctionnalités OME héritées**\n\n| Fonctionnalité | Versions précédentes d'OME | IRM | Nouvelles fonctionnalités OME |\n|:-----|:-----|:-----|:-----|\n|**Envoi d'un e-mail chiffré**|Uniquement par le biais de règles de flux de messagerie Exchange|Utilisateur final initié à partir d'Outlook pour Windows, Outlook pour Mac ou Outlook sur le web ; ou via des règles de flux de messagerie Exchange|Utilisateur final initié à partir d'Outlook pour Windows, d'Outlook pour Mac ou d'Outlook sur le web ; ou via des règles de flux de messagerie|\n|**Gestion des droits**|-|Option Ne pas forwarder et modèles personnalisés|Option Ne pas forwarder, option chiffrer uniquement, modèles par défaut et personnalisés|\n|**Type de destinataire pris en charge**|Destinataires externes uniquement|Destinataires internes uniquement|Destinataires internes et externes|\n|**Expérience du destinataire**|Les destinataires externes ont reçu un message HTML qu'ils ont téléchargé et ouvert dans un navigateur ou une application mobile téléchargée.|Les destinataires internes n'ont reçu que du courrier chiffré dans Outlook pour Windows, Outlook pour Mac et Outlook sur le web.|Les destinataires internes et externes reçoivent des messages électroniques dans Outlook pour Windows, Outlook pour Mac, Outlook sur le web, Outlook pour Android et Outlook pour iOS, ou via un portail web, qu'ils soient dans la même organisation ou dans n'importe quelle organisation. Le portail OME ne nécessite aucun téléchargement distinct.|\n|**Prise en charge de l'apportez votre propre clé**|Non disponible|Non disponible| BYOK pris en charge|\n"
+  - question: >
+      Comment activer les nouvelles fonctionnalités OME pour mon organisation ?
+    answer: "Voir Configurer les nouvelles fonctionnalités de chiffrement de [messages Office 365.](set-up-new-message-encryption-capabilities.md)\n  \n"
+  - question: >
+      La version précédente d'OME sera-t-elle dépréciée ?
+    answer: >
+      Vous pouvez toujours utiliser la version précédente d'OME, qui n'est pas dépréciée pour le moment. Toutefois, nous encourageons vivement les organisations à utiliser la nouvelle solution OME améliorée. Les clients qui n'ont pas encore déployé OME ne peuvent pas configurer un nouveau déploiement de la version précédente d'OME.
+  - question: >
+      Mon organisation utilise la Gestion des droits Active Directory, puis-je utiliser cette fonctionnalité ?
+    answer: "Non. Si vous utilisez Exchange Online avec le service AD RMS (Active Directory Rights Management), vous ne pouvez pas activer ces nouvelles fonctionnalités immédiatement. Au lieu de cela, vous devez [d'abord migrer AD RMS vers Azure Information Protection.](/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)\n  \n"
+  - question: >
+      Mon organisation dispose d'un déploiement Hybride Exchange. Puis-je utiliser cette fonctionnalité ?
+    answer: "Les utilisateurs locaux peuvent envoyer des messages chiffrés à l'aide de règles de flux de messagerie Exchange Online. Pour ce faire, vous devez router le courrier électronique via Exchange Online. Pour plus d'informations, voir Partie 2 : Configurer le flux de messagerie de votre serveur de messagerie [vers Microsoft 365.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-2-configure-mail-to-flow-from-your-email-server-to-office-365)\n  \n"
+  - question: >
+      Quel client de messagerie dois-je utiliser pour créer un message chiffré OME ? Quelles applications sont pris en charge pour l'envoi de messages protégés ?
+    answer: "Vous pouvez créer des messages protégés à partir d'Outlook 2016, d'Outlook 2013 pour Windows et Mac et d'Outlook sur le web. Pour plus d'informations sur l'envoi de messages chiffrés, voir Envoyer, afficher et répondre à des messages chiffrés [dans Outlook pour PC.](https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980?ui=en-us&rs=en-us&ad=us)\n  \n"
+  - question: >
+      Quels clients de messagerie sont pris en charge pour lire et répondre aux e-mails protégés ?
+    answer: >
+      Les utilisateurs de Microsoft 365 peuvent lire et répondre à partir d'Outlook pour Windows et Mac (2013 et 2016), Outlook sur le web et Outlook Mobile (Android et iOS). Vous pouvez également utiliser le client de messagerie natif iOS si votre organisation l'autorise. Si vous n'êtes pas un utilisateur de Microsoft 365, vous pouvez lire et répondre à des messages chiffrés sur le web via votre navigateur web.
+  - question: >
+      Quels clients de messagerie électronique supportent les e-mails protégés uniquement par chiffrement ?
+    answer: >
+      Les utilisateurs de Microsoft 365 peuvent utiliser Outlook pour PC versions 2019 et Microsoft 365 pour créer des messages protégés par la stratégie de chiffrement uniquement.  Cela signifie que les messages pour qui la nouvelle stratégie de chiffrement uniquement est appliquée peuvent être lus directement dans Outlook sur le web, dans Outlook pour iOS et Android, et maintenant Outlook pour PC versions 2019 et Microsoft 365.
+  - question: >
+      Existe-t-il une limite de taille pour les messages que vous pouvez envoyer avec OME ?
+    answer: >
+      Oui. La taille maximale des messages que vous pouvez envoyer avec OME, pièces jointes compris, est de 25 Mo. Pour plus d'informations, voir [Limites des messages.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits-1)
+  - question: >
+      Quels types de fichiers sont pris en charge en tant que pièces jointes dans les e-mails protégés ? Les pièces jointes héritent-ils des stratégies de protection associées aux e-mails protégés ?
+    answer: "Vous pouvez joindre n'importe quel type de fichier à un courrier protégé. À une exception près, les stratégies de protection sont appliquées uniquement aux formats de fichiers mentionnés dans les types de fichiers pris en charge par [le client Azure Information Protection](/information-protection/rms-client/client-admin-guide-file-types). OME ne prend pas en charge les versions 97-2003 des programmes Office suivants : Word (.doc), Excel (.xls) et PowerPoint (.ppt).\n\nSi un format de fichier est pris en charge, tel qu'un fichier Word, Excel ou PowerPoint, le fichier est toujours protégé, même après le téléchargement de la pièce jointe par le destinataire. Par exemple, dire qu'une pièce jointe est protégée par Ne pas avancer. Le destinataire d'origine télécharge le fichier, crée un message à un nouveau destinataire et joint le fichier. Lorsque le nouveau destinataire reçoit le fichier, il ne peut pas ouvrir le fichier protégé.\n  \n"
+  - question: >
+      Les pièces jointes pdf sont-elles pris en charge ?
+    answer: >
+      La réponse courte est oui ! S'il est activé, le chiffrement PDF vous permet de protéger les documents PDF sensibles par le biais d'une communication sécurisée ou d'une collaboration sécurisée. Lorsque vous envoyez un courrier électronique, le service Office 365 chiffre les pièces jointes au format PDF. Le client Outlook ne chiffre pas les pièces jointes au fichier PDF.
+
+
+      Pour Outlook sur le web, Outlook pour iOS et Outlook pour Android, vous pouvez chiffrer les fichiers PDF que vous envoyez sans aucune étape. Ces clients supportent en natif le chiffrement PDF.
+
+
+      Le bureau Outlook ne prend pas en charge en natif le chiffrement des pièces jointes au format PDF. Au lieu de cela, vous devez configurer des règles de flux de messagerie Exchange ou la DLP pour appliquer d'abord le chiffrement aux pièces jointes PDF. Lorsque vous envoyez des messages à partir d'Outlook Desktop avec une pièce jointe PDF, le client envoie d'abord le message avec la pièce jointe au service. Lorsque le service reçoit le fichier, il applique la protection OME de la stratégie de protection contre la perte de données (DLP) ou de la règle de flux de messagerie dans Exchange Online. Ensuite, Exchange Online envoie le message avec la pièce jointe au fichier PDF protégé.
+
+
+      Pour activer le chiffrement pour les pièces jointes PDF, exécutez la commande suivante [dans Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell):
+
+
+      ```powershell
+
+      Set-IRMConfiguration -EnablePdfEncryption $true
+
+      ```
+
+
+      Le chiffrement PDF vous permet de protéger les documents PDF sensibles par le biais d'une communication sécurisée ou d'une collaboration sécurisée. Pour tous les clients Outlook, les messages et les pièces jointes PDF non protégées héritent de la protection OME de la stratégie de protection contre la perte de données (DLP) ou de la règle de flux de messagerie dans Exchange Online. En outre, si un utilisateur d'Outlook sur le web joint un document PDF non protégé et applique une protection au message, le message hérite de la protection du message. Les utilisateurs peuvent uniquement ouvrir les pièces jointes chiffrées dans les applications qui prendre en charge les fichiers PDF protégés (par exemple, le portail OME et la visionneuse Azure Information Protection).
+
+
+      > [!IMPORTANT]
+
+      > Le client de bureau Outlook ne prend pas en charge le chiffrement PDF.
+  - question: >
+      Les pièces jointes OneDrive Entreprise sont-elles pris en charge ?
+    answer: >
+      Not yet. Les pièces jointes OneDrive Entreprise ne sont pas pris en charge et les utilisateurs finaux ne peuvent pas chiffrer un message contenant une pièce jointe OneDrive Entreprise dans le cloud.
+  - question: >
+      Quels clients de messagerie peuvent prévisualiser les pièces jointes chiffrées dans les e-mails protégés ?
+    answer: "Lorsque les pièces jointes sont protégées par un courrier protégé, les clients Outlook offrent la possibilité d'afficher un aperçu du document directement. Outlook prend en charge l'aperçu des documents Office (docx, xlsx, pptx, doc, xls, ppt). Outlook sur le web prend en charge l'aperçu des documents Office (docx, xlsx, pptx) et PDF.  \n"
+  - question: >
+      Quels clients de messagerie supportent la révocation des e-mails protégés ?
+    answer: >
+      Outlook sur le web prend en charge la révocation du courrier protégé.  Voir [comment révoquer un message chiffré que vous avez envoyé pour](revoke-ome-encrypted-mail.md#how-to-revoke-an-encrypted-message-that-you-sent) plus d'informations.
+  - question: >
+      Puis-je chiffrer automatiquement les messages en mettant en place des stratégies ?
+    answer: "Oui. Utilisez des règles de flux de messagerie dans Exchange Online pour chiffrer automatiquement un message en fonction de certaines conditions. Par exemple, vous pouvez créer des stratégies basées sur l'ID du destinataire, le domaine du destinataire ou sur le contenu du corps ou de l'objet du message. Voir [Définir des règles de flux de messagerie pour chiffrer les messages électroniques dans Office 365.](define-mail-flow-rules-to-encrypt-email.md)\n  \n"
+  - question: >
+      Puis-je supprimer automatiquement le chiffrement des messages entrants et sortants ?
+    answer: >
+      Les administrateurs peuvent configurer une règle de flux de messagerie pour supprimer le chiffrement du courrier sortant. Vous ne pouvez pas configurer une règle pour supprimer le chiffrement du courrier entrant.
+  - question: >
+      Puis-je chiffrer automatiquement les messages en mettant en place des stratégies dans la protection contre la perte de données (DLP) via le Centre de conformité &amp; de sécurité ?
+    answer: >
+      Oui. Vous pouvez configurer des règles de flux de messagerie dans Exchange Online ou à l'aide de DLP dans le Centre de &amp; conformité de sécurité.
+  - question: >
+      Puis-je personnaliser les messages chiffrés avec la marque de mon entreprise ?
+    answer: "Oui. Pour plus d'informations sur la personnalisation des messages électroniques et du portail OME, voir Ajouter la marque de votre organisation à vos messages chiffrés. Voir [Ajouter la marque de votre organisation à vos messages chiffrés.](add-your-organization-brand-to-encrypted-messages.md)\n  \n"
+  - question: >
+      Existe-t-il des fonctionnalités de rapport ou des informations pour les e-mails chiffrés ?
+    answer: "Il existe un rapport de chiffrement dans le Centre de sécurité et conformité. Consultez [les rapports de sécurité du courrier électronique dans le Centre de sécurité & conformité.](../security/office-365-security/view-email-security-reports.md)\n  \n"
+  - question: >
+      Puis-je utiliser le chiffrement des messages avec des fonctionnalités de conformité telles qu'eDiscovery ?
+    answer: >
+      Oui. Tous les messages électroniques chiffrés sont découvrables par les fonctionnalités de conformité de Microsoft 365.
+  - question: >
+      Puis-je supprimer le chiffrement du courrier électronique ?
+    answer: >
+      Les administrateurs peuvent configurer une règle de flux de messagerie pour supprimer le chiffrement. Vous ne pouvez pas supprimer le chiffrement à l'aide d'une règle de flux de messagerie appliquée par une autre organisation, sauf si le courrier est chiffré à l'aide d'une protection de chiffrement uniquement.
+  - question: >
+      L'accès délégué est-il pris en charge ?
+    answer: >
+      Pas pour le moment.
+  - question: >
+      Puis-je envoyer en tant que boîte aux lettres partagée et chiffrer des e-mails ?
+    answer: >
+      Lorsqu'une personne envoie un message électronique qui correspond à une règle de flux de messagerie de chiffrement, le message est chiffré avant d'être envoyé.
+  - question: >
+      Puis-je ouvrir des messages chiffrés envoyés à une boîte aux lettres partagée ?
+    answer: >
+      Oui. Les messages chiffrés sont pris en charge pour une boîte aux lettres partagée.
+
+
+      - Les utilisateurs peuvent ouvrir des messages protégés dans une boîte aux lettres partagée dans laquelle la boîte aux lettres partagée a reçu un courrier protégé dans le cadre d'un groupe de distribution.
+
+
+      - Les utilisateurs peuvent afficher les pièces jointes qui héritent de la protection de la messagerie lorsqu'ils utilisent Outlook pour Windows, Outlook pour Mac et Outlook sur le web.
+
+
+      Le tableau suivant répertorie les clients pris en charge pour les boîtes aux lettres partagées.
+
+
+      | Plateforme | Lire le courrier électronique | Afficher les pièces jointes d'e-mail |
+
+      |----------|-----------|------------------------|
+
+      | Outlook sur le web | Oui | Oui                |
+
+      | Outlook pour Windows| Oui | Oui                |
+
+      | Outlook pour Mac    | Oui | Oui                |
+
+      | Outlook pour Android| Oui | Non                 |
+
+      | Outlook pour iOS    | Oui | Non                 |
+
+      |
+
+
+      Il existe actuellement deux limitations connues :
+
+
+      - Vous ne pouvez pas ouvrir les pièces jointes aux e-mails que vous recevez sur des appareils mobiles à l'aide d'Outlook Mobile.
+
+
+      - L'affectation n'est pas prise en charge par le biais d'un groupe de sécurité à messagerie. Nous 5 000 utilisateurs ne donnent accès qu'à l'affectation directe de l'utilisateur à la boîte aux lettres partagée et le mappage automatique est activé pour Exchange Online. Le mappage automatique est activé par défaut pour Exchange Online.
+
+
+      **Pour affecter un utilisateur à la boîte aux lettres partagée**
+
+
+      1. [Connectez-vous à Exchange Online à l'aide de Remote PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?v=exchg.150).aspx).
+
+
+      2. Exécutez lAdd-MailboxPermission cmdlet avec le paramètre de mappage automatique. Cet exemple accorde à Ayla des autorisations d'accès total à une boîte aux lettres de support.
+
+         ```powershell
+         Add-MailboxPermission -Identity support@contoso.onmicrosoft.com -User ayla@contoso.com -AccessRights FullAccess -AutoMapping $true
+         ```
+  - question: >
+      Puis-je ouvrir des messages chiffrés envoyés à la boîte aux lettres d'un autre utilisateur avec Fullaccess ?
+    answer: >
+      Les utilisateurs peuvent ouvrir des messages chiffrés tant qu'ils ont un accès direct et que le mappage automatique est allumé. L'accès n'est pas autorisé si l'accès est accordé via un groupe de sécurité à messagerie.
+  - question: >
+      Que faire si je ne reçois pas le code de passe à temps partiel après l'avoir demandé ?
+    answer: >-
+      Tout d'abord, vérifiez le dossier courrier indésirable ou indésirable dans votre client de messagerie. Les paramètres DKIM et DMARC de votre organisation peuvent entraîner le filtrage de ces messages électroniques comme courrier indésirable.
+
+
+      Ensuite, vérifiez la quarantaine dans le Centre de sécurité & conformité. Souvent, les messages contenant un code de passe à temps partiel, en particulier les premiers que votre organisation reçoit, sont mis en quarantaine.
