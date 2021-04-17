@@ -222,6 +222,7 @@
 
 ### [Microsoft Defender pour point de terminaison iOS]()
 #### [Vue d’ensemble de Microsoft Defender pour point de terminaison iOS](microsoft-defender-endpoint-ios.md)
+#### [Nouveautés](ios-whatsnew.md)
 
 #### [Déployer]()
 ##### [Déployer Microsoft Defender pour point de terminaison iOS via Intune](ios-install.md)
@@ -631,4 +632,5 @@
 ##### [Migrer vers des règles de réduction de la surface d’attaque](migrating-asr-rules.md)
 
 # [Microsoft 365 Defender](../index.yml)
-# [Defender pour Office 365](../office-365-security/overview.md)
+# [Defender pour Office 365](../office-365-security/index.yml)
+# [Defender pour l’identité](https://docs.microsoft.com/defender-for-identity/)
