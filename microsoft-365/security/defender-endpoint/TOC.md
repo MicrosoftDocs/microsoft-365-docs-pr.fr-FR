@@ -140,6 +140,7 @@
 
 #### Résolution des problèmes de l’antivirus Microsoft Defender
 ##### [Résoudre des problèmes de rapports antivirus Microsoft Defender dans Conformité de la mise à jour](troubleshoot-reporting.md)
+##### [Résoudre des problèmes de performance](troubleshoot-performance-issues.md)
 ##### [Consulter les journaux d'événements et les codes d'erreur pour résoudre les problèmes liés à l'antivirus Microsoft Defender.](troubleshoot-microsoft-defender-antivirus.md)
 ##### [Résoudre des problèmes de l’antivirus Microsoft Defender lors de la migration à partir d’une solution tierce](troubleshoot-microsoft-defender-antivirus-when-migrating.md)
 
@@ -249,6 +250,7 @@
 ##### [Détecter et bloquer des applications potentiellement indésirables](linux-pua.md)
 ##### [Planifier des analyses avec Microsoft Defender pour point de terminaison Linux](linux-schedule-scan-atp.md)
 ##### [Planifier une mise à jour de Microsoft Defender pour point de terminaison (Linux)](linux-update-MDE-Linux.md)
+##### [Microsoft Defender pour point de terminaison Linux](linux-deploy-defender-for-endpoint-with-chef.md)
 
 #### [Résoudre des problèmes]()
 ##### [Résoudre des problèmes d’installation](linux-support-install.md)
