@@ -23,6 +23,8 @@
           href: service-description/device-requirements.md
         - name: Images d’un appareil
           href: service-description/device-images.md
+        - name: Noms de l’appareil
+          href: service-description/device-names.md
         - name: Appareils du programme
           href: service-description/device-list.md
           items:
@@ -83,6 +85,8 @@
           href: get-ready/mapped-drives.md
         - name: Préparer les ressources d’impression
           href: get-ready/printing.md
+        - name: Noms des appareils d’adresse
+          href: get-ready/address-device-names.md
     - name: Prise en main du Bureau géré Microsoft
       href: get-started/index.md
       items:
@@ -157,6 +161,8 @@
           href: working-with-managed-desktop/work-with-app-control.md
         - name: Modifier un profil d’appareil
           href: working-with-managed-desktop/change-device-profile.md
+        - name: Supprimer des appareils
+          href: working-with-managed-desktop/remove-devices.md
         - name: Paramètres configurables
           href: working-with-managed-desktop/config-setting-overview.md
           items:

@@ -29,6 +29,7 @@
         - name: Stratégies MCAS recommandées pour les applications SaaS
           href: ./office-365-security/mcas-saas-access-policies.md
     - name: "Microsoft\_365\_Defender"
+      href: ./defender/index.yml
       items:
         - name: Vue d’ensemble
           items:

@@ -175,6 +175,9 @@
 ##### [Activer l’accès contrôlé aux dossiers](enable-controlled-folders.md)
 ##### [Personnaliser l’accès contrôlé aux dossiers](customize-controlled-folders.md)
 
+#### [Contrôle des appareils]()
+##### [Rapports sur le contrôle des appareils](device-control-report.md)
+##### [Contrôler les périphériques USB](control-usb-devices-using-intune.md)
 
 ### [Découverte d’appareils]()
 #### [Vue d’ensemble de la découverte d’appareils](device-discovery.md)
