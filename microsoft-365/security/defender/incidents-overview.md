@@ -1,7 +1,7 @@
 ---
 title: Incidents dans Microsoft 365 Defender
-description: Enquêter sur les incidents détectés entre les appareils, les utilisateurs et les boîtes aux lettres.
-keywords: incidents, alertes, enquêter, corrélation, attaque, machines, appareils, utilisateurs, identités, identité, boîte de réception, e-mail, 365, microsoft, m365
+description: Examinez les incidents rencontrés sur les appareils, les utilisateurs et les boîtes aux lettres dans le Centre de sécurité Microsoft 365.
+keywords: incidents, alertes, examiner, analyser, réponse, corrélation, attaque, ordinateurs, appareils, utilisateurs, identités, identité, boîte aux lettres, courrier électronique, 365, microsoft, m365
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,92 +22,151 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e1e028f7b58df07eccf945b3a79012b4ea12366d
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 890e64367c49c24c8c70e2cbda9869a5d0797219
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861622"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939583"
 ---
-# <a name="incidents-in-microsoft-365-defender"></a><span data-ttu-id="9dc6b-104">Incidents dans Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="9dc6b-104">Incidents in Microsoft 365 Defender</span></span>
+# <a name="incidents-in-microsoft-365-defender"></a><span data-ttu-id="218c6-104">Incidents dans Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="218c6-104">Incidents in Microsoft 365 Defender</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="9dc6b-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="9dc6b-105">**Applies to:**</span></span>
-- <span data-ttu-id="9dc6b-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="9dc6b-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="218c6-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="218c6-105">**Applies to:**</span></span>
+- <span data-ttu-id="218c6-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="218c6-106">Microsoft 365 Defender</span></span>
 
-> <span data-ttu-id="9dc6b-107">Vous voulez essayer Microsoft 365 Defender ?</span><span class="sxs-lookup"><span data-stu-id="9dc6b-107">Want to experience Microsoft 365 Defender?</span></span> <span data-ttu-id="9dc6b-108">Vous pouvez [l’évaluer dans un environnement de laboratoire](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) ou [exécuter votre projet pilote en production](m365d-pilot.md?ocid=cx-evalpilot).</span><span class="sxs-lookup"><span data-stu-id="9dc6b-108">You can [evaluate it in a lab environment](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) or [run your pilot project in production](m365d-pilot.md?ocid=cx-evalpilot).</span></span>
+> <span data-ttu-id="218c6-107">Vous voulez essayer Microsoft 365 Defender ?</span><span class="sxs-lookup"><span data-stu-id="218c6-107">Want to experience Microsoft 365 Defender?</span></span> <span data-ttu-id="218c6-108">Vous pouvez [l’évaluer dans un environnement de laboratoire](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) ou [exécuter votre projet pilote en production](m365d-pilot.md?ocid=cx-evalpilot).</span><span class="sxs-lookup"><span data-stu-id="218c6-108">You can [evaluate it in a lab environment](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) or [run your pilot project in production](m365d-pilot.md?ocid=cx-evalpilot).</span></span>
 >
 
-<span data-ttu-id="9dc6b-109">Un incident dans Microsoft 365 Defender est une collection d'alertes corrélées et de données associées qui constitue l'histoire d'une attaque.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-109">An incident in Microsoft 365 Defender is a collection of correlated alerts and associated data that make up the story of an attack.</span></span> 
+<span data-ttu-id="218c6-109">Un incident dans Microsoft 365 Defender est une collection d'alertes corrélées et de données associées qui constitue l'histoire d'une attaque.</span><span class="sxs-lookup"><span data-stu-id="218c6-109">An incident in Microsoft 365 Defender is a collection of correlated alerts and associated data that make up the story of an attack.</span></span> 
 
-<span data-ttu-id="9dc6b-110">Les applications et services Microsoft 365 créent des alertes lorsqu'ils détectent un événement ou une activité suspect ou malveillant.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-110">Microsoft 365 services and apps create alerts when they detect a suspicious or malicious event or activity.</span></span> <span data-ttu-id="9dc6b-111">Les alertes individuelles fournissent des indices précieux sur une attaque terminée ou en cours.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-111">Individual alerts provide valuable clues about a completed or ongoing attack.</span></span> <span data-ttu-id="9dc6b-112">Toutefois, les attaques utilisent généralement différentes techniques pour différents types d'entités, telles que les appareils, les utilisateurs et les boîtes aux lettres.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-112">However, attacks typically employ various techniques against different types of entities, such as devices, users, and mailboxes.</span></span> <span data-ttu-id="9dc6b-113">Le résultat est plusieurs alertes pour plusieurs entités dans votre client.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-113">The result is multiple alerts for multiple entities in your tenant.</span></span> 
+<span data-ttu-id="218c6-110">Les applications et services Microsoft 365 créent des alertes lorsqu'ils détectent un événement ou une activité suspect ou malveillant.</span><span class="sxs-lookup"><span data-stu-id="218c6-110">Microsoft 365 services and apps create alerts when they detect a suspicious or malicious event or activity.</span></span> <span data-ttu-id="218c6-111">Les alertes individuelles fournissent des indices précieux sur une attaque terminée ou en cours.</span><span class="sxs-lookup"><span data-stu-id="218c6-111">Individual alerts provide valuable clues about a completed or ongoing attack.</span></span> <span data-ttu-id="218c6-112">Toutefois, les attaques utilisent généralement différentes techniques pour différents types d'entités, telles que les appareils, les utilisateurs et les boîtes aux lettres.</span><span class="sxs-lookup"><span data-stu-id="218c6-112">However, attacks typically employ various techniques against different types of entities, such as devices, users, and mailboxes.</span></span> <span data-ttu-id="218c6-113">Le résultat est plusieurs alertes pour plusieurs entités dans votre client.</span><span class="sxs-lookup"><span data-stu-id="218c6-113">The result is multiple alerts for multiple entities in your tenant.</span></span> 
 
-<span data-ttu-id="9dc6b-114">Étant donné que l'agrégation des alertes individuelles pour obtenir des informations sur une attaque peut être difficile et chronophage, Microsoft 365 Defender regroupe automatiquement les alertes et leurs informations associées dans un incident.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-114">Because piecing the individual alerts together to gain insight into an attack can be challenging and time-consuming, Microsoft 365 Defender automatically aggregates the alerts and their associated information into an incident.</span></span>
+<span data-ttu-id="218c6-114">Étant donné que l'agrégation des alertes individuelles pour obtenir des informations sur une attaque peut être difficile et chronophage, Microsoft 365 Defender agrège automatiquement les alertes et leurs informations associées dans un incident.</span><span class="sxs-lookup"><span data-stu-id="218c6-114">Because piecing the individual alerts together to gain insight into an attack can be challenging and time-consuming, Microsoft 365 Defender automatically aggregates the alerts and their associated information into an incident.</span></span>
 
 :::image type="content" source="../../media/incidents-overview/incidents.png" alt-text="Comment Microsoft 365 Defender met en corrélation les événements des entités avec un incident":::
 
-<span data-ttu-id="9dc6b-116">Regardez cette courte présentation des incidents dans Microsoft 365 Defender (4 minutes).</span><span class="sxs-lookup"><span data-stu-id="9dc6b-116">Watch this short overview of incidents in Microsoft 365 Defender (4 minutes).</span></span>
+<span data-ttu-id="218c6-116">Regardez cette courte présentation des incidents dans Microsoft 365 Defender (4 minutes).</span><span class="sxs-lookup"><span data-stu-id="218c6-116">Watch this short overview of incidents in Microsoft 365 Defender (4 minutes).</span></span>
 
 <br>
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bzwz?]
 
-<span data-ttu-id="9dc6b-117">Le regroupement d'alertes associées dans un incident vous offre une vue complète d'une attaque.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-117">Grouping related alerts into an incident gives you a comprehensive view of an attack.</span></span> <span data-ttu-id="9dc6b-118">Par exemple, vous pouvez voir :</span><span class="sxs-lookup"><span data-stu-id="9dc6b-118">For example, you can see:</span></span>
+<span data-ttu-id="218c6-117">Le regroupement d'alertes associées dans un incident vous offre une vue complète d'une attaque.</span><span class="sxs-lookup"><span data-stu-id="218c6-117">Grouping related alerts into an incident gives you a comprehensive view of an attack.</span></span> <span data-ttu-id="218c6-118">Par exemple, vous pouvez voir :</span><span class="sxs-lookup"><span data-stu-id="218c6-118">For example, you can see:</span></span>
 
-- <span data-ttu-id="9dc6b-119">L'endroit où l'attaque a commencé.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-119">Where the attack started.</span></span>
-- <span data-ttu-id="9dc6b-120">Quelles tactiques ont été utilisées .</span><span class="sxs-lookup"><span data-stu-id="9dc6b-120">What tactics were used.</span></span>
-- <span data-ttu-id="9dc6b-121">Jusqu'où l'attaque est passée dans votre client.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-121">How far the attack has gone into your tenant.</span></span>
-- <span data-ttu-id="9dc6b-122">Étendue de l'attaque, telle que le nombre d'appareils, d'utilisateurs et de boîtes aux lettres touchés.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-122">The scope of the attack, such as how many devices, users, and mailboxes were impacted.</span></span> 
-- <span data-ttu-id="9dc6b-123">Toutes les données associées à l'attaque.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-123">All of the data associated with the attack.</span></span>
+- <span data-ttu-id="218c6-119">Point de départ de l'attaque.</span><span class="sxs-lookup"><span data-stu-id="218c6-119">Where the attack started.</span></span>
+- <span data-ttu-id="218c6-120">Quelles tactiques ont été utilisées .</span><span class="sxs-lookup"><span data-stu-id="218c6-120">What tactics were used.</span></span>
+- <span data-ttu-id="218c6-121">Jusqu'où l'attaque est passée dans votre client.</span><span class="sxs-lookup"><span data-stu-id="218c6-121">How far the attack has gone into your tenant.</span></span>
+- <span data-ttu-id="218c6-122">Étendue de l'attaque, telle que le nombre d'appareils, d'utilisateurs et de boîtes aux lettres qui ont été touchés.</span><span class="sxs-lookup"><span data-stu-id="218c6-122">The scope of the attack, such as how many devices, users, and mailboxes were impacted.</span></span> 
+- <span data-ttu-id="218c6-123">Toutes les données associées à l'attaque.</span><span class="sxs-lookup"><span data-stu-id="218c6-123">All of the data associated with the attack.</span></span>
 
-<span data-ttu-id="9dc6b-124">[S'il est](m365d-enable.md)activé, Microsoft 365 Defender peut automatiquement examiner et résoudre les alertes par le biais de l'automatisation et de l'intelligence artificielle.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-124">If [enabled](m365d-enable.md), Microsoft 365 Defender can automatically investigate and resolve alerts through automation and artificial intelligence.</span></span> <span data-ttu-id="9dc6b-125">Vous pouvez également effectuer des étapes de correction supplémentaires pour résoudre l'attaque.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-125">You can also perform additional remediation steps to resolve the attack.</span></span> 
+<span data-ttu-id="218c6-124">[S'il est](m365d-enable.md)activé, Microsoft 365 Defender peut automatiquement examiner et résoudre les alertes par le biais de l'automatisation et de l'intelligence artificielle.</span><span class="sxs-lookup"><span data-stu-id="218c6-124">If [enabled](m365d-enable.md), Microsoft 365 Defender can automatically investigate and resolve alerts through automation and artificial intelligence.</span></span> <span data-ttu-id="218c6-125">Vous pouvez également effectuer des étapes de correction supplémentaires pour résoudre l'attaque.</span><span class="sxs-lookup"><span data-stu-id="218c6-125">You can also perform additional remediation steps to resolve the attack.</span></span> 
 
-## <a name="incidents-and-alerts-in-the-microsoft-365-security-center"></a><span data-ttu-id="9dc6b-126">Incidents et alertes dans le Centre de sécurité Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="9dc6b-126">Incidents and alerts in the Microsoft 365 security center</span></span>
+## <a name="incidents-and-alerts-in-the-microsoft-365-security-center"></a><span data-ttu-id="218c6-126">Incidents et alertes dans le Centre de sécurité Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="218c6-126">Incidents and alerts in the Microsoft 365 security center</span></span>
 
-<span data-ttu-id="9dc6b-127">Vous gérez les incidents à partir **d'incidents & alertes** > Incidents dans le lancement rapide du Centre de sécurité Microsoft 365 ([security.microsoft.com](https://security.microsoft.com)).</span><span class="sxs-lookup"><span data-stu-id="9dc6b-127">You manage incidents from **Incidents & alerts > Incidents** on the quick launch of the Microsoft 365 security center ([security.microsoft.com](https://security.microsoft.com)).</span></span> <span data-ttu-id="9dc6b-128">Voici un exemple.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-128">Here's an example.</span></span>
+<span data-ttu-id="218c6-127">Vous gérez les incidents à partir **d'incidents & alertes** > Incidents dans le lancement rapide du Centre de sécurité Microsoft 365 ([security.microsoft.com](https://security.microsoft.com)).</span><span class="sxs-lookup"><span data-stu-id="218c6-127">You manage incidents from **Incidents & alerts > Incidents** on the quick launch of the Microsoft 365 security center ([security.microsoft.com](https://security.microsoft.com)).</span></span> <span data-ttu-id="218c6-128">Voici un exemple.</span><span class="sxs-lookup"><span data-stu-id="218c6-128">Here's an example.</span></span>
 
 :::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="Page Incidents dans le Centre de sécurité Microsoft 365":::
 
-<span data-ttu-id="9dc6b-130">La sélection d'un nom d'incident affiche un résumé de l'incident et donne accès aux onglets avec des informations supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-130">Selecting an incident name displays a summary of the incident and provides access to tabs with additional information.</span></span>
+<span data-ttu-id="218c6-130">La sélection d'un nom d'incident affiche un résumé de l'incident et donne accès aux onglets avec des informations supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="218c6-130">Selecting an incident name displays a summary of the incident and provides access to tabs with additional information.</span></span>
 
 :::image type="content" source="../../media/incidents-overview/incidents-ss-incident-summary.png" alt-text="Exemple de page Résumé d'un incident dans le Centre de sécurité Microsoft 365":::
 
-<span data-ttu-id="9dc6b-132">Les onglets supplémentaires pour un incident sont les suivants :</span><span class="sxs-lookup"><span data-stu-id="9dc6b-132">The additional tabs for an incident are:</span></span>
+<span data-ttu-id="218c6-132">Les onglets supplémentaires pour un incident sont les suivants :</span><span class="sxs-lookup"><span data-stu-id="218c6-132">The additional tabs for an incident are:</span></span>
 
-- <span data-ttu-id="9dc6b-133">Alertes</span><span class="sxs-lookup"><span data-stu-id="9dc6b-133">Alerts</span></span> 
+- <span data-ttu-id="218c6-133">Alertes</span><span class="sxs-lookup"><span data-stu-id="218c6-133">Alerts</span></span> 
 
-  <span data-ttu-id="9dc6b-134">Toutes les alertes liées à l'incident et leurs informations.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-134">All the alerts related to the incident and their information.</span></span>
+  <span data-ttu-id="218c6-134">Toutes les alertes liées à l'incident et leurs informations.</span><span class="sxs-lookup"><span data-stu-id="218c6-134">All the alerts related to the incident and their information.</span></span>
 
-- <span data-ttu-id="9dc6b-135">Appareils</span><span class="sxs-lookup"><span data-stu-id="9dc6b-135">Devices</span></span>
+- <span data-ttu-id="218c6-135">Appareils</span><span class="sxs-lookup"><span data-stu-id="218c6-135">Devices</span></span>
 
-  <span data-ttu-id="9dc6b-136">Tous les appareils identifiés comme faisant partie ou liés à l'incident.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-136">All the devices that have been identified to be part of or related to the incident.</span></span>
+  <span data-ttu-id="218c6-136">Tous les appareils identifiés comme faisant partie ou liés à l'incident.</span><span class="sxs-lookup"><span data-stu-id="218c6-136">All the devices that have been identified to be part of or related to the incident.</span></span>
 
-- <span data-ttu-id="9dc6b-137">Utilisateurs</span><span class="sxs-lookup"><span data-stu-id="9dc6b-137">Users</span></span>
+- <span data-ttu-id="218c6-137">Utilisateurs</span><span class="sxs-lookup"><span data-stu-id="218c6-137">Users</span></span>
 
-  <span data-ttu-id="9dc6b-138">Tous les utilisateurs identifiés comme faisant partie ou associés à l'incident.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-138">All the users that have been identified to be part of or related to the incident.</span></span>
+  <span data-ttu-id="218c6-138">Tous les utilisateurs identifiés comme faisant partie ou associés à l'incident.</span><span class="sxs-lookup"><span data-stu-id="218c6-138">All the users that have been identified to be part of or related to the incident.</span></span>
 
-- <span data-ttu-id="9dc6b-139">Boîtes aux lettres</span><span class="sxs-lookup"><span data-stu-id="9dc6b-139">Mailboxes</span></span>
+- <span data-ttu-id="218c6-139">Boîtes aux lettres</span><span class="sxs-lookup"><span data-stu-id="218c6-139">Mailboxes</span></span>
 
-  <span data-ttu-id="9dc6b-140">Toutes les boîtes aux lettres identifiées comme faisant partie ou liées à l'incident.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-140">All the mailboxes that have been identified to be part of or related to the incident.</span></span>
+  <span data-ttu-id="218c6-140">Toutes les boîtes aux lettres identifiées comme faisant partie ou liées à l'incident.</span><span class="sxs-lookup"><span data-stu-id="218c6-140">All the mailboxes that have been identified to be part of or related to the incident.</span></span>
 
-- <span data-ttu-id="9dc6b-141">Examens</span><span class="sxs-lookup"><span data-stu-id="9dc6b-141">Investigations</span></span>
+- <span data-ttu-id="218c6-141">Examens</span><span class="sxs-lookup"><span data-stu-id="218c6-141">Investigations</span></span>
 
-  <span data-ttu-id="9dc6b-142">Toutes les enquêtes automatisées déclenchées par des alertes dans l'incident.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-142">All the automated investigations triggered by alerts in the incident.</span></span>
+  <span data-ttu-id="218c6-142">Toutes les enquêtes automatisées déclenchées par des alertes dans l'incident.</span><span class="sxs-lookup"><span data-stu-id="218c6-142">All the automated investigations triggered by alerts in the incident.</span></span>
 
-- <span data-ttu-id="9dc6b-143">Preuve et réponse</span><span class="sxs-lookup"><span data-stu-id="9dc6b-143">Evidence and Response</span></span>
+- <span data-ttu-id="218c6-143">Preuve et réponse</span><span class="sxs-lookup"><span data-stu-id="218c6-143">Evidence and Response</span></span>
 
-  <span data-ttu-id="9dc6b-144">Tous les événements pris en charge et entités suspectes dans les alertes dans l'incident.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-144">All the supported events and suspicious entities in the alerts in the incident.</span></span>
+  <span data-ttu-id="218c6-144">Tous les événements pris en charge et entités suspectes dans les alertes dans l'incident.</span><span class="sxs-lookup"><span data-stu-id="218c6-144">All the supported events and suspicious entities in the alerts in the incident.</span></span>
 
-<span data-ttu-id="9dc6b-145">Voici la relation entre un incident et ses données et les onglets d'un incident dans le Centre de sécurité Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-145">Here's the relationship between an incident and its data and the tabs of an incident in the Microsoft 365 security center.</span></span>
+<span data-ttu-id="218c6-145">Voici la relation entre un incident et ses données et les onglets d'un incident dans le Centre de sécurité Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="218c6-145">Here's the relationship between an incident and its data and the tabs of an incident in the Microsoft 365 security center.</span></span>
 
 :::image type="content" source="../../media/incidents-overview/incidents-security-center.png" alt-text="Relation d'un incident et de ses données avec les onglets d'un incident dans le Centre de sécurité Microsoft 365":::
 
-## <a name="next-step"></a><span data-ttu-id="9dc6b-147">Étape suivante</span><span class="sxs-lookup"><span data-stu-id="9dc6b-147">Next step</span></span>
+## <a name="example-incident-response-workflow-for-microsoft-365-defender"></a><span data-ttu-id="218c6-147">Exemple de flux de travail de réponse aux incidents pour Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="218c6-147">Example incident response workflow for Microsoft 365 Defender</span></span>
 
-<span data-ttu-id="9dc6b-148">La file d'attente des incidents de la page **Incidents** répertorie les incidents les plus récents.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-148">The incident queue from the **Incidents** page lists the most recent incidents.</span></span> <span data-ttu-id="9dc6b-149">À partir de là, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="9dc6b-149">From here, you can:</span></span>
+<span data-ttu-id="218c6-148">Voici un exemple de flux de travail pour répondre aux incidents dans Microsoft 365 avec le Centre de sécurité Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="218c6-148">Here's an example workflow for responding to incidents in Microsoft 365 with the Microsoft 365 security center.</span></span>
 
-- <span data-ttu-id="9dc6b-150">Voir quels incidents doivent [être](incident-queue.md) hiérarchisés en fonction de la gravité et d'autres facteurs.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-150">See which incidents should be [prioritized](incident-queue.md) based on severity and other factors.</span></span> 
-- <span data-ttu-id="9dc6b-151">Effectuer une [investigation d'un](investigate-incidents.md) incident.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-151">Perform an [investigation](investigate-incidents.md) of an incident.</span></span>
-- <span data-ttu-id="9dc6b-152">[Gérer les incidents,](manage-incidents.md)ce qui inclut le changement de nom, leur affectation, la classification et l'ajout de balises pour votre flux de travail de gestion des incidents.</span><span class="sxs-lookup"><span data-stu-id="9dc6b-152">[Manage incidents](manage-incidents.md), which includes renaming, assigning them, classifying, and adding tags for your incident management workflow.</span></span>
+:::image type="content" source="../../media/incidents-overview/incidents-example-workflow.png" alt-text="Exemple de flux de travail de réponse aux incidents pour Microsoft 365":::
+
+<span data-ttu-id="218c6-150">Identifiez régulièrement les incidents les plus prioritaires pour l'analyse et la résolution dans la file d'attente des incidents et préparez-les à répondre.</span><span class="sxs-lookup"><span data-stu-id="218c6-150">On an ongoing basis, identify the highest priority incidents for analysis and resolution in the incident queue and get them ready for response.</span></span> <span data-ttu-id="218c6-151">Il s'agit d'une combinaison de :</span><span class="sxs-lookup"><span data-stu-id="218c6-151">This is a combination of:</span></span>
+
+- <span data-ttu-id="218c6-152">[Tri pour](incident-queue.md) déterminer les incidents les plus prioritaires via le filtrage et le tri de la file d'attente d'incidents.</span><span class="sxs-lookup"><span data-stu-id="218c6-152">[Triaging](incident-queue.md) to determining the highest priority incidents through filtering and sorting of the incident queue.</span></span>
+- <span data-ttu-id="218c6-153">[Gestion](manage-incidents.md) des incidents en modifiant leur titre, en les attribuant à un analyste et en ajoutant des balises et des commentaires.</span><span class="sxs-lookup"><span data-stu-id="218c6-153">[Managing](manage-incidents.md) incidents by modifying their title, assigning them to an analyst, and adding tags and comments.</span></span>
+
+1. <span data-ttu-id="218c6-154">Pour chaque incident, lancez une analyse [d'attaque et d'alerte](investigate-incidents.md):</span><span class="sxs-lookup"><span data-stu-id="218c6-154">For each incident, begin an [attack and alert analysis](investigate-incidents.md):</span></span>
+
+   <span data-ttu-id="218c6-155">a.</span><span class="sxs-lookup"><span data-stu-id="218c6-155">a.</span></span> <span data-ttu-id="218c6-156">Affichez le résumé de l'incident pour comprendre sa portée et sa gravité, ainsi que les entités concernées (onglet **Résumé).**</span><span class="sxs-lookup"><span data-stu-id="218c6-156">View the summary of the incident to understand it's scope and severity and what entities are affected (the **Summary** tab).</span></span>
+
+   <span data-ttu-id="218c6-157">b.</span><span class="sxs-lookup"><span data-stu-id="218c6-157">b.</span></span> <span data-ttu-id="218c6-158">Commencez à analyser les alertes pour comprendre leur origine, leur étendue et leur gravité (onglet **Alertes).**</span><span class="sxs-lookup"><span data-stu-id="218c6-158">Begin analyzing the alerts to understand their origin, scope, and severity (the **Alerts** tab).</span></span>
+
+   <span data-ttu-id="218c6-159">c.</span><span class="sxs-lookup"><span data-stu-id="218c6-159">c.</span></span> <span data-ttu-id="218c6-160">Si nécessaire, rassemblez des informations sur les appareils, les utilisateurs et les boîtes aux lettres touchés (onglets **Appareils,** Utilisateurs et Boîtes **aux lettres).**</span><span class="sxs-lookup"><span data-stu-id="218c6-160">As needed, gather information on impacted devices, users, and mailboxes (the **Devices**, **Users**, and **Mailboxes** tabs).</span></span>
+
+   <span data-ttu-id="218c6-161">d.</span><span class="sxs-lookup"><span data-stu-id="218c6-161">d.</span></span> <span data-ttu-id="218c6-162">Découvrez comment Microsoft 365 Defender a résolu automatiquement certaines alertes (onglet **Enquêtes).**</span><span class="sxs-lookup"><span data-stu-id="218c6-162">See how Microsoft 365 Defender has automatically resolved some alerts (the **Investigations** tab).</span></span>
+   
+   <span data-ttu-id="218c6-163">e.</span><span class="sxs-lookup"><span data-stu-id="218c6-163">e.</span></span> <span data-ttu-id="218c6-164">Si nécessaire, utilisez les informations du jeu de données pour l'incident pour plus d'informations (onglet Preuve **et** réponse).</span><span class="sxs-lookup"><span data-stu-id="218c6-164">As needed, use information in the data set for the incident for more information (the **Evidence and Response** tab).</span></span>
+
+2. <span data-ttu-id="218c6-165">Après ou pendant votre analyse, adressez le contenu pour réduire tout impact supplémentaire de l'attaque et l'éradication de la menace de sécurité.</span><span class="sxs-lookup"><span data-stu-id="218c6-165">After or during your analysis, address containment to reduce any additional impact of the attack and eradication of the security threat.</span></span>
+
+3. <span data-ttu-id="218c6-166">Dans la mesure du possible, récupérez à partir de l'attaque en restaurant les ressources de votre client à l'état où elles se sont trouver avant l'incident.</span><span class="sxs-lookup"><span data-stu-id="218c6-166">As much as possible, recover from the attack by restoring your tenant resources to the state they were in before the incident.</span></span>
+
+4. <span data-ttu-id="218c6-167">[Résolvez](manage-incidents.md#resolve-incident) l'incident et prenez le temps d'apprendre après l'incident pour :</span><span class="sxs-lookup"><span data-stu-id="218c6-167">[Resolve](manage-incidents.md#resolve-incident) the incident and take time for post-incident learning to:</span></span>
+
+   - <span data-ttu-id="218c6-168">Comprendre le type de l'attaque et son impact.</span><span class="sxs-lookup"><span data-stu-id="218c6-168">Understand the type of the attack and its impact.</span></span>
+   - <span data-ttu-id="218c6-169">Recherchez une tendance des attaques de sécurité dans [l'analyse](threat-analytics.md) des menaces et la communauté de sécurité.</span><span class="sxs-lookup"><span data-stu-id="218c6-169">Research the attack in [Threat Analytics](threat-analytics.md) and the security community for a security attack trend.</span></span>
+   - <span data-ttu-id="218c6-170">Rappelez-vous du flux de travail que vous avez utilisé pour résoudre l'incident et mettre à jour vos flux de travail, processus, stratégies et playbooks standard si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="218c6-170">Recall the workflow you used to resolve the incident and update your standard workflows, processes, policies, and playbooks as needed.</span></span>
+   - <span data-ttu-id="218c6-171">Déterminez si des modifications sont nécessaires dans votre configuration de sécurité et implémentez-les.</span><span class="sxs-lookup"><span data-stu-id="218c6-171">Determine whether changes in your security configuration are needed and implement them.</span></span>
+
+## <a name="example-security-operations-for-microsoft-365-defender"></a><span data-ttu-id="218c6-172">Exemples d'opérations de sécurité pour Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="218c6-172">Example security operations for Microsoft 365 Defender</span></span>
+
+<span data-ttu-id="218c6-173">Voici un exemple d'opérations de sécurité pour Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="218c6-173">Here's an example of security operations for Microsoft 365 Defender.</span></span>
+
+:::image type="content" source="../../media/incidents-overview/incidents-example-operations.png" alt-text="Exemple d'opérations de sécurité pour Microsoft 365 Defender":::
+
+<span data-ttu-id="218c6-175">Les tâches quotidiennes peuvent inclure les tâches suivantes :</span><span class="sxs-lookup"><span data-stu-id="218c6-175">Daily tasks can include:</span></span>
+
+- <span data-ttu-id="218c6-176">[Gestion des](manage-incidents.md) incidents</span><span class="sxs-lookup"><span data-stu-id="218c6-176">[Managing](manage-incidents.md) incidents</span></span>
+- <span data-ttu-id="218c6-177">Examen des actions [d'investigation et de réponse automatisées (AIR)](m365d-action-center.md)</span><span class="sxs-lookup"><span data-stu-id="218c6-177">Reviewing [automated investigation and response (AIR)](m365d-action-center.md) actions</span></span>
+- <span data-ttu-id="218c6-178">Examen de la dernière [analyse des menaces](threat-analytics.md)</span><span class="sxs-lookup"><span data-stu-id="218c6-178">Reviewing the latest [Threat Analytics](threat-analytics.md)</span></span>
+- <span data-ttu-id="218c6-179">[Réponse aux](investigate-incidents.md) incidents</span><span class="sxs-lookup"><span data-stu-id="218c6-179">[Responding](investigate-incidents.md) to incidents</span></span>
+
+<span data-ttu-id="218c6-180">Les tâches mensuelles peuvent inclure les tâches suivantes :</span><span class="sxs-lookup"><span data-stu-id="218c6-180">Monthly tasks can include:</span></span>
+
+- <span data-ttu-id="218c6-181">Examen des [paramètres AIR](m365d-configure-auto-investigation-response.md)</span><span class="sxs-lookup"><span data-stu-id="218c6-181">Reviewing [AIR settings](m365d-configure-auto-investigation-response.md)</span></span>
+- <span data-ttu-id="218c6-182">Examen de [la gestion des niveaux de sécurité](microsoft-secure-score-improvement-actions.md) et & des [vulnérabilités](../defender-endpoint/next-gen-threat-and-vuln-mgt.md)</span><span class="sxs-lookup"><span data-stu-id="218c6-182">Reviewing [Secure Score](microsoft-secure-score-improvement-actions.md) and [Threat & Vulnerability Management](../defender-endpoint/next-gen-threat-and-vuln-mgt.md)</span></span>
+- <span data-ttu-id="218c6-183">Rapports à votre chaîne de gestion de la sécurité informatique</span><span class="sxs-lookup"><span data-stu-id="218c6-183">Reporting to your IT security management chain</span></span>
+
+<span data-ttu-id="218c6-184">Les tâches trimestrielles peuvent inclure un rapport et un briefing des résultats de sécurité au directeur de la sécurité des informations (CISO).</span><span class="sxs-lookup"><span data-stu-id="218c6-184">Quarterly tasks can include a report and briefing of security results to the Chief Information Security Officer (CISO).</span></span>
+
+<span data-ttu-id="218c6-185">Les tâches annuelles peuvent inclure la conduite d'un incident majeur ou d'un exercice de violation pour tester votre personnel, vos systèmes et vos processus.</span><span class="sxs-lookup"><span data-stu-id="218c6-185">Annual tasks can include conducting a major incident or breach exercise to test your staff, systems, and processes.</span></span> 
+
+<span data-ttu-id="218c6-186">Les tâches quotidiennes, mensuelles, trimestrielles et annuelles peuvent être utilisées pour mettre à jour ou affiner des processus, des stratégies et des configurations de sécurité.</span><span class="sxs-lookup"><span data-stu-id="218c6-186">Daily, monthly, quarterly, and annual tasks can be used to update or refine processes, policies, and security configurations.</span></span>
+
+## <a name="next-steps"></a><span data-ttu-id="218c6-187">Étapes suivantes</span><span class="sxs-lookup"><span data-stu-id="218c6-187">Next steps</span></span>
+
+<span data-ttu-id="218c6-188">La file d'attente des incidents de la page **Incidents** répertorie les incidents les plus récents.</span><span class="sxs-lookup"><span data-stu-id="218c6-188">The incident queue from the **Incidents** page lists the most recent incidents.</span></span> <span data-ttu-id="218c6-189">À partir de là, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="218c6-189">From here, you can:</span></span>
+
+- <span data-ttu-id="218c6-190">Voir quels incidents doivent [être](incident-queue.md) hiérarchisés en fonction de la gravité et d'autres facteurs.</span><span class="sxs-lookup"><span data-stu-id="218c6-190">See which incidents should be [prioritized](incident-queue.md) based on severity and other factors.</span></span> 
+- <span data-ttu-id="218c6-191">[Gérer les incidents,](manage-incidents.md)ce qui inclut le changement de nom, l'affectation, la classification et l'ajout de balises et de commentaires pour votre flux de travail de gestion des incidents.</span><span class="sxs-lookup"><span data-stu-id="218c6-191">[Manage incidents](manage-incidents.md), which includes renaming, assignment, classifying, and adding tags and comments for your incident management workflow.</span></span>
+- <span data-ttu-id="218c6-192">Effectuer une [analyse](investigate-incidents.md) d'un incident.</span><span class="sxs-lookup"><span data-stu-id="218c6-192">Perform an [analysis](investigate-incidents.md) of an incident.</span></span>

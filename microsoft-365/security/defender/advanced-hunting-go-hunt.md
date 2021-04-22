@@ -1,7 +1,7 @@
 ---
 title: Obtenir des informations pertinentes sur une entité avec go hunt
 description: Découvrez comment utiliser l'outil de recherche pour rapidement interroger des informations pertinentes sur une entité ou un événement à l'aide d'une recherche avancée.
-keywords: advanced hunting, incident, pivot, entity, go hunt, relevant events, threat hunting, cyber threat hunting, search, query, telemetry, Microsoft 365, Microsoft Threat Protection
+keywords: advanced hunting, incident, pivot, entity, go hunt, relevant events, threat hunting, cyber threat hunting, search, query, telemetry, Microsoft 365, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,44 +20,44 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 0f09f74a1cefad5a9b6b438752ebe57e583397c7
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 51d33ea9a372b5bfe017f4c3544e0d6413d53001
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759977"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935832"
 ---
-# <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a><span data-ttu-id="cc88a-104">Recherche rapide des informations sur l'entité ou les événements avec la recherche de go</span><span class="sxs-lookup"><span data-stu-id="cc88a-104">Quickly hunt for entity or event information with go hunt</span></span>
+# <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a><span data-ttu-id="8d7fa-104">Recherche rapide des informations sur l'entité ou les événements avec la recherche de go</span><span class="sxs-lookup"><span data-stu-id="8d7fa-104">Quickly hunt for entity or event information with go hunt</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="cc88a-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="cc88a-105">**Applies to:**</span></span>
-- <span data-ttu-id="cc88a-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="cc88a-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="8d7fa-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="8d7fa-105">**Applies to:**</span></span>
+- <span data-ttu-id="8d7fa-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="8d7fa-106">Microsoft 365 Defender</span></span>
 
-<span data-ttu-id="cc88a-107">Avec *l'action de recherche* go, vous pouvez rapidement examiner les événements et différents types d'entités à l'aide de puissantes fonctionnalités de recherche avancée [basées](advanced-hunting-overview.md) sur des requêtes.</span><span class="sxs-lookup"><span data-stu-id="cc88a-107">With the *go hunt* action, you can quickly investigate events and various entity types using powerful query-based [advanced hunting](advanced-hunting-overview.md) capabilities.</span></span> <span data-ttu-id="cc88a-108">Cette action exécute automatiquement une requête de recherche avancée pour rechercher des informations pertinentes sur l'événement ou l'entité sélectionné.</span><span class="sxs-lookup"><span data-stu-id="cc88a-108">This action automatically runs an advanced hunting query to find relevant information about the selected event or entity.</span></span>
+<span data-ttu-id="8d7fa-107">Avec *l'action de recherche* go, vous pouvez rapidement examiner les événements et différents types d'entités à l'aide de puissantes fonctionnalités de recherche avancée [basées](advanced-hunting-overview.md) sur des requêtes.</span><span class="sxs-lookup"><span data-stu-id="8d7fa-107">With the *go hunt* action, you can quickly investigate events and various entity types using powerful query-based [advanced hunting](advanced-hunting-overview.md) capabilities.</span></span> <span data-ttu-id="8d7fa-108">Cette action exécute automatiquement une requête de recherche avancée pour rechercher des informations pertinentes sur l'événement ou l'entité sélectionné.</span><span class="sxs-lookup"><span data-stu-id="8d7fa-108">This action automatically runs an advanced hunting query to find relevant information about the selected event or entity.</span></span>
 
-<span data-ttu-id="cc88a-109">*L'action de recherche* est disponible dans différentes sections du centre de sécurité chaque fois que les détails de l'événement ou de l'entité sont affichés.</span><span class="sxs-lookup"><span data-stu-id="cc88a-109">The *go hunt* action is available in various sections of the security center whenever event or entity details are displayed.</span></span> <span data-ttu-id="cc88a-110">Par exemple, vous pouvez utiliser *la recherche dans* les sections suivantes :</span><span class="sxs-lookup"><span data-stu-id="cc88a-110">For example, you can use *go hunt* from the following sections:</span></span>
+<span data-ttu-id="8d7fa-109">*L'action de recherche* est disponible dans différentes sections du centre de sécurité chaque fois que les détails de l'événement ou de l'entité sont affichés.</span><span class="sxs-lookup"><span data-stu-id="8d7fa-109">The *go hunt* action is available in various sections of the security center whenever event or entity details are displayed.</span></span> <span data-ttu-id="8d7fa-110">Par exemple, vous pouvez utiliser *la recherche dans* les sections suivantes :</span><span class="sxs-lookup"><span data-stu-id="8d7fa-110">For example, you can use *go hunt* from the following sections:</span></span>
 
-- <span data-ttu-id="cc88a-111">Dans la [page Incident,](investigate-incidents.md#summary)vous pouvez consulter les détails sur les utilisateurs, les appareils et de nombreuses autres entités associées à un incident.</span><span class="sxs-lookup"><span data-stu-id="cc88a-111">In the [incident page](investigate-incidents.md#summary), you can review details about users, devices, and many other entities associated with an incident.</span></span> <span data-ttu-id="cc88a-112">Lorsque vous sélectionnez une entité, vous obtenez des informations supplémentaires ainsi que diverses actions que vous pouvez prendre sur cette entité.</span><span class="sxs-lookup"><span data-stu-id="cc88a-112">As you select an entity, you get additional information as well as various actions you could take on that entitity.</span></span> <span data-ttu-id="cc88a-113">Dans l'exemple ci-dessous, une boîte aux lettres est sélectionnée, affichant des détails sur la boîte aux lettres, ainsi que l'option de recherche pour plus d'informations sur la boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="cc88a-113">In the example below, a mailbox is selected, showing details about the mailbox as well the option to hunt for more information about the mailbox.</span></span>
+- <span data-ttu-id="8d7fa-111">Dans la [page Incident,](investigate-incidents.md#summary)vous pouvez consulter les détails sur les utilisateurs, les appareils et de nombreuses autres entités associées à un incident.</span><span class="sxs-lookup"><span data-stu-id="8d7fa-111">In the [incident page](investigate-incidents.md#summary), you can review details about users, devices, and many other entities associated with an incident.</span></span> <span data-ttu-id="8d7fa-112">Lorsque vous sélectionnez une entité, vous obtenez des informations supplémentaires ainsi que diverses actions que vous pouvez prendre sur cette entité.</span><span class="sxs-lookup"><span data-stu-id="8d7fa-112">As you select an entity, you get additional information as well as various actions you could take on that entitity.</span></span> <span data-ttu-id="8d7fa-113">Dans l'exemple ci-dessous, une boîte aux lettres est sélectionnée, affichant des détails sur la boîte aux lettres, ainsi que l'option de recherche pour plus d'informations sur la boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="8d7fa-113">In the example below, a mailbox is selected, showing details about the mailbox as well the option to hunt for more information about the mailbox.</span></span>
 
     ![Image montrant les détails de la boîte aux lettres avec l'option aller à la recherche](../../media/mtp-ah/go-hunt-email.png)
 
-- <span data-ttu-id="cc88a-115">Dans la page Incident, vous pouvez également accéder à une liste d'entités sous l'onglet Preuve. La sélection de l'une de ces entités permet de trouver rapidement des informations sur cette entité.</span><span class="sxs-lookup"><span data-stu-id="cc88a-115">In the incident page, you can also access a list of entities under the evidence tab. Selecting one of those entities provides an option to quickly hunt for information about that entity.</span></span>
+- <span data-ttu-id="8d7fa-115">Dans la page Incident, vous pouvez également accéder à une liste d'entités sous l'onglet Preuve. La sélection de l'une de ces entités permet de trouver rapidement des informations sur cette entité.</span><span class="sxs-lookup"><span data-stu-id="8d7fa-115">In the incident page, you can also access a list of entities under the evidence tab. Selecting one of those entities provides an option to quickly hunt for information about that entity.</span></span>
 
     ![Image montrant le fichier sélectionné avec l'option Aller à la recherche dans l'onglet Preuves](../../media/mtp-ah/go-hunt-evidence-file.png)
 
 
-- <span data-ttu-id="cc88a-117">Lorsque vous affichez la chronologie d'un appareil, vous pouvez sélectionner un événement dans la chronologie pour afficher des informations supplémentaires sur cet événement.</span><span class="sxs-lookup"><span data-stu-id="cc88a-117">When viewing the timeline for a device, you can select an event in the timeline to view additional information about that event.</span></span> <span data-ttu-id="cc88a-118">Une fois qu'un événement est sélectionné, vous avez la possibilité de chercher d'autres événements pertinents dans le hunting avancé.</span><span class="sxs-lookup"><span data-stu-id="cc88a-118">Once an event is selected, you get the option to hunt for other relevant events in advanced hunting.</span></span>
+- <span data-ttu-id="8d7fa-117">Lorsque vous affichez la chronologie d'un appareil, vous pouvez sélectionner un événement dans la chronologie pour afficher des informations supplémentaires sur cet événement.</span><span class="sxs-lookup"><span data-stu-id="8d7fa-117">When viewing the timeline for a device, you can select an event in the timeline to view additional information about that event.</span></span> <span data-ttu-id="8d7fa-118">Une fois qu'un événement est sélectionné, vous avez la possibilité de chercher d'autres événements pertinents dans le hunting avancé.</span><span class="sxs-lookup"><span data-stu-id="8d7fa-118">Once an event is selected, you get the option to hunt for other relevant events in advanced hunting.</span></span>
 
     ![Image montrant les détails de l'événement avec l'option aller à la recherche](../../media/mtp-ah/go-hunt-event.png)
 
-<span data-ttu-id="cc88a-120">La sélection de  **La recherche d'événements** connexes permet de passer différentes requêtes, selon que vous avez sélectionné une entité ou un événement.</span><span class="sxs-lookup"><span data-stu-id="cc88a-120">Selecting **Go hunt** or **Hunt for related events** passes different queries, depending on whether you've selected an entity or an event.</span></span>
+<span data-ttu-id="8d7fa-120">La sélection de  **La recherche d'événements** connexes permet de passer différentes requêtes, selon que vous avez sélectionné une entité ou un événement.</span><span class="sxs-lookup"><span data-stu-id="8d7fa-120">Selecting **Go hunt** or **Hunt for related events** passes different queries, depending on whether you've selected an entity or an event.</span></span>
 
-## <a name="query-for-entity-information"></a><span data-ttu-id="cc88a-121">Requête d'informations sur l'entité</span><span class="sxs-lookup"><span data-stu-id="cc88a-121">Query for entity information</span></span>
-<span data-ttu-id="cc88a-122">Lorsque vous utilisez *go hunt* to query for information about a user, device, or any other type of entity, the query checks all relevant schema tables for any events involving that entity.</span><span class="sxs-lookup"><span data-stu-id="cc88a-122">When using *go hunt* to query for information about a user, device, or any other type of entity, the query checks all relevant schema tables for any events involving that entity.</span></span> <span data-ttu-id="cc88a-123">Pour que les résultats restent gérables, la requête est limitée à la même période que l'activité la plus tôt au cours des 30 derniers jours qui implique l'entité et est associée à l'incident.</span><span class="sxs-lookup"><span data-stu-id="cc88a-123">To keep the results manageable, the query is scoped to around the same time period as the earliest activity in the past 30 days that involves the entity and is associated with the incident.</span></span>
+## <a name="query-for-entity-information"></a><span data-ttu-id="8d7fa-121">Requête d'informations sur l'entité</span><span class="sxs-lookup"><span data-stu-id="8d7fa-121">Query for entity information</span></span>
+<span data-ttu-id="8d7fa-122">Lorsque vous utilisez *go hunt* to query for information about a user, device, or any other type of entity, the query checks all relevant schema tables for any events involving that entity.</span><span class="sxs-lookup"><span data-stu-id="8d7fa-122">When using *go hunt* to query for information about a user, device, or any other type of entity, the query checks all relevant schema tables for any events involving that entity.</span></span> <span data-ttu-id="8d7fa-123">Pour que les résultats restent gérables, la requête est limitée à la même période que l'activité la plus tôt au cours des 30 derniers jours qui implique l'entité et est associée à l'incident.</span><span class="sxs-lookup"><span data-stu-id="8d7fa-123">To keep the results manageable, the query is scoped to around the same time period as the earliest activity in the past 30 days that involves the entity and is associated with the incident.</span></span>
 
-<span data-ttu-id="cc88a-124">Voici un exemple de requête go hunt pour un appareil :</span><span class="sxs-lookup"><span data-stu-id="cc88a-124">Here is an example of the go hunt query for a device:</span></span>
+<span data-ttu-id="8d7fa-124">Voici un exemple de requête go hunt pour un appareil :</span><span class="sxs-lookup"><span data-stu-id="8d7fa-124">Here is an example of the go hunt query for a device:</span></span>
 
 ```kusto
 let selectedTimestamp = datetime(2020-06-02T02:06:47.1167157Z);
@@ -70,20 +70,20 @@ and DeviceName == deviceName
 // or DeviceId == deviceId
 | take 100
 ```
-### <a name="supported-entity-types"></a><span data-ttu-id="cc88a-125">Types d'entités pris en charge</span><span class="sxs-lookup"><span data-stu-id="cc88a-125">Supported entity types</span></span>
-<span data-ttu-id="cc88a-126">Vous pouvez utiliser *la recherche après* avoir sélectionné l'un des types d'entités ci-après :</span><span class="sxs-lookup"><span data-stu-id="cc88a-126">You can use *go hunt* after selecting any of these entity types:</span></span>
+### <a name="supported-entity-types"></a><span data-ttu-id="8d7fa-125">Types d'entités pris en charge</span><span class="sxs-lookup"><span data-stu-id="8d7fa-125">Supported entity types</span></span>
+<span data-ttu-id="8d7fa-126">Vous pouvez utiliser *la recherche après* avoir sélectionné l'un des types d'entités ci-après :</span><span class="sxs-lookup"><span data-stu-id="8d7fa-126">You can use *go hunt* after selecting any of these entity types:</span></span>
 
-- <span data-ttu-id="cc88a-127">Files</span><span class="sxs-lookup"><span data-stu-id="cc88a-127">Files</span></span>
-- <span data-ttu-id="cc88a-128">Messages électroniques</span><span class="sxs-lookup"><span data-stu-id="cc88a-128">Emails</span></span>
-- <span data-ttu-id="cc88a-129">Clusters de messagerie</span><span class="sxs-lookup"><span data-stu-id="cc88a-129">Email clusters</span></span>
-- <span data-ttu-id="cc88a-130">Boîtes aux lettres</span><span class="sxs-lookup"><span data-stu-id="cc88a-130">Mailboxes</span></span>
-- <span data-ttu-id="cc88a-131">Utilisateurs</span><span class="sxs-lookup"><span data-stu-id="cc88a-131">Users</span></span>
-- <span data-ttu-id="cc88a-132">Appareils</span><span class="sxs-lookup"><span data-stu-id="cc88a-132">Devices</span></span>
-- <span data-ttu-id="cc88a-133">Adresses IP</span><span class="sxs-lookup"><span data-stu-id="cc88a-133">IP addresses</span></span>
-- <span data-ttu-id="cc88a-134">URL</span><span class="sxs-lookup"><span data-stu-id="cc88a-134">URLs</span></span>
+- <span data-ttu-id="8d7fa-127">Fichiers</span><span class="sxs-lookup"><span data-stu-id="8d7fa-127">Files</span></span>
+- <span data-ttu-id="8d7fa-128">Messages électroniques</span><span class="sxs-lookup"><span data-stu-id="8d7fa-128">Emails</span></span>
+- <span data-ttu-id="8d7fa-129">Clusters de messagerie</span><span class="sxs-lookup"><span data-stu-id="8d7fa-129">Email clusters</span></span>
+- <span data-ttu-id="8d7fa-130">Boîtes aux lettres</span><span class="sxs-lookup"><span data-stu-id="8d7fa-130">Mailboxes</span></span>
+- <span data-ttu-id="8d7fa-131">Utilisateurs</span><span class="sxs-lookup"><span data-stu-id="8d7fa-131">Users</span></span>
+- <span data-ttu-id="8d7fa-132">Appareils</span><span class="sxs-lookup"><span data-stu-id="8d7fa-132">Devices</span></span>
+- <span data-ttu-id="8d7fa-133">Adresses IP</span><span class="sxs-lookup"><span data-stu-id="8d7fa-133">IP addresses</span></span>
+- <span data-ttu-id="8d7fa-134">URL</span><span class="sxs-lookup"><span data-stu-id="8d7fa-134">URLs</span></span>
 
-## <a name="query-for-event-information"></a><span data-ttu-id="cc88a-135">Requête d'informations sur les événements</span><span class="sxs-lookup"><span data-stu-id="cc88a-135">Query for event information</span></span>
-<span data-ttu-id="cc88a-136">Lorsque vous *utilisez go hunt* to query pour obtenir des informations sur un événement de chronologie, la requête vérifie toutes les tables de schéma pertinentes pour les autres événements à l'heure de l'événement sélectionné.</span><span class="sxs-lookup"><span data-stu-id="cc88a-136">When using *go hunt* to query for information about a timeline event, the query checks all relevant schema tables for other events around the time of the selected event.</span></span> <span data-ttu-id="cc88a-137">Par exemple, la requête suivante répertorie les événements dans différentes tables de schéma qui se sont produits autour de la même période sur le même appareil :</span><span class="sxs-lookup"><span data-stu-id="cc88a-137">For example, the following query lists events in various schema tables that occured around the same time period on the same device:</span></span>
+## <a name="query-for-event-information"></a><span data-ttu-id="8d7fa-135">Requête d'informations sur les événements</span><span class="sxs-lookup"><span data-stu-id="8d7fa-135">Query for event information</span></span>
+<span data-ttu-id="8d7fa-136">Lorsque vous *utilisez go hunt* to query pour obtenir des informations sur un événement de chronologie, la requête vérifie toutes les tables de schéma pertinentes pour les autres événements à l'heure de l'événement sélectionné.</span><span class="sxs-lookup"><span data-stu-id="8d7fa-136">When using *go hunt* to query for information about a timeline event, the query checks all relevant schema tables for other events around the time of the selected event.</span></span> <span data-ttu-id="8d7fa-137">Par exemple, la requête suivante répertorie les événements dans différentes tables de schéma qui se sont produits autour de la même période sur le même appareil :</span><span class="sxs-lookup"><span data-stu-id="8d7fa-137">For example, the following query lists events in various schema tables that occured around the same time period on the same device:</span></span>
 
 ```kusto
 // List relevant events 30 minutes before and after selected LogonAttempted event
@@ -96,19 +96,19 @@ search in (DeviceFileEvents, DeviceProcessEvents, DeviceEvents, DeviceRegistryEv
 | project-reorder Relevance
 ```
 
-## <a name="adjust-the-query"></a><span data-ttu-id="cc88a-138">Ajuster la requête</span><span class="sxs-lookup"><span data-stu-id="cc88a-138">Adjust the query</span></span>
-<span data-ttu-id="cc88a-139">Avec une certaine connaissance du langage [de requête,](advanced-hunting-query-language.md)vous pouvez ajuster la requête à vos préférences.</span><span class="sxs-lookup"><span data-stu-id="cc88a-139">With some knowledge of the [query language](advanced-hunting-query-language.md), you can adjust the query to your preference.</span></span> <span data-ttu-id="cc88a-140">Par exemple, vous pouvez ajuster cette ligne, qui détermine la taille de la fenêtre de temps :</span><span class="sxs-lookup"><span data-stu-id="cc88a-140">For example, you can adjust this line, which determines the size of the time window:</span></span>
+## <a name="adjust-the-query"></a><span data-ttu-id="8d7fa-138">Ajuster la requête</span><span class="sxs-lookup"><span data-stu-id="8d7fa-138">Adjust the query</span></span>
+<span data-ttu-id="8d7fa-139">Avec une certaine connaissance du langage [de requête,](advanced-hunting-query-language.md)vous pouvez ajuster la requête à vos préférences.</span><span class="sxs-lookup"><span data-stu-id="8d7fa-139">With some knowledge of the [query language](advanced-hunting-query-language.md), you can adjust the query to your preference.</span></span> <span data-ttu-id="8d7fa-140">Par exemple, vous pouvez ajuster cette ligne, qui détermine la taille de la fenêtre de temps :</span><span class="sxs-lookup"><span data-stu-id="8d7fa-140">For example, you can adjust this line, which determines the size of the time window:</span></span>
 
 ```kusto
 Timestamp between ((selectedTimestamp - 1h) .. (selectedTimestamp + 1h))
 ```
 
-<span data-ttu-id="cc88a-141">En plus de modifier la requête pour obtenir des résultats plus pertinents, vous pouvez également :</span><span class="sxs-lookup"><span data-stu-id="cc88a-141">In addition to modifying the query to get more relevant results, you can also:</span></span>
-- [<span data-ttu-id="cc88a-142">Afficher les résultats en tant que graphiques</span><span class="sxs-lookup"><span data-stu-id="cc88a-142">View the results as charts</span></span>](advanced-hunting-query-results.md#view-query-results-as-a-table-or-chart)
-- [<span data-ttu-id="cc88a-143">Créer une règle de détection personnalisée</span><span class="sxs-lookup"><span data-stu-id="cc88a-143">Create a custom detection rule</span></span>](custom-detection-rules.md)
+<span data-ttu-id="8d7fa-141">En plus de modifier la requête pour obtenir des résultats plus pertinents, vous pouvez également :</span><span class="sxs-lookup"><span data-stu-id="8d7fa-141">In addition to modifying the query to get more relevant results, you can also:</span></span>
+- [<span data-ttu-id="8d7fa-142">Afficher les résultats en tant que graphiques</span><span class="sxs-lookup"><span data-stu-id="8d7fa-142">View the results as charts</span></span>](advanced-hunting-query-results.md#view-query-results-as-a-table-or-chart)
+- [<span data-ttu-id="8d7fa-143">Créer une règle de détection personnalisée</span><span class="sxs-lookup"><span data-stu-id="8d7fa-143">Create a custom detection rule</span></span>](custom-detection-rules.md)
 
-## <a name="related-topics"></a><span data-ttu-id="cc88a-144">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="cc88a-144">Related topics</span></span>
-- [<span data-ttu-id="cc88a-145">Vue d’ensemble du repérage avancé</span><span class="sxs-lookup"><span data-stu-id="cc88a-145">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="cc88a-146">Apprendre le langage de requête</span><span class="sxs-lookup"><span data-stu-id="cc88a-146">Learn the query language</span></span>](advanced-hunting-query-language.md)
-- [<span data-ttu-id="cc88a-147">Utiliser les résultats d’une requête</span><span class="sxs-lookup"><span data-stu-id="cc88a-147">Work with query results</span></span>](advanced-hunting-query-results.md)
-- [<span data-ttu-id="cc88a-148">Règles de détection personnalisée</span><span class="sxs-lookup"><span data-stu-id="cc88a-148">Custom detection rules</span></span>](custom-detection-rules.md)
+## <a name="related-topics"></a><span data-ttu-id="8d7fa-144">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8d7fa-144">Related topics</span></span>
+- [<span data-ttu-id="8d7fa-145">Vue d’ensemble du repérage avancé</span><span class="sxs-lookup"><span data-stu-id="8d7fa-145">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="8d7fa-146">Apprendre le langage de requête</span><span class="sxs-lookup"><span data-stu-id="8d7fa-146">Learn the query language</span></span>](advanced-hunting-query-language.md)
+- [<span data-ttu-id="8d7fa-147">Utiliser les résultats d’une requête</span><span class="sxs-lookup"><span data-stu-id="8d7fa-147">Work with query results</span></span>](advanced-hunting-query-results.md)
+- [<span data-ttu-id="8d7fa-148">Règles de détection personnalisée</span><span class="sxs-lookup"><span data-stu-id="8d7fa-148">Custom detection rules</span></span>](custom-detection-rules.md)
