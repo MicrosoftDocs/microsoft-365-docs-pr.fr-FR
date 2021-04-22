@@ -138,6 +138,8 @@
           href: data-classification-content-explorer.md
         - name: Prise en main de l’explorateur d’activités
           href: data-classification-activity-explorer.md
+        - name: Actions d'étiquetage signalées dans l'Explorateur d'activités
+          href: data-classification-activity-explorer-available-events.md
         - name: Notes de publication pour la classification des données
           href: data-classification-pub-preview-relnotes.md
     - name: Étiquettes de confidentialité
