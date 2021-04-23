@@ -475,6 +475,7 @@
 ####### [Obtenir les recommandations de sécurité](get-security-recommendations.md)
 ####### [Ajouter ou supprimer les balises de l’ordinateur](add-or-remove-machine-tags.md)
 ####### [Rechercher des ordinateurs par IP](find-machines-by-ip.md)
+####### [Rechercher des ordinateurs par balise](find-machines-by-tag.md)
 ####### [Obtenir des Ko manquants](get-missing-kbs-machine.md)
 ####### [Définir la valeur de l’appareil](set-device-value.md)
 
