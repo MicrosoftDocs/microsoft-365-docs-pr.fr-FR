@@ -243,6 +243,8 @@
 ##### [Déploiement manuel](linux-install-manually.md)
 ##### [Déploiement basé sur Puppet](linux-install-with-puppet.md)
 ##### [Déploiement basé sur Ansible](linux-install-with-ansible.md)
+##### [Microsoft Defender pour point de terminaison Linux](linux-deploy-defender-for-endpoint-with-chef.md)
+
 
 #### [Mettre à jour](linux-updates.md)
 
@@ -253,7 +255,6 @@
 ##### [Détecter et bloquer des applications potentiellement indésirables](linux-pua.md)
 ##### [Planifier des analyses avec Microsoft Defender pour point de terminaison Linux](linux-schedule-scan-atp.md)
 ##### [Planifier une mise à jour de Microsoft Defender pour point de terminaison (Linux)](linux-update-MDE-Linux.md)
-##### [Microsoft Defender pour point de terminaison Linux](linux-deploy-defender-for-endpoint-with-chef.md)
 
 #### [Résoudre des problèmes]()
 ##### [Résoudre des problèmes d’installation](linux-support-install.md)
