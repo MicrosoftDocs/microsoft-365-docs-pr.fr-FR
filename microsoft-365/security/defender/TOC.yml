@@ -1,0 +1,308 @@
+- name: "Microsoft\_365\_Defender"
+  href: index.yml
+  expanded: true
+  items:
+    - name: Vue d’ensemble
+      items:
+        - name: "Qu’est-ce que Microsoft\_365\_Defender\_?"
+          href: microsoft-365-defender.md
+        - name: "Centre de sécurité Microsoft\_365"
+          href: overview-security-center.md
+        - name: "Nouveautés de Microsoft\_365 Defender"
+          href: whats-new.md
+        - name: "Defender pour point de terminaison dans le Centre de sécurité Microsoft\_365"
+          href: microsoft-365-security-center-mde.md
+        - name: "Defender pour Office\_365 dans le Centre de sécurité Microsoft 365"
+          href: microsoft-365-security-center-mdo.md
+        - name: "Réacheminement de Defender pour point de terminaison dans le Centre de sécurité Microsoft\_365"
+          href: microsoft-365-security-mde-redirection.md
+        - name: "Réacheminement de Defender pour Office 365 dans le Centre de sécurité Microsoft\_365"
+          href: microsoft-365-security-mdo-redirection.md
+        - name: Fonctionnalités en préversion
+          href: preview.md
+        - name: Résoudre des problèmes
+          href: ./troubleshoot.md
+        - name: Tests sectoriels
+          href: ./top-scoring-industry-tests.md
+    - name: Planification
+      items:
+        - name: Conditions préalables
+          href: prerequisites.md
+        - name: Sécurité et confidentialité des données
+          href: data-privacy.md
+        - name: Portails de sécurité Microsoft
+          href: portals.md
+    - name: Évaluer les fonctionnalités
+      items:
+        - name: Créer un laboratoire d’essai
+          items:
+            - name: Vue d’ensemble du laboratoire
+              href: m365d-evaluation.md
+            - name: Préparation
+              href: prepare-m365d-eval.md
+            - name: Configuration
+              href: setup-m365deval.md
+            - name: "Configurer les piliers et l’intégration de Microsoft\_365\_Defender"
+              href: config-m365d-eval.md
+            - name: Créer une alerte de test
+              href: generate-test-alert.md
+        - name: Exécuter votre projet pilote en production
+          items:
+            - name: Présentation du pilote
+              href: m365d-pilot.md
+            - name: Planification
+              href: m365d-pilot-plan.md
+            - name: Préparation
+              href: prepare-m365d-eval.md
+            - name: Simuler une attaque
+              href: m365d-pilot-simulate.md
+            - name: Fermer et synthétiser
+              href: m365d-pilot-close.md
+    - name: Prise en main
+      items:
+        - name: Vue d’ensemble
+          href: get-started.md
+        - name: "Activer Microsoft\_365 Defender"
+          href: m365d-enable.md
+        - name: Déployer les services pris en charge
+          href: deploy-supported-services.md
+        - name: "Activer les foires aux questions sur Microsoft\_365 Defender"
+          href: m365d-enable-faq.md
+    - name: Protéger contre les menaces
+      items:
+        - name: Degré de sécurisation Microsoft
+          items:
+            - name: Vue d’ensemble du score sécurisé
+              href: microsoft-secure-score.md
+            - name: Évaluez votre posture de sécurité
+              href: microsoft-secure-score-improvement-actions.md
+            - name: Suivre l’historique de vos résultats et atteindre vos objectifs
+              href: microsoft-secure-score-history-metrics-trends.md
+            - name: Nouveautés
+              href: microsoft-secure-score-whats-coming.md
+            - name: Nouveautés
+              href: microsoft-secure-score-whats-new.md
+    - name: Examiner les menaces et y répondre
+      items:
+        - name: Incidents
+          items:
+            - name: Vue d’ensemble
+              href: incidents-overview.md
+            - name: Hiérarchiser les incidents
+              href: incident-queue.md
+            - name: Gérer les incidents
+              href: manage-incidents.md
+            - name: Réponse aux incidents
+              items:
+                - name: Analyser des incidents
+                  href: investigate-incidents.md
+                - name: Analyser des alertes
+                  href: investigate-alerts.md
+                - name: Analyser des utilisateurs
+                  href: investigate-users.md
+            - name: Obtenir des notifications par e-mail
+              href: get-incident-notifications.md
+        - name: Enquêtes et réponses automatisées
+          items:
+            - name: Présentation de l’examen et de la réponse automatisés
+              href: m365d-autoir.md
+            - name: Configuration de l’examen automatisé et des fonctionnalités de réponse
+              href: m365d-configure-auto-investigation-response.md
+            - name: Actions de correction
+              href: m365d-remediation-actions.md
+            - name: Visiter le Centre de notifications
+              href: m365d-action-center.md
+            - name: Approuver ou refuser les actions de correction en attente
+              href: m365d-autoir-actions.md
+            - name: Consulter les détails et les résultats des enquêtes automatisées
+              href: m365d-autoir-results.md
+            - name: Signaler le faux positif/négatif
+              href: m365d-autoir-report-false-positives-negatives.md
+        - name: Repérage avancé
+          items:
+            - name: Vue d’ensemble du repérage avancé
+              href: advanced-hunting-overview.md
+            - name: 'Apprenez, former et obtenir des exemples'
+              items:
+                - name: Apprendre le langage de requête
+                  href: advanced-hunting-query-language.md
+                - name: Obtenir une formation spécialisée
+                  href: advanced-hunting-expert-training.md
+                - name: Utiliser des requêtes partagées
+                  href: advanced-hunting-shared-queries.md
+                - name: 'Repérer des menaces sur les appareils, les e-mails, les applications et les identités'
+                  href: advanced-hunting-query-emails-devices.md
+                - name: Repérer des menaces de ransomware
+                  href: advanced-hunting-find-ransomware.md
+                - name: Transition à partir de Microsoft Defender pour point de terminaison
+                  href: advanced-hunting-migrate-from-mde.md
+            - name: Travailler avec les résultats de la requête
+              href: advanced-hunting-query-results.md
+            - name: Prendre des mesures sur les résultats d’une requête
+              href: advanced-hunting-take-action.md
+            - name: Accédez à la recherche
+              href: advanced-hunting-go-hunt.md
+            - name: Optimiser et gérer les erreurs
+              items:
+                - name: Appliquer les meilleures pratiques de requête
+                  href: advanced-hunting-best-practices.md
+                - name: Gestion des erreurs
+                  href: advanced-hunting-errors.md
+                - name: Paramètres d’utilisation et de quotas
+                  href: advanced-hunting-limits.md
+                - name: Étendre la couverture des données
+                  href: advanced-hunting-extend-data.md
+                - name: Schéma des données
+                  items:
+                    - name: Comprendre le schéma
+                      href: advanced-hunting-schema-tables.md
+                    - name: Modifications d’appellation de schéma
+                      href: advanced-hunting-schema-changes.md
+                    - name: AADSignInEventsBeta
+                      href: advanced-hunting-aadsignineventsbeta-table.md
+                    - name: AADSpnSignInEventsBeta
+                      href: advanced-hunting-aadspnsignineventsbeta-table.md
+                    - name: AlertEvidence
+                      href: advanced-hunting-alertevidence-table.md
+                    - name: AlertInfo
+                      href: advanced-hunting-alertinfo-table.md
+                    - name: AppFileEvents
+                      href: advanced-hunting-appfileevents-table.md
+                    - name: CloudAppEvents
+                      href: advanced-hunting-cloudappevents-table.md
+                    - name: DeviceEvents
+                      href: advanced-hunting-deviceevents-table.md
+                    - name: DeviceFileCertificateInfo
+                      href: advanced-hunting-devicefilecertificateinfo-table.md
+                    - name: DeviceFileEvents
+                      href: advanced-hunting-devicefileevents-table.md
+                    - name: DeviceImageLoadEvents
+                      href: advanced-hunting-deviceimageloadevents-table.md
+                    - name: DeviceInfo
+                      href: advanced-hunting-deviceinfo-table.md
+                    - name: DeviceLogonEvents
+                      href: advanced-hunting-devicelogonevents-table.md
+                    - name: DeviceNetworkEvents
+                      href: advanced-hunting-devicenetworkevents-table.md
+                    - name: DeviceNetworkInfo
+                      href: advanced-hunting-devicenetworkinfo-table.md
+                    - name: DeviceProcessEvents
+                      href: advanced-hunting-deviceprocessevents-table.md
+                    - name: DeviceRegistryEvents
+                      href: advanced-hunting-deviceregistryevents-table.md
+                    - name: DeviceTvmSecureConfigurationAssessment
+                      href: advanced-hunting-devicetvmsecureconfigurationassessment-table.md
+                    - name: DeviceTvmSecureConfigurationAssessmentKB
+                      href: advanced-hunting-devicetvmsecureconfigurationassessmentkb-table.md
+                    - name: DeviceTvmSoftwareInventory
+                      href: advanced-hunting-devicetvmsoftwareinventory-table.md
+                    - name: DeviceTvmSoftwareVulnerabilities
+                      href: advanced-hunting-devicetvmsoftwarevulnerabilities-table.md
+                    - name: DeviceTvmSoftwareVulnerabilitiesKB
+                      href: advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md
+                    - name: EmailAttachmentInfo
+                      href: advanced-hunting-emailattachmentinfo-table.md
+                    - name: EmailEvents
+                      href: advanced-hunting-emailevents-table.md
+                    - name: EmailPostDeliveryEvents
+                      href: advanced-hunting-emailpostdeliveryevents-table.md
+                    - name: EmailUrlInfo
+                      href: advanced-hunting-emailurlinfo-table.md
+                    - name: IdentityDirectoryEvents
+                      href: advanced-hunting-identitydirectoryevents-table.md
+                    - name: IdentityInfo
+                      href: advanced-hunting-identityinfo-table.md
+                    - name: IdentityLogonEvents
+                      href: advanced-hunting-identitylogonevents-table.md
+                    - name: IdentityQueryEvents
+                      href: advanced-hunting-identityqueryevents-table.md
+                - name: Fonctions
+                  items:
+                    - name: AssignedIPAddresses()
+                      href: advanced-hunting-assignedipaddresses-function.md
+                    - name: DeviceFromIP()
+                      href: advanced-hunting-devicefromip-function.md
+                    - name: FileProfile()
+                      href: advanced-hunting-fileprofile-function.md
+                - name: Détections personnalisées
+                  items:
+                    - name: Vue d’ensemble des détections personnalisées
+                      href: custom-detections-overview.md
+                    - name: Créer et gérer les règles de détection
+                      href: custom-detection-rules.md
+        - name: Spécialistes des menaces Microsoft
+          items:
+            - name: Vue d’ensemble de Spécialistes des menaces Microsoft
+              href: ../mtp/microsoft-threat-experts.md
+            - name: Configurer et gérer les fonctionnalités de Spécialistes des menaces Microsoft
+              href: ../mtp/configure-microsoft-threat-experts.md
+    - name: Guides pratiques
+      items:
+        - name: Créer un laboratoire d’évaluation ou un environnement pilote
+          href: m365d-evaluation.md
+        - name: Exécuter le guide opérationnel du pilote
+          href: m365d-pilot.md
+        - name: Activer la FAQ
+          href: m365d-enable-faq.md
+    - name: Référence
+      items:
+        - name: Paramètres & paramètres
+          items:
+            - name: Gérer l’accès
+              href: m365d-permissions.md
+            - name: Rôles personnalisés dans l’accès basé sur les rôles
+              href: custom-roles.md
+            - name: Définition du fuseau horaire
+              href: m365d-time-zone.md
+            - name: Afficher les profils d’appareils
+              href: device-profile.md
+            - name: Envoyer des commentaires
+              href: feedback.md
+            - name: Fournir un accès de fournisseur de services gérés (MSSP)
+              href: mssp-access.md
+            - name: Créer des tâches et des tickets ServiceNow
+              items:
+                - name: Présentation de l’intégration de ServiceNow
+                  href: ./tickets.md
+            - name: "API Microsoft\_365 Defender (préversion)"
+              items:
+                - name: "Vue d’ensemble des API Microsoft\_365 Defender (préversion)"
+                  href: api-overview.md
+                - name: "Prise en main des API Microsoft\_365 Defender (préversion)"
+                  items:
+                    - name: "Licence et conditions d’utilisation de l’API Microsoft\_365 Defender"
+                      href: api-terms.md
+                    - name: "Accéder aux API Microsoft\_365 Defender"
+                      href: api-access.md
+                    - name: "Exemple Hello\_World"
+                      href: api-hello-world.md
+                    - name: Accédez au contexte de l’application
+                      href: api-create-app-web.md
+                    - name: Obtenir l’accès avec le contexte utilisateur
+                      href: api-create-app-user-context.md
+                    - name: Obtenir l’accès de l’application partenaire
+                      href: api-partner-access.md
+                    - name: Autres ressources API
+                      href: api-articles.md
+                - name: "API et schéma de Microsoft\_365 Defender (préversion)"
+                  items:
+                    - name: "API Microsoft\_365 Defender prises en charge"
+                      href: api-supported.md
+                    - name: Codes d’erreur courants de l’API REST
+                      href: api-error-codes.md
+                    - name: API de recherche avancée de menaces
+                      href: api-advanced-hunting.md
+                    - name: API d’incident
+                      items:
+                        - name: Méthodes et propriétés d’incident
+                          href: api-incident.md
+                        - name: Répertorier les incidents
+                          href: api-list-incidents.md
+                        - name: Incident de mise à jour
+                          href: api-update-incidents.md
+    - name: "Microsoft\_Defender pour Office\_365"
+      href: ../office-365-security/index.yml
+    - name: "Microsoft\_Defender pour point de terminaison"
+      href: ../defender-endpoint/index.yml
+    - name: "Microsoft\_Defender pour l’identité"
+      href: /defender-for-identity
