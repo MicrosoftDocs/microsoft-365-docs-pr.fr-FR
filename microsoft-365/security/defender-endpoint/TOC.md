@@ -539,12 +539,6 @@
 ####### [Répertorier les ordinateurs par action d'amélioration](get-recommendation-machines.md)
 ####### [Répertorier les vulnérabilités par action d'amélioration](get-recommendation-vulnerabilities.md)
 
-###### [Activité de correction]()
-####### [Méthodes et propriétés des activités de correction](get-remediation-methods-properties.md)
-####### [Obtenir une activité de correction par son ID](get-remediation-one-activity.md)
-####### [Répertorier toutes les activités de correction](get-remediation-all-activities.md)
-####### [Répertorier les appareils exposés d’une activité de correction](get-remediation-exposed-devices-activities.md)
-
 ###### [Score]()
 ####### [Méthodes et propriétés du score](score.md)
 ####### [Répertorier le score d’exposition par groupe d’ordinateurs](get-machine-group-exposure-score.md)
