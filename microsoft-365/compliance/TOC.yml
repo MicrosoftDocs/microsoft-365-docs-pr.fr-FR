@@ -118,8 +118,6 @@
           href: create-a-keyword-dictionary.md
         - name: Création d’une empreinte numérique de document
           href: document-fingerprinting.md
-        - name: Fonctions DLP pour les informations sensibles
-          href: what-the-dlp-functions-look-for.md
     - name: Classifieurs avec capacité d’apprentissage
       items:
         - name: En savoir plus sur les classifieurs avec capacité d’apprentissage
