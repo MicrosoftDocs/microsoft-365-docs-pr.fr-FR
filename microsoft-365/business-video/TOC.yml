@@ -127,6 +127,8 @@
           href: act-on-report.md
         - name: Ajouter un autre domaine
           href: add-domain.md
+        - name: Configurer une nouvelle adresse professionnelle
+          href: set-up-a-new-business-email-address.md
     - name: Gestion des appareils
       items:
         - name: "Sécuriser les appareils Windows\_10"
