@@ -235,8 +235,8 @@
       items:
         - name: En savoir plus sur DLP
           items:
-            - name: En savoir plus sur DLP
-              href: data-loss-prevention-policies.md
+            - name: En savoir plus sur la protection contre la perte de données
+              href: dlp-learn-about-dlp.md
             - name: En savoir plus sur les points de terminaison de protection contre la perte de données
               href: endpoint-dlp-learn-about.md
             - name: En savoir plus sur la stratégie de protection par défaut contre la perte de données dans Microsoft Teams (préviersion)

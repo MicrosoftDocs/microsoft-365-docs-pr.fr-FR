@@ -376,7 +376,7 @@
             - name: Gérer les groupes de rôles dans une application EOP autonome
               href: manage-admin-role-group-permissions-in-eop.md
     - name: "Microsoft\_365\_Defender"
-      href: ../index.yml
+      href: ../defender/index.yml
     - name: "Microsoft\_Defender pour point de terminaison"
       href: ../defender-endpoint/index.yml
     - name: "Microsoft\_Defender pour l’identité"
