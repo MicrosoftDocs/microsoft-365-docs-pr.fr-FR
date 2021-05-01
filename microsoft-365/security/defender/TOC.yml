@@ -82,7 +82,7 @@
               href: microsoft-secure-score-whats-coming.md
             - name: Nouveautés
               href: microsoft-secure-score-whats-new.md
-    - name: Examiner les menaces et y répondre
+    - name: Examiner et répondre aux menaces
       items:
         - name: Incidents
           items:
@@ -100,6 +100,24 @@
                   href: investigate-alerts.md
                 - name: Analyser des utilisateurs
                   href: investigate-users.md
+                - name: Répondre à votre premier incident
+                  items:
+                    - name: Introduction
+                      href: first-incident-overview.md
+                    - name: Préparation
+                      href: first-incident-prepare.md
+                    - name: Étape 1. Tri et analyse
+                      href: first-incident-analyze.md
+                    - name: "Étape\_2. Corriger"
+                      href: first-incident-remediate.md
+                    - name: "Étape\_3. Révision"
+                      href: first-incident-post.md
+                    - name: Exemples d’incidents supplémentaires
+                      items:
+                        - name: Courriers hameçons
+                          href: first-incident-path-phishing.md
+                        - name: Identité
+                          href: first-incident-path-identity.md
             - name: Obtenir des notifications par e-mail
               href: get-incident-notifications.md
         - name: Enquêtes et réponses automatisées
