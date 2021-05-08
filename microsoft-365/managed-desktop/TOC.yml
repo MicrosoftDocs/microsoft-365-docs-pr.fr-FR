@@ -48,8 +48,6 @@
           href: service-description/support.md
         - name: Opérations et analyse
           href: service-description/operations-and-monitoring.md
-        - name: Journaux de diagnostic
-          href: service-description/diagnostic-logs.md
         - name: Configuration requise pour l’application
           href: service-description/mmd-app-requirements.md
         - name: Contrôle d’application

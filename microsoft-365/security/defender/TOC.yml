@@ -106,7 +106,7 @@
                       href: first-incident-overview.md
                     - name: Préparation
                       href: first-incident-prepare.md
-                    - name: Étape 1. Tri et analyse
+                    - name: Étape 1. Trier et analyser
                       href: first-incident-analyze.md
                     - name: "Étape\_2. Corriger"
                       href: first-incident-remediate.md
@@ -130,11 +130,11 @@
               href: m365d-remediation-actions.md
             - name: Visiter le Centre de notifications
               href: m365d-action-center.md
-            - name: Approuver ou refuser les actions de correction en attente
+            - name: Afficher et gérer les actions de correction
               href: m365d-autoir-actions.md
             - name: Consulter les détails et les résultats des enquêtes automatisées
               href: m365d-autoir-results.md
-            - name: Signaler le faux positif/négatif
+            - name: Corriger les faux positifs/négatifs
               href: m365d-autoir-report-false-positives-negatives.md
         - name: Repérage avancé
           items:
