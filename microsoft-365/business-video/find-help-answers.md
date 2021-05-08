@@ -1,5 +1,5 @@
 ---
-title: Trouver des réponses et de l’aide
+title: Rechercher des documents et une formation
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,33 +20,28 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Découvrez comment trouver de l’aide pour les administrateurs pour Microsoft 365 Business Premium.
-ms.openlocfilehash: 6d16f3ece9782a33c3377e4a6bc2a93b29d54c1a
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Découvrez comment trouver de l’aide pour les administrateurs Microsoft 365 Business Premium.
+ms.openlocfilehash: 18a50c34f87fa47fe5777e87f8dafa62fb0ac04b
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578902"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245227"
 ---
-# <a name="find-answers-and-help-for-admins"></a><span data-ttu-id="c61b3-103">Rechercher des réponses et de l’aide pour les administrateurs</span><span class="sxs-lookup"><span data-stu-id="c61b3-103">Find answers and help for admins</span></span>
+# <a name="find-docs-and-training"></a><span data-ttu-id="6c966-103">Rechercher des documents et une formation</span><span class="sxs-lookup"><span data-stu-id="6c966-103">Find docs and training</span></span>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGn5?autoplay=false]
+<span data-ttu-id="6c966-104">Si vous avez une question ou si vous avez besoin d’Microsoft 365 Business Premium, vous avez plusieurs options pour obtenir de l’aide.</span><span class="sxs-lookup"><span data-stu-id="6c966-104">If you have a question or need assistance with Microsoft 365 Business Premium, you have several options for getting help.</span></span>
 
-<span data-ttu-id="c61b3-104">Si vous avez une question ou si vous avez besoin d’aide avec Microsoft 365 Business Premium, plusieurs options s’offrent à vous pour obtenir de l’aide.</span><span class="sxs-lookup"><span data-stu-id="c61b3-104">If you have a question or need assistance with Microsoft 365 Business Premium, you have several options for getting help.</span></span>
+## <a name="browse-all-small-business-training"></a><span data-ttu-id="6c966-105">Parcourir toutes les formations pour les petites entreprises</span><span class="sxs-lookup"><span data-stu-id="6c966-105">Browse all small business training</span></span>
 
-## <a name="try-it"></a><span data-ttu-id="c61b3-105">Essayez !</span><span class="sxs-lookup"><span data-stu-id="c61b3-105">Try it!</span></span>
+<span data-ttu-id="6c966-106">Pour obtenir des liens vers l’ensemble du support de formation dont vous aurez besoin pour utiliser Microsoft 365 votre petite entreprise, voir Microsoft 365 formation pour les petites [entreprises.](index.yml)</span><span class="sxs-lookup"><span data-stu-id="6c966-106">For links to all of the training support you'll need to use Microsoft 365 with your small business, see [Microsoft 365 small business training](index.yml).</span></span> 
 
-1. <span data-ttu-id="c61b3-106">Connectez-vous [office.com](https://office.com) avec vos informations d’identification professionnelles et sélectionnez **Administrateur.**</span><span class="sxs-lookup"><span data-stu-id="c61b3-106">Sign in to [office.com](https://office.com) with your work credentials and select **Admin**.</span></span>
-1. <span data-ttu-id="c61b3-107">Dans la page d’accueil du Centre d’administration, sélectionnez Formation pour les **administrateurs** afin de voir les options de formation disponibles.</span><span class="sxs-lookup"><span data-stu-id="c61b3-107">On the admin center home page, choose **Training for admins** to see the training options available to you.</span></span>
-1. <span data-ttu-id="c61b3-108">Choisissez **les propriétaires d’entreprise et les administrateurs** pour la formation pour les petites et moyennes entreprises.</span><span class="sxs-lookup"><span data-stu-id="c61b3-108">Choose **Business owners and admins** for small to midsize training.</span></span>
-1. <span data-ttu-id="c61b3-109">Choisissez **Les professionnels de l’informatique d’entreprise** pour les entreprises plus grandes ou plus complexes.</span><span class="sxs-lookup"><span data-stu-id="c61b3-109">Choose **Enterprise IT Professionals** for larger or more complex businesses.</span></span>
-1. <span data-ttu-id="c61b3-110">Revenir au Centre d’administration et, cette fois, choisissez des instructions d’installation personnalisées pour voir un certain nombre de guides qui vous guident à travers des tâches d’installation spécifiques. </span><span class="sxs-lookup"><span data-stu-id="c61b3-110">Return to the admin center and this time choose **Customized setup guidance** to see a number of guides that walk you through specific setup tasks.</span></span>
-1. <span data-ttu-id="c61b3-111">Revenir à la page  d’accueil du Centre d’administration et choisissez Formation pour que les utilisateurs obtiennent de l’aide sur des applications spécifiques et découvrez comment tirer le meilleur profit des fonctionnalités que vous utilisez chaque jour.</span><span class="sxs-lookup"><span data-stu-id="c61b3-111">Return to the admin center home page and choose **Training for users** to get help with specific apps and learn how to get the most out of the features you use every day.</span></span>
-1. <span data-ttu-id="c61b3-112">Revenir au Centre d’administration et choisissez **Besoin d’aide** pour ouvrir l’Assistant Support.</span><span class="sxs-lookup"><span data-stu-id="c61b3-112">Return to the admin center and choose **Need help** to open the Support Assistant.</span></span> <span data-ttu-id="c61b3-113">Tapez votre question ou la rubrique avec qui vous souhaitez de l’aide, puis **sélectionnez Envoyer.**</span><span class="sxs-lookup"><span data-stu-id="c61b3-113">Type your question or the topic you want help with then select **Send**.</span></span> <span data-ttu-id="c61b3-114">Choisissez le lien dans le Centre d’administration ou l’article qui répond à votre question.</span><span class="sxs-lookup"><span data-stu-id="c61b3-114">Choose the link in the admin center or to the article that answers your question.</span></span>
-1. <span data-ttu-id="c61b3-115">Si vous ne trouvez pas de réponse à votre question, vous pouvez toujours contacter le support technique et un technicien du support technique vous répondra prochainement.</span><span class="sxs-lookup"><span data-stu-id="c61b3-115">If you’re not finding an answer to your question, you can always contact support, and a support technician will respond to you shortly.</span></span>
+## <a name="search-for-microsoft-365-admin-center-docs-and-resources"></a><span data-ttu-id="6c966-107">Recherchez des Microsoft 365 du Centre d’administration et des ressources</span><span class="sxs-lookup"><span data-stu-id="6c966-107">Search for Microsoft 365 admin center docs and resources</span></span>
 
-<span data-ttu-id="c61b3-116">Vous pouvez également utiliser les ressources suivantes pour obtenir de l’aide sur votre problème :</span><span class="sxs-lookup"><span data-stu-id="c61b3-116">You can also use the following resources to get help with your issue:</span></span>
+<span data-ttu-id="6c966-108">Pour rechercher des tâches et de l’aide relatives à l’administration, telles que la réinitialisation des mots de passe et l’affectation d’abonnements Microsoft, voir [Microsoft 365'aide du Centre d’administration.](../admin/index.yml)</span><span class="sxs-lookup"><span data-stu-id="6c966-108">To search for admin-related tasks and help, like resetting passwords and assigning Microsoft subscriptions, see [Microsoft 365 admin center help](../admin/index.yml).</span></span>
 
-- <span data-ttu-id="c61b3-117">[aka.ms/learn365admin](../admin/index.yml), pour rechercher toutes les tâches et aide relatives à l’administrateur, telles que la réinitialisation des mots de passe et l’affectation d’abonnements Microsoft.</span><span class="sxs-lookup"><span data-stu-id="c61b3-117">[aka.ms/learn365admin](../admin/index.yml), to search for all admin-related tasks and help, like resetting passwords and assigning Microsoft subscriptions.</span></span>
-- <span data-ttu-id="c61b3-118">[answers.microsoft.com](https://answers.microsoft.com), pour rechercher des réponses, démarrer une discussion et poser des questions à d’autres utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="c61b3-118">[answers.microsoft.com](https://answers.microsoft.com), to search for answers, start a discussion, and ask questions from other users.</span></span>
-- <span data-ttu-id="c61b3-119">[techcommunity.microsoft.com](https://techcommunity.microsoft.com), pour rejoindre une communauté d’experts et trouver les meilleures pratiques avec Microsoft 365 pour votre entreprise.</span><span class="sxs-lookup"><span data-stu-id="c61b3-119">[techcommunity.microsoft.com](https://techcommunity.microsoft.com), to join a community of experts and find best practices with Microsoft 365 for your business.</span></span>
+## <a name="join-the-community"></a><span data-ttu-id="6c966-109">Rejoindre la communauté</span><span class="sxs-lookup"><span data-stu-id="6c966-109">Join the community</span></span>
+
+<span data-ttu-id="6c966-110">Démarrez une conversation, suivez les discussions et partagez vos connaissances avec d’autres utilisateurs Microsoft 365 petites entreprises en rejoignant le microsoft [small business Community](https://smallbusiness.microsoft.com/).</span><span class="sxs-lookup"><span data-stu-id="6c966-110">Start a conversation, follow discussions, and share your knowledge with other Microsoft 365 small business users by joining the [Microsoft Small Business Community](https://smallbusiness.microsoft.com/).</span></span>
+
+<span data-ttu-id="6c966-111">Si vous avez des questions spécifiques sur d’autres produits et services, posez des questions et suivez les discussions pertinentes sur [Ask the Microsoft Community](https://answers.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="6c966-111">If you have specific questions about other products and services, post questions and follow relevant discussions at [Ask the Microsoft Community](https://answers.microsoft.com).</span></span>

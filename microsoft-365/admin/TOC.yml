@@ -107,16 +107,30 @@
               href: create-groups/manage-guest-access-in-groups.md
             - name: Modifier un nom d’utilisateur et une adresse de messagerie
               href: add-users/change-a-user-name-and-email-address.md
-            - name: Supprimer un ancien employé
-              href: add-users/remove-former-employee.md
-            - name: Accéder aux données d’un ancien utilisateur et les sauvegarder
-              href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
             - name: Restaurer un utilisateur
               href: add-users/restore-user.md
             - name: Créer un modèle pour ajouter des utilisateurs
               href: add-users/create-and-use-a-template-to-add-users.md
             - name: Mettre à niveau les utilisateurs vers les applications les plus récentes
               href: setup/upgrade-users-to-latest-office-client.md
+        - name: Supprimer un ancien employé
+          items:
+            - name: Vue d’ensemble
+              href: add-users/remove-former-employee.md
+            - name: Étape 1. Empêcher un employé de se connecter et bloquer l’accès aux services Microsoft 365
+              href: add-users/remove-former-employee-step-1.md
+            - name: 'Étape 2 : Enregistrer le contenu de la boîte aux lettres d''un ancien employé'
+              href: add-users/remove-former-employee-step-2.md
+            - name: 'Étape 3 : Transférer l''e-mail d''un ancien employé à un autre employé ou le convertir en boîte aux lettres partagée'
+              href: add-users/remove-former-employee-step-3.md
+            - name: "Étape\_4. Accorder à un autre employé l’accès aux données OneDrive et Outlook"
+              href: add-users/remove-former-employee-step-4.md
+            - name: 'Étape 5 : Effacer et bloquer l''appareil mobile d''un ancien employé'
+              href: add-users/remove-former-employee-step-5.md
+            - name: '6. Supprimer la licence Microsoft 365 d''un ancien employé '
+              href: add-users/remove-former-employee-step-6.md
+            - name: 7. Supprimer le compte d'utilisateur d'un ancien employé
+              href: add-users/remove-former-employee-step-7.md
         - name: Groupes
           items:
             - name: Vue d’ensemble des groupes
