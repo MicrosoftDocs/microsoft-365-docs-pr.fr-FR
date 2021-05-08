@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,58 +13,59 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-- commerce
 ms.custom:
 - TopSMBIssues
 - fwlink 874703
 - AdminSurgePortfolio
-search.appverid:
-- MET150
-ms.assetid: 23aa9dd5-a2b0-42f5-8893-9541d2f3761f
+- commerce_subscriptions
+- PPM_jmueller
+search.appverid: MET150
 description: Découvrez comment réactiver votre abonnement lorsqu’il expire, est désactivé ou annulé.
-ms.openlocfilehash: b2c85f2d4f302052f2085f395c16c7620848573f
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.date: 04/07/2021
+ms.openlocfilehash: 80d1594890ec15fc4c2391d439ccbc16be6ae707
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615350"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280894"
 ---
-# <a name="reactivate-your-subscription"></a><span data-ttu-id="15429-103">Réactiver votre abonnement</span><span class="sxs-lookup"><span data-stu-id="15429-103">Reactivate your subscription</span></span>
+# <a name="reactivate-your-subscription"></a><span data-ttu-id="56e44-103">Réactiver votre abonnement</span><span class="sxs-lookup"><span data-stu-id="56e44-103">Reactivate your subscription</span></span>
 
-<span data-ttu-id="15429-104">Vous pouvez réactiver votre abonnement dans le Centre d’administration si : l’abonnement a expiré, a été désactivé par Microsoft ou si vous l’avez annulé au milieu d’une période d’abonnement.</span><span class="sxs-lookup"><span data-stu-id="15429-104">You can reactivate your subscription in the admin center if: the subscription expired, was disabled by Microsoft, or if you canceled it in the middle of a subscription term.</span></span>
+<span data-ttu-id="56e44-104">Vous pouvez réactiver votre abonnement dans le Centre d’administration si : l’abonnement a expiré, a été désactivé par Microsoft ou si vous l’avez annulé au milieu d’une période d’abonnement.</span><span class="sxs-lookup"><span data-stu-id="56e44-104">You can reactivate your subscription in the admin center if: the subscription expired, was disabled by Microsoft, or if you canceled it in the middle of a subscription term.</span></span>
   
-## <a name="before-you-begin"></a><span data-ttu-id="15429-105">Avant de commencer</span><span class="sxs-lookup"><span data-stu-id="15429-105">Before you begin</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="56e44-105">Avant de commencer</span><span class="sxs-lookup"><span data-stu-id="56e44-105">Before you begin</span></span>
 
-<span data-ttu-id="15429-106">Vous devez être un administrateur global ou un administrateur de facturation pour réactiver un abonnement.</span><span class="sxs-lookup"><span data-stu-id="15429-106">You must be a Global or Billing admin to reactivate a subscription.</span></span> <span data-ttu-id="15429-107">Pour plus d’informations, consultez [À propos des rôles d’administrateur](../../admin/add-users/about-admin-roles.md).</span><span class="sxs-lookup"><span data-stu-id="15429-107">For more information, see [About admin roles](../../admin/add-users/about-admin-roles.md).</span></span>
+<span data-ttu-id="56e44-106">Vous devez être un administrateur global ou un administrateur de facturation pour réactiver un abonnement.</span><span class="sxs-lookup"><span data-stu-id="56e44-106">You must be a Global or Billing admin to reactivate a subscription.</span></span> <span data-ttu-id="56e44-107">Pour plus d’informations, consultez [À propos des rôles d’administrateur](../../admin/add-users/about-admin-roles.md).</span><span class="sxs-lookup"><span data-stu-id="56e44-107">For more information, see [About admin roles](../../admin/add-users/about-admin-roles.md).</span></span>
 
-<span data-ttu-id="15429-108">**Vous n’êtes pas administrateur ?**</span><span class="sxs-lookup"><span data-stu-id="15429-108">**Not an admin?**</span></span> <span data-ttu-id="15429-109">Contactez votre administration pour réactiver votre abonnement.</span><span class="sxs-lookup"><span data-stu-id="15429-109">Contact your administration to reactivate your subscription.</span></span>
+<span data-ttu-id="56e44-108">**Vous n’êtes pas administrateur ?**</span><span class="sxs-lookup"><span data-stu-id="56e44-108">**Not an admin?**</span></span> <span data-ttu-id="56e44-109">Contactez votre administration pour réactiver votre abonnement.</span><span class="sxs-lookup"><span data-stu-id="56e44-109">Contact your administration to reactivate your subscription.</span></span>
 
-## <a name="reactivate-a-subscription"></a><span data-ttu-id="15429-110">Réactiver un abonnement</span><span class="sxs-lookup"><span data-stu-id="15429-110">Reactivate a subscription</span></span>
+## <a name="reactivate-a-subscription"></a><span data-ttu-id="56e44-110">Réactiver un abonnement</span><span class="sxs-lookup"><span data-stu-id="56e44-110">Reactivate a subscription</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="15429-111">Dans le centre d’administration, accédez à la page **Facturation** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Vos produits</a>.</span><span class="sxs-lookup"><span data-stu-id="15429-111">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
+1. <span data-ttu-id="56e44-111">Dans le centre d’administration, accédez à la page **Facturation** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Produits</a>.</span><span class="sxs-lookup"><span data-stu-id="56e44-111">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="15429-112">Dans le centre d’administration, accédez à la page **Facturation** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Vos produits</a>.</span><span class="sxs-lookup"><span data-stu-id="15429-112">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Your products</a> page.</span></span>
+1. <span data-ttu-id="56e44-112">Dans le centre d’administration, accédez à la page **Facturation** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Produits</a>.</span><span class="sxs-lookup"><span data-stu-id="56e44-112">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Your products</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="15429-113">Dans le centre d’administration, accédez à la page **Facturation** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Vos produits</a>.</span><span class="sxs-lookup"><span data-stu-id="15429-113">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Your products</a> page.</span></span>
+1. <span data-ttu-id="56e44-113">Dans le centre d’administration, accédez à la page **Facturation** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Produits</a>.</span><span class="sxs-lookup"><span data-stu-id="56e44-113">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Your products</a> page.</span></span>
+
 ::: moniker-end
 
-2. <span data-ttu-id="15429-114">Sur la page **Produits**, recherchez l’abonnement que vous souhaitez réactiver.</span><span class="sxs-lookup"><span data-stu-id="15429-114">On the **Products** tab, find the subscription that you want to reactivate.</span></span> <span data-ttu-id="15429-115">Sélectionnez **Plus d’actions** (trois points), puis **réactivez cet abonnement**.</span><span class="sxs-lookup"><span data-stu-id="15429-115">Select **More actions** (three dots), then select **Reactivate this subscription**.</span></span>\
-    <span data-ttu-id="15429-116">Si vous ne voyez pas Réactiver cet **abonnement,** contactez [le support technique.](../../admin/contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="15429-116">If you don't see **Reactivate this subscription**, [contact support](../../admin/contact-support-for-business-products.md).</span></span>
-3. <span data-ttu-id="15429-117">Dans le volet **Réactiver cet abonnement** , sélectionnez un mode de paiement dans la liste déroulante, ou sélectionnez **Ajouter un mode de paiement**.</span><span class="sxs-lookup"><span data-stu-id="15429-117">In the **Reactivate this subscription** pane, select a payment method from the drop-down list, or select **Add payment method**.</span></span>
-4. <span data-ttu-id="15429-118">Sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="15429-118">Select **Save**.</span></span>
+2. <span data-ttu-id="56e44-114">Sur la page **Produits**, recherchez l’abonnement que vous souhaitez réactiver.</span><span class="sxs-lookup"><span data-stu-id="56e44-114">On the **Products** tab, find the subscription that you want to reactivate.</span></span> <span data-ttu-id="56e44-115">Sélectionnez **Plus d’actions** (trois points), puis **réactivez cet abonnement**.</span><span class="sxs-lookup"><span data-stu-id="56e44-115">Select **More actions** (three dots), then select **Reactivate this subscription**.</span></span>\
+    <span data-ttu-id="56e44-116">Si vous ne voyez pas Réactiver cet **abonnement,** contactez [le support technique.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="56e44-116">If you don't see **Reactivate this subscription**, [contact support](../../business-video/get-help-support.md).</span></span>
+3. <span data-ttu-id="56e44-117">Dans le volet **Réactiver cet abonnement** , sélectionnez un mode de paiement dans la liste déroulante, ou sélectionnez **Ajouter un mode de paiement**.</span><span class="sxs-lookup"><span data-stu-id="56e44-117">In the **Reactivate this subscription** pane, select a payment method from the drop-down list, or select **Add payment method**.</span></span>
+4. <span data-ttu-id="56e44-118">Sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="56e44-118">Select **Save**.</span></span>
 
-## <a name="related-content"></a><span data-ttu-id="15429-119">Contenu connexe</span><span class="sxs-lookup"><span data-stu-id="15429-119">Related content</span></span>
+## <a name="related-content"></a><span data-ttu-id="56e44-119">Contenu connexe</span><span class="sxs-lookup"><span data-stu-id="56e44-119">Related content</span></span>
 
-<span data-ttu-id="15429-120">[Essayer ou acheter un abonnement Microsoft 365 pour les entreprises](../try-or-buy-microsoft-365.md) (article)</span><span class="sxs-lookup"><span data-stu-id="15429-120">[Try or buy a Microsoft 365 for business subscription](../try-or-buy-microsoft-365.md) (article)</span></span>\
-<span data-ttu-id="15429-121">[Renouveler Microsoft 365 for business](renew-your-subscription.md) (article)</span><span class="sxs-lookup"><span data-stu-id="15429-121">[Renew Microsoft 365 for business](renew-your-subscription.md) (article)</span></span>\
-<span data-ttu-id="15429-122">[Annuler votre abonnement](cancel-your-subscription.md) (article)</span><span class="sxs-lookup"><span data-stu-id="15429-122">[Cancel your subscription](cancel-your-subscription.md) (article)</span></span>
+<span data-ttu-id="56e44-120">[Essayer ou acheter un abonnement Microsoft 365 entreprise](../try-or-buy-microsoft-365.md) (article)</span><span class="sxs-lookup"><span data-stu-id="56e44-120">[Try or buy a Microsoft 365 for business subscription](../try-or-buy-microsoft-365.md) (article)</span></span>\
+<span data-ttu-id="56e44-121">[Renouveler Microsoft 365 for business](renew-your-subscription.md) (article)</span><span class="sxs-lookup"><span data-stu-id="56e44-121">[Renew Microsoft 365 for business](renew-your-subscription.md) (article)</span></span>\
+<span data-ttu-id="56e44-122">[Annuler votre abonnement](cancel-your-subscription.md) (article)</span><span class="sxs-lookup"><span data-stu-id="56e44-122">[Cancel your subscription](cancel-your-subscription.md) (article)</span></span>
