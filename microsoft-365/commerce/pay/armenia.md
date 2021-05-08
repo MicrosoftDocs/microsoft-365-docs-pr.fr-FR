@@ -1,5 +1,5 @@
 ---
-title: Informations de paiement pour l’Azerbaïdjan
+title: Informations de paiement pour l’Arménie
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -8,27 +8,27 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
 description: Découvrez où envoyer le paiement pour votre abonnement.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b420b0cab2c39ef45d73b11aed7ffb1c548471eb
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 4ec6de2cf44ac9243aa43075945a078bc050b00a
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50549675"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274291"
 ---
-# <a name="payment-information-for-armenia"></a><span data-ttu-id="05c12-103">Informations de paiement pour l’Arménie</span><span class="sxs-lookup"><span data-stu-id="05c12-103">Payment information for Armenia</span></span>
+# <a name="payment-information-for-armenia"></a><span data-ttu-id="ca372-103">Informations de paiement pour l’Arménie</span><span class="sxs-lookup"><span data-stu-id="ca372-103">Payment information for Armenia</span></span>
 
-<span data-ttu-id="05c12-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="05c12-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="ca372-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="ca372-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="05c12-105">N’hésitez pas à payer en USD uniquement et à référencer vos numéro(s) de facture sur votre facture.</span><span class="sxs-lookup"><span data-stu-id="05c12-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="ca372-105">N’hésitez pas à payer en USD uniquement et à référencer vos numéro(s) de facture sur votre facture.</span><span class="sxs-lookup"><span data-stu-id="ca372-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="05c12-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="05c12-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="ca372-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="ca372-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="05c12-107">**Banque :** Bank, Londres</span><span class="sxs-lookup"><span data-stu-id="05c12-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="05c12-108">**Code SWIFT :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="05c12-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="05c12-109">**Numéro IBAN :** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="05c12-109">**IBAN Number:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="05c12-110">**Numéro de compte :** 12510049</span><span class="sxs-lookup"><span data-stu-id="05c12-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="05c12-111">**Nom du compte :** Microsoft</span><span class="sxs-lookup"><span data-stu-id="05c12-111">**Account Name:** Microsoft</span></span>  
+<span data-ttu-id="ca372-107">**Banque :** Bank, Londres</span><span class="sxs-lookup"><span data-stu-id="ca372-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="ca372-108">**Code SWIFT :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="ca372-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="ca372-109">**Numéro IBAN :** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="ca372-109">**IBAN Number:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="ca372-110">**Numéro de compte :** 12510049</span><span class="sxs-lookup"><span data-stu-id="ca372-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="ca372-111">**Nom du compte :** Microsoft</span><span class="sxs-lookup"><span data-stu-id="ca372-111">**Account Name:** Microsoft</span></span>  
