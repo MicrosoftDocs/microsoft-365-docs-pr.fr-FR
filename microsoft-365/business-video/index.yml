@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: "Formation Microsoft\_365 pour les petites entreprises"
-summary: Découvrez comment configurer et gérer Microsoft 365 pour votre entreprise.
+summary: Découvrez comment configurer et gérer les Microsoft 365 pour votre entreprise.
 brand: m365
 metadata:
   title: "Formation Microsoft\_365 pour les petites entreprises"
-  description: Configurer et gérer Microsoft 365 dans le Centre d’administration Microsoft 365.
+  description: Configurer et gérer les Microsoft 365 dans le centre d Microsoft 365'administration.
   ms.service: O365-administration
   ms.prod: microsoft-365-business
   ms.topic: hub-page
@@ -17,7 +17,7 @@ productDirectory:
   items:
     - title: Prise en main
       imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
-      summary: Planifiez votre déplacement vers Microsoft 365 pour les entreprises.
+      summary: Planifiez votre déplacement vers Microsoft 365 entreprise.
       url: what-is-microsoft-365.md
     - title: Configurer Microsoft 365 Entreprises
       imageSrc: 'https://docs.microsoft.com/office/media/icons/add-to-cloud-blue.svg'
@@ -29,11 +29,11 @@ productDirectory:
       url: upgrade.md
     - title: Configurer des appareils mobiles
       imageSrc: 'https://docs.microsoft.com/office/media/icons/device-mobile-download-blue.svg'
-      summary: Installez les applications Office sur les appareils mobiles.
+      summary: Installez Office applications sur des appareils mobiles.
       url: work-from-anywhere.md
     - title: Collaborer avec d’autres personnes
       imageSrc: 'https://docs.microsoft.com/office/media/icons/collaborate-blue.svg'
-      summary: Travailler avec les employés et les clients dans Teams.
+      summary: Travaillez avec des employés et des clients dans Teams.
       url: collab-outlook-teams.md
     - title: Stocker et partager des fichiers
       imageSrc: 'https://docs.microsoft.com/office/media/icons/cloud-storage-folder-blue.svg'
@@ -61,14 +61,14 @@ productDirectory:
       url: overview-m365-security.md
     - title: Obtenir une assistance
       imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-blue.svg'
-      summary: Obtenez de l’aide sur Microsoft 365 pour les entreprises.
-      url: find-help-answers.md
+      summary: Obtenez de l’aide Microsoft 365 entreprise.
+      url: get-help-support.md
 additionalContent:
   sections:
-    - title: Si vous souhaitez en savoir plus
+    - title: En savoir plus
       items:
         - title: En savoir plus sur Office
-          summary: 'Découvrez comment utiliser Word, Excel, PowerPoint et d’autres applications Office.'
+          summary: 'Découvrez comment utiliser Word, Excel, PowerPoint et d’autres Office applications.'
           url: 'https://support.microsoft.com/training'
         - title: Obtenir une formation pour les itpros
           summary: Complétez les parcours de formation pour les entreprises moyennes et grandes.

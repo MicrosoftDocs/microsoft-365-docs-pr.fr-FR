@@ -161,10 +161,10 @@
           href: create-sensitivity-labels.md
     - name: Assistance
       items:
-        - name: Trouver des réponses et de l’aide
-          href: find-help-answers.md
         - name: Obtenir de l’aide ou une assistance technique
           href: get-help-support.md
+        - name: Rechercher des documents et une formation
+          href: find-help-answers.md
         - name: Configuration rapide pour les employés
           href: employee-quick-setup.md
     - name: Passer de Google Workspace
