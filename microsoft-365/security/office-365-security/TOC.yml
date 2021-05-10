@@ -38,8 +38,14 @@
           href: turn-on-mdo-for-spo-odb-and-teams.md
         - name: "Vue d’ensemble du Centre de sécurité Microsoft\_365"
           href: ../defender/overview-security-center.md
-        - name: Explorateur de menaces (et détections en temps réel)
-          href: threat-explorer.md
+        - name: "Explorateur des menaces pour Defender pour Office\_365"
+          items:
+            - name: Repérage de menaces dans l’Explorateur de menaces
+              href: threat-hunting-in-threat-explorer.md
+            - name: Sécurité de la messagerie avec l’Explorateur de menaces
+              href: email-security-in-microsoft-defender.md
+            - name: Informations de base de l’explorateur de menaces et détections en temps réel
+              href: real-time-detections.md
         - name: Page de l’entité d’e-mail
           href: mdo-email-entity-page.md
         - name: Vue d’ensemble d’AIR
@@ -188,6 +194,8 @@
           href: message-trace-scc.md
         - name: Signaler les messages et fichiers à Microsoft
           href: report-junk-email-messages-to-microsoft.md
+        - name: "Activer les compléments «\_Signaler le message\_» et «\_Report Phishing\_»."
+          href: enable-the-report-message-add-in.md
         - name: Utiliser des règles de flux de courriers pour bloquer les messages avec des pièces jointes exécutables dans EOP
           href: reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md
         - name: Utiliser des règles de flux de courriers pour filtrer les e-mails en bloc dans EOP

@@ -344,6 +344,8 @@
 #### [Contrôle des appareils]()
 ##### [Rapports sur le contrôle des appareils](device-control-report.md)
 ##### [Contrôler les périphériques USB](control-usb-devices-using-intune.md)
+##### [Protection de stockage amovible](device-control-removable-storage-protection.md)
+##### [Contrôle d’accès au stockage amovible](device-control-removable-storage-access-control.md)
 
 #### [Blocage et confinement comportementaux]()
 ##### [Blocage et confinement comportementaux](behavioral-blocking-containment.md)
@@ -535,7 +537,7 @@
 ###### [Action d'amélioration]()
 ####### [Méthodes et propriétés de l’action d'amélioration](recommendation.md)
 ####### [Répertorier toutes les actions d’amélioration](get-all-recommendations.md)
-####### [Obtenir les actions d’amélioration par ID](get-recommendation-by-id.md)
+####### [Obtenir des recommandations par ID](get-recommendation-by-id.md)
 ####### [Obtenir les actions d’amélioration par logiciel](get-recommendation-software.md)
 ####### [Répertorier les ordinateurs par action d'amélioration](get-recommendation-machines.md)
 ####### [Répertorier les vulnérabilités par action d'amélioration](get-recommendation-vulnerabilities.md)

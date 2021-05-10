@@ -117,13 +117,13 @@
           items:
             - name: Vue d’ensemble
               href: add-users/remove-former-employee.md
-            - name: Étape 1. Empêcher un employé de se connecter et bloquer l’accès aux services Microsoft 365
+            - name: "Étape\_1\_: empêcher un employé de se connecter et bloquer l’accès aux services Microsoft 365"
               href: add-users/remove-former-employee-step-1.md
             - name: 'Étape 2 : Enregistrer le contenu de la boîte aux lettres d''un ancien employé'
               href: add-users/remove-former-employee-step-2.md
             - name: 'Étape 3 : Transférer l''e-mail d''un ancien employé à un autre employé ou le convertir en boîte aux lettres partagée'
               href: add-users/remove-former-employee-step-3.md
-            - name: "Étape\_4. Accorder à un autre employé l’accès aux données OneDrive et Outlook"
+            - name: "Étape\_4\_: accorder à un autre employé l’accès aux données OneDrive et Outlook"
               href: add-users/remove-former-employee-step-4.md
             - name: 'Étape 5 : Effacer et bloquer l''appareil mobile d''un ancien employé'
               href: add-users/remove-former-employee-step-5.md
@@ -273,8 +273,6 @@
           href: manage/manage-office-scripts-settings.md
         - name: Rechercher un partenaire ou un revendeur
           href: manage/find-your-partner-or-reseller.md
-        - name: Gérer Microsoft Rewards
-          href: manage/manage-microsoft-rewards.md
         - name: Gérer les commentaires de Microsoft pour votre organisation
           href: /admin/manage/manage-feedback-ms-org.md
         - name: Configurer les options de publication
@@ -422,4 +420,4 @@
     - name: Résoudre les problèmes
       href: /office/troubleshoot/
     - name: Contacter l’assistance
-      href: contact-support-for-business-products.md
+      href: ../business-video/get-help-support.md
