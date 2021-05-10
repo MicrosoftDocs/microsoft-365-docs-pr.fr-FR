@@ -12,41 +12,41 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Découvrez comment contacter le support technique pour votre pays ou région.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4d1a5e1d5d2d1ab76930aa21affbb86e7a18cb87
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: a4bc0a5ee11c1edd195aebd01c8c62981f10f3b4
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50543783"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297523"
 ---
-# <a name="contact-support-for-tunisia"></a><span data-ttu-id="d9c5e-103">Contacter le support pour la Tunisie</span><span class="sxs-lookup"><span data-stu-id="d9c5e-103">Contact support for Tunisia</span></span>
+# <a name="contact-support-for-tunisia"></a><span data-ttu-id="64e07-103">Contacter le support pour la Tunisie</span><span class="sxs-lookup"><span data-stu-id="64e07-103">Contact support for Tunisia</span></span>
 
-<span data-ttu-id="d9c5e-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="d9c5e-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="64e07-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="64e07-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="d9c5e-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="d9c5e-105">Phone number</span></span>
-<span data-ttu-id="d9c5e-106">71 168 700</span><span class="sxs-lookup"><span data-stu-id="d9c5e-106">71 168 700</span></span>
+## <a name="phone-number"></a><span data-ttu-id="64e07-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="64e07-105">Phone number</span></span>
+<span data-ttu-id="64e07-106">71 168 700</span><span class="sxs-lookup"><span data-stu-id="64e07-106">71 168 700</span></span>
 
-<span data-ttu-id="d9c5e-107">Sélectionner l’option 1</span><span class="sxs-lookup"><span data-stu-id="d9c5e-107">Select option 1</span></span>
+<span data-ttu-id="64e07-107">Sélectionner l’option 1</span><span class="sxs-lookup"><span data-stu-id="64e07-107">Select option 1</span></span>
 
-<span data-ttu-id="d9c5e-108">Sélectionner l’option 9</span><span class="sxs-lookup"><span data-stu-id="d9c5e-108">Select option 9</span></span>
+<span data-ttu-id="64e07-108">Sélectionner l’option 9</span><span class="sxs-lookup"><span data-stu-id="64e07-108">Select option 9</span></span>
 
-<span data-ttu-id="d9c5e-109">Entrer le code 7703</span><span class="sxs-lookup"><span data-stu-id="d9c5e-109">Enter code 7703</span></span>
+<span data-ttu-id="64e07-109">Entrer le code 7703</span><span class="sxs-lookup"><span data-stu-id="64e07-109">Enter code 7703</span></span>
 
-## <a name="hours"></a><span data-ttu-id="d9c5e-110">Heures</span><span class="sxs-lookup"><span data-stu-id="d9c5e-110">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="d9c5e-111">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="d9c5e-111">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="64e07-110">Heures</span><span class="sxs-lookup"><span data-stu-id="64e07-110">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="64e07-111">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="64e07-111">Billing Support:</span></span>
 
-<span data-ttu-id="d9c5e-112">Arabe : Sun-Thu 9h00 à 17h00</span><span class="sxs-lookup"><span data-stu-id="d9c5e-112">Arabic: Sun-Thu 9 AM-5 PM</span></span>
+<span data-ttu-id="64e07-112">Arabe : Sun-Thu 9h00 à 17h00</span><span class="sxs-lookup"><span data-stu-id="64e07-112">Arabic: Sun-Thu 9 AM-5 PM</span></span>
 
-<span data-ttu-id="d9c5e-113">Français : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="d9c5e-113">French: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="64e07-113">Français : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="64e07-113">French: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="d9c5e-114">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="d9c5e-114">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="64e07-114">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="64e07-114">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="d9c5e-115">Support technique :</span><span class="sxs-lookup"><span data-stu-id="d9c5e-115">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="64e07-115">Support technique :</span><span class="sxs-lookup"><span data-stu-id="64e07-115">Technical Support:</span></span>
 
-<span data-ttu-id="d9c5e-116">Arabe : Sun-Thu 9h00 à 17h00</span><span class="sxs-lookup"><span data-stu-id="d9c5e-116">Arabic: Sun-Thu 9 AM-5 PM</span></span>
+<span data-ttu-id="64e07-116">Arabe : Sun-Thu 9h00 à 17h00</span><span class="sxs-lookup"><span data-stu-id="64e07-116">Arabic: Sun-Thu 9 AM-5 PM</span></span>
 
-<span data-ttu-id="d9c5e-117">Français : Lun.-ven. 8H-19h</span><span class="sxs-lookup"><span data-stu-id="d9c5e-117">French: Mon-Fri 8 AM-9 PM</span></span>
+<span data-ttu-id="64e07-117">Français : Lun.-ven. 8H-19h</span><span class="sxs-lookup"><span data-stu-id="64e07-117">French: Mon-Fri 8 AM-9 PM</span></span>
 
-<span data-ttu-id="d9c5e-118">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="d9c5e-118">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="64e07-118">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="64e07-118">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="d9c5e-119">Frais d’appel local applicables</span><span class="sxs-lookup"><span data-stu-id="d9c5e-119">Local call charges apply</span></span>
+<span data-ttu-id="64e07-119">Frais d’appel local applicables</span><span class="sxs-lookup"><span data-stu-id="64e07-119">Local call charges apply</span></span>
