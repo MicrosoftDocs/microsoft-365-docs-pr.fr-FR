@@ -94,19 +94,21 @@
               href: manage-incidents.md
             - name: Réponse aux incidents
               items:
-                - name: Analyser des incidents
+                - name: Enquêter sur des incidents
                   href: investigate-incidents.md
-                - name: Analyser des alertes
+                - name: Examiner les alertes
                   href: investigate-alerts.md
-                - name: Analyser des utilisateurs
+                - name: Examiner les utilisateurs
                   href: investigate-users.md
+                - name: Manuels de réponse aux incidents
+                  href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
                 - name: Répondre à votre premier incident
                   items:
                     - name: Introduction
                       href: first-incident-overview.md
                     - name: Préparation
                       href: first-incident-prepare.md
-                    - name: Étape 1. Trier et analyser
+                    - name: Étape 1. Tri et analyse
                       href: first-incident-analyze.md
                     - name: "Étape\_2. Corriger"
                       href: first-incident-remediate.md

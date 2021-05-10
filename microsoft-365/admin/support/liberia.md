@@ -12,27 +12,27 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Découvrez comment contacter le support technique pour votre pays ou région.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2b637a49ed5b85bb59b19a89caa6291cb4dd3e97
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 147de81d7056799b0d7e4f0e022a344d9d693836
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50546222"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295950"
 ---
-# <a name="contact-support-for-liberia"></a><span data-ttu-id="53d5c-103">Contacter le support technique pour Le Monde</span><span class="sxs-lookup"><span data-stu-id="53d5c-103">Contact support for Liberia</span></span>
+# <a name="contact-support-for-liberia"></a><span data-ttu-id="0b511-103">Contacter le support technique pour Le Monde</span><span class="sxs-lookup"><span data-stu-id="0b511-103">Contact support for Liberia</span></span>
 
-<span data-ttu-id="53d5c-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="53d5c-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="0b511-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="0b511-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="53d5c-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="53d5c-105">Phone number</span></span>
-<span data-ttu-id="53d5c-106">+1 312 843 5151</span><span class="sxs-lookup"><span data-stu-id="53d5c-106">+1 312 843 5151</span></span>
+## <a name="phone-number"></a><span data-ttu-id="0b511-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="0b511-105">Phone number</span></span>
+<span data-ttu-id="0b511-106">+1 312 843 5151</span><span class="sxs-lookup"><span data-stu-id="0b511-106">+1 312 843 5151</span></span>
 
-## <a name="hours"></a><span data-ttu-id="53d5c-107">Heures</span><span class="sxs-lookup"><span data-stu-id="53d5c-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="53d5c-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="53d5c-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="0b511-107">Heures</span><span class="sxs-lookup"><span data-stu-id="0b511-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="0b511-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="0b511-108">Billing Support:</span></span>
 
-<span data-ttu-id="53d5c-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="53d5c-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="0b511-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="0b511-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="53d5c-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="53d5c-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="0b511-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="0b511-110">Technical Support:</span></span>
 
-<span data-ttu-id="53d5c-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="53d5c-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="0b511-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="0b511-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="53d5c-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="53d5c-112">International call charges apply</span></span>
+<span data-ttu-id="0b511-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="0b511-112">International call charges apply</span></span>

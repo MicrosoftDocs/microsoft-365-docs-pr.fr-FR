@@ -12,25 +12,25 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Découvrez comment contacter le support technique pour votre pays ou région.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 30c82199a4d4c7d9ac561f038873af7952b79566
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: b72d45233f9b1613d6bb2306cd903cace4921f0e
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50548607"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296538"
 ---
-# <a name="contact-support-for-belize"></a><span data-ttu-id="4a072-103">Contacter le support technique pour Belize</span><span class="sxs-lookup"><span data-stu-id="4a072-103">Contact support for Belize</span></span>
+# <a name="contact-support-for-belize"></a><span data-ttu-id="fe78b-103">Contacter le support technique pour Belize</span><span class="sxs-lookup"><span data-stu-id="fe78b-103">Contact support for Belize</span></span>
 
-<span data-ttu-id="4a072-104">[Rechercher un autre pays ou une autre région](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="4a072-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="fe78b-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="fe78b-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="4a072-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="4a072-105">Phone number</span></span>
-<span data-ttu-id="4a072-106">001 212 497 6305</span><span class="sxs-lookup"><span data-stu-id="4a072-106">001 212 497 6305</span></span>
+## <a name="phone-number"></a><span data-ttu-id="fe78b-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="fe78b-105">Phone number</span></span>
+<span data-ttu-id="fe78b-106">001 212 497 6305</span><span class="sxs-lookup"><span data-stu-id="fe78b-106">001 212 497 6305</span></span>
 
-## <a name="hours"></a><span data-ttu-id="4a072-107">Heures</span><span class="sxs-lookup"><span data-stu-id="4a072-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="4a072-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="4a072-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="fe78b-107">Heures</span><span class="sxs-lookup"><span data-stu-id="fe78b-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="fe78b-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="fe78b-108">Billing Support:</span></span>
 
-<span data-ttu-id="4a072-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="4a072-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="fe78b-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="fe78b-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="4a072-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="4a072-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="fe78b-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="fe78b-110">Technical Support:</span></span>
 
-<span data-ttu-id="4a072-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="4a072-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="fe78b-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="fe78b-111">English: 24 hours a day, 7 days a week</span></span>
