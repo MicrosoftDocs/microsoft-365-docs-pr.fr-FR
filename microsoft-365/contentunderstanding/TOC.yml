@@ -42,6 +42,16 @@
   items:
     - name: Prise en main de l’infrastructure d’adoption de service
       href: adoption-getstarted.md
+    - name: "Gérer les contrats dans Microsoft\_365"
+      items:
+        - name: Vue d’ensemble
+          href: solution-manage-contracts-in-microsoft-365.md
+        - name: Étape 1. Utiliser SharePoint Syntex
+          href: solution-manage-contracts-step1.md
+        - name: "Étape\_2. Utiliser Microsoft\_Teams."
+          href: solution-manage-contracts-step2.md
+        - name: "Étape\_3. Power Automate"
+          href: solution-manage-contracts-step3.md
 - name: Configuration et administration
   items:
     - name: Configurer la compréhension de contenu
