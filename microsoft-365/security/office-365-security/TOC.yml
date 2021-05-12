@@ -303,19 +303,19 @@
     - name: FAQ
       items:
         - name: FAQ sur l’administration déléguée
-          href: delegated-administration-faq.md
+          href: delegated-administration-faq.yml
         - name: "Forum Aux Questions d’ordre général concernant Exchange\_Online\_Protection (EOP)"
-          href: eop-general-faq.md
+          href: eop-general-faq.yml
         - name: 'Questions fréquemment posées sur les messages mis en file d’attente, différés et retournés dans EOP'
-          href: eop-queued-deferred-and-bounced-messages-faq.md
+          href: eop-queued-deferred-and-bounced-messages-faq.yml
         - name: FAQ sur la protection contre les programmes malveillants
-          href: anti-malware-protection-faq-eop.md
+          href: anti-malware-protection-faq-eop.yml
         - name: FAQ sur la protection anti-courrier indésirable
-          href: anti-spam-protection-faq.md
+          href: anti-spam-protection-faq.yml
         - name: FAQ sur la protection contre l’usurpation d’identité
-          href: anti-spoofing-protection-faq.md
+          href: anti-spoofing-protection-faq.yml
         - name: FAQ sur la mise en quarantaine
-          href: quarantine-faq.md
+          href: quarantine-faq.yml
     - name: Référence
       items:
         - name: Feuille de route de sécurité

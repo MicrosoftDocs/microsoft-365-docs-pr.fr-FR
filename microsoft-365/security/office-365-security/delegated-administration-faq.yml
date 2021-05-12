@@ -1,0 +1,64 @@
+### YamlMime:FAQ
+metadata:
+  title: FAQ sur l'administration déléguée
+  f1.keywords:
+  - NOCSH
+  ms.author: chrisda
+  author: chrisda
+  manager: dansimp
+  ms.date: 
+  audience: ITPro
+  ms.topic: troubleshooting
+  localization_priority: Normal
+  ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
+  ms.custom:
+  - seo-marvel-apr2020
+  description: Les administrateurs peuvent consulter les questions fréquemment posées et les réponses sur les tâches d’administration déléguées dans Microsoft 365 pour les partenaires et revendeurs Microsoft.
+  ms.technology: mdo
+  ms.prod: m365-security
+  ms.openlocfilehash: 836e52139ef2e6191bda26d6fdb92da521dff6bd
+  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 05/12/2021
+  ms.locfileid: "52333969"
+title: FAQ sur l’administration déléguée
+summary: >
+  [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+
+
+  Cet article fournit des questions fréquemment posées et des réponses sur les tâches d’administration déléguées dans Microsoft 365 pour les partenaires et revendeurs Microsoft. L’administration déléguée inclut la possibilité de gérer les paramètres Exchange Online Protection (EOP) pour d’autres clients (sociétés).
+sections:
+- name: Ignoré
+  questions:
+  - question: >
+      Je suis revendeur et je dois gérer mes clients. Comment cela fonctionne-t-il ?
+    answer: >
+      Si vous êtes un partenaire ou un revendeur Microsoft et que vous vous êtes inscrit en tant que conseiller Microsoft, vous pouvez demander des fonctionnalités _d’administration_ déléguées dans l’organisation Microsoft 365 de votre client.
+
+
+      L’administration déléguée vous permet de gérer les Microsoft 365 (y compris les paramètres EOP) comme si vous étiez un administrateur au sein de cette organisation. Les étapes de configuration de l’administration déléguée sont décrites dans la liste suivante :
+
+
+      1. Inscrivez-vous pour devenir [partenaire Microsoft Office 365](https://partner.microsoft.com/?cloudbenefits).
+
+
+      2. Inscrivez-vous à l’administration déléguée. Avant de commencer à administrer le client d’un client, il doit vous autoriser en tant qu’administrateur délégué. Pour obtenir leur approbation, vous devez d'abord [leur envoyer une offre d'administration déléguée](https://support.microsoft.com/office/26530dc0-ebba-415b-86b1-b55bc06b073e). Vous pouvez également proposer une administration déléguée à votre client ultérieurement.
+
+
+      3. Créez le compte d’administrateur délégué à l’aide des étapes de [l’étape Ajouter, modifier ou supprimer un partenaire conseiller en abonnement.](../../admin/misc/add-partner.md)
+
+
+      Visitez [les partenaires : développez votre entreprise et administrez](https://support.microsoft.com/office/30dd1681-47e0-4cbc-abfe-a222cd111319) un abonnement partenaire pour plus d’informations sur la façon de configurer l’administration déléguée.
+  - question: >
+      Je suis un client, pas un revendeur. Comment configurer un administrateur délégué pour mes sous-clients ?
+    answer: >
+      L’administration déléguée est uniquement disponible pour les revendeurs et les partenaires. Toutefois, il existe un exemple de script PowerShell qui vous aidera à appliquer des stratégies à vos sous-traitants (sociétés). Pour plus d'informations, voir [Exemple de script pour l'application de paramètres EOP à plusieurs locataires](sample-script-for-applying-eop-settings-to-multiple-tenants.md).
+  - question: >
+      Puis-je empêcher mon administrateur de sous-site de modifier ma stratégie ?
+    answer: >
+      Non. Microsoft 365 ne dispose pas actuellement de cette fonctionnalité.
+  - question: >
+      Puis-je obtenir des rapports consolidés sur tous mes sous-traitants ?
+    answer: Les rapports consolidés au sein des entreprises que vous gérez ne sont pas disponibles dans Microsoft 365 rapports du Centre d’administration. Toutefois, vous pouvez obtenir des rapports à l’aide [de Microsoft Graph](/graph/overview).

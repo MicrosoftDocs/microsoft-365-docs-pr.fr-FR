@@ -42,4 +42,4 @@
     - name: Informations de rapport pour Microsoft bookings
       href: reporting-info.md
     - name: Forum aux questions sur Microsoft Books Forum aux questions (FAQ)
-      href: bookings-faq.md
+      href: bookings-faq.yml
