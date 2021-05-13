@@ -108,7 +108,7 @@
                       href: first-incident-overview.md
                     - name: Préparation
                       href: first-incident-prepare.md
-                    - name: Étape 1. Tri et analyse
+                    - name: Étape 1. Trier et analyser
                       href: first-incident-analyze.md
                     - name: "Étape\_2. Corriger"
                       href: first-incident-remediate.md
@@ -186,8 +186,6 @@
                   href: advanced-hunting-alertevidence-table.md
                 - name: AlertInfo
                   href: advanced-hunting-alertinfo-table.md
-                - name: AppFileEvents
-                  href: advanced-hunting-appfileevents-table.md
                 - name: CloudAppEvents
                   href: advanced-hunting-cloudappevents-table.md
                 - name: DeviceEvents
