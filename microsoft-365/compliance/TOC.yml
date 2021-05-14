@@ -501,9 +501,11 @@
       items:
         - name: Vue d’ensemble de la recherche de contenu
           href: search-for-content.md
-        - name: Utiliser la recherche de contenu
+        - name: Recherche de contenu
           href: content-search.md
           items:
+            - name: Référence des fonctionnalités pour la recherche du contenu
+              href: content-search-reference.md
             - name: Requêtes par mots clés et conditions de recherche
               href: keyword-queries-and-search-conditions.md
             - name: Afficher un aperçu des résultats de la recherche de découverte électronique
@@ -663,32 +665,20 @@
               href: error-remediation-when-processing-data-in-advanced-ediscovery.md
             - name: Correction d’erreur sur élément unique
               href: single-item-error-remediation.md
-        - name: Collecter le contenu d’un cas (aperçu)
+        - name: Collecter le contenu d’un cas
           items:
-            - name: En savoir plus sur les collections (aperçu)
+            - name: En savoir plus sur les collections
               href: collections-overview.md
-            - name: Créer une collection au brouillon (aperçu)
+            - name: Créer une collection au brouillon
               href: create-draft-collection.md
-            - name: Valider une collection au brouillon vers un ensemble de révisions (aperçu)
+            - name: Valider une collection au brouillon vers un ensemble de révisions
               href: commit-draft-collection.md
-            - name: Statistiques et rapports de collection (aperçu)
+            - name: Statistiques et rapports de collection
               href: collection-statistics-reports.md
             - name: Créer des requêtes de recherche de collections
               href: building-search-queries.md
             - name: Requêtes par mots clés et conditions de recherche
               href: keyword-queries-and-search-conditions.md
-        - name: Collecter des données pour un cas
-          items:
-            - name: Créer une recherche
-              href: create-search-to-collect-data.md
-            - name: Créer des requêtes de recherche
-              href: building-search-queries.md
-            - name: Requêtes par mots clés et conditions de recherche
-              href: keyword-queries-and-search-conditions.md
-            - name: Statistiques de recherche
-              href: search-statistics-in-advanced-ediscovery.md
-            - name: Ajouter des résultats de recherche à un jeu à réviser
-              href: add-data-to-review-set.md
         - name: Gérer les jeux à réviser
           href: managing-review-sets.md
           items:
@@ -840,6 +830,8 @@
       items:
         - name: En savoir plus sur le Gestionnaire de conformité
           href: compliance-manager.md
+        - name: Nouveautés du Gestionnaire de conformité
+          href: compliance-manager-whats-new.md
         - name: Gestionnaire de conformité Quickstart
           href: compliance-manager-quickstart.md
         - name: Prise en main du Gestionnaire de conformité
