@@ -42,6 +42,8 @@
       href: topic-experiences-security-trimming.md
     - name: Rechercher des rubriques
       href: search.md
+    - name: Gérer les rubriques à l’échelle
+      href: scale-topics.md
 - name: Adoption
   items:
     - name: Prise en main de l’adoption

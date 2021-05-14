@@ -211,7 +211,7 @@
 #### [Vue d’ensemble](next-gen-threat-and-vuln-mgt.md)
 #### [Prise en main]()
 ##### [Conditions préalables et autorisations](tvm-prerequisites.md)
-##### [Plateformes et systèmes d’exploitation pris en charge](tvm-supported-os.md)
+##### [Plateformes et fonctionnalités des systèmes d’exploitation pris en charge](tvm-supported-os.md)
 ##### [Affecter une valeur aux appareils](tvm-assign-device-value.md)
 #### [Évaluer votre posture de sécurité]()
 ##### [Tableau de bord des informations](tvm-dashboard-insights.md)
