@@ -88,55 +88,55 @@
           items:
             - name: Vue d’ensemble
               href: incidents-overview.md
-            - name: Hiérarchiser les incidents
+            - name: Hiérarchisation
               href: incident-queue.md
-            - name: Gérer les incidents
+            - name: Gestion
               href: manage-incidents.md
-            - name: Réponse aux incidents
+            - name: Examiner
               items:
-                - name: Enquêter sur des incidents
+                - name: Vue d’ensemble
                   href: investigate-incidents.md
-                - name: Examiner les alertes
+                - name: Alertes
                   href: investigate-alerts.md
-                - name: Examiner les utilisateurs
+                - name: Utilisateurs
                   href: investigate-users.md
-                - name: Manuels de réponse aux incidents
-                  href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
-                - name: Répondre à votre premier incident
+            - name: Répondre à votre premier incident
+              items:
+                - name: Introduction
+                  href: first-incident-overview.md
+                - name: Préparation
+                  href: first-incident-prepare.md
+                - name: Étape 1. Tri et analyse
+                  href: first-incident-analyze.md
+                - name: "Étape\_2. Corriger"
+                  href: first-incident-remediate.md
+                - name: "Étape\_3. Révision"
+                  href: first-incident-post.md
+                - name: Exemples d’incidents supplémentaires
                   items:
-                    - name: Introduction
-                      href: first-incident-overview.md
-                    - name: Préparation
-                      href: first-incident-prepare.md
-                    - name: Étape 1. Trier et analyser
-                      href: first-incident-analyze.md
-                    - name: "Étape\_2. Corriger"
-                      href: first-incident-remediate.md
-                    - name: "Étape\_3. Révision"
-                      href: first-incident-post.md
-                    - name: Exemples d’incidents supplémentaires
-                      items:
-                        - name: Courriers hameçons
-                          href: first-incident-path-phishing.md
-                        - name: Identité
-                          href: first-incident-path-identity.md
-            - name: Obtenir des notifications par e-mail
+                    - name: Courriers hameçons
+                      href: first-incident-path-phishing.md
+                    - name: Identité
+                      href: first-incident-path-identity.md
+            - name: Manuels de réponse aux incidents
+              href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
+            - name: Notifications par e-mail
               href: get-incident-notifications.md
         - name: Enquêtes et réponses automatisées
           items:
-            - name: Présentation de l’examen et de la réponse automatisés
+            - name: Vue d’ensemble
               href: m365d-autoir.md
-            - name: Configuration de l’examen automatisé et des fonctionnalités de réponse
+            - name: Configurer les fonctionnalités
               href: m365d-configure-auto-investigation-response.md
             - name: Actions de correction
               href: m365d-remediation-actions.md
-            - name: Visiter le Centre de notifications
+            - name: Utiliser le Centre de notifications
               href: m365d-action-center.md
             - name: Afficher et gérer les actions de correction
               href: m365d-autoir-actions.md
-            - name: Consulter les détails et les résultats des enquêtes automatisées
+            - name: Afficher les détails et les résultats
               href: m365d-autoir-results.md
-            - name: Corriger les faux positifs/négatifs
+            - name: Corriger les faux positifs et les négatifs
               href: m365d-autoir-report-false-positives-negatives.md
         - name: Repérage avancé
           items:
