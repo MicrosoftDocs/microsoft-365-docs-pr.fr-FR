@@ -1,35 +1,36 @@
 ---
 title: Informations de paiement pour l’Islande
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Découvrez où envoyer le paiement pour votre abonnement.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0378ac992381cb3e3e6864d8fe6f5ff951e51457
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 4aba4116bba7700e6d421d8e59c38405c234fb59
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273607"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536657"
 ---
-# <a name="payment-information-for-iceland"></a><span data-ttu-id="ec5fb-103">Informations de paiement pour l’Islande</span><span class="sxs-lookup"><span data-stu-id="ec5fb-103">Payment information for Iceland</span></span>
+# <a name="payment-information-for-iceland"></a><span data-ttu-id="a9d96-103">Informations de paiement pour l’Islande</span><span class="sxs-lookup"><span data-stu-id="a9d96-103">Payment information for Iceland</span></span>
 
-<span data-ttu-id="ec5fb-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="ec5fb-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="a9d96-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="a9d96-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="ec5fb-105">Veuillez payer en EUR uniquement et référencer les numéro(s) de facture à votre paiement.</span><span class="sxs-lookup"><span data-stu-id="ec5fb-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="a9d96-105">Veuillez payer en EUR uniquement et référencer les numéro(s) de facture à votre paiement.</span><span class="sxs-lookup"><span data-stu-id="a9d96-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="ec5fb-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="ec5fb-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="a9d96-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="a9d96-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="ec5fb-107">**Banque :** Bank, Londres</span><span class="sxs-lookup"><span data-stu-id="ec5fb-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="ec5fb-108">**Code SWIFT/BIC :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="ec5fb-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
-<span data-ttu-id="ec5fb-109">**IBAN :** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="ec5fb-109">**IBAN:** GB31CITI18500812207591</span></span>  
-<span data-ttu-id="ec5fb-110">**Code SORT :** 185008</span><span class="sxs-lookup"><span data-stu-id="ec5fb-110">**SORT Code:** 185008</span></span>  
-<span data-ttu-id="ec5fb-111">**Numéro de compte :** 12207591</span><span class="sxs-lookup"><span data-stu-id="ec5fb-111">**Account Number:** 12207591</span></span>  
-<span data-ttu-id="ec5fb-112">**Nom du compte :** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="ec5fb-112">**Account Name:** MICROSOFT</span></span>
+<span data-ttu-id="a9d96-107">**Banque :** Bank, Londres</span><span class="sxs-lookup"><span data-stu-id="a9d96-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="a9d96-108">**Code SWIFT/BIC :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="a9d96-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
+<span data-ttu-id="a9d96-109">**IBAN :** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="a9d96-109">**IBAN:** GB31CITI18500812207591</span></span>  
+<span data-ttu-id="a9d96-110">**Code SORT :** 185008</span><span class="sxs-lookup"><span data-stu-id="a9d96-110">**SORT Code:** 185008</span></span>  
+<span data-ttu-id="a9d96-111">**Numéro de compte :** 12207591</span><span class="sxs-lookup"><span data-stu-id="a9d96-111">**Account Number:** 12207591</span></span>  
+<span data-ttu-id="a9d96-112">**Nom du compte :** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="a9d96-112">**Account Name:** MICROSOFT</span></span>

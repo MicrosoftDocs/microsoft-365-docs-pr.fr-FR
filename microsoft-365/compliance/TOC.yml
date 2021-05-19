@@ -784,8 +784,8 @@
       href: auditing-solutions-overview.md
     - name: Audit de base
       items:
-        - name: Configurer l’Audit de base
-          href: set-up-basic-auditing.md
+        - name: Configurer l'audit de base
+          href: set-up-basic-audit.md
         - name: Effectuer une recherche dans le journal d’audit
           href: search-the-audit-log-in-security-and-compliance.md
         - name: Utiliser un script PowerShell pour effectuer une recherche dans le journal d’audit
