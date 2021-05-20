@@ -2,45 +2,46 @@
 title: Informations de paiement pour la Suisse
 f1.keywords:
 - NOCSH
-author: cmcatee-MSFT
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Découvrez où envoyer le paiement pour votre abonnement.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 80f4c52417c0e3fe3a7a501ec55f2e45a8105afc
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 60f0965bce53e462ede98622323a88bfbeb1b490
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52272779"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537774"
 ---
-# <a name="payment-information-for-switzerland"></a><span data-ttu-id="75077-103">Informations de paiement pour la Suisse</span><span class="sxs-lookup"><span data-stu-id="75077-103">Payment information for Switzerland</span></span>
+# <a name="payment-information-for-switzerland"></a><span data-ttu-id="3cf02-103">Informations de paiement pour la Suisse</span><span class="sxs-lookup"><span data-stu-id="3cf02-103">Payment information for Switzerland</span></span>
 
-<span data-ttu-id="75077-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="75077-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="3cf02-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="3cf02-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="75077-105">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="75077-105">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="3cf02-105">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="3cf02-105">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="75077-106">**Veuillez payer en FONCTION DU MONTANT ET référencer les numéro(s) de facture(s) sur votre paiement.**</span><span class="sxs-lookup"><span data-stu-id="75077-106">**Please pay in CHF and reference invoice number(s) on your payment remittance.**</span></span>
+<span data-ttu-id="3cf02-106">**Veuillez payer en FONCTION DU MONTANT ET référencer les numéro(s) de facture(s) sur votre paiement.**</span><span class="sxs-lookup"><span data-stu-id="3cf02-106">**Please pay in CHF and reference invoice number(s) on your payment remittance.**</span></span>
 
-<span data-ttu-id="75077-107">Si vous avez une facture facturée par **Microsoft Ireland Operations Limited,** utilisez les informations bancaires ci-après :</span><span class="sxs-lookup"><span data-stu-id="75077-107">If you have an invoice billed by **Microsoft Ireland Operations Limited**, use this bank information:</span></span>
+<span data-ttu-id="3cf02-107">Si vous avez une facture facturée par **Microsoft Ireland Operations Limited,** utilisez les informations bancaires ci-après :</span><span class="sxs-lookup"><span data-stu-id="3cf02-107">If you have an invoice billed by **Microsoft Ireland Operations Limited**, use this bank information:</span></span>
 
-<span data-ttu-id="75077-108">Banque :Bankbank, Londres</span><span class="sxs-lookup"><span data-stu-id="75077-108">Bank: Citibank, London</span></span>\
-<span data-ttu-id="75077-109">Code SWIFT : CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="75077-109">SWIFT Code: CITIGB2L</span></span>\
-<span data-ttu-id="75077-110">Code IBAN : GB44CITI18500812207648</span><span class="sxs-lookup"><span data-stu-id="75077-110">IBAN Code: GB44CITI18500812207648</span></span>\
-<span data-ttu-id="75077-111">Numéro de compte : 12207648</span><span class="sxs-lookup"><span data-stu-id="75077-111">Account Number: 12207648</span></span>\
-<span data-ttu-id="75077-112">Nom du compte : MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="75077-112">Account Name: MICROSOFT</span></span>
+<span data-ttu-id="3cf02-108">**Banque :** Bank, Londres</span><span class="sxs-lookup"><span data-stu-id="3cf02-108">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="3cf02-109">**Code SWIFT :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="3cf02-109">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="3cf02-110">**Code IBAN :** GB44CITI18500812207648</span><span class="sxs-lookup"><span data-stu-id="3cf02-110">**IBAN Code:** GB44CITI18500812207648</span></span>  
+<span data-ttu-id="3cf02-111">**Numéro de compte :** 12207648</span><span class="sxs-lookup"><span data-stu-id="3cf02-111">**Account Number:** 12207648</span></span>  
+<span data-ttu-id="3cf02-112">**Nom du compte :** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="3cf02-112">**Account Name:** MICROSOFT</span></span>
 
-<span data-ttu-id="75077-113">Si vous avez une facture facturée par **Microsoft Contrôleiz ContrôleH** pour les commandes et la consommation à compter du 1er mars 2021, utilisez les informations bancaires ci-après :</span><span class="sxs-lookup"><span data-stu-id="75077-113">If you have an invoice billed by **Microsoft Schweiz GmbH** for orders and consumption starting March 1, 2021, use this bank information:</span></span>
+<span data-ttu-id="3cf02-113">Si vous avez une facture facturée par **Microsoft Contrôleiz ContrôleH** pour les commandes et la consommation à compter du 1er mars 2021, utilisez les informations bancaires ci-après :</span><span class="sxs-lookup"><span data-stu-id="3cf02-113">If you have an invoice billed by **Microsoft Schweiz GmbH** for orders and consumption starting March 1, 2021, use this bank information:</span></span>
 
-<span data-ttu-id="75077-114">Banque :Bank Europe plc</span><span class="sxs-lookup"><span data-stu-id="75077-114">Bank: Citibank Europe plc</span></span>\
-<span data-ttu-id="75077-115">Code SWIFT : CITIIE2X</span><span class="sxs-lookup"><span data-stu-id="75077-115">SWIFT Code: CITIIE2X</span></span>\
-<span data-ttu-id="75077-116">Code IBAN : IE59CITI99005170000132</span><span class="sxs-lookup"><span data-stu-id="75077-116">IBAN Code: IE59CITI99005170000132</span></span>\
-<span data-ttu-id="75077-117">Numéro de compte : 70000132</span><span class="sxs-lookup"><span data-stu-id="75077-117">Account Number: 70000132</span></span>\
-<span data-ttu-id="75077-118">Nom du compte : MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="75077-118">Account Name: MICROSOFT</span></span>
+<span data-ttu-id="3cf02-114">**Banque :** Bank Europe plc</span><span class="sxs-lookup"><span data-stu-id="3cf02-114">**Bank:** Citibank Europe plc</span></span>  
+<span data-ttu-id="3cf02-115">**Code SWIFT :** CITIIE2X</span><span class="sxs-lookup"><span data-stu-id="3cf02-115">**SWIFT Code:** CITIIE2X</span></span>  
+<span data-ttu-id="3cf02-116">**Code IBAN :** IE59CITI99005170000132</span><span class="sxs-lookup"><span data-stu-id="3cf02-116">**IBAN Code:** IE59CITI99005170000132</span></span>  
+<span data-ttu-id="3cf02-117">**Numéro de compte :** 70000132</span><span class="sxs-lookup"><span data-stu-id="3cf02-117">**Account Number:** 70000132</span></span>  
+<span data-ttu-id="3cf02-118">**Nom du compte :** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="3cf02-118">**Account Name:** MICROSOFT</span></span>
 
-<span data-ttu-id="75077-119">Les factures émises à partir d’une filiale Microsoft locale sont émises avec le taux standard TVA/Taxe de vente/TAXE sur les produits et services et considérées comme une fourniture nationale de services à des fins de TVA/Taxe de vente/TAXE SUR LES PRODUITS.</span><span class="sxs-lookup"><span data-stu-id="75077-119">Invoices issued from a local Microsoft Subsidiary are issued with the standard rate of VAT/Sales Tax/GST and deemed a domestic supply of services for VAT/Sales Tax/GST purposes.</span></span>
+<span data-ttu-id="3cf02-119">Les factures émises à partir d’une filiale Microsoft locale sont émises avec le taux standard TVA/Taxe de vente/TAXE sur les produits et services et considérées comme une fourniture nationale de services à des fins de TVA/Taxe de vente/TAXE SUR LES PRODUITS.</span><span class="sxs-lookup"><span data-stu-id="3cf02-119">Invoices issued from a local Microsoft Subsidiary are issued with the standard rate of VAT/Sales Tax/GST and deemed a domestic supply of services for VAT/Sales Tax/GST purposes.</span></span>
