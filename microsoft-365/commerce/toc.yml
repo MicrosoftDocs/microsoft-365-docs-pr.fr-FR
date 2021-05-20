@@ -1,14 +1,14 @@
 - name: Gérer les abonnements d’entreprise
   href: index.yml
-- name: "Aide du Centre d’administration Microsoft\_365"
+- name: Aide du Centre d’administration Microsoft 365
   href: ../admin/index.yml
 - name: Essayer ou acheter
   items:
-    - name: "Essayer ou acheter Microsoft\_365"
+    - name: Essayer ou acheter Microsoft 365
       href: try-or-buy-microsoft-365.md
     - name: Acheter ou gérer des modules complémentaires
       href: buy-or-edit-an-add-on.md
-    - name: "Aide pour les entreprises pour Microsoft\_365"
+    - name: Aide pour les entreprises pour Microsoft 365
       href: ../admin/misc/business-assist.md
     - name: Ajouter de l’espace de stockage
       href: add-storage-space.md
@@ -22,7 +22,7 @@
       href: subscriptions/reactivate-your-subscription.md
     - name: Annuler votre abonnement
       href: subscriptions/cancel-your-subscription.md
-    - name: "Que se passe-t-il si mon abonnement expire\_?"
+    - name: Que se passe-t-il si mon abonnement expire ?
       href: subscriptions/what-if-my-subscription-expires.md
     - name: Gérer les abonnements d’applications tierces
       href: manage-saas-apps.md
@@ -68,7 +68,7 @@
       href: billing-and-payments/psd2.md
 - name: Comptes de facturation
   items:
-    - name: Gérer les comptes de facturation
+    - name: Comprendre les comptes de facturation
       href: manage-billing-accounts.md
     - name: Associer un client à votre compte de facturation
       href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business

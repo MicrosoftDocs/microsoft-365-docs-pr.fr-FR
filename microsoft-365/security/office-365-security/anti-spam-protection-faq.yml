@@ -17,15 +17,15 @@ metadata:
   - m365initiative-defender-office365
   ms.custom:
   - seo-marvel-apr2020
-  description: Les administrateurs peuvent consulter les questions fréquemment posées et leurs réponses sur la protection contre le courrier indésirable dans Exchange Online Protection (EOP).
+  description: Les administrateurs peuvent consulter les questions fréquemment posées et les réponses sur la protection contre le courrier indésirable dans Exchange Online Protection (EOP).
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: 430ed10d74dea909415ee0ca32d33ad8d006ae6b
-  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.openlocfilehash: e632ab1183c43cd50da7c2cf7832a5a18fa64d50
+  ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 05/12/2021
-  ms.locfileid: "52333961"
+  ms.lasthandoff: 05/20/2021
+  ms.locfileid: "52583615"
 title: FAQ sur la protection anti-courrier indésirable
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -40,7 +40,7 @@ summary: >
   - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-  Cette rubrique fournit des questions fréquemment posées et des réponses sur la protection contre les programmes malveillants pour les organisations Microsoft 365 avec des boîtes aux lettres dans Exchange Online ou les organisations Exchange Online Protection autonomes (EOP) sans boîtes aux lettres Exchange Online.
+  Cette rubrique fournit des questions fréquemment posées et des réponses sur la protection contre les programmes malveillants pour les organisations Microsoft 365 ayant des boîtes aux lettres dans Exchange Online ou les organisations Exchange Online Protection autonomes (EOP) sans boîtes aux lettres Exchange Online données.
 
 
   Pour accéder à des questions et des réponses sur la mise en quarantaine, voir [FAQ sur la mise en quarantaine](quarantine-faq.yml).
@@ -65,12 +65,14 @@ sections:
 
        **Pour les messages sortants :** Le message est acheminé via le pool de remise à risque élevé ou est renvoyé à l’expéditeur dans une [non-remise](high-risk-delivery-pool-for-outbound-messages.md) (également appelée NDR ou message de non-remise). Pour plus d’informations sur la protection contre le courrier indésirable sortant, voir [Contrôles de courrier indésirable sortant.](outbound-spam-controls.md)
   - question: >
-      Qu’est-ce qu’une variante de courrier indésirable zéro jour et comment est-elle gérée par le service ?
+      Qu’est-ce qu’une variante de courrier indésirable « zero-day » et comment est-elle gérée par le service ?
     answer: >
       Une variante de courrier indésirable zéro jour est une variante de courrier indésirable de première génération, inconnue précédemment, qui n’a jamais été capturée ou analysée, de sorte que nos filtres anti-courrier indésirable ne disposent pas encore d’informations pour le détecter. Une fois qu’un échantillon de courrier indésirable zéro jour a été capturé et analysé par nos analystes de courrier indésirable, s’il répond aux critères de classification du courrier indésirable, nos filtres anti-courrier indésirable sont mis à jour pour le détecter et il n’est plus considéré comme « zero-day ».
 
 
-      **Remarque :** Si vous recevez un message qui peut être une variante de courrier indésirable zéro jour, afin de nous aider à améliorer le service, envoyez le message à Microsoft à l’aide de l’une des méthodes décrites dans Signaler les messages et les fichiers à [Microsoft.](report-junk-email-messages-to-microsoft.md)
+      > [!NOTE]
+
+      > Si vous recevez un message qui peut être une variante de courrier indésirable zéro jour, afin de nous aider à améliorer le service, envoyez le message à Microsoft à l’aide de l’une des méthodes décrites dans Signaler les messages et les fichiers à [Microsoft.](report-junk-email-messages-to-microsoft.md)
   - question: >
       Dois-je configurer le service pour bénéficier d'une protection anti-courrier indésirable ?
     answer: >
@@ -80,7 +82,7 @@ sections:
       Pour plus d’informations, voir les rubriques suivantes :
 
 
-      [Paramètres recommandés pour la sécurité d’EOP et de Microsoft Defender pour Office 365](recommended-settings-for-eop-and-office365.md)
+      [Paramètres recommandés pour EOP et Microsoft Defender pour Office 365 sécurité](recommended-settings-for-eop-and-office365.md)
 
 
       [Configurer le filtrage des connexions dans EOP](configure-the-connection-filter-policy.md)
@@ -97,7 +99,7 @@ sections:
   - question: >
       Le filtrage des messages électroniques en bloc est-il automatiquement activé ?
     answer: >
-      Oui. Pour plus d’informations sur le courrier en nombre, voir Quelle est la différence entre le courrier indésirable et [le courrier en masse ?](what-s-the-difference-between-junk-email-and-bulk-email.md)
+      Oui. Pour plus d'informations sur le courrier en masse, voir [Quelle est la différence entre courrier indésirable et message électronique en masse ?](what-s-the-difference-between-junk-email-and-bulk-email.md)
   - question: >
       Le service fournit-il le filtrage d’URL ?
     answer: >
@@ -109,10 +111,10 @@ sections:
   - question: >
       Puis-je obtenir des rapports sur le courrier indésirable ?
     answer: >
-      Oui, par exemple, vous pouvez obtenir un rapport de détection de courrier indésirable dans le Centre d’administration Microsoft 365. Ce rapport indique le volume de courrier indésirable sous la forme d’un nombre de messages uniques. Pour plus d'informations sur les rapports, consultez les liens suivants :
+      Oui, par exemple, vous pouvez obtenir un rapport de détection de courrier indésirable dans Microsoft 365'administration centrale. Ce rapport indique le volume de courrier indésirable sous la forme d’un nombre de messages uniques. Pour plus d'informations sur les rapports, consultez les liens suivants :
 
 
-      Clients Exchange Online : [surveillance, rapports et suivi des messages dans Exchange Online](/exchange/monitoring/monitoring)
+      Exchange Online clients : [surveillance, rapports et suivi](/exchange/monitoring/monitoring) des messages dans Exchange Online
 
 
       Clients EOP autonomes : [rapports et suivi des messages dans Exchange Online Protection](reporting-and-message-trace-in-exchange-online-protection.md)
@@ -133,10 +135,10 @@ sections:
       Oui. Bien qu’il soit recommandé de pointer votre enregistrement MX vers Microsoft, nous savons qu’il existe des raisons légitimes pour l’entreprise d’router votre courrier électronique vers un autre endroit que Microsoft.
 
 
-      - **Entrant :** modifiez vos enregistrements MX pour qu’ils pointent vers le fournisseur tiers, puis redirigez les messages vers EOP pour un traitement supplémentaire. Pour plus d’informations, [voir Filtrage amélioré pour les connecteurs dans Exchange Online.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)
+      - **Entrant :** modifiez vos enregistrements MX pour qu’ils pointent vers le fournisseur tiers, puis redirigez les messages vers EOP pour un traitement supplémentaire. Pour plus d’informations, [voir Filtrage amélioré pour les connecteurs dans Exchange Online](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
 
 
-      - **Sortant :** configurer le routage de l’hôte intelligent de Microsoft 365 vers le fournisseur tiers de destination.
+      - **Sortant :** configurer le routage de l’hôte Microsoft 365 vers le fournisseur tiers de destination.
   - question: >
       Est-ce que Microsoft dispose de documentation concernant la façon dont je peux me protéger contre les tentatives de hameçonnage ?
     answer: >

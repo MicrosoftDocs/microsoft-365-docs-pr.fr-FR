@@ -1,22 +1,22 @@
-- name: "Sécurité Office\_365"
+- name: Sécurité Office 365
   href: index.yml
   expanded: true
   items:
     - name: Vue d’ensemble
       items:
-        - name: "Vue d’ensemble de la sécurité dans Office\_365"
+        - name: Vue d’ensemble de la sécurité dans Office 365
           href: overview.md
-        - name: "Defender pour Office\_365"
+        - name: Defender pour Office 365
           href: defender-for-office-365.md
-        - name: "Protection contre les menaces étape par étape dans Defender pour Office\_365"
+        - name: Protection contre les menaces étape par étape dans Defender pour Office 365
           href: protection-stack-microsoft-defender-for-office365.md
-        - name: "Evaluer Defender pour Office\_365"
+        - name: Evaluer Defender pour Office 365
           href: office-365-evaluation.md
-        - name: "Nouveautés de Defender pour Office\_365"
+        - name: Nouveautés de Defender pour Office 365
           href: whats-new-in-defender-for-office-365.md
-        - name: "Defender pour Office\_365 dans le Centre de sécurité Microsoft 365"
+        - name: Defender pour Office 365 dans le Centre de sécurité Microsoft 365
           href: ../defender/microsoft-365-security-center-mdo.md
-        - name: "Exchange\_Online Protection"
+        - name: Exchange Online Protection
           items:
             - name: Vue d’ensemble d’Exchange Online Protection
               href: exchange-online-protection-overview.md
@@ -28,7 +28,7 @@
               href: exchange-admin-center-in-exchange-online-protection-eop.md
             - name: Gérer les destinataires dans EOP autonome
               href: manage-recipients-in-eop.md
-            - name: "Flux de courriers dans\_EOP"
+            - name: Flux de courriers dans EOP
               href: mail-flow-in-eop.md
             - name: Quarantaine
               href: quarantine-email-messages.md
@@ -36,9 +36,9 @@
               href: auditing-reports-in-eop.md
         - name: 'Pièces jointes sécurisées pour SharePoint, OneDrive et Microsoft Teams'
           href: turn-on-mdo-for-spo-odb-and-teams.md
-        - name: "Vue d’ensemble du Centre de sécurité Microsoft\_365"
+        - name: Vue d’ensemble du Centre de sécurité Microsoft 365
           href: ../defender/overview-security-center.md
-        - name: "Explorateur des menaces pour Defender pour Office\_365"
+        - name: Explorateur des menaces pour Defender pour Office 365
           items:
             - name: Repérage de menaces dans l’Explorateur de menaces
               href: threat-hunting-in-threat-explorer.md
@@ -62,9 +62,9 @@
           href: anti-phishing-protection.md
         - name: Protection contre l’usurpation d’identité
           href: anti-spoofing-protection.md
-        - name: "Pièces jointes sécurisées dans\_Defender pour Office\_365"
+        - name: Pièces jointes sécurisées dans Defender pour Office 365
           href: safe-attachments.md
-        - name: "Liens fiables dans\_Defender pour Office\_365"
+        - name: Liens fiables dans Defender pour Office 365
           href: safe-links.md
         - name: Protection contre le courrier indésirable sortant
           href: outbound-spam-controls.md
@@ -72,15 +72,15 @@
           href: security-dashboard.md
         - name: Fonctionnement de l’examen des menaces et de la réponse à celles-ci
           href: office-365-ti.md
-        - name: "Réponse aux incidents de sécurité Office\_365"
+        - name: Réponse aux incidents de sécurité Office 365
           href: office365-security-incident-response-overview.md
         - name: Informations sur le flux de courriers dans le Centre de sécurité et de conformité
           href: mail-flow-insights-v2.md
-        - name: "Conseils de Sécurité\_Microsoft pour les campagnes électorales, les organisations à but non lucratif et d’autres organisations Agile"
+        - name: 'Conseils de Sécurité Microsoft pour les campagnes électorales, les organisations à but non lucratif et d’autres organisations Agile'
           href: microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md
     - name: Déployer
       items:
-        - name: "Exchange\_Online Protection"
+        - name: Exchange Online Protection
           items:
             - name: Configurer des stratégies anti-hameçonnage dans EOP
               href: configure-anti-phishing-policies-eop.md
@@ -94,13 +94,13 @@
               href: set-up-your-eop-service.md
         - name: Protéger contre les menaces
           href: protect-against-threats.md
-        - name: "Intégrer Defender pour Office\_365 avec Defender pour point de terminaison"
+        - name: Intégrer Defender pour Office 365 avec Defender pour point de terminaison
           href: integrate-office-365-ti-with-mde.md
         - name: Autorisations dans le Centre de sécurité et de conformité
           href: permissions-in-the-security-and-compliance-center.md
         - name: Intégration du serveur d’informations de sécurité et gestion d’événements
           href: siem-server-integration.md
-        - name: "Intégration d’informations de sécurité et gestion d’événements avec Defender pour Office\_365"
+        - name: Intégration d’informations de sécurité et gestion d’événements avec Defender pour Office 365
           href: siem-integration-with-office-365-ti.md
         - name: Sécurisé par défaut.
           href: secure-by-default.md
@@ -112,14 +112,12 @@
           href: configure-your-spam-filter-policies.md
         - name: Configurer le filtrage des connexions
           href: configure-the-connection-filter-policy.md
-        - name: "Configurer les paramètres généraux pour la fonctionnalité Liens fiables dans Defender pour Office\_365"
+        - name: Configurer les paramètres généraux pour la fonctionnalité Liens fiables dans Defender pour Office 365
           href: configure-global-settings-for-safe-links.md
-        - name: "Configurer les paramètres du courrier indésirable dans les boîtes aux lettres Exchange\_Online"
+        - name: Configurer les paramètres du courrier indésirable dans les boîtes aux lettres Exchange Online
           href: configure-junk-email-settings-on-exo-mailboxes.md
         - name: Configurer le filtrage du courrier indésirable sortant
           href: configure-the-outbound-spam-policy.md
-        - name: Configurer la veille contre l’usurpation d’identité
-          href: learn-about-spoof-intelligence.md
         - name: Créer des listes d’expéditeurs bloqués
           href: Create-block-sender-lists-in-office-365.md
         - name: Créer des listes d’expéditeurs approuvés
@@ -128,17 +126,17 @@
           href: email-validation-and-authentication.md
         - name: Donner aux utilisateurs l’accès au Centre de sécurité
           href: grant-access-to-the-security-and-compliance-center.md
-        - name: "Documents sécurisés dans\_Defender pour Office\_365"
+        - name: Documents sécurisés dans Defender pour Office 365
           href: safe-docs.md
-        - name: "Configurer les stratégies de la fonctionnalité Liens fiables dans Defender pour Office\_365"
+        - name: Configurer les stratégies de la fonctionnalité Liens fiables dans Defender pour Office 365
           href: set-up-safe-links-policies.md
-        - name: "Configurer les stratégies de la fonctionnalité Pièces jointes fiables dans Defender pour Office\_365"
+        - name: Configurer les stratégies de la fonctionnalité Pièces jointes fiables dans Defender pour Office 365
           href: set-up-safe-attachments-policies.md
         - name: Configurer SPF pour empêcher l’usurpation d’identité
           href: set-up-spf-in-office-365-to-help-prevent-spoofing.md
         - name: Stratégies concernant les envois des utilisateurs
           href: user-submission.md
-        - name: "Balises utilisateur dans Defender pour Office\_365"
+        - name: Balises utilisateur dans Defender pour Office 365
           href: user-tags.md
         - name: 'Activer les pièces jointes sécurisées pour SharePoint, OneDrive et Microsoft Teams'
           href: turn-on-mdo-for-spo-odb-and-teams.md
@@ -150,10 +148,6 @@
           href: support-for-anonymous-inbound-email-messages-over-ipv6.md
         - name: Installer Application Guard pour Office
           href: install-app-guard.md
-        - name: Configuration de groupes et d’utilisateurs pour un environnement de développement/test pour une campagne électorale
-          href: configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
-        - name: Création de sites d’équipe dans un environnement de développement/test dans le cadre d’une campagne électorale
-          href: create-team-sites-in-a-political-campaign-dev-test-environment.md
     - name: Migrer
       items:
         - name: 'Basculer vers EOP depuis Google Postini, Barracuda Spam and Virus Firewall, ou Cisco IronPort'
@@ -166,7 +160,7 @@
           href: preset-security-policies.md
         - name: Analyseur de configuration pour les stratégies de sécurité prédéfinies
           href: configuration-analyzer-for-security-policies.md
-        - name: "Simulateur d’attaques dans Defender pour Office\_365"
+        - name: Simulateur d’attaques dans Defender pour Office 365
           href: attack-simulator.md
         - name: Commencer à utiliser la formation à la simulation d’attaque
           href: attack-simulation-training-get-started.md
@@ -178,7 +172,7 @@
           href: attack-simulation-training-insights.md
         - name: Considérations et forum aux questions sur le déploiement de la formation de simulation d’attaque
           href: attack-simulation-training-faq.md
-        - name: "Paramètres recommandés pour configurer la sécurité dans EOP et Defender pour Office\_365"
+        - name: Paramètres recommandés pour configurer la sécurité dans EOP et Defender pour Office 365
           href: recommended-settings-for-eop-and-office365.md
         - name: Meilleures pratiques pour configurer EOP
           href: best-practices-for-configuring-eop.md
@@ -194,7 +188,7 @@
           href: message-trace-scc.md
         - name: Signaler les messages et fichiers à Microsoft
           href: report-junk-email-messages-to-microsoft.md
-        - name: "Activer les compléments «\_Signaler le message\_» et «\_Report Phishing\_»."
+        - name: Activer les compléments « Signaler le message » et « Report Phishing ».
           href: enable-the-report-message-add-in.md
         - name: Utiliser des règles de flux de courriers pour bloquer les messages avec des pièces jointes exécutables dans EOP
           href: reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md
@@ -226,13 +220,13 @@
           href: campaigns.md
         - name: Examiner les e-mails malveillants
           href: investigate-malicious-email-that-was-delivered.md
-        - name: "Afficher les rapports Defender pour Office\_365 dans le Centre de sécurité et conformité"
-          href: view-reports-for-mdo.md
-        - name: Afficher les détails et les résultats d’une analyse automatisée
+        - name: Afficher les détails et les résultats d'une enquête automatisée
           href: air-view-investigation-results.md
-        - name: Afficher les rapports de sécurité de courrier dans le centre de sécurité et conformité
+        - name: Afficher les rapports de Defender pour Office 365
+          href: view-reports-for-mdo.md
+        - name: Afficher les rapports sur la sécurité des e-mails
           href: view-email-security-reports.md
-        - name: Afficher les rapports de flux de messagerie dans le Centre de sécurité et conformité
+        - name: Afficher les rapports sur les flux de courrier
           href: view-mail-flow-reports.md
         - name: Afficher le journal d’audit de l’administrateur dans EOP autonome
           href: view-the-admin-audit-log-eop.md
@@ -240,6 +234,8 @@
           href: reporting-and-message-trace-in-exchange-online-protection.md
         - name: Aperçu des messages transférés automatiquement
           href: mfi-auto-forwarded-messages-report.md
+        - name: Perspicacité de l'usurpation d'identité
+          href: impersonation-insight.md
         - name: Carte du flux de courriers
           href: mfi-mail-flow-map-report.md
         - name: Soumettre manuellement des messages à Microsoft
@@ -256,6 +252,8 @@
           href: mfi-outbound-and-inbound-mail-flow.md
         - name: Aperçu et rapport sur les clients utilisant l’authentification SMTP
           href: mfi-smtp-auth-clients-report.md
+        - name: Aperçu de l'intelligence artificielle
+          href: learn-about-spoof-intelligence.md
         - name: Soumettre des programmes malveillants et non malveillants à Microsoft
           href: submitting-malware-and-non-malware-to-microsoft-for-analysis.md
         - name: Aperçu de l’état du flux de courriers des domaines principaux
@@ -266,15 +264,13 @@
           href: use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
         - name: Aperçu des files d’attente
           href: mfi-queue-alerts-and-queues.md
-        - name: Présentation des informations sur la veille contre l’usurpation d’identité
-          href: walkthrough-spoof-intelligence-insight.md
     - name: Répondre
       items:
         - name: Détecter et résoudre rapidement les comptes d’utilisateurs compromis
           href: address-compromised-users-quickly.md
-        - name: "Détecter et résoudre les problèmes d’octroi illégal de consentement dans Office\_365"
+        - name: Détecter et résoudre les problèmes d’octroi illégal de consentement dans Office 365
           href: detect-and-remediate-illicit-consent-grants.md
-        - name: "Détecter et résoudre les attaques par injections sur les règles d’Outlook et les formulaires personnalisés dans Office\_365"
+        - name: Détecter et résoudre les attaques par injections sur les règles d’Outlook et les formulaires personnalisés dans Office 365
           href: detect-and-remediate-outlook-rules-forms-attack.md
         - name: Gérer les faux positifs/négatifs
           href: air-report-false-positives-negatives.md
@@ -282,7 +278,7 @@
           href: recover-from-ransomware.md
         - name: Corriger les e-mails malveillants
           href: remediate-malicious-email-delivered-office-365.md
-        - name: "Réponse à un compte d’adresse compromis dans Office\_365"
+        - name: Réponse à un compte d’adresse compromis dans Office 365
           href: responding-to-a-compromised-email-account.md
         - name: Examiner et approuver (ou rejeter) les actions en attente
           href: air-review-approve-pending-completed-actions.md
@@ -304,7 +300,7 @@
       items:
         - name: FAQ sur l’administration déléguée
           href: delegated-administration-faq.yml
-        - name: "Forum Aux Questions d’ordre général concernant Exchange\_Online\_Protection (EOP)"
+        - name: Forum Aux Questions d’ordre général concernant Exchange Online Protection (EOP)
           href: eop-general-faq.yml
         - name: 'Questions fréquemment posées sur les messages mis en file d’attente, différés et retournés dans EOP'
           href: eop-queued-deferred-and-bounced-messages-faq.yml
@@ -324,9 +320,9 @@
           href: help-and-support-for-eop.md
         - name: Résolution des problèmes d’e-mails envoyés à Microsoft 365
           href: troubleshooting-mail-sent-to-office-365.md
-        - name: "Comment Microsoft\_365 utilise SPF pour éviter l’usurpation"
+        - name: Comment Microsoft 365 utilise SPF pour éviter l’usurpation
           href: how-office-365-uses-spf-to-prevent-spoofing.md
-        - name: "Comment Office\_365 valide l’adresse De\_: pour empêcher des attaques par hameçonnage"
+        - name: 'Comment Office 365 valide l’adresse De : pour empêcher des attaques par hameçonnage'
           href: how-office-365-validates-the-from-address.md
         - name: Combinaison des stratégies et des protections
           href: how-policies-and-protections-are-combined.md
@@ -344,7 +340,7 @@
           href: high-risk-delivery-pool-for-outbound-messages.md
         - name: Renseignements sur le flux de courriers dans EOP
           href: mail-flow-intelligence-in-office-365.md
-        - name: "Référence\_: stratégies, pratiques et conseils"
+        - name: 'Référence : stratégies, pratiques et conseils'
           href: reference-policies-practices-and-guidelines.md
         - name: Conseils de sécurité dans les e-mails
           href: safety-tips-in-office-365.md
@@ -360,7 +356,7 @@
           href: support-for-validation-of-dkim-signed-messages.md
         - name: Détection de virus dans SharePoint Online
           href: virus-detection-in-spo.md
-        - name: "Quelle est la différence entre l’e-mail indésirable et l’e-mail en nombre\_?"
+        - name: Quelle est la différence entre l’e-mail indésirable et l’e-mail en nombre ?
           href: what-s-the-difference-between-junk-email-and-bulk-email.md
         - name: S/MIME
           href: s-mime-for-message-signing-and-encryption.md
@@ -371,9 +367,9 @@
               href: configure-s-mime-settings-for-outlook-web-app.md
             - name: Envoi et réception de messages électroniques chiffrés et signés S/MIME
               href: send-and-receive-s-mime-signed-and-encrypted-email.md
-            - name: "Synchronisation des certificats utilisateur vers Microsoft\_365 pour S/MIME"
+            - name: Synchronisation des certificats utilisateur vers Microsoft 365 pour S/MIME
               href: sync-user-certificates-to-office-365-for-s-mime.md
-            - name: "Configuration d’une collection de certificats virtuelle pour la validation des certificats\_S/MIME"
+            - name: Configuration d’une collection de certificats virtuelle pour la validation des certificats S/MIME
               href: set-up-virtual-certificate-collection-to-validate-s-mime.md
             - name: Configuration de groupes et d’utilisateurs pour un environnement de développement/test pour une campagne électorale
               href: configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
@@ -383,9 +379,9 @@
               href: move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md
             - name: Gérer les groupes de rôles dans une application EOP autonome
               href: manage-admin-role-group-permissions-in-eop.md
-    - name: "Microsoft\_365\_Defender"
+    - name: Microsoft 365 Defender
       href: ../defender/index.yml
-    - name: "Microsoft\_Defender pour point de terminaison"
+    - name: Microsoft Defender pour point de terminaison
       href: ../defender-endpoint/index.yml
-    - name: "Microsoft\_Defender pour l’identité"
+    - name: Microsoft Defender pour l’identité
       href: 'https://docs.microsoft.com/defender-for-identity/'
