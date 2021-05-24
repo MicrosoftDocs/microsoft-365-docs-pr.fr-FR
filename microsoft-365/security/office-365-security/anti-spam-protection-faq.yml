@@ -20,12 +20,12 @@ metadata:
   description: Les administrateurs peuvent consulter les questions fréquemment posées et les réponses sur la protection contre le courrier indésirable dans Exchange Online Protection (EOP).
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: e632ab1183c43cd50da7c2cf7832a5a18fa64d50
-  ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+  ms.openlocfilehash: b15e7409c275810a9d5e70d1376a9c3accd07ab9
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 05/20/2021
-  ms.locfileid: "52583615"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52624908"
 title: FAQ sur la protection anti-courrier indésirable
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -61,13 +61,13 @@ sections:
 
       > [!IMPORTANT]
 
-      > Dans les déploiements hybrides où EOP protège les boîtes aux lettres sur site, vous devez configurer deux règles de flux de messagerie Exchange (également appelées règles de transport) dans votre organisation Exchange sur site pour détecter les en-têtes de filtrage du courrier indésirable EOP ajoutés aux messages. Pour les détails, voir [Configurer une protection Exchange Online (EOP) autonome pour envoyer des courriers indésirables dans le dossier Courrier indésirable dans les environnements hybrides](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
+      > Dans les déploiements hybrides où EOP protège les boîtes aux lettres Exchange sur site, vous devez configurer deux règles de flux de messagerie Exchange (également appelées règles de transport) dans votre organisation Exchange sur site pour détecter les en-têtes de filtrage du courrier indésirable EOP ajoutés aux messages. Pour plus d’informations, voir [Configure EOP to deliver spam to the Junk Email folder in hybrid environments](/exchange/standalone-eop/configure-eop-spam-protection-hybrid).
 
        **Pour les messages sortants :** Le message est acheminé via le pool de remise à risque élevé ou est renvoyé à l’expéditeur dans une [non-remise](high-risk-delivery-pool-for-outbound-messages.md) (également appelée NDR ou message de non-remise). Pour plus d’informations sur la protection contre le courrier indésirable sortant, voir [Contrôles de courrier indésirable sortant.](outbound-spam-controls.md)
   - question: >
       Qu’est-ce qu’une variante de courrier indésirable « zero-day » et comment est-elle gérée par le service ?
     answer: >
-      Une variante de courrier indésirable zéro jour est une variante de courrier indésirable de première génération, inconnue précédemment, qui n’a jamais été capturée ou analysée, de sorte que nos filtres anti-courrier indésirable ne disposent pas encore d’informations pour le détecter. Une fois qu’un échantillon de courrier indésirable zéro jour a été capturé et analysé par nos analystes de courrier indésirable, s’il répond aux critères de classification du courrier indésirable, nos filtres anti-courrier indésirable sont mis à jour pour le détecter et il n’est plus considéré comme « zero-day ».
+      Une variante de courrier indésirable « zero-day » est une variante de courrier indésirable de première génération inconnue qui n’a jamais été capturée ou analysée, de sorte que nos filtres anti-courrier indésirable ne disposent pas encore d’informations pour le détecter. Une fois qu’un échantillon de courrier indésirable zéro jour a été capturé et analysé par nos analystes de courrier indésirable, s’il répond aux critères de classification du courrier indésirable, nos filtres anti-courrier indésirable sont mis à jour pour le détecter et il n’est plus considéré comme « zero-day ».
 
 
       > [!NOTE]
@@ -111,7 +111,7 @@ sections:
   - question: >
       Puis-je obtenir des rapports sur le courrier indésirable ?
     answer: >
-      Oui, par exemple, vous pouvez obtenir un rapport de détection de courrier indésirable dans Microsoft 365'administration centrale. Ce rapport indique le volume de courrier indésirable sous la forme d’un nombre de messages uniques. Pour plus d'informations sur les rapports, consultez les liens suivants :
+      Oui, par exemple, vous pouvez obtenir un rapport de détection du courrier indésirable dans Microsoft 365'administration centrale. Ce rapport indique le volume de courrier indésirable sous la forme d’un nombre de messages uniques. Pour plus d'informations sur les rapports, consultez les liens suivants :
 
 
       Exchange Online clients : [surveillance, rapports et suivi](/exchange/monitoring/monitoring) des messages dans Exchange Online
@@ -146,7 +146,7 @@ sections:
   - question: >
       Le courrier indésirable et les messages malveillants font-ils l’objet d’une enquête pour savoir qui les a envoyés, ou sont-ils transférés à des services chargés de l’application de la loi ?
     answer: >
-      Le service se concentre sur la détection et la suppression du courrier indésirable et des programmes malveillants, même si nous pouvons parfois examiner des campagnes de courrier indésirable ou d’attaque particulièrement dangereuses ou endommager, et poursuivre les attaques. Cela peut impliquer de travailler avec nos unités juridiques et numériques pour mettre fin à un botnet d’expéditeur de courrier indésirable, de bloquer l’expéditeur de courrier indésirable d’utiliser le service (s’il l’utilise pour envoyer des messages électroniques sortants) et de transmettre les informations à l’application de la loi pour infraction pénale.
+      Le service se concentre sur la détection et la suppression du courrier indésirable et des programmes malveillants, même si nous pouvons parfois examiner des campagnes de courrier indésirable ou d’attaque particulièrement dangereuses ou endommager, et poursuivre les attaques. Cela peut impliquer de travailler avec nos unités juridiques et numériques pour mettre fin à un botnet d’expéditeur de courrier indésirable, d’empêcher l’expéditeur de courrier indésirable d’utiliser le service (s’il l’utilise pour envoyer des messages électroniques sortants) et de transmettre les informations à l’application de la loi pour infraction pénale.
   - question: >
       Quelles sont les meilleures pratiques d'envoi de courrier sortant pour garantir la remise de mes messages électroniques ?
     answer: >

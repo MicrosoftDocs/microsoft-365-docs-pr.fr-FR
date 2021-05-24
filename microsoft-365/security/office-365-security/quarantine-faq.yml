@@ -16,16 +16,16 @@ metadata:
   ms.collection:
   - M365-security-compliance
   - m365initiative-defender-office365
-  description: Les administrateurs peuvent afficher les questions fréquemment posées et les réponses sur les messages mis en quarantaine dans Exchange Online Protection (EOP).
+  description: Les administrateurs peuvent afficher les questions fréquemment posées et les réponses sur les messages mis en quarantaine Exchange Online Protection (EOP).
   ms.custom: seo-marvel-apr2020
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: f146cd9eba6e333376bcfeb6e8c74b3378387b5b
-  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.openlocfilehash: 42e848309589fa8786346b5921d1cade0ed074b9
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 05/12/2021
-  ms.locfileid: "52333964"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52625412"
 title: FAQ sur les messages mis en quarantaine
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -40,7 +40,7 @@ summary: >
   - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-  Cette rubrique fournit des questions fréquemment posées et des réponses sur les messages électroniques mis en quarantaine pour les organisations Microsoft 365 ayant des boîtes aux lettres dans Exchange Online ou les organisations Exchange Online Protection autonomes (EOP) sans boîtes aux lettres Exchange Online.
+  Cette rubrique fournit des questions fréquemment posées et des réponses sur les messages électroniques mis en quarantaine pour les organisations Microsoft 365 ayant des boîtes aux lettres dans Exchange Online ou les organisations Exchange Online Protection autonomes (EOP) sans boîtes aux lettres Exchange Online boîtes aux lettres.
 
 
   Pour obtenir des questions et des réponses sur la protection anti-courrier indésirable, consultez la faq sur la [protection anti-courrier indésirable.](anti-spam-protection-faq.yml)
@@ -64,7 +64,7 @@ sections:
   - question: >
       Comment accorder aux utilisateurs l’accès à la mise en quarantaine ?
     answer: >
-      Un utilisateur doit avoir un compte valide pour accéder à ses propres messages en quarantaine. EOP autonome exige que les utilisateurs soient représentés en tant qu’utilisateurs de messagerie dans EOP (créés ou créés manuellement via la synchronisation d’annuaires). Pour plus d’informations sur la gestion des utilisateurs dans des environnements EOP autonomes, voir Gérer les utilisateurs [de messagerie dans EOP.](manage-mail-users-in-eop.md)
+      Un utilisateur doit avoir un compte valide pour accéder à ses propres messages en quarantaine. EOP autonome exige que les utilisateurs soient représentés en tant qu’utilisateurs de messagerie dans EOP (créés ou créés manuellement via la synchronisation d’annuaires). Pour plus d’informations sur la gestion des utilisateurs dans des environnements EOP autonomes, voir Gérer les utilisateurs de messagerie dans [EOP autonome.](/exchange/standalone-eop/manage-mail-users-in-eop)
   - question: >
       Quels messages les utilisateurs finaux peuvent-ils accéder en quarantaine ?
     answer: >
@@ -95,7 +95,7 @@ sections:
       Par exemple, copiez le code PowerShell suivant dans le Bloc-notes et enregistrez le fichier en tant que .ps1 à un emplacement facile à trouver (par exemple, C:\Data\QuarantineRelease.ps1).
 
 
-      Ensuite, après vous être connecté à [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) ou [Exchange Online Protection PowerShell,](/powershell/exchange/connect-to-exchange-online-protection-powershell)exécutez la commande suivante pour exécuter le script :
+      Ensuite, après vous être connecté [à Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) ou [Exchange Online Protection PowerShell,](/powershell/exchange/connect-to-exchange-online-protection-powershell)exécutez la commande suivante pour exécuter le script :
 
 
       ```powershell

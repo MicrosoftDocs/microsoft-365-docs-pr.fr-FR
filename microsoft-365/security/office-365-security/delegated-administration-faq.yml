@@ -13,15 +13,15 @@ metadata:
   ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
   ms.custom:
   - seo-marvel-apr2020
-  description: Les administrateurs peuvent consulter les questions fréquemment posées et les réponses sur les tâches d’administration déléguées dans Microsoft 365 pour les partenaires et revendeurs Microsoft.
+  description: Les administrateurs peuvent afficher les questions fréquemment posées et les réponses sur les tâches d’administration déléguées dans Microsoft 365 pour les partenaires et revendeurs Microsoft.
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: 836e52139ef2e6191bda26d6fdb92da521dff6bd
-  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.openlocfilehash: b62c1d53d4b2a482aeb91cea147ed9feaa4027c4
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 05/12/2021
-  ms.locfileid: "52333969"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52624088"
 title: FAQ sur l’administration déléguée
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -35,10 +35,10 @@ sections:
   - question: >
       Je suis revendeur et je dois gérer mes clients. Comment cela fonctionne-t-il ?
     answer: >
-      Si vous êtes un partenaire ou un revendeur Microsoft et que vous vous êtes inscrit en tant que conseiller Microsoft, vous pouvez demander des fonctionnalités _d’administration_ déléguées dans l’organisation Microsoft 365 de votre client.
+      Si vous êtes un partenaire ou un revendeur Microsoft et que vous vous êtes inscrit en tant que conseiller Microsoft, vous pouvez demander des fonctionnalités _d’administration_ déléguée dans l’organisation Microsoft 365 de votre client.
 
 
-      L’administration déléguée vous permet de gérer les Microsoft 365 (y compris les paramètres EOP) comme si vous étiez un administrateur au sein de cette organisation. Les étapes de configuration de l’administration déléguée sont décrites dans la liste suivante :
+      L’administration déléguée vous permet de gérer Microsoft 365 (y compris les paramètres EOP) comme si vous étiez un administrateur au sein de cette organisation. Les étapes de configuration de l’administration déléguée sont décrites dans la liste suivante :
 
 
       1. Inscrivez-vous pour devenir [partenaire Microsoft Office 365](https://partner.microsoft.com/?cloudbenefits).
@@ -50,11 +50,11 @@ sections:
       3. Créez le compte d’administrateur délégué à l’aide des étapes de [l’étape Ajouter, modifier ou supprimer un partenaire conseiller en abonnement.](../../admin/misc/add-partner.md)
 
 
-      Visitez [les partenaires : développez votre entreprise et administrez](https://support.microsoft.com/office/30dd1681-47e0-4cbc-abfe-a222cd111319) un abonnement partenaire pour plus d’informations sur la façon de configurer l’administration déléguée.
+      Visitez [les partenaires : développez votre entreprise et administrez](https://support.microsoft.com/office/30dd1681-47e0-4cbc-abfe-a222cd111319) l’abonnement des partenaires pour plus d’informations sur la façon de configurer l’administration déléguée.
   - question: >
       Je suis un client, pas un revendeur. Comment configurer un administrateur délégué pour mes sous-clients ?
     answer: >
-      L’administration déléguée est uniquement disponible pour les revendeurs et les partenaires. Toutefois, il existe un exemple de script PowerShell qui vous aidera à appliquer des stratégies à vos sous-traitants (sociétés). Pour plus d'informations, voir [Exemple de script pour l'application de paramètres EOP à plusieurs locataires](sample-script-for-applying-eop-settings-to-multiple-tenants.md).
+      L’administration déléguée est uniquement disponible pour les revendeurs et les partenaires. Toutefois, il existe un exemple de script PowerShell qui vous aidera à appliquer des stratégies à vos sous-traitants (sociétés). Pour plus d'informations, voir [Exemple de script pour l'application de paramètres EOP à plusieurs locataires](/exchange/standalone-eop/sample-script-standalone-eop-settings-to-multiple-tenants).
   - question: >
       Puis-je empêcher mon administrateur de sous-site de modifier ma stratégie ?
     answer: >

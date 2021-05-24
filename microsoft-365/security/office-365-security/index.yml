@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Documentation Microsoft Defender pour Office 365
-summary: Découvrez les solutions de sécurité robustes de Defender pour Office 365 pour mieux protéger vos outils de messagerie et de collaboration.
+title: Documentation microsoft Defender pour Office 365 documentation
+summary: Découvrez les solutions de sécurité robustes de Defender pour Office 365 mieux protéger vos outils de messagerie et de collaboration.
 metadata:
-  title: Documentation sur la sécurité de Microsoft Defender pour Office 365
-  description: Découvrez les solutions de sécurité robustes de Defender pour Office 365 pour mieux protéger vos outils de messagerie et de collaboration.
+  title: Documentation sur la sécurité Office 365 Microsoft Defender for
+  description: Découvrez les solutions de sécurité robustes de Defender pour Office 365 mieux protéger vos outils de messagerie et de collaboration.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -13,14 +13,14 @@ metadata:
   ms.author: macapara
   ms.date: 04/13/2021
   localization_priority: Priority
-  ms.openlocfilehash: a646d52b903a1ab16d2f552b456793492462c44b
-  ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+  ms.openlocfilehash: b379b42ae3c01c8359003407f3fb58834a8c074e
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 04/14/2021
-  ms.locfileid: "51760259"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52623564"
 landingContent:
-- title: Defender pour Office 365 & Exchange Online Protection
+- title: Defender for Office 365 & Exchange Online Protection
   linkLists:
   - linkListType: overview
     links:
@@ -38,11 +38,11 @@ landingContent:
       url: preset-security-policies.md
     - text: Nouveautés de Microsoft Defender pour Office 365
       url: whats-new-in-defender-for-office-365.md
-- title: Evaluer Defender pour Office 365
+- title: Evaluer Defender pour Office 365
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Evaluer Defender pour Office 365
+    - text: Evaluer Defender pour Office 365
       url: office-365-evaluation.md
     - text: Basculer vers Exchange Online Protection
       url: switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md
@@ -62,7 +62,7 @@ landingContent:
     links:
     - text: Vue d’ensemble d’Exchange Online Protection
       url: exchange-online-protection-overview.md
-    - text: Paramètres recommandés pour la configuration d’EOP et de Microsoft Defender pour la sécurité Office 365
+    - text: Paramètres recommandés pour EOP et Microsoft Defender pour la Office 365 pour la configuration
       url: recommended-settings-for-eop-and-office365.md
 - title: Empêcher
   linkLists:
@@ -78,8 +78,8 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Règles de flux de courriers (règles de transport) dans EOP autonome
-      url: mail-flow-rules-transport-rules-0.md
+    - text: Règles de flux de messagerie (règles de transport) dans Exchange Online
+      url: /exchange/security-and-compliance/mail-flow-rules/mail-flow-rules
     - text: Suivi des menaces
       url: threat-trackers.md
     - text: Rapports intelligents et aperçus dans le Centre de sécurité et de conformité
@@ -94,7 +94,7 @@ landingContent:
       url: campaigns.md
     - text: Examiner les e-mails malveillants qui ont été remis dans Office 365
       url: investigate-malicious-email-that-was-delivered.md
-    - text: Afficher les rapports De Defender pour Office 365
+    - text: Afficher les rapports de Defender pour Office 365
       url: view-reports-for-mdo.md
 - title: Examiner dans EOP
   linkLists:
@@ -102,8 +102,8 @@ landingContent:
     links:
     - text: Rapports et suivi des messages dans EOP
       url: reporting-and-message-trace-in-exchange-online-protection.md
-    - text: Afficher le journal d’audit de l’administrateur dans EOP autonome
-      url: view-the-admin-audit-log-eop.md
+    - text: Afficher le journal d’audit de l’administrateur
+      url: /exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log
 - title: Répondre
   linkLists:
   - linkListType: overview
@@ -112,7 +112,7 @@ landingContent:
       url: remediate-malicious-email-delivered-office-365.md
     - text: Répondre à un compte de messagerie compromis
       url: responding-to-a-compromised-email-account.md
-    - text: Corriger les règles Outlook et les attaques par injection de formulaires personnalisés
+    - text: Corriger les Outlook et les attaques par injection de formulaires personnalisés
       url: detect-and-remediate-outlook-rules-forms-attack.md
     - text: Envoyer des faux positifs/faux négatifs
       url: admin-submission.md
@@ -122,7 +122,7 @@ landingContent:
     links:
     - text: Fonctionnement de l’investigation et de la réponse automatisées (AIR) dans Defender pour Office 365
       url: automated-investigation-response-office.md
-    - text: Mise en place d’AIR dans Defender pour Office 365
+    - text: Prise en main air dans Defender pour Office 365
       url: office-365-air.md
     - text: Adresse des comptes d’utilisateur compromis avec AIR
       url: address-compromised-users-quickly.md
