@@ -1,9 +1,9 @@
 # [Microsoft Defender pour point de terminaison](index.yml)
 
 ## [Vue d’ensemble]()
-### [Qu’est-ce que Microsoft Defender pour point de terminaison ?](microsoft-defender-endpoint.md)
+### [Qu’est-ce que Microsoft Defender pour point de terminaison ?](microsoft-defender-endpoint.md)
 ### [Configuration minimale requise](minimum-requirements.md)
-### [Nouveautés dans Microsoft Defender pour point de terminaison](whats-new-in-microsoft-defender-atp.md)
+### [Nouveautés dans Microsoft Defender pour point de terminaison](whats-new-in-microsoft-defender-atp.md)
 ### [Fonctionnalités en préversion](preview.md)
 ### [Stockage de données et confidentialité](data-storage-privacy.md)
 ### [Vue d’ensemble du Centre de sécurité Microsoft Defender](use.md)
@@ -17,9 +17,9 @@
 
 ## [Guide de déploiement]()
 ### [Phases de déploiement](deployment-phases.md)
-### [Phase 1 : préparation](prepare-deployment.md)
-### [Phase 2 : configuration](production-deployment.md)
-### [Phase 3 : intégration]()
+### [Phase 1 : préparation](prepare-deployment.md)
+### [Phase 2 : configuration](production-deployment.md)
+### [Phase 3 : intégration]()
 #### [Vue d'ensemble de l’intégration](onboarding.md)
 #### [Anneaux de déploiement](deployment-rings.md)
 #### [Intégration à l'aide de Microsoft Endpoint Configuration Manager](onboarding-endpoint-configuration-manager.md)
@@ -27,21 +27,21 @@
 #### [Intégration des appareils pris en charge](onboard-configure.md)
 
 ## [Guides de migration](migration-guides.md)
+### [Passer d’une protection de point de terminaison non-Microsoft à Defender pour point de terminaison]()
+#### [Vue d’ensemble de la migration](switch-to-microsoft-defender-migration.md)
+#### [Phase 1 : préparation](switch-to-microsoft-defender-prepare.md)
+#### [Phase 2 : configuration](switch-to-microsoft-defender-setup.md)
+#### [Phase 3 : intégration](switch-to-microsoft-defender-onboard.md)
 ### [Passer de McAfee à Microsoft Defender pour point de terminaison]()
 #### [Vue d’ensemble de la migration](mcafee-to-microsoft-defender-migration.md)
-#### [Phase 1 : préparation](mcafee-to-microsoft-defender-prepare.md) 
-#### [Phase 2 : configuration](mcafee-to-microsoft-defender-setup.md)
-#### [Phase 3 : intégration](mcafee-to-microsoft-defender-onboard.md)
+#### [Phase 1 : préparation](mcafee-to-microsoft-defender-prepare.md) 
+#### [Phase 2 : configuration](mcafee-to-microsoft-defender-setup.md)
+#### [Phase 3 : intégration](mcafee-to-microsoft-defender-onboard.md)
 ### [Passer de Symantec à Microsoft Defender pour point de terminaison]()
 #### [Vue d’ensemble de la migration](symantec-to-microsoft-defender-endpoint-migration.md)
-#### [Phase 1 : préparation](symantec-to-microsoft-defender-atp-prepare.md)
-#### [Phase 2 : configuration](symantec-to-microsoft-defender-atp-setup.md)
-#### [Phase 3 : intégration](symantec-to-microsoft-defender-atp-onboard.md)
-### [Passer d’une solution de sécurité de point de terminaison non Microsoft à Microsoft Defender pour point de terminaison]()
-#### [Vue d’ensemble de la migration](switch-to-microsoft-defender-migration.md)
-#### [Phase 1 : préparation](switch-to-microsoft-defender-prepare.md)
-#### [Phase 2 : configuration](switch-to-microsoft-defender-setup.md)
-#### [Phase 3 : intégration](switch-to-microsoft-defender-onboard.md)
+#### [Phase 1 : préparation](symantec-to-microsoft-defender-atp-prepare.md)
+#### [Phase 2 : configuration](symantec-to-microsoft-defender-atp-setup.md)
+#### [Phase 3 : intégration](symantec-to-microsoft-defender-atp-onboard.md)
 ### [Gestion de Microsoft Defender pour point de terminaison après la migration]()
 #### [Vue d’ensemble de la gestion de Microsoft Defender pour point de terminaison](manage-atp-post-migration.md)
 #### [Intune (recommandé)](manage-atp-post-migration-intune.md)
@@ -54,14 +54,14 @@
 ### [Microsoft Defender pour point de terminaison sur Windows et Windows Server]()
 #### [Intégrer des appareils à Microsoft Defender pour point de terminaison](onboard-configure.md)
 #### [Intégrer des versions antérieures de Windows](onboard-downlevel.md)
-#### [Intégrer des appareils Windows 10]()
+#### [Intégrer des appareils Windows 10]()
 ##### [Outils et méthodes d’intégration](configure-endpoints.md)
 ##### [Intégrer des appareils à l’aide d’une stratégie de groupe](configure-endpoints-gp.md)
 ##### [Intégrer des appareils à l’aide de Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 ##### [Intégrer des appareils à l’aide des outils de Gestion des appareils mobiles](configure-endpoints-mdm.md)
 ##### [Intégrer des appareils en utilisant un script local](configure-endpoints-script.md)
 ##### [Intégrer les ordinateurs virtuels d’infrastructure de bureau (VDI) non persistants](configure-endpoints-vdi.md)
-##### [Intégrer des appareils Windows 10 à sessions multiples dans Windows Virtual Desktop](Onboard-Windows-10-multi-session-device.md)
+##### [Intégrer des appareils Windows 10 à sessions multiples dans Windows Virtual Desktop](Onboard-Windows-10-multi-session-device.md)
 #### [Intégrer des serveurs Windows](configure-server-endpoints.md)
 
 #### [Intégrer des appareils sans accès à Internet](onboard-offline-machines.md)
@@ -166,7 +166,7 @@
 ###### [Configurer Microsoft Defender pour point de terminaison pour des fonctionnalités Android](android-configure.md)
  
 ##### [Confidentialité]()
-###### [Microsoft Defender pour point de terminaison Android : informations sur la confidentialité](android-privacy.md)
+###### [Microsoft Defender pour point de terminaison Android : informations sur la confidentialité](android-privacy.md)
  
 ##### [Résoudre des problèmes]()
 ###### [Difficultés avec la résolution de problèmes](android-support-signin.md)
@@ -257,7 +257,7 @@
 
 ### Protection de nouvelle génération
 #### [Vue d’ensemble de l’antivirus Microsoft Defender](microsoft-defender-antivirus-in-windows-10.md)
-#### [Antivirus Microsoft Defender sur Windows Server](microsoft-defender-antivirus-on-windows-server.md)
+#### [Antivirus Microsoft Defender sur Windows Server](microsoft-defender-antivirus-on-windows-server.md)
 #### [Mieux ensemble : Antivirus Microsoft Defender et Microsoft Defender pour point de terminaison](why-use-microsoft-defender-antivirus.md)
 #### [Mieux ensemble : Antivirus Microsoft Defender et Office 365](office-365-microsoft-defender-antivirus.md)
 #### [Protection par le cloud et antivirus Microsoft Defender](cloud-protection-microsoft-defender-antivirus.md)
@@ -316,7 +316,7 @@
 
 
 #### [Isolation basée sur le matériel]()
-##### [Isolation basée sur le matériel dans Windows 10](overview-hardware-based-isolation.md)
+##### [Isolation basée sur le matériel dans Windows 10](overview-hardware-based-isolation.md)
 
 #### [Exploit Protection]()
 ##### [Protéger les appareils contre les codes malveillants exploitant une faille de sécurité](exploit-protection.md)
@@ -424,7 +424,7 @@
 #### [Utiliser des étiquettes de confidentialité pour hiérarchiser les réponses aux incidents](information-protection-investigation.md)
 
 #### [Compte-rendu]()
-##### [Power BI : comment utiliser des API – Exemples](api-power-bi.md)
+##### [Power BI : comment utiliser des API – Exemples](api-power-bi.md)
 ##### [Rapports de protection contre les menaces](threat-protection-reports.md)
 #### [Intégrité de l’appareil et rapports sur la conformité](machine-reports.md)
 
@@ -456,15 +456,15 @@
 ### [Gestion et API]()
 #### [Vue d’ensemble de la gestion et des API](management-apis.md)
 #### [Notes de publication de l’API](api-release-notes.md)
-#### [API Microsoft Defender pour point de terminaison]()
+#### [API Microsoft Defender pour point de terminaison]()
 ##### [Prise en main]()
-###### [Licence et conditions de l’API Microsoft Defender pour point de terminaison](api-terms-of-use.md)
+###### [Licence et conditions de l’API Microsoft Defender pour point de terminaison](api-terms-of-use.md)
 ###### [Accéder aux API Microsoft Defender pour point de terminaison](apis-intro.md).
 ###### [Hello World](api-hello-world.md)
 ###### [Obtenir l’accès avec le contexte de l’application](exposed-apis-create-app-webapp.md)
 ###### [Obtenir l’accès avec le contexte utilisateur](exposed-apis-create-app-nativeapp.md)
 ###### [Obtenir l’accès de l’application partenaire](exposed-apis-create-app-partners.md)
-##### [Schéma de l’API Microsoft Defender pour point de terminaison]()
+##### [Schéma de l’API Microsoft Defender pour point de terminaison]()
 ###### [API prises en charge Microsoft Defender pour point de terminaison](exposed-apis-list.md).
 ###### [Codes d’erreur courants de l’API REST](common-errors.md)
 ###### [Repérage avancé](run-advanced-query-api.md)
@@ -579,9 +579,9 @@
 ####### [Obtenir la vulnérabilité par ID](get-vulnerability-by-id.md)
 ####### [Répertorier les ordinateurs par vulnérabilité](get-machines-by-vulnerability.md)
 
-##### [Utilisation des API : exemples]()
+##### [Utilisation des API : exemples]()
 ###### [Microsoft Flow](api-microsoft-flow.md)
-###### [Power BI](api-power-bi.md)
+###### [Power BI](api-power-bi.md)
 ###### [Repérage avancé à l’aide de Python](run-advanced-query-sample-python.md)
 ###### [Repérage avancé à l’aide de PowerShell](run-advanced-query-sample-powershell.md)
 ###### [Utilisation des requêtes OData](exposed-apis-odata-samples.md)
@@ -638,7 +638,7 @@
 
 ### [Ressources utiles](helpful-resources.md)
 
-### [Résoudre des problèmes avec Microsoft Defender pour point de terminaison]()
+### [Résoudre des problèmes avec Microsoft Defender pour point de terminaison]()
 #### [Résoudre des problèmes avec l’état du capteur]()
 ##### [Vérifier l’état du capteur](check-sensor-status.md)
 ##### [Corriger les capteurs défectueux](fix-unhealthy-sensors.md)
@@ -646,7 +646,7 @@
 ##### [Appareils mal configurés](fix-unhealthy-sensors.md#misconfigured-devices)
 ##### [Évaluer les erreurs et événements du capteur sur des ordinateurs avec Event Viewer](event-error-codes.md)
   
-#### [Résoudre des problèmes de service avec Microsoft Defender pour point de terminaison]()
+#### [Résoudre des problèmes de service avec Microsoft Defender pour point de terminaison]()
 ##### [Résoudre des problèmes de service](troubleshoot-mdatp.md)
 ##### [Vérifier l’état du service](service-status.md).
 ##### [Contacter le support Microsoft Defender pour point de terminaison](contact-support.md)
@@ -660,6 +660,6 @@
 ##### [Règles de réduction de la surface d’attaque](troubleshoot-asr.md)
 ##### [Migrer vers des règles de réduction de la surface d’attaque](migrating-asr-rules.md)
 
-# [Microsoft 365 Defender](../defender/index.yml)
-# [Defender pour Office 365](../office-365-security/index.yml)
+# [Microsoft 365 Defender](../defender/index.yml)
+# [Defender pour Office 365](../office-365-security/index.yml)
 # [Defender pour l’identité](https://docs.microsoft.com/defender-for-identity/)

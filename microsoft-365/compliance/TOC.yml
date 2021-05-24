@@ -6,13 +6,13 @@
       href: compliance-quick-tasks.md
     - name: Nouveautés dans la conformité Microsoft 365
       href: whats-new.md
-    - name: "Centre de conformité Microsoft\_365"
+    - name: Centre de conformité Microsoft 365
       href: microsoft-365-compliance-center.md
-    - name: "Catalogue de solutions Microsoft\_365"
+    - name: Catalogue de solutions Microsoft 365
       href: microsoft-365-solution-catalog.md
     - name: Utilisez votre abonnement gratuit à Azure Active Directory
       href: use-your-free-azure-ad-subscription-in-office-365.md
-    - name: "Planifier la sécurité et la conformité dans Office\_365"
+    - name: Planifier la sécurité et la conformité dans Office 365
       href: plan-for-security-and-compliance.md
     - name: Extensibilité de la conformité
       href: compliance-extensibility.md
@@ -34,7 +34,7 @@
           href: communication-compliance-investigate-remediate.md
         - name: Référence sur les fonctionnalités de conformité des communications
           href: communication-compliance-feature-reference.md
-        - name: "Etude de cas\_: contoso configure rapidement une stratégie de langage choquant"
+        - name: 'Etude de cas : contoso configure rapidement une stratégie de langage choquant'
           href: communication-compliance-case-study.md
     - name: Gestion des risques internes
       items:
@@ -168,7 +168,7 @@
           href: double-key-encryption.md
         - name: FAQ sur le chiffrement à double clé
           href: double-key-encryption-overview.md
-        - name: "Chiffrement du service Office\_365"
+        - name: Chiffrement du service Office 365
           href: office-365-service-encryption.md
         - name: Clé client
           items:
@@ -185,39 +185,39 @@
         - name: Chiffrement du courrier électronique
           href: email-encryption.md
           items:
-            - name: "Chiffrement de messages Office\_365 (OME)"
+            - name: Chiffrement de messages Office 365 (OME)
               href: ome.md
-            - name: "Configurer les nouvelles fonctionnalités de chiffrement de messages Office\_365"
+            - name: Configurer les nouvelles fonctionnalités de chiffrement de messages Office 365
               href: set-up-new-message-encryption-capabilities.md
             - name: Définir des règles de flux de courrier pour le chiffrement du courriers dans Office 365
               href: define-mail-flow-rules-to-encrypt-email.md
             - name: Ajouter la marque de votre organisation à vos messages chiffrés
               href: add-your-organization-brand-to-encrypted-messages.md
-            - name: "Créer une stratégie de type d’informations sensibles pour votre entreprise à l’aide du chiffrement de messages Office\_365"
+            - name: Créer une stratégie de type d’informations sensibles pour votre entreprise à l’aide du chiffrement de messages Office 365
               href: ome-sensitive-info-types.md
-            - name: "Gérer le chiffrement de messages Office\_365"
+            - name: Gérer le chiffrement de messages Office 365
               href: manage-office-365-message-encryption.md
-            - name: "Chiffrement avancé de messages Office\_365"
+            - name: Chiffrement avancé de messages Office 365
               href: ome-advanced-message-encryption.md
-            - name: "Définir une date d’expiration pour les e-mails chiffrés par le chiffrement avancé de messages Office\_365"
+            - name: Définir une date d’expiration pour les e-mails chiffrés par le chiffrement avancé de messages Office 365
               href: ome-advanced-expiration.md
-            - name: "Révoquer les e-mails chiffrés par le chiffrement avancé de messages Office\_365"
+            - name: Révoquer les e-mails chiffrés par le chiffrement avancé de messages Office 365
               href: revoke-ome-encrypted-mail.md
             - name: Comparez les versions de OME
               href: ome-version-comparison.md
-            - name: "FAQ sur le chiffrement de messages Office\_365"
+            - name: FAQ sur le chiffrement de messages Office 365
               href: ome-faq.yml
-            - name: "Procédure de sécurisation des informations confidentielles dans votre courrier électronique dans Exchange\_Online"
+            - name: Procédure de sécurisation des informations confidentielles dans votre courrier électronique dans Exchange Online
               href: exchange-online-secures-email-secrets.md
-            - name: "Mode d’utilisation de TLS par Exchange Online pour sécuriser les connexions de messagerie dans Office\_365"
+            - name: Mode d’utilisation de TLS par Exchange Online pour sécuriser les connexions de messagerie dans Office 365
               href: exchange-online-uses-tls-to-secure-email-connections.md
             - name: BitLocker et Distributed Key Manager (DKM) pour le chiffrement
               href: office-365-bitlocker-and-distributed-key-manager-for-encryption.md
             - name: Legacy OME
               items:
-                - name: "Informations héritées pour le chiffrement de messages Office\_365"
+                - name: Informations héritées pour le chiffrement de messages Office 365
                   href: legacy-information-for-message-encryption.md
-                - name: "Configurer Azure\_Rights\_Management pour la version précédente de chiffrement de messages Office\_365."
+                - name: Configurer Azure Rights Management pour la version précédente de chiffrement de messages Office 365.
                   href: set-up-azure-rms-for-previous-version-message-encryption.md
         - name: Gestion des droits relatifs à l'information SharePoint
           href: set-up-irm-in-sp-admin-center.md
@@ -225,9 +225,9 @@
           href: technical-reference-details-about-encryption.md
         - name: Dépréciation TLS 1.0 et 1.1 pour Office 365
           href: tls-1.0-and-1.1-deprecation-for-office-365.md
-        - name: "Dépréciation TLS\_1.0 et 1.1 dans Office\_365 Government Cloud Community – High et DoD"
+        - name: Dépréciation TLS 1.0 et 1.1 dans Office 365 Government Cloud Community – High et DoD
           href: tls-1-2-in-office-365-gcc.md
-        - name: "TLS\_1.2 dans Office\_365"
+        - name: TLS 1.2 dans Office 365
           href: prepare-tls-1.2-in-office-365.md
     - name: Protection contre la perte de données (DLP)
       items:
@@ -239,17 +239,21 @@
               href: endpoint-dlp-learn-about.md
             - name: En savoir plus sur la stratégie de protection par défaut contre la perte de données dans Microsoft Teams (préviersion)
               href: dlp-teams-default-policy.md
-            - name: "En savoir plus sur le scanneur local de protection contre la perte de données Microsoft\_365 (préversion)"
+            - name: En savoir plus sur le scanneur local de protection contre la perte de données Microsoft 365 (préversion)
               href: dlp-on-premises-scanner-learn.md
             - name: En savoir plus sur l’extension de la conformité Microsoft.
               href: dlp-chrome-learn-about.md
             - name: En savoir plus sur le tableau de bord des alertes de protection contre la perte de données
               href: dlp-alerts-dashboard-learn.md
+        - name: Planifier la DLP
+          items:
+            - name: Planifier la protection contre la perte de données
+              href: dlp-overview-plan-for-dlp.md
         - name: Prise en main de la protection contre la perte de données
           items:
             - name: Prise en main de la stratégie DLP par défaut
               href: get-started-with-the-default-dlp-policy.md
-            - name: "Création d’une stratégie\_DLP à partir d’un modèle"
+            - name: Création d’une stratégie DLP à partir d’un modèle
               href: create-a-dlp-policy-from-a-template.md
             - name: 'Création, test et réglage d’une stratégie DLP'
               href: create-test-tune-dlp-policy.md
@@ -263,11 +267,11 @@
               href: dlp-chrome-get-started.md
             - name: Prise en main du tableau de bord des alertes de protection contre la perte de données
               href: dlp-alerts-dashboard-get-started.md
-            - name: "Outils et méthodes d’intégration DLP pour les points de terminaison pour les appareils Windows\_10"
+            - name: Outils et méthodes d’intégration DLP pour les points de terminaison pour les appareils Windows 10
               items:
-                - name: "Outils et méthodes d’intégration pour les appareils Windows\_10."
+                - name: Outils et méthodes d’intégration pour les appareils Windows 10.
                   href: dlp-configure-endpoints.md
-                - name: "Appareils Windows\_10 intégrés via une stratégie de groupe"
+                - name: Appareils Windows 10 intégrés via une stratégie de groupe
                   href: dlp-configure-endpoints-gp.md
                 - name: Intégrer les appareils Windows 10 à l’aide des outils de gestion des appareils mobiles
                   href: dlp-configure-endpoints-mdm.md
@@ -291,11 +295,11 @@
               href: what-the-dlp-policy-templates-include.md
             - name: Création d’une stratégie DLP pour protéger les documents avec l’ICF ou d’autres propriétés
               href: protect-documents-that-have-fci-or-other-properties.md
-            - name: "Affichage des rapports\_DLP"
+            - name: Affichage des rapports DLP
               href: view-the-dlp-reports.md
             - name: Créer une requête pour trouver des données sensibles stockées sur des sites
               href: form-a-query-to-find-sensitive-data-stored-on-sites.md
-            - name: "Fonctionnement du DLP entre le Centre de sécurité et conformité et le Centre d’administration\_Exchange"
+            - name: Fonctionnement du DLP entre le Centre de sécurité et conformité et le Centre d’administration Exchange
               href: how-dlp-works-between-admin-centers.md
             - name: Configurez et affichez les alertes pour les stratégies DLP (préversion)
               href: dlp-configure-view-alerts-policies.md
@@ -319,7 +323,7 @@
               href: retention.md
             - name: La rétention pour SharePoint et OneDrive
               href: retention-policies-sharepoint.md
-            - name: "La rétention pour Microsoft\_Teams"
+            - name: La rétention pour Microsoft Teams
               href: retention-policies-teams.md
             - name: Conservation pour Yammer
               href: retention-policies-yammer.md
@@ -351,7 +355,7 @@
       items:
         - name: Vue d’ensemble de l’importation de fichiers PST
           href: importing-pst-files-to-office-365.md
-        - name: "Utiliser le chargement réseau pour importer des fichiers\_PST"
+        - name: Utiliser le chargement réseau pour importer des fichiers PST
           href: use-network-upload-to-import-pst-files.md
         - name: Utiliser l’envoi de lecteurs pour importer des fichiers PST
           href: use-drive-shipping-to-import-pst-files-to-office-365.md
@@ -363,7 +367,7 @@
       items:
         - name: Vue d’ensemble de l’archivage de données tierces
           href: archiving-third-party-data.md
-        - name: "Connecteurs de données\_Microsoft"
+        - name: Connecteurs de données Microsoft
           items:
             - name: Message Bloomberg
               href: archive-bloomberg-message-data.md
@@ -493,7 +497,7 @@
           href: retention-regulatory-requirements.md
 - name: Gestion de l’eDiscovery
   items:
-    - name: "Solutions eDiscovery Microsoft\_365"
+    - name: Solutions eDiscovery Microsoft 365
       href: ediscovery.md
     - name: Recherche de contenu
       items:
@@ -576,7 +580,7 @@
           href: export-content-in-core-ediscovery.md
         - name: 'Fermer, rouvrir et supprimer un cas'
           href: close-reopen-delete-core-ediscovery-cases.md
-        - name: "Référence de Core\_eDiscovery"
+        - name: Référence de Core eDiscovery
           items:
             - name: Limites de recherche de découverte électronique
               href: limits-for-content-search.md
@@ -680,7 +684,7 @@
         - name: Gérer les jeux à réviser
           href: managing-review-sets.md
           items:
-            - name: "Charger des données autres qu’Office\_365 dans un jeu à réviser"
+            - name: Charger des données autres qu’Office 365 dans un jeu à réviser
               href: load-non-Office-365-data-into-a-review-set.md
             - name: Ajouter des données dans un autre jeu à réviser
               href: add-data-to-review-set-from-another-review-set.md
@@ -728,7 +732,7 @@
               href: add-or-remove-members-from-a-case-in-advanced-ediscovery.md
             - name: Configurer les paramètres de recherche et d’analyse
               href: configure-search-and-analytics-settings-in-advanced-ediscovery.md
-        - name: "Référence d’Advanced\_eDiscovery"
+        - name: Référence d’Advanced eDiscovery
           items:
             - name: Limites d’Advanced eDiscovery
               href: limits-ediscovery20.md
@@ -780,7 +784,7 @@
       href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
 - name: Gérer les stratégies d’audit et d’alerte
   items:
-    - name: "Solutions d’audit Microsoft\_365"
+    - name: Solutions d’audit Microsoft 365
       href: auditing-solutions-overview.md
     - name: Audit de base
       items:
@@ -802,11 +806,11 @@
           href: use-sharing-auditing.md
         - name: API Activité de gestion Office 365
           items:
-            - name: "Référence de l’API Activité de gestion Office\_365"
+            - name: Référence de l’API Activité de gestion Office 365
               href: /office/office-365-management-api/office-365-management-activity-api-reference
-            - name: "Schéma de l’API Activité de gestion Office\_365"
+            - name: Schéma de l’API Activité de gestion Office 365
               href: /office/office-365-management-api/office-365-management-activity-api-schema
-            - name: "FAQ sur l'API Activité de gestion Office\_365 et résolution des problèmes"
+            - name: FAQ sur l'API Activité de gestion Office 365 et résolution des problèmes
               href: /office/office-365-management-api/troubleshooting-the-office-365-management-activity-api
     - name: Audit avancé
       items:
@@ -863,11 +867,11 @@
     - name: Chiffrement du courrier Exchange Online avec AD RMS
       href: information-rights-management-in-exchange-online.md
       items:
-        - name: "Configuration de la Gestion des droits relatifs à l’information (IRM) pour utiliser un serveur AD\_RMS local"
+        - name: Configuration de la Gestion des droits relatifs à l’information (IRM) pour utiliser un serveur AD RMS local
           href: configure-irm-to-use-an-on-premises-ad-rms-server.md
-- name: "Microsoft\_365\_Entreprise"
+- name: Microsoft 365 Entreprise
   href: ../enterprise/index.yml
-- name: "Sécurité Microsoft\_365"
+- name: Sécurité Microsoft 365
   href: ../security/index.yml
-- name: "Applications Microsoft\_365 pour les entreprises"
+- name: Applications Microsoft 365 pour les entreprises
   href: /office365/admin/admin-home

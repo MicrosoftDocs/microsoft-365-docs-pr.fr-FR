@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: Documentation de sécurité Office 365
+title: Documentation de sécurité Office 365
 summary: Le Centre de sécurité Microsoft 365 regroupe plusieurs technologies de sécurité au sein d’une seule console d’administration complète, avec des améliorations pour protéger votre entreprise.
 metadata:
-  title: Documentation de sécurité Office 365
+  title: Documentation de sécurité Office 365
   description: 'En savoir plus sur Microsoft Defender pour point de terminaison : comment il protège les points de terminaison contre les menaces informatiques et offre aux équipes des opérations de sécurité des fonctionnalités de correction des menaces.'
   services: office-365-security-compliance
   ms.service: O365-seccomp
@@ -13,28 +13,28 @@ metadata:
   ms.author: macapara
   ms.date: 02/05/2021
   localization_priority: Priority
-  ms.openlocfilehash: a8d2e2c5ec41436bba7f013304daa8f259db9444
-  ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+  ms.openlocfilehash: b7e193c15951a446d2fa21f36394085ad5016ee2
+  ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 04/15/2021
-  ms.locfileid: "51768553"
+  ms.lasthandoff: 05/21/2021
+  ms.locfileid: "52593980"
 landingContent:
-- title: Microsoft 365 Defender
+- title: Microsoft 365 Defender
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Microsoft 365 Defender ?
+    - text: Qu’est-ce que Microsoft 365 Defender ?
       url: defender/microsoft-365-defender.md
-    - text: Centre de sécurité Microsoft 365
+    - text: Centre de sécurité Microsoft 365
       url: defender/overview-security-center.md
 - title: Commencer avec les essais gratuits
   linkLists:
   - linkListType: get-started
     links:
-    - text: Évaluer Microsoft 365 Defender
+    - text: Évaluer Microsoft 365 Defender
       url: defender/m365d-evaluation.md
-    - text: Guide opérationnel pilote de Microsoft 365 Defender
+    - text: Guide opérationnel pilote de Microsoft 365 Defender
       url: defender/m365d-pilot.md
 - title: Sécuriser vos employés en télétravail
   linkLists:
@@ -42,35 +42,35 @@ landingContent:
     links:
     - text: Sécuriser vos employés en télétravail
       url: /enterprise-mobility-security/remote-work/
-- title: Microsoft Defender pour Identity
+- title: Microsoft Defender pour Identity
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Microsoft Defender pour Identity ?
+    - text: Qu’est-ce que Microsoft Defender pour Identity ?
       url: /azure-advanced-threat-protection/what-is-atp
-    - text: Architecture de Microsoft Defender pour Identity
+    - text: Architecture de Microsoft Defender pour Identity
       url: /azure-advanced-threat-protection/atp-architecture
-- title: Defender pour Office 365
+- title: Defender pour Office 365
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Defender pour Office 365 ?
-      url: office-365-security/defender-for-office-365.md
-    - text: Description du service Defender pour Office 365
+    - text: Qu’est-ce que Defender pour Office 365 ?
+      url: /office-365-security/defender-for-office-365
+    - text: Description du service Defender pour Office 365
       url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
-- title: Microsoft Defender pour point de terminaison
+- title: Microsoft Defender pour point de terminaison
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Microsoft Defender pour point de terminaison ?
-      url: /windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
-    - text: Présentation des fonctionnalités
-      url: /windows/security/threat-protection/microsoft-defender-atp/overview
-- title: Azure Defender
+    - text: Qu’est-ce que Microsoft Defender pour point de terminaison ?
+      url: /defender-endpoint/microsoft-defender-endpoint
+    - text: Vue d’ensemble du portail du centre de sécurité de Microsoft Defender
+      url: /defender-endpoint/portal-overview
+- title: Azure Defender
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Azure Defender ?
+    - text: Qu’est-ce que Azure Defender ?
       url: /azure/security-center/security-center-intro
     - text: Fonctionnalités prises en charge
       url: /azure/security-center/security-center-services
@@ -78,9 +78,9 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Microsoft Cloud App Security ?
+    - text: Qu’est-ce que Microsoft Cloud App Security ?
       url: /cloud-app-security/what-is-cloud-app-security
-    - text: Pris en main de Microsoft Cloud App Security
+    - text: Pris en main de Microsoft Cloud App Security
       url: /cloud-app-security/getting-started-with-cloud-app-security
 - title: Gestion de la sécurité
   linkLists:
@@ -92,5 +92,5 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Azure Sentinel ?
+    - text: Qu’est-ce que Azure Sentinel ?
       url: /azure/sentinel/overview

@@ -164,6 +164,8 @@
           href: attack-simulation-training-insights.md
         - name: Considérations et forum aux questions sur le déploiement de la formation de simulation d’attaque
           href: attack-simulation-training-faq.md
+        - name: Configurer la remise pour les simulations d’hameçonnage tierces et les boîtes aux lettres SecOps
+          href: configure-advanced-delivery.md
         - name: Paramètres recommandés pour configurer la sécurité dans EOP et Defender pour Office 365
           href: recommended-settings-for-eop-and-office365.md
         - name: Meilleures pratiques pour configurer EOP
