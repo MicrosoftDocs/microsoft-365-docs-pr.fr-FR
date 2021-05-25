@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: Microsoft 365 Defender
+title: Microsoft 365 Defender
 summary: Découvrez les solutions de sécurité robustes de Microsoft 365 Defender afin de mieux protéger votre entreprise sur les surfaces d’attaque.
 metadata:
-  title: Documentation Microsoft 365 Defender
+  title: Microsoft 365 Documentation defender
   description: Découvrez les solutions de sécurité robustes de Microsoft 365 Defender afin de mieux protéger votre entreprise sur les surfaces d’attaque.
   services: office-365-security-compliance
   ms.service: O365-seccomp
@@ -13,22 +13,22 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 1085b54a4b879a316b57cad89e138a73c871370e
-  ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+  ms.openlocfilehash: b10d9eebf8ed98e06e98c1e73722f7b3b0d7ba87
+  ms.sourcegitcommit: ddf6c25d1ed6387d07614f7042e033bad7f406f9
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 04/20/2021
-  ms.locfileid: "51904175"
+  ms.lasthandoff: 05/25/2021
+  ms.locfileid: "52639390"
 landingContent:
-- title: Microsoft 365 Defender
+- title: Microsoft 365 Defender
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Microsoft 365 Defender ?
+    - text: Qu’est-ce que Microsoft 365 Defender ?
       url: ../defender/microsoft-365-defender.md
   - linkListType: whats-new
     links:
-    - text: Nouveautés d’iMicrosoft 365 Defender
+    - text: Nouveautés de Microsoft 365 Defender
       url: ../defender/whats-new.md
   - linkListType: video
     links:
@@ -54,43 +54,43 @@ landingContent:
       url: m365d-enable.md
     - text: Déployer les services pris en charge
       url: deploy-supported-services.md
-- title: Microsoft Defender pour Identity
+- title: Microsoft Defender pour Identity
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Microsoft Defender pour Identity ?
+    - text: Qu’est-ce que Microsoft Defender pour Identity ?
       url: /azure-advanced-threat-protection/what-is-atp
-    - text: Architecture de Microsoft Defender pour Identity
+    - text: Architecture de Microsoft Defender pour Identity
       url: /azure-advanced-threat-protection/atp-architecture
 - title: Microsoft Defender pour Office 365
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Defender pour Office 365 ?
+    - text: Qu’est-ce que Defender pour Office 365 ?
       url: /office-365-security/defender-for-office-365
-    - text: Description du service Defender pour Office 365
+    - text: Description du service Defender pour Office 365
       url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
     - text: Defender pour Office 365 dans Microsoft 365 Defender
       url: /defender/microsoft-365-security-center-mdo
     - text: Redirection de Defender pour Office 365 dans Microsoft 365 Defender
       url: /defender/microsoft-365-security-mdo-redirection
-- title: Microsoft Defender pour point de terminaison
+- title: Microsoft Defender pour point de terminaison
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Microsoft Defender pour point de terminaison ?
+    - text: Qu’est-ce que Microsoft Defender pour point de terminaison ?
       url: /defender-endpoint/microsoft-defender-endpoint
     - text: Defender pour le point de terminaison dans Microsoft 365 Defender
       url: /defender/microsoft-365-security-cente
     - text: Redirection de Defender pour le point de terminaison dans Microsoft 365 Defender
       url: /defender/microsoft-365-security-mde-redirection
-- title: Centre de sécurité Microsoft 365
+- title: Centre de sécurité Microsoft 365
   linkLists:
   - linkListType: overview
     links:
     - text: Présentation du Centre de sécurité Microsoft 365
       url: overview-security-center.md
-    - text: Microsoft Defender pour point de terminaison dans le Centre de sécurité Microsoft 365
+    - text: Microsoft Defender pour le point de terminaison dans le centre Microsoft 365 sécurité
       url: microsoft-365-security-center-mde.md
     - text: Microsoft Defender pour Office 365 dans le centre de sécurité Microsoft 365
       url: ../defender/microsoft-365-security-center-mdo.md
@@ -98,9 +98,9 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Qu’est-ce que Microsoft Cloud App Security ?
+    - text: Qu’est-ce que Microsoft Cloud App Security ?
       url: /cloud-app-security/what-is-cloud-app-security
-    - text: Pris en main de Microsoft Cloud App Security
+    - text: Pris en main de Microsoft Cloud App Security
       url: /cloud-app-security/getting-started-with-cloud-app-security
 - title: Gérer les incidents et les alertes
   linkLists:
@@ -118,5 +118,5 @@ landingContent:
   linkLists:
   - linkListType: reference
     links:
-    - text: API Microsoft 365 Defender (prévisualisation)
+    - text: Microsoft 365 API Defender (prévisualisation)
       url: api-overview.md
