@@ -798,7 +798,7 @@
           href: detailed-properties-in-the-office-365-audit-log.md
         - name: 'Exporter, configurer et afficher des enregistrements du journal d’audit'
           href: export-view-audit-log-records.md
-        - name: Activer ou désactiver la recherche dans le journal d’audit
+        - name: Activer ou désactiver la fonctionnalité d’audit
           href: turn-audit-log-search-on-or-off.md
         - name: Utiliser le journal d’audit pour rechercher les problèmes courants
           href: auditing-troubleshooting-scenarios.md

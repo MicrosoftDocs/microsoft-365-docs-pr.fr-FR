@@ -122,7 +122,7 @@
 ###### [Configurer des fonctionnalités iOS](ios-configure-features.md)
 
 ##### [Résoudre des problèmes]()
-###### [Difficultés avec la résolution de problèmes](ios-troubleshoot.md)
+###### [FAQs et résolution de problèmes](ios-troubleshoot.md)
 
 ##### [Confidentialité](ios-privacy.md)
  
@@ -481,6 +481,12 @@
 ####### [Obtenir les informations des IP liées à l’alerte](get-alert-related-ip-info.md)
 ####### [Obtenir les informations de l’appareil lié à l’alerte](get-alert-related-machine-info.md)
 ####### [Obtenir les informations de l’utilisateur lié à l’alerte](get-alert-related-user-info.md)
+
+###### [Évaluations des vulnérabilités et configurations sécurisées]()
+####### [Exporter des méthodes et propriétés d’évaluation](get-assessmnt-1methods-properties.md)
+####### [Exporter une évaluation de configuration sécurisée](get-assessmnt-secure-cfg.md)
+####### [Exporter une évaluation d’inventaire de logiciel](get-assessmnt-software-inventory.md)
+####### [Exporter une évaluation de vulnérabilités de logiciel](get-assessmnt-software-vulnerabilities.md)
 
 ###### [Examen automatisé]()
 ####### [Méthodes et propriétés de l’examen](investigation.md)
