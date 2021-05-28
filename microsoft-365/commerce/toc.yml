@@ -66,6 +66,8 @@
       href: billing-and-payments/change-your-billing-addresses.md
     - name: À propos de la directive sur les services de paiement 2 et de l’authentification client renforcée
       href: billing-and-payments/psd2.md
+    - name: Demander un crédit pour la retenue à la source sur votre compte
+      href: billing-and-payments/withholding-tax-credit-global.md
 - name: Comptes de facturation
   items:
     - name: Comprendre les comptes de facturation
