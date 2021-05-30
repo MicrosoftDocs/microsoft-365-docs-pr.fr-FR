@@ -18,6 +18,8 @@
           href: microsoft-365-security-mde-redirection.md
         - name: "Réacheminement de Defender pour Office 365 dans le Centre de sécurité Microsoft\_365"
           href: microsoft-365-security-mdo-redirection.md
+        - name: Microsoft 365 Intégration de Defender à Azure Sentinel
+          href: microsoft-365-defender-integration-with-azure-sentinel.md
         - name: Fonctionnalités en préversion
           href: preview.md
         - name: Résoudre des problèmes
@@ -108,7 +110,7 @@
                   href: first-incident-overview.md
                 - name: Préparation
                   href: first-incident-prepare.md
-                - name: Étape 1. Trier et analyser
+                - name: Étape 1. Tri et analyse
                   href: first-incident-analyze.md
                 - name: "Étape\_2. Corriger"
                   href: first-incident-remediate.md
