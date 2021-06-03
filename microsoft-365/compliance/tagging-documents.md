@@ -15,78 +15,124 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Le marquage de documents dans un jeu à réviser permet de supprimer du contenu inutile et d’identifier le contenu pertinent dans un cas Advanced eDiscovery.
+description: Le marquage de documents dans un jeu à réviser permet de supprimer du contenu inutile et d’identifier le contenu pertinent dans Advanced eDiscovery cas.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 83e7a3c9c097968c4d773e6e2092bb3c50154cc3
-ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
+ms.openlocfilehash: 6d6a933f24a034aced99a8eaa70c6ee951765ca0
+ms.sourcegitcommit: cc9e3cac6af23f20d7cc5ac6fc6f6e01bc3cc5c5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "48285280"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52736248"
 ---
-# <a name="tag-documents-in-a-review-set-in-advanced-ediscovery"></a><span data-ttu-id="fb419-103">Baliser des documents dans un jeu à réviser dans Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="fb419-103">Tag documents in a review set in Advanced eDiscovery</span></span>
+# <a name="tag-documents-in-a-review-set-in-advanced-ediscovery"></a><span data-ttu-id="a4cb3-103">Baliser des documents dans un jeu à réviser dans Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="a4cb3-103">Tag documents in a review set in Advanced eDiscovery</span></span>
 
-<span data-ttu-id="fb419-104">L’organisation du contenu dans un ensemble de révision est importante pour effectuer différents flux de travail dans le processus eDiscovery.</span><span class="sxs-lookup"><span data-stu-id="fb419-104">Organizing content in a review set is important to complete various workflows in the eDiscovery process.</span></span> <span data-ttu-id="fb419-105">Cela inclut les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="fb419-105">This includes:</span></span>
+<span data-ttu-id="a4cb3-104">L’organisation du contenu dans un ensemble de révision est importante pour effectuer différents flux de travail dans le processus eDiscovery.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-104">Organizing content in a review set is important to complete various workflows in the eDiscovery process.</span></span> <span data-ttu-id="a4cb3-105">Cela inclut les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="a4cb3-105">This includes:</span></span>
 
-- <span data-ttu-id="fb419-106">Élimination de contenu inutile</span><span class="sxs-lookup"><span data-stu-id="fb419-106">Culling unnecessary content</span></span>
+- <span data-ttu-id="a4cb3-106">Élimination de contenu inutile</span><span class="sxs-lookup"><span data-stu-id="a4cb3-106">Culling unnecessary content</span></span>
 
-- <span data-ttu-id="fb419-107">Identification du contenu pertinent</span><span class="sxs-lookup"><span data-stu-id="fb419-107">Identifying relevant content</span></span>
- 
-- <span data-ttu-id="fb419-108">Identification du contenu qui doit être examiné par un expert ou un avocat</span><span class="sxs-lookup"><span data-stu-id="fb419-108">Identifying content that must be reviewed by an expert or an attorney</span></span>
+- <span data-ttu-id="a4cb3-107">Identification du contenu pertinent</span><span class="sxs-lookup"><span data-stu-id="a4cb3-107">Identifying relevant content</span></span>
 
-<span data-ttu-id="fb419-109">Lorsque des experts, des avocats ou d’autres utilisateurs examinent le contenu d’un groupe de révision, leurs opinions relatives au contenu peuvent être capturées à l’aide de balises.</span><span class="sxs-lookup"><span data-stu-id="fb419-109">When experts, attorneys, or other users review content in a review set, their opinions related to the content can be captured by using tags.</span></span> <span data-ttu-id="fb419-110">Par exemple, si l’objectif est d’annuler le contenu inutile, un utilisateur peut baliser des documents avec une balise telle que « non réactif ».</span><span class="sxs-lookup"><span data-stu-id="fb419-110">For example, if the intent is to cull unnecessary content, a user can tag documents with a tag such as "non-responsive".</span></span> <span data-ttu-id="fb419-111">Une fois que le contenu a été révisé et balisé, une recherche de jeu à réviser peut être créée pour exclure tout contenu marqué comme « non réactif », ce qui élimine ce contenu des étapes suivantes du flux de travail eDiscovery.</span><span class="sxs-lookup"><span data-stu-id="fb419-111">After content has been reviewed and tagged, a review set search can be created to exclude any content tagged as "non-responsive", which eliminates this content from the next steps in the eDiscovery workflow.</span></span> <span data-ttu-id="fb419-112">Le panneau de balises peut être personnalisé pour chaque cas afin que les balises peuvent prendre en charge le flux de travail de révision prévu.</span><span class="sxs-lookup"><span data-stu-id="fb419-112">The tag panel can be customized for every case so that the tags can support the intended review workflow.</span></span>
+- <span data-ttu-id="a4cb3-108">Identification du contenu qui doit être examiné par un expert ou un avocat</span><span class="sxs-lookup"><span data-stu-id="a4cb3-108">Identifying content that must be reviewed by an expert or attorney</span></span>
 
-## <a name="tag-types"></a><span data-ttu-id="fb419-113">Types de balises</span><span class="sxs-lookup"><span data-stu-id="fb419-113">Tag types</span></span>
-
-<span data-ttu-id="fb419-114">Advanced eDiscovery fournit deux types de balises :</span><span class="sxs-lookup"><span data-stu-id="fb419-114">Advanced eDiscovery provides two types of tags:</span></span>
-
-- <span data-ttu-id="fb419-115">**Balises à choix unique** : limite la sélection d’une seule balise au sein d’un groupe.</span><span class="sxs-lookup"><span data-stu-id="fb419-115">**Single choice tags** - Restricts users to select a single tag within a group.</span></span> <span data-ttu-id="fb419-116">Cela peut être utile pour s’assurer que les utilisateurs ne sélectionnent pas de balises conflictuelles telles que « réactive » et « non réactive ».</span><span class="sxs-lookup"><span data-stu-id="fb419-116">This can be useful to ensure users don't select conflicting tags such as "responsive" and "non-responsive".</span></span> <span data-ttu-id="fb419-117">Celles-ci s’affichent sous la mesure des boutons d’radio.</span><span class="sxs-lookup"><span data-stu-id="fb419-117">These will appear as radio buttons.</span></span>
-
-- <span data-ttu-id="fb419-118">**Balises de choix multiples** : autoriser les utilisateurs à sélectionner plusieurs balises au sein d’un groupe.</span><span class="sxs-lookup"><span data-stu-id="fb419-118">**Multiple choice tags** - Allow users to select multiple tags within a group.</span></span> <span data-ttu-id="fb419-119">Celles-ci s’affichent sous la mesure des case à cocher.</span><span class="sxs-lookup"><span data-stu-id="fb419-119">These will appear as checkboxes.</span></span>
-
-## <a name="tag-structure"></a><span data-ttu-id="fb419-120">Structure des balises</span><span class="sxs-lookup"><span data-stu-id="fb419-120">Tag structure</span></span>
-
-<span data-ttu-id="fb419-121">Outre les types de balises, la structure de l’organisation des balises dans le panneau de balises peut être utilisée pour rendre les documents de marquage plus intuitifs.</span><span class="sxs-lookup"><span data-stu-id="fb419-121">In addition to the tag types, the structure of how tags are organized in the tag panel can be used to make tagging documents more intuitive.</span></span> <span data-ttu-id="fb419-122">Les balises sont regroupées par sections.</span><span class="sxs-lookup"><span data-stu-id="fb419-122">Tags are grouped by sections.</span></span> <span data-ttu-id="fb419-123">La recherche de jeu à réviser prend en charge la possibilité de rechercher par balise et par section de balise.</span><span class="sxs-lookup"><span data-stu-id="fb419-123">Review set search supports the ability to search by tag and by tag section.</span></span> <span data-ttu-id="fb419-124">Cela signifie que vous pouvez créer une recherche de jeu à réviser pour récupérer les documents marqués avec n’importe quelle balise dans une section.</span><span class="sxs-lookup"><span data-stu-id="fb419-124">This means you can create a review set search to retrieve documents tagged with any tag in a section.</span></span>
-
-![Sections de balise dans le panneau de balise](../media/Tagtypes.png)
-
-<span data-ttu-id="fb419-126">Les balises peuvent être davantage organisées en les imbriquent dans une section.</span><span class="sxs-lookup"><span data-stu-id="fb419-126">Tags can be further organized by nesting them within a section.</span></span> <span data-ttu-id="fb419-127">Par exemple, si l’objectif est d’identifier et de baliser le contenu privilégié, l’imbrmbrage peut être utilisé pour indiquer clairement qu’un utilisateur peut marquer un document comme « privilégié » et sélectionner le type de privilège en vérifiant la balise imbrmbrée appropriée.</span><span class="sxs-lookup"><span data-stu-id="fb419-127">For example, if the intent is to identify and tag privileged content, nesting can be used to make it clear that a user can tag a document as "Privileged" and select the type of privilege by checking the appropriate nested tag.</span></span>
-
-![Balises imbriées dans une section de balise](../media/Nestingtags.png)
-
-## <a name="applying-tags"></a><span data-ttu-id="fb419-129">Application de balises</span><span class="sxs-lookup"><span data-stu-id="fb419-129">Applying tags</span></span>
-
-<span data-ttu-id="fb419-130">Il existe plusieurs façons d’appliquer une balise au contenu.</span><span class="sxs-lookup"><span data-stu-id="fb419-130">There are several ways to apply a tag to content.</span></span>
-
-### <a name="tagging-a-single-document"></a><span data-ttu-id="fb419-131">Marquage d’un document unique</span><span class="sxs-lookup"><span data-stu-id="fb419-131">Tagging a single document</span></span>
-
-<span data-ttu-id="fb419-132">Lorsque vous affichez un document dans un jeu à réviser, vous pouvez afficher les balises qu’un avis peut utiliser en cliquant sur **le panneau de marquage.**</span><span class="sxs-lookup"><span data-stu-id="fb419-132">When viewing a document in a review set, you can display the tags that a review can use by clicking **Tagging panel**.</span></span>
-
-![Cliquez sur Le panneau Balise pour afficher le panneau de balises](../media/Singledoctag.png)
-
-<span data-ttu-id="fb419-134">Cela vous permet d’appliquer des balises au document affiché dans la visionneuse.</span><span class="sxs-lookup"><span data-stu-id="fb419-134">This will enable you to apply tags to the document displayed in the viewer.</span></span>
-
-### <a name="bulk-tagging"></a><span data-ttu-id="fb419-135">Marquage en bloc</span><span class="sxs-lookup"><span data-stu-id="fb419-135">Bulk tagging</span></span>
-
-<span data-ttu-id="fb419-136">Le marquage en bloc peut être effectué en sélectionnant plusieurs fichiers  dans la grille des résultats, puis en utilisant les balises du panneau de marquage similaires au marquage de documents simples.</span><span class="sxs-lookup"><span data-stu-id="fb419-136">Bulk tagging can be done by selecting multiple files in the results grid and then using the tags in the **Tagging panel** similar to tagging single documents.</span></span> <span data-ttu-id="fb419-137">L’un-marquage en bloc peut être effectué en sélectionnant deux fois des balises . Le premier clic applique la balise, et la deuxième sélection garantit que la balise est effacée pour tous les fichiers sélectionnés.</span><span class="sxs-lookup"><span data-stu-id="fb419-137">Bulk un-tagging can be done by selecting tags twice; the first click will apply the tag, and the second selection will ensure that tag is cleared for all selected files.</span></span>
-
-![Capture d’écran d’une description de téléphone portable générée automatiquement](../media/Bulktag.png)
+<span data-ttu-id="a4cb3-109">Lorsque des experts, des avocats ou d’autres utilisateurs examinent le contenu d’un groupe de révision, leurs opinions relatives au contenu peuvent être capturées à l’aide de balises.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-109">When experts, attorneys, or other users review content in a review set, their opinions related to the content can be captured by using tags.</span></span> <span data-ttu-id="a4cb3-110">Par exemple, si l’objectif est d’annuler le contenu inutile, un utilisateur peut baliser des documents avec une balise telle que « non réactif ».</span><span class="sxs-lookup"><span data-stu-id="a4cb3-110">For example, if the intent is to cull unnecessary content, a user can tag documents with a tag such as "non-responsive".</span></span> <span data-ttu-id="a4cb3-111">Une fois que le contenu a été révisé et balisé, une recherche de jeu à réviser peut être créée pour exclure tout contenu marqué comme « non réactif ».</span><span class="sxs-lookup"><span data-stu-id="a4cb3-111">After content has been reviewed and tagged, a review set search can be created to exclude any content tagged as "non-responsive".</span></span> <span data-ttu-id="a4cb3-112">Ce processus élimine le contenu non réactif des étapes suivantes du flux de travail eDiscovery.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-112">This process eliminates the non-responsive content from the next steps in the eDiscovery workflow.</span></span> <span data-ttu-id="a4cb3-113">Le panneau de marquage d’un jeu à réviser peut être personnalisé pour chaque cas afin que les balises de prise en charge du flux de travail de révision prévu pour le cas.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-113">The tagging panel in a review set can be customized for every case so that the tags support the intended review workflow for the case.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="fb419-139">Lors du marquage en bloc, le panneau de marquage affiche le nombre de fichiers marqués pour chaque balise du panneau.</span><span class="sxs-lookup"><span data-stu-id="fb419-139">When bulk tagging, the tagging panel will display a count of files that are tagged for each tag in the panel.</span></span>
+> <span data-ttu-id="a4cb3-114">L’étendue des balises est Advanced eDiscovery cas.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-114">The scope of tags is an Advanced eDiscovery case.</span></span> <span data-ttu-id="a4cb3-115">Cela signifie qu’un cas ne peut avoir qu’un seul ensemble de balises que les réviseurs peuvent utiliser pour baliser des documents de jeu de révision.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-115">That means a case can only have one set of tags that reviewers can use to tag review set documents.</span></span> <span data-ttu-id="a4cb3-116">Vous ne pouvez pas configurer un ensemble différent de balises pour une utilisation dans différents jeux de révision dans le même cas.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-116">You can't set up a different set of tags for use in different review sets in the same case.</span></span>
 
-### <a name="tagging-in-other-review-panels"></a><span data-ttu-id="fb419-140">Marquage dans d’autres panneaux d’avis</span><span class="sxs-lookup"><span data-stu-id="fb419-140">Tagging in other review panels</span></span>
+## <a name="tag-types"></a><span data-ttu-id="a4cb3-117">Types de balises</span><span class="sxs-lookup"><span data-stu-id="a4cb3-117">Tag types</span></span>
 
-<span data-ttu-id="fb419-141">Lorsque vous examinez des documents, vous pouvez utiliser les autres panneaux de révision pour examiner d’autres caractéristiques des documents dans la grille des résultats.</span><span class="sxs-lookup"><span data-stu-id="fb419-141">When reviewing documents, you can use the other review panels to review other characteristics of documents in the results grid.</span></span> <span data-ttu-id="fb419-142">Cela inclut la révision d’autres documents connexes, threads de messagerie, quasi-doublons et hachages.</span><span class="sxs-lookup"><span data-stu-id="fb419-142">This includes reviewing other related documents, email threads, near duplicates, and hash duplicates.</span></span> <span data-ttu-id="fb419-143">Par exemple, lorsque vous examinez des documents  connexes (à l’aide du Panneau de révision de la famille de documents), vous pouvez réduire considérablement le temps de révision en balisé en bloc les documents associés.</span><span class="sxs-lookup"><span data-stu-id="fb419-143">For example, when you're reviewing related documents (by using the **Document family** review panel), you can significantly reduce review time by bulk tagging related documents.</span></span> <span data-ttu-id="fb419-144">Par exemple, si un message électronique a plusieurs pièces jointes et que vous souhaitez vous assurer que toute la famille est marquée de façon cohérente.</span><span class="sxs-lookup"><span data-stu-id="fb419-144">For example, if an email message has several attachments and you want to ensure that the entire family is tagged consistently.</span></span>
+<span data-ttu-id="a4cb3-118">Advanced eDiscovery fournit deux types de balises :</span><span class="sxs-lookup"><span data-stu-id="a4cb3-118">Advanced eDiscovery provides two types of tags:</span></span>
 
-<span data-ttu-id="fb419-145">Par exemple, voici comment afficher  le panneau marquage lors de l’utilisation du panneau de révision de la famille **de** documents :</span><span class="sxs-lookup"><span data-stu-id="fb419-145">For example, here's how to display the **Tagging panel** when using the **Document family** review panel:</span></span>
+- <span data-ttu-id="a4cb3-119">**Balises à choix unique**: limite les relecteurs à la sélection d’une seule balise au sein d’un groupe.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-119">**Single choice tags**: Restricts reviewers to selecting a single tag within a group.</span></span> <span data-ttu-id="a4cb3-120">Ces types de balises peuvent être utiles pour s’assurer que les réviseurs ne sélectionnent pas les balises conflictuelles telles que « réactive » et « non réactive ».</span><span class="sxs-lookup"><span data-stu-id="a4cb3-120">These types of tags can be useful to ensure that reviewers don't select conflicting tags such as "responsive" and "non-responsive".</span></span> <span data-ttu-id="a4cb3-121">Les balises à choix unique s’affichent sous la mesure des boutons d’option.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-121">Single choice tags appear as radio buttons.</span></span>
 
-1. <span data-ttu-id="fb419-146">Avec le panneau de révision ouvert pour un document sélectionné (par  exemple, affichage de la liste du contenu connexe dans le panneau révision de la famille de documents), cliquez sur **Baliser** les documents sous le panneau de révision de la famille de documents.</span><span class="sxs-lookup"><span data-stu-id="fb419-146">With the review panel open for a selected document (for example, displaying the list of related content in the **Document family** review panel, click **Tag documents** under the document family review panel.</span></span>
+- <span data-ttu-id="a4cb3-122">**Balises de choix multiples**: autoriser les avis à sélectionner plusieurs balises au sein d’un groupe.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-122">**Multiple choice tags**: Allow reviews to select multiple tags within a group.</span></span> <span data-ttu-id="a4cb3-123">Ces types de balises apparaissent sous forme de case à cocher.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-123">These types of tags appear as checkboxes.</span></span>
 
-   <span data-ttu-id="fb419-147">Le panneau de marquage s’affiche en tant que fenêtre indépendant.</span><span class="sxs-lookup"><span data-stu-id="fb419-147">The tagging panel is displayed as a pop-up window.</span></span>
+## <a name="tag-structure"></a><span data-ttu-id="a4cb3-124">Structure des balises</span><span class="sxs-lookup"><span data-stu-id="a4cb3-124">Tag structure</span></span>
 
-2. <span data-ttu-id="fb419-148">Choisissez une ou plusieurs balises pour appliquer le document sélectionné.</span><span class="sxs-lookup"><span data-stu-id="fb419-148">Choose one or more tags to apply the selected document.</span></span> 
+<span data-ttu-id="a4cb3-125">Outre les types de balises, la structure de l’organisation des balises dans le panneau de balises peut être utilisée pour rendre les documents de marquage plus intuitifs.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-125">In addition to the tag types, the structure of how tags are organized in the tag panel can be used to make tagging documents more intuitive.</span></span> <span data-ttu-id="a4cb3-126">Les balises sont regroupées par sections.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-126">Tags are grouped by sections.</span></span> <span data-ttu-id="a4cb3-127">La recherche de jeu à réviser prend en charge la possibilité de rechercher par balise et par section de balise.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-127">Review set search supports the ability to search by tag and by tag section.</span></span> <span data-ttu-id="a4cb3-128">Cela signifie que vous pouvez créer une recherche de jeu à réviser pour récupérer les documents marqués avec n’importe quelle balise dans une section.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-128">This means you can create a review set search to retrieve documents tagged with any tag in a section.</span></span>
 
-3. <span data-ttu-id="fb419-149">Pour baliser tous les documents, sélectionnez tous les documents dans le panneau Famille de documents, cliquez sur Baliser les **documents,** puis choisissez les balises à appliquer à toute la famille de documents. </span><span class="sxs-lookup"><span data-stu-id="fb419-149">To tag all documents, select all documents in the **Document family** panel, click **Tag documents**, and then choose the tags to apply to the entire family of documents.</span></span>
+![Sections de balise dans le panneau de balise](../media/TagTypes.png)
 
-![Capture d’écran d’un billet de réseau social Description généré automatiquement](../media/Relatedtag.png)
+<span data-ttu-id="a4cb3-130">Vous pouvez organiser davantage les balises en les imbriquer dans une section.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-130">You can further organize tags by nesting them within a section.</span></span> <span data-ttu-id="a4cb3-131">Par exemple, si l’objectif est d’identifier et de baliser le contenu privilégié, l’imbrmbrage peut être utilisé pour indiquer clairement qu’un réviseur peut marquer un document comme « privilégié » et sélectionner le type de privilège en vérifiant la balise imbrmbrée appropriée.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-131">For example, if the intent is to identify and tag privileged content, nesting can be used to make it clear that a reviewer can tag a document as "Privileged" and select the type of privilege by checking the appropriate nested tag.</span></span>
+
+![Balises imbriées dans une section de balise](../media/NestingTags.png)
+
+## <a name="create-tags"></a><span data-ttu-id="a4cb3-133">Créer des balises</span><span class="sxs-lookup"><span data-stu-id="a4cb3-133">Create tags</span></span>
+
+<span data-ttu-id="a4cb3-134">Avant d’appliquer des balises aux documents du jeu à réviser, vous devez créer une structure de balises.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-134">Before applying tags to documents in the review set, you need to create a tag structure.</span></span>
+
+1. <span data-ttu-id="a4cb3-135">Ouvrez un jeu à réviser, accédez à la barre de commandes et sélectionnez **Baliser par requête.**</span><span class="sxs-lookup"><span data-stu-id="a4cb3-135">Open a review set and navigate to the command bar and select **Tag by query**.</span></span>
+
+2. <span data-ttu-id="a4cb3-136">Dans le panneau de marquage, sélectionnez **Gérer les options de balise**</span><span class="sxs-lookup"><span data-stu-id="a4cb3-136">In the tagging panel, select **Manage tag options**</span></span>
+
+3. <span data-ttu-id="a4cb3-137">Sélectionnez **Ajouter une section de balise.**</span><span class="sxs-lookup"><span data-stu-id="a4cb3-137">Select **Add tag section**.</span></span>
+
+4. <span data-ttu-id="a4cb3-138">Tapez un titre de groupe de balises et une description facultative, puis cliquez sur **Enregistrer.**</span><span class="sxs-lookup"><span data-stu-id="a4cb3-138">Type a tag group title and an optional description, and then click **Save**.</span></span>
+
+5. <span data-ttu-id="a4cb3-139">Sélectionnez le menu déroulant à trois points en regard du titre du groupe de balises, puis cliquez sur Ajouter une case à **cocher** ou sur la case **d’option Ajouter.**</span><span class="sxs-lookup"><span data-stu-id="a4cb3-139">Select the triple dot dropdown menu next to the tag group title and click **Add check box** or **Add option button**.</span></span>
+
+6. <span data-ttu-id="a4cb3-140">Tapez un nom et une description pour la case à cocher ou la case d’option.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-140">Type a name and description for the checkbox or option button.</span></span>
+
+7. <span data-ttu-id="a4cb3-141">Répétez ce processus pour créer des sections de balise, des options de balise et des case à cocher.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-141">Repeat this process to create new tag sections, tag options, and checkboxes.</span></span>
+
+   ![Configurer la structure des balises](../media/ManageTagOptions3.png)
+
+## <a name="applying-tags"></a><span data-ttu-id="a4cb3-143">Application de balises</span><span class="sxs-lookup"><span data-stu-id="a4cb3-143">Applying tags</span></span>
+
+<span data-ttu-id="a4cb3-144">Une fois la structure de balises en place, les réviseurs peuvent appliquer des balises aux documents d’un jeu à réviser.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-144">With the tag structure in place, reviewers can apply tags to documents in a review set.</span></span> <span data-ttu-id="a4cb3-145">Il existe deux façons d’appliquer des balises :</span><span class="sxs-lookup"><span data-stu-id="a4cb3-145">There are two different ways to apply tags:</span></span>
+
+- <span data-ttu-id="a4cb3-146">Fichiers de balise</span><span class="sxs-lookup"><span data-stu-id="a4cb3-146">Tag files</span></span>
+
+- <span data-ttu-id="a4cb3-147">Baliser par requête</span><span class="sxs-lookup"><span data-stu-id="a4cb3-147">Tag by query</span></span>
+
+### <a name="tag-files"></a><span data-ttu-id="a4cb3-148">Fichiers de balise</span><span class="sxs-lookup"><span data-stu-id="a4cb3-148">Tag files</span></span>
+
+<span data-ttu-id="a4cb3-149">Que vous sélectionniez un ou plusieurs éléments dans un jeu à  réviser, vous pouvez appliquer des balises à leur sélection en cliquant sur Fichiers de balises dans la barre de commandes.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-149">Whether you select a single item or several items in a review set, you can apply tags to their selection by clicking **Tag files** in the command bar.</span></span> <span data-ttu-id="a4cb3-150">Dans le panneau de marquage, vous pouvez sélectionner une balise et elle est automatiquement appliquée aux documents sélectionnés.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-150">In the tagging panel, you can select a tag and it is automatically applied to the selected documents.</span></span>
+
+![Baliser les fichiers sélectionnés](../media/TagFile2.png)
+
+> [!NOTE]
+> <span data-ttu-id="a4cb3-152">Les balises sont appliquées uniquement aux éléments sélectionnés dans la liste des éléments.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-152">Tags will be applied only to selected items in the list of items.</span></span>
+
+### <a name="tag-by-query"></a><span data-ttu-id="a4cb3-153">Baliser par requête</span><span class="sxs-lookup"><span data-stu-id="a4cb3-153">Tag by query</span></span>
+
+<span data-ttu-id="a4cb3-154">Le marquage par requête vous permet d’appliquer des balises à tous les éléments affichés par une requête de filtre actuellement appliquée dans le jeu à réviser.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-154">Tagging by query lets you apply tags to all items displayed by a filter query that's currently applied in the review set.</span></span>
+
+1. <span data-ttu-id="a4cb3-155">Désélectionne tous les éléments du jeu à réviser et allez dans la barre de commandes et sélectionnez **Baliser par requête.**</span><span class="sxs-lookup"><span data-stu-id="a4cb3-155">Unselect all items in the review set and go to the command bar and select **Tag by query**.</span></span>
+
+2. <span data-ttu-id="a4cb3-156">Dans le panneau de marquage, sélectionnez la balise à appliquer.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-156">In the tagging panel, select the tag that you want to apply.</span></span>
+
+3. <span data-ttu-id="a4cb3-157">Sous la dropdown **de sélection** de balise, trois options déterminent les éléments à appliquer à la balise.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-157">Under the **Tag selection** dropdown, there are three options that dictate which items to apply the tag to.</span></span>
+
+   - <span data-ttu-id="a4cb3-158">**Éléments qui correspondent à la requête appliquée :** applique des balises à des éléments spécifiques qui correspondent aux conditions de requête de filtre.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-158">**Items that match applied query**: Applies tags to specific items that match the filter query conditions.</span></span>
+
+   - <span data-ttu-id="a4cb3-159">**Inclure les éléments de famille associés**: applique des balises à des éléments spécifiques qui correspondent aux conditions de requête de filtre et à leurs éléments de famille associés.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-159">**Include associated family items**: Applies tags to specific items that match the filter query conditions and their associated family items.</span></span> <span data-ttu-id="a4cb3-160">*Les éléments de famille* sont des éléments qui partagent la même valeur de métadonnées FamilyId.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-160">*Family items* are items that share the same FamilyId metadata value.</span></span>  
+
+   - <span data-ttu-id="a4cb3-161">**Inclure les éléments de conversation associés**: applique des balises aux éléments qui correspondent aux conditions de requête de filtre et à leurs éléments de conversation associés.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-161">**Include associated conversation items**: Applies tags to items that match the filter query conditions and their associated conversation items.</span></span> <span data-ttu-id="a4cb3-162">*Les éléments de conversation* sont des éléments qui partagent les mêmes valeurs de métadonnées ConversationId.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-162">*Conversation items* are items that share the same ConversationId metadata values.</span></span>
+
+   ![Sélection de balise](../media/TagByQuery2.png)
+
+4. <span data-ttu-id="a4cb3-164">Cliquez **sur Démarrer le travail de marquage** pour déclencher le travail de marquage.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-164">Click **Start tagging job** to trigger the tagging job.</span></span>
+
+## <a name="tag-filter"></a><span data-ttu-id="a4cb3-165">Filtre de balise</span><span class="sxs-lookup"><span data-stu-id="a4cb3-165">Tag filter</span></span>
+
+<span data-ttu-id="a4cb3-166">Utilisez le filtre de balise dans le jeu à réviser pour rechercher ou exclure rapidement des éléments des résultats de la requête en fonction de la façon dont un élément est balisé.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-166">Use the tag filter in review set to quickly find or exclude items from the query results based on how an item is tagged.</span></span> 
+
+1. <span data-ttu-id="a4cb3-167">Sélectionnez **Filtres** pour développer le panneau de filtrage.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-167">Select **Filters** to expand the filter panel.</span></span>
+
+2. <span data-ttu-id="a4cb3-168">Sélectionnez et développez **les propriétés de l’élément.**</span><span class="sxs-lookup"><span data-stu-id="a4cb3-168">Select and expand **Item properties**.</span></span>
+
+3. <span data-ttu-id="a4cb3-169">Faites défiler vers le bas pour trouver le filtre **nommé Balise,** cochez la case, puis cliquez sur **Terminé**.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-169">Scroll down to find the filter named **Tag**, select the checkbox, and then click **Done**.</span></span>
+
+4. <span data-ttu-id="a4cb3-170">Pour inclure ou exclure des éléments avec une balise spécifique d’une requête, faites l’une des choses suivantes :</span><span class="sxs-lookup"><span data-stu-id="a4cb3-170">To include or exclude items with a specific tag from a query, do one of the following:</span></span>
+
+   - <span data-ttu-id="a4cb3-171">**Inclure des éléments**: sélectionnez la valeur de la balise et sélectionnez **Égal à l’un** des éléments dans le menu déroulant.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-171">**Include items**: Select the tag value and select **Equal any of** in the dropdown menu.</span></span>
+
+      <span data-ttu-id="a4cb3-172">Ou</span><span class="sxs-lookup"><span data-stu-id="a4cb3-172">Or</span></span>
+
+   - <span data-ttu-id="a4cb3-173">**Exclure des** éléments : sélectionnez la valeur de la balise et **sélectionnez** Égal à aucun des éléments du menu déroulant.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-173">**Exclude items**: Select the tag value and select **Equals none of** in dropdown menu.</span></span>
+
+     ![Filtre de balise exclure des éléments](../media/TagFilterExclude.png)
+
+> [!NOTE]
+> <span data-ttu-id="a4cb3-175">Veillez à actualiser la page pour vous assurer que le filtre de balises affiche les dernières modifications apportées à la structure des balises.</span><span class="sxs-lookup"><span data-stu-id="a4cb3-175">Be sure to refresh the page to ensure that the tag filter displays the latest changes to the tag structure.</span></span>

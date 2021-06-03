@@ -1,7 +1,7 @@
 - name: Bureau géré Microsoft
   href: index.yml
   items:
-    - name: "Qu’est-ce que le bureau géré Microsoft\_?"
+    - name: Qu’est-ce que le bureau géré Microsoft ?
       href: intro/index.md
       items:
         - name: Rôles et responsabilités
@@ -48,6 +48,8 @@
           href: service-description/support.md
         - name: Opérations et analyse
           href: service-description/operations-and-monitoring.md
+        - name: Journaux de diagnostic
+          href: service-description/diagnostic-logs.md
         - name: Configuration requise pour l’application
           href: service-description/mmd-app-requirements.md
         - name: Contrôle d’application
@@ -135,7 +137,7 @@
               href: get-started/m365-apps.md
             - name: Microsoft Teams
               href: get-started/teams.md
-            - name: "Microsoft\_OneDrive"
+            - name: Microsoft OneDrive
               href: get-started/onedrive.md
     - name: Utilisation du Bureau géré Microsoft
       href: working-with-managed-desktop/index.md
@@ -145,14 +147,6 @@
           items:
             - name: Rapport d’inventaire des appareils
               href: working-with-managed-desktop/device-inventory-report.md
-            - name: Informations d’utilisation
-              href: working-with-managed-desktop/usage-insights.md
-            - name: Informations de fiabilité
-              href: working-with-managed-desktop/reliability-insights.md
-            - name: Aperçu de la batterie
-              href: working-with-managed-desktop/battery-insights.md
-            - name: Perspectives sur la mise à jour de sécurité Windows
-              href: working-with-managed-desktop/security-update-insights.md
         - name: Support pour les administrateurs
           href: working-with-managed-desktop/admin-support.md
         - name: Support pour les utilisateurs

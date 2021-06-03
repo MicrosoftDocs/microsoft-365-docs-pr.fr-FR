@@ -254,6 +254,8 @@
           href: detect-and-remediate-outlook-rules-forms-attack.md
         - name: Gérer les faux positifs/négatifs
           href: air-report-false-positives-negatives.md
+        - name: Révision par l’administrateur des messages signalés
+          href: admin-review-reported-message.md
         - name: Récupérer après une attaque par rançongiciel
           href: recover-from-ransomware.md
         - name: Corriger les e-mails malveillants

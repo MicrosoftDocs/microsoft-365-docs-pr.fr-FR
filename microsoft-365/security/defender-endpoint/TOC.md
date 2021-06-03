@@ -593,11 +593,6 @@
 ###### [Repérage avancé à l’aide de PowerShell](run-advanced-query-sample-powershell.md)
 ###### [Utilisation des requêtes OData](exposed-apis-odata-samples.md)
 
-#### [API de diffusion en continu de données brutes]()
-##### [Diffusion en continu de données brutes](raw-data-export.md)
-##### [Événements de repérage avancé Stream vers le hub Événements Azure](raw-data-export-event-hub.md)
-##### [Événements de repérage avancé Stream vers votre compte de stockage](raw-data-export-storage.md)
-
 #### [Intégration SIEM]()
 ##### [Comprendre les concepts de veille des menaces](threat-indicator-concepts.md)
 ##### [Découvrir les différentes façons d’extraire des détections](configure-siem.md)

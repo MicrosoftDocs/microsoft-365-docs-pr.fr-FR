@@ -110,11 +110,11 @@
                   href: first-incident-overview.md
                 - name: Préparation
                   href: first-incident-prepare.md
-                - name: Étape 1. Tri et analyse
+                - name: Étape 1. Trier et analyser
                   href: first-incident-analyze.md
-                - name: "Étape\_2. Corriger"
+                - name: Étape 2. Corriger
                   href: first-incident-remediate.md
-                - name: "Étape\_3. Révision"
+                - name: Étape 3. Révision
                   href: first-incident-post.md
                 - name: Exemples d’incidents supplémentaires
                   items:
@@ -134,7 +134,7 @@
               href: threat-analytics-analyst-reports.md
         - name: Enquêtes et réponses automatisées
           items:
-            - name: Vue d’ensemble
+            - name: Vue d'ensemble
               href: m365d-autoir.md
             - name: Configurer les fonctionnalités
               href: m365d-configure-auto-investigation-response.md
@@ -296,6 +296,8 @@
           items:
             - name: "Vue d’ensemble des API Microsoft\_365 Defender (préversion)"
               href: api-overview.md
+            - name: "API Microsoft\_365 Defender prises en charge"
+              href: api-supported.md
             - name: "Prise en main des API Microsoft\_365 Defender (préversion)"
               items:
                 - name: "Licence et conditions d’utilisation de l’API Microsoft\_365 Defender"
@@ -314,19 +316,25 @@
                   href: api-articles.md
             - name: "API et schéma de Microsoft\_365 Defender (préversion)"
               items:
-                - name: "API Microsoft\_365 Defender prises en charge"
-                  href: api-supported.md
                 - name: Codes d’erreur courants de l’API REST
                   href: api-error-codes.md
+                - name: API de diffusion en continu
+                  items:
+                    - name: Microsoft 365 API de diffusion en continu
+                      href: ../defender-endpoint/raw-data-export.md
+                    - name: Événements de repérage avancé Stream vers le hub Événements Azure
+                      href: ../defender-endpoint/raw-data-export-event-hub.md
+                    - name: Événements de repérage avancé Stream vers votre compte de stockage
+                      href: ../defender-endpoint/raw-data-export-storage.md
                 - name: API de recherche avancée de menaces
                   href: api-advanced-hunting.md
-                - name: API d’incident
+                - name: API Incidents
                   items:
-                    - name: Méthodes et propriétés d’incident
+                    - name: Méthodes et propriétés des incidents
                       href: api-incident.md
                     - name: Répertorier les incidents
                       href: api-list-incidents.md
-                    - name: Incident de mise à jour
+                    - name: Mettre à jour les incidents
                       href: api-update-incidents.md
     - name: "Microsoft\_Defender pour Office\_365"
       href: ../office-365-security/index.yml
