@@ -66,6 +66,8 @@
           href: protect-against-threats.md
         - name: Intégrer Defender pour Office 365 avec Defender pour point de terminaison
           href: integrate-office-365-ti-with-mde.md
+        - name: Autorisations dans le Centre de sécurité Microsoft 365
+          href: permissions-microsoft-365-security-center.md
         - name: Autorisations dans le Centre de sécurité et de conformité
           href: permissions-in-the-security-and-compliance-center.md
         - name: Intégration du serveur d’informations de sécurité et gestion d’événements

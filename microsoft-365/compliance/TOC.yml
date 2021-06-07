@@ -694,7 +694,7 @@
               href: advanced-ediscovery-dashboard.md
             - name: Afficher les documents d’un jeu à réviser
               href: view-documents-in-review-set.md
-            - name: Interroger les données d’un jeu à réviser
+            - name: Interroger et filtrer du contenu dans un jeu à réviser
               href: review-set-search.md
             - name: Étiqueter les documents d’un jeu à réviser
               href: tagging-documents.md
