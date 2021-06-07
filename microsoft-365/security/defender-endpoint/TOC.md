@@ -288,6 +288,9 @@
 ##### [Utiliser des cmdlets PowerShell pour gérer l’antivirus Microsoft Defender](use-powershell-cmdlets-microsoft-defender-antivirus.md)
 ##### [Utiliser Windows Management Instrumentation ( WMI) pour gérer l’antivirus Microsoft Defender](use-wmi-microsoft-defender-antivirus.md)
 ##### [Utiliser l’outil mpcmdrun.exe pour gérer l’antivirus Microsoft Defender](command-line-arguments-microsoft-defender-antivirus.md)
+##### [Configurer les notifications qui s’affichent sur les points de terminaison](configure-notifications-microsoft-defender-antivirus.md)
+##### [Spécifier si les utilisateurs peuvent modifier localement les paramètres de stratégie Microsoft Defender Antivirus](configure-local-policy-overrides-microsoft-defender-antivirus.md)
+##### [Spécifier si les utilisateurs peuvent voir ou interagir avec l’ interface utilisateur Microsoft Defender Antivirus](prevent-end-user-interaction-microsoft-defender-antivirus.md)
 
 #### [Déployer et signaler sur l’antivirus Microsoft Defender](deploy-manage-report-microsoft-defender-antivirus.md)
 ##### [Déployer et activer l’antivirus Microsoft Defender](deploy-microsoft-defender-antivirus.md)
@@ -480,10 +483,10 @@
 ####### [Obtenir les informations de l’utilisateur lié à l’alerte](get-alert-related-user-info.md)
 
 ###### [Évaluations des vulnérabilités et configurations sécurisées]()
-####### [Exporter des méthodes et propriétés d’évaluation](get-assessmnt-1methods-properties.md)
-####### [Exporter une évaluation de configuration sécurisée](get-assessmnt-secure-cfg.md)
-####### [Exporter une évaluation d’inventaire de logiciel](get-assessmnt-software-inventory.md)
-####### [Exporter une évaluation de vulnérabilités de logiciel](get-assessmnt-software-vulnerabilities.md)
+####### [Exporter des méthodes et propriétés d’évaluation](get-assessment-methods-properties.md)
+####### [Exporter une évaluation de configuration sécurisée](get-assessment-secure-config.md)
+####### [Exporter une évaluation d’inventaire de logiciel](get-assessment-software-inventory.md)
+####### [Exporter une évaluation de vulnérabilités de logiciel](get-assessment-software-vulnerabilities.md)
 
 ###### [Examen automatisé]()
 ####### [Méthodes et propriétés de l’examen](investigation.md)
