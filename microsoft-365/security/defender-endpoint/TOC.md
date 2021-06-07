@@ -244,17 +244,14 @@
 
 ### [Réduction de la surface d’attaque]()
 #### [Vue d’ensemble de la réduction de la surface d'attaque](overview-attack-surface-reduction.md)
+#### [Configurer les fonctionnalités de la réduction de la surface d’attaque](configure-attack-surface-reduction.md)
+#### [En savoir plus sur les règles de réduction de la surface d’attaque](attack-surface-reduction.md)
 #### [Évaluer les règles de réduction de la surface d’attaque](evaluate-attack-surface-reduction.md)
-#### [Paramètres de configuration de la réduction de la surface d’attaque](configure-attack-surface-reduction.md)
-#### [FAQ sur la réduction de la surface d’attaque](attack-surface-reduction-faq.md).
-
-#### [Contrôles de la réduction de la surface d’attaque]().
-##### [Règles de réduction de la surface d’attaque](attack-surface-reduction.md)
-##### [Activer les règles de réduction de la surface d’attaque](enable-attack-surface-reduction.md)
-##### [Personnaliser les règles de réduction de la surface d’attaque](customize-attack-surface-reduction.md)
-##### [Afficher les événements de la réduction de la surface d’attaque](event-views.md)
-
-#### [Utiliser le mode Audit](audit-windows-defender.md)
+#### [Activer les règles de réduction de la surface d’attaque](enable-attack-surface-reduction.md)
+#### [Personnaliser les règles de réduction de la surface d’attaque](customize-attack-surface-reduction.md)
+#### [FAQ sur la réduction de la surface d’attaque](attack-surface-reduction-faq.md)
+#### [Afficher les événements de la réduction de la surface d’attaque](event-views.md)
+#### [Utiliser le mode audit pour la réduction de la surface d’attaque](audit-windows-defender.md)
 
 ### Protection de nouvelle génération
 #### [Vue d’ensemble de l’antivirus Microsoft Defender](microsoft-defender-antivirus-in-windows-10.md)
@@ -592,6 +589,13 @@
 ###### [Repérage avancé à l’aide de Python](run-advanced-query-sample-python.md)
 ###### [Repérage avancé à l’aide de PowerShell](run-advanced-query-sample-powershell.md)
 ###### [Utilisation des requêtes OData](exposed-apis-odata-samples.md)
+
+
+#### [API de diffusion en continu de données brutes]()
+##### [Diffusion en continu de données brutes](raw-data-export.md)
+##### [Événements de repérage avancé Stream vers le hub Événements Azure](raw-data-export-event-hub.md)
+##### [Événements de repérage avancé Stream vers votre compte de stockage](raw-data-export-storage.md)
+
 
 #### [Intégration SIEM]()
 ##### [Comprendre les concepts de veille des menaces](threat-indicator-concepts.md)
