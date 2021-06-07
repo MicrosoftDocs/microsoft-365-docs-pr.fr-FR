@@ -3,7 +3,7 @@
   displayName: Home
 - name: Illustrations de solutions et d’architectures
   items:
-    - name: "Illustrations de productivité Microsoft\_365"
+    - name: Illustrations de productivité Microsoft 365
       href: productivity-illustrations.md
     - name: Modèles d’architecture cloud Microsoft
       href: cloud-architecture-models.md
@@ -13,7 +13,7 @@
       href: architecture-icons-templates.md
 - name: Solutions de la fondation Microsoft 365
   items:
-    - name: Configurez votre infrastructure pour le télétravail.
+    - name: Configurer votre infrastructure pour un travail hybride
       items:
         - name: Vue d’ensemble
           href: empower-people-to-work-remotely.md
@@ -23,13 +23,13 @@
           href: empower-people-to-work-remotely-remote-access.md
         - name: Étape 3. Déployer la sécurité et la conformité
           href: empower-people-to-work-remotely-security-compliance.md
-        - name: "Étape\_4. Déployer la gestion des points de terminaison"
+        - name: Étape 4. Déployer la gestion des points de terminaison
           href: empower-people-to-work-remotely-manage-endpoints.md
-        - name: "Étape\_5. Déployer les applications et les services de productivité"
+        - name: Étape 5. Déployer les applications et les services de productivité
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: Étape 6. former des télétravailleurs
+        - name: Étape 6. Former vos employés
           href: empower-people-to-work-remotely-train-monitor-usage.md
-    - name: "Configurer la collaboration sécurisée avec Microsoft\_365"
+    - name: Configurer la collaboration sécurisée avec Microsoft 365
       items:
         - name: Vue d’ensemble
           href: setup-secure-collaboration-with-teams.md
@@ -45,7 +45,7 @@
               href: configure-teams-highly-sensitive-protection.md
             - name: Configurer une équipe avec l’isolation de sécurité
               href: secure-teams-security-isolation.md
-        - name: "Étape\_2. Configurer le partage externe"
+        - name: Étape 2. Configurer le partage externe
           items:
             - name: Vue d’ensemble du partage externe
               href: collaborate-with-people-outside-your-organization.md
@@ -71,7 +71,7 @@
                   href: create-secure-guest-sharing-environment.md
             - name: Référence de partage externe
               href: microsoft-365-guest-settings.md
-    - name: "Déployer la protection contre les menaces sur Microsoft\_365"
+    - name: Déployer la protection contre les menaces sur Microsoft 365
       items:
         - name: Vue d’ensemble
           href: deploy-threat-protection.md
@@ -103,13 +103,13 @@
           href: tenant-management-overview.md
         - name: Étape 1. Vos clients
           href: tenant-management-tenants.md
-        - name: "Étape\_2. Mise en réseau optimale"
+        - name: Étape 2. Mise en réseau optimale
           href: tenant-management-networking.md
-        - name: "Étape\_3. Identité"
+        - name: Étape 3. Identité
           href: tenant-management-identity.md
-        - name: "Étape\_4. Migration"
+        - name: Étape 4. Migration
           href: tenant-management-migration.md
-        - name: "Étape\_5. Données de gestion des appareils et des applications"
+        - name: Étape 5. Données de gestion des appareils et des applications
           href: tenant-management-device-management.md
     - name: Travail en équipe et collaboration
       items:
@@ -119,9 +119,9 @@
           items:
             - name: Vue d’ensemble
               href: deploy-voice.md
-            - name: "Étape 1. Choisissez votre solution vocale\_:"
+            - name: 'Étape 1. Choisissez votre solution vocale :'
               href: /MicrosoftTeams/cloud-voice-landing-page?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: "Étape\_2. - Configurer le système téléphonique"
+            - name: Étape 2. - Configurer le système téléphonique
               href: /microsoftteams/setting-up-your-phone-system?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: Étape 3. - Configurer la connectivité RTC
               items:
@@ -175,25 +175,25 @@
           href: /sharepoint/intelligent-internet-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
         - name: Guide Ondrive pour entreprises
           href: /onedrive/plan-onedrive-enterprise?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-        - name: "Migration de partages de fichiers vers Microsoft\_365"
+        - name: Migration de partages de fichiers vers Microsoft 365
           items:
             - name: Présentation
               href: /sharepointmigration/mm-get-started?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: "Étape\_1\_: configurer des agents"
+            - name: 'Étape 1 : configurer des agents'
               href: /sharepointmigration/mm-setup-clients?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: "Étape 2\_: créer une tâche de migration"
+            - name: 'Étape 2 : créer une tâche de migration'
               href: /sharepointmigration/mm-how-to-use?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: "Étape 3\_: surveiller et signaler"
+            - name: 'Étape 3 : surveiller et signaler'
               href: /sharepointmigration/mm-reports?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
     - name: Sécurité
       items:
         - name: Principales tâches pour les équipes de sécurité qui prennent en charge le travail à domicile
           href: ../security/top-security-tasks-for-remote-work.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-        - name: "Sécurité Microsoft\_365 pour les décideurs d’entreprise (BDM)"
+        - name: Sécurité Microsoft 365 pour les décideurs d’entreprise (BDM)
           href: 'https://docs.microsoft.com/microsoft-365/security/microsoft-365-security-for-bdm?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Configurations des identités et de l’accès aux appareils
           href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-365-policies-configurations?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
-        - name: "Déployer Microsoft\_Defender pour point de terminaison"
+        - name: Déployer Microsoft Defender pour point de terminaison
           href: 'https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Conformité
       items:
@@ -225,7 +225,7 @@
       items:
         - name: Solutions Microsoft 365 pour Contoso Corporation
           href: contoso-case-study-solutions.md
-        - name: Support et infrastructure COVID-19 pour le travail distant et sur site
+        - name: Réponse au COVID-19 et prise en charge du travail hybride
           href: contoso-remote-onsite-work.md
         - name: Équipe isolée pour un projet top secret
           href: contoso-team-for-top-secret-project.md
@@ -273,7 +273,7 @@
       href: security-design-principles.md
     - name: Mise en réseau (dans le cloud)
       href: networking-design-principles.md
-- name: "Ressources de déploiement de Microsoft\_365"
+- name: Ressources de déploiement de Microsoft 365
   items:
-    - name: "Déployer Microsoft\_365"
+    - name: Déployer Microsoft 365
       href: ../enterprise/microsoft-365-overview.md

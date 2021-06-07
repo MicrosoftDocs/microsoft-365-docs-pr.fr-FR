@@ -110,7 +110,7 @@
                   href: first-incident-overview.md
                 - name: Préparation
                   href: first-incident-prepare.md
-                - name: Étape 1. Trier et analyser
+                - name: Étape 1. Tri et analyse
                   href: first-incident-analyze.md
                 - name: Étape 2. Corriger
                   href: first-incident-remediate.md
@@ -134,7 +134,7 @@
               href: threat-analytics-analyst-reports.md
         - name: Enquêtes et réponses automatisées
           items:
-            - name: Vue d'ensemble
+            - name: Présentation
               href: m365d-autoir.md
             - name: Configurer les fonctionnalités
               href: m365d-configure-auto-investigation-response.md
@@ -322,7 +322,7 @@
                   items:
                     - name: Microsoft 365 API de diffusion en continu
                       href: ../defender-endpoint/raw-data-export.md
-                    - name: Événements de repérage avancé Stream vers le hub Événements Azure
+                    - name: Stream advanced hunting evens to Azure Events hub
                       href: ../defender-endpoint/raw-data-export-event-hub.md
                     - name: Événements de repérage avancé Stream vers votre compte de stockage
                       href: ../defender-endpoint/raw-data-export-storage.md

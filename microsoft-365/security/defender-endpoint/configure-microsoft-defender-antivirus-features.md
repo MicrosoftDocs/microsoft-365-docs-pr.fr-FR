@@ -11,48 +11,45 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 11/18/2020
+ms.date: 06/04/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 4408d5e788449c0d094008261f5e7db9bfe38758
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 6ef9a2c34a88d7c9f5506c681088db9dc84cb0cc
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275107"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789026"
 ---
-# <a name="configure-microsoft-defender-antivirus-features"></a><span data-ttu-id="d190d-104">Configurer les fonctionnalités antivirus Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="d190d-104">Configure Microsoft Defender Antivirus features</span></span>
+# <a name="configure-microsoft-defender-antivirus-features"></a><span data-ttu-id="33cb8-104">Configurer les fonctionnalités antivirus Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="33cb8-104">Configure Microsoft Defender Antivirus features</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="d190d-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="d190d-105">**Applies to:**</span></span>
+<span data-ttu-id="33cb8-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="33cb8-105">**Applies to:**</span></span>
 
-- [<span data-ttu-id="d190d-106">Microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="d190d-106">Microsoft Defender for Endpoint</span></span>](/microsoft-365/security/defender-endpoint/)
+- [<span data-ttu-id="33cb8-106">Microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="33cb8-106">Microsoft Defender for Endpoint</span></span>](/microsoft-365/security/defender-endpoint/)
 
-<span data-ttu-id="d190d-107">Vous pouvez configurer Antivirus Microsoft Defender avec un certain nombre d’outils, notamment :</span><span class="sxs-lookup"><span data-stu-id="d190d-107">You can configure Microsoft Defender Antivirus with a number of tools, including:</span></span>
+<span data-ttu-id="33cb8-107">Vous pouvez configurer Antivirus Microsoft Defender avec un certain nombre d’outils, tels que :</span><span class="sxs-lookup"><span data-stu-id="33cb8-107">You can configure Microsoft Defender Antivirus with a number of tools, such as:</span></span>
 
-- <span data-ttu-id="d190d-108">Microsoft Intune</span><span class="sxs-lookup"><span data-stu-id="d190d-108">Microsoft Intune</span></span>
-- <span data-ttu-id="d190d-109">Microsoft Endpoint Configuration Manager</span><span class="sxs-lookup"><span data-stu-id="d190d-109">Microsoft Endpoint Configuration Manager</span></span>
-- <span data-ttu-id="d190d-110">Stratégie de groupe</span><span class="sxs-lookup"><span data-stu-id="d190d-110">Group Policy</span></span>
-- <span data-ttu-id="d190d-111">Cmdlets PowerShell</span><span class="sxs-lookup"><span data-stu-id="d190d-111">PowerShell cmdlets</span></span>
-- <span data-ttu-id="d190d-112">WMI (Windows Management Instrumentation)</span><span class="sxs-lookup"><span data-stu-id="d190d-112">Windows Management Instrumentation (WMI)</span></span>
+- <span data-ttu-id="33cb8-108">Microsoft Endpoint Manager (qui inclut les Microsoft Intune et Microsoft Endpoint Configuration Manager)</span><span class="sxs-lookup"><span data-stu-id="33cb8-108">Microsoft Endpoint Manager (which includes Microsoft Intune and Microsoft Endpoint Configuration Manager)</span></span>
+- <span data-ttu-id="33cb8-109">Stratégie de groupe</span><span class="sxs-lookup"><span data-stu-id="33cb8-109">Group Policy</span></span>
+- <span data-ttu-id="33cb8-110">Cmdlets PowerShell</span><span class="sxs-lookup"><span data-stu-id="33cb8-110">PowerShell cmdlets</span></span>
+- <span data-ttu-id="33cb8-111">WMI (Windows Management Instrumentation)</span><span class="sxs-lookup"><span data-stu-id="33cb8-111">Windows Management Instrumentation (WMI)</span></span>
 
-<span data-ttu-id="d190d-113">Les grandes catégories de fonctionnalités suivantes peuvent être configurées :</span><span class="sxs-lookup"><span data-stu-id="d190d-113">The following broad categories of features can be configured:</span></span>
+<span data-ttu-id="33cb8-112">Les grandes catégories de fonctionnalités suivantes peuvent être configurées :</span><span class="sxs-lookup"><span data-stu-id="33cb8-112">The following broad categories of features can be configured:</span></span>
 
-- <span data-ttu-id="d190d-114">Protection fournie par le cloud</span><span class="sxs-lookup"><span data-stu-id="d190d-114">Cloud-delivered protection</span></span>
-- <span data-ttu-id="d190d-115">Protection en temps réel toujours continue, y compris la protection comportementale, heuristique et basée sur l’apprentissage automatique</span><span class="sxs-lookup"><span data-stu-id="d190d-115">Always-on real-time protection, including behavioral, heuristic, and machine-learning-based protection</span></span>
-- <span data-ttu-id="d190d-116">Interaction des utilisateurs finaux avec le client sur des points de terminaison individuels</span><span class="sxs-lookup"><span data-stu-id="d190d-116">How end users interact with the client on individual endpoints</span></span>
+- <span data-ttu-id="33cb8-113">Protection cloud.</span><span class="sxs-lookup"><span data-stu-id="33cb8-113">Cloud-delivered protection.</span></span> <span data-ttu-id="33cb8-114">Voir protection et protection des services [cloud Antivirus Microsoft Defender](cloud-protection-microsoft-defender-antivirus.md)</span><span class="sxs-lookup"><span data-stu-id="33cb8-114">See [Cloud-delivered protection and Microsoft Defender Antivirus](cloud-protection-microsoft-defender-antivirus.md)</span></span>
+ 
+- <span data-ttu-id="33cb8-115">Protection en temps réel toujours continue, y compris la protection comportementale, heuristique et basée sur l’apprentissage automatique.</span><span class="sxs-lookup"><span data-stu-id="33cb8-115">Always-on real-time protection, including behavioral, heuristic, and machine-learning-based protection.</span></span> <span data-ttu-id="33cb8-116">Voir [Configurer la protection comportementale, heuristique et en temps réel.](configure-protection-features-microsoft-defender-antivirus.md)</span><span class="sxs-lookup"><span data-stu-id="33cb8-116">See [Configure behavioral, heuristic, and real-time protection](configure-protection-features-microsoft-defender-antivirus.md).</span></span>
 
-<span data-ttu-id="d190d-117">Les articles suivants décrivent comment effectuer des tâches clés lors de la configuration Antivirus Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="d190d-117">The following articles describe how to perform key tasks when configuring Microsoft Defender Antivirus.</span></span> <span data-ttu-id="d190d-118">Chaque article contient des instructions pour l’outil de configuration applicable (ou les outils).</span><span class="sxs-lookup"><span data-stu-id="d190d-118">Each article includes instructions for the applicable configuration tool (or tools).</span></span>
+- <span data-ttu-id="33cb8-117">Interaction des utilisateurs finaux avec le client sur des points de terminaison individuels.</span><span class="sxs-lookup"><span data-stu-id="33cb8-117">How end users interact with the client on individual endpoints.</span></span> <span data-ttu-id="33cb8-118">Consultez les ressources suivantes :</span><span class="sxs-lookup"><span data-stu-id="33cb8-118">See the following resources:</span></span>
+   
+   - [<span data-ttu-id="33cb8-119">Empêcher les utilisateurs de voir ou d’interagir avec l Antivirus Microsoft Defender’interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="33cb8-119">Prevent users from seeing or interacting with the Microsoft Defender Antivirus user interface</span></span>](prevent-end-user-interaction-microsoft-defender-antivirus.md)
 
-|<span data-ttu-id="d190d-119">Article</span><span class="sxs-lookup"><span data-stu-id="d190d-119">Article</span></span>  |<span data-ttu-id="d190d-120">Description</span><span class="sxs-lookup"><span data-stu-id="d190d-120">Description</span></span>  |
-|---------|---------|
-|[<span data-ttu-id="d190d-121">Utiliser la protection de Antivirus Microsoft Defender microsoft fournie par le cloud</span><span class="sxs-lookup"><span data-stu-id="d190d-121">Utilize Microsoft cloud-provided Microsoft Defender Antivirus protection</span></span>](cloud-protection-microsoft-defender-antivirus.md)     | <span data-ttu-id="d190d-122">Utilisez la protection cloud pour une détection avancée, rapide et robuste de l’antivirus.</span><span class="sxs-lookup"><span data-stu-id="d190d-122">Use cloud-delivered protection for advanced, fast, robust antivirus detection.</span></span>        |
-|[<span data-ttu-id="d190d-123">Configurer la protection comportementale, heuristique et en temps réel.</span><span class="sxs-lookup"><span data-stu-id="d190d-123">Configure behavioral, heuristic, and real-time protection</span></span>](configure-protection-features-microsoft-defender-antivirus.md)     |<span data-ttu-id="d190d-124">Activez la protection antivirus en temps réel, heuristique et basée sur le comportement.</span><span class="sxs-lookup"><span data-stu-id="d190d-124">Enable behavior-based, heuristic, and real-time antivirus protection.</span></span>         |
-|[<span data-ttu-id="d190d-125">Configurer l’interaction de l’utilisateur final avec Antivirus Microsoft Defender</span><span class="sxs-lookup"><span data-stu-id="d190d-125">Configure end-user interaction with Microsoft Defender Antivirus</span></span>](configure-end-user-interaction-microsoft-defender-antivirus.md) | <span data-ttu-id="d190d-126">Configurez la façon dont les utilisateurs finaux de votre organisation interagissent avec Antivirus Microsoft Defender, les notifications qu’ils voient et s’ils peuvent remplacer les paramètres.</span><span class="sxs-lookup"><span data-stu-id="d190d-126">Configure how end users in your organization interact with Microsoft Defender Antivirus, what notifications they see, and whether they can override settings.</span></span> |
+   - [<span data-ttu-id="33cb8-120">Empêcher ou autoriser les utilisateurs à modifier localement les paramètres Antivirus Microsoft Defender stratégie</span><span class="sxs-lookup"><span data-stu-id="33cb8-120">Prevent or allow users to locally modify Microsoft Defender Antivirus policy settings</span></span>](configure-local-policy-overrides-microsoft-defender-antivirus.md) 
 
 > [!TIP]
-> <span data-ttu-id="d190d-127">Vous pouvez également consulter les rubriques de référence pour les [outils](configuration-management-reference-microsoft-defender-antivirus.md) de gestion et de configuration pour obtenir une vue d’ensemble de chaque outil et des liens pour obtenir de l’aide supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="d190d-127">You can also review the [Reference topics for management and configuration tools](configuration-management-reference-microsoft-defender-antivirus.md) topic for an overview of each tool and links to further help.</span></span>
+> <span data-ttu-id="33cb8-121">Consulter les [rubriques de référence pour les outils de gestion et de configuration.](configuration-management-reference-microsoft-defender-antivirus.md)</span><span class="sxs-lookup"><span data-stu-id="33cb8-121">Review [Reference topics for management and configuration tools](configuration-management-reference-microsoft-defender-antivirus.md).</span></span>

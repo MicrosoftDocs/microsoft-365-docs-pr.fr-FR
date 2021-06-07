@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Centre de solutions et d'architecture Microsoft 365
-summary: Ce centre de solutions et d'architecture rassemble les conseils techniques dont vous avez besoin pour comprendre, planifier et mettre en œuvre des solutions intégrées Microsoft 365 pour la planification des ressources d'entreprise et la collaboration moderne sécurisée et conforme.
+summary: Ce centre de solutions et d'architecture rassemble les conseils techniques dont vous avez besoin pour comprendre, planifier et mettre en œuvre des solutions intégrées Microsoft 365 pour la planification des ressources d'entreprise et la collaboration moderne sécurisée et conforme.
 metadata:
   title: Centre de solutions et d'architecture Microsoft 365
   description: Ce centre d’aide vous permet d’en savoir plus sur la formation informatique et la conception de la solution adaptée à votre organisation.
@@ -14,22 +14,22 @@ metadata:
   audience: ITPro
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: bb4639a79a0adb55ecf06dcd7898e5e0535c748e
-  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+  ms.openlocfilehash: c71ba6628ed858311db3d58c144295ff617679dc
+  ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 03/19/2021
-  ms.locfileid: "50928483"
+  ms.lasthandoff: 06/06/2021
+  ms.locfileid: "52789206"
 landingContent:
 - title: Guides des solutions de base
   linkLists:
   - linkListType: quickstart
     links:
-    - text: Confier des responsabilités aux travailleurs à distance avec Microsoft 365
+    - text: Configurez votre infrastructure pour le travail hybride.
       url: empower-people-to-work-remotely.md
-    - text: Configurer la collaboration sécurisée avec Microsoft 365
+    - text: Configurer la collaboration sécurisée avec Microsoft 365
       url: setup-secure-collaboration-with-teams.md
-    - text: Déployer la protection contre les menaces sur Microsoft 365
+    - text: Déployer la protection contre les menaces sur Microsoft 365
       url: deploy-threat-protection.md
     - text: Déployer la protection des informations pour la confidentialité des données
       url: information-protection-deploy.md
@@ -39,7 +39,7 @@ landingContent:
     links:
     - text: Modèles d’architecture cloud Microsoft
       url: cloud-architecture-models.md
-    - text: Illustrations de productivité Microsoft 365
+    - text: Illustrations de productivité Microsoft 365
       url: productivity-illustrations.md
     - text: Affiches sur l’architecture Teams
       url: /MicrosoftTeams/teams-architecture-solutions-posters?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
@@ -77,9 +77,9 @@ landingContent:
     links:
     - text: Principales tâches pour les équipes de sécurité qui prennent en charge le travail à domicile
       url: ../security/top-security-tasks-for-remote-work.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
-    - text: Sécurité Microsoft 365 pour les décideurs d’entreprise (BDM)
+    - text: Sécurité Microsoft 365 pour les décideurs d’entreprise (BDM)
       url: ../security/microsoft-365-security-for-bdm.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
-    - text: Déployer Microsoft Defender pour point de terminaison
+    - text: Déployer Microsoft Defender pour point de terminaison
       url: /windows/security/threat-protection/microsoft-defender-atp/deployment-phases?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
   - linkListType: reference
     links:
@@ -87,7 +87,7 @@ landingContent:
       url: /compliance/regulatory/iso-action-plan?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
     - text: NIST – Plan d’action recommandé
       url: /compliance/regulatory/nist-action-plan?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
-    - text: 'CCPA : Plan d’action recommandé'
+    - text: 'CCPA : Plan d’action recommandé'
       url: /compliance/regulatory/ccpa-faq?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
     - text: 'RGPD : Plan d’action recommandé'
       url: /compliance/regulatory/gdpr?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
