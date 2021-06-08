@@ -16,657 +16,659 @@ ms.collection:
 description: Les administrateurs peuvent apprendre à configurer des autoriser et des blocs dans la liste d’adresses client autoriser/bloquer dans le portail de sécurité.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 636114180a1814f5ef842b2a704f2df98488f46e
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: 12139708fc5cde133819713fd7185435e594a1a9
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694484"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809178"
 ---
-# <a name="manage-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-103">Gérer la liste Autoriser/Bloquer du client</span><span class="sxs-lookup"><span data-stu-id="fb89b-103">Manage the Tenant Allow/Block List</span></span>
+# <a name="manage-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-103">Gérer la liste Autoriser/Bloquer du client</span><span class="sxs-lookup"><span data-stu-id="b1718-103">Manage the Tenant Allow/Block List</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-<span data-ttu-id="fb89b-104">**S’applique à**</span><span class="sxs-lookup"><span data-stu-id="fb89b-104">**Applies to**</span></span>
-- [<span data-ttu-id="fb89b-105">Exchange Online Protection</span><span class="sxs-lookup"><span data-stu-id="fb89b-105">Exchange Online Protection</span></span>](exchange-online-protection-overview.md)
-- [<span data-ttu-id="fb89b-106">Microsoft Defender pour Office 365 : offre 1 et offre 2</span><span class="sxs-lookup"><span data-stu-id="fb89b-106">Microsoft Defender for Office 365 plan 1 and plan 2</span></span>](defender-for-office-365.md)
-- [<span data-ttu-id="fb89b-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="fb89b-107">Microsoft 365 Defender</span></span>](../defender/microsoft-365-defender.md)
+<span data-ttu-id="b1718-104">**S’applique à**</span><span class="sxs-lookup"><span data-stu-id="b1718-104">**Applies to**</span></span>
+- [<span data-ttu-id="b1718-105">Exchange Online Protection</span><span class="sxs-lookup"><span data-stu-id="b1718-105">Exchange Online Protection</span></span>](exchange-online-protection-overview.md)
+- [<span data-ttu-id="b1718-106">Microsoft Defender pour Office 365 : offre 1 et offre 2</span><span class="sxs-lookup"><span data-stu-id="b1718-106">Microsoft Defender for Office 365 plan 1 and plan 2</span></span>](defender-for-office-365.md)
+- [<span data-ttu-id="b1718-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="b1718-107">Microsoft 365 Defender</span></span>](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
 >
-> <span data-ttu-id="fb89b-108">Les fonctionnalités décrites dans cet article sont en prévisualisation, peuvent faire l’objet de changements et ne sont pas disponibles dans toutes les organisations.</span><span class="sxs-lookup"><span data-stu-id="fb89b-108">The features described in this article are in Preview, are subject to change, and are not available in all organizations.</span></span>  <span data-ttu-id="fb89b-109">Si votre organisation ne dispose pas des fonctionnalités d’usurpation d’informations décrites dans cet article, consultez l’ancienne expérience de gestion de l’usurpation d’adresse chez [Manage spoofof senders using the spoof intelligence policy and spoof intelligence insight in EOP](walkthrough-spoof-intelligence-insight.md).</span><span class="sxs-lookup"><span data-stu-id="fb89b-109">If your organization does not have the spoof features as described in this article, see the older spoof management experience at [Manage spoofed senders using the spoof intelligence policy and spoof intelligence insight in EOP](walkthrough-spoof-intelligence-insight.md).</span></span>
+> <span data-ttu-id="b1718-108">Les fonctionnalités décrites dans cet article sont en prévisualisation, peuvent faire l’objet de changements et ne sont pas disponibles dans toutes les organisations.</span><span class="sxs-lookup"><span data-stu-id="b1718-108">The features described in this article are in Preview, are subject to change, and are not available in all organizations.</span></span>  <span data-ttu-id="b1718-109">Si votre organisation ne dispose pas des fonctionnalités d’usurpation d’informations décrites dans cet article, consultez l’ancienne expérience de gestion de l’usurpation d’adresses chez [Manage spoofed senders using the spoof intelligence policy and spoof intelligence insight in EOP](walkthrough-spoof-intelligence-insight.md).</span><span class="sxs-lookup"><span data-stu-id="b1718-109">If your organization does not have the spoof features as described in this article, see the older spoof management experience at [Manage spoofed senders using the spoof intelligence policy and spoof intelligence insight in EOP](walkthrough-spoof-intelligence-insight.md).</span></span>
 >
-> <span data-ttu-id="fb89b-110">Vous ne pouvez pas **configurer d’URL** ou d’éléments de fichier autorisés dans la liste d’adresses client autorisées/bloqués pour le moment.</span><span class="sxs-lookup"><span data-stu-id="fb89b-110">You can't **configure** allowed URL or file items in the Tenant Allow/Block List at this time.</span></span>
+> <span data-ttu-id="b1718-110">Vous ne pouvez pas **configurer d’URL** ou d’éléments de fichier autorisés dans la liste d’adresses client autorisées/bloqués pour le moment.</span><span class="sxs-lookup"><span data-stu-id="b1718-110">You can't **configure** allowed URL or file items in the Tenant Allow/Block List at this time.</span></span>
 
-<span data-ttu-id="fb89b-111">Dans Microsoft 365 organisations avec des boîtes aux lettres dans Exchange Online ou des organisations Exchange Online Protection autonomes (EOP) sans boîtes aux lettres Exchange Online, vous pouvez ne pas être d’accord avec le verdict de filtrage EOP.</span><span class="sxs-lookup"><span data-stu-id="fb89b-111">In Microsoft 365 organizations with mailboxes in Exchange Online or standalone Exchange Online Protection (EOP) organizations without Exchange Online mailboxes, you might disagree with the EOP filtering verdict.</span></span> <span data-ttu-id="fb89b-112">Par exemple, un bon message peut être marqué comme mauvais (faux positif) ou un message erroné peut être autorisé (faux négatif).</span><span class="sxs-lookup"><span data-stu-id="fb89b-112">For example, a good message might be marked as bad (a false positive), or a bad message might be allowed through (a false negative).</span></span>
+<span data-ttu-id="b1718-111">Dans Microsoft 365 organisations avec des boîtes aux lettres dans Exchange Online ou des organisations Exchange Online Protection autonomes (EOP) sans boîtes aux lettres Exchange Online, vous pouvez ne pas être d’accord avec le verdict de filtrage EOP.</span><span class="sxs-lookup"><span data-stu-id="b1718-111">In Microsoft 365 organizations with mailboxes in Exchange Online or standalone Exchange Online Protection (EOP) organizations without Exchange Online mailboxes, you might disagree with the EOP filtering verdict.</span></span> <span data-ttu-id="b1718-112">Par exemple, un bon message peut être marqué comme mauvais (faux positif) ou un message erroné peut être autorisé (faux négatif).</span><span class="sxs-lookup"><span data-stu-id="b1718-112">For example, a good message might be marked as bad (a false positive), or a bad message might be allowed through (a false negative).</span></span>
 
-<span data-ttu-id="fb89b-113">La liste des locataires autoriser/bloquer dans le Centre de sécurité & conformité vous permet de remplacer manuellement les verdicts de filtrage Microsoft 365 client.</span><span class="sxs-lookup"><span data-stu-id="fb89b-113">The Tenant Allow/Block List in the Security & Compliance Center gives you a way to manually override the Microsoft 365 filtering verdicts.</span></span> <span data-ttu-id="fb89b-114">La liste d’adresses client autoriser/bloquer est utilisée pendant le flux de messagerie et au moment des clics de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="fb89b-114">The Tenant Allow/Block List is used during mail flow and at the time of user clicks.</span></span> <span data-ttu-id="fb89b-115">Vous pouvez spécifier les types de substitutions suivants :</span><span class="sxs-lookup"><span data-stu-id="fb89b-115">You can specify the following types of overrides:</span></span>
+<span data-ttu-id="b1718-113">La liste des locataires autoriser/bloquer dans le Centre de sécurité & conformité vous permet de remplacer manuellement les verdicts de filtrage Microsoft 365 client.</span><span class="sxs-lookup"><span data-stu-id="b1718-113">The Tenant Allow/Block List in the Security & Compliance Center gives you a way to manually override the Microsoft 365 filtering verdicts.</span></span> <span data-ttu-id="b1718-114">La liste d’adresses client autoriser/bloquer est utilisée pendant le flux de messagerie et au moment des clics de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="b1718-114">The Tenant Allow/Block List is used during mail flow and at the time of user clicks.</span></span> <span data-ttu-id="b1718-115">Vous pouvez spécifier les types de substitutions suivants :</span><span class="sxs-lookup"><span data-stu-id="b1718-115">You can specify the following types of overrides:</span></span>
 
-- <span data-ttu-id="fb89b-116">URL à bloquer.</span><span class="sxs-lookup"><span data-stu-id="fb89b-116">URLs to block.</span></span>
-- <span data-ttu-id="fb89b-117">Fichiers à bloquer.</span><span class="sxs-lookup"><span data-stu-id="fb89b-117">Files to block.</span></span>
-- <span data-ttu-id="fb89b-118">Expéditeurs usurpés à autoriser ou bloquer.</span><span class="sxs-lookup"><span data-stu-id="fb89b-118">Spoofed senders to allow or block.</span></span> <span data-ttu-id="fb89b-119">Si vous remplacez le verdict [](learn-about-spoof-intelligence.md)d’usurpation d’informations sur l’usurpation d’adresse, l’expéditeur  usurpé devient une entrée d’accès ou de blocage manuelle qui apparaît uniquement sous l’onglet Usurpation d’adresse dans la liste d’adresses client autoriser/bloquer.</span><span class="sxs-lookup"><span data-stu-id="fb89b-119">If you override the allow or block verdict in the [spoof intelligence insight](learn-about-spoof-intelligence.md), the spoofed sender becomes a manual allow or block entry that only appears on the **Spoof** tab in the Tenant Allow/Block List.</span></span> <span data-ttu-id="fb89b-120">Vous pouvez également créer manuellement des entrées d’autoriser ou de bloquer des expéditeurs usurpés ici avant qu’ils ne sont détectés par la veille contre l’usurpation d’adresses.</span><span class="sxs-lookup"><span data-stu-id="fb89b-120">You can also manually create allow or block entries for spoofed senders here before they're detected by spoof intelligence.</span></span>
+- <span data-ttu-id="b1718-116">URL à bloquer.</span><span class="sxs-lookup"><span data-stu-id="b1718-116">URLs to block.</span></span>
+- <span data-ttu-id="b1718-117">Fichiers à bloquer.</span><span class="sxs-lookup"><span data-stu-id="b1718-117">Files to block.</span></span>
+- <span data-ttu-id="b1718-118">Expéditeurs usurpés à autoriser ou bloquer.</span><span class="sxs-lookup"><span data-stu-id="b1718-118">Spoofed senders to allow or block.</span></span> <span data-ttu-id="b1718-119">Si vous remplacez le verdict [](learn-about-spoof-intelligence.md)d’usurpation d’informations sur l’usurpation d’adresse, l’expéditeur  usurpé devient une entrée d’accès ou de blocage manuelle qui apparaît uniquement sous l’onglet Usurpation d’adresse dans la liste d’adresses client autoriser/bloquer.</span><span class="sxs-lookup"><span data-stu-id="b1718-119">If you override the allow or block verdict in the [spoof intelligence insight](learn-about-spoof-intelligence.md), the spoofed sender becomes a manual allow or block entry that only appears on the **Spoof** tab in the Tenant Allow/Block List.</span></span> <span data-ttu-id="b1718-120">Vous pouvez également créer manuellement des entrées d’autoriser ou de bloquer des expéditeurs usurpés ici avant qu’ils ne sont détectés par la veille contre l’usurpation d’adresse.</span><span class="sxs-lookup"><span data-stu-id="b1718-120">You can also manually create allow or block entries for spoofed senders here before they're detected by spoof intelligence.</span></span>
 
-<span data-ttu-id="fb89b-121">Cet article explique comment configurer des entrées dans la liste d’adresses client autoriser/bloquer dans le Centre de sécurité & conformité ou dans PowerShell (Exchange Online PowerShell pour les organisations Microsoft 365 avec des boîtes aux lettres en Exchange Online ; EOP PowerShell autonome pour les organisations sans boîtes aux lettres Exchange Online).</span><span class="sxs-lookup"><span data-stu-id="fb89b-121">This article describes how to configure entries in the Tenant Allow/Block List in the Security & Compliance Center or in PowerShell (Exchange Online PowerShell for Microsoft 365 organizations with mailboxes in Exchange Online; standalone EOP PowerShell for organizations without Exchange Online mailboxes).</span></span>
+<span data-ttu-id="b1718-121">Cet article explique comment configurer des entrées dans la liste d’adresses client autoriser/bloquer dans le Centre de sécurité & conformité ou dans PowerShell (Exchange Online PowerShell pour les organisations Microsoft 365 avec des boîtes aux lettres en Exchange Online ; EOP PowerShell autonome pour les organisations sans boîtes aux lettres Exchange Online).</span><span class="sxs-lookup"><span data-stu-id="b1718-121">This article describes how to configure entries in the Tenant Allow/Block List in the Security & Compliance Center or in PowerShell (Exchange Online PowerShell for Microsoft 365 organizations with mailboxes in Exchange Online; standalone EOP PowerShell for organizations without Exchange Online mailboxes).</span></span>
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="fb89b-122">Ce qu'il faut savoir avant de commencer</span><span class="sxs-lookup"><span data-stu-id="fb89b-122">What do you need to know before you begin?</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="b1718-122">Ce qu'il faut savoir avant de commencer</span><span class="sxs-lookup"><span data-stu-id="b1718-122">What do you need to know before you begin?</span></span>
 
-- <span data-ttu-id="fb89b-123">Vous ouvrez le Centre de conformité et sécurité sur <https://protection.office.com/>.</span><span class="sxs-lookup"><span data-stu-id="fb89b-123">You open the Security & Compliance Center at <https://protection.office.com/>.</span></span> <span data-ttu-id="fb89b-124">Pour aller directement à la page Liste **d’accueil/de** blocage du client, utilisez <https://protection.office.com/tenantAllowBlockList> .</span><span class="sxs-lookup"><span data-stu-id="fb89b-124">To go directly to the **Tenant Allow/Block List** page, use <https://protection.office.com/tenantAllowBlockList>.</span></span>
+- <span data-ttu-id="b1718-123">Vous ouvrez le Centre de conformité et sécurité sur <https://protection.office.com/>.</span><span class="sxs-lookup"><span data-stu-id="b1718-123">You open the Security & Compliance Center at <https://protection.office.com/>.</span></span> <span data-ttu-id="b1718-124">Pour aller directement à la page Liste **d’accueil/de** blocage du client, utilisez <https://protection.office.com/tenantAllowBlockList> .</span><span class="sxs-lookup"><span data-stu-id="b1718-124">To go directly to the **Tenant Allow/Block List** page, use <https://protection.office.com/tenantAllowBlockList>.</span></span>
 
-- <span data-ttu-id="fb89b-125">Vous spécifiez des fichiers à l’aide de la valeur de hachage SHA256 du fichier.</span><span class="sxs-lookup"><span data-stu-id="fb89b-125">You specify files by using the SHA256 hash value of the file.</span></span> <span data-ttu-id="fb89b-126">Pour rechercher la valeur de hachage SHA256 d’un fichier dans Windows, exécutez la commande suivante dans une invite de commandes :</span><span class="sxs-lookup"><span data-stu-id="fb89b-126">To find the SHA256 hash value of a file in Windows, run the following command in a Command Prompt:</span></span>
+- <span data-ttu-id="b1718-125">Vous spécifiez des fichiers à l’aide de la valeur de hachage SHA256 du fichier.</span><span class="sxs-lookup"><span data-stu-id="b1718-125">You specify files by using the SHA256 hash value of the file.</span></span> <span data-ttu-id="b1718-126">Pour rechercher la valeur de hachage SHA256 d’un fichier dans Windows, exécutez la commande suivante dans une invite de commandes :</span><span class="sxs-lookup"><span data-stu-id="b1718-126">To find the SHA256 hash value of a file in Windows, run the following command in a Command Prompt:</span></span>
 
   ```console
   certutil.exe -hashfile "<Path>\<Filename>" SHA256
   ```
 
-  <span data-ttu-id="fb89b-127">Un exemple de valeur est `768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3a` .</span><span class="sxs-lookup"><span data-stu-id="fb89b-127">An example value is `768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3a`.</span></span> <span data-ttu-id="fb89b-128">Les valeurs de hachage perceptif (pHash) ne sont pas pris en charge.</span><span class="sxs-lookup"><span data-stu-id="fb89b-128">Perceptual hash (pHash) values are not supported.</span></span>
+  <span data-ttu-id="b1718-127">Un exemple de valeur est `768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3a` .</span><span class="sxs-lookup"><span data-stu-id="b1718-127">An example value is `768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3a`.</span></span> <span data-ttu-id="b1718-128">Les valeurs de hachage perceptif (pHash) ne sont pas pris en charge.</span><span class="sxs-lookup"><span data-stu-id="b1718-128">Perceptual hash (pHash) values are not supported.</span></span>
 
-- <span data-ttu-id="fb89b-129">Les valeurs d’URL disponibles sont décrites dans la [syntaxe d’URL](#url-syntax-for-the-tenant-allowblock-list) de la section Tenant Allow/Block List plus loin dans cet article.</span><span class="sxs-lookup"><span data-stu-id="fb89b-129">The available URL values are described in the [URL syntax for the Tenant Allow/Block List](#url-syntax-for-the-tenant-allowblock-list) section later in this article.</span></span>
+- <span data-ttu-id="b1718-129">Les valeurs d’URL disponibles sont décrites dans la [syntaxe d’URL](#url-syntax-for-the-tenant-allowblock-list) de la section Tenant Allow/Block List plus loin dans cet article.</span><span class="sxs-lookup"><span data-stu-id="b1718-129">The available URL values are described in the [URL syntax for the Tenant Allow/Block List](#url-syntax-for-the-tenant-allowblock-list) section later in this article.</span></span>
 
-- <span data-ttu-id="fb89b-130">La liste d’adresses client autorise un maximum de 500 entrées pour les URL et 500 entrées pour les hâchés de fichiers.</span><span class="sxs-lookup"><span data-stu-id="fb89b-130">The Tenant Allow/Block List allows a maximum of 500 entries for URLs, and 500 entries for file hashes.</span></span>
+- <span data-ttu-id="b1718-130">La liste d’adresses client autorise un maximum de 500 entrées pour les URL et 500 entrées pour les hâchés de fichiers.</span><span class="sxs-lookup"><span data-stu-id="b1718-130">The Tenant Allow/Block List allows a maximum of 500 entries for URLs, and 500 entries for file hashes.</span></span>
 
-- <span data-ttu-id="fb89b-131">Le nombre maximal de caractères pour chaque entrée est :</span><span class="sxs-lookup"><span data-stu-id="fb89b-131">The maximum number of characters for each entry is:</span></span>
-  - <span data-ttu-id="fb89b-132">Hèmes de fichier = 64</span><span class="sxs-lookup"><span data-stu-id="fb89b-132">File hashes = 64</span></span>
-  - <span data-ttu-id="fb89b-133">URL = 250</span><span class="sxs-lookup"><span data-stu-id="fb89b-133">URL = 250</span></span>
+- <span data-ttu-id="b1718-131">Le nombre maximal de caractères pour chaque entrée est :</span><span class="sxs-lookup"><span data-stu-id="b1718-131">The maximum number of characters for each entry is:</span></span>
+  - <span data-ttu-id="b1718-132">Hèmes de fichier = 64</span><span class="sxs-lookup"><span data-stu-id="b1718-132">File hashes = 64</span></span>
+  - <span data-ttu-id="b1718-133">URL = 250</span><span class="sxs-lookup"><span data-stu-id="b1718-133">URL = 250</span></span>
 
-- <span data-ttu-id="fb89b-134">Une entrée doit être active dans les 30 minutes.</span><span class="sxs-lookup"><span data-stu-id="fb89b-134">An entry should be active within 30 minutes.</span></span>
+- <span data-ttu-id="b1718-134">Une entrée doit être active dans les 30 minutes.</span><span class="sxs-lookup"><span data-stu-id="b1718-134">An entry should be active within 30 minutes.</span></span>
 
-- <span data-ttu-id="fb89b-135">Par défaut, les entrées de la liste d’inscriptions au client sont expirées au bout de 30 jours.</span><span class="sxs-lookup"><span data-stu-id="fb89b-135">By default, entries in the Tenant Allow/Block List will expire after 30 days.</span></span> <span data-ttu-id="fb89b-136">Vous pouvez spécifier une date ou les définir pour qu’elles n’expirent jamais.</span><span class="sxs-lookup"><span data-stu-id="fb89b-136">You can specify a date or set them to never expire.</span></span>
+- <span data-ttu-id="b1718-135">Par défaut, les entrées de la liste d’inscriptions au client sont expirées au bout de 30 jours.</span><span class="sxs-lookup"><span data-stu-id="b1718-135">By default, entries in the Tenant Allow/Block List will expire after 30 days.</span></span> <span data-ttu-id="b1718-136">Vous pouvez spécifier une date ou la définir pour qu’elles n’expirent jamais.</span><span class="sxs-lookup"><span data-stu-id="b1718-136">You can specify a date or set them to never expire.</span></span>
 
-- <span data-ttu-id="fb89b-137">Pour vous connecter à Exchange Online PowerShell, voir [Connexion à Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).</span><span class="sxs-lookup"><span data-stu-id="fb89b-137">To connect to Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).</span></span> <span data-ttu-id="fb89b-138">Pour vous connecter à un service Exchange Online Protection PowerShell autonome, voir [Se connecter à Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell).</span><span class="sxs-lookup"><span data-stu-id="fb89b-138">To connect to standalone EOP PowerShell, see [Connect to Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell).</span></span>
+- <span data-ttu-id="b1718-137">Pour vous connecter à Exchange Online PowerShell, voir [Connexion à Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).</span><span class="sxs-lookup"><span data-stu-id="b1718-137">To connect to Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).</span></span> <span data-ttu-id="b1718-138">Pour vous connecter à un service Exchange Online Protection PowerShell autonome, voir [Se connecter à Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell).</span><span class="sxs-lookup"><span data-stu-id="b1718-138">To connect to standalone EOP PowerShell, see [Connect to Exchange Online Protection PowerShell](/powershell/exchange/connect-to-exchange-online-protection-powershell).</span></span>
 
-- <span data-ttu-id="fb89b-139">Des autorisations doivent vous avoir été attribuées dans Exchange Online pour que vous puissiez effectuer les procédures décrites dans cet article :</span><span class="sxs-lookup"><span data-stu-id="fb89b-139">You need to be assigned permissions in Exchange Online before you can do the procedures in this article:</span></span>
-  - <span data-ttu-id="fb89b-140">**URL et fichiers**:</span><span class="sxs-lookup"><span data-stu-id="fb89b-140">**URLs and files**:</span></span>
-    - <span data-ttu-id="fb89b-141">Pour ajouter et supprimer des valeurs de la liste d’attente des locataires, vous devez être membre des groupes de rôles Gestion de l’organisation ou **Administrateur** de la sécurité. </span><span class="sxs-lookup"><span data-stu-id="fb89b-141">To add and remove values from the Tenant Allow/Block List, you need to be a member of the **Organization Management** or **Security Administrator** role groups.</span></span>
-    - <span data-ttu-id="fb89b-142">Pour un accès en lecture seule à la liste d’accès  au  client autorisé/bloqué, vous devez être membre des groupes de rôles Lecteur global ou Lecteur de sécurité.</span><span class="sxs-lookup"><span data-stu-id="fb89b-142">For read-only access to the Tenant Allow/Block List, you need to be a member of the **Global Reader** or **Security Reader** role groups.</span></span>
-  - <span data-ttu-id="fb89b-143">**Usurpation :** l’une des combinaisons suivantes :</span><span class="sxs-lookup"><span data-stu-id="fb89b-143">**Spoofing**: One of the following combinations:</span></span>
-    - <span data-ttu-id="fb89b-144">**Gestion de l'organisation**</span><span class="sxs-lookup"><span data-stu-id="fb89b-144">**Organization Management**</span></span>
-    - <span data-ttu-id="fb89b-145">**Administrateur de sécurité** <u>et</u> **configuration en affichage seul** ou gestion de **l’organisation en affichage seul.**</span><span class="sxs-lookup"><span data-stu-id="fb89b-145">**Security Administrator** <u>and</u> **View-Only Configuration** or **View-Only Organization Management**.</span></span>
+- <span data-ttu-id="b1718-139">Des autorisations doivent vous avoir été attribuées dans Exchange Online pour que vous puissiez effectuer les procédures décrites dans cet article :</span><span class="sxs-lookup"><span data-stu-id="b1718-139">You need to be assigned permissions in Exchange Online before you can do the procedures in this article:</span></span>
+  - <span data-ttu-id="b1718-140">**URL et fichiers**:</span><span class="sxs-lookup"><span data-stu-id="b1718-140">**URLs and files**:</span></span>
+    - <span data-ttu-id="b1718-141">Pour ajouter et supprimer des valeurs de la liste d’attente des locataires, vous devez être membre des groupes de rôles Gestion de l’organisation ou **Administrateur** de la sécurité. </span><span class="sxs-lookup"><span data-stu-id="b1718-141">To add and remove values from the Tenant Allow/Block List, you need to be a member of the **Organization Management** or **Security Administrator** role groups.</span></span>
+    - <span data-ttu-id="b1718-142">Pour un accès en lecture seule à la liste d’accès  au  client autorisé/bloqué, vous devez être membre des groupes de rôles Lecteur global ou Lecteur de sécurité.</span><span class="sxs-lookup"><span data-stu-id="b1718-142">For read-only access to the Tenant Allow/Block List, you need to be a member of the **Global Reader** or **Security Reader** role groups.</span></span>
+  - <span data-ttu-id="b1718-143">**Usurpation :** l’une des combinaisons suivantes :</span><span class="sxs-lookup"><span data-stu-id="b1718-143">**Spoofing**: One of the following combinations:</span></span>
+    - <span data-ttu-id="b1718-144">**Gestion de l'organisation**</span><span class="sxs-lookup"><span data-stu-id="b1718-144">**Organization Management**</span></span>
+    - <span data-ttu-id="b1718-145">**Administrateur de sécurité** <u>et</u> **configuration en affichage seul** ou gestion de **l’organisation en affichage seul.**</span><span class="sxs-lookup"><span data-stu-id="b1718-145">**Security Administrator** <u>and</u> **View-Only Configuration** or **View-Only Organization Management**.</span></span>
 
-  <span data-ttu-id="fb89b-146">Pour plus d'informations, voir [Permissions en échange en ligne](/exchange/permissions-exo/permissions-exo).</span><span class="sxs-lookup"><span data-stu-id="fb89b-146">For more information, see [Permissions in Exchange Online](/exchange/permissions-exo/permissions-exo).</span></span>
+  <span data-ttu-id="b1718-146">Pour plus d'informations, voir [Permissions en échange en ligne](/exchange/permissions-exo/permissions-exo).</span><span class="sxs-lookup"><span data-stu-id="b1718-146">For more information, see [Permissions in Exchange Online](/exchange/permissions-exo/permissions-exo).</span></span>
 
   > [!NOTE]
   >
-  > - <span data-ttu-id="fb89b-147">L’ajout d’utilisateurs au rôle Azure Active Directory correspondant dans le Centre d’administration Microsoft 365 donne aux utilisateurs les autorisations requises _et_ les autorisations pour les autres fonctionnalités de Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="fb89b-147">Adding users to the corresponding Azure Active Directory role in the Microsoft 365 admin center gives users the required permissions _and_ permissions for other features in Microsoft 365.</span></span> <span data-ttu-id="fb89b-148">Pour plus d’informations, consultez [À propos des rôles d’administrateur](../../admin/add-users/about-admin-roles.md).</span><span class="sxs-lookup"><span data-stu-id="fb89b-148">For more information, see [About admin roles](../../admin/add-users/about-admin-roles.md).</span></span>
+  > - <span data-ttu-id="b1718-147">L’ajout d’utilisateurs au rôle Azure Active Directory correspondant dans le Centre d’administration Microsoft 365 donne aux utilisateurs les autorisations requises _et_ les autorisations pour les autres fonctionnalités de Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="b1718-147">Adding users to the corresponding Azure Active Directory role in the Microsoft 365 admin center gives users the required permissions _and_ permissions for other features in Microsoft 365.</span></span> <span data-ttu-id="b1718-148">Pour plus d’informations, consultez [À propos des rôles d’administrateur](../../admin/add-users/about-admin-roles.md).</span><span class="sxs-lookup"><span data-stu-id="b1718-148">For more information, see [About admin roles](../../admin/add-users/about-admin-roles.md).</span></span>
   >
-  > - <span data-ttu-id="fb89b-149">Le groupe de rôles **Gestion de l’organisation en affichage seul** dans [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) permet également d’accéder en lecture seule à la fonctionnalité.</span><span class="sxs-lookup"><span data-stu-id="fb89b-149">The **View-Only Organization Management** role group in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) also gives read-only access to the feature.</span></span>
+  > - <span data-ttu-id="b1718-149">Le groupe de rôles **Gestion de l’organisation en affichage seul** dans [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) permet également d’accéder en lecture seule à la fonctionnalité.</span><span class="sxs-lookup"><span data-stu-id="b1718-149">The **View-Only Organization Management** role group in [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) also gives read-only access to the feature.</span></span>
 
-## <a name="use-the-security--compliance-center-to-create-block-url-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-150">Utiliser le Centre de sécurité & conformité pour créer des entrées d’URL de blocage dans la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="fb89b-150">Use the Security & Compliance Center to create block URL entries in the Tenant Allow/Block List</span></span>
+## <a name="use-the-security--compliance-center-to-create-block-url-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-150">Utiliser le Centre de sécurité & conformité pour créer des entrées d’URL de blocage dans la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="b1718-150">Use the Security & Compliance Center to create block URL entries in the Tenant Allow/Block List</span></span>
 
-1. <span data-ttu-id="fb89b-151">Dans le Centre de sécurité & conformité, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span><span class="sxs-lookup"><span data-stu-id="fb89b-151">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span></span>
+1. <span data-ttu-id="b1718-151">Dans le Centre de sécurité & conformité, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span><span class="sxs-lookup"><span data-stu-id="b1718-151">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span></span>
 
-2. <span data-ttu-id="fb89b-152">Dans la page **Liste d’adresses** client autoriser/bloquer, vérifiez que l’onglet **URL** est sélectionné, puis cliquez sur **Bloquer**</span><span class="sxs-lookup"><span data-stu-id="fb89b-152">On the **Tenant Allow/Block List** page, verify that the **URLs** tab is selected, and then click **Block**</span></span>
+2. <span data-ttu-id="b1718-152">Dans la page **Liste d’adresses** client autoriser/bloquer, vérifiez que l’onglet **URL** est sélectionné, puis cliquez sur **Bloquer**</span><span class="sxs-lookup"><span data-stu-id="b1718-152">On the **Tenant Allow/Block List** page, verify that the **URLs** tab is selected, and then click **Block**</span></span>
 
-3. <span data-ttu-id="fb89b-153">Dans le **volant Bloquer les URL** qui s’affiche, configurez les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="fb89b-153">In the **Block URLs** flyout that appears, configure the following settings:</span></span>
+3. <span data-ttu-id="b1718-153">Dans le **volant Bloquer les URL** qui s’affiche, configurez les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="b1718-153">In the **Block URLs** flyout that appears, configure the following settings:</span></span>
 
-   - <span data-ttu-id="fb89b-154">**Ajouter des URL à bloquer :** entrez une URL par ligne, jusqu’à un maximum de 20.</span><span class="sxs-lookup"><span data-stu-id="fb89b-154">**Add URLs to block**: Enter one URL per line, up to a maximum of 20.</span></span> <span data-ttu-id="fb89b-155">Pour plus d’informations sur la syntaxe des entrées d’URL, voir la [syntaxe d’URL](#url-syntax-for-the-tenant-allowblock-list) pour la section Tenant Allow/Block List plus loin dans cet article.</span><span class="sxs-lookup"><span data-stu-id="fb89b-155">For details about the syntax for URL entries, see the [URL syntax for the Tenant Allow/Block List](#url-syntax-for-the-tenant-allowblock-list) section later in this article.</span></span>
+   - <span data-ttu-id="b1718-154">**Ajouter des URL à bloquer :** entrez une URL par ligne, jusqu’à un maximum de 20.</span><span class="sxs-lookup"><span data-stu-id="b1718-154">**Add URLs to block**: Enter one URL per line, up to a maximum of 20.</span></span> <span data-ttu-id="b1718-155">Pour plus d’informations sur la syntaxe des entrées d’URL, voir la [syntaxe d’URL](#url-syntax-for-the-tenant-allowblock-list) pour la section Tenant Allow/Block List plus loin dans cet article.</span><span class="sxs-lookup"><span data-stu-id="b1718-155">For details about the syntax for URL entries, see the [URL syntax for the Tenant Allow/Block List](#url-syntax-for-the-tenant-allowblock-list) section later in this article.</span></span>
 
-   - <span data-ttu-id="fb89b-156">**N’expirez jamais**: faites l’une des étapes suivantes :</span><span class="sxs-lookup"><span data-stu-id="fb89b-156">**Never expire**: Do one of the following steps:</span></span>
+   - <span data-ttu-id="b1718-156">**N’expirez jamais**: faites l’une des étapes suivantes :</span><span class="sxs-lookup"><span data-stu-id="b1718-156">**Never expire**: Do one of the following steps:</span></span>
 
-     - <span data-ttu-id="fb89b-157">Vérifiez que le paramètre est désactivé (basculement désactivé) et utilisez la case Expires on pour spécifier la ![ ](../../media/scc-toggle-off.png) date d’expiration des entrées. </span><span class="sxs-lookup"><span data-stu-id="fb89b-157">Verify the setting is turned off (![Toggle off](../../media/scc-toggle-off.png)) and use the **Expires on** box to specify the expiration date for the entries.</span></span>
+     - <span data-ttu-id="b1718-157">Vérifiez que le paramètre est désactivé (basculement désactivé) et utilisez la case Expires on pour spécifier la ![ ](../../media/scc-toggle-off.png) date d’expiration des entrées. </span><span class="sxs-lookup"><span data-stu-id="b1718-157">Verify the setting is turned off (![Toggle off](../../media/scc-toggle-off.png)) and use the **Expires on** box to specify the expiration date for the entries.</span></span>
 
-       <span data-ttu-id="fb89b-158">ou</span><span class="sxs-lookup"><span data-stu-id="fb89b-158">or</span></span>
+       <span data-ttu-id="b1718-158">ou</span><span class="sxs-lookup"><span data-stu-id="b1718-158">or</span></span>
 
-     - <span data-ttu-id="fb89b-159">Déplacez le basculement vers la droite pour configurer les entrées pour qu’ils n’expirent jamais :</span><span class="sxs-lookup"><span data-stu-id="fb89b-159">Move the toggle to the right to configure the entries to never expire:</span></span> ![Activer](../../media/scc-toggle-on.png)<span data-ttu-id="fb89b-161">.</span><span class="sxs-lookup"><span data-stu-id="fb89b-161">.</span></span>
+     - <span data-ttu-id="b1718-159">Déplacez le basculement vers la droite pour configurer les entrées pour qu’ils n’expirent jamais :</span><span class="sxs-lookup"><span data-stu-id="b1718-159">Move the toggle to the right to configure the entries to never expire:</span></span> ![Activer](../../media/scc-toggle-on.png)<span data-ttu-id="b1718-161">.</span><span class="sxs-lookup"><span data-stu-id="b1718-161">.</span></span>
 
-   - <span data-ttu-id="fb89b-162">**Remarque facultative**: entrez un texte descriptif pour les entrées.</span><span class="sxs-lookup"><span data-stu-id="fb89b-162">**Optional note**: Enter descriptive text for the entries.</span></span>
+   - <span data-ttu-id="b1718-162">**Remarque facultative**: entrez un texte descriptif pour les entrées.</span><span class="sxs-lookup"><span data-stu-id="b1718-162">**Optional note**: Enter descriptive text for the entries.</span></span>
 
-4. <span data-ttu-id="fb89b-163">Lorsque vous avez terminé, cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="fb89b-163">When you're finished, click **Add**.</span></span>
+4. <span data-ttu-id="b1718-163">Lorsque vous avez terminé, cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="b1718-163">When you're finished, click **Add**.</span></span>
 
-## <a name="use-the-security--compliance-center-to-create-block-file-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-164">Utiliser le Centre de sécurité & conformité pour créer des entrées de fichiers bloqués dans la liste d’attente des locataires</span><span class="sxs-lookup"><span data-stu-id="fb89b-164">Use the Security & Compliance Center to create block file entries in the Tenant Allow/Block List</span></span>
+## <a name="use-the-security--compliance-center-to-create-block-file-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-164">Utiliser le Centre de sécurité & conformité pour créer des entrées de fichiers bloqués dans la liste d’attente des locataires</span><span class="sxs-lookup"><span data-stu-id="b1718-164">Use the Security & Compliance Center to create block file entries in the Tenant Allow/Block List</span></span>
 
-1. <span data-ttu-id="fb89b-165">Dans le Centre de sécurité & conformité, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span><span class="sxs-lookup"><span data-stu-id="fb89b-165">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span></span>
+1. <span data-ttu-id="b1718-165">Dans le Centre de sécurité & conformité, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span><span class="sxs-lookup"><span data-stu-id="b1718-165">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span></span>
 
-2. <span data-ttu-id="fb89b-166">Dans la page **Client Autoriser/Bloquer la liste,** sélectionnez l’onglet **Fichiers,** puis cliquez sur **Bloquer.**</span><span class="sxs-lookup"><span data-stu-id="fb89b-166">On the **Tenant Allow/Block List** page, select the **Files** tab, and then click **Block**.</span></span>
+2. <span data-ttu-id="b1718-166">Dans la page **Client Autoriser/Bloquer la liste,** sélectionnez l’onglet **Fichiers,** puis cliquez sur **Bloquer.**</span><span class="sxs-lookup"><span data-stu-id="b1718-166">On the **Tenant Allow/Block List** page, select the **Files** tab, and then click **Block**.</span></span>
 
-3. <span data-ttu-id="fb89b-167">Dans la **zone Ajouter des fichiers pour bloquer** le flyout qui s’affiche, configurez les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="fb89b-167">In the **Add files to block** flyout that appears, configure the following settings:</span></span>
+3. <span data-ttu-id="b1718-167">Dans la **zone Ajouter des fichiers pour bloquer** le flyout qui s’affiche, configurez les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="b1718-167">In the **Add files to block** flyout that appears, configure the following settings:</span></span>
 
-   - <span data-ttu-id="fb89b-168">**Ajouter des hachages de fichier**: entrez une valeur de hachage SHA256 par ligne, jusqu’à un maximum de 20.</span><span class="sxs-lookup"><span data-stu-id="fb89b-168">**Add file hashes**: Enter one SHA256 hash value per line, up to a maximum of 20.</span></span>
+   - <span data-ttu-id="b1718-168">**Ajouter des hachages de fichier**: entrez une valeur de hachage SHA256 par ligne, jusqu’à un maximum de 20.</span><span class="sxs-lookup"><span data-stu-id="b1718-168">**Add file hashes**: Enter one SHA256 hash value per line, up to a maximum of 20.</span></span>
 
-   - <span data-ttu-id="fb89b-169">**N’expirez jamais**: faites l’une des étapes suivantes :</span><span class="sxs-lookup"><span data-stu-id="fb89b-169">**Never expire**: Do one of the following steps:</span></span>
+   - <span data-ttu-id="b1718-169">**N’expirez jamais**: faites l’une des étapes suivantes :</span><span class="sxs-lookup"><span data-stu-id="b1718-169">**Never expire**: Do one of the following steps:</span></span>
 
-     - <span data-ttu-id="fb89b-170">Vérifiez que le paramètre est désactivé (basculement désactivé) et utilisez la case Expires on pour spécifier la ![ ](../../media/scc-toggle-off.png) date d’expiration des entrées. </span><span class="sxs-lookup"><span data-stu-id="fb89b-170">Verify the setting is turned off (![Toggle off](../../media/scc-toggle-off.png)) and use the **Expires on** box to specify the expiration date for the entries.</span></span>
+     - <span data-ttu-id="b1718-170">Vérifiez que le paramètre est désactivé (basculement désactivé) et utilisez la case Expires on pour spécifier la ![ ](../../media/scc-toggle-off.png) date d’expiration des entrées. </span><span class="sxs-lookup"><span data-stu-id="b1718-170">Verify the setting is turned off (![Toggle off](../../media/scc-toggle-off.png)) and use the **Expires on** box to specify the expiration date for the entries.</span></span>
 
-     <span data-ttu-id="fb89b-171">ou</span><span class="sxs-lookup"><span data-stu-id="fb89b-171">or</span></span>
+     <span data-ttu-id="b1718-171">ou</span><span class="sxs-lookup"><span data-stu-id="b1718-171">or</span></span>
 
-     - <span data-ttu-id="fb89b-172">Déplacez le basculement vers la droite pour configurer les entrées pour qu’ils n’expirent jamais :</span><span class="sxs-lookup"><span data-stu-id="fb89b-172">Move the toggle to the right to configure the entries to never expire:</span></span> ![Activer](../../media/scc-toggle-on.png)<span data-ttu-id="fb89b-174">.</span><span class="sxs-lookup"><span data-stu-id="fb89b-174">.</span></span>
+     - <span data-ttu-id="b1718-172">Déplacez le basculement vers la droite pour configurer les entrées pour qu’ils n’expirent jamais :</span><span class="sxs-lookup"><span data-stu-id="b1718-172">Move the toggle to the right to configure the entries to never expire:</span></span> ![Activer](../../media/scc-toggle-on.png)<span data-ttu-id="b1718-174">.</span><span class="sxs-lookup"><span data-stu-id="b1718-174">.</span></span>
 
-   - <span data-ttu-id="fb89b-175">**Remarque facultative**: entrez un texte descriptif pour les entrées.</span><span class="sxs-lookup"><span data-stu-id="fb89b-175">**Optional note**: Enter descriptive text for the entries.</span></span>
+   - <span data-ttu-id="b1718-175">**Remarque facultative**: entrez un texte descriptif pour les entrées.</span><span class="sxs-lookup"><span data-stu-id="b1718-175">**Optional note**: Enter descriptive text for the entries.</span></span>
 
-4. <span data-ttu-id="fb89b-176">Lorsque vous avez terminé, cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="fb89b-176">When you're finished, click **Add**.</span></span>
+4. <span data-ttu-id="b1718-176">Lorsque vous avez terminé, cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="b1718-176">When you're finished, click **Add**.</span></span>
 
-## <a name="use-the-security--compliance-center-to-create-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-177">Utiliser le Centre de sécurité & conformité pour créer des entrées d’expéditeurs usurpés ou autoriser ou bloquer dans la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="fb89b-177">Use the Security & Compliance Center to create allow or block spoofed sender entries in the Tenant Allow/Block List</span></span>
+## <a name="use-the-security--compliance-center-to-create-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-177">Utiliser le Centre de sécurité & conformité pour créer des entrées d’expéditeurs usurpés ou autoriser ou bloquer dans la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="b1718-177">Use the Security & Compliance Center to create allow or block spoofed sender entries in the Tenant Allow/Block List</span></span>
 
-<span data-ttu-id="fb89b-178">**Remarques** :</span><span class="sxs-lookup"><span data-stu-id="fb89b-178">**Notes**:</span></span>
+<span data-ttu-id="b1718-178">**Remarques** :</span><span class="sxs-lookup"><span data-stu-id="b1718-178">**Notes**:</span></span>
 
-- <span data-ttu-id="fb89b-179">Seule la _combinaison_ de l’utilisateur usurpé et de l’infrastructure d’envoi, telle que définie dans la paire de domaines, est spécifiquement autorisée ou bloquée à l’usurpation. </span><span class="sxs-lookup"><span data-stu-id="fb89b-179">Only the _combination_ of the spoofed user _and_ the sending infrastructure as defined in the domain pair is specifically allowed or blocked from spoofing.</span></span>
-- <span data-ttu-id="fb89b-180">Lorsque vous configurez une entrée d’autoriser ou de bloquer une paire de domaines, les messages de cette paire de domaines n’apparaissent plus dans l’aperçu de l’usurpation d’intelligence.</span><span class="sxs-lookup"><span data-stu-id="fb89b-180">When you configure an allow or block entry for a domain pair, messages from that domain pair no longer appear in the spoof intelligence insight.</span></span>
-- <span data-ttu-id="fb89b-181">Les entrées des expéditeurs usurpés n’expirent jamais.</span><span class="sxs-lookup"><span data-stu-id="fb89b-181">Entries for spoofed senders never expire.</span></span>
+- <span data-ttu-id="b1718-179">Seule la _combinaison_ de l’utilisateur usurpé et de l’infrastructure d’envoi, telle que définie dans la paire de domaines, est spécifiquement autorisée ou bloquée à l’usurpation. </span><span class="sxs-lookup"><span data-stu-id="b1718-179">Only the _combination_ of the spoofed user _and_ the sending infrastructure as defined in the domain pair is specifically allowed or blocked from spoofing.</span></span>
+- <span data-ttu-id="b1718-180">Lorsque vous configurez une entrée d’autoriser ou de bloquer une paire de domaines, les messages de cette paire de domaines n’apparaissent plus dans l’aperçu de l’usurpation d’intelligence.</span><span class="sxs-lookup"><span data-stu-id="b1718-180">When you configure an allow or block entry for a domain pair, messages from that domain pair no longer appear in the spoof intelligence insight.</span></span>
+- <span data-ttu-id="b1718-181">Les entrées des expéditeurs usurpés n’expirent jamais.</span><span class="sxs-lookup"><span data-stu-id="b1718-181">Entries for spoofed senders never expire.</span></span>
 
-1. <span data-ttu-id="fb89b-182">Dans le Centre de sécurité & conformité, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span><span class="sxs-lookup"><span data-stu-id="fb89b-182">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span></span>
+1. <span data-ttu-id="b1718-182">Dans le Centre de sécurité & conformité, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span><span class="sxs-lookup"><span data-stu-id="b1718-182">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span></span>
 
-2. <span data-ttu-id="fb89b-183">Dans la page **Client autoriser/Bloquer la liste,** sélectionnez l’onglet **Usurpation** d’informations, puis cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="fb89b-183">On the **Tenant Allow/Block List** page, select the **Spoofing** tab, and then click **Add**.</span></span>
+2. <span data-ttu-id="b1718-183">Dans la page **Client autoriser/Bloquer la liste,** sélectionnez l’onglet **Usurpation** d’informations, puis cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="b1718-183">On the **Tenant Allow/Block List** page, select the **Spoofing** tab, and then click **Add**.</span></span>
 
-3. <span data-ttu-id="fb89b-184">Dans le **volant Ajouter de nouvelles paires de domaines** qui s’affiche, configurez les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="fb89b-184">In the **Add new domain pairs** flyout that appears, configure the following settings:</span></span>
+3. <span data-ttu-id="b1718-184">Dans le **volant Ajouter de nouvelles paires de domaines** qui s’affiche, configurez les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="b1718-184">In the **Add new domain pairs** flyout that appears, configure the following settings:</span></span>
 
-   - <span data-ttu-id="fb89b-185">**Ajoutez de nouvelles paires de domaines avec des caractères génériques**: entrez une paire de domaines par ligne, jusqu’à un maximum de 20.</span><span class="sxs-lookup"><span data-stu-id="fb89b-185">**Add new domain pairs with wildcards**: Enter one domain pair per line, up to a maximum of 20.</span></span> <span data-ttu-id="fb89b-186">Pour plus d’informations sur la syntaxe des entrées d’expéditeur usurpées, voir la syntaxe de paire domaine pour les entrées d’expéditeur usurpées dans la section Client [Autoriser/Bloquer](#domain-pair-syntax-for-spoofed-sender-entries-in-the-tenant-allowblock-list) la liste plus loin dans cet article.</span><span class="sxs-lookup"><span data-stu-id="fb89b-186">For details about the syntax for spoofed sender entries, see the [Domain pair syntax for spoofed sender entries in the Tenant Allow/Block List](#domain-pair-syntax-for-spoofed-sender-entries-in-the-tenant-allowblock-list) section later in this article.</span></span>
+   - <span data-ttu-id="b1718-185">**Ajoutez de nouvelles paires de domaines avec des caractères génériques**: entrez une paire de domaines par ligne, jusqu’à un maximum de 20.</span><span class="sxs-lookup"><span data-stu-id="b1718-185">**Add new domain pairs with wildcards**: Enter one domain pair per line, up to a maximum of 20.</span></span> <span data-ttu-id="b1718-186">Pour plus d’informations sur la syntaxe des entrées d’expéditeur usurpées, voir la syntaxe de paire domaine pour les entrées d’expéditeur usurpées dans la section Client [Autoriser/Bloquer](#domain-pair-syntax-for-spoofed-sender-entries-in-the-tenant-allowblock-list) la liste plus loin dans cet article.</span><span class="sxs-lookup"><span data-stu-id="b1718-186">For details about the syntax for spoofed sender entries, see the [Domain pair syntax for spoofed sender entries in the Tenant Allow/Block List](#domain-pair-syntax-for-spoofed-sender-entries-in-the-tenant-allowblock-list) section later in this article.</span></span>
 
-   - <span data-ttu-id="fb89b-187">**Type d’usurpation**: sélectionnez l’une des valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="fb89b-187">**Spoof type**: Select one of the following values:</span></span>
-     - <span data-ttu-id="fb89b-188">**Interne**: l’expéditeur usurpé se trouve dans un domaine appartenant à votre organisation [(un domaine accepté).](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)</span><span class="sxs-lookup"><span data-stu-id="fb89b-188">**Internal**: The spoofed sender is in a domain that belongs to your organization (an [accepted domain](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)).</span></span>
-     - <span data-ttu-id="fb89b-189">**Externe**: l’expéditeur usurpé se trouve dans un domaine externe.</span><span class="sxs-lookup"><span data-stu-id="fb89b-189">**External**: The spoofed sender is in an external domain.</span></span>
+   - <span data-ttu-id="b1718-187">**Type d’usurpation**: sélectionnez l’une des valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="b1718-187">**Spoof type**: Select one of the following values:</span></span>
+     - <span data-ttu-id="b1718-188">**Interne**: l’expéditeur usurpé se trouve dans un domaine appartenant à votre organisation [(un domaine accepté).](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)</span><span class="sxs-lookup"><span data-stu-id="b1718-188">**Internal**: The spoofed sender is in a domain that belongs to your organization (an [accepted domain](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)).</span></span>
+     - <span data-ttu-id="b1718-189">**Externe**: l’expéditeur usurpé se trouve dans un domaine externe.</span><span class="sxs-lookup"><span data-stu-id="b1718-189">**External**: The spoofed sender is in an external domain.</span></span>
 
-   - <span data-ttu-id="fb89b-190">**Action**: **sélectionnez Autoriser** ou **Bloquer**.</span><span class="sxs-lookup"><span data-stu-id="fb89b-190">**Action**: Select **Allow** or **Block**.</span></span>
+   - <span data-ttu-id="b1718-190">**Action**: **sélectionnez Autoriser** ou **Bloquer.**</span><span class="sxs-lookup"><span data-stu-id="b1718-190">**Action**: Select **Allow** or **Block**.</span></span>
 
-4. <span data-ttu-id="fb89b-191">Lorsque vous avez terminé, cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="fb89b-191">When you're finished, click **Add**.</span></span>
+4. <span data-ttu-id="b1718-191">Lorsque vous avez terminé, cliquez sur **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="b1718-191">When you're finished, click **Add**.</span></span>
 
-## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-192">Utiliser le Centre de sécurité & conformité pour afficher les entrées dans la liste d’attente des locataires</span><span class="sxs-lookup"><span data-stu-id="fb89b-192">Use the Security & Compliance Center to view entries in the Tenant Allow/Block List</span></span>
+## <a name="use-the-security--compliance-center-to-view-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-192">Utiliser le Centre de sécurité & conformité pour afficher les entrées dans la liste d’attente des locataires</span><span class="sxs-lookup"><span data-stu-id="b1718-192">Use the Security & Compliance Center to view entries in the Tenant Allow/Block List</span></span>
 
-1. <span data-ttu-id="fb89b-193">Dans le Centre de sécurité & conformité, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span><span class="sxs-lookup"><span data-stu-id="fb89b-193">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span></span>
+1. <span data-ttu-id="b1718-193">Dans le Centre de sécurité & conformité, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span><span class="sxs-lookup"><span data-stu-id="b1718-193">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span></span>
 
-2. <span data-ttu-id="fb89b-194">Sélectionnez l’onglet de votre choix.</span><span class="sxs-lookup"><span data-stu-id="fb89b-194">Select the tab you want.</span></span> <span data-ttu-id="fb89b-195">Les colonnes disponibles dépendent de l’onglet que vous avez sélectionné :</span><span class="sxs-lookup"><span data-stu-id="fb89b-195">The columns that are available depend on the tab you selected:</span></span>
+2. <span data-ttu-id="b1718-194">Sélectionnez l’onglet de votre choix.</span><span class="sxs-lookup"><span data-stu-id="b1718-194">Select the tab you want.</span></span> <span data-ttu-id="b1718-195">Les colonnes disponibles dépendent de l’onglet que vous avez sélectionné :</span><span class="sxs-lookup"><span data-stu-id="b1718-195">The columns that are available depend on the tab you selected:</span></span>
 
-   - <span data-ttu-id="fb89b-196">**URL**:</span><span class="sxs-lookup"><span data-stu-id="fb89b-196">**URLs**:</span></span>
-     - <span data-ttu-id="fb89b-197">**Valeur**: URL.</span><span class="sxs-lookup"><span data-stu-id="fb89b-197">**Value**: The URL.</span></span>
-     - <span data-ttu-id="fb89b-198">**Action**: La valeur **Bloquer**.</span><span class="sxs-lookup"><span data-stu-id="fb89b-198">**Action**: The value **Block**.</span></span>
-     - <span data-ttu-id="fb89b-199">**Date de la dernière mise à jour**</span><span class="sxs-lookup"><span data-stu-id="fb89b-199">**Last updated date**</span></span>
-     - <span data-ttu-id="fb89b-200">**Date d’expiration**</span><span class="sxs-lookup"><span data-stu-id="fb89b-200">**Expiration date**</span></span>
-     - <span data-ttu-id="fb89b-201">**Remarque**</span><span class="sxs-lookup"><span data-stu-id="fb89b-201">**Note**</span></span>
+   - <span data-ttu-id="b1718-196">**URL**:</span><span class="sxs-lookup"><span data-stu-id="b1718-196">**URLs**:</span></span>
+     - <span data-ttu-id="b1718-197">**Valeur**: URL.</span><span class="sxs-lookup"><span data-stu-id="b1718-197">**Value**: The URL.</span></span>
+     - <span data-ttu-id="b1718-198">**Action**: La valeur **Bloquer**.</span><span class="sxs-lookup"><span data-stu-id="b1718-198">**Action**: The value **Block**.</span></span>
+     - <span data-ttu-id="b1718-199">**Date de la dernière mise à jour**</span><span class="sxs-lookup"><span data-stu-id="b1718-199">**Last updated date**</span></span>
+     - <span data-ttu-id="b1718-200">**Date d’expiration**</span><span class="sxs-lookup"><span data-stu-id="b1718-200">**Expiration date**</span></span>
+     - <span data-ttu-id="b1718-201">**Remarque**</span><span class="sxs-lookup"><span data-stu-id="b1718-201">**Note**</span></span>
 
-   - <span data-ttu-id="fb89b-202">**Files**</span><span class="sxs-lookup"><span data-stu-id="fb89b-202">**Files**</span></span>
-     - <span data-ttu-id="fb89b-203">**Valeur**: hachage du fichier.</span><span class="sxs-lookup"><span data-stu-id="fb89b-203">**Value**: The file hash.</span></span>
-     - <span data-ttu-id="fb89b-204">**Action**: La valeur **Bloquer**.</span><span class="sxs-lookup"><span data-stu-id="fb89b-204">**Action**: The value **Block**.</span></span>
-     - <span data-ttu-id="fb89b-205">**Date de la dernière mise à jour**</span><span class="sxs-lookup"><span data-stu-id="fb89b-205">**Last updated date**</span></span>
-     - <span data-ttu-id="fb89b-206">**Date d’expiration**</span><span class="sxs-lookup"><span data-stu-id="fb89b-206">**Expiration date**</span></span>
-     - <span data-ttu-id="fb89b-207">**Remarque**</span><span class="sxs-lookup"><span data-stu-id="fb89b-207">**Note**</span></span>
+   - <span data-ttu-id="b1718-202">**Files**</span><span class="sxs-lookup"><span data-stu-id="b1718-202">**Files**</span></span>
+     - <span data-ttu-id="b1718-203">**Valeur**: hachage du fichier.</span><span class="sxs-lookup"><span data-stu-id="b1718-203">**Value**: The file hash.</span></span>
+     - <span data-ttu-id="b1718-204">**Action**: La valeur **Bloquer**.</span><span class="sxs-lookup"><span data-stu-id="b1718-204">**Action**: The value **Block**.</span></span>
+     - <span data-ttu-id="b1718-205">**Date de la dernière mise à jour**</span><span class="sxs-lookup"><span data-stu-id="b1718-205">**Last updated date**</span></span>
+     - <span data-ttu-id="b1718-206">**Date d’expiration**</span><span class="sxs-lookup"><span data-stu-id="b1718-206">**Expiration date**</span></span>
+     - <span data-ttu-id="b1718-207">**Remarque**</span><span class="sxs-lookup"><span data-stu-id="b1718-207">**Note**</span></span>
 
-   - <span data-ttu-id="fb89b-208">**Usurpation**</span><span class="sxs-lookup"><span data-stu-id="fb89b-208">**Spoofing**</span></span>
-     - <span data-ttu-id="fb89b-209">**Utilisateur usurpé**</span><span class="sxs-lookup"><span data-stu-id="fb89b-209">**Spoofed user**</span></span>
-     - <span data-ttu-id="fb89b-210">**Infrastructure d’envoi**</span><span class="sxs-lookup"><span data-stu-id="fb89b-210">**Sending infrastructure**</span></span>
-     - <span data-ttu-id="fb89b-211">**Type d’usurpation**: valeur **Interne** ou **Externe.**</span><span class="sxs-lookup"><span data-stu-id="fb89b-211">**Spoof type**: The value **Internal** or **External**.</span></span>
-     - <span data-ttu-id="fb89b-212">**Action**: la valeur **Bloquer ou** **Autoriser**.</span><span class="sxs-lookup"><span data-stu-id="fb89b-212">**Action**: The value **Block** or **Allow**.</span></span>
+   - <span data-ttu-id="b1718-208">**Usurpation**</span><span class="sxs-lookup"><span data-stu-id="b1718-208">**Spoofing**</span></span>
+     - <span data-ttu-id="b1718-209">**Utilisateur usurpé**</span><span class="sxs-lookup"><span data-stu-id="b1718-209">**Spoofed user**</span></span>
+     - <span data-ttu-id="b1718-210">**Infrastructure d’envoi**</span><span class="sxs-lookup"><span data-stu-id="b1718-210">**Sending infrastructure**</span></span>
+     - <span data-ttu-id="b1718-211">**Type d’usurpation**: valeur **Interne** ou **Externe.**</span><span class="sxs-lookup"><span data-stu-id="b1718-211">**Spoof type**: The value **Internal** or **External**.</span></span>
+     - <span data-ttu-id="b1718-212">**Action**: la valeur **Bloquer ou** **Autoriser**.</span><span class="sxs-lookup"><span data-stu-id="b1718-212">**Action**: The value **Block** or **Allow**.</span></span>
 
-   <span data-ttu-id="fb89b-213">Vous pouvez cliquer sur un en-tête de colonne pour trier par ordre croissant ou décroit.</span><span class="sxs-lookup"><span data-stu-id="fb89b-213">You can click on a column heading to sort in ascending or descending order.</span></span>
+   <span data-ttu-id="b1718-213">Vous pouvez cliquer sur un en-tête de colonne pour trier par ordre croissant ou décroit.</span><span class="sxs-lookup"><span data-stu-id="b1718-213">You can click on a column heading to sort in ascending or descending order.</span></span>
 
-   <span data-ttu-id="fb89b-214">Vous pouvez cliquer sur **Groupe** pour grouper les résultats.</span><span class="sxs-lookup"><span data-stu-id="fb89b-214">You can click **Group** to group the results.</span></span> <span data-ttu-id="fb89b-215">Les valeurs disponibles dépendent de l’onglet que vous avez sélectionné :</span><span class="sxs-lookup"><span data-stu-id="fb89b-215">The values that are available depend on the tab you selected:</span></span>
+   <span data-ttu-id="b1718-214">Vous pouvez cliquer sur **Groupe** pour grouper les résultats.</span><span class="sxs-lookup"><span data-stu-id="b1718-214">You can click **Group** to group the results.</span></span> <span data-ttu-id="b1718-215">Les valeurs disponibles dépendent de l’onglet que vous avez sélectionné :</span><span class="sxs-lookup"><span data-stu-id="b1718-215">The values that are available depend on the tab you selected:</span></span>
 
-   - <span data-ttu-id="fb89b-216">**URL : vous** pouvez grouper les résultats par **action.**</span><span class="sxs-lookup"><span data-stu-id="fb89b-216">**URLs**: You can group the results by **Action**.</span></span>
-   - <span data-ttu-id="fb89b-217">**Fichiers**: vous pouvez grouper les résultats par **action.**</span><span class="sxs-lookup"><span data-stu-id="fb89b-217">**Files**: You can group the results by **Action**.</span></span>
-   - <span data-ttu-id="fb89b-218">**Domaines des expéditeurs pour le contournement BCL :** **le groupe** n’est pas disponible sous cet onglet.</span><span class="sxs-lookup"><span data-stu-id="fb89b-218">**Sender domains for BCL bypass**: **Group** is not available on this tab.</span></span>
-   - <span data-ttu-id="fb89b-219">**Usurpation :** vous pouvez grouper les résultats par **action** ou **type d’usurpation.**</span><span class="sxs-lookup"><span data-stu-id="fb89b-219">**Spoofing**: You can group the results by **Action** or **Spoof type**.</span></span>
+   - <span data-ttu-id="b1718-216">**URL : vous** pouvez grouper les résultats par **action.**</span><span class="sxs-lookup"><span data-stu-id="b1718-216">**URLs**: You can group the results by **Action**.</span></span>
+   - <span data-ttu-id="b1718-217">**Fichiers**: vous pouvez grouper les résultats par **action.**</span><span class="sxs-lookup"><span data-stu-id="b1718-217">**Files**: You can group the results by **Action**.</span></span>
+   - <span data-ttu-id="b1718-218">**Domaines des expéditeurs pour le contournement BCL :** **le groupe** n’est pas disponible sous cet onglet.</span><span class="sxs-lookup"><span data-stu-id="b1718-218">**Sender domains for BCL bypass**: **Group** is not available on this tab.</span></span>
+   - <span data-ttu-id="b1718-219">**Usurpation :** vous pouvez grouper les résultats par **action** ou **type d’usurpation.**</span><span class="sxs-lookup"><span data-stu-id="b1718-219">**Spoofing**: You can group the results by **Action** or **Spoof type**.</span></span>
 
-   <span data-ttu-id="fb89b-220">Cliquez **sur** Rechercher, entrez une partie ou l’ensemble d’une valeur, puis appuyez sur Entrée pour trouver une valeur spécifique.</span><span class="sxs-lookup"><span data-stu-id="fb89b-220">Click **Search**, enter all or part of a value, and then press ENTER to find a specific value.</span></span> <span data-ttu-id="fb89b-221">Lorsque vous avez terminé, cliquez sur **Effacer l’icône** ![ effacer la ](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) recherche.</span><span class="sxs-lookup"><span data-stu-id="fb89b-221">When you're finished, click **Clear search** ![Clear search icon](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif).</span></span>
+   <span data-ttu-id="b1718-220">Cliquez **sur** Rechercher, entrez une partie ou l’ensemble d’une valeur, puis appuyez sur Entrée pour trouver une valeur spécifique.</span><span class="sxs-lookup"><span data-stu-id="b1718-220">Click **Search**, enter all or part of a value, and then press ENTER to find a specific value.</span></span> <span data-ttu-id="b1718-221">Lorsque vous avez terminé, cliquez sur **Effacer l’icône** ![ de recherche Effacer la ](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif) recherche.</span><span class="sxs-lookup"><span data-stu-id="b1718-221">When you're finished, click **Clear search** ![Clear search icon](../../media/b6512677-5e7b-42b0-a8a3-3be1d7fa23ee.gif).</span></span>
 
-   <span data-ttu-id="fb89b-222">Cliquez **sur Filtrer** pour filtrer les résultats.</span><span class="sxs-lookup"><span data-stu-id="fb89b-222">Click **Filter** to filter the results.</span></span> <span data-ttu-id="fb89b-223">Les valeurs disponibles dans le flyout **Filter** qui s’affiche dépendent de l’onglet que vous avez sélectionné :</span><span class="sxs-lookup"><span data-stu-id="fb89b-223">The values that are available in **Filter** flyout that appears depend on the tab you selected:</span></span>
+   <span data-ttu-id="b1718-222">Cliquez **sur Filtrer** pour filtrer les résultats.</span><span class="sxs-lookup"><span data-stu-id="b1718-222">Click **Filter** to filter the results.</span></span> <span data-ttu-id="b1718-223">Les valeurs disponibles dans le flyout **Filter** qui s’affiche dépendent de l’onglet que vous avez sélectionné :</span><span class="sxs-lookup"><span data-stu-id="b1718-223">The values that are available in **Filter** flyout that appears depend on the tab you selected:</span></span>
 
-   - <span data-ttu-id="fb89b-224">**URL**</span><span class="sxs-lookup"><span data-stu-id="fb89b-224">**URLs**</span></span>
-     - <span data-ttu-id="fb89b-225">**Action**</span><span class="sxs-lookup"><span data-stu-id="fb89b-225">**Action**</span></span>
-     - <span data-ttu-id="fb89b-226">**Ne jamais expirer**</span><span class="sxs-lookup"><span data-stu-id="fb89b-226">**Never expire**</span></span>
-     - <span data-ttu-id="fb89b-227">**Date de la dernière mise à jour**</span><span class="sxs-lookup"><span data-stu-id="fb89b-227">**Last updated date**</span></span>
-     - <span data-ttu-id="fb89b-228">**Date d’expiration**</span><span class="sxs-lookup"><span data-stu-id="fb89b-228">**Expiration date**</span></span>
+   - <span data-ttu-id="b1718-224">**URL**</span><span class="sxs-lookup"><span data-stu-id="b1718-224">**URLs**</span></span>
+     - <span data-ttu-id="b1718-225">**Action**</span><span class="sxs-lookup"><span data-stu-id="b1718-225">**Action**</span></span>
+     - <span data-ttu-id="b1718-226">**Ne jamais expirer**</span><span class="sxs-lookup"><span data-stu-id="b1718-226">**Never expire**</span></span>
+     - <span data-ttu-id="b1718-227">**Date de la dernière mise à jour**</span><span class="sxs-lookup"><span data-stu-id="b1718-227">**Last updated date**</span></span>
+     - <span data-ttu-id="b1718-228">**Date d’expiration**</span><span class="sxs-lookup"><span data-stu-id="b1718-228">**Expiration date**</span></span>
 
-   - <span data-ttu-id="fb89b-229">**Files**</span><span class="sxs-lookup"><span data-stu-id="fb89b-229">**Files**</span></span>
-     - <span data-ttu-id="fb89b-230">**Action**</span><span class="sxs-lookup"><span data-stu-id="fb89b-230">**Action**</span></span>
-     - <span data-ttu-id="fb89b-231">**Ne jamais expirer**</span><span class="sxs-lookup"><span data-stu-id="fb89b-231">**Never expire**</span></span>
-     - <span data-ttu-id="fb89b-232">**Date de la dernière mise à jour**</span><span class="sxs-lookup"><span data-stu-id="fb89b-232">**Last updated date**</span></span>
-     - <span data-ttu-id="fb89b-233">**Date d’expiration**</span><span class="sxs-lookup"><span data-stu-id="fb89b-233">**Expiration date**</span></span>
+   - <span data-ttu-id="b1718-229">**Files**</span><span class="sxs-lookup"><span data-stu-id="b1718-229">**Files**</span></span>
+     - <span data-ttu-id="b1718-230">**Action**</span><span class="sxs-lookup"><span data-stu-id="b1718-230">**Action**</span></span>
+     - <span data-ttu-id="b1718-231">**Ne jamais expirer**</span><span class="sxs-lookup"><span data-stu-id="b1718-231">**Never expire**</span></span>
+     - <span data-ttu-id="b1718-232">**Date de la dernière mise à jour**</span><span class="sxs-lookup"><span data-stu-id="b1718-232">**Last updated date**</span></span>
+     - <span data-ttu-id="b1718-233">**Date d’expiration**</span><span class="sxs-lookup"><span data-stu-id="b1718-233">**Expiration date**</span></span>
 
-   - <span data-ttu-id="fb89b-234">**Domaines des expéditeurs pour le contournement BCL**</span><span class="sxs-lookup"><span data-stu-id="fb89b-234">**Sender domains for BCL bypass**</span></span>
-     - <span data-ttu-id="fb89b-235">**Ne jamais expirer**</span><span class="sxs-lookup"><span data-stu-id="fb89b-235">**Never expire**</span></span>
-     - <span data-ttu-id="fb89b-236">**Date de la dernière mise à jour**</span><span class="sxs-lookup"><span data-stu-id="fb89b-236">**Last updated date**</span></span>
-     - <span data-ttu-id="fb89b-237">**Date d’expiration**</span><span class="sxs-lookup"><span data-stu-id="fb89b-237">**Expiration date**</span></span>
+   - <span data-ttu-id="b1718-234">**Domaines des expéditeurs pour le contournement BCL**</span><span class="sxs-lookup"><span data-stu-id="b1718-234">**Sender domains for BCL bypass**</span></span>
+     - <span data-ttu-id="b1718-235">**Ne jamais expirer**</span><span class="sxs-lookup"><span data-stu-id="b1718-235">**Never expire**</span></span>
+     - <span data-ttu-id="b1718-236">**Date de la dernière mise à jour**</span><span class="sxs-lookup"><span data-stu-id="b1718-236">**Last updated date**</span></span>
+     - <span data-ttu-id="b1718-237">**Date d’expiration**</span><span class="sxs-lookup"><span data-stu-id="b1718-237">**Expiration date**</span></span>
 
-   - <span data-ttu-id="fb89b-238">**Usurpation**</span><span class="sxs-lookup"><span data-stu-id="fb89b-238">**Spoofing**</span></span>
-     - <span data-ttu-id="fb89b-239">**Action**</span><span class="sxs-lookup"><span data-stu-id="fb89b-239">**Action**</span></span>
-     - <span data-ttu-id="fb89b-240">**Type d’usurpation**</span><span class="sxs-lookup"><span data-stu-id="fb89b-240">**Spoof type**</span></span>
+   - <span data-ttu-id="b1718-238">**Usurpation**</span><span class="sxs-lookup"><span data-stu-id="b1718-238">**Spoofing**</span></span>
+     - <span data-ttu-id="b1718-239">**Action**</span><span class="sxs-lookup"><span data-stu-id="b1718-239">**Action**</span></span>
+     - <span data-ttu-id="b1718-240">**Type d’usurpation**</span><span class="sxs-lookup"><span data-stu-id="b1718-240">**Spoof type**</span></span>
 
-   <span data-ttu-id="fb89b-241">Lorsque vous avez terminé, cliquez sur **Appliquer.**</span><span class="sxs-lookup"><span data-stu-id="fb89b-241">When you're finished, click **Apply**.</span></span> <span data-ttu-id="fb89b-242">Pour effacer les filtres existants,  cliquez sur **Filtrer** et, dans le volant de filtre qui s’affiche, cliquez **sur Effacer les filtres.**</span><span class="sxs-lookup"><span data-stu-id="fb89b-242">To clear existing filters, click **Filter**, and in the **Filter** flyout that appears, click **Clear filters**.</span></span>
+   <span data-ttu-id="b1718-241">Lorsque vous avez terminé, cliquez sur **Appliquer.**</span><span class="sxs-lookup"><span data-stu-id="b1718-241">When you're finished, click **Apply**.</span></span> <span data-ttu-id="b1718-242">Pour effacer les filtres existants,  cliquez sur **Filtrer** et, dans le volant de filtre qui s’affiche, cliquez **sur Effacer les filtres.**</span><span class="sxs-lookup"><span data-stu-id="b1718-242">To clear existing filters, click **Filter**, and in the **Filter** flyout that appears, click **Clear filters**.</span></span>
 
-## <a name="use-the-security--compliance-center-to-modify-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-243">Utiliser le Centre de sécurité & conformité pour modifier des entrées dans la liste d’attente des locataires</span><span class="sxs-lookup"><span data-stu-id="fb89b-243">Use the Security & Compliance Center to modify entries in the Tenant Allow/Block List</span></span>
+## <a name="use-the-security--compliance-center-to-modify-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-243">Utiliser le Centre de sécurité & conformité pour modifier des entrées dans la liste d’attente des locataires</span><span class="sxs-lookup"><span data-stu-id="b1718-243">Use the Security & Compliance Center to modify entries in the Tenant Allow/Block List</span></span>
 
-1. <span data-ttu-id="fb89b-244">Dans le Centre de sécurité & conformité, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span><span class="sxs-lookup"><span data-stu-id="fb89b-244">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span></span>
+1. <span data-ttu-id="b1718-244">Dans le Centre de sécurité & conformité, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span><span class="sxs-lookup"><span data-stu-id="b1718-244">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span></span>
 
-2. <span data-ttu-id="fb89b-245">Sélectionnez l’onglet qui contient le type d’entrée à modifier :</span><span class="sxs-lookup"><span data-stu-id="fb89b-245">Select the tab that contains the type of entry that you want to modify:</span></span>
-   - <span data-ttu-id="fb89b-246">**URL**</span><span class="sxs-lookup"><span data-stu-id="fb89b-246">**URLs**</span></span>
-   - <span data-ttu-id="fb89b-247">**Files**</span><span class="sxs-lookup"><span data-stu-id="fb89b-247">**Files**</span></span>
-   - <span data-ttu-id="fb89b-248">**Domaines des expéditeurs pour le contournement BCL**</span><span class="sxs-lookup"><span data-stu-id="fb89b-248">**Sender domains for BCL bypass**</span></span>
-   - <span data-ttu-id="fb89b-249">**Usurpation**</span><span class="sxs-lookup"><span data-stu-id="fb89b-249">**Spoofing**</span></span>
+2. <span data-ttu-id="b1718-245">Sélectionnez l’onglet qui contient le type d’entrée à modifier :</span><span class="sxs-lookup"><span data-stu-id="b1718-245">Select the tab that contains the type of entry that you want to modify:</span></span>
+   - <span data-ttu-id="b1718-246">**URL**</span><span class="sxs-lookup"><span data-stu-id="b1718-246">**URLs**</span></span>
+   - <span data-ttu-id="b1718-247">**Files**</span><span class="sxs-lookup"><span data-stu-id="b1718-247">**Files**</span></span>
+   - <span data-ttu-id="b1718-248">**Domaines des expéditeurs pour le contournement BCL**</span><span class="sxs-lookup"><span data-stu-id="b1718-248">**Sender domains for BCL bypass**</span></span>
+   - <span data-ttu-id="b1718-249">**Usurpation**</span><span class="sxs-lookup"><span data-stu-id="b1718-249">**Spoofing**</span></span>
 
-3. <span data-ttu-id="fb89b-250">Sélectionnez l’entrée à modifier, puis cliquez **sur** Modifier ![ l’icône ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) Modifier.</span><span class="sxs-lookup"><span data-stu-id="fb89b-250">Select the entry that you want to modify, and then click **Edit** ![Edit icon](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png).</span></span> <span data-ttu-id="fb89b-251">Les valeurs que vous pouvez modifier dans le volant qui s’affiche dépendent de l’onglet que vous avez sélectionné à l’étape précédente :</span><span class="sxs-lookup"><span data-stu-id="fb89b-251">The values that you are able to modify in the flyout that appears depend on the tab you selected in the previous step:</span></span>
+3. <span data-ttu-id="b1718-250">Sélectionnez l’entrée à modifier, puis cliquez **sur** Modifier ![ l’icône ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) Modifier.</span><span class="sxs-lookup"><span data-stu-id="b1718-250">Select the entry that you want to modify, and then click **Edit** ![Edit icon](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png).</span></span> <span data-ttu-id="b1718-251">Les valeurs que vous pouvez modifier dans le volant qui s’affiche dépendent de l’onglet que vous avez sélectionné à l’étape précédente :</span><span class="sxs-lookup"><span data-stu-id="b1718-251">The values that you are able to modify in the flyout that appears depend on the tab you selected in the previous step:</span></span>
 
-   - <span data-ttu-id="fb89b-252">**URL**</span><span class="sxs-lookup"><span data-stu-id="fb89b-252">**URLs**</span></span>
-     - <span data-ttu-id="fb89b-253">**Ne jamais expirer** et/ou date d’expiration.</span><span class="sxs-lookup"><span data-stu-id="fb89b-253">**Never expire** and/or expiration date.</span></span>
-     - <span data-ttu-id="fb89b-254">**Note facultative**</span><span class="sxs-lookup"><span data-stu-id="fb89b-254">**Optional note**</span></span>
+   - <span data-ttu-id="b1718-252">**URL**</span><span class="sxs-lookup"><span data-stu-id="b1718-252">**URLs**</span></span>
+     - <span data-ttu-id="b1718-253">**Ne jamais expirer** et/ou date d’expiration.</span><span class="sxs-lookup"><span data-stu-id="b1718-253">**Never expire** and/or expiration date.</span></span>
+     - <span data-ttu-id="b1718-254">**Note facultative**</span><span class="sxs-lookup"><span data-stu-id="b1718-254">**Optional note**</span></span>
 
-   - <span data-ttu-id="fb89b-255">**Files**</span><span class="sxs-lookup"><span data-stu-id="fb89b-255">**Files**</span></span>
-     - <span data-ttu-id="fb89b-256">**Ne jamais expirer** et/ou date d’expiration.</span><span class="sxs-lookup"><span data-stu-id="fb89b-256">**Never expire** and/or expiration date.</span></span>
-     - <span data-ttu-id="fb89b-257">**Note facultative**</span><span class="sxs-lookup"><span data-stu-id="fb89b-257">**Optional note**</span></span>
+   - <span data-ttu-id="b1718-255">**Files**</span><span class="sxs-lookup"><span data-stu-id="b1718-255">**Files**</span></span>
+     - <span data-ttu-id="b1718-256">**Ne jamais expirer** et/ou date d’expiration.</span><span class="sxs-lookup"><span data-stu-id="b1718-256">**Never expire** and/or expiration date.</span></span>
+     - <span data-ttu-id="b1718-257">**Note facultative**</span><span class="sxs-lookup"><span data-stu-id="b1718-257">**Optional note**</span></span>
 
-   - <span data-ttu-id="fb89b-258">**Domaines des expéditeurs pour le contournement BCL**</span><span class="sxs-lookup"><span data-stu-id="fb89b-258">**Sender domains for BCL bypass**</span></span>
-     - <span data-ttu-id="fb89b-259">**Ne jamais expirer** et/ou date d’expiration.</span><span class="sxs-lookup"><span data-stu-id="fb89b-259">**Never expire** and/or expiration date.</span></span>
+   - <span data-ttu-id="b1718-258">**Domaines des expéditeurs pour le contournement BCL**</span><span class="sxs-lookup"><span data-stu-id="b1718-258">**Sender domains for BCL bypass**</span></span>
+     - <span data-ttu-id="b1718-259">**Ne jamais expirer** et/ou date d’expiration.</span><span class="sxs-lookup"><span data-stu-id="b1718-259">**Never expire** and/or expiration date.</span></span>
 
-   - <span data-ttu-id="fb89b-260">**Usurpation**</span><span class="sxs-lookup"><span data-stu-id="fb89b-260">**Spoofing**</span></span>
-     - <span data-ttu-id="fb89b-261">**Action**: vous pouvez modifier la valeur sur **Autoriser** ou **Bloquer**.</span><span class="sxs-lookup"><span data-stu-id="fb89b-261">**Action**: You can change the value to **Allow** or **Block**.</span></span>
+   - <span data-ttu-id="b1718-260">**Usurpation**</span><span class="sxs-lookup"><span data-stu-id="b1718-260">**Spoofing**</span></span>
+     - <span data-ttu-id="b1718-261">**Action**: vous pouvez modifier la valeur sur **Autoriser** ou **Bloquer**.</span><span class="sxs-lookup"><span data-stu-id="b1718-261">**Action**: You can change the value to **Allow** or **Block**.</span></span>
 
-4. <span data-ttu-id="fb89b-262">Lorsque vous avez terminé, cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="fb89b-262">When you're finished, click **Save**.</span></span>
+4. <span data-ttu-id="b1718-262">Lorsque vous avez terminé, cliquez sur **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="b1718-262">When you're finished, click **Save**.</span></span>
 
-## <a name="use-the-security--compliance-center-to-remove-entries-from-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-263">Utiliser le Centre de sécurité & conformité pour supprimer des entrées de la liste d’attente des locataires</span><span class="sxs-lookup"><span data-stu-id="fb89b-263">Use the Security & Compliance Center to remove entries from the Tenant Allow/Block List</span></span>
+## <a name="use-the-security--compliance-center-to-remove-entries-from-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-263">Utiliser le Centre de sécurité & conformité pour supprimer des entrées de la liste d’attente des locataires</span><span class="sxs-lookup"><span data-stu-id="b1718-263">Use the Security & Compliance Center to remove entries from the Tenant Allow/Block List</span></span>
 
-1. <span data-ttu-id="fb89b-264">Dans le Centre de sécurité & conformité, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span><span class="sxs-lookup"><span data-stu-id="fb89b-264">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span></span>
+1. <span data-ttu-id="b1718-264">Dans le Centre de sécurité & conformité, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span><span class="sxs-lookup"><span data-stu-id="b1718-264">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Tenant Allow/Block Lists**.</span></span>
 
-2. <span data-ttu-id="fb89b-265">Sélectionnez l’onglet qui contient le type d’entrée à supprimer :</span><span class="sxs-lookup"><span data-stu-id="fb89b-265">Select the tab that contains the type of entry that you want to remove:</span></span>
-   - <span data-ttu-id="fb89b-266">**URL**</span><span class="sxs-lookup"><span data-stu-id="fb89b-266">**URLs**</span></span>
-   - <span data-ttu-id="fb89b-267">**Files**</span><span class="sxs-lookup"><span data-stu-id="fb89b-267">**Files**</span></span>
-   - <span data-ttu-id="fb89b-268">**Domaines des expéditeurs pour le contournement BCL**</span><span class="sxs-lookup"><span data-stu-id="fb89b-268">**Sender domains for BCL bypass**</span></span>
-   - <span data-ttu-id="fb89b-269">**Usurpation**</span><span class="sxs-lookup"><span data-stu-id="fb89b-269">**Spoofing**</span></span>
+2. <span data-ttu-id="b1718-265">Sélectionnez l’onglet qui contient le type d’entrée à supprimer :</span><span class="sxs-lookup"><span data-stu-id="b1718-265">Select the tab that contains the type of entry that you want to remove:</span></span>
+   - <span data-ttu-id="b1718-266">**URL**</span><span class="sxs-lookup"><span data-stu-id="b1718-266">**URLs**</span></span>
+   - <span data-ttu-id="b1718-267">**Files**</span><span class="sxs-lookup"><span data-stu-id="b1718-267">**Files**</span></span>
+   - <span data-ttu-id="b1718-268">**Domaines des expéditeurs pour le contournement BCL**</span><span class="sxs-lookup"><span data-stu-id="b1718-268">**Sender domains for BCL bypass**</span></span>
+   - <span data-ttu-id="b1718-269">**Usurpation**</span><span class="sxs-lookup"><span data-stu-id="b1718-269">**Spoofing**</span></span>
 
-3. <span data-ttu-id="fb89b-270">Sélectionnez l’entrée à supprimer, puis cliquez **sur** Supprimer ![ l’icône ](../../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png) Supprimer.</span><span class="sxs-lookup"><span data-stu-id="fb89b-270">Select the entry that you want to remove, and then click **Delete** ![Delete icon](../../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png).</span></span>
+3. <span data-ttu-id="b1718-270">Sélectionnez l’entrée à supprimer, puis cliquez **sur** Supprimer ![ l’icône ](../../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png) Supprimer.</span><span class="sxs-lookup"><span data-stu-id="b1718-270">Select the entry that you want to remove, and then click **Delete** ![Delete icon](../../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png).</span></span>
 
-4. <span data-ttu-id="fb89b-271">Dans la boîte de dialogue d’avertissement qui s’affiche, cliquez sur **Supprimer.**</span><span class="sxs-lookup"><span data-stu-id="fb89b-271">In the warning dialog that appears, click **Delete**.</span></span>
+4. <span data-ttu-id="b1718-271">Dans la boîte de dialogue d’avertissement qui s’affiche, cliquez sur **Supprimer.**</span><span class="sxs-lookup"><span data-stu-id="b1718-271">In the warning dialog that appears, click **Delete**.</span></span>
 
-## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-272">Utiliser Exchange Online PowerShell ou EOP PowerShell autonome pour configurer la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="fb89b-272">Use Exchange Online PowerShell or standalone EOP PowerShell to configure the Tenant Allow/Block List</span></span>
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-272">Utiliser Exchange Online PowerShell ou EOP PowerShell autonome pour configurer la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="b1718-272">Use Exchange Online PowerShell or standalone EOP PowerShell to configure the Tenant Allow/Block List</span></span>
 
-### <a name="use-powershell-to-add-block-file-or-url-entries-to-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-273">Utiliser PowerShell pour ajouter des entrées de bloc de fichier ou d’URL à la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="fb89b-273">Use PowerShell to add block file or URL entries to the Tenant Allow/Block List</span></span>
+### <a name="use-powershell-to-add-block-file-or-url-entries-to-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-273">Utiliser PowerShell pour ajouter des entrées de bloc de fichier ou d’URL à la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="b1718-273">Use PowerShell to add block file or URL entries to the Tenant Allow/Block List</span></span>
 
-<span data-ttu-id="fb89b-274">Pour ajouter des entrées de blocage de fichier ou d’URL dans la liste d’adresses client autoriser/bloquer, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="fb89b-274">To add block file or URL entries in the Tenant Allow/Block List, use the following syntax:</span></span>
+<span data-ttu-id="b1718-274">Pour ajouter des entrées de blocage de fichier ou d’URL dans la liste d’adresses client autoriser/bloquer, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="b1718-274">To add block file or URL entries in the Tenant Allow/Block List, use the following syntax:</span></span>
 
 ```powershell
 New-TenantAllowBlockListItems -ListType <FileHash | Url> -Block -Entries "Value1","Value2",..."ValueN" <-ExpirationDate Date | -NoExpiration> [-Notes <String>]
 ```
 
-<span data-ttu-id="fb89b-275">Cet exemple ajoute une entrée de bloc de fichiers pour les fichiers spécifiés qui n’expire jamais.</span><span class="sxs-lookup"><span data-stu-id="fb89b-275">This example adds a block file entry for the specified files that never expires.</span></span>
+<span data-ttu-id="b1718-275">Cet exemple ajoute une entrée de bloc de fichiers pour les fichiers spécifiés qui n’expire jamais.</span><span class="sxs-lookup"><span data-stu-id="b1718-275">This example adds a block file entry for the specified files that never expires.</span></span>
 
 ```powershell
 New-TenantAllowBlockListItem -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
 ```
 
-<span data-ttu-id="fb89b-276">Cet exemple ajoute une entrée d’URL de bloc pour contoso.com et tous les sous-contoso.com (par exemple, contoso.com, www.contoso.com et xyz.abc.contoso.com).</span><span class="sxs-lookup"><span data-stu-id="fb89b-276">This example adds a block URL entry for contoso.com and all subdomains (for example, contoso.com, www.contoso.com, and xyz.abc.contoso.com).</span></span> <span data-ttu-id="fb89b-277">Étant donné que nous n’avons pas utilisé les paramètres ExpirationDate ou NoExpiration, l’entrée expire au bout de 30 jours.</span><span class="sxs-lookup"><span data-stu-id="fb89b-277">Because we didn't use the ExpirationDate or NoExpiration parameters, the entry expires after 30 days.</span></span>
+<span data-ttu-id="b1718-276">Cet exemple ajoute une entrée d’URL de bloc pour contoso.com et tous les sous-contoso.com (par exemple, contoso.com, www.contoso.com et xyz.abc.contoso.com).</span><span class="sxs-lookup"><span data-stu-id="b1718-276">This example adds a block URL entry for contoso.com and all subdomains (for example, contoso.com, www.contoso.com, and xyz.abc.contoso.com).</span></span> <span data-ttu-id="b1718-277">Étant donné que nous n’avons pas utilisé les paramètres ExpirationDate ou NoExpiration, l’entrée expire au bout de 30 jours.</span><span class="sxs-lookup"><span data-stu-id="b1718-277">Because we didn't use the ExpirationDate or NoExpiration parameters, the entry expires after 30 days.</span></span>
 
 ```powershell
 New-TenantAllowBlockListItems -ListType Url -Block -Entries ~contoso.com
 ```
 
-<span data-ttu-id="fb89b-278">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, voir [New-TenantAllowBlockListItems](/powershell/module/exchange/new-tenantallowblocklistitems).</span><span class="sxs-lookup"><span data-stu-id="fb89b-278">For detailed syntax and parameter information, see [New-TenantAllowBlockListItems](/powershell/module/exchange/new-tenantallowblocklistitems).</span></span>
+<span data-ttu-id="b1718-278">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, voir [New-TenantAllowBlockListItems](/powershell/module/exchange/new-tenantallowblocklistitems).</span><span class="sxs-lookup"><span data-stu-id="b1718-278">For detailed syntax and parameter information, see [New-TenantAllowBlockListItems](/powershell/module/exchange/new-tenantallowblocklistitems).</span></span>
 
-### <a name="use-powershell-to-add-allow-or-block-spoofed-sender-entries-to-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-279">Utiliser PowerShell pour ajouter des entrées d’expéditeurs usurpés ou autoriser ou bloquer à la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="fb89b-279">Use PowerShell to add allow or block spoofed sender entries to the Tenant Allow/Block List</span></span>
+### <a name="use-powershell-to-add-allow-or-block-spoofed-sender-entries-to-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-279">Utiliser PowerShell pour ajouter des entrées d’expéditeurs usurpés ou autoriser ou bloquer à la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="b1718-279">Use PowerShell to add allow or block spoofed sender entries to the Tenant Allow/Block List</span></span>
 
-<span data-ttu-id="fb89b-280">Pour ajouter des entrées d’expéditeur usurpées dans la liste d’adresses client autoriser/bloquer, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="fb89b-280">To add spoofed sender entries in the Tenant Allow/Block List, use the following syntax:</span></span>
+<span data-ttu-id="b1718-280">Pour ajouter des entrées d’expéditeur usurpées dans la liste d’adresses client autoriser/bloquer, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="b1718-280">To add spoofed sender entries in the Tenant Allow/Block List, use the following syntax:</span></span>
 
 ```powershell
 New-TenantAllowBlockListSpoofItems -SpoofedUser <Domain | EmailAddress | *> -SendingInfrastructure <Domain | IPAddress/24> -SpoofType <External | Internal> -Action <Allow | Block>
 ```
 
-<span data-ttu-id="fb89b-281">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, voir [New-TenantAllowBlockListSpoofItems](/powershell/module/exchange/new-tenantallowblocklistspoofitems).</span><span class="sxs-lookup"><span data-stu-id="fb89b-281">For detailed syntax and parameter information, see [New-TenantAllowBlockListSpoofItems](/powershell/module/exchange/new-tenantallowblocklistspoofitems).</span></span>
+<span data-ttu-id="b1718-281">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, voir [New-TenantAllowBlockListSpoofItems](/powershell/module/exchange/new-tenantallowblocklistspoofitems).</span><span class="sxs-lookup"><span data-stu-id="b1718-281">For detailed syntax and parameter information, see [New-TenantAllowBlockListSpoofItems](/powershell/module/exchange/new-tenantallowblocklistspoofitems).</span></span>
 
-### <a name="use-powershell-to-view-block-file-or-url-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-282">Utiliser PowerShell pour afficher les entrées de bloc de fichiers ou d’URL dans la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="fb89b-282">Use PowerShell to view block file or URL entries in the Tenant Allow/Block List</span></span>
+### <a name="use-powershell-to-view-block-file-or-url-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-282">Utiliser PowerShell pour afficher les entrées de bloc de fichiers ou d’URL dans la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="b1718-282">Use PowerShell to view block file or URL entries in the Tenant Allow/Block List</span></span>
 
-<span data-ttu-id="fb89b-283">Pour afficher les entrées de fichier ou d’URL bloqués dans la liste d’adresses client autoriser/bloquer, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="fb89b-283">To view block file or URL entries in the Tenant Allow/Block List, use the following syntax:</span></span>
+<span data-ttu-id="b1718-283">Pour afficher les entrées de fichier ou d’URL bloqués dans la liste d’adresses client autoriser/bloquer, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="b1718-283">To view block file or URL entries in the Tenant Allow/Block List, use the following syntax:</span></span>
 
 ```powershell
 Get-TenantAllowBlockListItems -ListType <FileHash | URL> [-Entry <FileHashValue | URLValue>] [<-ExpirationDate Date | -NoExpiration>]
 ```
 
-<span data-ttu-id="fb89b-284">Cet exemple renvoie des informations pour la valeur de hachage de fichier spécifiée.</span><span class="sxs-lookup"><span data-stu-id="fb89b-284">This example returns information for the specified file hash value.</span></span>
+<span data-ttu-id="b1718-284">Cet exemple renvoie des informations pour la valeur de hachage de fichier spécifiée.</span><span class="sxs-lookup"><span data-stu-id="b1718-284">This example returns information for the specified file hash value.</span></span>
 
 ```powershell
 Get-TenantAllowBlockListItems -ListType FileHash -Entry "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
 ```
 
-<span data-ttu-id="fb89b-285">Cet exemple renvoie toutes les URL bloquées.</span><span class="sxs-lookup"><span data-stu-id="fb89b-285">This example returns all blocked URLs.</span></span>
+<span data-ttu-id="b1718-285">Cet exemple renvoie toutes les URL bloquées.</span><span class="sxs-lookup"><span data-stu-id="b1718-285">This example returns all blocked URLs.</span></span>
 
 ```powershell
 Get-TenantAllowBlockListItems -ListType Url -Block
 ```
 
-<span data-ttu-id="fb89b-286">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, [voir Get-TenantAllowBlockListItems](/powershell/module/exchange/get-tenantallowblocklistitems).</span><span class="sxs-lookup"><span data-stu-id="fb89b-286">For detailed syntax and parameter information, see [Get-TenantAllowBlockListItems](/powershell/module/exchange/get-tenantallowblocklistitems).</span></span>
+<span data-ttu-id="b1718-286">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, [voir Get-TenantAllowBlockListItems](/powershell/module/exchange/get-tenantallowblocklistitems).</span><span class="sxs-lookup"><span data-stu-id="b1718-286">For detailed syntax and parameter information, see [Get-TenantAllowBlockListItems](/powershell/module/exchange/get-tenantallowblocklistitems).</span></span>
 
-### <a name="use-powershell-to-view-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-287">Utiliser PowerShell pour afficher ou bloquer les entrées d’expéditeur usurpées dans la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="fb89b-287">Use PowerShell to view allow or block spoofed sender entries in the Tenant Allow/Block List</span></span>
+### <a name="use-powershell-to-view-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-287">Utiliser PowerShell pour afficher ou bloquer les entrées d’expéditeur usurpées dans la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="b1718-287">Use PowerShell to view allow or block spoofed sender entries in the Tenant Allow/Block List</span></span>
 
-<span data-ttu-id="fb89b-288">Pour afficher les entrées d’expéditeur usurpées dans la liste d’adresses client autoriser/bloquer, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="fb89b-288">To view spoofed sender entries in the Tenant Allow/Block List, use the following syntax:</span></span>
+<span data-ttu-id="b1718-288">Pour afficher les entrées d’expéditeur usurpées dans la liste d’adresses client autoriser/bloquer, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="b1718-288">To view spoofed sender entries in the Tenant Allow/Block List, use the following syntax:</span></span>
 
 ```powershell
 Get-TenantAllowBlockListSpoofItems [-Action <Allow | Block>] [-SpoofType <External | Internal>
 ```
 
-<span data-ttu-id="fb89b-289">Cet exemple renvoie toutes les entrées d’expéditeur usurpées dans la liste d’adresses client autoriser/bloquer.</span><span class="sxs-lookup"><span data-stu-id="fb89b-289">This example returns all spoofed sender entries in the Tenant Allow/Block List.</span></span>
+<span data-ttu-id="b1718-289">Cet exemple renvoie toutes les entrées d’expéditeur usurpées dans la liste d’adresses client autoriser/bloquer.</span><span class="sxs-lookup"><span data-stu-id="b1718-289">This example returns all spoofed sender entries in the Tenant Allow/Block List.</span></span>
 
 ```powershell
 Get-TenantAllowBlockListSpoofItems
 ```
 
-<span data-ttu-id="fb89b-290">Cet exemple renvoie toutes les entrées d’expéditeur usurpées qui sont internes.</span><span class="sxs-lookup"><span data-stu-id="fb89b-290">This example returns all allow spoofed sender entries that are internal.</span></span>
+<span data-ttu-id="b1718-290">Cet exemple renvoie toutes les entrées d’expéditeur usurpées qui sont internes.</span><span class="sxs-lookup"><span data-stu-id="b1718-290">This example returns all allow spoofed sender entries that are internal.</span></span>
 
 ```powershell
 Get-TenantAllowBlockListSpoofItems -Action Allow -SpoofType Internal
 ```
 
-<span data-ttu-id="fb89b-291">Cet exemple renvoie toutes les entrées d’expéditeur usurpées bloquées qui sont externes.</span><span class="sxs-lookup"><span data-stu-id="fb89b-291">This example returns all blocked spoofed sender entries that are external.</span></span>
+<span data-ttu-id="b1718-291">Cet exemple renvoie toutes les entrées d’expéditeur usurpées bloquées qui sont externes.</span><span class="sxs-lookup"><span data-stu-id="b1718-291">This example returns all blocked spoofed sender entries that are external.</span></span>
 
 ```powershell
 Get-TenantAllowBlockListSpoofItems -Action Block -SpoofType External
 ```
 
-<span data-ttu-id="fb89b-292">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, voir [Get-TenantAllowBlockListSpoofItems](/powershell/module/exchange/get-tenantallowblocklistspoofitems).</span><span class="sxs-lookup"><span data-stu-id="fb89b-292">For detailed syntax and parameter information, see [Get-TenantAllowBlockListSpoofItems](/powershell/module/exchange/get-tenantallowblocklistspoofitems).</span></span>
+<span data-ttu-id="b1718-292">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, voir [Get-TenantAllowBlockListSpoofItems](/powershell/module/exchange/get-tenantallowblocklistspoofitems).</span><span class="sxs-lookup"><span data-stu-id="b1718-292">For detailed syntax and parameter information, see [Get-TenantAllowBlockListSpoofItems](/powershell/module/exchange/get-tenantallowblocklistspoofitems).</span></span>
 
-### <a name="use-powershell-to-modify-block-file-and-url-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-293">Utiliser PowerShell pour modifier les entrées de blocage de fichiers et d’URL dans la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="fb89b-293">Use PowerShell to modify block file and URL entries in the Tenant Allow/Block List</span></span>
+### <a name="use-powershell-to-modify-block-file-and-url-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-293">Utiliser PowerShell pour modifier les entrées de blocage de fichiers et d’URL dans la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="b1718-293">Use PowerShell to modify block file and URL entries in the Tenant Allow/Block List</span></span>
 
-<span data-ttu-id="fb89b-294">Pour modifier les entrées de blocage de fichiers et d’URL dans la liste d’adresses client autoriser/bloquer, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="fb89b-294">To modify block file and URL entries in the Tenant Allow/Block List, use the following syntax:</span></span>
+<span data-ttu-id="b1718-294">Pour modifier les entrées de blocage de fichiers et d’URL dans la liste d’adresses client autoriser/bloquer, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="b1718-294">To modify block file and URL entries in the Tenant Allow/Block List, use the following syntax:</span></span>
 
 ```powershell
 Set-TenantAllowBlockListItems -ListType <FileHash | Url> -Ids <"Id1","Id2",..."IdN"> [<-ExpirationDate Date | -NoExpiration>] [-Notes <String>]
 ```
 
-<span data-ttu-id="fb89b-295">Cet exemple modifie la date d’expiration de l’entrée d’URL de bloc spécifiée.</span><span class="sxs-lookup"><span data-stu-id="fb89b-295">This example changes the expiration date of the specified block URL entry.</span></span>
+<span data-ttu-id="b1718-295">Cet exemple modifie la date d’expiration de l’entrée d’URL de bloc spécifiée.</span><span class="sxs-lookup"><span data-stu-id="b1718-295">This example changes the expiration date of the specified block URL entry.</span></span>
 
 ```powershell
 Set-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSRAAAA" -ExpirationDate "5/30/2020"
 ```
 
-<span data-ttu-id="fb89b-296">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, voir [Set-TenantAllowBlockListItems](/powershell/module/exchange/set-tenantallowblocklistitems).</span><span class="sxs-lookup"><span data-stu-id="fb89b-296">For detailed syntax and parameter information, see [Set-TenantAllowBlockListItems](/powershell/module/exchange/set-tenantallowblocklistitems).</span></span>
+<span data-ttu-id="b1718-296">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, voir [Set-TenantAllowBlockListItems](/powershell/module/exchange/set-tenantallowblocklistitems).</span><span class="sxs-lookup"><span data-stu-id="b1718-296">For detailed syntax and parameter information, see [Set-TenantAllowBlockListItems](/powershell/module/exchange/set-tenantallowblocklistitems).</span></span>
 
-### <a name="use-powershell-to-modify-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-297">Utiliser PowerShell pour modifier les entrées d’expéditeurs usurpées dans la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="fb89b-297">Use PowerShell to modify allow or block spoofed sender entries in the Tenant Allow/Block List</span></span>
+### <a name="use-powershell-to-modify-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-297">Utiliser PowerShell pour modifier les entrées d’expéditeurs usurpées dans la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="b1718-297">Use PowerShell to modify allow or block spoofed sender entries in the Tenant Allow/Block List</span></span>
 
-<span data-ttu-id="fb89b-298">Pour modifier les entrées d’expéditeurs usurpées dans la liste d’adresses client autoriser/bloquer, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="fb89b-298">To modify allow or block spoofed sender entries in the Tenant Allow/Block List, use the following syntax:</span></span>
+<span data-ttu-id="b1718-298">Pour modifier les entrées d’expéditeurs usurpées dans la liste d’adresses client autoriser/bloquer, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="b1718-298">To modify allow or block spoofed sender entries in the Tenant Allow/Block List, use the following syntax:</span></span>
 
 ```powershell
 Set-TenantAllowBlockListSpoofItems -Ids <"Id1","Id2",..."IdN"> -Action <Allow | Block>
 ```
 
-<span data-ttu-id="fb89b-299">Cet exemple modifie l’entrée de l’expéditeur usurpé de l’autoriser à la bloquer.</span><span class="sxs-lookup"><span data-stu-id="fb89b-299">This example changes spoofed sender entry from allow to block.</span></span>
+<span data-ttu-id="b1718-299">Cet exemple modifie l’entrée de l’expéditeur usurpé de l’adresse « allow » à « block ».</span><span class="sxs-lookup"><span data-stu-id="b1718-299">This example changes spoofed sender entry from allow to block.</span></span>
 
 ```powershell
 Set-TenantAllowBlockListItems -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSRAAAA" -Action Block
 ```
 
-<span data-ttu-id="fb89b-300">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, voir [Set-TenantAllowBlockListSpoofItems](/powershell/module/exchange/set-tenantallowblocklistspoofitems).</span><span class="sxs-lookup"><span data-stu-id="fb89b-300">For detailed syntax and parameter information, see [Set-TenantAllowBlockListSpoofItems](/powershell/module/exchange/set-tenantallowblocklistspoofitems).</span></span>
+<span data-ttu-id="b1718-300">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, voir [Set-TenantAllowBlockListSpoofItems](/powershell/module/exchange/set-tenantallowblocklistspoofitems).</span><span class="sxs-lookup"><span data-stu-id="b1718-300">For detailed syntax and parameter information, see [Set-TenantAllowBlockListSpoofItems](/powershell/module/exchange/set-tenantallowblocklistspoofitems).</span></span>
 
-### <a name="use-powershell-to-remove-url-or-file-entries-from-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-301">Utiliser PowerShell pour supprimer l’URL ou les entrées de fichier de la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="fb89b-301">Use PowerShell to remove URL or file entries from the Tenant Allow/Block List</span></span>
+### <a name="use-powershell-to-remove-url-or-file-entries-from-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-301">Utiliser PowerShell pour supprimer des entrées d’URL ou de fichiers de la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="b1718-301">Use PowerShell to remove URL or file entries from the Tenant Allow/Block List</span></span>
 
-<span data-ttu-id="fb89b-302">Pour supprimer des entrées de fichier et d’URL de la liste d’adresses client autoriser/bloquer, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="fb89b-302">To remove file and URL entries from the Tenant Allow/Block List, use the following syntax:</span></span>
+<span data-ttu-id="b1718-302">Pour supprimer des entrées de fichier et d’URL de la liste d’adresses client autoriser/bloquer, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="b1718-302">To remove file and URL entries from the Tenant Allow/Block List, use the following syntax:</span></span>
 
 ```powershell
 Remove-TenantAllowBlockListItems -ListType <FileHash | Url> -Ids <"Id1","Id2",..."IdN">
 ```
 
-<span data-ttu-id="fb89b-303">Cet exemple supprime l’entrée d’URL de bloc spécifiée de la liste d’adresses client autoriser/bloquer.</span><span class="sxs-lookup"><span data-stu-id="fb89b-303">This example removes the specified block URL entry from the Tenant Allow/Block List.</span></span>
+<span data-ttu-id="b1718-303">Cet exemple supprime l’entrée d’URL de bloc spécifiée de la liste d’adresses client autoriser/bloquer.</span><span class="sxs-lookup"><span data-stu-id="b1718-303">This example removes the specified block URL entry from the Tenant Allow/Block List.</span></span>
 
 ```powershell
 Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSPAAAA0"
 ```
 
-<span data-ttu-id="fb89b-304">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, voir [Remove-TenantAllowBlockListItems](/powershell/module/exchange/remove-tenantallowblocklistitems).</span><span class="sxs-lookup"><span data-stu-id="fb89b-304">For detailed syntax and parameter information, see [Remove-TenantAllowBlockListItems](/powershell/module/exchange/remove-tenantallowblocklistitems).</span></span>
+<span data-ttu-id="b1718-304">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, voir [Remove-TenantAllowBlockListItems](/powershell/module/exchange/remove-tenantallowblocklistitems).</span><span class="sxs-lookup"><span data-stu-id="b1718-304">For detailed syntax and parameter information, see [Remove-TenantAllowBlockListItems](/powershell/module/exchange/remove-tenantallowblocklistitems).</span></span>
 
-### <a name="use-powershell-to-remove-allow-or-block-spoofed-sender-entries-from-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-305">Utiliser PowerShell pour supprimer les entrées d’expéditeurs usurpées de la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="fb89b-305">Use PowerShell to remove allow or block spoofed sender entries from the Tenant Allow/Block List</span></span>
+### <a name="use-powershell-to-remove-allow-or-block-spoofed-sender-entries-from-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-305">Utiliser PowerShell pour supprimer les entrées d’expéditeurs usurpées de la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="b1718-305">Use PowerShell to remove allow or block spoofed sender entries from the Tenant Allow/Block List</span></span>
 
-<span data-ttu-id="fb89b-306">Pour supprimer les entrées d’expéditeurs usurpant l’usurpation d’adresse de client de la liste d’expéditeurs bloqués ou d’expéditeurs d’usurpation d’adresses, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="fb89b-306">To remove allow or block spoof sender entries from the Tenant Allow/Block List, use the following syntax:</span></span>
+<span data-ttu-id="b1718-306">Pour supprimer les entrées d’expéditeurs usurpant l’usurpation d’adresse de client de la liste d’expéditeurs bloqués ou d’expéditeurs d’usurpation d’adresses, utilisez la syntaxe suivante :</span><span class="sxs-lookup"><span data-stu-id="b1718-306">To remove allow or block spoof sender entries from the Tenant Allow/Block List, use the following syntax:</span></span>
 
 ```powershell
 Remove-TenantAllowBlockListSpoofItems -Ids <"Id1","Id2",..."IdN">
 ```
 
-<span data-ttu-id="fb89b-307">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, voir [Remove-TenantAllowBlockListSpoofItems](/powershell/module/exchange/remove-tenantallowblocklistspoofitems).</span><span class="sxs-lookup"><span data-stu-id="fb89b-307">For detailed syntax and parameter information, see [Remove-TenantAllowBlockListSpoofItems](/powershell/module/exchange/remove-tenantallowblocklistspoofitems).</span></span>
+<span data-ttu-id="b1718-307">Pour obtenir des informations détaillées sur la syntaxe et les paramètres, voir [Remove-TenantAllowBlockListSpoofItems](/powershell/module/exchange/remove-tenantallowblocklistspoofitems).</span><span class="sxs-lookup"><span data-stu-id="b1718-307">For detailed syntax and parameter information, see [Remove-TenantAllowBlockListSpoofItems](/powershell/module/exchange/remove-tenantallowblocklistspoofitems).</span></span>
 
-## <a name="url-syntax-for-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-308">Syntaxe d’URL pour la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="fb89b-308">URL syntax for the Tenant Allow/Block List</span></span>
+## <a name="url-syntax-for-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-308">Syntaxe d’URL pour la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="b1718-308">URL syntax for the Tenant Allow/Block List</span></span>
 
-- <span data-ttu-id="fb89b-309">Les adresses IP4v et IPv6 sont autorisées, mais pas les ports TCP/UDP.</span><span class="sxs-lookup"><span data-stu-id="fb89b-309">IP4v and IPv6 addresses are allowed, but TCP/UDP ports are not.</span></span>
+- <span data-ttu-id="b1718-309">Les adresses IP4v et IPv6 sont autorisées, mais pas les ports TCP/UDP.</span><span class="sxs-lookup"><span data-stu-id="b1718-309">IP4v and IPv6 addresses are allowed, but TCP/UDP ports are not.</span></span>
 
-- <span data-ttu-id="fb89b-310">Les extensions de nom de fichier ne sont pas autorisées (par exemple, test.pdf).</span><span class="sxs-lookup"><span data-stu-id="fb89b-310">Filename extensions are not allowed (for example, test.pdf).</span></span>
+- <span data-ttu-id="b1718-310">Les extensions de nom de fichier ne sont pas autorisées (par exemple, test.pdf).</span><span class="sxs-lookup"><span data-stu-id="b1718-310">Filename extensions are not allowed (for example, test.pdf).</span></span>
 
-- <span data-ttu-id="fb89b-311">Unicode n’est pas pris en charge, mais c’est le cas de Punycode.</span><span class="sxs-lookup"><span data-stu-id="fb89b-311">Unicode is not supported, but Punycode is.</span></span>
+- <span data-ttu-id="b1718-311">Unicode n’est pas pris en charge, mais c’est le cas de Punycode.</span><span class="sxs-lookup"><span data-stu-id="b1718-311">Unicode is not supported, but Punycode is.</span></span>
 
-- <span data-ttu-id="fb89b-312">Les noms d’hôte sont autorisés si toutes les instructions suivantes sont vraies :</span><span class="sxs-lookup"><span data-stu-id="fb89b-312">Hostnames are allowed if all of the following statements are true:</span></span>
-  - <span data-ttu-id="fb89b-313">Le nom d’hôte contient un point.</span><span class="sxs-lookup"><span data-stu-id="fb89b-313">The hostname contains a period.</span></span>
-  - <span data-ttu-id="fb89b-314">Il y a au moins un caractère à gauche du point.</span><span class="sxs-lookup"><span data-stu-id="fb89b-314">There is at least one character to the left of the period.</span></span>
-  - <span data-ttu-id="fb89b-315">Il y a au moins deux caractères à droite du point.</span><span class="sxs-lookup"><span data-stu-id="fb89b-315">There are at least two characters to the right of the period.</span></span>
+- <span data-ttu-id="b1718-312">Les noms d’hôte sont autorisés si toutes les instructions suivantes sont vraies :</span><span class="sxs-lookup"><span data-stu-id="b1718-312">Hostnames are allowed if all of the following statements are true:</span></span>
+  - <span data-ttu-id="b1718-313">Le nom d’hôte contient un point.</span><span class="sxs-lookup"><span data-stu-id="b1718-313">The hostname contains a period.</span></span>
+  - <span data-ttu-id="b1718-314">Il y a au moins un caractère à gauche du point.</span><span class="sxs-lookup"><span data-stu-id="b1718-314">There is at least one character to the left of the period.</span></span>
+  - <span data-ttu-id="b1718-315">Il y a au moins deux caractères à droite du point.</span><span class="sxs-lookup"><span data-stu-id="b1718-315">There are at least two characters to the right of the period.</span></span>
 
-  <span data-ttu-id="fb89b-316">Par exemple, `t.co` est autorisé ou `.com` `contoso.` non.</span><span class="sxs-lookup"><span data-stu-id="fb89b-316">For example, `t.co` is allowed; `.com` or `contoso.` are not allowed.</span></span>
+  <span data-ttu-id="b1718-316">Par exemple, `t.co` est autorisé ou `.com` `contoso.` non.</span><span class="sxs-lookup"><span data-stu-id="b1718-316">For example, `t.co` is allowed; `.com` or `contoso.` are not allowed.</span></span>
 
-- <span data-ttu-id="fb89b-317">Les sous-chemins ne sont pas implicites.</span><span class="sxs-lookup"><span data-stu-id="fb89b-317">Subpaths are not implied.</span></span>
+- <span data-ttu-id="b1718-317">Les sous-chemins ne sont pas implicites.</span><span class="sxs-lookup"><span data-stu-id="b1718-317">Subpaths are not implied.</span></span>
 
-  <span data-ttu-id="fb89b-318">Par exemple, `contoso.com` n’inclut pas `contoso.com/a` .</span><span class="sxs-lookup"><span data-stu-id="fb89b-318">For example, `contoso.com` does not include `contoso.com/a`.</span></span>
+  <span data-ttu-id="b1718-318">Par exemple, `contoso.com` n’inclut pas `contoso.com/a` .</span><span class="sxs-lookup"><span data-stu-id="b1718-318">For example, `contoso.com` does not include `contoso.com/a`.</span></span>
 
-- <span data-ttu-id="fb89b-319">Les caractères génériques (\*) sont autorisés dans les scénarios suivants :</span><span class="sxs-lookup"><span data-stu-id="fb89b-319">Wildcards (\*) are allowed in the following scenarios:</span></span>
+- <span data-ttu-id="b1718-319">Les caractères génériques (\*) sont autorisés dans les scénarios suivants :</span><span class="sxs-lookup"><span data-stu-id="b1718-319">Wildcards (\*) are allowed in the following scenarios:</span></span>
 
-  - <span data-ttu-id="fb89b-320">Un caractère générique gauche doit être suivi d’un point pour spécifier un sous-domaine.</span><span class="sxs-lookup"><span data-stu-id="fb89b-320">A left wildcard must be followed by a period to specify a subdomain.</span></span>
+  - <span data-ttu-id="b1718-320">Un caractère générique gauche doit être suivi d’un point pour spécifier un sous-domaine.</span><span class="sxs-lookup"><span data-stu-id="b1718-320">A left wildcard must be followed by a period to specify a subdomain.</span></span>
 
-    <span data-ttu-id="fb89b-321">Par exemple, `*.contoso.com` est autorisé ; `*contoso.com` n’est pas autorisé.</span><span class="sxs-lookup"><span data-stu-id="fb89b-321">For example, `*.contoso.com` is allowed; `*contoso.com` is not allowed.</span></span>
+    <span data-ttu-id="b1718-321">Par exemple, `*.contoso.com` est autorisé ; `*contoso.com` n’est pas autorisé.</span><span class="sxs-lookup"><span data-stu-id="b1718-321">For example, `*.contoso.com` is allowed; `*contoso.com` is not allowed.</span></span>
 
-  - <span data-ttu-id="fb89b-322">Un caractère générique droit doit suivre une barre oblique (/) pour spécifier un chemin d’accès.</span><span class="sxs-lookup"><span data-stu-id="fb89b-322">A right wildcard must follow a forward slash (/) to specify a path.</span></span>
+  - <span data-ttu-id="b1718-322">Un caractère générique droit doit suivre une barre oblique (/) pour spécifier un chemin d’accès.</span><span class="sxs-lookup"><span data-stu-id="b1718-322">A right wildcard must follow a forward slash (/) to specify a path.</span></span>
 
-    <span data-ttu-id="fb89b-323">Par exemple, `contoso.com/*` est autorisé ou `contoso.com*` `contoso.com/ab*` non.</span><span class="sxs-lookup"><span data-stu-id="fb89b-323">For example, `contoso.com/*` is allowed; `contoso.com*` or `contoso.com/ab*` are not allowed.</span></span>
+    <span data-ttu-id="b1718-323">Par exemple, `contoso.com/*` est autorisé ou `contoso.com*` `contoso.com/ab*` non.</span><span class="sxs-lookup"><span data-stu-id="b1718-323">For example, `contoso.com/*` is allowed; `contoso.com*` or `contoso.com/ab*` are not allowed.</span></span>
 
-  - <span data-ttu-id="fb89b-324">Tous les sous-chemins ne sont pas impliqués par un caractère générique de droite.</span><span class="sxs-lookup"><span data-stu-id="fb89b-324">All subpaths are not implied by a right wildcard.</span></span>
+  - <span data-ttu-id="b1718-324">Tous les sous-chemins ne sont pas impliqués par un caractère générique de droite.</span><span class="sxs-lookup"><span data-stu-id="b1718-324">All subpaths are not implied by a right wildcard.</span></span>
 
-    <span data-ttu-id="fb89b-325">Par exemple, `contoso.com/*` n’inclut pas `contoso.com/a` .</span><span class="sxs-lookup"><span data-stu-id="fb89b-325">For example, `contoso.com/*` does not include `contoso.com/a`.</span></span>
+    <span data-ttu-id="b1718-325">Par exemple, `contoso.com/*` n’inclut pas `contoso.com/a` .</span><span class="sxs-lookup"><span data-stu-id="b1718-325">For example, `contoso.com/*` does not include `contoso.com/a`.</span></span>
 
-  - <span data-ttu-id="fb89b-326">`*.com*` n’est pas valide (domaine non résolvable et le caractère générique droit ne suit pas une barre oblique).</span><span class="sxs-lookup"><span data-stu-id="fb89b-326">`*.com*` is invalid (not a resolvable domain and the right wildcard does not follow a forward slash).</span></span>
+  - <span data-ttu-id="b1718-326">`*.com*` n’est pas valide (domaine non résolvable et le caractère générique droit ne suit pas une barre oblique).</span><span class="sxs-lookup"><span data-stu-id="b1718-326">`*.com*` is invalid (not a resolvable domain and the right wildcard does not follow a forward slash).</span></span>
 
-  - <span data-ttu-id="fb89b-327">Les caractères génériques ne sont pas autorisés dans les adresses IP.</span><span class="sxs-lookup"><span data-stu-id="fb89b-327">Wildcards are not allowed in IP addresses.</span></span>
+  - <span data-ttu-id="b1718-327">Les caractères génériques ne sont pas autorisés dans les adresses IP.</span><span class="sxs-lookup"><span data-stu-id="b1718-327">Wildcards are not allowed in IP addresses.</span></span>
 
-- <span data-ttu-id="fb89b-328">Le caractère tilde (~) est disponible dans les scénarios suivants :</span><span class="sxs-lookup"><span data-stu-id="fb89b-328">The tilde (~) character is available in the following scenarios:</span></span>
+- <span data-ttu-id="b1718-328">Le caractère tilde (~) est disponible dans les scénarios suivants :</span><span class="sxs-lookup"><span data-stu-id="b1718-328">The tilde (~) character is available in the following scenarios:</span></span>
 
-  - <span data-ttu-id="fb89b-329">Un tilde gauche implique un domaine et tous les sous-domaines.</span><span class="sxs-lookup"><span data-stu-id="fb89b-329">A left tilde implies a domain and all subdomains.</span></span>
+  - <span data-ttu-id="b1718-329">Un tilde gauche implique un domaine et tous les sous-domaines.</span><span class="sxs-lookup"><span data-stu-id="b1718-329">A left tilde implies a domain and all subdomains.</span></span>
 
-    <span data-ttu-id="fb89b-330">Par `~contoso.com` exemple, `contoso.com` inclut et `*.contoso.com` .</span><span class="sxs-lookup"><span data-stu-id="fb89b-330">For example `~contoso.com` includes `contoso.com` and `*.contoso.com`.</span></span>
+    <span data-ttu-id="b1718-330">Par `~contoso.com` exemple, `contoso.com` inclut et `*.contoso.com` .</span><span class="sxs-lookup"><span data-stu-id="b1718-330">For example `~contoso.com` includes `contoso.com` and `*.contoso.com`.</span></span>
 
-- <span data-ttu-id="fb89b-331">Les entrées d’URL qui contiennent des protocoles (par exemple, , ou ) échouent, car les entrées `http://` `https://` `ftp://` d’URL s’appliquent à tous les protocoles.</span><span class="sxs-lookup"><span data-stu-id="fb89b-331">URL entries that contain protocols (for example, `http://`, `https://`, or `ftp://`) will fail, because URL entries apply to all protocols.</span></span>
+- <span data-ttu-id="b1718-331">Les entrées d’URL qui contiennent des protocoles (par exemple, , ou ) échouent, car les entrées `http://` `https://` `ftp://` d’URL s’appliquent à tous les protocoles.</span><span class="sxs-lookup"><span data-stu-id="b1718-331">URL entries that contain protocols (for example, `http://`, `https://`, or `ftp://`) will fail, because URL entries apply to all protocols.</span></span>
 
-- <span data-ttu-id="fb89b-332">Un nom d’utilisateur ou un mot de passe ne sont pas pris en charge ou requis.</span><span class="sxs-lookup"><span data-stu-id="fb89b-332">A username or password aren't supported or required.</span></span>
+- <span data-ttu-id="b1718-332">Un nom d’utilisateur ou un mot de passe ne sont pas pris en charge ou requis.</span><span class="sxs-lookup"><span data-stu-id="b1718-332">A username or password aren't supported or required.</span></span>
 
-- <span data-ttu-id="fb89b-333">Les guillemets (' ou « ) sont des caractères non valides.</span><span class="sxs-lookup"><span data-stu-id="fb89b-333">Quotes (' or ") are invalid characters.</span></span>
+- <span data-ttu-id="b1718-333">Les guillemets (' ou « ) sont des caractères non valides.</span><span class="sxs-lookup"><span data-stu-id="b1718-333">Quotes (' or ") are invalid characters.</span></span>
 
-- <span data-ttu-id="fb89b-334">Une URL doit inclure toutes les redirections lorsque cela est possible.</span><span class="sxs-lookup"><span data-stu-id="fb89b-334">A URL should include all redirects where possible.</span></span>
+- <span data-ttu-id="b1718-334">Une URL doit inclure toutes les redirections lorsque cela est possible.</span><span class="sxs-lookup"><span data-stu-id="b1718-334">A URL should include all redirects where possible.</span></span>
 
-### <a name="url-entry-scenarios"></a><span data-ttu-id="fb89b-335">Scénarios d’entrée d’URL</span><span class="sxs-lookup"><span data-stu-id="fb89b-335">URL entry scenarios</span></span>
+### <a name="url-entry-scenarios"></a><span data-ttu-id="b1718-335">Scénarios d’entrée d’URL</span><span class="sxs-lookup"><span data-stu-id="b1718-335">URL entry scenarios</span></span>
 
-<span data-ttu-id="fb89b-336">Les entrées d’URL valides et leurs résultats sont décrits dans les sections suivantes.</span><span class="sxs-lookup"><span data-stu-id="fb89b-336">Valid URL entries and their results are described in the following sections.</span></span>
+<span data-ttu-id="b1718-336">Les entrées d’URL valides et leurs résultats sont décrits dans les sections suivantes.</span><span class="sxs-lookup"><span data-stu-id="b1718-336">Valid URL entries and their results are described in the following sections.</span></span>
 
-#### <a name="scenario-no-wildcards"></a><span data-ttu-id="fb89b-337">Scénario : aucun caractère générique</span><span class="sxs-lookup"><span data-stu-id="fb89b-337">Scenario: No wildcards</span></span>
+#### <a name="scenario-no-wildcards"></a><span data-ttu-id="b1718-337">Scénario : aucun caractère générique</span><span class="sxs-lookup"><span data-stu-id="b1718-337">Scenario: No wildcards</span></span>
 
-<span data-ttu-id="fb89b-338">**Entrée**: `contoso.com`</span><span class="sxs-lookup"><span data-stu-id="fb89b-338">**Entry**: `contoso.com`</span></span>
+<span data-ttu-id="b1718-338">**Entrée**: `contoso.com`</span><span class="sxs-lookup"><span data-stu-id="b1718-338">**Entry**: `contoso.com`</span></span>
 
-- <span data-ttu-id="fb89b-339">**Autoriser la correspondance**: contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-339">**Allow match**: contoso.com</span></span>
+- <span data-ttu-id="b1718-339">**Autoriser la correspondance**: contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-339">**Allow match**: contoso.com</span></span>
 
-- <span data-ttu-id="fb89b-340">**Autoriser non la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="fb89b-340">**Allow not matched**:</span></span>
+- <span data-ttu-id="b1718-340">**Autoriser non la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="b1718-340">**Allow not matched**:</span></span>
 
-  - <span data-ttu-id="fb89b-341">abc-contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-341">abc-contoso.com</span></span>
-  - <span data-ttu-id="fb89b-342">contoso.com/a</span><span class="sxs-lookup"><span data-stu-id="fb89b-342">contoso.com/a</span></span>
-  - <span data-ttu-id="fb89b-343">payroll.contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-343">payroll.contoso.com</span></span>
-  - <span data-ttu-id="fb89b-344">test.com/contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-344">test.com/contoso.com</span></span>
-  - <span data-ttu-id="fb89b-345">test.com/q=contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-345">test.com/q=contoso.com</span></span>
-  - <span data-ttu-id="fb89b-346">www.contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-346">www.contoso.com</span></span>
-  - <span data-ttu-id="fb89b-347">www.contoso.com/q=a@contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-347">www.contoso.com/q=a@contoso.com</span></span>
+  - <span data-ttu-id="b1718-341">abc-contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-341">abc-contoso.com</span></span>
+  - <span data-ttu-id="b1718-342">contoso.com/a</span><span class="sxs-lookup"><span data-stu-id="b1718-342">contoso.com/a</span></span>
+  - <span data-ttu-id="b1718-343">payroll.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-343">payroll.contoso.com</span></span>
+  - <span data-ttu-id="b1718-344">test.com/contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-344">test.com/contoso.com</span></span>
+  - <span data-ttu-id="b1718-345">test.com/q=contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-345">test.com/q=contoso.com</span></span>
+  - <span data-ttu-id="b1718-346">www.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-346">www.contoso.com</span></span>
+  - <span data-ttu-id="b1718-347">www.contoso.com/q=a@contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-347">www.contoso.com/q=a@contoso.com</span></span>
 
-- <span data-ttu-id="fb89b-348">**Bloquer la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="fb89b-348">**Block match**:</span></span>
+- <span data-ttu-id="b1718-348">**Bloquer la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="b1718-348">**Block match**:</span></span>
 
-  - <span data-ttu-id="fb89b-349">contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-349">contoso.com</span></span>
-  - <span data-ttu-id="fb89b-350">contoso.com/a</span><span class="sxs-lookup"><span data-stu-id="fb89b-350">contoso.com/a</span></span>
-  - <span data-ttu-id="fb89b-351">payroll.contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-351">payroll.contoso.com</span></span>
-  - <span data-ttu-id="fb89b-352">test.com/contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-352">test.com/contoso.com</span></span>
-  - <span data-ttu-id="fb89b-353">test.com/q=contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-353">test.com/q=contoso.com</span></span>
-  - <span data-ttu-id="fb89b-354">www.contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-354">www.contoso.com</span></span>
-  - <span data-ttu-id="fb89b-355">www.contoso.com/q=a@contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-355">www.contoso.com/q=a@contoso.com</span></span>
+  - <span data-ttu-id="b1718-349">contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-349">contoso.com</span></span>
+  - <span data-ttu-id="b1718-350">contoso.com/a</span><span class="sxs-lookup"><span data-stu-id="b1718-350">contoso.com/a</span></span>
+  - <span data-ttu-id="b1718-351">payroll.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-351">payroll.contoso.com</span></span>
+  - <span data-ttu-id="b1718-352">test.com/contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-352">test.com/contoso.com</span></span>
+  - <span data-ttu-id="b1718-353">test.com/q=contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-353">test.com/q=contoso.com</span></span>
+  - <span data-ttu-id="b1718-354">www.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-354">www.contoso.com</span></span>
+  - <span data-ttu-id="b1718-355">www.contoso.com/q=a@contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-355">www.contoso.com/q=a@contoso.com</span></span>
 
-- <span data-ttu-id="fb89b-356">**Bloc non correspond :** abc-contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-356">**Block not matched**: abc-contoso.com</span></span>
+- <span data-ttu-id="b1718-356">**Bloc non correspond :** abc-contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-356">**Block not matched**: abc-contoso.com</span></span>
 
-#### <a name="scenario-left-wildcard-subdomain"></a><span data-ttu-id="fb89b-357">Scénario : caractère générique gauche (sous-domaine)</span><span class="sxs-lookup"><span data-stu-id="fb89b-357">Scenario: Left wildcard (subdomain)</span></span>
+#### <a name="scenario-left-wildcard-subdomain"></a><span data-ttu-id="b1718-357">Scénario : caractère générique gauche (sous-domaine)</span><span class="sxs-lookup"><span data-stu-id="b1718-357">Scenario: Left wildcard (subdomain)</span></span>
 
-<span data-ttu-id="fb89b-358">**Entrée**: `*.contoso.com`</span><span class="sxs-lookup"><span data-stu-id="fb89b-358">**Entry**: `*.contoso.com`</span></span>
+<span data-ttu-id="b1718-358">**Entrée**: `*.contoso.com`</span><span class="sxs-lookup"><span data-stu-id="b1718-358">**Entry**: `*.contoso.com`</span></span>
 
-- <span data-ttu-id="fb89b-359">**Autoriser la correspondance** et **bloquer la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="fb89b-359">**Allow match** and **Block match**:</span></span>
+- <span data-ttu-id="b1718-359">**Autoriser la correspondance** et **bloquer la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="b1718-359">**Allow match** and **Block match**:</span></span>
 
-  - <span data-ttu-id="fb89b-360">www.contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-360">www.contoso.com</span></span>
-  - <span data-ttu-id="fb89b-361">xyz.abc.contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-361">xyz.abc.contoso.com</span></span>
+  - <span data-ttu-id="b1718-360">www.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-360">www.contoso.com</span></span>
+  - <span data-ttu-id="b1718-361">xyz.abc.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-361">xyz.abc.contoso.com</span></span>
 
-- <span data-ttu-id="fb89b-362">**Autoriser non la correspondance et** Bloquer non correspond **:**</span><span class="sxs-lookup"><span data-stu-id="fb89b-362">**Allow not matched** and **Block not matched**:</span></span>
+- <span data-ttu-id="b1718-362">**Autoriser non la correspondance et** Bloquer non correspond **:**</span><span class="sxs-lookup"><span data-stu-id="b1718-362">**Allow not matched** and **Block not matched**:</span></span>
 
-  - <span data-ttu-id="fb89b-363">123contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-363">123contoso.com</span></span>
-  - <span data-ttu-id="fb89b-364">contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-364">contoso.com</span></span>
-  - <span data-ttu-id="fb89b-365">test.com/contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-365">test.com/contoso.com</span></span>
-  - <span data-ttu-id="fb89b-366">www.contoso.com/abc</span><span class="sxs-lookup"><span data-stu-id="fb89b-366">www.contoso.com/abc</span></span>
+  - <span data-ttu-id="b1718-363">123contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-363">123contoso.com</span></span>
+  - <span data-ttu-id="b1718-364">contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-364">contoso.com</span></span>
+  - <span data-ttu-id="b1718-365">test.com/contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-365">test.com/contoso.com</span></span>
+  - <span data-ttu-id="b1718-366">www.contoso.com/abc</span><span class="sxs-lookup"><span data-stu-id="b1718-366">www.contoso.com/abc</span></span>
 
-#### <a name="scenario-right-wildcard-at-top-of-path"></a><span data-ttu-id="fb89b-367">Scénario : caractère générique droit en haut du chemin d’accès</span><span class="sxs-lookup"><span data-stu-id="fb89b-367">Scenario: Right wildcard at top of path</span></span>
+#### <a name="scenario-right-wildcard-at-top-of-path"></a><span data-ttu-id="b1718-367">Scénario : caractère générique droit en haut du chemin d’accès</span><span class="sxs-lookup"><span data-stu-id="b1718-367">Scenario: Right wildcard at top of path</span></span>
 
-<span data-ttu-id="fb89b-368">**Entrée**: `contoso.com/a/*`</span><span class="sxs-lookup"><span data-stu-id="fb89b-368">**Entry**: `contoso.com/a/*`</span></span>
+<span data-ttu-id="b1718-368">**Entrée**: `contoso.com/a/*`</span><span class="sxs-lookup"><span data-stu-id="b1718-368">**Entry**: `contoso.com/a/*`</span></span>
 
-- <span data-ttu-id="fb89b-369">**Autoriser la correspondance** et **bloquer la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="fb89b-369">**Allow match** and **Block match**:</span></span>
+- <span data-ttu-id="b1718-369">**Autoriser la correspondance** et **bloquer la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="b1718-369">**Allow match** and **Block match**:</span></span>
 
-  - <span data-ttu-id="fb89b-370">contoso.com/a/b</span><span class="sxs-lookup"><span data-stu-id="fb89b-370">contoso.com/a/b</span></span>
-  - <span data-ttu-id="fb89b-371">contoso.com/a/b/c</span><span class="sxs-lookup"><span data-stu-id="fb89b-371">contoso.com/a/b/c</span></span>
-  - <span data-ttu-id="fb89b-372">contoso.com/a/?q=joe@t.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-372">contoso.com/a/?q=joe@t.com</span></span>
+  - <span data-ttu-id="b1718-370">contoso.com/a/b</span><span class="sxs-lookup"><span data-stu-id="b1718-370">contoso.com/a/b</span></span>
+  - <span data-ttu-id="b1718-371">contoso.com/a/b/c</span><span class="sxs-lookup"><span data-stu-id="b1718-371">contoso.com/a/b/c</span></span>
+  - <span data-ttu-id="b1718-372">contoso.com/a/?q=joe@t.com</span><span class="sxs-lookup"><span data-stu-id="b1718-372">contoso.com/a/?q=joe@t.com</span></span>
 
-- <span data-ttu-id="fb89b-373">**Autoriser non la correspondance et** Bloquer non correspond **:**</span><span class="sxs-lookup"><span data-stu-id="fb89b-373">**Allow not matched** and **Block not matched**:</span></span>
+- <span data-ttu-id="b1718-373">**Autoriser non la correspondance et** Bloquer non correspond **:**</span><span class="sxs-lookup"><span data-stu-id="b1718-373">**Allow not matched** and **Block not matched**:</span></span>
 
-  - <span data-ttu-id="fb89b-374">contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-374">contoso.com</span></span>
-  - <span data-ttu-id="fb89b-375">contoso.com/a</span><span class="sxs-lookup"><span data-stu-id="fb89b-375">contoso.com/a</span></span>
-  - <span data-ttu-id="fb89b-376">www.contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-376">www.contoso.com</span></span>
-  - <span data-ttu-id="fb89b-377">www.contoso.com/q=a@contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-377">www.contoso.com/q=a@contoso.com</span></span>
+  - <span data-ttu-id="b1718-374">contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-374">contoso.com</span></span>
+  - <span data-ttu-id="b1718-375">contoso.com/a</span><span class="sxs-lookup"><span data-stu-id="b1718-375">contoso.com/a</span></span>
+  - <span data-ttu-id="b1718-376">www.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-376">www.contoso.com</span></span>
+  - <span data-ttu-id="b1718-377">www.contoso.com/q=a@contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-377">www.contoso.com/q=a@contoso.com</span></span>
 
-#### <a name="scenario-left-tilde"></a><span data-ttu-id="fb89b-378">Scénario : tilde gauche</span><span class="sxs-lookup"><span data-stu-id="fb89b-378">Scenario: Left tilde</span></span>
+#### <a name="scenario-left-tilde"></a><span data-ttu-id="b1718-378">Scénario : tilde gauche</span><span class="sxs-lookup"><span data-stu-id="b1718-378">Scenario: Left tilde</span></span>
 
-<span data-ttu-id="fb89b-379">**Entrée**: `~contoso.com`</span><span class="sxs-lookup"><span data-stu-id="fb89b-379">**Entry**: `~contoso.com`</span></span>
+<span data-ttu-id="b1718-379">**Entrée**: `~contoso.com`</span><span class="sxs-lookup"><span data-stu-id="b1718-379">**Entry**: `~contoso.com`</span></span>
 
-- <span data-ttu-id="fb89b-380">**Autoriser la correspondance** et **bloquer la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="fb89b-380">**Allow match** and **Block match**:</span></span>
+- <span data-ttu-id="b1718-380">**Autoriser la correspondance** et **bloquer la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="b1718-380">**Allow match** and **Block match**:</span></span>
 
-  - <span data-ttu-id="fb89b-381">contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-381">contoso.com</span></span>
-  - <span data-ttu-id="fb89b-382">www.contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-382">www.contoso.com</span></span>
-  - <span data-ttu-id="fb89b-383">xyz.abc.contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-383">xyz.abc.contoso.com</span></span>
+  - <span data-ttu-id="b1718-381">contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-381">contoso.com</span></span>
+  - <span data-ttu-id="b1718-382">www.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-382">www.contoso.com</span></span>
+  - <span data-ttu-id="b1718-383">xyz.abc.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-383">xyz.abc.contoso.com</span></span>
 
-- <span data-ttu-id="fb89b-384">**Autoriser non la correspondance et** Bloquer non correspond **:**</span><span class="sxs-lookup"><span data-stu-id="fb89b-384">**Allow not matched** and **Block not matched**:</span></span>
+- <span data-ttu-id="b1718-384">**Autoriser non la correspondance et** Bloquer non correspond **:**</span><span class="sxs-lookup"><span data-stu-id="b1718-384">**Allow not matched** and **Block not matched**:</span></span>
 
-  - <span data-ttu-id="fb89b-385">123contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-385">123contoso.com</span></span>
-  - <span data-ttu-id="fb89b-386">contoso.com/abc</span><span class="sxs-lookup"><span data-stu-id="fb89b-386">contoso.com/abc</span></span>
-  - <span data-ttu-id="fb89b-387">www.contoso.com/abc</span><span class="sxs-lookup"><span data-stu-id="fb89b-387">www.contoso.com/abc</span></span>
+  - <span data-ttu-id="b1718-385">123contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-385">123contoso.com</span></span>
+  - <span data-ttu-id="b1718-386">contoso.com/abc</span><span class="sxs-lookup"><span data-stu-id="b1718-386">contoso.com/abc</span></span>
+  - <span data-ttu-id="b1718-387">www.contoso.com/abc</span><span class="sxs-lookup"><span data-stu-id="b1718-387">www.contoso.com/abc</span></span>
 
-#### <a name="scenario-right-wildcard-suffix"></a><span data-ttu-id="fb89b-388">Scénario : suffixe générique droit</span><span class="sxs-lookup"><span data-stu-id="fb89b-388">Scenario: Right wildcard suffix</span></span>
+#### <a name="scenario-right-wildcard-suffix"></a><span data-ttu-id="b1718-388">Scénario : suffixe générique droit</span><span class="sxs-lookup"><span data-stu-id="b1718-388">Scenario: Right wildcard suffix</span></span>
 
-<span data-ttu-id="fb89b-389">**Entrée**: `contoso.com/*`</span><span class="sxs-lookup"><span data-stu-id="fb89b-389">**Entry**: `contoso.com/*`</span></span>
+<span data-ttu-id="b1718-389">**Entrée**: `contoso.com/*`</span><span class="sxs-lookup"><span data-stu-id="b1718-389">**Entry**: `contoso.com/*`</span></span>
 
-- <span data-ttu-id="fb89b-390">**Autoriser la correspondance** et **bloquer la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="fb89b-390">**Allow match** and **Block match**:</span></span>
+- <span data-ttu-id="b1718-390">**Autoriser la correspondance** et **bloquer la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="b1718-390">**Allow match** and **Block match**:</span></span>
 
-  - <span data-ttu-id="fb89b-391">contoso.com/?q=whatever@fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-391">contoso.com/?q=whatever@fabrikam.com</span></span>
-  - <span data-ttu-id="fb89b-392">contoso.com/a</span><span class="sxs-lookup"><span data-stu-id="fb89b-392">contoso.com/a</span></span>
-  - <span data-ttu-id="fb89b-393">contoso.com/a/b/c</span><span class="sxs-lookup"><span data-stu-id="fb89b-393">contoso.com/a/b/c</span></span>
-  - <span data-ttu-id="fb89b-394">contoso.com/ab</span><span class="sxs-lookup"><span data-stu-id="fb89b-394">contoso.com/ab</span></span>
-  - <span data-ttu-id="fb89b-395">contoso.com/b</span><span class="sxs-lookup"><span data-stu-id="fb89b-395">contoso.com/b</span></span>
-  - <span data-ttu-id="fb89b-396">contoso.com/b/a/c</span><span class="sxs-lookup"><span data-stu-id="fb89b-396">contoso.com/b/a/c</span></span>
-  - <span data-ttu-id="fb89b-397">contoso.com/ba</span><span class="sxs-lookup"><span data-stu-id="fb89b-397">contoso.com/ba</span></span>
+  - <span data-ttu-id="b1718-391">contoso.com/?q=whatever@fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="b1718-391">contoso.com/?q=whatever@fabrikam.com</span></span>
+  - <span data-ttu-id="b1718-392">contoso.com/a</span><span class="sxs-lookup"><span data-stu-id="b1718-392">contoso.com/a</span></span>
+  - <span data-ttu-id="b1718-393">contoso.com/a/b/c</span><span class="sxs-lookup"><span data-stu-id="b1718-393">contoso.com/a/b/c</span></span>
+  - <span data-ttu-id="b1718-394">contoso.com/ab</span><span class="sxs-lookup"><span data-stu-id="b1718-394">contoso.com/ab</span></span>
+  - <span data-ttu-id="b1718-395">contoso.com/b</span><span class="sxs-lookup"><span data-stu-id="b1718-395">contoso.com/b</span></span>
+  - <span data-ttu-id="b1718-396">contoso.com/b/a/c</span><span class="sxs-lookup"><span data-stu-id="b1718-396">contoso.com/b/a/c</span></span>
+  - <span data-ttu-id="b1718-397">contoso.com/ba</span><span class="sxs-lookup"><span data-stu-id="b1718-397">contoso.com/ba</span></span>
 
-- <span data-ttu-id="fb89b-398">**Autoriser non la correspondance et** Bloquer non correspond **:** contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-398">**Allow not matched** and **Block not matched**: contoso.com</span></span>
+- <span data-ttu-id="b1718-398">**Autoriser non la correspondance et** Bloquer non correspond **:** contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-398">**Allow not matched** and **Block not matched**: contoso.com</span></span>
 
-#### <a name="scenario-left-wildcard-subdomain-and-right-wildcard-suffix"></a><span data-ttu-id="fb89b-399">Scénario : sous-domaine générique gauche et suffixe générique droit</span><span class="sxs-lookup"><span data-stu-id="fb89b-399">Scenario: Left wildcard subdomain and right wildcard suffix</span></span>
+#### <a name="scenario-left-wildcard-subdomain-and-right-wildcard-suffix"></a><span data-ttu-id="b1718-399">Scénario : sous-domaine générique gauche et suffixe générique droit</span><span class="sxs-lookup"><span data-stu-id="b1718-399">Scenario: Left wildcard subdomain and right wildcard suffix</span></span>
 
-<span data-ttu-id="fb89b-400">**Entrée**: `*.contoso.com/*`</span><span class="sxs-lookup"><span data-stu-id="fb89b-400">**Entry**: `*.contoso.com/*`</span></span>
+<span data-ttu-id="b1718-400">**Entrée**: `*.contoso.com/*`</span><span class="sxs-lookup"><span data-stu-id="b1718-400">**Entry**: `*.contoso.com/*`</span></span>
 
-- <span data-ttu-id="fb89b-401">**Autoriser la correspondance** et **bloquer la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="fb89b-401">**Allow match** and **Block match**:</span></span>
+- <span data-ttu-id="b1718-401">**Autoriser la correspondance** et **bloquer la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="b1718-401">**Allow match** and **Block match**:</span></span>
 
-  - <span data-ttu-id="fb89b-402">abc.contoso.com/ab</span><span class="sxs-lookup"><span data-stu-id="fb89b-402">abc.contoso.com/ab</span></span>
-  - <span data-ttu-id="fb89b-403">abc.xyz.contoso.com/a/b/c</span><span class="sxs-lookup"><span data-stu-id="fb89b-403">abc.xyz.contoso.com/a/b/c</span></span>
-  - <span data-ttu-id="fb89b-404">www.contoso.com/a</span><span class="sxs-lookup"><span data-stu-id="fb89b-404">www.contoso.com/a</span></span>
-  - <span data-ttu-id="fb89b-405">www.contoso.com/b/a/c</span><span class="sxs-lookup"><span data-stu-id="fb89b-405">www.contoso.com/b/a/c</span></span>
-  - <span data-ttu-id="fb89b-406">xyz.contoso.com/ba</span><span class="sxs-lookup"><span data-stu-id="fb89b-406">xyz.contoso.com/ba</span></span>
+  - <span data-ttu-id="b1718-402">abc.contoso.com/ab</span><span class="sxs-lookup"><span data-stu-id="b1718-402">abc.contoso.com/ab</span></span>
+  - <span data-ttu-id="b1718-403">abc.xyz.contoso.com/a/b/c</span><span class="sxs-lookup"><span data-stu-id="b1718-403">abc.xyz.contoso.com/a/b/c</span></span>
+  - <span data-ttu-id="b1718-404">www.contoso.com/a</span><span class="sxs-lookup"><span data-stu-id="b1718-404">www.contoso.com/a</span></span>
+  - <span data-ttu-id="b1718-405">www.contoso.com/b/a/c</span><span class="sxs-lookup"><span data-stu-id="b1718-405">www.contoso.com/b/a/c</span></span>
+  - <span data-ttu-id="b1718-406">xyz.contoso.com/ba</span><span class="sxs-lookup"><span data-stu-id="b1718-406">xyz.contoso.com/ba</span></span>
 
-- <span data-ttu-id="fb89b-407">**Autoriser non la correspondance et** Bloquer non correspond **:** contoso.com/b</span><span class="sxs-lookup"><span data-stu-id="fb89b-407">**Allow not matched** and **Block not matched**: contoso.com/b</span></span>
+- <span data-ttu-id="b1718-407">**Autoriser non la correspondance et** Bloquer non correspond **:** contoso.com/b</span><span class="sxs-lookup"><span data-stu-id="b1718-407">**Allow not matched** and **Block not matched**: contoso.com/b</span></span>
 
-#### <a name="scenario-left-and-right-tilde"></a><span data-ttu-id="fb89b-408">Scénario : tilde gauche et droite</span><span class="sxs-lookup"><span data-stu-id="fb89b-408">Scenario: Left and right tilde</span></span>
+#### <a name="scenario-left-and-right-tilde"></a><span data-ttu-id="b1718-408">Scénario : tilde gauche et droite</span><span class="sxs-lookup"><span data-stu-id="b1718-408">Scenario: Left and right tilde</span></span>
 
-<span data-ttu-id="fb89b-409">**Entrée**: `~contoso.com~`</span><span class="sxs-lookup"><span data-stu-id="fb89b-409">**Entry**: `~contoso.com~`</span></span>
+<span data-ttu-id="b1718-409">**Entrée**: `~contoso.com~`</span><span class="sxs-lookup"><span data-stu-id="b1718-409">**Entry**: `~contoso.com~`</span></span>
 
-- <span data-ttu-id="fb89b-410">**Autoriser la correspondance** et **bloquer la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="fb89b-410">**Allow match** and **Block match**:</span></span>
+- <span data-ttu-id="b1718-410">**Autoriser la correspondance** et **bloquer la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="b1718-410">**Allow match** and **Block match**:</span></span>
 
-  - <span data-ttu-id="fb89b-411">contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-411">contoso.com</span></span>
-  - <span data-ttu-id="fb89b-412">contoso.com/a</span><span class="sxs-lookup"><span data-stu-id="fb89b-412">contoso.com/a</span></span>
-  - <span data-ttu-id="fb89b-413">www.contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-413">www.contoso.com</span></span>
-  - <span data-ttu-id="fb89b-414">www.contoso.com/b</span><span class="sxs-lookup"><span data-stu-id="fb89b-414">www.contoso.com/b</span></span>
-  - <span data-ttu-id="fb89b-415">xyz.abc.contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-415">xyz.abc.contoso.com</span></span>
+  - <span data-ttu-id="b1718-411">contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-411">contoso.com</span></span>
+  - <span data-ttu-id="b1718-412">contoso.com/a</span><span class="sxs-lookup"><span data-stu-id="b1718-412">contoso.com/a</span></span>
+  - <span data-ttu-id="b1718-413">www.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-413">www.contoso.com</span></span>
+  - <span data-ttu-id="b1718-414">www.contoso.com/b</span><span class="sxs-lookup"><span data-stu-id="b1718-414">www.contoso.com/b</span></span>
+  - <span data-ttu-id="b1718-415">xyz.abc.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-415">xyz.abc.contoso.com</span></span>
 
-- <span data-ttu-id="fb89b-416">**Autoriser non la correspondance et** Bloquer non correspond **:**</span><span class="sxs-lookup"><span data-stu-id="fb89b-416">**Allow not matched** and **Block not matched**:</span></span>
+- <span data-ttu-id="b1718-416">**Autoriser non la correspondance et** Bloquer non correspond **:**</span><span class="sxs-lookup"><span data-stu-id="b1718-416">**Allow not matched** and **Block not matched**:</span></span>
 
-  - <span data-ttu-id="fb89b-417">123contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-417">123contoso.com</span></span>
-  - <span data-ttu-id="fb89b-418">contoso.org</span><span class="sxs-lookup"><span data-stu-id="fb89b-418">contoso.org</span></span>
+  - <span data-ttu-id="b1718-417">123contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-417">123contoso.com</span></span>
+  - <span data-ttu-id="b1718-418">contoso.org</span><span class="sxs-lookup"><span data-stu-id="b1718-418">contoso.org</span></span>
 
-#### <a name="scenario-ip-address"></a><span data-ttu-id="fb89b-419">Scénario : adresse IP</span><span class="sxs-lookup"><span data-stu-id="fb89b-419">Scenario: IP address</span></span>
+#### <a name="scenario-ip-address"></a><span data-ttu-id="b1718-419">Scénario : adresse IP</span><span class="sxs-lookup"><span data-stu-id="b1718-419">Scenario: IP address</span></span>
 
-<span data-ttu-id="fb89b-420">**Entrée**: `1.2.3.4`</span><span class="sxs-lookup"><span data-stu-id="fb89b-420">**Entry**: `1.2.3.4`</span></span>
+<span data-ttu-id="b1718-420">**Entrée**: `1.2.3.4`</span><span class="sxs-lookup"><span data-stu-id="b1718-420">**Entry**: `1.2.3.4`</span></span>
 
-- <span data-ttu-id="fb89b-421">**Autoriser la correspondance** **et bloquer la correspondance**: 1.2.3.4</span><span class="sxs-lookup"><span data-stu-id="fb89b-421">**Allow match** and **Block match**: 1.2.3.4</span></span>
+- <span data-ttu-id="b1718-421">**Autoriser la correspondance** **et bloquer la correspondance**: 1.2.3.4</span><span class="sxs-lookup"><span data-stu-id="b1718-421">**Allow match** and **Block match**: 1.2.3.4</span></span>
 
-- <span data-ttu-id="fb89b-422">**Autoriser non la correspondance et** Bloquer non correspond **:**</span><span class="sxs-lookup"><span data-stu-id="fb89b-422">**Allow not matched** and **Block not matched**:</span></span>
+- <span data-ttu-id="b1718-422">**Autoriser non la correspondance et** Bloquer non correspond **:**</span><span class="sxs-lookup"><span data-stu-id="b1718-422">**Allow not matched** and **Block not matched**:</span></span>
 
-  - <span data-ttu-id="fb89b-423">1.2.3.4/a</span><span class="sxs-lookup"><span data-stu-id="fb89b-423">1.2.3.4/a</span></span>
-  - <span data-ttu-id="fb89b-424">11.2.3.4/a</span><span class="sxs-lookup"><span data-stu-id="fb89b-424">11.2.3.4/a</span></span>
+  - <span data-ttu-id="b1718-423">1.2.3.4/a</span><span class="sxs-lookup"><span data-stu-id="b1718-423">1.2.3.4/a</span></span>
+  - <span data-ttu-id="b1718-424">11.2.3.4/a</span><span class="sxs-lookup"><span data-stu-id="b1718-424">11.2.3.4/a</span></span>
 
-#### <a name="ip-address-with-right-wildcard"></a><span data-ttu-id="fb89b-425">Adresse IP avec caractère générique droit</span><span class="sxs-lookup"><span data-stu-id="fb89b-425">IP address with right wildcard</span></span>
+#### <a name="ip-address-with-right-wildcard"></a><span data-ttu-id="b1718-425">Adresse IP avec caractère générique droit</span><span class="sxs-lookup"><span data-stu-id="b1718-425">IP address with right wildcard</span></span>
 
-<span data-ttu-id="fb89b-426">**Entrée**: `1.2.3.4/*`</span><span class="sxs-lookup"><span data-stu-id="fb89b-426">**Entry**: `1.2.3.4/*`</span></span>
+<span data-ttu-id="b1718-426">**Entrée**: `1.2.3.4/*`</span><span class="sxs-lookup"><span data-stu-id="b1718-426">**Entry**: `1.2.3.4/*`</span></span>
 
-- <span data-ttu-id="fb89b-427">**Autoriser la correspondance** et **bloquer la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="fb89b-427">**Allow match** and **Block match**:</span></span>
+- <span data-ttu-id="b1718-427">**Autoriser la correspondance** et **bloquer la correspondance**:</span><span class="sxs-lookup"><span data-stu-id="b1718-427">**Allow match** and **Block match**:</span></span>
 
-  - <span data-ttu-id="fb89b-428">1.2.3.4/b</span><span class="sxs-lookup"><span data-stu-id="fb89b-428">1.2.3.4/b</span></span>
-  - <span data-ttu-id="fb89b-429">1.2.3.4/baaaa</span><span class="sxs-lookup"><span data-stu-id="fb89b-429">1.2.3.4/baaaa</span></span>
+  - <span data-ttu-id="b1718-428">1.2.3.4/b</span><span class="sxs-lookup"><span data-stu-id="b1718-428">1.2.3.4/b</span></span>
+  - <span data-ttu-id="b1718-429">1.2.3.4/baaaa</span><span class="sxs-lookup"><span data-stu-id="b1718-429">1.2.3.4/baaaa</span></span>
 
-### <a name="examples-of-invalid-entries"></a><span data-ttu-id="fb89b-430">Exemples d’entrées non valides</span><span class="sxs-lookup"><span data-stu-id="fb89b-430">Examples of invalid entries</span></span>
+### <a name="examples-of-invalid-entries"></a><span data-ttu-id="b1718-430">Exemples d’entrées non valides</span><span class="sxs-lookup"><span data-stu-id="b1718-430">Examples of invalid entries</span></span>
 
-<span data-ttu-id="fb89b-431">Les entrées suivantes ne sont pas valides :</span><span class="sxs-lookup"><span data-stu-id="fb89b-431">The following entries are invalid:</span></span>
+<span data-ttu-id="b1718-431">Les entrées suivantes ne sont pas valides :</span><span class="sxs-lookup"><span data-stu-id="b1718-431">The following entries are invalid:</span></span>
 
-- <span data-ttu-id="fb89b-432">**Valeurs de domaine manquantes ou non valides**:</span><span class="sxs-lookup"><span data-stu-id="fb89b-432">**Missing or invalid domain values**:</span></span>
+- <span data-ttu-id="b1718-432">**Valeurs de domaine manquantes ou non valides**:</span><span class="sxs-lookup"><span data-stu-id="b1718-432">**Missing or invalid domain values**:</span></span>
 
-  - <span data-ttu-id="fb89b-433">contoso</span><span class="sxs-lookup"><span data-stu-id="fb89b-433">contoso</span></span>
-  - <span data-ttu-id="fb89b-434">\*.contoso.\*</span><span class="sxs-lookup"><span data-stu-id="fb89b-434">\*.contoso.\*</span></span>
-  - <span data-ttu-id="fb89b-435">\*.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-435">\*.com</span></span>
-  - <span data-ttu-id="fb89b-436">\*.pdf</span><span class="sxs-lookup"><span data-stu-id="fb89b-436">\*.pdf</span></span>
+  - <span data-ttu-id="b1718-433">contoso</span><span class="sxs-lookup"><span data-stu-id="b1718-433">contoso</span></span>
+  - <span data-ttu-id="b1718-434">\*.contoso.\*</span><span class="sxs-lookup"><span data-stu-id="b1718-434">\*.contoso.\*</span></span>
+  - <span data-ttu-id="b1718-435">\*.com</span><span class="sxs-lookup"><span data-stu-id="b1718-435">\*.com</span></span>
+  - <span data-ttu-id="b1718-436">\*.pdf</span><span class="sxs-lookup"><span data-stu-id="b1718-436">\*.pdf</span></span>
 
-- <span data-ttu-id="fb89b-437">**Caractère générique sur du texte ou sans espacement**:</span><span class="sxs-lookup"><span data-stu-id="fb89b-437">**Wildcard on text or without spacing characters**:</span></span>
+- <span data-ttu-id="b1718-437">**Caractère générique sur du texte ou sans espacement**:</span><span class="sxs-lookup"><span data-stu-id="b1718-437">**Wildcard on text or without spacing characters**:</span></span>
 
-  - <span data-ttu-id="fb89b-438">\*contoso.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-438">\*contoso.com</span></span>
-  - <span data-ttu-id="fb89b-439">contoso.com\*</span><span class="sxs-lookup"><span data-stu-id="fb89b-439">contoso.com\*</span></span>
-  - <span data-ttu-id="fb89b-440">\*1.2.3.4</span><span class="sxs-lookup"><span data-stu-id="fb89b-440">\*1.2.3.4</span></span>
-  - <span data-ttu-id="fb89b-441">1.2.3.4\*</span><span class="sxs-lookup"><span data-stu-id="fb89b-441">1.2.3.4\*</span></span>
-  - <span data-ttu-id="fb89b-442">contoso.com/a\*</span><span class="sxs-lookup"><span data-stu-id="fb89b-442">contoso.com/a\*</span></span>
-  - <span data-ttu-id="fb89b-443">contoso.com/ab\*</span><span class="sxs-lookup"><span data-stu-id="fb89b-443">contoso.com/ab\*</span></span>
+  - <span data-ttu-id="b1718-438">\*contoso.com</span><span class="sxs-lookup"><span data-stu-id="b1718-438">\*contoso.com</span></span>
+  - <span data-ttu-id="b1718-439">contoso.com\*</span><span class="sxs-lookup"><span data-stu-id="b1718-439">contoso.com\*</span></span>
+  - <span data-ttu-id="b1718-440">\*1.2.3.4</span><span class="sxs-lookup"><span data-stu-id="b1718-440">\*1.2.3.4</span></span>
+  - <span data-ttu-id="b1718-441">1.2.3.4\*</span><span class="sxs-lookup"><span data-stu-id="b1718-441">1.2.3.4\*</span></span>
+  - <span data-ttu-id="b1718-442">contoso.com/a\*</span><span class="sxs-lookup"><span data-stu-id="b1718-442">contoso.com/a\*</span></span>
+  - <span data-ttu-id="b1718-443">contoso.com/ab\*</span><span class="sxs-lookup"><span data-stu-id="b1718-443">contoso.com/ab\*</span></span>
 
-- <span data-ttu-id="fb89b-444">**Adresses IP avec ports**:</span><span class="sxs-lookup"><span data-stu-id="fb89b-444">**IP addresses with ports**:</span></span>
+- <span data-ttu-id="b1718-444">**Adresses IP avec ports**:</span><span class="sxs-lookup"><span data-stu-id="b1718-444">**IP addresses with ports**:</span></span>
 
-  - <span data-ttu-id="fb89b-445">contoso.com:443</span><span class="sxs-lookup"><span data-stu-id="fb89b-445">contoso.com:443</span></span>
-  - <span data-ttu-id="fb89b-446">abc.contoso.com:25</span><span class="sxs-lookup"><span data-stu-id="fb89b-446">abc.contoso.com:25</span></span>
+  - <span data-ttu-id="b1718-445">contoso.com:443</span><span class="sxs-lookup"><span data-stu-id="b1718-445">contoso.com:443</span></span>
+  - <span data-ttu-id="b1718-446">abc.contoso.com:25</span><span class="sxs-lookup"><span data-stu-id="b1718-446">abc.contoso.com:25</span></span>
 
-- <span data-ttu-id="fb89b-447">**Caractères génériques non descriptifs**:</span><span class="sxs-lookup"><span data-stu-id="fb89b-447">**Non-descriptive wildcards**:</span></span>
+- <span data-ttu-id="b1718-447">**Caractères génériques non descriptifs**:</span><span class="sxs-lookup"><span data-stu-id="b1718-447">**Non-descriptive wildcards**:</span></span>
 
   - \*
-  - <span data-ttu-id="fb89b-448">\*.\*</span><span class="sxs-lookup"><span data-stu-id="fb89b-448">\*.\*</span></span>
+  - <span data-ttu-id="b1718-448">\*.\*</span><span class="sxs-lookup"><span data-stu-id="b1718-448">\*.\*</span></span>
 
-- <span data-ttu-id="fb89b-449">**Caractères génériques intermédiaires**:</span><span class="sxs-lookup"><span data-stu-id="fb89b-449">**Middle wildcards**:</span></span>
+- <span data-ttu-id="b1718-449">**Caractères génériques intermédiaires**:</span><span class="sxs-lookup"><span data-stu-id="b1718-449">**Middle wildcards**:</span></span>
 
-  - <span data-ttu-id="fb89b-450">conto \* so.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-450">conto\*so.com</span></span>
-  - <span data-ttu-id="fb89b-451">conto~so.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-451">conto~so.com</span></span>
+  - <span data-ttu-id="b1718-450">conto \* so.com</span><span class="sxs-lookup"><span data-stu-id="b1718-450">conto\*so.com</span></span>
+  - <span data-ttu-id="b1718-451">conto~so.com</span><span class="sxs-lookup"><span data-stu-id="b1718-451">conto~so.com</span></span>
 
-- <span data-ttu-id="fb89b-452">**Caractères génériques doubles**</span><span class="sxs-lookup"><span data-stu-id="fb89b-452">**Double wildcards**</span></span>
+- <span data-ttu-id="b1718-452">**Caractères génériques doubles**</span><span class="sxs-lookup"><span data-stu-id="b1718-452">**Double wildcards**</span></span>
 
-  - <span data-ttu-id="fb89b-453">contoso.com/\*\*</span><span class="sxs-lookup"><span data-stu-id="fb89b-453">contoso.com/\*\*</span></span>
-  - <span data-ttu-id="fb89b-454">contoso.com/\*/\*</span><span class="sxs-lookup"><span data-stu-id="fb89b-454">contoso.com/\*/\*</span></span>
+  - <span data-ttu-id="b1718-453">contoso.com/\*\*</span><span class="sxs-lookup"><span data-stu-id="b1718-453">contoso.com/\*\*</span></span>
+  - <span data-ttu-id="b1718-454">contoso.com/\*/\*</span><span class="sxs-lookup"><span data-stu-id="b1718-454">contoso.com/\*/\*</span></span>
 
-## <a name="domain-pair-syntax-for-spoofed-sender-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="fb89b-455">Syntaxe de paire de domaines pour les entrées d’expéditeur usurpées dans la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="fb89b-455">Domain pair syntax for spoofed sender entries in the Tenant Allow/Block List</span></span>
+## <a name="domain-pair-syntax-for-spoofed-sender-entries-in-the-tenant-allowblock-list"></a><span data-ttu-id="b1718-455">Syntaxe de paire de domaines pour les entrées d’expéditeur usurpées dans la liste d’adresses client autoriser/bloquer</span><span class="sxs-lookup"><span data-stu-id="b1718-455">Domain pair syntax for spoofed sender entries in the Tenant Allow/Block List</span></span>
 
-<span data-ttu-id="fb89b-456">Une paire de domaines pour un expéditeur usurpé dans la liste d’adresses client autoriser/bloquer utilise la syntaxe suivante `<Spoofed user>, <Sending infrastructure>` :</span><span class="sxs-lookup"><span data-stu-id="fb89b-456">A domain pair for a spoofed sender in the Tenant Allow/Block List uses the following syntax: `<Spoofed user>, <Sending infrastructure>`.</span></span>
+<span data-ttu-id="b1718-456">Une paire de domaines pour un expéditeur usurpé dans la liste d’adresses client autoriser/bloquer utilise la syntaxe suivante `<Spoofed user>, <Sending infrastructure>` :</span><span class="sxs-lookup"><span data-stu-id="b1718-456">A domain pair for a spoofed sender in the Tenant Allow/Block List uses the following syntax: `<Spoofed user>, <Sending infrastructure>`.</span></span>
 
-- <span data-ttu-id="fb89b-457">**Utilisateur usurpé**: cette valeur implique l’adresse e-mail de l’utilisateur  usurpé qui s’affiche dans la zone De des clients de messagerie.</span><span class="sxs-lookup"><span data-stu-id="fb89b-457">**Spoofed user**: This value involves the email address of the spoofed user that's displayed in the **From** box in email clients.</span></span> <span data-ttu-id="fb89b-458">Cette adresse est également appelée `5322.From` adresse.</span><span class="sxs-lookup"><span data-stu-id="fb89b-458">This address is also known as the `5322.From` address.</span></span> <span data-ttu-id="fb89b-459">Les valeurs valides sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="fb89b-459">Valid values include:</span></span>
-  - <span data-ttu-id="fb89b-460">Adresse de messagerie individuelle (par exemple, chris@contoso.com).</span><span class="sxs-lookup"><span data-stu-id="fb89b-460">An individual email address (for example, chris@contoso.com).</span></span>
-  - <span data-ttu-id="fb89b-461">Un domaine de messagerie (par exemple, contoso.com).</span><span class="sxs-lookup"><span data-stu-id="fb89b-461">An email domain (for example, contoso.com).</span></span>
-  - <span data-ttu-id="fb89b-462">Caractère générique (par exemple, \* ).</span><span class="sxs-lookup"><span data-stu-id="fb89b-462">The wildcard character (for example, \*).</span></span>
+- <span data-ttu-id="b1718-457">**Utilisateur usurpé**: cette valeur implique l’adresse e-mail de l’utilisateur  usurpé qui s’affiche dans la zone De des clients de messagerie.</span><span class="sxs-lookup"><span data-stu-id="b1718-457">**Spoofed user**: This value involves the email address of the spoofed user that's displayed in the **From** box in email clients.</span></span> <span data-ttu-id="b1718-458">Cette adresse est également appelée `5322.From` adresse.</span><span class="sxs-lookup"><span data-stu-id="b1718-458">This address is also known as the `5322.From` address.</span></span> <span data-ttu-id="b1718-459">Les valeurs valides sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="b1718-459">Valid values include:</span></span>
+  - <span data-ttu-id="b1718-460">Adresse de messagerie individuelle (par exemple, chris@contoso.com).</span><span class="sxs-lookup"><span data-stu-id="b1718-460">An individual email address (for example, chris@contoso.com).</span></span>
+  - <span data-ttu-id="b1718-461">Un domaine de messagerie (par exemple, contoso.com).</span><span class="sxs-lookup"><span data-stu-id="b1718-461">An email domain (for example, contoso.com).</span></span>
+  - <span data-ttu-id="b1718-462">Caractère générique (par exemple, \* ).</span><span class="sxs-lookup"><span data-stu-id="b1718-462">The wildcard character (for example, \*).</span></span>
 
-- <span data-ttu-id="fb89b-463">**Infrastructure d’envoi**: cette valeur indique la source des messages de l’utilisateur usurpé.</span><span class="sxs-lookup"><span data-stu-id="fb89b-463">**Sending infrastructure**: This value indicates the source of messages from the spoofed user.</span></span> <span data-ttu-id="fb89b-464">Les valeurs valides sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="fb89b-464">Valid values include:</span></span>
-  - <span data-ttu-id="fb89b-465">Domaine trouvé dans une recherche DNS inversée (enregistrement PTR) de l’adresse IP du serveur de messagerie source (par exemple, fabrikam.com).</span><span class="sxs-lookup"><span data-stu-id="fb89b-465">The domain found in a reverse DNS lookup (PTR record) of the source email server's IP address (for example, fabrikam.com).</span></span>
-  - <span data-ttu-id="fb89b-466">Si l’adresse IP source n’a pas d’enregistrement PTR, l’infrastructure d’envoi est identifiée comme \<source IP\> /24 (par exemple, 192.168.100.100/24).</span><span class="sxs-lookup"><span data-stu-id="fb89b-466">If the source IP address has no PTR record, then the sending infrastructure is identified as \<source IP\>/24 (for example, 192.168.100.100/24).</span></span>
+- <span data-ttu-id="b1718-463">**Infrastructure d’envoi**: cette valeur indique la source des messages de l’utilisateur usurpé.</span><span class="sxs-lookup"><span data-stu-id="b1718-463">**Sending infrastructure**: This value indicates the source of messages from the spoofed user.</span></span> <span data-ttu-id="b1718-464">Les valeurs valides sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="b1718-464">Valid values include:</span></span>
+  - <span data-ttu-id="b1718-465">Domaine trouvé dans une recherche DNS inversée (enregistrement PTR) de l’adresse IP du serveur de messagerie source (par exemple, fabrikam.com).</span><span class="sxs-lookup"><span data-stu-id="b1718-465">The domain found in a reverse DNS lookup (PTR record) of the source email server's IP address (for example, fabrikam.com).</span></span>
+  - <span data-ttu-id="b1718-466">Si l’adresse IP source n’a pas d’enregistrement PTR, l’infrastructure d’envoi est identifiée comme \<source IP\> /24 (par exemple, 192.168.100.100/24).</span><span class="sxs-lookup"><span data-stu-id="b1718-466">If the source IP address has no PTR record, then the sending infrastructure is identified as \<source IP\>/24 (for example, 192.168.100.100/24).</span></span>
 
-<span data-ttu-id="fb89b-467">Voici quelques exemples de paires de domaines valides pour identifier les expéditeurs usurpés :</span><span class="sxs-lookup"><span data-stu-id="fb89b-467">Here are some examples of valid domain pairs to identify spoofed senders:</span></span>
+<span data-ttu-id="b1718-467">Voici quelques exemples de paires de domaines valides pour identifier les expéditeurs usurpés :</span><span class="sxs-lookup"><span data-stu-id="b1718-467">Here are some examples of valid domain pairs to identify spoofed senders:</span></span>
 
 - `contoso.com, 192.168.100.100/24`
 - `chris@contoso.com, fabrikam.com`
 - `*, contoso.net`
 
-<span data-ttu-id="fb89b-468">L’ajout d’une paire de domaines autorise ou bloque uniquement la *combinaison* de l’utilisateur usurpé *et* de l’infrastructure d’envoi.</span><span class="sxs-lookup"><span data-stu-id="fb89b-468">Adding a domain pair only allows or blocks the *combination* of the spoofed user *and* the sending infrastructure.</span></span> <span data-ttu-id="fb89b-469">Il n’autorise pas le courrier électronique provenant de l’utilisateur usurpé d’aucune source, ni le courrier provenant de la source d’infrastructure d’envoi pour tout utilisateur usurpé.</span><span class="sxs-lookup"><span data-stu-id="fb89b-469">It does not allow email from the spoofed user from any source, nor does it allow email from the sending infrastructure source for any spoofed user.</span></span>
+<span data-ttu-id="b1718-468">Le nombre maximal d’entrées d’expéditeur usurpées est de 1 000.</span><span class="sxs-lookup"><span data-stu-id="b1718-468">The maximum number of spoofed sender entries is 1000.</span></span> 
 
-<span data-ttu-id="fb89b-470">Par exemple, vous ajoutez une entrée d’accès pour la paire de domaines suivante :</span><span class="sxs-lookup"><span data-stu-id="fb89b-470">For example, you add an allow entry for the following domain pair:</span></span>
+<span data-ttu-id="b1718-469">L’ajout d’une paire de domaines autorise ou bloque uniquement la *combinaison* de l’utilisateur usurpé *et* de l’infrastructure d’envoi.</span><span class="sxs-lookup"><span data-stu-id="b1718-469">Adding a domain pair only allows or blocks the *combination* of the spoofed user *and* the sending infrastructure.</span></span> <span data-ttu-id="b1718-470">Il n’autorise pas le courrier électronique provenant de l’utilisateur usurpé d’aucune source, ni le courrier provenant de la source d’infrastructure d’envoi pour tout utilisateur usurpé.</span><span class="sxs-lookup"><span data-stu-id="b1718-470">It does not allow email from the spoofed user from any source, nor does it allow email from the sending infrastructure source for any spoofed user.</span></span> 
 
-- <span data-ttu-id="fb89b-471">**Domaine**: gmail.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-471">**Domain**: gmail.com</span></span>
-- <span data-ttu-id="fb89b-472">**Infrastructure**: tms.mx.com</span><span class="sxs-lookup"><span data-stu-id="fb89b-472">**Infrastructure**: tms.mx.com</span></span>
+<span data-ttu-id="b1718-471">Par exemple, vous ajoutez une entrée d’accès pour la paire de domaines suivante :</span><span class="sxs-lookup"><span data-stu-id="b1718-471">For example, you add an allow entry for the following domain pair:</span></span>
 
-<span data-ttu-id="fb89b-473">Seuls les messages provenant *de* ce domaine et de cette paire d’infrastructure d’envoi sont autorisés à usurper l’usurpation.</span><span class="sxs-lookup"><span data-stu-id="fb89b-473">Only messages from that domain *and* sending infrastructure pair are allowed to spoof.</span></span> <span data-ttu-id="fb89b-474">Les autres expéditeurs qui tentent d’usurper gmail.com ne sont pas autorisés.</span><span class="sxs-lookup"><span data-stu-id="fb89b-474">Other senders attempting to spoof gmail.com aren't allowed.</span></span> <span data-ttu-id="fb89b-475">Les messages provenant d’expéditeurs d’autres domaines tms.mx.com sont vérifiés par la veille contre l’usurpation d’adresse.</span><span class="sxs-lookup"><span data-stu-id="fb89b-475">Messages from senders in other domains originating from tms.mx.com are checked by spoof intelligence.</span></span>
+- <span data-ttu-id="b1718-472">**Domaine**: gmail.com</span><span class="sxs-lookup"><span data-stu-id="b1718-472">**Domain**: gmail.com</span></span>
+- <span data-ttu-id="b1718-473">**Infrastructure**: tms.mx.com</span><span class="sxs-lookup"><span data-stu-id="b1718-473">**Infrastructure**: tms.mx.com</span></span>
+
+<span data-ttu-id="b1718-474">Seuls les messages provenant de ce domaine et *de* cette paire d’infrastructure d’envoi sont autorisés à usurper l’usurpation.</span><span class="sxs-lookup"><span data-stu-id="b1718-474">Only messages from that domain *and* sending infrastructure pair are allowed to spoof.</span></span> <span data-ttu-id="b1718-475">Les autres expéditeurs qui tentent d’usurper gmail.com ne sont pas autorisés.</span><span class="sxs-lookup"><span data-stu-id="b1718-475">Other senders attempting to spoof gmail.com aren't allowed.</span></span> <span data-ttu-id="b1718-476">Les messages provenant d’expéditeurs d’autres domaines tms.mx.com sont vérifiés par la veille contre l’usurpation d’adresse.</span><span class="sxs-lookup"><span data-stu-id="b1718-476">Messages from senders in other domains originating from tms.mx.com are checked by spoof intelligence.</span></span>
