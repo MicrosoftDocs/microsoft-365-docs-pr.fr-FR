@@ -68,7 +68,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Configurer votre client Microsoft 365 pour une sécurité accrue
+    - text: Configurer votre client Microsoft 365 pour une sécurité accrue
       url: tenant-wide-setup-for-increased-security.md
     - text: Analyseur de configuration dans EOP et Defender pour Office 365
       url: configuration-analyzer-for-security-policies.md
