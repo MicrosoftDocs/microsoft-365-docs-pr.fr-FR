@@ -1,4 +1,4 @@
-- name: "Aide du centre d’administration Microsoft\_365"
+- name: Aide du centre d’administration Microsoft 365
   href: index.yml
   items:
     - name: Prise en main
@@ -6,7 +6,7 @@
       items:
         - name: S’inscrire
           href: admin-overview/sign-up-for-office-365.md
-        - name: "Essayer ou acheter Microsoft\_365"
+        - name: Essayer ou acheter Microsoft 365
           href: ../commerce/try-or-buy-microsoft-365.md
         - name: Planifier votre installation
           href: setup/plan-your-setup.md
@@ -18,11 +18,11 @@
               href: setup/setup-business-standard.md
             - name: Microsoft 365 Business Premium
               href: ../business/set-up.md
-            - name: "Applications Microsoft\_365 pour les entreprises"
+            - name: Applications Microsoft 365 pour les entreprises
               href: setup/setup-apps-for-business.md
         - name: Découvrir la page et l’Assistant Installation
           href: setup/o365-setup-wizard-and-setup-page.md
-        - name: "Sécuriser des ordinateurs Windows\_10"
+        - name: Sécuriser des ordinateurs Windows 10
           href: ../business/secure-win-10-pcs.md
         - name: Télécharger des logiciels et des clés de produit
           href: setup/download-software-licenses-csp.md
@@ -38,23 +38,23 @@
           href: /microsoftteams/how-to-roll-out-teams?bc=%2foffice365%2fadmin%2fbreadcrumb%2ftoc.json&toc=%2foffice365%2fadmin%2ftoc.json
         - name: Formation grand public sur les applications
           href: 'https://support.microsoft.com/training'
-        - name: "Quel abonnement ai-je\_?"
+        - name: Quel abonnement ai-je ?
           href: admin-overview/what-subscription-do-i-have.md
         - name: Personnaliser la page de connexion
           href: setup/customize-sign-in-page.md
         - name: Personnaliser le thème de votre organisation
           href: setup/customize-your-organization-theme.md
-        - name: "En savoir plus sur Office\_365 Germany"
+        - name: En savoir plus sur Office 365 Germany
           href: admin-overview/learn-about-office-365-germany.md
         - name: Accéder aux utilisateurs et ressources locaux
           items:
             - name: Synchroniser les utilisateurs de domaine avec Microsoft 365
               href: ../business/manage-domain-users.md
-            - name: "Activation de la gestion des appareils Windows\_10 membres d’un domaine"
+            - name: Activation de la gestion des appareils Windows 10 membres d’un domaine
               href: ../business/manage-windows-devices.md
-            - name: "Accès aux ressources à partir d’un appareil membre d’Azure\_AD"
+            - name: Accès aux ressources à partir d’un appareil membre d’Azure AD
               href: ../business/access-resources.md
-    - name: "Vue d’ensemble du centre d’administration Microsoft\_365"
+    - name: Vue d’ensemble du centre d’administration Microsoft 365
       items:
         - name: Vue d’ensemble du centre d’administration
           href: ../business-video/admin-center-overview.md
@@ -64,13 +64,13 @@
           href: admin-overview/admin-mobile-app.md
         - name: Nouveautés du centre d’administration
           href: whats-new-in-preview.md
-        - name: "Effectuer une recherche dans le Centre d’administration Microsoft\_365"
+        - name: Effectuer une recherche dans le Centre d’administration Microsoft 365
           href: manage/search-in-the-mac.md
         - name: Rester informé des modifications
           href: manage/stay-on-top-of-updates.md
         - name: Gérer plusieurs clients
           href: multi-tenant/manage.md
-    - name: "Office\_365 géré par 21Vianet"
+    - name: Office 365 géré par 21Vianet
       items:
         - name: À propos d’Office 365 géré par 21Vianet
           href: services-in-china/services-in-china.md
@@ -117,13 +117,13 @@
           items:
             - name: Vue d’ensemble
               href: add-users/remove-former-employee.md
-            - name: "Étape\_1\_: empêcher un employé de se connecter et bloquer l’accès aux services Microsoft 365"
+            - name: 'Étape 1 : empêcher un employé de se connecter et bloquer l’accès aux services Microsoft 365'
               href: add-users/remove-former-employee-step-1.md
             - name: 'Étape 2 : Enregistrer le contenu de la boîte aux lettres d''un ancien employé'
               href: add-users/remove-former-employee-step-2.md
             - name: 'Étape 3 : Transférer l''e-mail d''un ancien employé à un autre employé ou le convertir en boîte aux lettres partagée'
               href: add-users/remove-former-employee-step-3.md
-            - name: "Étape\_4\_: accorder à un autre employé l’accès aux données OneDrive et Outlook"
+            - name: 'Étape 4 : accorder à un autre employé l’accès aux données OneDrive et Outlook'
               href: add-users/remove-former-employee-step-4.md
             - name: 'Étape 5 : Effacer et bloquer l''appareil mobile d''un ancien employé'
               href: add-users/remove-former-employee-step-5.md
@@ -211,7 +211,7 @@
           href: get-help-with-domains/remove-a-domain.md
         - name: Transférer un domaine de Microsoft 365 vers un autre hôte
           href: get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host.md
-        - name: "Piloter Microsoft\_365 depuis mon domaine personnalisé"
+        - name: Piloter Microsoft 365 depuis mon domaine personnalisé
           href: misc/pilot-microsoft-365-from-my-custom-domain.md
         - name: Forum aux questions sur les domaines
           href: setup/domains-faq.yml
@@ -226,7 +226,7 @@
     - name: Gérer vos données et vos services
       href: manage/index.yml
       items:
-        - name: "Surveiller l’activité de Microsoft\_365 à l’aide des rapports"
+        - name: Surveiller l’activité de Microsoft 365 à l’aide des rapports
           href: activity-reports/activity-reports.md
         - name: Niveau de productivité Microsoft – vue d’ensemble
           href: productivity/productivity-score.md
@@ -241,7 +241,7 @@
               href: productivity/teamwork.md
             - name: Réunions
               href: productivity/meetings.md
-            - name: "Intégrité des Applications Microsoft\_365"
+            - name: Intégrité des Applications Microsoft 365
               href: productivity/apps-health.md
             - name: Analyse des points de terminaison
               href: /mem/analytics/productivity-score
@@ -255,7 +255,7 @@
           href: manage/pin-apps-to-app-launcher.md
         - name: Mettre à niveau les utilisateurs vers les applications les plus récentes
           href: setup/upgrade-users-to-latest-office-client.md
-        - name: "Tester et déployer les applications Microsoft\_365 dans le Centre d’administration Microsoft\_365"
+        - name: Tester et déployer les applications Microsoft 365 dans le Centre d’administration Microsoft 365
           href: manage/test-and-deploy-microsoft-365-apps.md
         - name: Déploiement centralisé des compléments
           items:
@@ -269,7 +269,7 @@
               href: manage/centralized-deployment-faq.md
         - name: Gérer les actualités de l’industrie
           href: manage/manage-industry-news.md
-        - name: "Gérer les paramètres de Office\_Scripts"
+        - name: Gérer les paramètres de Office Scripts
           href: manage/manage-office-scripts-settings.md
         - name: Rechercher un partenaire ou un revendeur
           href: manage/find-your-partner-or-reseller.md
@@ -301,17 +301,17 @@
       href: ../commerce/index.yml
     - name: Sécuriser votre organisation
       items:
-        - name: "10\_principales façons de sécuriser vos données"
+        - name: 10 principales façons de sécuriser vos données
           href: security-and-compliance/secure-your-business-data.md
-        - name: "Multi-Factor Authentication pour Microsoft\_365"
+        - name: Multi-Factor Authentication pour Microsoft 365
           href: security-and-compliance/multi-factor-authentication-microsoft-365.md
         - name: Configurer Multi-factor Authentification (MFA)
           href: security-and-compliance/set-up-multi-factor-authentication.md
         - name: Gérer et surveiller les comptes de priorité
           href: setup/priority-accounts.md
-        - name: "Activer l’authentification moderne pour Office\_2013"
+        - name: Activer l’authentification moderne pour Office 2013
           href: security-and-compliance/enable-modern-authentication.md
-        - name: "Sécuriser Microsoft\_365 Business Premium"
+        - name: Sécuriser Microsoft 365 Business Premium
           items:
             - name: Conditions préalables pour la protection des données
               href: ../business/pre-requisites-for-data-protection.md
@@ -326,7 +326,7 @@
             - name: Configurer les fonctionnalités de conformité
               href: ../business/set-up-compliance.md
         - name: Niveau de sécurité
-          href: 'https://docs.microsoft.com/microsoft-365/security/defender/microsoft-secure-score'
+          href: /microsoft-365/security/defender/microsoft-secure-score
         - name: Guide de la conformité avec le RGPD
           href: security-and-compliance/gdpr-compliance.md
     - name: Gérer les données des appareils et des applications.
@@ -334,9 +334,9 @@
       items:
         - name: Méthodes de protection des données des appareils et des applications
           href: devices/choose-device-security.md
-        - name: "Documentation Microsoft\_Intune"
+        - name: Documentation Microsoft Intune
           href: /mem/intune/
-        - name: "Microsoft\_365 Business Premium"
+        - name: Microsoft 365 Business Premium
           items:
             - name: Affichage et modification des stratégies et des appareils
               href: ../business/view-policies-and-devices.md
@@ -348,7 +348,7 @@
               href: ../business/map-protection-features-to-intune-settings.md
             - name: États des appareils
               href: ../business/device-states.md
-            - name: "Paramètres de protection des applications pour les PC Windows\_10"
+            - name: Paramètres de protection des applications pour les PC Windows 10
               href: ../business/protection-settings-for-windows-10-devices.md
             - name: Définir les paramètres de protection des applications pour Android et iOS
               href: ../business/app-protection-settings-for-android-and-ios.md
@@ -358,7 +358,7 @@
             - name: Modifier ou créer les paramètres de protection des appareils pour les PC Windows 10
               href: ../business/protection-settings-for-windows-10-pcs.md
               items:
-                - name: "Validation des paramètres sur les PC Windows\_10"
+                - name: Validation des paramètres sur les PC Windows 10
                   href: ../business/validate-settings-on-windows-10-pcs.md
             - name: Autopilot
               items:
@@ -370,17 +370,17 @@
                   href: ../business/create-and-edit-autopilot-devices.md
                 - name: Paramètres du profil AutoPilot
                   href: ../business/autopilot-profile-settings.md
-        - name: "Documentation Microsoft\_365 Entreprise"
+        - name: Documentation Microsoft 365 Entreprise
           href: ../enterprise/index.yml
-        - name: "Mobility\_+\_Security de Base"
+        - name: Mobility + Security de Base
           items:
-            - name: "Vue d’ensemble de la fonction Mobility\_+\_Security de Base"
+            - name: Vue d’ensemble de la fonction Mobility + Security de Base
               href: basic-mobility-security/overview.md
-            - name: "Comparez la fonction Mobility\_+\_Security de Base et Intune"
+            - name: Comparez la fonction Mobility + Security de Base et Intune
               href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
-            - name: "Fonctionnalités Mobility\_+\_Security de Base"
+            - name: Fonctionnalités Mobility + Security de Base
               href: basic-mobility-security/capabilities.md
-            - name: "Configurer Mobility\_+\_Security"
+            - name: Configurer Mobility + Security
               href: basic-mobility-security/set-up.md
             - name: Créer des stratégies de sécurité d’appareils
               href: basic-mobility-security/create-device-security-policies.md
@@ -400,7 +400,7 @@
               href: basic-mobility-security/frequently-asked-questions.md
             - name: Effacer des appareils mobiles
               href: basic-mobility-security/wipe-mobile-device.md
-            - name: "Désactiver l’option Mobility\_et\_Security de base"
+            - name: Désactiver l’option Mobility et Security de base
               href: basic-mobility-security/turn-off.md
             - name: Résoudre des problèmes
               href: basic-mobility-security/troubleshoot.md

@@ -242,6 +242,8 @@
 
 ### [Appareils de réseau](network-devices.md)
 
+### [Création de rapports de pare-feu d’hôte dans Microsoft Defender pour point de terminaison](host-firewall-reporting.md)
+
 ### [Réduction de la surface d’attaque]()
 #### [Vue d’ensemble de la réduction de la surface d'attaque](overview-attack-surface-reduction.md)
 #### [Configurer les fonctionnalités de la réduction de la surface d’attaque](configure-attack-surface-reduction.md)
@@ -278,6 +280,8 @@
 #### [Obtenir votre antivirus et vos mises à jour anti-programmes malveillants](manage-updates-baselines-microsoft-defender-antivirus.md)
 ##### [Gérer les sources des mises à jour de la protection antivirus Microsoft Defender](manage-protection-updates-microsoft-defender-antivirus.md)
 ##### [Gérer le calendrier de téléchargement et d’application des mises à jour de protection](manage-protection-update-schedule-microsoft-defender-antivirus.md)
+#####  [Gérer le processus de déploiement progressif pour les mises à jour Microsoft Defender](updates.md)
+#####  [Configurer le processus de déploiement progressif pour les mises à jour de Microsoft Defender](configure-updates.md)
 ##### [Gérer les mises à jour de l'antivirus Microsoft Defender et les analyses des points de terminaison qui ne sont pas à jour](manage-outdated-endpoints-microsoft-defender-antivirus.md)
 ##### [Gérer les mises à jour forcées en fonction des événements](manage-event-based-updates-microsoft-defender-antivirus.md)
 ##### [Gérer les mises à jour pour les appareils mobiles et les machines virtuelles](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
@@ -351,6 +355,7 @@
 ##### [Contrôler les périphériques USB](control-usb-devices-using-intune.md)
 ##### [Protection de stockage amovible](device-control-removable-storage-protection.md)
 ##### [Contrôle d’accès au stockage amovible](device-control-removable-storage-access-control.md)
+##### [Protection de l’Imprimante de Contrôle d’Appareil](printer-protection.md)
 
 #### [Blocage et confinement comportementaux]()
 ##### [Blocage et confinement comportementaux](behavioral-blocking-containment.md)

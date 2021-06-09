@@ -21,63 +21,64 @@ search.appverid:
 - MET150
 - MOE150
 description: 'Supprimez une licence d’une boîte aux lettres partagée pour l’affecter à un autre utilisateur ou renvoyez la licence afin que vous ne payiez pas pour elle. '
-ms.openlocfilehash: d33487879506402c5f0de2f7942c3299c5698b73
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.date: 05/11/2021
+ms.openlocfilehash: dd2d99d762a4a68a9b0400353d64dabb536a891c
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706285"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821427"
 ---
-# <a name="remove-a-license-from-a-shared-mailbox"></a><span data-ttu-id="ad48c-103">Supprimer une licence d’une boîte aux lettres partagée</span><span class="sxs-lookup"><span data-stu-id="ad48c-103">Remove a license from a shared mailbox</span></span>
+# <a name="remove-a-license-from-a-shared-mailbox"></a><span data-ttu-id="9d002-103">Supprimer une licence d’une boîte aux lettres partagée</span><span class="sxs-lookup"><span data-stu-id="9d002-103">Remove a license from a shared mailbox</span></span>
 
-<span data-ttu-id="ad48c-104">Les boîtes aux lettres partagées ne nécessitent généralement pas de licence.</span><span class="sxs-lookup"><span data-stu-id="ad48c-104">Shared mailboxes usually don't require a license.</span></span> <span data-ttu-id="ad48c-105">Suivez ces instructions pour supprimer une licence d’une boîte aux lettres partagée afin de pouvoir l’attribuer à un utilisateur ou renvoyer la licence afin de ne pas payer pour une licence dont vous n’avez pas besoin.</span><span class="sxs-lookup"><span data-stu-id="ad48c-105">Follow these instructions to remove a license from a shared mailbox so that you can either assign it to a user or return the license so that you aren't paying for a license you don't need.</span></span>
+<span data-ttu-id="9d002-104">Les boîtes aux lettres partagées ne nécessitent généralement pas de licence.</span><span class="sxs-lookup"><span data-stu-id="9d002-104">Shared mailboxes usually don't require a license.</span></span> <span data-ttu-id="9d002-105">Suivez ces instructions pour supprimer une licence d’une boîte aux lettres partagée afin de pouvoir l’attribuer à un utilisateur ou renvoyer la licence afin de ne pas payer pour une licence dont vous n’avez pas besoin.</span><span class="sxs-lookup"><span data-stu-id="9d002-105">Follow these instructions to remove a license from a shared mailbox so that you can either assign it to a user or return the license so that you aren't paying for a license you don't need.</span></span>
 
 > [!NOTE]
 >
-> <span data-ttu-id="ad48c-106">Une licence est requise dans les scénarios suivants :</span><span class="sxs-lookup"><span data-stu-id="ad48c-106">A license is required in the following scenarios:</span></span>
+> <span data-ttu-id="9d002-106">Une licence est requise dans les scénarios suivants :</span><span class="sxs-lookup"><span data-stu-id="9d002-106">A license is required in the following scenarios:</span></span>
 >
-> 1. <span data-ttu-id="ad48c-107">La boîte aux lettres partagée utilise plus de 50 Go de stockage.</span><span class="sxs-lookup"><span data-stu-id="ad48c-107">The shared mailbox has more than 50 GB of storage in use.</span></span>
-> 2. <span data-ttu-id="ad48c-108">La boîte aux lettres partagée utilise l’archivage sur place.</span><span class="sxs-lookup"><span data-stu-id="ad48c-108">The shared mailbox uses in-place archiving.</span></span>
-> 3. <span data-ttu-id="ad48c-109">La boîte aux lettres partagée est placée en attente pour litige.</span><span class="sxs-lookup"><span data-stu-id="ad48c-109">The shared mailbox is placed in litigation hold.</span></span>
-> 4. <span data-ttu-id="ad48c-110">Une licence Microsoft Defender est attribuée à la boîte aux lettres partagée.</span><span class="sxs-lookup"><span data-stu-id="ad48c-110">The shared mailbox has a Microsoft Defender license assigned.</span></span>
+> 1. <span data-ttu-id="9d002-107">La boîte aux lettres partagée utilise plus de 50 Go de stockage.</span><span class="sxs-lookup"><span data-stu-id="9d002-107">The shared mailbox has more than 50 GB of storage in use.</span></span>
+> 2. <span data-ttu-id="9d002-108">La boîte aux lettres partagée utilise l’archivage sur place.</span><span class="sxs-lookup"><span data-stu-id="9d002-108">The shared mailbox uses in-place archiving.</span></span>
+> 3. <span data-ttu-id="9d002-109">La boîte aux lettres partagée est placée en attente pour litige.</span><span class="sxs-lookup"><span data-stu-id="9d002-109">The shared mailbox is placed in litigation hold.</span></span>
+> 4. <span data-ttu-id="9d002-110">Une licence Microsoft Defender est attribuée à la boîte aux lettres partagée.</span><span class="sxs-lookup"><span data-stu-id="9d002-110">The shared mailbox has a Microsoft Defender license assigned.</span></span>
 
-## <a name="remove-the-license"></a><span data-ttu-id="ad48c-111">Supprimer la licence</span><span class="sxs-lookup"><span data-stu-id="ad48c-111">Remove the license</span></span>
+## <a name="remove-the-license"></a><span data-ttu-id="9d002-111">Supprimer la licence</span><span class="sxs-lookup"><span data-stu-id="9d002-111">Remove the license</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="ad48c-112">Dans le Centre d’administration, accédez à la page **Utilisateurs** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Utilisateurs actifs</a>.</span><span class="sxs-lookup"><span data-stu-id="ad48c-112">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
+1. <span data-ttu-id="9d002-112">Dans le Centre d’administration, accédez à la page **Utilisateurs** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Utilisateurs actifs</a>.</span><span class="sxs-lookup"><span data-stu-id="9d002-112">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- 1. <span data-ttu-id="ad48c-113">Dans le Centre d’administration, accédez à la page **Utilisateurs** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Utilisateurs actifs</a>.</span><span class="sxs-lookup"><span data-stu-id="ad48c-113">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>
+ 1. <span data-ttu-id="9d002-113">Dans le Centre d’administration, accédez à la page **Utilisateurs** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Utilisateurs actifs</a>.</span><span class="sxs-lookup"><span data-stu-id="9d002-113">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- 1. <span data-ttu-id="ad48c-114">Dans le Centre d’administration, accédez à la page **Utilisateurs** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Utilisateurs actifs</a>.</span><span class="sxs-lookup"><span data-stu-id="ad48c-114">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span>
+ 1. <span data-ttu-id="9d002-114">Dans le Centre d’administration, accédez à la page **Utilisateurs** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Utilisateurs actifs</a>.</span><span class="sxs-lookup"><span data-stu-id="9d002-114">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span>
 
 ::: moniker-end
 
    > [!NOTE]
-   > <span data-ttu-id="ad48c-115">Vous devez supprimer la licence de la page Utilisateurs actifs.</span><span class="sxs-lookup"><span data-stu-id="ad48c-115">You need to remove the license from the Active users page.</span></span> <span data-ttu-id="ad48c-116">Vous ne pouvez pas supprimer la licence de la page de boîte aux lettres partagée, car les licences sont des paramètres utilisateur.</span><span class="sxs-lookup"><span data-stu-id="ad48c-116">You can't remove the license from the Shared mailbox page because licenses are user settings.</span></span>
+   > <span data-ttu-id="9d002-115">Vous devez supprimer la licence de la page Utilisateurs actifs.</span><span class="sxs-lookup"><span data-stu-id="9d002-115">You need to remove the license from the Active users page.</span></span> <span data-ttu-id="9d002-116">Vous ne pouvez pas supprimer la licence de la page de boîte aux lettres partagée, car les licences sont des paramètres utilisateur.</span><span class="sxs-lookup"><span data-stu-id="9d002-116">You can't remove the license from the Shared mailbox page because licenses are user settings.</span></span>
   
-2. <span data-ttu-id="ad48c-117">Sélectionnez la boîte aux lettres partagée.</span><span class="sxs-lookup"><span data-stu-id="ad48c-117">Select the shared mailbox.</span></span>
+2. <span data-ttu-id="9d002-117">Sélectionnez la boîte aux lettres partagée.</span><span class="sxs-lookup"><span data-stu-id="9d002-117">Select the shared mailbox.</span></span>
 
-3. <span data-ttu-id="ad48c-118">Un des **onglets Licences et** applications, développez **Licences** et décochez la case pour la licence que vous souhaitez supprimer.</span><span class="sxs-lookup"><span data-stu-id="ad48c-118">One the **Licenses and Apps** tab, expand **Licenses** and uncheck the box for the license you want to remove.</span></span>
+3. <span data-ttu-id="9d002-118">Un des **onglets Licences et applications,** développez **Licences** et décochez la case pour la licence que vous souhaitez supprimer.</span><span class="sxs-lookup"><span data-stu-id="9d002-118">One the **Licenses and Apps** tab, expand **Licenses** and uncheck the box for the license you want to remove.</span></span>
 
-4. <span data-ttu-id="ad48c-119">Sélectionnez **Enregistrer les modifications**.</span><span class="sxs-lookup"><span data-stu-id="ad48c-119">Select **Save changes**.</span></span>
+4. <span data-ttu-id="9d002-119">Sélectionnez **Enregistrer les modifications**.</span><span class="sxs-lookup"><span data-stu-id="9d002-119">Select **Save changes**.</span></span>
 
-5. <span data-ttu-id="ad48c-120">Lorsque vous revenirez à la page **Utilisateurs** actifs, l’état de la boîte aux lettres partagée sera **sans permis.**</span><span class="sxs-lookup"><span data-stu-id="ad48c-120">When you return to the **Active users** page, the status of the shared mailbox will be **Unlicensed**.</span></span>
+5. <span data-ttu-id="9d002-120">Lorsque vous revenirez à la page **Utilisateurs** actifs, l’état de la boîte aux lettres partagée sera **sans permis.**</span><span class="sxs-lookup"><span data-stu-id="9d002-120">When you return to the **Active users** page, the status of the shared mailbox will be **Unlicensed**.</span></span>
 
-6. <span data-ttu-id="ad48c-121">Vous payez toujours pour la licence.</span><span class="sxs-lookup"><span data-stu-id="ad48c-121">You're still paying for the license.</span></span> <span data-ttu-id="ad48c-122">Pour arrêter de payer, [supprimez la licence de votre abonnement.](../../commerce/licenses/buy-licenses.md)</span><span class="sxs-lookup"><span data-stu-id="ad48c-122">To stop paying for it, [remove the license from your subscription](../../commerce/licenses/buy-licenses.md).</span></span>
+6. <span data-ttu-id="9d002-121">Vous payez toujours pour la licence.</span><span class="sxs-lookup"><span data-stu-id="9d002-121">You're still paying for the license.</span></span> <span data-ttu-id="9d002-122">Pour arrêter de payer, [supprimez la licence de votre abonnement.](../../commerce/licenses/buy-licenses.md)</span><span class="sxs-lookup"><span data-stu-id="9d002-122">To stop paying for it, [remove the license from your subscription](../../commerce/licenses/buy-licenses.md).</span></span>
 
-## <a name="related-content"></a><span data-ttu-id="ad48c-123">Contenu associé</span><span class="sxs-lookup"><span data-stu-id="ad48c-123">Related content</span></span>
+## <a name="related-content"></a><span data-ttu-id="9d002-123">Contenu associé</span><span class="sxs-lookup"><span data-stu-id="9d002-123">Related content</span></span>
 
-<span data-ttu-id="ad48c-124">[À propos des boîtes aux lettres partagées](about-shared-mailboxes.md) (article)</span><span class="sxs-lookup"><span data-stu-id="ad48c-124">[About shared mailboxes](about-shared-mailboxes.md) (article)</span></span>\
-<span data-ttu-id="ad48c-125">[Créer une boîte aux lettres partagée](create-a-shared-mailbox.md) (article)</span><span class="sxs-lookup"><span data-stu-id="ad48c-125">[Create a shared mailbox](create-a-shared-mailbox.md) (article)</span></span>\
-<span data-ttu-id="ad48c-126">[Configurer une boîte aux lettres partagée](configure-a-shared-mailbox.md) (article)</span><span class="sxs-lookup"><span data-stu-id="ad48c-126">[Configure a shared mailbox](configure-a-shared-mailbox.md) (article)</span></span>\
-<span data-ttu-id="ad48c-127">[Convertir une boîte aux lettres utilisateur en boîte aux lettres partagée](convert-user-mailbox-to-shared-mailbox.md) (article)</span><span class="sxs-lookup"><span data-stu-id="ad48c-127">[Convert a user mailbox to a shared mailbox](convert-user-mailbox-to-shared-mailbox.md) (article)</span></span>\
-<span data-ttu-id="ad48c-128">[Résoudre les problèmes liés aux boîtes aux lettres partagées](resolve-issues-with-shared-mailboxes.md) (article)</span><span class="sxs-lookup"><span data-stu-id="ad48c-128">[Resolve issues with shared mailboxes](resolve-issues-with-shared-mailboxes.md) (article)</span></span>
+<span data-ttu-id="9d002-124">[À propos des boîtes aux lettres partagées](about-shared-mailboxes.md) (article)</span><span class="sxs-lookup"><span data-stu-id="9d002-124">[About shared mailboxes](about-shared-mailboxes.md) (article)</span></span>\
+<span data-ttu-id="9d002-125">[Créer une boîte aux lettres partagée](create-a-shared-mailbox.md) (article)</span><span class="sxs-lookup"><span data-stu-id="9d002-125">[Create a shared mailbox](create-a-shared-mailbox.md) (article)</span></span>\
+<span data-ttu-id="9d002-126">[Configurer une boîte aux lettres partagée](configure-a-shared-mailbox.md) (article)</span><span class="sxs-lookup"><span data-stu-id="9d002-126">[Configure a shared mailbox](configure-a-shared-mailbox.md) (article)</span></span>\
+<span data-ttu-id="9d002-127">[Convertir une boîte aux lettres utilisateur en boîte aux lettres partagée](convert-user-mailbox-to-shared-mailbox.md) (article)</span><span class="sxs-lookup"><span data-stu-id="9d002-127">[Convert a user mailbox to a shared mailbox](convert-user-mailbox-to-shared-mailbox.md) (article)</span></span>\
+<span data-ttu-id="9d002-128">[Résoudre les problèmes liés aux boîtes aux lettres partagées](resolve-issues-with-shared-mailboxes.md) (article)</span><span class="sxs-lookup"><span data-stu-id="9d002-128">[Resolve issues with shared mailboxes](resolve-issues-with-shared-mailboxes.md) (article)</span></span>
