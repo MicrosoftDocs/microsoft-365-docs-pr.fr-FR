@@ -13,7 +13,7 @@ metadata:
   ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
   ms.custom:
   - seo-marvel-apr2020
-  description: Les administrateurs peuvent afficher les questions fréquemment posées et les réponses sur les tâches d’administration déléguées dans Microsoft 365 pour les partenaires et revendeurs Microsoft.
+  description: Les administrateurs peuvent consulter les questions fréquemment posées et les réponses sur les tâches d’administration déléguées dans Microsoft 365 pour les partenaires et revendeurs Microsoft.
   ms.technology: mdo
   ms.prod: m365-security
   ms.openlocfilehash: b62c1d53d4b2a482aeb91cea147ed9feaa4027c4
@@ -50,7 +50,7 @@ sections:
       3. Créez le compte d’administrateur délégué à l’aide des étapes de [l’étape Ajouter, modifier ou supprimer un partenaire conseiller en abonnement.](../../admin/misc/add-partner.md)
 
 
-      Visitez [les partenaires : développez votre entreprise et administrez](https://support.microsoft.com/office/30dd1681-47e0-4cbc-abfe-a222cd111319) l’abonnement des partenaires pour plus d’informations sur la façon de configurer l’administration déléguée.
+      Visitez [les partenaires : développez votre entreprise et administrez](https://support.microsoft.com/office/30dd1681-47e0-4cbc-abfe-a222cd111319) un abonnement partenaire pour plus d’informations sur la façon de configurer l’administration déléguée.
   - question: >
       Je suis un client, pas un revendeur. Comment configurer un administrateur délégué pour mes sous-clients ?
     answer: >
