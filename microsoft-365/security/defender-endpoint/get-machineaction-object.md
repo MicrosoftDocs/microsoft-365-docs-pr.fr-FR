@@ -23,72 +23,72 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 06/04/2021
 ms.locfileid: "52770780"
 ---
-# <a name="get-machineaction-api"></a><span data-ttu-id="9412a-104">API Obtenir machineAction</span><span class="sxs-lookup"><span data-stu-id="9412a-104">Get machineAction API</span></span>
+# <a name="get-machineaction-api"></a><span data-ttu-id="681ce-104">API Obtenir machineAction</span><span class="sxs-lookup"><span data-stu-id="681ce-104">Get machineAction API</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="9412a-105">**S’applique à :** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="9412a-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
+<span data-ttu-id="681ce-105">**S’applique à :** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="681ce-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
 
-- <span data-ttu-id="9412a-106">Vous souhaitez découvrir Microsoft Defender pour le point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="9412a-106">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="9412a-107">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="9412a-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- <span data-ttu-id="681ce-106">Vous souhaitez découvrir Microsoft Defender pour le point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="681ce-106">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="681ce-107">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="681ce-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 
-## <a name="api-description"></a><span data-ttu-id="9412a-108">Description de l’API</span><span class="sxs-lookup"><span data-stu-id="9412a-108">API description</span></span>
-<span data-ttu-id="9412a-109">Récupère [l’action de l’ordinateur spécifique](machineaction.md) par son ID.</span><span class="sxs-lookup"><span data-stu-id="9412a-109">Retrieves specific [Machine Action](machineaction.md) by its ID.</span></span>
+## <a name="api-description"></a><span data-ttu-id="681ce-108">Description de l’API</span><span class="sxs-lookup"><span data-stu-id="681ce-108">API description</span></span>
+<span data-ttu-id="681ce-109">Récupère [l’action de l’ordinateur spécifique](machineaction.md) par son ID.</span><span class="sxs-lookup"><span data-stu-id="681ce-109">Retrieves specific [Machine Action](machineaction.md) by its ID.</span></span>
 
 
-## <a name="limitations"></a><span data-ttu-id="9412a-110">Limitations</span><span class="sxs-lookup"><span data-stu-id="9412a-110">Limitations</span></span>
-1. <span data-ttu-id="9412a-111">Les limites de taux pour cette API sont de 100 appels par minute et de 1 500 appels par heure.</span><span class="sxs-lookup"><span data-stu-id="9412a-111">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
+## <a name="limitations"></a><span data-ttu-id="681ce-110">Limites</span><span class="sxs-lookup"><span data-stu-id="681ce-110">Limitations</span></span>
+1. <span data-ttu-id="681ce-111">Les limites de taux pour cette API sont de 100 appels par minute et de 1 500 appels par heure.</span><span class="sxs-lookup"><span data-stu-id="681ce-111">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
 
 
-## <a name="permissions"></a><span data-ttu-id="9412a-112">Autorisations</span><span class="sxs-lookup"><span data-stu-id="9412a-112">Permissions</span></span>
-<span data-ttu-id="9412a-113">L’une des autorisations suivantes est nécessaire pour appeler cette API.</span><span class="sxs-lookup"><span data-stu-id="9412a-113">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="9412a-114">Pour en savoir plus, notamment sur le choix des autorisations, voir [Utiliser Defender pour les API de point de terminaison](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="9412a-114">To learn more, including how to choose permissions, see [Use Defender for Endpoint APIs](apis-intro.md)</span></span>
+## <a name="permissions"></a><span data-ttu-id="681ce-112">Autorisations</span><span class="sxs-lookup"><span data-stu-id="681ce-112">Permissions</span></span>
+<span data-ttu-id="681ce-113">L’une des autorisations suivantes est nécessaire pour appeler cette API.</span><span class="sxs-lookup"><span data-stu-id="681ce-113">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="681ce-114">Pour en savoir plus, notamment sur le choix des autorisations, voir [Utiliser Defender pour les API de point de terminaison](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="681ce-114">To learn more, including how to choose permissions, see [Use Defender for Endpoint APIs](apis-intro.md)</span></span>
 
-<span data-ttu-id="9412a-115">Type d’autorisation</span><span class="sxs-lookup"><span data-stu-id="9412a-115">Permission type</span></span> |   <span data-ttu-id="9412a-116">Autorisation</span><span class="sxs-lookup"><span data-stu-id="9412a-116">Permission</span></span>  |   <span data-ttu-id="9412a-117">Nom d’affichage de l’autorisation</span><span class="sxs-lookup"><span data-stu-id="9412a-117">Permission display name</span></span>
+<span data-ttu-id="681ce-115">Type d’autorisation</span><span class="sxs-lookup"><span data-stu-id="681ce-115">Permission type</span></span> |   <span data-ttu-id="681ce-116">Autorisation</span><span class="sxs-lookup"><span data-stu-id="681ce-116">Permission</span></span>  |   <span data-ttu-id="681ce-117">Nom d’affichage de l’autorisation</span><span class="sxs-lookup"><span data-stu-id="681ce-117">Permission display name</span></span>
 :---|:---|:---
-<span data-ttu-id="9412a-118">Application</span><span class="sxs-lookup"><span data-stu-id="9412a-118">Application</span></span> |   <span data-ttu-id="9412a-119">Machine.Read.All</span><span class="sxs-lookup"><span data-stu-id="9412a-119">Machine.Read.All</span></span> |  <span data-ttu-id="9412a-120">« Lire tous les profils d’ordinateur »</span><span class="sxs-lookup"><span data-stu-id="9412a-120">'Read all machine profiles'</span></span>
-<span data-ttu-id="9412a-121">Application</span><span class="sxs-lookup"><span data-stu-id="9412a-121">Application</span></span> |   <span data-ttu-id="9412a-122">Machine.ReadWrite.All</span><span class="sxs-lookup"><span data-stu-id="9412a-122">Machine.ReadWrite.All</span></span> | <span data-ttu-id="9412a-123">« Lire et écrire toutes les informations sur l’ordinateur »</span><span class="sxs-lookup"><span data-stu-id="9412a-123">'Read and write all machine information'</span></span>
-<span data-ttu-id="9412a-124">Déléguée (compte professionnel ou scolaire)</span><span class="sxs-lookup"><span data-stu-id="9412a-124">Delegated (work or school account)</span></span> | <span data-ttu-id="9412a-125">Machine.Read</span><span class="sxs-lookup"><span data-stu-id="9412a-125">Machine.Read</span></span> | <span data-ttu-id="9412a-126">« Lire les informations sur l’ordinateur »</span><span class="sxs-lookup"><span data-stu-id="9412a-126">'Read machine information'</span></span>
-<span data-ttu-id="9412a-127">Déléguée (compte professionnel ou scolaire)</span><span class="sxs-lookup"><span data-stu-id="9412a-127">Delegated (work or school account)</span></span> | <span data-ttu-id="9412a-128">Machine.ReadWrite</span><span class="sxs-lookup"><span data-stu-id="9412a-128">Machine.ReadWrite</span></span> | <span data-ttu-id="9412a-129">« Lire et écrire des informations sur l’ordinateur »</span><span class="sxs-lookup"><span data-stu-id="9412a-129">'Read and write machine information'</span></span>
+<span data-ttu-id="681ce-118">Application</span><span class="sxs-lookup"><span data-stu-id="681ce-118">Application</span></span> |   <span data-ttu-id="681ce-119">Machine.Read.All</span><span class="sxs-lookup"><span data-stu-id="681ce-119">Machine.Read.All</span></span> |  <span data-ttu-id="681ce-120">« Lire tous les profils d’ordinateur »</span><span class="sxs-lookup"><span data-stu-id="681ce-120">'Read all machine profiles'</span></span>
+<span data-ttu-id="681ce-121">Application</span><span class="sxs-lookup"><span data-stu-id="681ce-121">Application</span></span> |   <span data-ttu-id="681ce-122">Machine.ReadWrite.All</span><span class="sxs-lookup"><span data-stu-id="681ce-122">Machine.ReadWrite.All</span></span> | <span data-ttu-id="681ce-123">« Lire et écrire toutes les informations sur l’ordinateur »</span><span class="sxs-lookup"><span data-stu-id="681ce-123">'Read and write all machine information'</span></span>
+<span data-ttu-id="681ce-124">Déléguée (compte professionnel ou scolaire)</span><span class="sxs-lookup"><span data-stu-id="681ce-124">Delegated (work or school account)</span></span> | <span data-ttu-id="681ce-125">Machine.Read</span><span class="sxs-lookup"><span data-stu-id="681ce-125">Machine.Read</span></span> | <span data-ttu-id="681ce-126">« Lire les informations sur l’ordinateur »</span><span class="sxs-lookup"><span data-stu-id="681ce-126">'Read machine information'</span></span>
+<span data-ttu-id="681ce-127">Déléguée (compte professionnel ou scolaire)</span><span class="sxs-lookup"><span data-stu-id="681ce-127">Delegated (work or school account)</span></span> | <span data-ttu-id="681ce-128">Machine.ReadWrite</span><span class="sxs-lookup"><span data-stu-id="681ce-128">Machine.ReadWrite</span></span> | <span data-ttu-id="681ce-129">« Lire et écrire des informations sur l’ordinateur »</span><span class="sxs-lookup"><span data-stu-id="681ce-129">'Read and write machine information'</span></span>
 
 >[!Note]
-> <span data-ttu-id="9412a-130">Lors de l’obtention d’un jeton à l’aide des informations d’identification de l’utilisateur :</span><span class="sxs-lookup"><span data-stu-id="9412a-130">When obtaining a token using user credentials:</span></span>
->- <span data-ttu-id="9412a-131">L’utilisateur doit avoir au moins l’autorisation de rôle suivante : « Afficher les données » (voir Créer et gérer des rôles [pour](user-roles.md) plus d’informations)</span><span class="sxs-lookup"><span data-stu-id="9412a-131">The user needs to have at least the following role permission: 'View Data' (See [Create and manage roles](user-roles.md) for more information)</span></span>
+> <span data-ttu-id="681ce-130">Lors de l’obtention d’un jeton à l’aide des informations d’identification de l’utilisateur :</span><span class="sxs-lookup"><span data-stu-id="681ce-130">When obtaining a token using user credentials:</span></span>
+>- <span data-ttu-id="681ce-131">L’utilisateur doit avoir au moins l’autorisation de rôle suivante : « Afficher les données » (voir Créer et gérer des rôles [pour](user-roles.md) plus d’informations)</span><span class="sxs-lookup"><span data-stu-id="681ce-131">The user needs to have at least the following role permission: 'View Data' (See [Create and manage roles](user-roles.md) for more information)</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="9412a-132">Requête HTTP</span><span class="sxs-lookup"><span data-stu-id="9412a-132">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="681ce-132">Requête HTTP</span><span class="sxs-lookup"><span data-stu-id="681ce-132">HTTP request</span></span>
 ```
 GET https://api.securitycenter.microsoft.com/api/machineactions/{id}
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="9412a-133">En-têtes de demande</span><span class="sxs-lookup"><span data-stu-id="9412a-133">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="681ce-133">En-têtes de demande</span><span class="sxs-lookup"><span data-stu-id="681ce-133">Request headers</span></span>
 
-<span data-ttu-id="9412a-134">Nom</span><span class="sxs-lookup"><span data-stu-id="9412a-134">Name</span></span> | <span data-ttu-id="9412a-135">Type</span><span class="sxs-lookup"><span data-stu-id="9412a-135">Type</span></span> | <span data-ttu-id="9412a-136">Description</span><span class="sxs-lookup"><span data-stu-id="9412a-136">Description</span></span>
+<span data-ttu-id="681ce-134">Nom</span><span class="sxs-lookup"><span data-stu-id="681ce-134">Name</span></span> | <span data-ttu-id="681ce-135">Type</span><span class="sxs-lookup"><span data-stu-id="681ce-135">Type</span></span> | <span data-ttu-id="681ce-136">Description</span><span class="sxs-lookup"><span data-stu-id="681ce-136">Description</span></span>
 :---|:---|:---
-<span data-ttu-id="9412a-137">Autorisation</span><span class="sxs-lookup"><span data-stu-id="9412a-137">Authorization</span></span> | <span data-ttu-id="9412a-138">String</span><span class="sxs-lookup"><span data-stu-id="9412a-138">String</span></span> | <span data-ttu-id="9412a-139">Porteur {token}.</span><span class="sxs-lookup"><span data-stu-id="9412a-139">Bearer {token}.</span></span> <span data-ttu-id="9412a-140">**Obligatoire**.</span><span class="sxs-lookup"><span data-stu-id="9412a-140">**Required**.</span></span>
+<span data-ttu-id="681ce-137">Autorisation</span><span class="sxs-lookup"><span data-stu-id="681ce-137">Authorization</span></span> | <span data-ttu-id="681ce-138">String</span><span class="sxs-lookup"><span data-stu-id="681ce-138">String</span></span> | <span data-ttu-id="681ce-139">Porteur {token}.</span><span class="sxs-lookup"><span data-stu-id="681ce-139">Bearer {token}.</span></span> <span data-ttu-id="681ce-140">**Obligatoire**.</span><span class="sxs-lookup"><span data-stu-id="681ce-140">**Required**.</span></span>
 
 
-## <a name="request-body"></a><span data-ttu-id="9412a-141">Corps de la demande</span><span class="sxs-lookup"><span data-stu-id="9412a-141">Request body</span></span>
-<span data-ttu-id="9412a-142">Vide</span><span class="sxs-lookup"><span data-stu-id="9412a-142">Empty</span></span>
+## <a name="request-body"></a><span data-ttu-id="681ce-141">Corps de la demande</span><span class="sxs-lookup"><span data-stu-id="681ce-141">Request body</span></span>
+<span data-ttu-id="681ce-142">Vide</span><span class="sxs-lookup"><span data-stu-id="681ce-142">Empty</span></span>
 
-## <a name="response"></a><span data-ttu-id="9412a-143">Réponse</span><span class="sxs-lookup"><span data-stu-id="9412a-143">Response</span></span>
-<span data-ttu-id="9412a-144">Si elle réussit, cette méthode renvoie le code de réponse 200, Ok avec une [entité Action](machineaction.md) de l’ordinateur.</span><span class="sxs-lookup"><span data-stu-id="9412a-144">If successful, this method returns 200, Ok response code with a [Machine Action](machineaction.md) entity.</span></span> <span data-ttu-id="9412a-145">Si l’entité d’action de l’ordinateur avec l’ID spécifié est in trouvée - 404 - In trouvé.</span><span class="sxs-lookup"><span data-stu-id="9412a-145">If machine action entity with the specified id was not found - 404 Not Found.</span></span>
+## <a name="response"></a><span data-ttu-id="681ce-143">Réponse</span><span class="sxs-lookup"><span data-stu-id="681ce-143">Response</span></span>
+<span data-ttu-id="681ce-144">Si elle réussit, cette méthode renvoie le code de réponse 200, Ok avec une [entité Action](machineaction.md) de l’ordinateur.</span><span class="sxs-lookup"><span data-stu-id="681ce-144">If successful, this method returns 200, Ok response code with a [Machine Action](machineaction.md) entity.</span></span> <span data-ttu-id="681ce-145">Si l’entité d’action de l’ordinateur avec l’ID spécifié est in trouvée - 404 - In trouvé.</span><span class="sxs-lookup"><span data-stu-id="681ce-145">If machine action entity with the specified id was not found - 404 Not Found.</span></span>
 
-## <a name="example"></a><span data-ttu-id="9412a-146">Exemple</span><span class="sxs-lookup"><span data-stu-id="9412a-146">Example</span></span>
+## <a name="example"></a><span data-ttu-id="681ce-146">Exemple</span><span class="sxs-lookup"><span data-stu-id="681ce-146">Example</span></span>
 
-<span data-ttu-id="9412a-147">**Demande**</span><span class="sxs-lookup"><span data-stu-id="9412a-147">**Request**</span></span>
+<span data-ttu-id="681ce-147">**Demande**</span><span class="sxs-lookup"><span data-stu-id="681ce-147">**Request**</span></span>
 
-<span data-ttu-id="9412a-148">Voici un exemple de demande.</span><span class="sxs-lookup"><span data-stu-id="9412a-148">Here is an example of the request.</span></span>
+<span data-ttu-id="681ce-148">Voici un exemple de demande.</span><span class="sxs-lookup"><span data-stu-id="681ce-148">Here is an example of the request.</span></span>
 
 ```
 GET https://api.securitycenter.microsoft.com/api/machineactions/2e9da30d-27f6-4208-81f2-9cd3d67893ba
 ```
 
-<span data-ttu-id="9412a-149">**Réponse**</span><span class="sxs-lookup"><span data-stu-id="9412a-149">**Response**</span></span>
+<span data-ttu-id="681ce-149">**Réponse**</span><span class="sxs-lookup"><span data-stu-id="681ce-149">**Response**</span></span>
 
-<span data-ttu-id="9412a-150">Voici un exemple de réponse.</span><span class="sxs-lookup"><span data-stu-id="9412a-150">Here is an example of the response.</span></span>
+<span data-ttu-id="681ce-150">Voici un exemple de réponse.</span><span class="sxs-lookup"><span data-stu-id="681ce-150">Here is an example of the response.</span></span>
 
 
 ```
