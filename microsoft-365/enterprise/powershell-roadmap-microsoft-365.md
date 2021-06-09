@@ -20,10 +20,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46689705"
 ---
-# <a name="powershell-roadmap-for-microsoft-365"></a><span data-ttu-id="2c910-103">Feuille de route PowerShell pour Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="2c910-103">PowerShell roadmap for Microsoft 365</span></span>
+# <a name="powershell-roadmap-for-microsoft-365"></a><span data-ttu-id="c4de6-103">Feuille de route PowerShell pour Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="c4de6-103">PowerShell roadmap for Microsoft 365</span></span>
 
-<span data-ttu-id="2c910-104">Contenu de feuille de route PowerShell</span><span class="sxs-lookup"><span data-stu-id="2c910-104">PowerShell roadmap content</span></span>
+<span data-ttu-id="c4de6-104">Contenu de feuille de route PowerShell</span><span class="sxs-lookup"><span data-stu-id="c4de6-104">PowerShell roadmap content</span></span>
 
-## <a name="next-step"></a><span data-ttu-id="2c910-105">Étape suivante</span><span class="sxs-lookup"><span data-stu-id="2c910-105">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="c4de6-105">Étape suivante</span><span class="sxs-lookup"><span data-stu-id="c4de6-105">Next step</span></span>
 
-<span data-ttu-id="2c910-106">À déterminer</span><span class="sxs-lookup"><span data-stu-id="2c910-106">TBD</span></span>
+<span data-ttu-id="c4de6-106">À déterminer</span><span class="sxs-lookup"><span data-stu-id="c4de6-106">TBD</span></span>

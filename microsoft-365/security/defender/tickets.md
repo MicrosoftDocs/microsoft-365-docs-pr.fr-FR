@@ -1,6 +1,6 @@
 ---
-title: Intégrer des tickets ServiceNow dans le Centre de sécurité et le Centre de conformité Microsoft 365
-description: Découvrez comment créer et suivre des tickets dans ServiceNow à partir du Centre de sécurité et du Centre de conformité Microsoft 365.
+title: Intégrer des tickets ServiceNow dans le centre de sécurité Microsoft 365 et le centre de conformité
+description: Découvrez comment créer et suivre des tickets dans ServiceNow à partir du centre de sécurité Microsoft 365 et du centre de conformité.
 keywords: sécurité, Microsoft 365, M365, conformité, centre de conformité, centre de sécurité, ServiceNow, tickets, tâches, LOI, connexion
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -27,12 +27,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51569867"
 ---
-# <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a><span data-ttu-id="bf816-104">Intégrer des tickets ServiceNow dans le Centre de sécurité et le Centre de conformité Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="bf816-104">Integrate ServiceNow tickets into the Microsoft 365 security center and compliance center</span></span>
+# <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a><span data-ttu-id="92bdd-104">Intégrer des tickets ServiceNow dans le centre de sécurité Microsoft 365 et le centre de conformité</span><span class="sxs-lookup"><span data-stu-id="92bdd-104">Integrate ServiceNow tickets into the Microsoft 365 security center and compliance center</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 >[!CAUTION]
-><span data-ttu-id="bf816-105">**La période d’aperçu du connecteur ServiceNow est terminée**</span><span class="sxs-lookup"><span data-stu-id="bf816-105">**The preview period for the ServiceNow connector has ended**</span></span><br>
-><span data-ttu-id="bf816-106">Cette fonctionnalité n’est plus disponible.</span><span class="sxs-lookup"><span data-stu-id="bf816-106">This capability is no longer available.</span></span> <span data-ttu-id="bf816-107">Merci de vos commentaires et de votre support continu pendant que nous déterminons les étapes suivantes.</span><span class="sxs-lookup"><span data-stu-id="bf816-107">Thank you for your feedback and continued support while we determine next steps.</span></span>
+><span data-ttu-id="92bdd-105">**La période d’aperçu du connecteur ServiceNow est terminée**</span><span class="sxs-lookup"><span data-stu-id="92bdd-105">**The preview period for the ServiceNow connector has ended**</span></span><br>
+><span data-ttu-id="92bdd-106">Cette fonctionnalité n’est plus disponible.</span><span class="sxs-lookup"><span data-stu-id="92bdd-106">This capability is no longer available.</span></span> <span data-ttu-id="92bdd-107">Merci de vos commentaires et de votre support continu pendant que nous déterminons les étapes suivantes.</span><span class="sxs-lookup"><span data-stu-id="92bdd-107">Thank you for your feedback and continued support while we determine next steps.</span></span>
 
-<span data-ttu-id="bf816-108">ServiceNow est une plateforme cloud computing populaire qui permet aux entreprises de gérer les flux de travail numériques pour les opérations d’entreprise.</span><span class="sxs-lookup"><span data-stu-id="bf816-108">ServiceNow is a popular cloud computing platform that helps companies manage digital workflows for enterprise operations.</span></span> <span data-ttu-id="bf816-109">Sa plateforme Now dispose de flux de travail, de flux de travail d’employés et de flux de travail client.</span><span class="sxs-lookup"><span data-stu-id="bf816-109">Their Now platform has IT workflows, employee workflows, and customer workflows.</span></span>
+<span data-ttu-id="92bdd-108">ServiceNow est une plateforme cloud computing populaire qui permet aux entreprises de gérer les flux de travail numériques pour les opérations d’entreprise.</span><span class="sxs-lookup"><span data-stu-id="92bdd-108">ServiceNow is a popular cloud computing platform that helps companies manage digital workflows for enterprise operations.</span></span> <span data-ttu-id="92bdd-109">Sa plateforme Now dispose de flux de travail, de flux de travail d’employés et de flux de travail client.</span><span class="sxs-lookup"><span data-stu-id="92bdd-109">Their Now platform has IT workflows, employee workflows, and customer workflows.</span></span>

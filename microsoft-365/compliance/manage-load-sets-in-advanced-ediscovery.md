@@ -23,6 +23,6 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 09/26/2020
 ms.locfileid: "48285600"
 ---
-# <a name="manage-load-sets-in-advanced-ediscovery"></a><span data-ttu-id="cba5b-103">Gérer les ensembles de charge dans Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="cba5b-103">Manage load sets in Advanced eDiscovery</span></span>
+# <a name="manage-load-sets-in-advanced-ediscovery"></a><span data-ttu-id="82622-103">Gérer les ensembles de charge dans Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="82622-103">Manage load sets in Advanced eDiscovery</span></span>
 
-<span data-ttu-id="cba5b-104">Contenu à paraître prochainement.</span><span class="sxs-lookup"><span data-stu-id="cba5b-104">Content coming soon.</span></span>
+<span data-ttu-id="82622-104">Contenu à paraître prochainement.</span><span class="sxs-lookup"><span data-stu-id="82622-104">Content coming soon.</span></span>

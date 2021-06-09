@@ -20,6 +20,6 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46689872"
 ---
-# <a name="placeholder-article"></a><span data-ttu-id="bb068-103">Article sur l’espace réservé</span><span class="sxs-lookup"><span data-stu-id="bb068-103">Placeholder article</span></span>
+# <a name="placeholder-article"></a><span data-ttu-id="40408-103">Article sur l’espace réservé</span><span class="sxs-lookup"><span data-stu-id="40408-103">Placeholder article</span></span>
 
-<span data-ttu-id="bb068-104">Cet article est un espace réservé pour le moment.</span><span class="sxs-lookup"><span data-stu-id="bb068-104">This article is a placeholder for now.</span></span>
+<span data-ttu-id="40408-104">Cet article est un espace réservé pour le moment.</span><span class="sxs-lookup"><span data-stu-id="40408-104">This article is a placeholder for now.</span></span>
