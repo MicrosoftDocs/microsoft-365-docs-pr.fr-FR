@@ -6,17 +6,17 @@
       items:
         - name: "Qu’est-ce que Microsoft\_365\_Defender\_?"
           href: microsoft-365-defender.md
-        - name: "Centre de sécurité Microsoft\_365"
+        - name: Microsoft 365 Vue d’ensemble de Defender
           href: overview-security-center.md
         - name: "Nouveautés de Microsoft\_365 Defender"
           href: whats-new.md
-        - name: "Defender pour point de terminaison dans le Centre de sécurité Microsoft\_365"
+        - name: Defender pour le point de terminaison dans Microsoft 365 Defender
           href: microsoft-365-security-center-mde.md
-        - name: "Defender pour Office\_365 dans le Centre de sécurité Microsoft 365"
+        - name: Defender pour Office 365 dans Microsoft 365 Defender
           href: microsoft-365-security-center-mdo.md
-        - name: "Réacheminement de Defender pour point de terminaison dans le Centre de sécurité Microsoft\_365"
+        - name: Redirection de Defender pour le point de terminaison vers Microsoft 365 Defender
           href: microsoft-365-security-mde-redirection.md
-        - name: "Réacheminement de Defender pour Office 365 dans le Centre de sécurité Microsoft\_365"
+        - name: Redirection Office 365 centre de sécurité et conformité vers Microsoft 365 Defender
           href: microsoft-365-security-mdo-redirection.md
         - name: Microsoft 365 Intégration de Defender à Azure Sentinel
           href: microsoft-365-defender-integration-with-azure-sentinel.md
@@ -123,7 +123,7 @@
                     - name: Identité
                       href: first-incident-path-identity.md
             - name: Manuels de réponse aux incidents
-              href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
+              href: /security/compass/incident-response-playbooks
             - name: Notifications par e-mail
               href: get-incident-notifications.md
         - name: Analyses de menaces
@@ -134,7 +134,7 @@
               href: threat-analytics-analyst-reports.md
         - name: Enquêtes et réponses automatisées
           items:
-            - name: Présentation
+            - name: Vue d’ensemble
               href: m365d-autoir.md
             - name: Configurer les fonctionnalités
               href: m365d-configure-auto-investigation-response.md
@@ -321,11 +321,11 @@
                 - name: API de diffusion en continu
                   items:
                     - name: Microsoft 365 API de diffusion en continu
-                      href: ../defender-endpoint/raw-data-export.md
-                    - name: Stream advanced hunting evens to Azure Events hub
-                      href: ../defender-endpoint/raw-data-export-event-hub.md
+                      href: streaming-api.md
+                    - name: Événements de repérage avancé Stream vers le hub Événements Azure
+                      href: streaming-api-event-hub.md
                     - name: Événements de repérage avancé Stream vers votre compte de stockage
-                      href: ../defender-endpoint/raw-data-export-storage.md
+                      href: streaming-api-storage.md
                 - name: API de recherche avancée de menaces
                   href: api-advanced-hunting.md
                 - name: API Incidents
