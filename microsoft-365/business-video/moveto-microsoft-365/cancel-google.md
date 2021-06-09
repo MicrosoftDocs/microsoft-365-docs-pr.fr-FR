@@ -29,14 +29,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49928257"
 ---
-# <a name="cancel-google-workspace-subscription"></a><span data-ttu-id="ff1b0-103">Annuler l’abonnement Google Workspace</span><span class="sxs-lookup"><span data-stu-id="ff1b0-103">Cancel Google Workspace subscription</span></span>
+# <a name="cancel-google-workspace-subscription"></a><span data-ttu-id="54131-103">Annuler l’abonnement Google Workspace</span><span class="sxs-lookup"><span data-stu-id="54131-103">Cancel Google Workspace subscription</span></span>
 
-1. <span data-ttu-id="ff1b0-104">Connectez-vous [à l’administrateur Google](https://admin.google.com/) et allez à **Facturation.**</span><span class="sxs-lookup"><span data-stu-id="ff1b0-104">Sign in to [Google Admin](https://admin.google.com/) and go to **Billing**.</span></span>
-1. <span data-ttu-id="ff1b0-105">Dans la **liste Abonnements,** choisissez votre abonnement G Suite, **annulez** l’abonnement, puis choisissez **Continuer**.</span><span class="sxs-lookup"><span data-stu-id="ff1b0-105">In the **Subscriptions** list,choose your G Suite subscription, **Cancel subscription**, and then choose **Continue**.</span></span>
+1. <span data-ttu-id="54131-104">Connectez-vous [à l’administrateur Google](https://admin.google.com/) et allez à **Facturation.**</span><span class="sxs-lookup"><span data-stu-id="54131-104">Sign in to [Google Admin](https://admin.google.com/) and go to **Billing**.</span></span>
+1. <span data-ttu-id="54131-105">Dans la **liste Abonnements,** choisissez votre abonnement G Suite, **annulez** l’abonnement, puis choisissez **Continuer**.</span><span class="sxs-lookup"><span data-stu-id="54131-105">In the **Subscriptions** list,choose your G Suite subscription, **Cancel subscription**, and then choose **Continue**.</span></span>
 
     > [!IMPORTANT]
-    > <span data-ttu-id="ff1b0-106">votre abonnement est annulé immédiatement et vous ne pouvez pas annuler cette action.</span><span class="sxs-lookup"><span data-stu-id="ff1b0-106">your subscription will be cancelled immediately and you cannot undo this action.</span></span>
+    > <span data-ttu-id="54131-106">votre abonnement est annulé immédiatement et vous ne pouvez pas annuler cette action.</span><span class="sxs-lookup"><span data-stu-id="54131-106">your subscription will be cancelled immediately and you cannot undo this action.</span></span>
 
     :::image type="content" source="../../media/cancelgoogleworspace.png" alt-text="Capture d’écran de la page Facturation de l’administrateur Google.":::
 
-<span data-ttu-id="ff1b0-108">Notez que l’enregistrement de domaine n’est peut-être pas répertorié dans votre liste d’abonnements si votre fournisseur d’hôte DNS n’est pas un domaine Google.</span><span class="sxs-lookup"><span data-stu-id="ff1b0-108">Note that you might not see Domain Registration in your Subscriptions list if your DNS host provider isn't Google domains.</span></span>
+<span data-ttu-id="54131-108">Notez que l’enregistrement de domaine n’est peut-être pas répertorié dans votre liste d’abonnements si votre fournisseur d’hôte DNS n’est pas un domaine Google.</span><span class="sxs-lookup"><span data-stu-id="54131-108">Note that you might not see Domain Registration in your Subscriptions list if your DNS host provider isn't Google domains.</span></span>

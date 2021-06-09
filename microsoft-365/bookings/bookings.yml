@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Microsoft Bookings
-summary: Planifier et gérer des rendez-vous avec Microsoft Bookings. Inclut l’intégration à Outlook et les notifications automatisées.
+summary: Planifier et gérer des rendez-vous avec Microsoft Bookings. Inclut l’intégration avec Outlook et les notifications automatisées.
 metadata:
   title: Microsoft Bookings
-  description: Planifier et gérer des rendez-vous avec Microsoft Bookings. Inclut l’intégration à Outlook et les notifications automatisées.
+  description: Planifier et gérer des rendez-vous avec Microsoft Bookings. Inclut l’intégration avec Outlook et les notifications automatisées.
   ms.service: bookings
   ms.topic: landing-page
   author: dmaguire
