@@ -16,7 +16,7 @@ metadata:
   ms.collection:
   - M365-security-compliance
   - m365initiative-defender-office365
-  description: Les administrateurs peuvent afficher les questions fréquemment posées et les réponses sur les messages mis en quarantaine Exchange Online Protection (EOP).
+  description: Les administrateurs peuvent afficher les questions fréquemment posées et les réponses sur les messages mis en quarantaine dans Exchange Online Protection (EOP).
   ms.custom: seo-marvel-apr2020
   ms.technology: mdo
   ms.prod: m365-security
@@ -35,9 +35,9 @@ summary: >
 
   - [Exchange Online Protection](exchange-online-protection-overview.md)
 
-  - [Microsoft Defender pour Office 365 : offre 1 et offre 2](defender-for-office-365.md)
+  - [Microsoft Defender pour Office 365 : offre 1 et offre 2](defender-for-office-365.md)
 
-  - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+  - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
   Cette rubrique fournit des questions fréquemment posées et des réponses sur les messages électroniques mis en quarantaine pour les organisations Microsoft 365 ayant des boîtes aux lettres dans Exchange Online ou les organisations Exchange Online Protection autonomes (EOP) sans boîtes aux lettres Exchange Online boîtes aux lettres.

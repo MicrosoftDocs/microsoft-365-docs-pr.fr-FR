@@ -32,7 +32,7 @@ summary: >
   -  [Exchange Online Protection autonome](exchange-online-protection-overview.md)
 
 
-  Ici, nous répondons aux questions générales les plus courantes sur Exchange Online Protection service de filtrage de courrier électronique hébergé dans le cloud (EOP). Pour d'autres rubriques du Forum Aux Questions (FAQ), suivez les liens suivants :
+  Nous répondons ici aux questions générales les plus courantes sur Exchange Online Protection de filtrage de courrier électronique hébergé dans le cloud (EOP). Pour d'autres rubriques du Forum Aux Questions (FAQ), suivez les liens suivants :
 
 
   - Questions fréquemment posées sur les messages mis en file d’attente, différés et retournés dans EOP
@@ -77,7 +77,7 @@ sections:
   - question: >
       Pourquoi ai-je besoin d’Microsoft 365 client lors de l’inscription au filtrage des messages électroniques via EOP ?
     answer: >
-      Microsoft 365 est le nom donné à une collection de produits et services accessibles via un client Microsoft 365 client. Pensez au client Microsoft 365 comme point de départ auquel vous pouvez ajouter des licences pour le filtrage du courrier électronique.
+      Microsoft 365 est le nom donné à une collection de produits et services accessibles via un Microsoft 365 client. Pensez au client Microsoft 365 comme point de départ auquel vous pouvez ajouter des licences pour le filtrage du courrier électronique.
   - question: >
       Est-ce qu’EOP dispose d’un portail de communication dans lequel je peux effectuer des recherches sur les problèmes connus et les résolutions attendues ? Qu’en est-il des nouvelles fonctionnalités ?
     answer: >

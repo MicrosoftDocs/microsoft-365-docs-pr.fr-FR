@@ -35,9 +35,9 @@ summary: >
 
   - [Exchange Online Protection](exchange-online-protection-overview.md)
 
-  - [Microsoft Defender pour Office 365 : offre 1 et offre 2](defender-for-office-365.md)
+  - [Microsoft Defender pour Office 365 : offre 1 et offre 2](defender-for-office-365.md)
 
-  - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+  - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
   Cette rubrique fournit des questions fréquemment posées et des réponses sur la protection contre les programmes malveillants pour les organisations Microsoft 365 ayant des boîtes aux lettres dans Exchange Online ou les organisations Exchange Online Protection autonomes (EOP) sans boîtes aux lettres Exchange Online données.
@@ -61,13 +61,13 @@ sections:
 
       > [!IMPORTANT]
 
-      > Dans les déploiements hybrides où EOP protège les boîtes aux lettres Exchange sur site, vous devez configurer deux règles de flux de messagerie Exchange (également appelées règles de transport) dans votre organisation Exchange sur site pour détecter les en-têtes de filtrage du courrier indésirable EOP ajoutés aux messages. Pour plus d’informations, voir [Configure EOP to deliver spam to the Junk Email folder in hybrid environments](/exchange/standalone-eop/configure-eop-spam-protection-hybrid).
+      > Dans les déploiements hybrides où EOP protège les boîtes aux lettres Exchange sur site, vous devez configurer deux règles de flux de messagerie Exchange (également appelées règles de transport) dans votre organisation Exchange sur site pour détecter les en-têtes de filtrage du courrier indésirable EOP ajoutés aux messages. Pour les détails, voir [Configurer Exchange Online Protection (EOP) pour envoyer des courriers indésirables dans le dossier Courrier indésirable dans les environnements hybrides](/exchange/standalone-eop/configure-eop-spam-protection-hybrid).
 
        **Pour les messages sortants :** Le message est acheminé via le pool de remise à risque élevé ou est renvoyé à l’expéditeur dans une [non-remise](high-risk-delivery-pool-for-outbound-messages.md) (également appelée NDR ou message de non-remise). Pour plus d’informations sur la protection contre le courrier indésirable sortant, voir [Contrôles de courrier indésirable sortant.](outbound-spam-controls.md)
   - question: >
-      Qu’est-ce qu’une variante de courrier indésirable « zero-day » et comment est-elle gérée par le service ?
+      Qu’est-ce qu’une variante de courrier indésirable zéro jour et comment est-elle gérée par le service ?
     answer: >
-      Une variante de courrier indésirable « zero-day » est une variante de courrier indésirable de première génération inconnue qui n’a jamais été capturée ou analysée, de sorte que nos filtres anti-courrier indésirable ne disposent pas encore d’informations pour le détecter. Une fois qu’un échantillon de courrier indésirable zéro jour a été capturé et analysé par nos analystes de courrier indésirable, s’il répond aux critères de classification du courrier indésirable, nos filtres anti-courrier indésirable sont mis à jour pour le détecter et il n’est plus considéré comme « zero-day ».
+      Une variante de courrier indésirable zéro jour est une variante de courrier indésirable de première génération, inconnue précédemment, qui n’a jamais été capturée ou analysée, de sorte que nos filtres anti-courrier indésirable ne disposent pas encore d’informations pour le détecter. Une fois qu’un échantillon de courrier indésirable zéro jour a été capturé et analysé par nos analystes de courrier indésirable, s’il répond aux critères de classification du courrier indésirable, nos filtres anti-courrier indésirable sont mis à jour pour le détecter et il n’est plus considéré comme « zero-day ».
 
 
       > [!NOTE]
@@ -111,7 +111,7 @@ sections:
   - question: >
       Puis-je obtenir des rapports sur le courrier indésirable ?
     answer: >
-      Oui, par exemple, vous pouvez obtenir un rapport de détection du courrier indésirable dans Microsoft 365'administration centrale. Ce rapport indique le volume de courrier indésirable sous la forme d’un nombre de messages uniques. Pour plus d'informations sur les rapports, consultez les liens suivants :
+      Oui, par exemple, vous pouvez obtenir un rapport de détection de courrier indésirable dans Microsoft 365'administration centrale. Ce rapport indique le volume de courrier indésirable sous la forme d’un nombre de messages uniques. Pour plus d'informations sur les rapports, consultez les liens suivants :
 
 
       Exchange Online clients : [surveillance, rapports et suivi](/exchange/monitoring/monitoring) des messages dans Exchange Online
@@ -173,7 +173,7 @@ sections:
 
         [Configurer SPF pour empêcher l’usurpation d’identité](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
-        [Foire aux questions domaines](../../admin/setup/domains-faq.yml#how-can-i-validate-spf-records-for-my-domain)
+        [Foire aux questions sur les domaines](../../admin/setup/domains-faq.yml#how-can-i-validate-spf-records-for-my-domain)
 
       - **Signature de courrier électronique avec DKIM, canonisation assouplie.**
 
