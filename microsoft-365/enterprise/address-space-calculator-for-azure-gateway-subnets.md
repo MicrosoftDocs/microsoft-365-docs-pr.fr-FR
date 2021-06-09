@@ -23,20 +23,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "49780567"
 ---
-# <a name="address-space-calculator-for-azure-gateway-subnets"></a><span data-ttu-id="75258-103">Calculateur d’espace d’adressan pour les sous-réseaux de passerelle Azure</span><span class="sxs-lookup"><span data-stu-id="75258-103">Address space calculator for Azure gateway subnets</span></span>
+# <a name="address-space-calculator-for-azure-gateway-subnets"></a><span data-ttu-id="3ed34-103">Calculateur d’espace d’adressan pour les sous-réseaux de passerelle Azure</span><span class="sxs-lookup"><span data-stu-id="3ed34-103">Address space calculator for Azure gateway subnets</span></span>
 
-<span data-ttu-id="75258-104">Un réseau virtuel (VNet) dans les services d’infrastructure Azure connectés à d’autres réseaux doit avoir un sous-réseau de passerelle.</span><span class="sxs-lookup"><span data-stu-id="75258-104">A virtual network (VNet) in Azure infrastructure services that is connected to other networks must have a gateway subnet.</span></span> <span data-ttu-id="75258-105">Les meilleures pratiques pour définir le sous-réseau de passerelle sont les :</span><span class="sxs-lookup"><span data-stu-id="75258-105">The best practices for defining the gateway subnet are:</span></span>
+<span data-ttu-id="3ed34-104">Un réseau virtuel (VNet) dans les services d’infrastructure Azure connectés à d’autres réseaux doit avoir un sous-réseau de passerelle.</span><span class="sxs-lookup"><span data-stu-id="3ed34-104">A virtual network (VNet) in Azure infrastructure services that is connected to other networks must have a gateway subnet.</span></span> <span data-ttu-id="3ed34-105">Les meilleures pratiques pour définir le sous-réseau de passerelle sont les :</span><span class="sxs-lookup"><span data-stu-id="3ed34-105">The best practices for defining the gateway subnet are:</span></span>
 
-- <span data-ttu-id="75258-106">La longueur du préfixe du sous-réseau de passerelle peut avoir une longueur maximale de préfixe de 29 (par exemple, 10.119.255.248/29), mais il est recommandé d’utiliser une longueur de préfixe de 27 (par exemple, 10.119.255.224/27).</span><span class="sxs-lookup"><span data-stu-id="75258-106">The prefix length of the gateway subnet can have a maximum prefix length of 29 (for example, 10.119.255.248/29), but the current recommendation is that you use a prefix length of 27 (for example, 10.119.255.224/27).</span></span>
-- <span data-ttu-id="75258-107">Lors de la définition de l’espace d’adressare du sous-réseau de passerelle, utilisez la dernière partie de l’espace d’adressare du réseau VNet.</span><span class="sxs-lookup"><span data-stu-id="75258-107">When defining the address space of the gateway subnet, use the last part of the VNet address space.</span></span>
+- <span data-ttu-id="3ed34-106">La longueur du préfixe du sous-réseau de passerelle peut avoir une longueur maximale de préfixe de 29 (par exemple, 10.119.255.248/29), mais la recommandation actuelle est que vous utilisez une longueur de préfixe de 27 (par exemple, 10.119.255.224/27).</span><span class="sxs-lookup"><span data-stu-id="3ed34-106">The prefix length of the gateway subnet can have a maximum prefix length of 29 (for example, 10.119.255.248/29), but the current recommendation is that you use a prefix length of 27 (for example, 10.119.255.224/27).</span></span>
+- <span data-ttu-id="3ed34-107">Lors de la définition de l’espace d’adressare du sous-réseau de passerelle, utilisez la dernière partie de l’espace d’adressare du réseau VNet.</span><span class="sxs-lookup"><span data-stu-id="3ed34-107">When defining the address space of the gateway subnet, use the last part of the VNet address space.</span></span>
 
-<span data-ttu-id="75258-108">Pour la deuxième recommandation, vous pouvez déterminer l’espace d’adressare du sous-réseau de passerelle en fixant les bits utilisés pour le sous-réseau de passerelle sur 0 et les autres bits de l’espace d’adressare du réseau VNet sur 1.</span><span class="sxs-lookup"><span data-stu-id="75258-108">For the second recommendation, you can determine the address space of the gateway subnet by setting the bits used for the gateway subnet to 0 and the remaining bits in the VNet address space to 1.</span></span> <span data-ttu-id="75258-109">Pour calculer rapidement l’espace d’adressare du sous-réseau de passerelle sans avoir à le convertir en binaire et à revenir au nombre décimal, vous pouvez utiliser une application console écrite en C# ou Python ou avec un bloc de commandes PowerShell.</span><span class="sxs-lookup"><span data-stu-id="75258-109">To quickly calculate the gateway subnet address space without having to convert to binary and back to decimal, you can use a console application written in C# or Python or with a PowerShell command block.</span></span>
+<span data-ttu-id="3ed34-108">Pour la deuxième recommandation, vous pouvez déterminer l’espace d’adressare du sous-réseau de passerelle en fixant les bits utilisés pour le sous-réseau de passerelle sur 0 et les autres bits de l’espace d’adressare du réseau VNet sur 1.</span><span class="sxs-lookup"><span data-stu-id="3ed34-108">For the second recommendation, you can determine the address space of the gateway subnet by setting the bits used for the gateway subnet to 0 and the remaining bits in the VNet address space to 1.</span></span> <span data-ttu-id="3ed34-109">Pour calculer rapidement l’espace d’adressare du sous-réseau de passerelle sans avoir à convertir au format binaire et revenir au nombre décimal, vous pouvez utiliser une application console écrite en C# ou Python ou avec un bloc de commandes PowerShell.</span><span class="sxs-lookup"><span data-stu-id="3ed34-109">To quickly calculate the gateway subnet address space without having to convert to binary and back to decimal, you can use a console application written in C# or Python or with a PowerShell command block.</span></span>
 
-<span data-ttu-id="75258-110">Cet article contient des blocs de code C#, Python et PowerShell qui calculent l’espace d’adressare du sous-réseau de passerelle en fonction des valeurs de w.x.y.z/n pour le préfixe d’adresse du réseau VNet et la longueur du préfixe de sous-réseau de passerelle.</span><span class="sxs-lookup"><span data-stu-id="75258-110">This article contains C#, Python, and PowerShell code blocks that calculate the gateway subnet address space based on the values of w.x.y.z/n for the VNet address prefix and the gateway subnet prefix length.</span></span>
+<span data-ttu-id="3ed34-110">Cet article contient des blocs de code C#, Python et PowerShell qui calculent l’espace d’adressare du sous-réseau de passerelle en fonction des valeurs de w.x.y.z/n pour le préfixe d’adresse du réseau VNet et la longueur du préfixe de sous-réseau de passerelle.</span><span class="sxs-lookup"><span data-stu-id="3ed34-110">This article contains C#, Python, and PowerShell code blocks that calculate the gateway subnet address space based on the values of w.x.y.z/n for the VNet address prefix and the gateway subnet prefix length.</span></span>
 
-## <a name="c-code-block"></a><span data-ttu-id="75258-111">Bloc de code C#</span><span class="sxs-lookup"><span data-stu-id="75258-111">C# code block</span></span>
+## <a name="c-code-block"></a><span data-ttu-id="3ed34-111">C# de code</span><span class="sxs-lookup"><span data-stu-id="3ed34-111">C# code block</span></span>
 
-<span data-ttu-id="75258-112">Utilisez ce bloc de code pour créer une application console en C#.</span><span class="sxs-lookup"><span data-stu-id="75258-112">Use this code block to create a console app in C#.</span></span>
+<span data-ttu-id="3ed34-112">Utilisez ce bloc de code pour créer une application console dans C#.</span><span class="sxs-lookup"><span data-stu-id="3ed34-112">Use this code block to create a console app in C#.</span></span>
 
 ```c#
 using System; 
@@ -108,9 +108,9 @@ namespace ConsoleApplication1
 } 
 ```
 
-## <a name="python-code-block"></a><span data-ttu-id="75258-113">Bloc de code Python</span><span class="sxs-lookup"><span data-stu-id="75258-113">Python code block</span></span>
+## <a name="python-code-block"></a><span data-ttu-id="3ed34-113">Bloc de code Python</span><span class="sxs-lookup"><span data-stu-id="3ed34-113">Python code block</span></span>
 
-<span data-ttu-id="75258-114">Utilisez ce bloc de code pour créer une application console dans Python.</span><span class="sxs-lookup"><span data-stu-id="75258-114">Use this code block to create a console app in Python.</span></span>
+<span data-ttu-id="3ed34-114">Utilisez ce bloc de code pour créer une application console dans Python.</span><span class="sxs-lookup"><span data-stu-id="3ed34-114">Use this code block to create a console app in Python.</span></span>
 
 ```python
 import math 
@@ -147,9 +147,9 @@ print(gwAddrPref)
 ```
 
 
-## <a name="powershell-command-block"></a><span data-ttu-id="75258-115">Bloc de commandes PowerShell</span><span class="sxs-lookup"><span data-stu-id="75258-115">PowerShell command block</span></span>
+## <a name="powershell-command-block"></a><span data-ttu-id="3ed34-115">Bloc de commandes PowerShell</span><span class="sxs-lookup"><span data-stu-id="3ed34-115">PowerShell command block</span></span>
 
-<span data-ttu-id="75258-116">Remplissez les valeurs et exécutez le bloc de commandes résultant dans une fenêtre PowerShell ou dans l’environnement de script intégré à PowerShell (ISE).</span><span class="sxs-lookup"><span data-stu-id="75258-116">Fill in the values and run the resulting command block in a PowerShell window or in the PowerShell Integrated Script Environment (ISE).</span></span>
+<span data-ttu-id="3ed34-116">Remplissez les valeurs et exécutez le bloc de commandes résultant dans une fenêtre PowerShell ou dans l’environnement de script intégré à PowerShell (ISE).</span><span class="sxs-lookup"><span data-stu-id="3ed34-116">Fill in the values and run the resulting command block in a PowerShell window or in the PowerShell Integrated Script Environment (ISE).</span></span>
 
 ```powershell
 # Specify the values of w.x.y.z/n for your VNet address space and g, the prefix length of your gateway subnet: 
@@ -177,6 +177,6 @@ $dx= [string]$w2 + "." + [string]$x2 + "." + [string]$y2 + "." + [string]$z2 + "
 Write-Host "Your gateway address prefix is: " $dx
 ```
     
-## <a name="related-topics"></a><span data-ttu-id="75258-117">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="75258-117">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="3ed34-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3ed34-117">Related topics</span></span>
 
-[<span data-ttu-id="75258-118">Gestion de Microsoft 365 à l’aide de PowerShell</span><span class="sxs-lookup"><span data-stu-id="75258-118">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
+[<span data-ttu-id="3ed34-118">Gestion de Microsoft 365 à l’aide de PowerShell</span><span class="sxs-lookup"><span data-stu-id="3ed34-118">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
