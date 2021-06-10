@@ -19,20 +19,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297403"
 ---
-# <a name="contact-support-for-zimbabwe"></a><span data-ttu-id="e9c5b-103">Contacter le support pour le Zimbabwe</span><span class="sxs-lookup"><span data-stu-id="e9c5b-103">Contact support for Zimbabwe</span></span>
+# <a name="contact-support-for-zimbabwe"></a><span data-ttu-id="b16e7-103">Contacter le support pour le Zimbabwe</span><span class="sxs-lookup"><span data-stu-id="b16e7-103">Contact support for Zimbabwe</span></span>
 
-<span data-ttu-id="e9c5b-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="e9c5b-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="b16e7-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="b16e7-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="e9c5b-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="e9c5b-105">Phone number</span></span>
-<span data-ttu-id="e9c5b-106">+27 21 427 3315</span><span class="sxs-lookup"><span data-stu-id="e9c5b-106">+27 21 427 3315</span></span>
+## <a name="phone-number"></a><span data-ttu-id="b16e7-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="b16e7-105">Phone number</span></span>
+<span data-ttu-id="b16e7-106">+27 21 427 3315</span><span class="sxs-lookup"><span data-stu-id="b16e7-106">+27 21 427 3315</span></span>
 
-## <a name="hours"></a><span data-ttu-id="e9c5b-107">Heures</span><span class="sxs-lookup"><span data-stu-id="e9c5b-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="e9c5b-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="e9c5b-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="b16e7-107">Heures</span><span class="sxs-lookup"><span data-stu-id="b16e7-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="b16e7-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="b16e7-108">Billing Support:</span></span>
 
-<span data-ttu-id="e9c5b-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="e9c5b-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="b16e7-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="b16e7-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="e9c5b-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="e9c5b-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="b16e7-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="b16e7-110">Technical Support:</span></span>
 
-<span data-ttu-id="e9c5b-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="e9c5b-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="b16e7-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="b16e7-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="e9c5b-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="e9c5b-112">International call charges apply</span></span>
+<span data-ttu-id="b16e7-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="b16e7-112">International call charges apply</span></span>
