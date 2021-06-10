@@ -78,11 +78,11 @@ landingContent:
     links:
     - text: Microsoft Defender pour point de terminaison sur Mac
       url: microsoft-defender-endpoint-mac.md
-    - text: Microsoft Defender pour point de terminaison sur iOS
+    - text: Microsoft Defender pour point de terminaison iOS
       url: microsoft-defender-endpoint-ios.md
-    - text: Microsoft Defender pour point de terminaison sur Linux
+    - text: Microsoft Defender pour point de terminaison Linux
       url: microsoft-defender-endpoint-linux.md
-    - text: Microsoft Defender pour point de terminaison sur Android
+    - text: Microsoft Defender pour point de terminaison Android
       url: microsoft-defender-endpoint-android.md
 - title: Référence
   linkLists:
