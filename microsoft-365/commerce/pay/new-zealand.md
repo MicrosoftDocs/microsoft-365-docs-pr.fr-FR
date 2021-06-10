@@ -20,29 +20,29 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52535337"
 ---
-# <a name="payment-information-for-new-zealand"></a><span data-ttu-id="115c4-103">Informations de paiement pour la Nouvelle-Zélande</span><span class="sxs-lookup"><span data-stu-id="115c4-103">Payment information for New Zealand</span></span>
+# <a name="payment-information-for-new-zealand"></a><span data-ttu-id="880ba-103">Informations de paiement pour la Nouvelle-Zélande</span><span class="sxs-lookup"><span data-stu-id="880ba-103">Payment information for New Zealand</span></span>
 
-<span data-ttu-id="115c4-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="115c4-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="880ba-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="880ba-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="115c4-105">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="115c4-105">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="880ba-105">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="880ba-105">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="115c4-106">**Veuillez payer en NZD et référencer les numéro(s) de facture à votre paiement.**</span><span class="sxs-lookup"><span data-stu-id="115c4-106">**Please pay in NZD and reference invoice number(s) on your payment remittance.**</span></span>
+<span data-ttu-id="880ba-106">**Veuillez payer en NZD et référencer les numéro(s) de facture à votre paiement.**</span><span class="sxs-lookup"><span data-stu-id="880ba-106">**Please pay in NZD and reference invoice number(s) on your payment remittance.**</span></span>
 
-<span data-ttu-id="115c4-107">Si vous avez une facture facturée par **MICROSOFT REGIONAL SALES PTE LTD,** utilisez les informations bancaires ci-après :</span><span class="sxs-lookup"><span data-stu-id="115c4-107">If you have an invoice billed by **MICROSOFT REGIONAL SALES PTE LTD**, use this bank information:</span></span>
+<span data-ttu-id="880ba-107">Si vous avez une facture facturée par **MICROSOFT REGIONAL SALES PTE LTD,** utilisez les informations bancaires ci-après :</span><span class="sxs-lookup"><span data-stu-id="880ba-107">If you have an invoice billed by **MICROSOFT REGIONAL SALES PTE LTD**, use this bank information:</span></span>
 
-<span data-ttu-id="115c4-108">**Banque :** Bank</span><span class="sxs-lookup"><span data-stu-id="115c4-108">**Bank:** Citibank</span></span>  
-<span data-ttu-id="115c4-109">**Code bancaire :** 31</span><span class="sxs-lookup"><span data-stu-id="115c4-109">**Bank Code:** 31</span></span>  
-<span data-ttu-id="115c4-110">**Code de succursale :** 2840</span><span class="sxs-lookup"><span data-stu-id="115c4-110">**Branch Code:** 2840</span></span>  
-<span data-ttu-id="115c4-111">**Code SWIFT :** CITINZ2X</span><span class="sxs-lookup"><span data-stu-id="115c4-111">**SWIFT Code:** CITINZ2X</span></span>  
-<span data-ttu-id="115c4-112">**Suffixe (3 chiffres) :** 004</span><span class="sxs-lookup"><span data-stu-id="115c4-112">**Suffix (3-digit):** 004</span></span>  
-<span data-ttu-id="115c4-113">**Suffixe (2 chiffres) :** 04</span><span class="sxs-lookup"><span data-stu-id="115c4-113">**Suffix (2-digit):** 04</span></span>  
-<span data-ttu-id="115c4-114">**Numéro de compte :** 0026181</span><span class="sxs-lookup"><span data-stu-id="115c4-114">**Account Number:** 0026181</span></span>  
-<span data-ttu-id="115c4-115">**Nom du compte :** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="115c4-115">**Account Name:** MICROSOFT</span></span>
+<span data-ttu-id="880ba-108">**Banque :** Bank</span><span class="sxs-lookup"><span data-stu-id="880ba-108">**Bank:** Citibank</span></span>  
+<span data-ttu-id="880ba-109">**Code bancaire :** 31</span><span class="sxs-lookup"><span data-stu-id="880ba-109">**Bank Code:** 31</span></span>  
+<span data-ttu-id="880ba-110">**Code de branche :** 2840</span><span class="sxs-lookup"><span data-stu-id="880ba-110">**Branch Code:** 2840</span></span>  
+<span data-ttu-id="880ba-111">**Code SWIFT :** CITINZ2X</span><span class="sxs-lookup"><span data-stu-id="880ba-111">**SWIFT Code:** CITINZ2X</span></span>  
+<span data-ttu-id="880ba-112">**Suffixe (3 chiffres) :** 004</span><span class="sxs-lookup"><span data-stu-id="880ba-112">**Suffix (3-digit):** 004</span></span>  
+<span data-ttu-id="880ba-113">**Suffixe (2 chiffres) :** 04</span><span class="sxs-lookup"><span data-stu-id="880ba-113">**Suffix (2-digit):** 04</span></span>  
+<span data-ttu-id="880ba-114">**Numéro de compte :** 0026181</span><span class="sxs-lookup"><span data-stu-id="880ba-114">**Account Number:** 0026181</span></span>  
+<span data-ttu-id="880ba-115">**Nom du compte :** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="880ba-115">**Account Name:** MICROSOFT</span></span>
 
-<span data-ttu-id="115c4-116">Si vous avez une facture facturée par **Microsoft New Zealand Limited** pour les commandes et la consommation à partir du 1er mars 2021, utilisez les informations bancaires ci-après :</span><span class="sxs-lookup"><span data-stu-id="115c4-116">If you have an invoice billed by **Microsoft New Zealand Limited** for orders and consumption starting March 1, 2021, use this bank information:</span></span>
+<span data-ttu-id="880ba-116">Si vous avez une facture facturée par **Microsoft New Zealand Limited** pour les commandes et la consommation à compter du 1er mars 2021, utilisez les informations bancaires ci-après :</span><span class="sxs-lookup"><span data-stu-id="880ba-116">If you have an invoice billed by **Microsoft New Zealand Limited** for orders and consumption starting March 1, 2021, use this bank information:</span></span>
 
-<span data-ttu-id="115c4-117">**Banque :** Bank, N.A.</span><span class="sxs-lookup"><span data-stu-id="115c4-117">**Bank:** Citibank, N.A.</span></span> <span data-ttu-id="115c4-118">Nouvelle-Zélande Branch</span><span class="sxs-lookup"><span data-stu-id="115c4-118">New Zealand Branch</span></span>  
-<span data-ttu-id="115c4-119">**Code SWIFT :** CTINZ2X</span><span class="sxs-lookup"><span data-stu-id="115c4-119">**SWIFT Code:** CTINZ2X</span></span>  
-<span data-ttu-id="115c4-120">**BSB :** 312825</span><span class="sxs-lookup"><span data-stu-id="115c4-120">**BSB:** 312825</span></span>  
-<span data-ttu-id="115c4-121">**Numéro de compte :** 0008655083</span><span class="sxs-lookup"><span data-stu-id="115c4-121">**Account Number:** 0008655083</span></span>  
-<span data-ttu-id="115c4-122">**Nom du compte :** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="115c4-122">**Account Name:** MICROSOFT</span></span>
+<span data-ttu-id="880ba-117">**Banque :** Bank, N.A.</span><span class="sxs-lookup"><span data-stu-id="880ba-117">**Bank:** Citibank, N.A.</span></span> <span data-ttu-id="880ba-118">Nouvelle-Zélande Branch</span><span class="sxs-lookup"><span data-stu-id="880ba-118">New Zealand Branch</span></span>  
+<span data-ttu-id="880ba-119">**Code SWIFT :** CTINZ2X</span><span class="sxs-lookup"><span data-stu-id="880ba-119">**SWIFT Code:** CTINZ2X</span></span>  
+<span data-ttu-id="880ba-120">**BSB :** 312825</span><span class="sxs-lookup"><span data-stu-id="880ba-120">**BSB:** 312825</span></span>  
+<span data-ttu-id="880ba-121">**Numéro de compte :** 0008655083</span><span class="sxs-lookup"><span data-stu-id="880ba-121">**Account Number:** 0008655083</span></span>  
+<span data-ttu-id="880ba-122">**Nom du compte :** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="880ba-122">**Account Name:** MICROSOFT</span></span>

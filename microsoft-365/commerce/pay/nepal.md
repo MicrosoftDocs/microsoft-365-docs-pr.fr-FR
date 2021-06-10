@@ -20,15 +20,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52535361"
 ---
-# <a name="payment-information-for-nepal"></a><span data-ttu-id="3d2db-103">Informations de paiement pour le Népal</span><span class="sxs-lookup"><span data-stu-id="3d2db-103">Payment information for Nepal</span></span>
+# <a name="payment-information-for-nepal"></a><span data-ttu-id="857da-103">Informations de paiement pour le Népal</span><span class="sxs-lookup"><span data-stu-id="857da-103">Payment information for Nepal</span></span>
 
-<span data-ttu-id="3d2db-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="3d2db-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="857da-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="857da-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="3d2db-105">Veuillez payer en USD uniquement et référencer les numéro(s) de facture sur votre paiement.</span><span class="sxs-lookup"><span data-stu-id="3d2db-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="857da-105">Veuillez payer en USD uniquement et référencer les numéro(s) de facture sur votre paiement.</span><span class="sxs-lookup"><span data-stu-id="857da-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="3d2db-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="3d2db-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="857da-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="857da-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="3d2db-107">**Banque :** Bank, Singapour</span><span class="sxs-lookup"><span data-stu-id="3d2db-107">**Bank:** Citibank, Singapore</span></span>  
-<span data-ttu-id="3d2db-108">**Code SWIFT :** CITISGSG</span><span class="sxs-lookup"><span data-stu-id="3d2db-108">**SWIFT Code:** CITISGSG</span></span>  
-<span data-ttu-id="3d2db-109">**Numéro de compte :** 0-817543-138</span><span class="sxs-lookup"><span data-stu-id="3d2db-109">**Account Number:** 0-817543-138</span></span>  
-<span data-ttu-id="3d2db-110">**Nom du compte :** MICROSOFT REGIONAL SALES CORP</span><span class="sxs-lookup"><span data-stu-id="3d2db-110">**Account Name:** MICROSOFT REGIONAL SALES CORP</span></span>
+<span data-ttu-id="857da-107">**Banque :** Bank, Singapour</span><span class="sxs-lookup"><span data-stu-id="857da-107">**Bank:** Citibank, Singapore</span></span>  
+<span data-ttu-id="857da-108">**Code SWIFT :** CITISGSG</span><span class="sxs-lookup"><span data-stu-id="857da-108">**SWIFT Code:** CITISGSG</span></span>  
+<span data-ttu-id="857da-109">**Numéro de compte :** 0-817543-138</span><span class="sxs-lookup"><span data-stu-id="857da-109">**Account Number:** 0-817543-138</span></span>  
+<span data-ttu-id="857da-110">**Nom du compte :** MICROSOFT REGIONAL SALES CORP</span><span class="sxs-lookup"><span data-stu-id="857da-110">**Account Name:** MICROSOFT REGIONAL SALES CORP</span></span>
