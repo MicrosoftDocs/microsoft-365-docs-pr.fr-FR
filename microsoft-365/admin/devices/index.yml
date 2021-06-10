@@ -24,7 +24,7 @@ landingContent:
     links:
     - text: Passer en revue les options de protection des données des appareils et des applications
       url: choose-device-security.md
-- title: Gérer les appareils et les données d’application avec Microsoft Intune
+- title: Gérer les appareils et les données d’application à l’Microsoft Intune
   linkLists:
   - linkListType: overview
     links:
@@ -32,13 +32,13 @@ landingContent:
       url: /mem/intune/enrollment/device-enrollment
   - linkListType: how-to-guide
     links:
-    - text: Configurer l’inscription automatique pour les appareils Windows 10
+    - text: Configurer l’inscription automatique pour Windows 10 appareils
       url: /mem/intune/enrollment/quickstart-setup-auto-enrollment
     - text: Configurer l’inscription Android
       url: /mem/intune/enrollment/android-enroll
     - text: Configurer l’inscription iOS/iPadOS
       url: /mem/intune/enrollment/ios-enroll
-- title: Gérer les appareils et les données d’application avec Microsoft 365 Business Premium
+- title: Gérer les appareils et les données d’application à l’Microsoft 365 Business Premium
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -46,21 +46,21 @@ landingContent:
       url: ../../business/view-policies-and-devices.md
     - text: Supprimer des données d'entreprise sur des appareils
       url: ../../business/remove-company-data.md
-    - text: Rétablir les paramètres d’usine des appareils Windows
+    - text: Réinitialiser Windows aux paramètres d’usine
       url: ../../business/reset-devices-to-factory-settings.md
-- title: Gérer les appareils et les données d’application avec Microsoft 365 pour entreprise
+- title: Gérer les appareils et les données d’application avec Microsoft 365 entreprise
   linkLists:
   - linkListType: overview
     links:
-    - text: Vue d’ensemble de Microsoft 365 pour entreprise
+    - text: Vue d’ensemble Microsoft 365 entreprise
       url: ../../enterprise/microsoft-365-overview.md
-    - text: Feuille de route de gestion des appareils pour Microsoft 365 pour entreprise
+    - text: Feuille de route de gestion des appareils pour Microsoft 365 entreprise
       url: ../../enterprise/device-management-roadmap-microsoft-365.md
 - title: Gérer les appareils et les données d’application avec la mobilité et la sécurité de base
   linkLists:
   - linkListType: overview
     links:
-    - text: Vue d’ensemble de la fonction Mobility + Security de Base
+    - text: Vue d’ensemble de la fonction Mobility + Security de Base
       url: ../basic-mobility-security/overview.md
     - text: Configurer la mobilité et la sécurité de base
       url: ../basic-mobility-security/set-up.md

@@ -23,15 +23,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 06/04/2021
 ms.locfileid: "52770876"
 ---
-# <a name="remove-app-restriction-api"></a><span data-ttu-id="648fc-104">SUPPRIMER l’API de restriction d’application</span><span class="sxs-lookup"><span data-stu-id="648fc-104">Remove app restriction API</span></span>
+# <a name="remove-app-restriction-api"></a><span data-ttu-id="23549-104">SUPPRIMER l’API de restriction d’application</span><span class="sxs-lookup"><span data-stu-id="23549-104">Remove app restriction API</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="648fc-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="648fc-105">**Applies to:**</span></span>
-- [<span data-ttu-id="648fc-106">Microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="648fc-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [<span data-ttu-id="648fc-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="648fc-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="23549-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="23549-105">**Applies to:**</span></span>
+- [<span data-ttu-id="23549-106">Microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="23549-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [<span data-ttu-id="23549-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="23549-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="648fc-108">Vous souhaitez découvrir Microsoft Defender pour le point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="648fc-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="648fc-109">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="648fc-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> <span data-ttu-id="23549-108">Vous souhaitez découvrir Microsoft Defender pour le point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="23549-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="23549-109">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="23549-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
@@ -39,56 +39,56 @@ ms.locfileid: "52770876"
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 
-## <a name="api-description"></a><span data-ttu-id="648fc-110">Description de l’API</span><span class="sxs-lookup"><span data-stu-id="648fc-110">API description</span></span>
-<span data-ttu-id="648fc-111">Activez l’exécution de n’importe quelle application sur l’appareil.</span><span class="sxs-lookup"><span data-stu-id="648fc-111">Enable execution of any application on the device.</span></span>
+## <a name="api-description"></a><span data-ttu-id="23549-110">Description de l’API</span><span class="sxs-lookup"><span data-stu-id="23549-110">API description</span></span>
+<span data-ttu-id="23549-111">Activez l’exécution de n’importe quelle application sur l’appareil.</span><span class="sxs-lookup"><span data-stu-id="23549-111">Enable execution of any application on the device.</span></span>
 
 
-## <a name="limitations"></a><span data-ttu-id="648fc-112">Limitations</span><span class="sxs-lookup"><span data-stu-id="648fc-112">Limitations</span></span>
-1. <span data-ttu-id="648fc-113">Les limites de taux pour cette API sont de 100 appels par minute et de 1 500 appels par heure.</span><span class="sxs-lookup"><span data-stu-id="648fc-113">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
+## <a name="limitations"></a><span data-ttu-id="23549-112">Limites</span><span class="sxs-lookup"><span data-stu-id="23549-112">Limitations</span></span>
+1. <span data-ttu-id="23549-113">Les limites de taux pour cette API sont de 100 appels par minute et de 1 500 appels par heure.</span><span class="sxs-lookup"><span data-stu-id="23549-113">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
 
 
 [!include[Device actions note](../../includes/machineactionsnote.md)]
 
-## <a name="permissions"></a><span data-ttu-id="648fc-114">Autorisations</span><span class="sxs-lookup"><span data-stu-id="648fc-114">Permissions</span></span>
-<span data-ttu-id="648fc-115">L’une des autorisations suivantes est nécessaire pour appeler cette API.</span><span class="sxs-lookup"><span data-stu-id="648fc-115">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="648fc-116">Pour en savoir plus, notamment sur le choix des autorisations, voir [Utiliser Microsoft Defender pour les API de point de terminaison](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="648fc-116">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md)</span></span>
+## <a name="permissions"></a><span data-ttu-id="23549-114">Autorisations</span><span class="sxs-lookup"><span data-stu-id="23549-114">Permissions</span></span>
+<span data-ttu-id="23549-115">L’une des autorisations suivantes est nécessaire pour appeler cette API.</span><span class="sxs-lookup"><span data-stu-id="23549-115">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="23549-116">Pour en savoir plus, notamment sur le choix des autorisations, voir [Utiliser Microsoft Defender pour les API de point de terminaison](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="23549-116">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md)</span></span>
 
-<span data-ttu-id="648fc-117">Type d’autorisation</span><span class="sxs-lookup"><span data-stu-id="648fc-117">Permission type</span></span> |   <span data-ttu-id="648fc-118">Autorisation</span><span class="sxs-lookup"><span data-stu-id="648fc-118">Permission</span></span>  |   <span data-ttu-id="648fc-119">Nom d’affichage de l’autorisation</span><span class="sxs-lookup"><span data-stu-id="648fc-119">Permission display name</span></span>
+<span data-ttu-id="23549-117">Type d’autorisation</span><span class="sxs-lookup"><span data-stu-id="23549-117">Permission type</span></span> |   <span data-ttu-id="23549-118">Autorisation</span><span class="sxs-lookup"><span data-stu-id="23549-118">Permission</span></span>  |   <span data-ttu-id="23549-119">Nom d’affichage de l’autorisation</span><span class="sxs-lookup"><span data-stu-id="23549-119">Permission display name</span></span>
 :---|:---|:---
-<span data-ttu-id="648fc-120">Application</span><span class="sxs-lookup"><span data-stu-id="648fc-120">Application</span></span> |   <span data-ttu-id="648fc-121">Machine.RestrictExecution</span><span class="sxs-lookup"><span data-stu-id="648fc-121">Machine.RestrictExecution</span></span> | <span data-ttu-id="648fc-122">« Restreindre l’exécution du code »</span><span class="sxs-lookup"><span data-stu-id="648fc-122">'Restrict code execution'</span></span>
-<span data-ttu-id="648fc-123">Déléguée (compte professionnel ou scolaire)</span><span class="sxs-lookup"><span data-stu-id="648fc-123">Delegated (work or school account)</span></span> | <span data-ttu-id="648fc-124">Machine.RestrictExecution</span><span class="sxs-lookup"><span data-stu-id="648fc-124">Machine.RestrictExecution</span></span> | <span data-ttu-id="648fc-125">« Restreindre l’exécution du code »</span><span class="sxs-lookup"><span data-stu-id="648fc-125">'Restrict code execution'</span></span>
+<span data-ttu-id="23549-120">Application</span><span class="sxs-lookup"><span data-stu-id="23549-120">Application</span></span> |   <span data-ttu-id="23549-121">Machine.RestrictExecution</span><span class="sxs-lookup"><span data-stu-id="23549-121">Machine.RestrictExecution</span></span> | <span data-ttu-id="23549-122">« Restreindre l’exécution du code »</span><span class="sxs-lookup"><span data-stu-id="23549-122">'Restrict code execution'</span></span>
+<span data-ttu-id="23549-123">Déléguée (compte professionnel ou scolaire)</span><span class="sxs-lookup"><span data-stu-id="23549-123">Delegated (work or school account)</span></span> | <span data-ttu-id="23549-124">Machine.RestrictExecution</span><span class="sxs-lookup"><span data-stu-id="23549-124">Machine.RestrictExecution</span></span> | <span data-ttu-id="23549-125">« Restreindre l’exécution du code »</span><span class="sxs-lookup"><span data-stu-id="23549-125">'Restrict code execution'</span></span>
 
 >[!Note]
-> <span data-ttu-id="648fc-126">Lors de l’obtention d’un jeton à l’aide des informations d’identification de l’utilisateur :</span><span class="sxs-lookup"><span data-stu-id="648fc-126">When obtaining a token using user credentials:</span></span>
->- <span data-ttu-id="648fc-127">L’utilisateur doit avoir au moins l’autorisation de rôle suivante : « Actions de correction actives » (voir Créer et gérer des rôles [pour](user-roles.md) plus d’informations)</span><span class="sxs-lookup"><span data-stu-id="648fc-127">The user needs to have at least the following role permission: 'Active remediation actions' (See [Create and manage roles](user-roles.md) for more information)</span></span>
->- <span data-ttu-id="648fc-128">L’utilisateur doit avoir accès à l’appareil, en fonction des paramètres de groupe d’appareils (voir Créer et gérer des groupes d’appareils [pour](machine-groups.md) plus d’informations)</span><span class="sxs-lookup"><span data-stu-id="648fc-128">The user needs to have access to the device, based on device group settings (See [Create and manage device groups](machine-groups.md) for more information)</span></span>
+> <span data-ttu-id="23549-126">Lors de l’obtention d’un jeton à l’aide des informations d’identification de l’utilisateur :</span><span class="sxs-lookup"><span data-stu-id="23549-126">When obtaining a token using user credentials:</span></span>
+>- <span data-ttu-id="23549-127">L’utilisateur doit avoir au moins l’autorisation de rôle suivante : « Actions de correction actives » (pour plus d’informations, voir Créer et gérer [des](user-roles.md) rôles)</span><span class="sxs-lookup"><span data-stu-id="23549-127">The user needs to have at least the following role permission: 'Active remediation actions' (See [Create and manage roles](user-roles.md) for more information)</span></span>
+>- <span data-ttu-id="23549-128">L’utilisateur doit avoir accès à l’appareil, en fonction des paramètres de groupe d’appareils (voir Créer et gérer des groupes d’appareils [pour](machine-groups.md) plus d’informations)</span><span class="sxs-lookup"><span data-stu-id="23549-128">The user needs to have access to the device, based on device group settings (See [Create and manage device groups](machine-groups.md) for more information)</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="648fc-129">Requête HTTP</span><span class="sxs-lookup"><span data-stu-id="648fc-129">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="23549-129">Requête HTTP</span><span class="sxs-lookup"><span data-stu-id="23549-129">HTTP request</span></span>
 ```
 POST https://api.securitycenter.microsoft.com/api/machines/{id}/unrestrictCodeExecution
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="648fc-130">En-têtes de demande</span><span class="sxs-lookup"><span data-stu-id="648fc-130">Request headers</span></span>
-<span data-ttu-id="648fc-131">Nom</span><span class="sxs-lookup"><span data-stu-id="648fc-131">Name</span></span> | <span data-ttu-id="648fc-132">Type</span><span class="sxs-lookup"><span data-stu-id="648fc-132">Type</span></span> | <span data-ttu-id="648fc-133">Description</span><span class="sxs-lookup"><span data-stu-id="648fc-133">Description</span></span>
+## <a name="request-headers"></a><span data-ttu-id="23549-130">En-têtes de demande</span><span class="sxs-lookup"><span data-stu-id="23549-130">Request headers</span></span>
+<span data-ttu-id="23549-131">Nom</span><span class="sxs-lookup"><span data-stu-id="23549-131">Name</span></span> | <span data-ttu-id="23549-132">Type</span><span class="sxs-lookup"><span data-stu-id="23549-132">Type</span></span> | <span data-ttu-id="23549-133">Description</span><span class="sxs-lookup"><span data-stu-id="23549-133">Description</span></span>
 :---|:---|:---
-<span data-ttu-id="648fc-134">Autorisation</span><span class="sxs-lookup"><span data-stu-id="648fc-134">Authorization</span></span> | <span data-ttu-id="648fc-135">String</span><span class="sxs-lookup"><span data-stu-id="648fc-135">String</span></span> | <span data-ttu-id="648fc-136">Porteur {token}.</span><span class="sxs-lookup"><span data-stu-id="648fc-136">Bearer {token}.</span></span> <span data-ttu-id="648fc-137">**Obligatoire**.</span><span class="sxs-lookup"><span data-stu-id="648fc-137">**Required**.</span></span>
-<span data-ttu-id="648fc-138">Content-Type</span><span class="sxs-lookup"><span data-stu-id="648fc-138">Content-Type</span></span> | <span data-ttu-id="648fc-139">string</span><span class="sxs-lookup"><span data-stu-id="648fc-139">string</span></span> | <span data-ttu-id="648fc-140">application/json.</span><span class="sxs-lookup"><span data-stu-id="648fc-140">application/json.</span></span> <span data-ttu-id="648fc-141">**Obligatoire**.</span><span class="sxs-lookup"><span data-stu-id="648fc-141">**Required**.</span></span>
+<span data-ttu-id="23549-134">Autorisation</span><span class="sxs-lookup"><span data-stu-id="23549-134">Authorization</span></span> | <span data-ttu-id="23549-135">String</span><span class="sxs-lookup"><span data-stu-id="23549-135">String</span></span> | <span data-ttu-id="23549-136">Porteur {token}.</span><span class="sxs-lookup"><span data-stu-id="23549-136">Bearer {token}.</span></span> <span data-ttu-id="23549-137">**Obligatoire**.</span><span class="sxs-lookup"><span data-stu-id="23549-137">**Required**.</span></span>
+<span data-ttu-id="23549-138">Content-Type</span><span class="sxs-lookup"><span data-stu-id="23549-138">Content-Type</span></span> | <span data-ttu-id="23549-139">string</span><span class="sxs-lookup"><span data-stu-id="23549-139">string</span></span> | <span data-ttu-id="23549-140">application/json.</span><span class="sxs-lookup"><span data-stu-id="23549-140">application/json.</span></span> <span data-ttu-id="23549-141">**Obligatoire**.</span><span class="sxs-lookup"><span data-stu-id="23549-141">**Required**.</span></span>
 
-## <a name="request-body"></a><span data-ttu-id="648fc-142">Corps de la demande</span><span class="sxs-lookup"><span data-stu-id="648fc-142">Request body</span></span>
-<span data-ttu-id="648fc-143">Dans le corps de la demande, fournissons un objet JSON avec les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="648fc-143">In the request body, supply a JSON object with the following parameters:</span></span>
+## <a name="request-body"></a><span data-ttu-id="23549-142">Corps de la demande</span><span class="sxs-lookup"><span data-stu-id="23549-142">Request body</span></span>
+<span data-ttu-id="23549-143">Dans le corps de la demande, fournissons un objet JSON avec les paramètres suivants :</span><span class="sxs-lookup"><span data-stu-id="23549-143">In the request body, supply a JSON object with the following parameters:</span></span>
 
-<span data-ttu-id="648fc-144">Paramètre</span><span class="sxs-lookup"><span data-stu-id="648fc-144">Parameter</span></span> | <span data-ttu-id="648fc-145">Type</span><span class="sxs-lookup"><span data-stu-id="648fc-145">Type</span></span>    | <span data-ttu-id="648fc-146">Description</span><span class="sxs-lookup"><span data-stu-id="648fc-146">Description</span></span>
+<span data-ttu-id="23549-144">Paramètre</span><span class="sxs-lookup"><span data-stu-id="23549-144">Parameter</span></span> | <span data-ttu-id="23549-145">Type</span><span class="sxs-lookup"><span data-stu-id="23549-145">Type</span></span>    | <span data-ttu-id="23549-146">Description</span><span class="sxs-lookup"><span data-stu-id="23549-146">Description</span></span>
 :---|:---|:---
-<span data-ttu-id="648fc-147">Commentaire</span><span class="sxs-lookup"><span data-stu-id="648fc-147">Comment</span></span> |   <span data-ttu-id="648fc-148">Chaîne</span><span class="sxs-lookup"><span data-stu-id="648fc-148">String</span></span> | <span data-ttu-id="648fc-149">Commentaire à associer à l’action.</span><span class="sxs-lookup"><span data-stu-id="648fc-149">Comment to associate with the action.</span></span> <span data-ttu-id="648fc-150">**Obligatoire**.</span><span class="sxs-lookup"><span data-stu-id="648fc-150">**Required**.</span></span>
+<span data-ttu-id="23549-147">Commentaire</span><span class="sxs-lookup"><span data-stu-id="23549-147">Comment</span></span> |   <span data-ttu-id="23549-148">Chaîne</span><span class="sxs-lookup"><span data-stu-id="23549-148">String</span></span> | <span data-ttu-id="23549-149">Commentaire à associer à l’action.</span><span class="sxs-lookup"><span data-stu-id="23549-149">Comment to associate with the action.</span></span> <span data-ttu-id="23549-150">**Obligatoire**.</span><span class="sxs-lookup"><span data-stu-id="23549-150">**Required**.</span></span>
 
-## <a name="response"></a><span data-ttu-id="648fc-151">Réponse</span><span class="sxs-lookup"><span data-stu-id="648fc-151">Response</span></span>
-<span data-ttu-id="648fc-152">Si elle réussit, cette méthode renvoie 201 - Code de réponse créé et Action de [l’ordinateur](machineaction.md) dans le corps de la réponse.</span><span class="sxs-lookup"><span data-stu-id="648fc-152">If successful, this method returns 201 - Created response code and [Machine Action](machineaction.md) in the response body.</span></span>
+## <a name="response"></a><span data-ttu-id="23549-151">Réponse</span><span class="sxs-lookup"><span data-stu-id="23549-151">Response</span></span>
+<span data-ttu-id="23549-152">Si elle réussit, cette méthode renvoie 201 - Code de réponse créé et Action de [l’ordinateur](machineaction.md) dans le corps de la réponse.</span><span class="sxs-lookup"><span data-stu-id="23549-152">If successful, this method returns 201 - Created response code and [Machine Action](machineaction.md) in the response body.</span></span>
 
 
-## <a name="example"></a><span data-ttu-id="648fc-153">Exemple</span><span class="sxs-lookup"><span data-stu-id="648fc-153">Example</span></span>
+## <a name="example"></a><span data-ttu-id="23549-153">Exemple</span><span class="sxs-lookup"><span data-stu-id="23549-153">Example</span></span>
 
-<span data-ttu-id="648fc-154">**Demande**</span><span class="sxs-lookup"><span data-stu-id="648fc-154">**Request**</span></span>
+<span data-ttu-id="23549-154">**Demande**</span><span class="sxs-lookup"><span data-stu-id="23549-154">**Request**</span></span>
 
-<span data-ttu-id="648fc-155">Voici un exemple de demande.</span><span class="sxs-lookup"><span data-stu-id="648fc-155">Here is an example of the request.</span></span>
+<span data-ttu-id="23549-155">Voici un exemple de demande.</span><span class="sxs-lookup"><span data-stu-id="23549-155">Here is an example of the request.</span></span>
 
 ```http
 POST https://api.securitycenter.microsoft.com/api/machines/1e5bc9d7e413ddd7902c2932e418702b84d0cc07/unrestrictCodeExecution 
@@ -102,4 +102,4 @@ POST https://api.securitycenter.microsoft.com/api/machines/1e5bc9d7e413ddd7902c2
 ```
 
 
-<span data-ttu-id="648fc-156">Pour restreindre l’exécution du code sur un appareil, voir [Restreindre l’exécution de l’application.](restrict-code-execution.md)</span><span class="sxs-lookup"><span data-stu-id="648fc-156">To restrict code execution on a device, see [Restrict app execution](restrict-code-execution.md).</span></span>
+<span data-ttu-id="23549-156">Pour restreindre l’exécution du code sur un appareil, voir [Restreindre l’exécution de l’application.](restrict-code-execution.md)</span><span class="sxs-lookup"><span data-stu-id="23549-156">To restrict code execution on a device, see [Restrict app execution](restrict-code-execution.md).</span></span>
