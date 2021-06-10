@@ -24,56 +24,56 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51166726"
 ---
-# <a name="get-kb-collection-api"></a><span data-ttu-id="f5b95-104">API Obtenir une collection de ko</span><span class="sxs-lookup"><span data-stu-id="f5b95-104">Get KB collection API</span></span>
+# <a name="get-kb-collection-api"></a><span data-ttu-id="32d96-104">API Obtenir une collection de ko</span><span class="sxs-lookup"><span data-stu-id="32d96-104">Get KB collection API</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="f5b95-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="f5b95-105">**Applies to:**</span></span>
-- [<span data-ttu-id="f5b95-106">Microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="f5b95-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="f5b95-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="f5b95-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="32d96-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="32d96-105">**Applies to:**</span></span>
+- [<span data-ttu-id="32d96-106">Microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="32d96-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="32d96-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="32d96-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="f5b95-108">Vous souhaitez découvrir Microsoft Defender pour le point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="f5b95-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="f5b95-109">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="f5b95-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> <span data-ttu-id="32d96-108">Vous souhaitez découvrir Microsoft Defender pour le point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="32d96-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="32d96-109">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="32d96-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-<span data-ttu-id="f5b95-110">Extrait une collection de détails de la Ko et de la Ko.</span><span class="sxs-lookup"><span data-stu-id="f5b95-110">Retrieves a collection of KB's and KB details.</span></span>
+<span data-ttu-id="32d96-110">Extrait une collection de détails de la Ko et de la Ko.</span><span class="sxs-lookup"><span data-stu-id="32d96-110">Retrieves a collection of KB's and KB details.</span></span>
 
-## <a name="permissions"></a><span data-ttu-id="f5b95-111">Autorisations</span><span class="sxs-lookup"><span data-stu-id="f5b95-111">Permissions</span></span>
-<span data-ttu-id="f5b95-112">L’utilisateur a besoin d’autorisations de lecture.</span><span class="sxs-lookup"><span data-stu-id="f5b95-112">User needs read permissions.</span></span>
+## <a name="permissions"></a><span data-ttu-id="32d96-111">Autorisations</span><span class="sxs-lookup"><span data-stu-id="32d96-111">Permissions</span></span>
+<span data-ttu-id="32d96-112">L’utilisateur a besoin d’autorisations de lecture.</span><span class="sxs-lookup"><span data-stu-id="32d96-112">User needs read permissions.</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="f5b95-113">Requête HTTP</span><span class="sxs-lookup"><span data-stu-id="f5b95-113">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="32d96-113">Requête HTTP</span><span class="sxs-lookup"><span data-stu-id="32d96-113">HTTP request</span></span>
 ```
 GET /testwdatppreview/kbinfo
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="f5b95-114">En-têtes de demande</span><span class="sxs-lookup"><span data-stu-id="f5b95-114">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="32d96-114">En-têtes de demande</span><span class="sxs-lookup"><span data-stu-id="32d96-114">Request headers</span></span>
 
-<span data-ttu-id="f5b95-115">En-tête</span><span class="sxs-lookup"><span data-stu-id="f5b95-115">Header</span></span> | <span data-ttu-id="f5b95-116">Valeur</span><span class="sxs-lookup"><span data-stu-id="f5b95-116">Value</span></span> 
+<span data-ttu-id="32d96-115">En-tête</span><span class="sxs-lookup"><span data-stu-id="32d96-115">Header</span></span> | <span data-ttu-id="32d96-116">Valeur</span><span class="sxs-lookup"><span data-stu-id="32d96-116">Value</span></span> 
 :---|:---
-<span data-ttu-id="f5b95-117">Autorisation</span><span class="sxs-lookup"><span data-stu-id="f5b95-117">Authorization</span></span> | <span data-ttu-id="f5b95-118">Porteur {token}.</span><span class="sxs-lookup"><span data-stu-id="f5b95-118">Bearer {token}.</span></span> <span data-ttu-id="f5b95-119">**Obligatoire**.</span><span class="sxs-lookup"><span data-stu-id="f5b95-119">**Required**.</span></span>
-<span data-ttu-id="f5b95-120">Type de contenu</span><span class="sxs-lookup"><span data-stu-id="f5b95-120">Content type</span></span> | <span data-ttu-id="f5b95-121">application/json</span><span class="sxs-lookup"><span data-stu-id="f5b95-121">application/json</span></span>
+<span data-ttu-id="32d96-117">Autorisation</span><span class="sxs-lookup"><span data-stu-id="32d96-117">Authorization</span></span> | <span data-ttu-id="32d96-118">Porteur {token}.</span><span class="sxs-lookup"><span data-stu-id="32d96-118">Bearer {token}.</span></span> <span data-ttu-id="32d96-119">**Obligatoire**.</span><span class="sxs-lookup"><span data-stu-id="32d96-119">**Required**.</span></span>
+<span data-ttu-id="32d96-120">Type de contenu</span><span class="sxs-lookup"><span data-stu-id="32d96-120">Content type</span></span> | <span data-ttu-id="32d96-121">application/json</span><span class="sxs-lookup"><span data-stu-id="32d96-121">application/json</span></span>
 
-## <a name="request-body"></a><span data-ttu-id="f5b95-122">Corps de la demande</span><span class="sxs-lookup"><span data-stu-id="f5b95-122">Request body</span></span>
-<span data-ttu-id="f5b95-123">Vide</span><span class="sxs-lookup"><span data-stu-id="f5b95-123">Empty</span></span>
+## <a name="request-body"></a><span data-ttu-id="32d96-122">Corps de la demande</span><span class="sxs-lookup"><span data-stu-id="32d96-122">Request body</span></span>
+<span data-ttu-id="32d96-123">Vide</span><span class="sxs-lookup"><span data-stu-id="32d96-123">Empty</span></span>
 
-## <a name="response"></a><span data-ttu-id="f5b95-124">Réponse</span><span class="sxs-lookup"><span data-stu-id="f5b95-124">Response</span></span>
-<span data-ttu-id="f5b95-125">En cas de réussite : 200 - OK.</span><span class="sxs-lookup"><span data-stu-id="f5b95-125">If successful - 200 OK.</span></span>
+## <a name="response"></a><span data-ttu-id="32d96-124">Réponse</span><span class="sxs-lookup"><span data-stu-id="32d96-124">Response</span></span>
+<span data-ttu-id="32d96-125">En cas de réussite : 200 - OK.</span><span class="sxs-lookup"><span data-stu-id="32d96-125">If successful - 200 OK.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f5b95-126">Exemple</span><span class="sxs-lookup"><span data-stu-id="f5b95-126">Example</span></span>
+## <a name="example"></a><span data-ttu-id="32d96-126">Exemple</span><span class="sxs-lookup"><span data-stu-id="32d96-126">Example</span></span>
 
-<span data-ttu-id="f5b95-127">**Demande**</span><span class="sxs-lookup"><span data-stu-id="f5b95-127">**Request**</span></span>
+<span data-ttu-id="32d96-127">**Demande**</span><span class="sxs-lookup"><span data-stu-id="32d96-127">**Request**</span></span>
 
-<span data-ttu-id="f5b95-128">Voici un exemple de demande.</span><span class="sxs-lookup"><span data-stu-id="f5b95-128">Here is an example of the request.</span></span>
+<span data-ttu-id="32d96-128">Voici un exemple de demande.</span><span class="sxs-lookup"><span data-stu-id="32d96-128">Here is an example of the request.</span></span>
 
 ```http
 GET https://graph.microsoft.com/testwdatppreview/KbInfo
 ```
 
-<span data-ttu-id="f5b95-129">**Réponse**</span><span class="sxs-lookup"><span data-stu-id="f5b95-129">**Response**</span></span>
+<span data-ttu-id="32d96-129">**Réponse**</span><span class="sxs-lookup"><span data-stu-id="32d96-129">**Response**</span></span>
 
-<span data-ttu-id="f5b95-130">Voici un exemple de réponse.</span><span class="sxs-lookup"><span data-stu-id="f5b95-130">Here is an example of the response.</span></span>
+<span data-ttu-id="32d96-130">Voici un exemple de réponse.</span><span class="sxs-lookup"><span data-stu-id="32d96-130">Here is an example of the response.</span></span>
 
 ```json
 {

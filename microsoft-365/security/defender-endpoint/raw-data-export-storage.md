@@ -23,47 +23,47 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 06/05/2021
 ms.locfileid: "52780176"
 ---
-# <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-storage-account"></a><span data-ttu-id="c81ba-104">Configurer Microsoft Defender pour le point de terminaison pour diffuser des événements de recherche avancée vers Stockage compte</span><span class="sxs-lookup"><span data-stu-id="c81ba-104">Configure Microsoft Defender for Endpoint to stream Advanced Hunting events to your Storage account</span></span>
+# <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-storage-account"></a><span data-ttu-id="fe033-104">Configurer Microsoft Defender pour le point de terminaison pour diffuser des événements de recherche avancée vers Stockage compte</span><span class="sxs-lookup"><span data-stu-id="fe033-104">Configure Microsoft Defender for Endpoint to stream Advanced Hunting events to your Storage account</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="c81ba-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="c81ba-105">**Applies to:**</span></span>
-- [<span data-ttu-id="c81ba-106">Microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="c81ba-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
+<span data-ttu-id="fe033-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="fe033-105">**Applies to:**</span></span>
+- [<span data-ttu-id="fe033-106">Microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="fe033-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-> <span data-ttu-id="c81ba-107">Vous souhaitez faire l’expérience de Defender pour point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="c81ba-107">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="c81ba-108">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="c81ba-108">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
+> <span data-ttu-id="fe033-107">Vous souhaitez faire l’expérience de Defender pour point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="fe033-107">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="fe033-108">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="fe033-108">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
 
-## <a name="before-you-begin"></a><span data-ttu-id="c81ba-109">Avant de commencer</span><span class="sxs-lookup"><span data-stu-id="c81ba-109">Before you begin</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="fe033-109">Avant de commencer</span><span class="sxs-lookup"><span data-stu-id="fe033-109">Before you begin</span></span>
 
-1. <span data-ttu-id="c81ba-110">Créez [un Stockage dans](/azure/storage/common/storage-account-overview) votre client.</span><span class="sxs-lookup"><span data-stu-id="c81ba-110">Create a [Storage account](/azure/storage/common/storage-account-overview) in your tenant.</span></span>
+1. <span data-ttu-id="fe033-110">Créez [un Stockage dans](/azure/storage/common/storage-account-overview) votre client.</span><span class="sxs-lookup"><span data-stu-id="fe033-110">Create a [Storage account](/azure/storage/common/storage-account-overview) in your tenant.</span></span>
 
-2. <span data-ttu-id="c81ba-111">Connectez-vous à votre client [Azure,](https://ms.portal.azure.com/)allez à Abonnements > Votre abonnement > fournisseurs de ressources > s’inscrire à **Microsoft.insights**.</span><span class="sxs-lookup"><span data-stu-id="c81ba-111">Log in to your [Azure tenant](https://ms.portal.azure.com/), go to **Subscriptions > Your subscription > Resource Providers > Register to Microsoft.insights**.</span></span>
+2. <span data-ttu-id="fe033-111">Connectez-vous à votre client [Azure,](https://ms.portal.azure.com/)allez à Abonnements > Votre abonnement > fournisseurs de ressources **> s’inscrire à Microsoft.insights**.</span><span class="sxs-lookup"><span data-stu-id="fe033-111">Log in to your [Azure tenant](https://ms.portal.azure.com/), go to **Subscriptions > Your subscription > Resource Providers > Register to Microsoft.insights**.</span></span>
 
-## <a name="enable-raw-data-streaming"></a><span data-ttu-id="c81ba-112">Activer la diffusion en continu des données brutes</span><span class="sxs-lookup"><span data-stu-id="c81ba-112">Enable raw data streaming</span></span>
+## <a name="enable-raw-data-streaming"></a><span data-ttu-id="fe033-112">Activer la diffusion en continu des données brutes</span><span class="sxs-lookup"><span data-stu-id="fe033-112">Enable raw data streaming</span></span>
 
-1. <span data-ttu-id="c81ba-113">Connectez-vous [au portail Microsoft Defender pour points](https://securitycenter.windows.com) de terminaison en tant qu’administrateur \* Administrateur **général** _ ou _\*_Administrateur_ de sécurité \*\*.</span><span class="sxs-lookup"><span data-stu-id="c81ba-113">Log in to [Microsoft Defender for Endpoint portal](https://securitycenter.windows.com) as a ***Global Administrator** _ or _*_Security Administrator_\*\*.</span></span>
+1. <span data-ttu-id="fe033-113">Connectez-vous [au portail Microsoft Defender pour points](https://securitycenter.windows.com) de terminaison en tant qu’administrateur \* Administrateur **général** _ ou _\*_Administrateur_ de sécurité \*\*.</span><span class="sxs-lookup"><span data-stu-id="fe033-113">Log in to [Microsoft Defender for Endpoint portal](https://securitycenter.windows.com) as a ***Global Administrator** _ or _*_Security Administrator_\*\*.</span></span>
 
-2. <span data-ttu-id="c81ba-114">Go to [Data export settings page](https://securitycenter.windows.com/interoperability/dataexport) on Centre de sécurité Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="c81ba-114">Go to [Data export settings page](https://securitycenter.windows.com/interoperability/dataexport) on Microsoft Defender Security Center.</span></span>
+2. <span data-ttu-id="fe033-114">Go to [Data export settings page](https://securitycenter.windows.com/interoperability/dataexport) on Centre de sécurité Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="fe033-114">Go to [Data export settings page](https://securitycenter.windows.com/interoperability/dataexport) on Microsoft Defender Security Center.</span></span>
 
-3. <span data-ttu-id="c81ba-115">Cliquez sur **Ajouter des paramètres d’exportation de données.**</span><span class="sxs-lookup"><span data-stu-id="c81ba-115">Click on **Add data export settings**.</span></span>
+3. <span data-ttu-id="fe033-115">Cliquez sur **Ajouter des paramètres d’exportation de données.**</span><span class="sxs-lookup"><span data-stu-id="fe033-115">Click on **Add data export settings**.</span></span>
 
-4. <span data-ttu-id="c81ba-116">Choisissez un nom pour vos nouveaux paramètres.</span><span class="sxs-lookup"><span data-stu-id="c81ba-116">Choose a name for your new settings.</span></span>
+4. <span data-ttu-id="fe033-116">Choisissez un nom pour vos nouveaux paramètres.</span><span class="sxs-lookup"><span data-stu-id="fe033-116">Choose a name for your new settings.</span></span>
 
-5. <span data-ttu-id="c81ba-117">Choose **Forward events to stockage Azure**.</span><span class="sxs-lookup"><span data-stu-id="c81ba-117">Choose **Forward events to Azure Storage**.</span></span>
+5. <span data-ttu-id="fe033-117">Choose **Forward events to stockage Azure**.</span><span class="sxs-lookup"><span data-stu-id="fe033-117">Choose **Forward events to Azure Storage**.</span></span>
 
-6. <span data-ttu-id="c81ba-118">Tapez votre **ID Stockage de compte de compte.**</span><span class="sxs-lookup"><span data-stu-id="c81ba-118">Type your **Storage Account Resource ID**.</span></span> <span data-ttu-id="c81ba-119">Pour obtenir votre ID de ressource de compte **Stockage,** go to your Stockage account page on [Azure portal](https://ms.portal.azure.com/) > properties tab > copy the text under Stockage account resource **ID:**</span><span class="sxs-lookup"><span data-stu-id="c81ba-119">In order to get your **Storage Account Resource ID**, go to your Storage account page on [Azure portal](https://ms.portal.azure.com/) > properties tab > copy the text under **Storage account resource ID**:</span></span>
+6. <span data-ttu-id="fe033-118">Tapez votre **ID Stockage de ressource de compte.**</span><span class="sxs-lookup"><span data-stu-id="fe033-118">Type your **Storage Account Resource ID**.</span></span> <span data-ttu-id="fe033-119">Pour obtenir votre ID de ressource de compte **Stockage,** go to your Stockage account page on [Azure portal](https://ms.portal.azure.com/) > properties tab > copy the text under Stockage account resource **ID:**</span><span class="sxs-lookup"><span data-stu-id="fe033-119">In order to get your **Storage Account Resource ID**, go to your Storage account page on [Azure portal](https://ms.portal.azure.com/) > properties tab > copy the text under **Storage account resource ID**:</span></span>
 
    ![Image de l’ID1 de ressource du hub d’événements](images/storage-account-resource-id.png)
 
-7. <span data-ttu-id="c81ba-121">Choisissez les événements que vous souhaitez diffuser en continu, puis cliquez sur **Enregistrer.**</span><span class="sxs-lookup"><span data-stu-id="c81ba-121">Choose the events you want to stream and click **Save**.</span></span>
+7. <span data-ttu-id="fe033-121">Choisissez les événements que vous souhaitez diffuser en continu, puis cliquez sur **Enregistrer.**</span><span class="sxs-lookup"><span data-stu-id="fe033-121">Choose the events you want to stream and click **Save**.</span></span>
 
-## <a name="the-schema-of-the-events-in-the-storage-account"></a><span data-ttu-id="c81ba-122">Schéma des événements dans le compte Stockage client</span><span class="sxs-lookup"><span data-stu-id="c81ba-122">The schema of the events in the Storage account</span></span>
+## <a name="the-schema-of-the-events-in-the-storage-account"></a><span data-ttu-id="fe033-122">Schéma des événements dans le compte Stockage client</span><span class="sxs-lookup"><span data-stu-id="fe033-122">The schema of the events in the Storage account</span></span>
 
-- <span data-ttu-id="c81ba-123">Un conteneur d’objets blob est créé pour chaque type d’événement :</span><span class="sxs-lookup"><span data-stu-id="c81ba-123">A blob container will be created for each event type:</span></span> 
+- <span data-ttu-id="fe033-123">Un conteneur d’objets blob est créé pour chaque type d’événement :</span><span class="sxs-lookup"><span data-stu-id="fe033-123">A blob container will be created for each event type:</span></span> 
 
   ![Image de l’ID2 de ressource du hub d’événements](images/storage-account-event-schema.png)
 
-- <span data-ttu-id="c81ba-125">Le schéma de chaque ligne d’un objet blob est le JSON suivant :</span><span class="sxs-lookup"><span data-stu-id="c81ba-125">The schema of each row in a blob is the following JSON:</span></span> 
+- <span data-ttu-id="fe033-125">Le schéma de chaque ligne d’un objet blob est le JSON suivant :</span><span class="sxs-lookup"><span data-stu-id="fe033-125">The schema of each row in a blob is the following JSON:</span></span> 
 
   ```
   {
@@ -74,21 +74,21 @@ ms.locfileid: "52780176"
   }               
   ```
 
-- <span data-ttu-id="c81ba-126">Chaque objet blob contient plusieurs lignes.</span><span class="sxs-lookup"><span data-stu-id="c81ba-126">Each blob contains multiple rows.</span></span>
+- <span data-ttu-id="fe033-126">Chaque objet blob contient plusieurs lignes.</span><span class="sxs-lookup"><span data-stu-id="fe033-126">Each blob contains multiple rows.</span></span>
 
-- <span data-ttu-id="c81ba-127">Chaque ligne contient le nom de l’événement, le moment où Defender pour le point de terminaison a reçu l’événement, le client qu’il appartient (vous recevez uniquement les événements de votre client) et l’événement au format JSON dans une propriété appelée « properties ».</span><span class="sxs-lookup"><span data-stu-id="c81ba-127">Each row contains the event name, the time Defender for Endpoint received the event, the tenant it belongs (you will only get events from your tenant), and the event in JSON format in a property called "properties".</span></span>
+- <span data-ttu-id="fe033-127">Chaque ligne contient le nom de l’événement, le moment où Defender pour le point de terminaison a reçu l’événement, le client qu’il appartient (vous recevez uniquement les événements de votre client) et l’événement au format JSON dans une propriété appelée « properties ».</span><span class="sxs-lookup"><span data-stu-id="fe033-127">Each row contains the event name, the time Defender for Endpoint received the event, the tenant it belongs (you will only get events from your tenant), and the event in JSON format in a property called "properties".</span></span>
 
-- <span data-ttu-id="c81ba-128">Pour plus d’informations sur le schéma des événements Microsoft Defender for Endpoint, consultez [la vue d’ensemble de la recherche avancée.](advanced-hunting-overview.md)</span><span class="sxs-lookup"><span data-stu-id="c81ba-128">For more information about the schema of Microsoft Defender for Endpoint events, see [Advanced Hunting overview](advanced-hunting-overview.md).</span></span>
+- <span data-ttu-id="fe033-128">Pour plus d’informations sur le schéma des événements Microsoft Defender for Endpoint, consultez [la vue d’ensemble de la recherche avancée.](advanced-hunting-overview.md)</span><span class="sxs-lookup"><span data-stu-id="fe033-128">For more information about the schema of Microsoft Defender for Endpoint events, see [Advanced Hunting overview](advanced-hunting-overview.md).</span></span>
 
-- <span data-ttu-id="c81ba-129">Dans la recherche avancée, la table **DeviceInfo** comporte une colonne nommée **MachineGroup** qui contient le groupe de l’appareil.</span><span class="sxs-lookup"><span data-stu-id="c81ba-129">In Advanced Hunting, the **DeviceInfo** table has a column named **MachineGroup** which contains the group of the device.</span></span> <span data-ttu-id="c81ba-130">Ici, chaque événement est également décorée avec cette colonne.</span><span class="sxs-lookup"><span data-stu-id="c81ba-130">Here every event will be decorated with this column as well.</span></span> <span data-ttu-id="c81ba-131">Pour plus [d’informations,](machine-groups.md) voir Groupes d’appareils.</span><span class="sxs-lookup"><span data-stu-id="c81ba-131">See [Device Groups](machine-groups.md) for more information.</span></span>
+- <span data-ttu-id="fe033-129">Dans la recherche avancée, la table **DeviceInfo** comporte une colonne nommée **MachineGroup** qui contient le groupe de l’appareil.</span><span class="sxs-lookup"><span data-stu-id="fe033-129">In Advanced Hunting, the **DeviceInfo** table has a column named **MachineGroup** which contains the group of the device.</span></span> <span data-ttu-id="fe033-130">Ici, chaque événement est également décorée avec cette colonne.</span><span class="sxs-lookup"><span data-stu-id="fe033-130">Here every event will be decorated with this column as well.</span></span> <span data-ttu-id="fe033-131">Pour plus [d’informations,](machine-groups.md) voir Groupes d’appareils.</span><span class="sxs-lookup"><span data-stu-id="fe033-131">See [Device Groups](machine-groups.md) for more information.</span></span>
 
-## <a name="data-types-mapping"></a><span data-ttu-id="c81ba-132">Mappage des types de données</span><span class="sxs-lookup"><span data-stu-id="c81ba-132">Data types mapping</span></span>
+## <a name="data-types-mapping"></a><span data-ttu-id="fe033-132">Mappage des types de données</span><span class="sxs-lookup"><span data-stu-id="fe033-132">Data types mapping</span></span>
 
-<span data-ttu-id="c81ba-133">Pour obtenir les types de données pour nos propriétés d’événements, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="c81ba-133">In order to get the data types for our events properties do the following:</span></span>
+<span data-ttu-id="fe033-133">Pour obtenir les types de données pour nos propriétés d’événements, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="fe033-133">In order to get the data types for our events properties do the following:</span></span>
 
-1. <span data-ttu-id="c81ba-134">Connectez-vous [Centre de sécurité Microsoft Defender](https://securitycenter.windows.com) et allez à la [page Recherche avancée.](https://securitycenter.windows.com/hunting-package)</span><span class="sxs-lookup"><span data-stu-id="c81ba-134">Log in to [Microsoft Defender Security Center](https://securitycenter.windows.com) and go to [Advanced Hunting page](https://securitycenter.windows.com/hunting-package).</span></span>
+1. <span data-ttu-id="fe033-134">Connectez-vous [Centre de sécurité Microsoft Defender](https://securitycenter.windows.com) et allez à la [page Recherche avancée.](https://securitycenter.windows.com/hunting-package)</span><span class="sxs-lookup"><span data-stu-id="fe033-134">Log in to [Microsoft Defender Security Center](https://securitycenter.windows.com) and go to [Advanced Hunting page](https://securitycenter.windows.com/hunting-package).</span></span>
 
-2. <span data-ttu-id="c81ba-135">Exécutez la requête suivante pour obtenir le mappage des types de données pour chaque événement :</span><span class="sxs-lookup"><span data-stu-id="c81ba-135">Run the following query to get the data types mapping for each event:</span></span> 
+2. <span data-ttu-id="fe033-135">Exécutez la requête suivante pour obtenir le mappage des types de données pour chaque événement :</span><span class="sxs-lookup"><span data-stu-id="fe033-135">Run the following query to get the data types mapping for each event:</span></span> 
 
    ```
    {EventType}
@@ -96,12 +96,12 @@ ms.locfileid: "52780176"
    | project ColumnName, ColumnType 
    ```
 
-- <span data-ttu-id="c81ba-136">Voici un exemple d’événement Device Info :</span><span class="sxs-lookup"><span data-stu-id="c81ba-136">Here is an example for Device Info event:</span></span> 
+- <span data-ttu-id="fe033-136">Voici un exemple d’événement Device Info :</span><span class="sxs-lookup"><span data-stu-id="fe033-136">Here is an example for Device Info event:</span></span> 
 
   ![Image de l’ID3 de ressource du hub d’événements](images/machine-info-datatype-example.png)
 
-## <a name="related-topics"></a><span data-ttu-id="c81ba-138">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c81ba-138">Related topics</span></span>
-- [<span data-ttu-id="c81ba-139">Vue d’ensemble du chasse avancée</span><span class="sxs-lookup"><span data-stu-id="c81ba-139">Overview of Advanced Hunting</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="c81ba-140">API de diffusion en continu De Microsoft Defender pour les points de terminaison</span><span class="sxs-lookup"><span data-stu-id="c81ba-140">Microsoft Defender for Endpoint Streaming API</span></span>](raw-data-export.md)
-- [<span data-ttu-id="c81ba-141">Diffuser des événements Microsoft Defender for Endpoint vers votre compte de stockage Azure</span><span class="sxs-lookup"><span data-stu-id="c81ba-141">Stream Microsoft Defender for Endpoint events to your Azure storage account</span></span>](raw-data-export-storage.md)
-- [<span data-ttu-id="c81ba-142">stockage Azure Documentation du compte</span><span class="sxs-lookup"><span data-stu-id="c81ba-142">Azure Storage Account documentation</span></span>](/azure/storage/common/storage-account-overview)
+## <a name="related-topics"></a><span data-ttu-id="fe033-138">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fe033-138">Related topics</span></span>
+- [<span data-ttu-id="fe033-139">Vue d’ensemble du chasse avancée</span><span class="sxs-lookup"><span data-stu-id="fe033-139">Overview of Advanced Hunting</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="fe033-140">API de diffusion en continu microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="fe033-140">Microsoft Defender for Endpoint Streaming API</span></span>](raw-data-export.md)
+- [<span data-ttu-id="fe033-141">Diffuser des événements Microsoft Defender for Endpoint vers votre compte de stockage Azure</span><span class="sxs-lookup"><span data-stu-id="fe033-141">Stream Microsoft Defender for Endpoint events to your Azure storage account</span></span>](raw-data-export-storage.md)
+- [<span data-ttu-id="fe033-142">stockage Azure Documentation du compte</span><span class="sxs-lookup"><span data-stu-id="fe033-142">Azure Storage Account documentation</span></span>](/azure/storage/common/storage-account-overview)
