@@ -1,0 +1,32 @@
+### YamlMime:Hub
+title: Scheduler pour les Microsoft 365
+summary: Découvrez comment configurer le Programmeur pour Microsoft 365 planifier des réunions à l’aide de Cortana.
+brand: m365
+metadata:
+  title: Scheduler pour les Microsoft 365
+  description: Découvrez comment configurer le Programmeur pour Microsoft 365 planifier des réunions à l’aide de Cortana.
+  ms.service: exchange-online
+  ms.topic: hub-page
+  author: AshaIyengar21
+  ms.author: v-aiyengar
+  manager: serdars
+  audience: Admin
+  ms.date: 04/23/2021
+additionalContent:
+  sections:
+    - items:
+        - title: Qu’est-ce que scheduler pour Microsoft 365 ?
+          summary: 'Découvrez scheduler pour Microsoft 365 et ses fonctionnalités, qui et comment il en bénéficiera.'
+          url: scheduler-overview.md
+        - title: Confiance et confidentialité
+          summary: Découvrez comment le Scheduler pour Microsoft 365 s’assure que votre confiance et confidentialité sont protégées.
+          url: scheduler-trust-privacy.md
+        - title: Configuration du Scheduler pour Microsoft 365
+          summary: Découvrez ce qui est nécessaire pour configurer le Scheduler pour Microsoft 365.
+          url: scheduler-setup.md
+        - title: Utiliser le Scheduler pour Microsoft 365
+          summary: Découvrez comment utiliser scheduler pour Microsoft 365.
+          url: scheduler-using.md
+        - title: FAQ pour scheduler
+          summary: Découvrez les questions fréquemment posées sur scheduler pour Microsoft 365 et leurs réponses.
+          url: scheduler-faqs.md
