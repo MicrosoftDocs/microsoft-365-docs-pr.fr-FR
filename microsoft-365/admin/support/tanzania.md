@@ -19,24 +19,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297571"
 ---
-# <a name="contact-support-for-tanzania"></a><span data-ttu-id="493b6-103">Contacter le support pour la Tanzanie</span><span class="sxs-lookup"><span data-stu-id="493b6-103">Contact support for Tanzania</span></span>
+# <a name="contact-support-for-tanzania"></a><span data-ttu-id="93341-103">Contacter le support pour la Tanzanie</span><span class="sxs-lookup"><span data-stu-id="93341-103">Contact support for Tanzania</span></span>
 
-<span data-ttu-id="493b6-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="493b6-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="93341-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="93341-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="493b6-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="493b6-105">Phone number</span></span>
-<span data-ttu-id="493b6-106">+254 20 286 8800</span><span class="sxs-lookup"><span data-stu-id="493b6-106">+254 20 286 8800</span></span>
+## <a name="phone-number"></a><span data-ttu-id="93341-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="93341-105">Phone number</span></span>
+<span data-ttu-id="93341-106">+254 20 286 8800</span><span class="sxs-lookup"><span data-stu-id="93341-106">+254 20 286 8800</span></span>
 
-<span data-ttu-id="493b6-107">Sélectionner l’option 9</span><span class="sxs-lookup"><span data-stu-id="493b6-107">Select option 9</span></span>
+<span data-ttu-id="93341-107">Sélectionner l’option 9</span><span class="sxs-lookup"><span data-stu-id="93341-107">Select option 9</span></span>
 
-<span data-ttu-id="493b6-108">Entrer le code 7704</span><span class="sxs-lookup"><span data-stu-id="493b6-108">Enter code 7704</span></span>
+<span data-ttu-id="93341-108">Entrer le code 7704</span><span class="sxs-lookup"><span data-stu-id="93341-108">Enter code 7704</span></span>
 
-## <a name="hours"></a><span data-ttu-id="493b6-109">Heures</span><span class="sxs-lookup"><span data-stu-id="493b6-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="493b6-110">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="493b6-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="93341-109">Heures</span><span class="sxs-lookup"><span data-stu-id="93341-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="93341-110">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="93341-110">Billing Support:</span></span>
 
-<span data-ttu-id="493b6-111">Anglais : Mon-Fri 10h00 à 18h00</span><span class="sxs-lookup"><span data-stu-id="493b6-111">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="93341-111">Anglais : Mon-Fri 10h00 à 18h00</span><span class="sxs-lookup"><span data-stu-id="93341-111">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="493b6-112">Support technique :</span><span class="sxs-lookup"><span data-stu-id="493b6-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="93341-112">Support technique :</span><span class="sxs-lookup"><span data-stu-id="93341-112">Technical Support:</span></span>
 
-<span data-ttu-id="493b6-113">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="493b6-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="93341-113">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="93341-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="493b6-114">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="493b6-114">International call charges apply</span></span>
+<span data-ttu-id="93341-114">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="93341-114">International call charges apply</span></span>

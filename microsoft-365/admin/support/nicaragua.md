@@ -19,22 +19,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297947"
 ---
-# <a name="contact-support-for-nicaragua"></a><span data-ttu-id="9f32d-103">Contacter le support pour le Nicaragua</span><span class="sxs-lookup"><span data-stu-id="9f32d-103">Contact support for Nicaragua</span></span>
+# <a name="contact-support-for-nicaragua"></a><span data-ttu-id="f4c97-103">Contacter le support pour le Nicaragua</span><span class="sxs-lookup"><span data-stu-id="f4c97-103">Contact support for Nicaragua</span></span>
 
-<span data-ttu-id="9f32d-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="9f32d-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="f4c97-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="f4c97-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="9f32d-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="9f32d-105">Phone number</span></span>
-<span data-ttu-id="9f32d-106">1800 0164</span><span class="sxs-lookup"><span data-stu-id="9f32d-106">1800 0164</span></span>
+## <a name="phone-number"></a><span data-ttu-id="f4c97-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="f4c97-105">Phone number</span></span>
+<span data-ttu-id="f4c97-106">1800 0164</span><span class="sxs-lookup"><span data-stu-id="f4c97-106">1800 0164</span></span>
 
-<span data-ttu-id="9f32d-107">Après la numérotation, entrez</span><span class="sxs-lookup"><span data-stu-id="9f32d-107">After dialing, enter</span></span>
+<span data-ttu-id="f4c97-107">Après la numérotation, entrez</span><span class="sxs-lookup"><span data-stu-id="f4c97-107">After dialing, enter</span></span>
 
-<span data-ttu-id="9f32d-108">877 635 7036</span><span class="sxs-lookup"><span data-stu-id="9f32d-108">877 635 7036</span></span>
+<span data-ttu-id="f4c97-108">877 635 7036</span><span class="sxs-lookup"><span data-stu-id="f4c97-108">877 635 7036</span></span>
 
-## <a name="hours"></a><span data-ttu-id="9f32d-109">Heures</span><span class="sxs-lookup"><span data-stu-id="9f32d-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="9f32d-110">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="9f32d-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="f4c97-109">Heures</span><span class="sxs-lookup"><span data-stu-id="f4c97-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="f4c97-110">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="f4c97-110">Billing Support:</span></span>
 
-<span data-ttu-id="9f32d-111">Espagnol : Mon-Fri 9 h à 17 h</span><span class="sxs-lookup"><span data-stu-id="9f32d-111">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="f4c97-111">Espagnol : Mon-Fri 9 h à 17 h</span><span class="sxs-lookup"><span data-stu-id="f4c97-111">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="9f32d-112">Support technique :</span><span class="sxs-lookup"><span data-stu-id="9f32d-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="f4c97-112">Support technique :</span><span class="sxs-lookup"><span data-stu-id="f4c97-112">Technical Support:</span></span>
 
-<span data-ttu-id="9f32d-113">Espagnol : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="9f32d-113">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="f4c97-113">Espagnol : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="f4c97-113">Spanish: 24 hours a day, 7 days a week</span></span>

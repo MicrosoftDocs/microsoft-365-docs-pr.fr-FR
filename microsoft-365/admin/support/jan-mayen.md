@@ -19,20 +19,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298586"
 ---
-# <a name="contact-support-for-jan-mayen"></a><span data-ttu-id="7819d-103">Contacter le support pour Jan Mayen</span><span class="sxs-lookup"><span data-stu-id="7819d-103">Contact support for Jan Mayen</span></span>
+# <a name="contact-support-for-jan-mayen"></a><span data-ttu-id="e9415-103">Contacter le support pour Jan Mayen</span><span class="sxs-lookup"><span data-stu-id="e9415-103">Contact support for Jan Mayen</span></span>
 
-<span data-ttu-id="7819d-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="7819d-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="e9415-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="e9415-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="7819d-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="7819d-105">Phone number</span></span>
-<span data-ttu-id="7819d-106">+1 312 843 5149</span><span class="sxs-lookup"><span data-stu-id="7819d-106">+1 312 843 5149</span></span>
+## <a name="phone-number"></a><span data-ttu-id="e9415-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="e9415-105">Phone number</span></span>
+<span data-ttu-id="e9415-106">+1 312 843 5149</span><span class="sxs-lookup"><span data-stu-id="e9415-106">+1 312 843 5149</span></span>
 
-## <a name="hours"></a><span data-ttu-id="7819d-107">Heures</span><span class="sxs-lookup"><span data-stu-id="7819d-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="7819d-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="7819d-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="e9415-107">Heures</span><span class="sxs-lookup"><span data-stu-id="e9415-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="e9415-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="e9415-108">Billing Support:</span></span>
 
-<span data-ttu-id="7819d-109">Anglais : Mon-Fri 9h00 à 18h00</span><span class="sxs-lookup"><span data-stu-id="7819d-109">English: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="e9415-109">Anglais : Mon-Fri 9h00 à 18h00</span><span class="sxs-lookup"><span data-stu-id="e9415-109">English: Mon-Fri 9 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="7819d-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="7819d-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="e9415-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="e9415-110">Technical Support:</span></span>
 
-<span data-ttu-id="7819d-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="7819d-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="e9415-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="e9415-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="7819d-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="7819d-112">International call charges apply</span></span>
+<span data-ttu-id="e9415-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="e9415-112">International call charges apply</span></span>

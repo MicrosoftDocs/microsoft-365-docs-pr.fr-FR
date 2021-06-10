@@ -19,22 +19,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297907"
 ---
-# <a name="contact-support-for-pakistan"></a><span data-ttu-id="34dfb-103">Contacter le support technique pour le Pakistan</span><span class="sxs-lookup"><span data-stu-id="34dfb-103">Contact support for Pakistan</span></span>
+# <a name="contact-support-for-pakistan"></a><span data-ttu-id="ba364-103">Contacter le support technique pour le Pakistan</span><span class="sxs-lookup"><span data-stu-id="ba364-103">Contact support for Pakistan</span></span>
 
-<span data-ttu-id="34dfb-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="34dfb-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="ba364-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="ba364-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="34dfb-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="34dfb-105">Phone number</span></span>
-<span data-ttu-id="34dfb-106">021 111 674 357</span><span class="sxs-lookup"><span data-stu-id="34dfb-106">021 111 674 357</span></span>
+## <a name="phone-number"></a><span data-ttu-id="ba364-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="ba364-105">Phone number</span></span>
+<span data-ttu-id="ba364-106">021 111 674 357</span><span class="sxs-lookup"><span data-stu-id="ba364-106">021 111 674 357</span></span>
 
-<span data-ttu-id="34dfb-107">Sélectionner l’option 3</span><span class="sxs-lookup"><span data-stu-id="34dfb-107">Select option 3</span></span>
+<span data-ttu-id="ba364-107">Sélectionner l’option 3</span><span class="sxs-lookup"><span data-stu-id="ba364-107">Select option 3</span></span>
 
-## <a name="hours"></a><span data-ttu-id="34dfb-108">Heures</span><span class="sxs-lookup"><span data-stu-id="34dfb-108">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="34dfb-109">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="34dfb-109">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="ba364-108">Heures</span><span class="sxs-lookup"><span data-stu-id="ba364-108">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="ba364-109">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="ba364-109">Billing Support:</span></span>
 
-<span data-ttu-id="34dfb-110">Anglais : Mon-Fri 10h00 à 18h00</span><span class="sxs-lookup"><span data-stu-id="34dfb-110">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="ba364-110">Anglais : Mon-Fri 10h00 à 18h00</span><span class="sxs-lookup"><span data-stu-id="ba364-110">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="34dfb-111">Support technique :</span><span class="sxs-lookup"><span data-stu-id="34dfb-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="ba364-111">Support technique :</span><span class="sxs-lookup"><span data-stu-id="ba364-111">Technical Support:</span></span>
 
-<span data-ttu-id="34dfb-112">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="34dfb-112">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="ba364-112">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="ba364-112">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="34dfb-113">Frais d’appel local applicables</span><span class="sxs-lookup"><span data-stu-id="34dfb-113">Local call charges apply</span></span>
+<span data-ttu-id="ba364-113">Frais d’appel local applicables</span><span class="sxs-lookup"><span data-stu-id="ba364-113">Local call charges apply</span></span>

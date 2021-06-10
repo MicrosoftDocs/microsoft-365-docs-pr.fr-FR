@@ -19,18 +19,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298793"
 ---
-# <a name="contact-support-for-greece"></a><span data-ttu-id="f4d81-103">Contacter le support pour la Grèce</span><span class="sxs-lookup"><span data-stu-id="f4d81-103">Contact support for Greece</span></span>
+# <a name="contact-support-for-greece"></a><span data-ttu-id="fba59-103">Contacter le support pour la Grèce</span><span class="sxs-lookup"><span data-stu-id="fba59-103">Contact support for Greece</span></span>
 
-<span data-ttu-id="f4d81-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="f4d81-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="fba59-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="fba59-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="f4d81-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="f4d81-105">Phone number</span></span>
-<span data-ttu-id="f4d81-106">00800 4414 2831</span><span class="sxs-lookup"><span data-stu-id="f4d81-106">00800 4414 2831</span></span>
+## <a name="phone-number"></a><span data-ttu-id="fba59-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="fba59-105">Phone number</span></span>
+<span data-ttu-id="fba59-106">00800 4414 2831</span><span class="sxs-lookup"><span data-stu-id="fba59-106">00800 4414 2831</span></span>
 
-## <a name="hours"></a><span data-ttu-id="f4d81-107">Heures</span><span class="sxs-lookup"><span data-stu-id="f4d81-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="f4d81-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="f4d81-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="fba59-107">Heures</span><span class="sxs-lookup"><span data-stu-id="fba59-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="fba59-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="fba59-108">Billing Support:</span></span>
 
-<span data-ttu-id="f4d81-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="f4d81-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="fba59-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="fba59-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="f4d81-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="f4d81-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="fba59-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="fba59-110">Technical Support:</span></span>
 
-<span data-ttu-id="f4d81-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="f4d81-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="fba59-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="fba59-111">English: 24 hours a day, 7 days a week</span></span>

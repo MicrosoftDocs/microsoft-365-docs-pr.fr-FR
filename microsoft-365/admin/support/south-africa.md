@@ -19,22 +19,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297679"
 ---
-# <a name="contact-support-for-south-africa"></a><span data-ttu-id="8f437-103">Contacter le support pour l’Afrique du Sud</span><span class="sxs-lookup"><span data-stu-id="8f437-103">Contact support for South Africa</span></span>
+# <a name="contact-support-for-south-africa"></a><span data-ttu-id="1261d-103">Contacter le support pour l’Afrique du Sud</span><span class="sxs-lookup"><span data-stu-id="1261d-103">Contact support for South Africa</span></span>
 
-<span data-ttu-id="8f437-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="8f437-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="1261d-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="1261d-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="8f437-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="8f437-105">Phone number</span></span>
-<span data-ttu-id="8f437-106">080 020 2883</span><span class="sxs-lookup"><span data-stu-id="8f437-106">080 020 2883</span></span>
+## <a name="phone-number"></a><span data-ttu-id="1261d-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="1261d-105">Phone number</span></span>
+<span data-ttu-id="1261d-106">080 020 2883</span><span class="sxs-lookup"><span data-stu-id="1261d-106">080 020 2883</span></span>
 
-## <a name="hours"></a><span data-ttu-id="8f437-107">Heures</span><span class="sxs-lookup"><span data-stu-id="8f437-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="8f437-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="8f437-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="1261d-107">Heures</span><span class="sxs-lookup"><span data-stu-id="1261d-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="1261d-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="1261d-108">Billing Support:</span></span>
 
-<span data-ttu-id="8f437-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="8f437-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="1261d-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="1261d-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="8f437-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="8f437-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="1261d-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="1261d-110">Technical Support:</span></span>
 
-<span data-ttu-id="8f437-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="8f437-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="1261d-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="1261d-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="8f437-112">Autre Téléphone numéro : 021 427 3315</span><span class="sxs-lookup"><span data-stu-id="8f437-112">Alternative Phone Number: 021 427 3315</span></span>
+<span data-ttu-id="1261d-112">Autre Téléphone numéro : 021 427 3315</span><span class="sxs-lookup"><span data-stu-id="1261d-112">Alternative Phone Number: 021 427 3315</span></span>
 
-<span data-ttu-id="8f437-113">Frais d’appel local applicables</span><span class="sxs-lookup"><span data-stu-id="8f437-113">Local call charges apply</span></span>
+<span data-ttu-id="1261d-113">Frais d’appel local applicables</span><span class="sxs-lookup"><span data-stu-id="1261d-113">Local call charges apply</span></span>

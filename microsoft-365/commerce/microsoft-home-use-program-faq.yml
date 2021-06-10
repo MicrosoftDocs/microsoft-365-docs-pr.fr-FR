@@ -55,13 +55,13 @@ sections:
 
       - Clients qui ont Microsoft 365/Microsoft 365 E3/E5 à partir de Software Assurance
 
-      - Les clients commerciaux et publics qui ont acheté ≥ 2 000 licences d’une ou d’une combinaison Microsoft 365 E3/E5
+      - Clients commerciaux et publics qui ont acheté ≥ 2 000 licences d’une ou d’une combinaison Microsoft 365 E3/E5
 
       - Éducation et clients à but non lucratif
   - question: >
       Pourquoi dois-je créer un compte Azure Active Directory (AAD) pour utiliser le programme d’utilisation à domicile/ Microsoft Store pour Entreprises ?
     answer: >
-      Pour mettre à jour et moderniser le programme d’utilisation à domicile sur un plus large éventail d’avantages en licence et en produits, nous devons modifier la façon dont nous respectons le programme HUP. Microsoft Store pour Entreprises est utilisé pour la validation d’éligibilité et pour affecter des avantages HUP, et pour cela, il s’appuie sur AAD pour connecter des informations à partir de VSLC et pour valider les domaines de messagerie des employés de votre organisation. Pour plus d’informations, voir Pour vous inscrire aux comptes Azure AD via [Office 365 entreprise.](/microsoft-store/sign-up-microsoft-store-for-business#o365-welcome)
+      Pour mettre à jour et moderniser le programme d’utilisation à domicile sur un plus large éventail d’avantages de licences et de produits, nous devons modifier la façon dont nous respectons le programme HUP. Microsoft Store pour Entreprises est utilisé pour la validation d’éligibilité et pour affecter des avantages HUP, et pour cela, il s’appuie sur AAD pour connecter des informations à partir de VSLC et pour valider les domaines de messagerie des employés de votre organisation. Pour plus d’informations, voir Pour vous inscrire aux comptes Azure AD via [Office 365 entreprise.](/microsoft-store/sign-up-microsoft-store-for-business#o365-welcome)
   - question: >
       Comment devenir l’administrateur informatique affecté d’un client géré ?
     answer: >
@@ -79,7 +79,7 @@ sections:
   - question: >
       Quelles sont les étapes à suivre pour qu’un employé éligible achète un Programme d’utilisation à domicile Microsoft?
     answer: >
-      1. **S’inscrire** Go to the [Programme d’utilisation à domicile Microsoft page,](https://www.microsoft.com/home-use-program)and select the Prise en main button. Les employés entrent leur adresse de messagerie d’entreprise.
+      1. **S’inscrire** Go to the [Programme d’utilisation à domicile Microsoft page](https://www.microsoft.com/home-use-program), and select the Prise en main button. Les employés entrent leur adresse de messagerie d’entreprise.
 
       2. **Confirmer**  Un courrier électronique est envoyé à la boîte de réception de son adresse de messagerie d’entreprise avec un lien qui authentifiera son éligibilité au programme.
 
@@ -100,9 +100,9 @@ sections:
   - question: >
       Pourquoi ne vois-je pas d’option d’achat Visio Professionnel 2019 et/ou Project Professionnel 2019 ?
     answer: >
-      Si l’un de vos employés a tirer parti du programme précédent et recherche des remises sur Visio Professionnel 2019 et/ou Project Professionnel 2019, consultez le processus de validation d’éligibilité et, une fois que vous êtes inscrit avec votre compte Microsoft personnel, consultez d’autres produits **Office** pour acheter ces produits. Si les remises prévues ne sont pas appliquées, contactez l’administrateur du programme d’utilisation à domicile de votre employeur pour obtenir des informations sur ces avantages supplémentaires.
+      Si l’un de vos employés a tirer parti du programme précédent et recherche des remises sur Visio Professionnel 2019 et/ou Project Professionnel 2019, consultez le processus de validation d’éligibilité et, une fois que vous êtes inscrit avec votre compte Microsoft personnel, consultez d’autres produits **Office** pour acheter ces produits. Si vous ne voyez pas de remises attendues appliquées, contactez l’administrateur du programme d’utilisation à domicile de votre employeur pour obtenir des informations sur ces avantages supplémentaires.
   - question: >
-      Que se passe-t-il si mes employés ont des questions sur ce programme ou ont besoin d’un support pour l’achat et l’installation ?
+      Que se passe-t-il si mes employés ont des questions sur ce programme ou ont besoin d’une assistance pour l’achat et l’installation ?
     answer: >
       Si les employés ont des questions, reportez-les aux ressources suivantes :
 
@@ -121,4 +121,4 @@ sections:
       - Installation de Office
 
       - Se Office
-additionalContent: "\n## <a name=\"related-content\"></a>Contenu connexe\n  [Microsoft 365 abonnements.](https://www.microsoft.com/home-use-program/) (page de liens)\\\n  [Centre de gestion des licences en volume Microsoft](https://www.microsoft.com/Licensing/servicecenter/default.aspx?wa=wsignin1.0) (page de liens)\\\n  [Microsoft Store pour Entreprises support de l’administrateur](/microsoft-store/) (page de liens)\\\n  [Microsoft Store pour Entreprises](https://go.microsoft.com/fwlink/?linkid=2139192) (page de liens)\\\n  [Magasin d’employés du programme d’utilisation à domicile](https://www.microsoft.com/home-use-program) (page de liens)\\\n  [Licences Microsoft : vue d’ensemble du programme d’utilisation à domicile](https://www.microsoft.com/licensing/licensing-programs/software-assurance-by-benefits?activetab=software-assurance-by-benefits-tab:primaryr4) (page de liens)"
+additionalContent: "\n## <a name=\"related-content\"></a>Contenu associé\n  [Microsoft 365 abonnements.](https://www.microsoft.com/home-use-program/) (page de liens)\\\n  [Centre de gestion des licences en volume Microsoft](https://www.microsoft.com/Licensing/servicecenter/default.aspx?wa=wsignin1.0) (page de liens)\\\n  [Microsoft Store pour Entreprises support de l’administrateur](/microsoft-store/) (page de liens)\\\n  [Microsoft Store pour Entreprises](https://go.microsoft.com/fwlink/?linkid=2139192) (page de liens)\\\n  [Magasin d’employés du programme d’utilisation à domicile](https://www.microsoft.com/home-use-program) (page de liens)\\\n  [Licences Microsoft : vue d’ensemble du programme d’utilisation à domicile](https://www.microsoft.com/licensing/licensing-programs/software-assurance-by-benefits?activetab=software-assurance-by-benefits-tab:primaryr4) (page de liens)"
