@@ -19,20 +19,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296346"
 ---
-# <a name="contact-support-for-cocos-keeling-islands"></a><span data-ttu-id="3ddc2-103">Contacter le support technique pour les îles Cocos (Îles)</span><span class="sxs-lookup"><span data-stu-id="3ddc2-103">Contact support for Cocos (Keeling) Islands</span></span>
+# <a name="contact-support-for-cocos-keeling-islands"></a><span data-ttu-id="688a2-103">Contacter le support technique pour les îles Cocos (Îles)</span><span class="sxs-lookup"><span data-stu-id="688a2-103">Contact support for Cocos (Keeling) Islands</span></span>
 
-<span data-ttu-id="3ddc2-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="3ddc2-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="688a2-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="688a2-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="3ddc2-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="3ddc2-105">Phone number</span></span>
-<span data-ttu-id="3ddc2-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="3ddc2-106">+1 312 843 5148</span></span>
+## <a name="phone-number"></a><span data-ttu-id="688a2-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="688a2-105">Phone number</span></span>
+<span data-ttu-id="688a2-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="688a2-106">+1 312 843 5148</span></span>
 
-## <a name="hours"></a><span data-ttu-id="3ddc2-107">Heures</span><span class="sxs-lookup"><span data-stu-id="3ddc2-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="3ddc2-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="3ddc2-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="688a2-107">Heures</span><span class="sxs-lookup"><span data-stu-id="688a2-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="688a2-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="688a2-108">Billing Support:</span></span>
 
-<span data-ttu-id="3ddc2-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="3ddc2-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="688a2-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="688a2-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="3ddc2-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="3ddc2-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="688a2-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="688a2-110">Technical Support:</span></span>
 
-<span data-ttu-id="3ddc2-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="3ddc2-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="688a2-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="688a2-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="3ddc2-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="3ddc2-112">International call charges apply</span></span>
+<span data-ttu-id="688a2-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="688a2-112">International call charges apply</span></span>

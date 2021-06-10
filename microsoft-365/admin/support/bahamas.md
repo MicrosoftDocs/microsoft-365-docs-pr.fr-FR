@@ -19,18 +19,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296574"
 ---
-# <a name="contact-support-for-bahamas"></a><span data-ttu-id="58700-103">Contacter le support technique pour Le Bahamas</span><span class="sxs-lookup"><span data-stu-id="58700-103">Contact support for Bahamas</span></span>
+# <a name="contact-support-for-bahamas"></a><span data-ttu-id="301c0-103">Contacter le support technique pour Le Bahamas</span><span class="sxs-lookup"><span data-stu-id="301c0-103">Contact support for Bahamas</span></span>
 
-<span data-ttu-id="58700-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="58700-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="301c0-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="301c0-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="58700-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="58700-105">Phone number</span></span>
-<span data-ttu-id="58700-106">800 865 9408</span><span class="sxs-lookup"><span data-stu-id="58700-106">800 865 9408</span></span>
+## <a name="phone-number"></a><span data-ttu-id="301c0-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="301c0-105">Phone number</span></span>
+<span data-ttu-id="301c0-106">800 865 9408</span><span class="sxs-lookup"><span data-stu-id="301c0-106">800 865 9408</span></span>
 
-## <a name="hours"></a><span data-ttu-id="58700-107">Heures</span><span class="sxs-lookup"><span data-stu-id="58700-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="58700-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="58700-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="301c0-107">Heures</span><span class="sxs-lookup"><span data-stu-id="301c0-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="301c0-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="301c0-108">Billing Support:</span></span>
 
-<span data-ttu-id="58700-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="58700-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="301c0-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="301c0-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="58700-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="58700-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="301c0-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="301c0-110">Technical Support:</span></span>
 
-<span data-ttu-id="58700-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="58700-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="301c0-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="301c0-111">English: 24 hours a day, 7 days a week</span></span>

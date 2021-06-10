@@ -19,20 +19,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296682"
 ---
-# <a name="contact-support-for-aland-islands"></a><span data-ttu-id="0fa32-103">Contacter le support technique pour les îles Aland</span><span class="sxs-lookup"><span data-stu-id="0fa32-103">Contact support for Aland Islands</span></span>
+# <a name="contact-support-for-aland-islands"></a><span data-ttu-id="dbc10-103">Contacter le support technique pour les îles Aland</span><span class="sxs-lookup"><span data-stu-id="dbc10-103">Contact support for Aland Islands</span></span>
 
-<span data-ttu-id="0fa32-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="0fa32-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="dbc10-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="dbc10-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="0fa32-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="0fa32-105">Phone number</span></span>
-<span data-ttu-id="0fa32-106">08009 8462</span><span class="sxs-lookup"><span data-stu-id="0fa32-106">08009 8462</span></span>
+## <a name="phone-number"></a><span data-ttu-id="dbc10-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="dbc10-105">Phone number</span></span>
+<span data-ttu-id="dbc10-106">08009 8462</span><span class="sxs-lookup"><span data-stu-id="dbc10-106">08009 8462</span></span>
 
-## <a name="hours"></a><span data-ttu-id="0fa32-107">Heures</span><span class="sxs-lookup"><span data-stu-id="0fa32-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="0fa32-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="0fa32-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="dbc10-107">Heures</span><span class="sxs-lookup"><span data-stu-id="dbc10-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="dbc10-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="dbc10-108">Billing Support:</span></span>
 
-<span data-ttu-id="0fa32-109">Anglais : Mon-Fri 10h00 à 18h00</span><span class="sxs-lookup"><span data-stu-id="0fa32-109">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="dbc10-109">Anglais : Mon-Fri 10h00 à 18h00</span><span class="sxs-lookup"><span data-stu-id="dbc10-109">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="0fa32-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="0fa32-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="dbc10-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="dbc10-110">Technical Support:</span></span>
 
-<span data-ttu-id="0fa32-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="0fa32-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="dbc10-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="dbc10-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="0fa32-112">Frais d’appel local applicables</span><span class="sxs-lookup"><span data-stu-id="0fa32-112">Local call charges apply</span></span>
+<span data-ttu-id="dbc10-112">Frais d’appel local applicables</span><span class="sxs-lookup"><span data-stu-id="dbc10-112">Local call charges apply</span></span>

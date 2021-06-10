@@ -19,20 +19,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296646"
 ---
-# <a name="contact-support-for-anguilla"></a><span data-ttu-id="23bc9-103">Contacter le support technique pour Anguilla</span><span class="sxs-lookup"><span data-stu-id="23bc9-103">Contact support for Anguilla</span></span>
+# <a name="contact-support-for-anguilla"></a><span data-ttu-id="68c29-103">Contacter le support technique pour Anguilla</span><span class="sxs-lookup"><span data-stu-id="68c29-103">Contact support for Anguilla</span></span>
 
-<span data-ttu-id="23bc9-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="23bc9-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="68c29-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="68c29-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="23bc9-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="23bc9-105">Phone number</span></span>
-<span data-ttu-id="23bc9-106">+1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="23bc9-106">+1 312 843 5145</span></span>
+## <a name="phone-number"></a><span data-ttu-id="68c29-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="68c29-105">Phone number</span></span>
+<span data-ttu-id="68c29-106">+1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="68c29-106">+1 312 843 5145</span></span>
 
-## <a name="hours"></a><span data-ttu-id="23bc9-107">Heures</span><span class="sxs-lookup"><span data-stu-id="23bc9-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="23bc9-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="23bc9-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="68c29-107">Heures</span><span class="sxs-lookup"><span data-stu-id="68c29-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="68c29-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="68c29-108">Billing Support:</span></span>
 
-<span data-ttu-id="23bc9-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="23bc9-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="68c29-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="68c29-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="23bc9-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="23bc9-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="68c29-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="68c29-110">Technical Support:</span></span>
 
-<span data-ttu-id="23bc9-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="23bc9-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="68c29-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="68c29-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="23bc9-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="23bc9-112">International call charges apply</span></span>
+<span data-ttu-id="68c29-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="68c29-112">International call charges apply</span></span>

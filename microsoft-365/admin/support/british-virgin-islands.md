@@ -19,20 +19,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296442"
 ---
-# <a name="contact-support-for-british-virgin-islands"></a><span data-ttu-id="06e5b-103">Contacter le support pour les îles Vierges anglaises</span><span class="sxs-lookup"><span data-stu-id="06e5b-103">Contact support for British Virgin Islands</span></span>
+# <a name="contact-support-for-british-virgin-islands"></a><span data-ttu-id="0d688-103">Contacter le support pour les îles Vierges anglaises</span><span class="sxs-lookup"><span data-stu-id="0d688-103">Contact support for British Virgin Islands</span></span>
 
-<span data-ttu-id="06e5b-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="06e5b-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="0d688-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="0d688-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="06e5b-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="06e5b-105">Phone number</span></span>
-<span data-ttu-id="06e5b-106">800-865-9408</span><span class="sxs-lookup"><span data-stu-id="06e5b-106">800-865-9408</span></span>
+## <a name="phone-number"></a><span data-ttu-id="0d688-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="0d688-105">Phone number</span></span>
+<span data-ttu-id="0d688-106">800-865-9408</span><span class="sxs-lookup"><span data-stu-id="0d688-106">800-865-9408</span></span>
 
-## <a name="hours"></a><span data-ttu-id="06e5b-107">Heures</span><span class="sxs-lookup"><span data-stu-id="06e5b-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="06e5b-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="06e5b-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="0d688-107">Heures</span><span class="sxs-lookup"><span data-stu-id="0d688-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="0d688-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="0d688-108">Billing Support:</span></span>
 
-<span data-ttu-id="06e5b-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="06e5b-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="0d688-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="0d688-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="06e5b-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="06e5b-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="0d688-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="0d688-110">Technical Support:</span></span>
 
-<span data-ttu-id="06e5b-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="06e5b-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="0d688-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="0d688-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="06e5b-112">Frais d’appel local applicables</span><span class="sxs-lookup"><span data-stu-id="06e5b-112">Local call charges apply</span></span>
+<span data-ttu-id="0d688-112">Frais d’appel local applicables</span><span class="sxs-lookup"><span data-stu-id="0d688-112">Local call charges apply</span></span>

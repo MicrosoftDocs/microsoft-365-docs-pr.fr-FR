@@ -20,16 +20,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52537690"
 ---
-# <a name="payment-information-for-turkey"></a><span data-ttu-id="4a431-103">Informations de paiement pour la Turquie</span><span class="sxs-lookup"><span data-stu-id="4a431-103">Payment information for Turkey</span></span>
+# <a name="payment-information-for-turkey"></a><span data-ttu-id="e4915-103">Informations de paiement pour la Turquie</span><span class="sxs-lookup"><span data-stu-id="e4915-103">Payment information for Turkey</span></span>
 
-<span data-ttu-id="4a431-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="4a431-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="e4915-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="e4915-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="4a431-105">Veuillez payer en TRY uniquement et référencer les numéro(s) de facture à votre paiement.</span><span class="sxs-lookup"><span data-stu-id="4a431-105">Please pay in TRY only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="e4915-105">Veuillez payer en TRY uniquement et référencer les numéro(s) de facture à votre paiement.</span><span class="sxs-lookup"><span data-stu-id="e4915-105">Please pay in TRY only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="4a431-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="4a431-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="e4915-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="e4915-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="4a431-107">**Banque :** Bank A.S., City</span><span class="sxs-lookup"><span data-stu-id="4a431-107">**Bank:** Citibank A.S., Istanbul</span></span>  
-<span data-ttu-id="4a431-108">**Code SWIFT :** CITITRIX</span><span class="sxs-lookup"><span data-stu-id="4a431-108">**SWIFT Code:** CITITRIX</span></span>  
-<span data-ttu-id="4a431-109">**IBAN :** TR420009200000000092407039</span><span class="sxs-lookup"><span data-stu-id="4a431-109">**IBAN:** TR420009200000000092407039</span></span>  
-<span data-ttu-id="4a431-110">**Numéro de compte :** 92407039</span><span class="sxs-lookup"><span data-stu-id="4a431-110">**Account Number:** 92407039</span></span>  
-<span data-ttu-id="4a431-111">**Nom du compte :** Paiements Microsoft</span><span class="sxs-lookup"><span data-stu-id="4a431-111">**Account Name:** Microsoft Payments</span></span>
+<span data-ttu-id="e4915-107">**Banque :** Bank A.S., City</span><span class="sxs-lookup"><span data-stu-id="e4915-107">**Bank:** Citibank A.S., Istanbul</span></span>  
+<span data-ttu-id="e4915-108">**Code SWIFT :** CITITRIX</span><span class="sxs-lookup"><span data-stu-id="e4915-108">**SWIFT Code:** CITITRIX</span></span>  
+<span data-ttu-id="e4915-109">**IBAN :** TR420009200000000092407039</span><span class="sxs-lookup"><span data-stu-id="e4915-109">**IBAN:** TR420009200000000092407039</span></span>  
+<span data-ttu-id="e4915-110">**Numéro de compte :** 92407039</span><span class="sxs-lookup"><span data-stu-id="e4915-110">**Account Number:** 92407039</span></span>  
+<span data-ttu-id="e4915-111">**Nom du compte :** Paiements Microsoft</span><span class="sxs-lookup"><span data-stu-id="e4915-111">**Account Name:** Microsoft Payments</span></span>

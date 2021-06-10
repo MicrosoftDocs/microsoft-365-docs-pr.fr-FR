@@ -20,16 +20,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52537258"
 ---
-# <a name="payment-information-for-albania"></a><span data-ttu-id="ca5db-103">Informations de paiement pour l’Albanie</span><span class="sxs-lookup"><span data-stu-id="ca5db-103">Payment information for Albania</span></span>
+# <a name="payment-information-for-albania"></a><span data-ttu-id="a847f-103">Informations de paiement pour l’Albanie</span><span class="sxs-lookup"><span data-stu-id="a847f-103">Payment information for Albania</span></span>
 
-<span data-ttu-id="ca5db-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="ca5db-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="a847f-104">[Rechercher un autre pays ou une autre région](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="a847f-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="ca5db-105">N’hésitez pas à payer en USD uniquement et à référencer vos numéro(s) de facture à votre paiement.</span><span class="sxs-lookup"><span data-stu-id="ca5db-105">Please pay in USD only and reference your invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="a847f-105">N’hésitez pas à payer en USD uniquement et à référencer vos numéro(s) de facture à votre paiement.</span><span class="sxs-lookup"><span data-stu-id="a847f-105">Please pay in USD only and reference your invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="ca5db-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="ca5db-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="a847f-106">Transfert électronique de fonds</span><span class="sxs-lookup"><span data-stu-id="a847f-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="ca5db-107">**Banque :** Bank, Londres</span><span class="sxs-lookup"><span data-stu-id="ca5db-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="ca5db-108">**Code SWIFT :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="ca5db-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="ca5db-109">**IBAN :** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="ca5db-109">**IBAN:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="ca5db-110">**Numéro de compte :** 12510049</span><span class="sxs-lookup"><span data-stu-id="ca5db-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="ca5db-111">**Nom du compte :** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="ca5db-111">**Account Name:** MICROSOFT</span></span>
+<span data-ttu-id="a847f-107">**Banque :** Bank, Londres</span><span class="sxs-lookup"><span data-stu-id="a847f-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="a847f-108">**Code SWIFT :** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="a847f-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="a847f-109">**IBAN :** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="a847f-109">**IBAN:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="a847f-110">**Numéro de compte :** 12510049</span><span class="sxs-lookup"><span data-stu-id="a847f-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="a847f-111">**Nom du compte :** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="a847f-111">**Account Name:** MICROSOFT</span></span>

@@ -1,5 +1,5 @@
 ---
-title: Informations de support pourËl
+title: Informations de support pourËza
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -19,20 +19,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296298"
 ---
-# <a name="contact-support-for-dominica"></a><span data-ttu-id="f35f2-103">Contacter le support pourËlaïa</span><span class="sxs-lookup"><span data-stu-id="f35f2-103">Contact support for Dominica</span></span>
+# <a name="contact-support-for-dominica"></a><span data-ttu-id="c91c5-103">Contacter le support pourËlaïa</span><span class="sxs-lookup"><span data-stu-id="c91c5-103">Contact support for Dominica</span></span>
 
-<span data-ttu-id="f35f2-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="f35f2-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="c91c5-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="c91c5-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="f35f2-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="f35f2-105">Phone number</span></span>
-<span data-ttu-id="f35f2-106">+1 312 843 5150</span><span class="sxs-lookup"><span data-stu-id="f35f2-106">+1 312 843 5150</span></span>
+## <a name="phone-number"></a><span data-ttu-id="c91c5-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="c91c5-105">Phone number</span></span>
+<span data-ttu-id="c91c5-106">+1 312 843 5150</span><span class="sxs-lookup"><span data-stu-id="c91c5-106">+1 312 843 5150</span></span>
 
-## <a name="hours"></a><span data-ttu-id="f35f2-107">Heures</span><span class="sxs-lookup"><span data-stu-id="f35f2-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="f35f2-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="f35f2-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="c91c5-107">Heures</span><span class="sxs-lookup"><span data-stu-id="c91c5-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="c91c5-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="c91c5-108">Billing Support:</span></span>
 
-<span data-ttu-id="f35f2-109">Espagnol : Mon-Fri 11:00-19:00</span><span class="sxs-lookup"><span data-stu-id="f35f2-109">Spanish: Mon-Fri 11 AM-7 PM</span></span>
+<span data-ttu-id="c91c5-109">Espagnol : Mon-Fri 11:00-19:00</span><span class="sxs-lookup"><span data-stu-id="c91c5-109">Spanish: Mon-Fri 11 AM-7 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="f35f2-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="f35f2-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="c91c5-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="c91c5-110">Technical Support:</span></span>
 
-<span data-ttu-id="f35f2-111">Espagnol : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="f35f2-111">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="c91c5-111">Espagnol : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="c91c5-111">Spanish: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="f35f2-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="f35f2-112">International call charges apply</span></span>
+<span data-ttu-id="c91c5-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="c91c5-112">International call charges apply</span></span>

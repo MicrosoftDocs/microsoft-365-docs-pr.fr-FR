@@ -19,22 +19,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296274"
 ---
-# <a name="contact-support-for-el-salvador"></a><span data-ttu-id="7a7bc-103">Contacter le support technique pour el Salvador</span><span class="sxs-lookup"><span data-stu-id="7a7bc-103">Contact support for El Salvador</span></span>
+# <a name="contact-support-for-el-salvador"></a><span data-ttu-id="fedba-103">Contacter le support technique pour el Salvador</span><span class="sxs-lookup"><span data-stu-id="fedba-103">Contact support for El Salvador</span></span>
 
-<span data-ttu-id="7a7bc-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="7a7bc-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="fedba-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="fedba-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="7a7bc-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="7a7bc-105">Phone number</span></span>
-<span data-ttu-id="7a7bc-106">800 6676</span><span class="sxs-lookup"><span data-stu-id="7a7bc-106">800 6676</span></span>
+## <a name="phone-number"></a><span data-ttu-id="fedba-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="fedba-105">Phone number</span></span>
+<span data-ttu-id="fedba-106">800 6676</span><span class="sxs-lookup"><span data-stu-id="fedba-106">800 6676</span></span>
 
-<span data-ttu-id="7a7bc-107">Sélectionner l’option 4</span><span class="sxs-lookup"><span data-stu-id="7a7bc-107">Select option 4</span></span>
+<span data-ttu-id="fedba-107">Sélectionner l’option 4</span><span class="sxs-lookup"><span data-stu-id="fedba-107">Select option 4</span></span>
 
-<span data-ttu-id="7a7bc-108">Entrer le code 7007</span><span class="sxs-lookup"><span data-stu-id="7a7bc-108">Enter code 7007</span></span>
+<span data-ttu-id="fedba-108">Entrer le code 7007</span><span class="sxs-lookup"><span data-stu-id="fedba-108">Enter code 7007</span></span>
 
-## <a name="hours"></a><span data-ttu-id="7a7bc-109">Heures</span><span class="sxs-lookup"><span data-stu-id="7a7bc-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="7a7bc-110">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="7a7bc-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="fedba-109">Heures</span><span class="sxs-lookup"><span data-stu-id="fedba-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="fedba-110">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="fedba-110">Billing Support:</span></span>
 
-<span data-ttu-id="7a7bc-111">Espagnol : Mon-Fri 9 h à 17 h</span><span class="sxs-lookup"><span data-stu-id="7a7bc-111">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="fedba-111">Espagnol : Mon-Fri 9 h à 17 h</span><span class="sxs-lookup"><span data-stu-id="fedba-111">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="7a7bc-112">Support technique :</span><span class="sxs-lookup"><span data-stu-id="7a7bc-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="fedba-112">Support technique :</span><span class="sxs-lookup"><span data-stu-id="fedba-112">Technical Support:</span></span>
 
-<span data-ttu-id="7a7bc-113">Espagnol : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="7a7bc-113">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="fedba-113">Espagnol : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="fedba-113">Spanish: 24 hours a day, 7 days a week</span></span>

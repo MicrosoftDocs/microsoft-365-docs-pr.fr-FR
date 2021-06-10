@@ -19,18 +19,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296779"
 ---
-# <a name="contact-support-for-colombia"></a><span data-ttu-id="2f5c2-103">Contacter le support pour la Colombie</span><span class="sxs-lookup"><span data-stu-id="2f5c2-103">Contact support for Colombia</span></span>
+# <a name="contact-support-for-colombia"></a><span data-ttu-id="e560c-103">Contacter le support pour la Colombie</span><span class="sxs-lookup"><span data-stu-id="e560c-103">Contact support for Colombia</span></span>
 
-<span data-ttu-id="2f5c2-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="2f5c2-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="e560c-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="e560c-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="2f5c2-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="2f5c2-105">Phone number</span></span>
-<span data-ttu-id="2f5c2-106">01 800 518 1781</span><span class="sxs-lookup"><span data-stu-id="2f5c2-106">01 800 518 1781</span></span>
+## <a name="phone-number"></a><span data-ttu-id="e560c-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="e560c-105">Phone number</span></span>
+<span data-ttu-id="e560c-106">01 800 518 1781</span><span class="sxs-lookup"><span data-stu-id="e560c-106">01 800 518 1781</span></span>
 
-## <a name="hours"></a><span data-ttu-id="2f5c2-107">Heures</span><span class="sxs-lookup"><span data-stu-id="2f5c2-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="2f5c2-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="2f5c2-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="e560c-107">Heures</span><span class="sxs-lookup"><span data-stu-id="e560c-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="e560c-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="e560c-108">Billing Support:</span></span>
 
-<span data-ttu-id="2f5c2-109">Espagnol : Mon-Fri 9 h à 17 h</span><span class="sxs-lookup"><span data-stu-id="2f5c2-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="e560c-109">Espagnol : Mon-Fri 9 h à 17 h</span><span class="sxs-lookup"><span data-stu-id="e560c-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="2f5c2-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="2f5c2-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="e560c-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="e560c-110">Technical Support:</span></span>
 
-<span data-ttu-id="2f5c2-111">Espagnol : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="2f5c2-111">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="e560c-111">Espagnol : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="e560c-111">Spanish: 24 hours a day, 7 days a week</span></span>

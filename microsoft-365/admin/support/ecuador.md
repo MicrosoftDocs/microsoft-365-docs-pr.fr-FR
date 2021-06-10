@@ -19,22 +19,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296286"
 ---
-# <a name="contact-support-for-ecuador"></a><span data-ttu-id="c214e-103">Contacter le support pour l’Équateur</span><span class="sxs-lookup"><span data-stu-id="c214e-103">Contact support for Ecuador</span></span>
+# <a name="contact-support-for-ecuador"></a><span data-ttu-id="f0b6c-103">Contacter le support pour l’Équateur</span><span class="sxs-lookup"><span data-stu-id="f0b6c-103">Contact support for Ecuador</span></span>
 
-<span data-ttu-id="c214e-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="c214e-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="f0b6c-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="f0b6c-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="c214e-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="c214e-105">Phone number</span></span>
-<span data-ttu-id="c214e-106">1 800 225 528</span><span class="sxs-lookup"><span data-stu-id="c214e-106">1 800 225 528</span></span>
+## <a name="phone-number"></a><span data-ttu-id="f0b6c-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="f0b6c-105">Phone number</span></span>
+<span data-ttu-id="f0b6c-106">1 800 225 528</span><span class="sxs-lookup"><span data-stu-id="f0b6c-106">1 800 225 528</span></span>
 
-<span data-ttu-id="c214e-107">Après la numérotation, entrez</span><span class="sxs-lookup"><span data-stu-id="c214e-107">After dialing, enter</span></span>
+<span data-ttu-id="f0b6c-107">Après la numérotation, entrez</span><span class="sxs-lookup"><span data-stu-id="f0b6c-107">After dialing, enter</span></span>
 
-<span data-ttu-id="c214e-108">877 663 5075</span><span class="sxs-lookup"><span data-stu-id="c214e-108">877 663 5075</span></span>
+<span data-ttu-id="f0b6c-108">877 663 5075</span><span class="sxs-lookup"><span data-stu-id="f0b6c-108">877 663 5075</span></span>
 
-## <a name="hours"></a><span data-ttu-id="c214e-109">Heures</span><span class="sxs-lookup"><span data-stu-id="c214e-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="c214e-110">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="c214e-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="f0b6c-109">Heures</span><span class="sxs-lookup"><span data-stu-id="f0b6c-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="f0b6c-110">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="f0b6c-110">Billing Support:</span></span>
 
-<span data-ttu-id="c214e-111">Espagnol : Mon-Fri 9 h à 17 h</span><span class="sxs-lookup"><span data-stu-id="c214e-111">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="f0b6c-111">Espagnol : Mon-Fri 9 h à 17 h</span><span class="sxs-lookup"><span data-stu-id="f0b6c-111">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="c214e-112">Support technique :</span><span class="sxs-lookup"><span data-stu-id="c214e-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="f0b6c-112">Support technique :</span><span class="sxs-lookup"><span data-stu-id="f0b6c-112">Technical Support:</span></span>
 
-<span data-ttu-id="c214e-113">Espagnol : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="c214e-113">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="f0b6c-113">Espagnol : 24 heures sur 24, 7 jours sur 7</span><span class="sxs-lookup"><span data-stu-id="f0b6c-113">Spanish: 24 hours a day, 7 days a week</span></span>
