@@ -1,5 +1,5 @@
 ---
-title: Définir le fuseau horaire pour les fonctionnalités de Microsoft 365 Defender
+title: Définir le fuseau horaire pour les fonctionnalités Microsoft 365 Defender
 description: Découvrez comment choisir le fuseau horaire pour les informations de date et d’heure associées aux incidents, aux enquêtes et corrections automatiques, et au repérage avancé
 keywords: fuseau horaire, date, heure, Microsoft 365 Defender, M365, sécurité, incidents, examen et réponse automatisés, AIR, recherche avancée
 search.product: eADQiWindows 10XVcnh
@@ -27,19 +27,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51934416"
 ---
-# <a name="set-the-time-zone-for-microsoft-365-defender"></a><span data-ttu-id="995bb-104">Définir le fuseau horaire pour Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="995bb-104">Set the time zone for Microsoft 365 Defender</span></span>
+# <a name="set-the-time-zone-for-microsoft-365-defender"></a><span data-ttu-id="d4392-104">Définir le fuseau horaire pour Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="d4392-104">Set the time zone for Microsoft 365 Defender</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="995bb-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="995bb-105">**Applies to:**</span></span>
-- <span data-ttu-id="995bb-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="995bb-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="d4392-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="d4392-105">**Applies to:**</span></span>
+- <span data-ttu-id="d4392-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="d4392-106">Microsoft 365 Defender</span></span>
 
 
 
-<span data-ttu-id="995bb-107">Microsoft 365 Defender peut afficher les informations de date et d'heure à l'aide de votre fuseau horaire local ou UTC.</span><span class="sxs-lookup"><span data-stu-id="995bb-107">Microsoft 365 Defender can display date and time information using either your local time zone or UTC.</span></span> <span data-ttu-id="995bb-108">Le fuseau horaire sélectionné s’applique à toutes les informations de date et d’heure indiquées dans les fonctionnalités suivantes du centre de sécurité Microsoft 365 :</span><span class="sxs-lookup"><span data-stu-id="995bb-108">The selected time zone will apply to all date and time information shown in the following features in the Microsoft 365 security center:</span></span>
-- <span data-ttu-id="995bb-109">Incidents</span><span class="sxs-lookup"><span data-stu-id="995bb-109">Incidents</span></span>
-- <span data-ttu-id="995bb-110">Enquête et correction automatiques, y compris le centre de notifications</span><span class="sxs-lookup"><span data-stu-id="995bb-110">Automated investigation and remediation, including the action center</span></span>
-- <span data-ttu-id="995bb-111">Repérage avancé</span><span class="sxs-lookup"><span data-stu-id="995bb-111">Advanced hunting</span></span>
+<span data-ttu-id="d4392-107">Microsoft 365 Defender peut afficher les informations de date et d’heure à l’aide de votre fuseau horaire local ou UTC.</span><span class="sxs-lookup"><span data-stu-id="d4392-107">Microsoft 365 Defender can display date and time information using either your local time zone or UTC.</span></span> <span data-ttu-id="d4392-108">Le fuseau horaire sélectionné s’applique à toutes les informations de date et d’heure indiquées dans les fonctionnalités suivantes du centre de sécurité Microsoft 365 :</span><span class="sxs-lookup"><span data-stu-id="d4392-108">The selected time zone will apply to all date and time information shown in the following features in the Microsoft 365 security center:</span></span>
+- <span data-ttu-id="d4392-109">Incidents</span><span class="sxs-lookup"><span data-stu-id="d4392-109">Incidents</span></span>
+- <span data-ttu-id="d4392-110">Enquête et correction automatiques, y compris le centre de notifications</span><span class="sxs-lookup"><span data-stu-id="d4392-110">Automated investigation and remediation, including the action center</span></span>
+- <span data-ttu-id="d4392-111">Repérage avancé</span><span class="sxs-lookup"><span data-stu-id="d4392-111">Advanced hunting</span></span>
 
-<span data-ttu-id="995bb-112">Pour définir le fuseau horaire de ces **fonctionnalités,** go to Settings  >  **Microsoft 365 Defender**  >  **Time zone**.</span><span class="sxs-lookup"><span data-stu-id="995bb-112">To set the time zone for these features, go to **Settings** > **Microsoft 365 Defender** > **Time zone**.</span></span>
+<span data-ttu-id="d4392-112">Pour définir le fuseau horaire de ces fonctionnalités, Paramètres  >  **Microsoft 365 fuseau** horaire  >  **Defender.**</span><span class="sxs-lookup"><span data-stu-id="d4392-112">To set the time zone for these features, go to **Settings** > **Microsoft 365 Defender** > **Time zone**.</span></span>

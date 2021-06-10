@@ -23,76 +23,76 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 06/04/2021
 ms.locfileid: "52772316"
 ---
-# <a name="get-alert-related-user-information-api"></a><span data-ttu-id="adc79-104">API Obtenir les informations utilisateur associées à une alerte</span><span class="sxs-lookup"><span data-stu-id="adc79-104">Get alert related user information API</span></span>
+# <a name="get-alert-related-user-information-api"></a><span data-ttu-id="f75c7-104">API Obtenir les informations utilisateur associées à une alerte</span><span class="sxs-lookup"><span data-stu-id="f75c7-104">Get alert related user information API</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="adc79-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="adc79-105">**Applies to:**</span></span>
-- [<span data-ttu-id="adc79-106">Microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="adc79-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="adc79-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="adc79-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="f75c7-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="f75c7-105">**Applies to:**</span></span>
+- [<span data-ttu-id="f75c7-106">Microsoft Defender pour point de terminaison</span><span class="sxs-lookup"><span data-stu-id="f75c7-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="f75c7-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="f75c7-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-> <span data-ttu-id="adc79-108">Vous souhaitez découvrir Microsoft Defender pour le point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="adc79-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="adc79-109">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="adc79-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> <span data-ttu-id="f75c7-108">Vous souhaitez découvrir Microsoft Defender pour le point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="f75c7-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="f75c7-109">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="f75c7-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 
-## <a name="api-description"></a><span data-ttu-id="adc79-110">Description de l’API</span><span class="sxs-lookup"><span data-stu-id="adc79-110">API description</span></span>
-<span data-ttu-id="adc79-111">Récupère l’utilisateur associé à une alerte spécifique.</span><span class="sxs-lookup"><span data-stu-id="adc79-111">Retrieves the User related to a specific alert.</span></span>
+## <a name="api-description"></a><span data-ttu-id="f75c7-110">Description de l’API</span><span class="sxs-lookup"><span data-stu-id="f75c7-110">API description</span></span>
+<span data-ttu-id="f75c7-111">Récupère l’utilisateur associé à une alerte spécifique.</span><span class="sxs-lookup"><span data-stu-id="f75c7-111">Retrieves the User related to a specific alert.</span></span>
 
 
-## <a name="limitations"></a><span data-ttu-id="adc79-112">Limitations</span><span class="sxs-lookup"><span data-stu-id="adc79-112">Limitations</span></span>
-1. <span data-ttu-id="adc79-113">Vous pouvez interroger la dernière mise à jour des alertes en fonction de votre période de rétention configurée.</span><span class="sxs-lookup"><span data-stu-id="adc79-113">You can query on alerts last updated according to your configured retention period.</span></span>
-2. <span data-ttu-id="adc79-114">Les limites de taux pour cette API sont de 100 appels par minute et de 1 500 appels par heure.</span><span class="sxs-lookup"><span data-stu-id="adc79-114">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
+## <a name="limitations"></a><span data-ttu-id="f75c7-112">Limites</span><span class="sxs-lookup"><span data-stu-id="f75c7-112">Limitations</span></span>
+1. <span data-ttu-id="f75c7-113">Vous pouvez interroger la dernière mise à jour des alertes en fonction de votre période de rétention configurée.</span><span class="sxs-lookup"><span data-stu-id="f75c7-113">You can query on alerts last updated according to your configured retention period.</span></span>
+2. <span data-ttu-id="f75c7-114">Les limites de taux pour cette API sont de 100 appels par minute et de 1 500 appels par heure.</span><span class="sxs-lookup"><span data-stu-id="f75c7-114">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
 
 
-## <a name="permissions"></a><span data-ttu-id="adc79-115">Autorisations</span><span class="sxs-lookup"><span data-stu-id="adc79-115">Permissions</span></span>
-<span data-ttu-id="adc79-116">L’une des autorisations suivantes est nécessaire pour appeler cette API.</span><span class="sxs-lookup"><span data-stu-id="adc79-116">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="adc79-117">Pour en savoir plus, notamment sur le choix des autorisations, voir [Utiliser Microsoft Defender pour les API de point de terminaison](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="adc79-117">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md)</span></span>
+## <a name="permissions"></a><span data-ttu-id="f75c7-115">Autorisations</span><span class="sxs-lookup"><span data-stu-id="f75c7-115">Permissions</span></span>
+<span data-ttu-id="f75c7-116">L’une des autorisations suivantes est nécessaire pour appeler cette API.</span><span class="sxs-lookup"><span data-stu-id="f75c7-116">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="f75c7-117">Pour en savoir plus, notamment sur le choix des autorisations, voir [Utiliser Microsoft Defender pour les API de point de terminaison](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="f75c7-117">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md)</span></span>
 
-<span data-ttu-id="adc79-118">Type d’autorisation</span><span class="sxs-lookup"><span data-stu-id="adc79-118">Permission type</span></span> |   <span data-ttu-id="adc79-119">Autorisation</span><span class="sxs-lookup"><span data-stu-id="adc79-119">Permission</span></span>  |   <span data-ttu-id="adc79-120">Nom d’affichage de l’autorisation</span><span class="sxs-lookup"><span data-stu-id="adc79-120">Permission display name</span></span>
+<span data-ttu-id="f75c7-118">Type d’autorisation</span><span class="sxs-lookup"><span data-stu-id="f75c7-118">Permission type</span></span> |   <span data-ttu-id="f75c7-119">Autorisation</span><span class="sxs-lookup"><span data-stu-id="f75c7-119">Permission</span></span>  |   <span data-ttu-id="f75c7-120">Nom d’affichage de l’autorisation</span><span class="sxs-lookup"><span data-stu-id="f75c7-120">Permission display name</span></span>
 :---|:---|:---
-<span data-ttu-id="adc79-121">Application</span><span class="sxs-lookup"><span data-stu-id="adc79-121">Application</span></span> |   <span data-ttu-id="adc79-122">User.Read.All</span><span class="sxs-lookup"><span data-stu-id="adc79-122">User.Read.All</span></span> | <span data-ttu-id="adc79-123">« Lire les profils utilisateur »</span><span class="sxs-lookup"><span data-stu-id="adc79-123">'Read user profiles'</span></span>
-<span data-ttu-id="adc79-124">Déléguée (compte professionnel ou scolaire)</span><span class="sxs-lookup"><span data-stu-id="adc79-124">Delegated (work or school account)</span></span> | <span data-ttu-id="adc79-125">User.Read.All</span><span class="sxs-lookup"><span data-stu-id="adc79-125">User.Read.All</span></span> | <span data-ttu-id="adc79-126">« Lire les profils utilisateur »</span><span class="sxs-lookup"><span data-stu-id="adc79-126">'Read user profiles'</span></span>
+<span data-ttu-id="f75c7-121">Application</span><span class="sxs-lookup"><span data-stu-id="f75c7-121">Application</span></span> |   <span data-ttu-id="f75c7-122">User.Read.All</span><span class="sxs-lookup"><span data-stu-id="f75c7-122">User.Read.All</span></span> | <span data-ttu-id="f75c7-123">« Lire les profils utilisateur »</span><span class="sxs-lookup"><span data-stu-id="f75c7-123">'Read user profiles'</span></span>
+<span data-ttu-id="f75c7-124">Déléguée (compte professionnel ou scolaire)</span><span class="sxs-lookup"><span data-stu-id="f75c7-124">Delegated (work or school account)</span></span> | <span data-ttu-id="f75c7-125">User.Read.All</span><span class="sxs-lookup"><span data-stu-id="f75c7-125">User.Read.All</span></span> | <span data-ttu-id="f75c7-126">« Lire les profils utilisateur »</span><span class="sxs-lookup"><span data-stu-id="f75c7-126">'Read user profiles'</span></span>
 
 >[!Note]
-> <span data-ttu-id="adc79-127">Lors de l’obtention d’un jeton à l’aide des informations d’identification de l’utilisateur :</span><span class="sxs-lookup"><span data-stu-id="adc79-127">When obtaining a token using user credentials:</span></span>
->- <span data-ttu-id="adc79-128">L’utilisateur doit avoir au moins l’autorisation de rôle suivante : « Afficher les données » (voir Créer et gérer des rôles [pour](user-roles.md) plus d’informations)</span><span class="sxs-lookup"><span data-stu-id="adc79-128">The user needs to have at least the following role permission: 'View Data' (See [Create and manage roles](user-roles.md) for more information)</span></span>
->- <span data-ttu-id="adc79-129">L’utilisateur doit avoir accès à l’appareil associé à l’alerte, en fonction des paramètres de groupe d’appareils (voir Créer et gérer des groupes d’appareils [pour](machine-groups.md) plus d’informations)</span><span class="sxs-lookup"><span data-stu-id="adc79-129">The user needs to have access to the device associated with the alert, based on device group settings (See [Create and manage device groups](machine-groups.md) for more information)</span></span>
+> <span data-ttu-id="f75c7-127">Lors de l’obtention d’un jeton à l’aide des informations d’identification de l’utilisateur :</span><span class="sxs-lookup"><span data-stu-id="f75c7-127">When obtaining a token using user credentials:</span></span>
+>- <span data-ttu-id="f75c7-128">L’utilisateur doit avoir au moins l’autorisation de rôle suivante : « Afficher les données » (voir Créer et gérer des rôles [pour](user-roles.md) plus d’informations)</span><span class="sxs-lookup"><span data-stu-id="f75c7-128">The user needs to have at least the following role permission: 'View Data' (See [Create and manage roles](user-roles.md) for more information)</span></span>
+>- <span data-ttu-id="f75c7-129">L’utilisateur doit avoir accès à l’appareil associé à l’alerte, en fonction des paramètres de groupe d’appareils (voir Créer et gérer des groupes d’appareils [pour](machine-groups.md) plus d’informations)</span><span class="sxs-lookup"><span data-stu-id="f75c7-129">The user needs to have access to the device associated with the alert, based on device group settings (See [Create and manage device groups](machine-groups.md) for more information)</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="adc79-130">Requête HTTP</span><span class="sxs-lookup"><span data-stu-id="adc79-130">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="f75c7-130">Requête HTTP</span><span class="sxs-lookup"><span data-stu-id="f75c7-130">HTTP request</span></span>
 ```
 GET /api/alerts/{id}/user
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="adc79-131">En-têtes de demande</span><span class="sxs-lookup"><span data-stu-id="adc79-131">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="f75c7-131">En-têtes de demande</span><span class="sxs-lookup"><span data-stu-id="f75c7-131">Request headers</span></span>
 
-<span data-ttu-id="adc79-132">Nom</span><span class="sxs-lookup"><span data-stu-id="adc79-132">Name</span></span> | <span data-ttu-id="adc79-133">Type</span><span class="sxs-lookup"><span data-stu-id="adc79-133">Type</span></span> | <span data-ttu-id="adc79-134">Description</span><span class="sxs-lookup"><span data-stu-id="adc79-134">Description</span></span>
+<span data-ttu-id="f75c7-132">Nom</span><span class="sxs-lookup"><span data-stu-id="f75c7-132">Name</span></span> | <span data-ttu-id="f75c7-133">Type</span><span class="sxs-lookup"><span data-stu-id="f75c7-133">Type</span></span> | <span data-ttu-id="f75c7-134">Description</span><span class="sxs-lookup"><span data-stu-id="f75c7-134">Description</span></span>
 :---|:---|:---
-<span data-ttu-id="adc79-135">Autorisation</span><span class="sxs-lookup"><span data-stu-id="adc79-135">Authorization</span></span> | <span data-ttu-id="adc79-136">String</span><span class="sxs-lookup"><span data-stu-id="adc79-136">String</span></span> | <span data-ttu-id="adc79-137">Porteur {token}.</span><span class="sxs-lookup"><span data-stu-id="adc79-137">Bearer {token}.</span></span> <span data-ttu-id="adc79-138">**Obligatoire**.</span><span class="sxs-lookup"><span data-stu-id="adc79-138">**Required**.</span></span>
+<span data-ttu-id="f75c7-135">Autorisation</span><span class="sxs-lookup"><span data-stu-id="f75c7-135">Authorization</span></span> | <span data-ttu-id="f75c7-136">String</span><span class="sxs-lookup"><span data-stu-id="f75c7-136">String</span></span> | <span data-ttu-id="f75c7-137">Porteur {token}.</span><span class="sxs-lookup"><span data-stu-id="f75c7-137">Bearer {token}.</span></span> <span data-ttu-id="f75c7-138">**Obligatoire**.</span><span class="sxs-lookup"><span data-stu-id="f75c7-138">**Required**.</span></span>
 
 
-## <a name="request-body"></a><span data-ttu-id="adc79-139">Corps de la demande</span><span class="sxs-lookup"><span data-stu-id="adc79-139">Request body</span></span>
-<span data-ttu-id="adc79-140">Vide</span><span class="sxs-lookup"><span data-stu-id="adc79-140">Empty</span></span>
+## <a name="request-body"></a><span data-ttu-id="f75c7-139">Corps de la demande</span><span class="sxs-lookup"><span data-stu-id="f75c7-139">Request body</span></span>
+<span data-ttu-id="f75c7-140">Vide</span><span class="sxs-lookup"><span data-stu-id="f75c7-140">Empty</span></span>
 
-## <a name="response"></a><span data-ttu-id="adc79-141">Réponse</span><span class="sxs-lookup"><span data-stu-id="adc79-141">Response</span></span>
-<span data-ttu-id="adc79-142">En cas de réussite et si l’alerte et qu’un utilisateur existe : 200 - OK avec l’utilisateur dans le corps.</span><span class="sxs-lookup"><span data-stu-id="adc79-142">If successful and alert and a user exists - 200 OK with user in the body.</span></span> <span data-ttu-id="adc79-143">Si l’alerte ou l’utilisateur est in found - 404 - In trouvé.</span><span class="sxs-lookup"><span data-stu-id="adc79-143">If alert or user not found - 404 Not Found.</span></span>
+## <a name="response"></a><span data-ttu-id="f75c7-141">Réponse</span><span class="sxs-lookup"><span data-stu-id="f75c7-141">Response</span></span>
+<span data-ttu-id="f75c7-142">En cas de réussite et si l’alerte et qu’un utilisateur existe : 200 - OK avec l’utilisateur dans le corps.</span><span class="sxs-lookup"><span data-stu-id="f75c7-142">If successful and alert and a user exists - 200 OK with user in the body.</span></span> <span data-ttu-id="f75c7-143">Si l’alerte ou l’utilisateur est in found - 404 - In trouvé.</span><span class="sxs-lookup"><span data-stu-id="f75c7-143">If alert or user not found - 404 Not Found.</span></span>
 
 
-## <a name="example"></a><span data-ttu-id="adc79-144">Exemple</span><span class="sxs-lookup"><span data-stu-id="adc79-144">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f75c7-144">Exemple</span><span class="sxs-lookup"><span data-stu-id="f75c7-144">Example</span></span>
 
-<span data-ttu-id="adc79-145">**Demande**</span><span class="sxs-lookup"><span data-stu-id="adc79-145">**Request**</span></span>
+<span data-ttu-id="f75c7-145">**Demande**</span><span class="sxs-lookup"><span data-stu-id="f75c7-145">**Request**</span></span>
 
-<span data-ttu-id="adc79-146">Voici un exemple de demande.</span><span class="sxs-lookup"><span data-stu-id="adc79-146">Here is an example of the request.</span></span>
+<span data-ttu-id="f75c7-146">Voici un exemple de demande.</span><span class="sxs-lookup"><span data-stu-id="f75c7-146">Here is an example of the request.</span></span>
 
 ```http
 GET https://api.securitycenter.microsoft.com/api/alerts/636688558380765161_2136280442/user
 ```
 
-<span data-ttu-id="adc79-147">**Réponse**</span><span class="sxs-lookup"><span data-stu-id="adc79-147">**Response**</span></span>
+<span data-ttu-id="f75c7-147">**Réponse**</span><span class="sxs-lookup"><span data-stu-id="f75c7-147">**Response**</span></span>
 
-<span data-ttu-id="adc79-148">Voici un exemple de réponse.</span><span class="sxs-lookup"><span data-stu-id="adc79-148">Here is an example of the response.</span></span>
+<span data-ttu-id="f75c7-148">Voici un exemple de réponse.</span><span class="sxs-lookup"><span data-stu-id="f75c7-148">Here is an example of the response.</span></span>
 
 
 ```json
