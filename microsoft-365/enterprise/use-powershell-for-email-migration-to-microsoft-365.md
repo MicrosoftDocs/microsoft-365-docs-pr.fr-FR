@@ -23,28 +23,28 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51581117"
 ---
-# <a name="how-to-use-powershell-to-migrate-email-to-microsoft-365"></a><span data-ttu-id="89c1f-103">Comment utiliser PowerShell pour migrer la messagerie vers Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="89c1f-103">How to use PowerShell to migrate email to Microsoft 365</span></span>
+# <a name="how-to-use-powershell-to-migrate-email-to-microsoft-365"></a><span data-ttu-id="4917c-103">Comment utiliser PowerShell pour migrer la messagerie vers Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="4917c-103">How to use PowerShell to migrate email to Microsoft 365</span></span>
 
-<span data-ttu-id="89c1f-104">*Cet article est valable pour Microsoft 365 Entreprise et Office 365 Entreprise.*</span><span class="sxs-lookup"><span data-stu-id="89c1f-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
+<span data-ttu-id="4917c-104">*Cet article est valable pour Microsoft 365 Entreprise et Office 365 Entreprise.*</span><span class="sxs-lookup"><span data-stu-id="4917c-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
 
-<span data-ttu-id="89c1f-105">Les administrateurs migrent souvent le courrier électronique à partir de systèmes existants lors de la première mise en place de Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="89c1f-105">Administrators often migrate email from existing systems when they first set up Microsoft 365.</span></span> <span data-ttu-id="89c1f-106">Les articles suivants décrivent comment migrer le courrier électronique à l’aide Windows PowerShell :</span><span class="sxs-lookup"><span data-stu-id="89c1f-106">The following articles describe how to migrate email by using Windows PowerShell:</span></span>
+<span data-ttu-id="4917c-105">Les administrateurs migrent souvent le courrier électronique à partir de systèmes existants lors de la première Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="4917c-105">Administrators often migrate email from existing systems when they first set up Microsoft 365.</span></span> <span data-ttu-id="4917c-106">Les articles suivants décrivent comment migrer le courrier électronique à l’aide Windows PowerShell :</span><span class="sxs-lookup"><span data-stu-id="4917c-106">The following articles describe how to migrate email by using Windows PowerShell:</span></span>
   
-- [<span data-ttu-id="89c1f-107">Utilisation de PowerShell pour effectuer une migration à basculement vers Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="89c1f-107">Use PowerShell to perform a cutover migration to Microsoft 365</span></span>](use-powershell-to-perform-a-cutover-migration-to-microsoft-365.md)
+- [<span data-ttu-id="4917c-107">Utilisation de PowerShell pour effectuer une migration à basculement vers Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="4917c-107">Use PowerShell to perform a cutover migration to Microsoft 365</span></span>](use-powershell-to-perform-a-cutover-migration-to-microsoft-365.md)
     
-- [<span data-ttu-id="89c1f-108">Utilisation de PowerShell pour effectuer une migration IMAP vers Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="89c1f-108">Use PowerShell to perform an IMAP migration to Microsoft 365</span></span>](use-powershell-to-perform-an-imap-migration-to-microsoft-365.md)
+- [<span data-ttu-id="4917c-108">Utilisation de PowerShell pour effectuer une migration IMAP vers Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="4917c-108">Use PowerShell to perform an IMAP migration to Microsoft 365</span></span>](use-powershell-to-perform-an-imap-migration-to-microsoft-365.md)
     
-- [<span data-ttu-id="89c1f-109">Utilisation de PowerShell pour effectuer une migration intermédiaire vers Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="89c1f-109">Use PowerShell to perform a staged migration to Microsoft 365</span></span>](use-powershell-to-perform-a-staged-migration-to-microsoft-365.md)
+- [<span data-ttu-id="4917c-109">Utilisation de PowerShell pour effectuer une migration intermédiaire vers Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="4917c-109">Use PowerShell to perform a staged migration to Microsoft 365</span></span>](use-powershell-to-perform-a-staged-migration-to-microsoft-365.md)
     
-## <a name="related-topics"></a><span data-ttu-id="89c1f-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="89c1f-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="4917c-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4917c-110">Related topics</span></span>
 
-[<span data-ttu-id="89c1f-111">Gestion de Microsoft 365 à l’aide de PowerShell</span><span class="sxs-lookup"><span data-stu-id="89c1f-111">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
+[<span data-ttu-id="4917c-111">Gestion de Microsoft 365 à l’aide de PowerShell</span><span class="sxs-lookup"><span data-stu-id="4917c-111">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
   
-[<span data-ttu-id="89c1f-112">Prise en main de PowerShell pour Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="89c1f-112">Getting started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
+[<span data-ttu-id="4917c-112">Prise en main de PowerShell pour Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="4917c-112">Getting started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
   
-[<span data-ttu-id="89c1f-113">Gérer SharePoint avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="89c1f-113">Manage SharePoint with PowerShell</span></span>](manage-sharepoint-online-with-microsoft-365-powershell.md)
+[<span data-ttu-id="4917c-113">Gérer SharePoint avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="4917c-113">Manage SharePoint with PowerShell</span></span>](manage-sharepoint-online-with-microsoft-365-powershell.md)
   
-[<span data-ttu-id="89c1f-114">Utilisez Windows PowerShell pour créer des rapports dans Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="89c1f-114">Use Windows PowerShell to create reports in Microsoft 365</span></span>](use-windows-powershell-to-create-reports-in-microsoft-365.md)
+[<span data-ttu-id="4917c-114">Utilisez Windows PowerShell pour créer des rapports dans Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="4917c-114">Use Windows PowerShell to create reports in Microsoft 365</span></span>](use-windows-powershell-to-create-reports-in-microsoft-365.md)
 
-[<span data-ttu-id="89c1f-115">Pourquoi utiliser Microsoft 365 PowerShell ?</span><span class="sxs-lookup"><span data-stu-id="89c1f-115">Why you need to use Microsoft 365 PowerShell</span></span>](why-you-need-to-use-microsoft-365-powershell.md)
+[<span data-ttu-id="4917c-115">Pourquoi vous devez utiliser Microsoft 365 PowerShell ?</span><span class="sxs-lookup"><span data-stu-id="4917c-115">Why you need to use Microsoft 365 PowerShell</span></span>](why-you-need-to-use-microsoft-365-powershell.md)
   
-[<span data-ttu-id="89c1f-116">Gérer les comptes d’utilisateurs, les licences et les groupes Microsoft 365 avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="89c1f-116">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+[<span data-ttu-id="4917c-116">Gérer les comptes d’utilisateurs, les licences et les groupes Microsoft 365 avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="4917c-116">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
