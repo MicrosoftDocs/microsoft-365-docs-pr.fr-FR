@@ -19,24 +19,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295510"
 ---
-# <a name="contact-support-for-reunion"></a><span data-ttu-id="d9c5b-103">Contacter le support pour la Réunion</span><span class="sxs-lookup"><span data-stu-id="d9c5b-103">Contact support for Reunion</span></span>
+# <a name="contact-support-for-reunion"></a><span data-ttu-id="34117-103">Contacter le support pour la Réunion</span><span class="sxs-lookup"><span data-stu-id="34117-103">Contact support for Reunion</span></span>
 
-<span data-ttu-id="d9c5b-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="d9c5b-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="34117-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="34117-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="d9c5b-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="d9c5b-105">Phone number</span></span>
-<span data-ttu-id="d9c5b-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="d9c5b-106">+1 312 843 5147</span></span>
+## <a name="phone-number"></a><span data-ttu-id="34117-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="34117-105">Phone number</span></span>
+<span data-ttu-id="34117-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="34117-106">+1 312 843 5147</span></span>
 
-## <a name="hours"></a><span data-ttu-id="d9c5b-107">Heures</span><span class="sxs-lookup"><span data-stu-id="d9c5b-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="d9c5b-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="d9c5b-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="34117-107">Heures</span><span class="sxs-lookup"><span data-stu-id="34117-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="34117-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="34117-108">Billing Support:</span></span>
 
-<span data-ttu-id="d9c5b-109">Français : Mon-Fri midi à 20 h</span><span class="sxs-lookup"><span data-stu-id="d9c5b-109">French: Mon-Fri noon-8 PM</span></span>
+<span data-ttu-id="34117-109">Français : Mon-Fri midi à 20 h</span><span class="sxs-lookup"><span data-stu-id="34117-109">French: Mon-Fri noon-8 PM</span></span>
 
-<span data-ttu-id="d9c5b-110">Anglais : Mon-Fri midi-20h00</span><span class="sxs-lookup"><span data-stu-id="d9c5b-110">English: Mon-Fri noon-8 PM</span></span>
+<span data-ttu-id="34117-110">Anglais : Mon-Fri midi-20h00</span><span class="sxs-lookup"><span data-stu-id="34117-110">English: Mon-Fri noon-8 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="d9c5b-111">Support technique :</span><span class="sxs-lookup"><span data-stu-id="d9c5b-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="34117-111">Support technique :</span><span class="sxs-lookup"><span data-stu-id="34117-111">Technical Support:</span></span>
 
-<span data-ttu-id="d9c5b-112">Français : Mon-Fri 23:00-23:00</span><span class="sxs-lookup"><span data-stu-id="d9c5b-112">French: Mon-Fri 11 AM-11 PM</span></span>
+<span data-ttu-id="34117-112">Français : Mon-Fri 23:00-23:00</span><span class="sxs-lookup"><span data-stu-id="34117-112">French: Mon-Fri 11 AM-11 PM</span></span>
 
-<span data-ttu-id="d9c5b-113">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="d9c5b-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="34117-113">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="34117-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="d9c5b-114">Frais d’appel local applicables</span><span class="sxs-lookup"><span data-stu-id="d9c5b-114">Local call charges apply</span></span>
+<span data-ttu-id="34117-114">Frais d’appel local applicables</span><span class="sxs-lookup"><span data-stu-id="34117-114">Local call charges apply</span></span>

@@ -19,18 +19,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52294970"
 ---
-# <a name="contact-support-for-vietnam"></a><span data-ttu-id="ca6ff-103">Contacter le support pour le Vietnam</span><span class="sxs-lookup"><span data-stu-id="ca6ff-103">Contact support for Vietnam</span></span>
+# <a name="contact-support-for-vietnam"></a><span data-ttu-id="b2b15-103">Contacter le support pour le Vietnam</span><span class="sxs-lookup"><span data-stu-id="b2b15-103">Contact support for Vietnam</span></span>
 
-<span data-ttu-id="ca6ff-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="ca6ff-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="b2b15-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="b2b15-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="ca6ff-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="ca6ff-105">Phone number</span></span>
-<span data-ttu-id="ca6ff-106">120 852 137</span><span class="sxs-lookup"><span data-stu-id="ca6ff-106">120 852 137</span></span>
+## <a name="phone-number"></a><span data-ttu-id="b2b15-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="b2b15-105">Phone number</span></span>
+<span data-ttu-id="b2b15-106">120 852 137</span><span class="sxs-lookup"><span data-stu-id="b2b15-106">120 852 137</span></span>
 
-## <a name="hours"></a><span data-ttu-id="ca6ff-107">Heures</span><span class="sxs-lookup"><span data-stu-id="ca6ff-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="ca6ff-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="ca6ff-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="b2b15-107">Heures</span><span class="sxs-lookup"><span data-stu-id="b2b15-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="b2b15-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="b2b15-108">Billing Support:</span></span>
 
-<span data-ttu-id="ca6ff-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="ca6ff-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="b2b15-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="b2b15-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="ca6ff-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="ca6ff-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="b2b15-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="b2b15-110">Technical Support:</span></span>
 
-<span data-ttu-id="ca6ff-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="ca6ff-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="b2b15-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="b2b15-111">English: 24 hours a day, 7 days a week</span></span>

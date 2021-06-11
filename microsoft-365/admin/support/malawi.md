@@ -19,20 +19,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295878"
 ---
-# <a name="contact-support-for-malawi"></a><span data-ttu-id="7cbfb-103">Contacter le support technique pour le Malawi</span><span class="sxs-lookup"><span data-stu-id="7cbfb-103">Contact support for Malawi</span></span>
+# <a name="contact-support-for-malawi"></a><span data-ttu-id="01c32-103">Contacter le support technique pour le Malawi</span><span class="sxs-lookup"><span data-stu-id="01c32-103">Contact support for Malawi</span></span>
 
-<span data-ttu-id="7cbfb-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="7cbfb-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="01c32-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="01c32-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="7cbfb-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="7cbfb-105">Phone number</span></span>
-<span data-ttu-id="7cbfb-106">+1 312 843 5151</span><span class="sxs-lookup"><span data-stu-id="7cbfb-106">+1 312 843 5151</span></span>
+## <a name="phone-number"></a><span data-ttu-id="01c32-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="01c32-105">Phone number</span></span>
+<span data-ttu-id="01c32-106">+1 312 843 5151</span><span class="sxs-lookup"><span data-stu-id="01c32-106">+1 312 843 5151</span></span>
 
-## <a name="hours"></a><span data-ttu-id="7cbfb-107">Heures</span><span class="sxs-lookup"><span data-stu-id="7cbfb-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="7cbfb-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="7cbfb-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="01c32-107">Heures</span><span class="sxs-lookup"><span data-stu-id="01c32-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="01c32-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="01c32-108">Billing Support:</span></span>
 
-<span data-ttu-id="7cbfb-109">Anglais : Mon-Fri 11:00-19:00</span><span class="sxs-lookup"><span data-stu-id="7cbfb-109">English: Mon-Fri 11 AM-7 PM</span></span>
+<span data-ttu-id="01c32-109">Anglais : Mon-Fri 11:00-19:00</span><span class="sxs-lookup"><span data-stu-id="01c32-109">English: Mon-Fri 11 AM-7 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="7cbfb-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="7cbfb-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="01c32-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="01c32-110">Technical Support:</span></span>
 
-<span data-ttu-id="7cbfb-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="7cbfb-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="01c32-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="01c32-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="7cbfb-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="7cbfb-112">International call charges apply</span></span>
+<span data-ttu-id="01c32-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="01c32-112">International call charges apply</span></span>

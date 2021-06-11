@@ -19,20 +19,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295438"
 ---
-# <a name="contact-support-for-samoa"></a><span data-ttu-id="a742b-103">Contacter le support technique pour les Samoa</span><span class="sxs-lookup"><span data-stu-id="a742b-103">Contact support for Samoa</span></span>
+# <a name="contact-support-for-samoa"></a><span data-ttu-id="30eb8-103">Contacter le support technique pour les Samoa</span><span class="sxs-lookup"><span data-stu-id="30eb8-103">Contact support for Samoa</span></span>
 
-<span data-ttu-id="a742b-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="a742b-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="30eb8-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="30eb8-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="a742b-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="a742b-105">Phone number</span></span>
-<span data-ttu-id="a742b-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="a742b-106">+1 312 843 5148</span></span>
+## <a name="phone-number"></a><span data-ttu-id="30eb8-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="30eb8-105">Phone number</span></span>
+<span data-ttu-id="30eb8-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="30eb8-106">+1 312 843 5148</span></span>
 
-## <a name="hours"></a><span data-ttu-id="a742b-107">Heures</span><span class="sxs-lookup"><span data-stu-id="a742b-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="a742b-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="a742b-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="30eb8-107">Heures</span><span class="sxs-lookup"><span data-stu-id="30eb8-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="30eb8-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="30eb8-108">Billing Support:</span></span>
 
-<span data-ttu-id="a742b-109">Anglais : Mon-Fri 14h00 à 22h00</span><span class="sxs-lookup"><span data-stu-id="a742b-109">English: Mon-Fri 2 PM-10 PM</span></span>
+<span data-ttu-id="30eb8-109">Anglais : Mon-Fri 14h00 à 22h00</span><span class="sxs-lookup"><span data-stu-id="30eb8-109">English: Mon-Fri 2 PM-10 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="a742b-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="a742b-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="30eb8-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="30eb8-110">Technical Support:</span></span>
 
-<span data-ttu-id="a742b-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="a742b-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="30eb8-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="30eb8-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="a742b-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="a742b-112">International call charges apply</span></span>
+<span data-ttu-id="30eb8-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="30eb8-112">International call charges apply</span></span>
