@@ -1,5 +1,5 @@
 ---
-title: Informations de support pour LaPétade
+title: Informations de support pour La France
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -19,24 +19,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296142"
 ---
-# <a name="contact-support-for-guadeloupe"></a><span data-ttu-id="e0aac-103">Contacter le support technique dePérs</span><span class="sxs-lookup"><span data-stu-id="e0aac-103">Contact support for Guadeloupe</span></span>
+# <a name="contact-support-for-guadeloupe"></a><span data-ttu-id="b841d-103">Contacter le support technique dePérs</span><span class="sxs-lookup"><span data-stu-id="b841d-103">Contact support for Guadeloupe</span></span>
 
-<span data-ttu-id="e0aac-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="e0aac-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="b841d-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="b841d-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-### <a name="phone-number"></a><span data-ttu-id="e0aac-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="e0aac-105">Phone number</span></span>
-<span data-ttu-id="e0aac-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="e0aac-106">+1 312 843 5147</span></span>
+### <a name="phone-number"></a><span data-ttu-id="b841d-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="b841d-105">Phone number</span></span>
+<span data-ttu-id="b841d-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="b841d-106">+1 312 843 5147</span></span>
 
-## <a name="hours"></a><span data-ttu-id="e0aac-107">Heures</span><span class="sxs-lookup"><span data-stu-id="e0aac-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="e0aac-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="e0aac-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="b841d-107">Heures</span><span class="sxs-lookup"><span data-stu-id="b841d-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="b841d-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="b841d-108">Billing Support:</span></span>
 
-<span data-ttu-id="e0aac-109">Français : Mon-Fri 6 h à midi</span><span class="sxs-lookup"><span data-stu-id="e0aac-109">French: Mon-Fri 6 AM-noon</span></span>
+<span data-ttu-id="b841d-109">Français : Mon-Fri 6 h à midi</span><span class="sxs-lookup"><span data-stu-id="b841d-109">French: Mon-Fri 6 AM-noon</span></span>
 
-<span data-ttu-id="e0aac-110">Anglais : Mon-Fri 6 h-13 h</span><span class="sxs-lookup"><span data-stu-id="e0aac-110">English: Mon-Fri 6 AM-1 PM</span></span>
+<span data-ttu-id="b841d-110">Anglais : Mon-Fri 6 h-13 h</span><span class="sxs-lookup"><span data-stu-id="b841d-110">English: Mon-Fri 6 AM-1 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="e0aac-111">Support technique :</span><span class="sxs-lookup"><span data-stu-id="e0aac-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="b841d-111">Support technique :</span><span class="sxs-lookup"><span data-stu-id="b841d-111">Technical Support:</span></span>
 
-<span data-ttu-id="e0aac-112">Français : Mon-Fri 18h00 à 13h00</span><span class="sxs-lookup"><span data-stu-id="e0aac-112">French: Mon-Fri 6 AM-1 PM</span></span>
+<span data-ttu-id="b841d-112">Français : Mon-Fri 18h00 à 13h00</span><span class="sxs-lookup"><span data-stu-id="b841d-112">French: Mon-Fri 6 AM-1 PM</span></span>
 
-<span data-ttu-id="e0aac-113">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="e0aac-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="b841d-113">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="b841d-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="e0aac-114">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="e0aac-114">International call charges apply</span></span>
+<span data-ttu-id="b841d-114">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="b841d-114">International call charges apply</span></span>

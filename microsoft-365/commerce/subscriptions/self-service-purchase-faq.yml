@@ -28,7 +28,7 @@ metadata:
   ms.locfileid: "52539297"
 title: FAQ sur l’achat en libre-service
 summary: >
-  L’achat en libre-service permet aux utilisateurs d’essayer de nouvelles technologies et de développer des solutions qui, en fin de compte, profitent à leurs grandes organisations. L’approvisionnement centralisé et les équipes informatiques ont une visibilité pour tous les utilisateurs qui achètent et déploient des solutions d’achat en libre-service via <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 centre d’administration.</a> Les administrateurs peuvent désactiver les achats en libre-service par produit via PowerShell. Pour plus d’informations, voir [Utiliser AllowSelfServicePurchase pour le module PowerShell MSCommerce.](allowselfservicepurchase-powershell.md)
+  L’achat en libre-service permet aux utilisateurs d’essayer de nouvelles technologies et de développer des solutions qui, en fin de compte, profitent à leurs grandes organisations. L’approvisionnement centralisé et les équipes informatiques ont une visibilité pour tous les utilisateurs qui achètent et déploient des solutions d’achat en libre-service via <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 centre d’administration.</a> Les administrateurs peuvent désactiver l’achat en libre-service par produit via PowerShell. Pour plus d’informations, voir [Utiliser AllowSelfServicePurchase pour le module PowerShell MSCommerce.](allowselfservicepurchase-powershell.md)
 
 
   L’achat en libre-service est disponible pour les plateformes Power Platform (Power BI, Power Apps et Power Automate), Project et Visio.
@@ -38,7 +38,7 @@ summary: >
 
   > L’achat en libre-service n’est pas disponible en Inde, ni pour les clients du secteur public ou de l’éducation. Project et Visio ne sont pas disponibles pour l’achat en libre-service au Brésil et en République yougoslave du Congo.
 sections:
-- name: Effectuer un achat en libre-service
+- name: Achat en libre-service
   questions:
   - question: >
       Comment un client achète-t-il des services libre-service ?
@@ -68,7 +68,7 @@ sections:
     answer: >
       Les acheteur en libre-service peuvent uniquement attribuer des licences aux utilisateurs du même client Azure AD. L’acheteur a accès à une vue limitée du centre <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">d Microsoft 365'administration</a> pour attribuer des licences. Les acheteur peuvent attribuer des licences aux produits qu’ils ont achetés par le biais d’un achat en libre-service, et peuvent uniquement attribuer ces licences aux utilisateurs du même client Azure AD.
   - question: >
-      Où l’acheteur libre-service voit-il et gère-t-il ses achats ?
+      Où l’acheteur en libre-service voit-il et gère-t-il ses achats ?
     answer: >
       Les acheteur en libre-service peuvent gérer leurs achats dans la vue limitée du <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Centre d’administration Microsoft 365.</a> Les acheteur peuvent toujours se rendre  au Centre d’administration à partir de la vignette Administrateur dans le lanceur d’applications intégré à toutes les applications Microsoft 365 et Dynamics Online. Les acheteur peuvent afficher les achats qu’ils ont effectués, acheter des abonnements supplémentaires au même service et attribuer des licences pour ces abonnements à d’autres utilisateurs de leur organisation. En outre, les acheteur peuvent afficher et payer leur facture, mettre à jour leur mode de paiement et annuler leur abonnement.
 - name: Tarification
@@ -86,7 +86,7 @@ sections:
   - question: >
       Quelles fonctionnalités un administrateur a-t-il pour les achats en libre-service ?
     answer: >
-      Les administrateurs peuvent afficher tous les achats en libre-service effectués dans leur organisation dans <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 centre d’administration.</a> Ils peuvent voir le produit, le nom de l’acheteur, les abonnements achetés, la date d’expiration, l’historique des commandes, le prix d’achat et les utilisateurs affectés pour chaque achat en libre-service. Dans le Centre d’administration Power Platform, les administrateurs peuvent également afficher la capacité des achats en libre-service. Si nécessaire pour leur organisation, les administrateurs peuvent désactiver les achats en libre-service par produit via PowerShell. Les administrateurs ont les mêmes stratégies de gestion des données et d’accès que les produits achetés via un achat en libre-service ou de manière centralisée.
+      Les administrateurs peuvent afficher tous les achats en libre-service effectués dans leur organisation dans <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">le centre Microsoft 365'administration.</a> Ils peuvent voir le produit, le nom de l’acheteur, les abonnements achetés, la date d’expiration, l’historique des commandes, le prix d’achat et les utilisateurs affectés pour chaque achat en libre-service. Dans le Centre d’administration Power Platform, les administrateurs peuvent également afficher la capacité des achats en libre-service. Si nécessaire pour leur organisation, les administrateurs peuvent désactiver les achats en libre-service par produit via PowerShell. Les administrateurs ont les mêmes stratégies d’accès et de gestion des données que les produits achetés via un achat en libre-service ou de manière centralisée.
 
 
       Les administrateurs peuvent également contrôler si les utilisateurs de leur organisation peuvent effectuer des achats en libre-service. Pour plus d’informations, voir [Utiliser AllowSelfServicePurchase pour le module PowerShell MSCommerce.](allowselfservicepurchase-powershell.md)
@@ -122,7 +122,7 @@ sections:
   - question: >
       Comment les utilisateurs sont-ils censés recevoir une formation sur les produits qu’ils achètent par le biais d’un achat en libre-service ?
     answer: >
-      Une formation complète pour les utilisateurs est fournie sur les sites web du produit. Les produits ont guidé l’apprentissage, la documentation, les exemples et les communautés fortes pour obtenir des réponses et des conseils directement auprès d’autres utilisateurs.
+      Une formation étendue est fournie aux utilisateurs sur les sites web du produit. Les produits ont guidé l’apprentissage, la documentation, les exemples et les communautés fortes pour obtenir des réponses et des conseils directement auprès d’autres utilisateurs.
   - question: >
       Qu’advient-il d’un achat en libre-service si un utilisateur quitte l’organisation ?
     answer: >

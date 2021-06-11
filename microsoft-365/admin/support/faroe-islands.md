@@ -19,20 +19,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296238"
 ---
-# <a name="contact-support-for-faroe-islands"></a><span data-ttu-id="cac48-103">Contacter le support pour les îles Féroé</span><span class="sxs-lookup"><span data-stu-id="cac48-103">Contact support for Faroe Islands</span></span>
+# <a name="contact-support-for-faroe-islands"></a><span data-ttu-id="ee625-103">Contacter le support pour les îles Féroé</span><span class="sxs-lookup"><span data-stu-id="ee625-103">Contact support for Faroe Islands</span></span>
 
-<span data-ttu-id="cac48-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="cac48-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="ee625-104">[Rechercher un autre pays ou une autre région](../../business-video/get-help-support.md).</span><span class="sxs-lookup"><span data-stu-id="ee625-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="cac48-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="cac48-105">Phone number</span></span>
-<span data-ttu-id="cac48-106">+45 38 48 70 67</span><span class="sxs-lookup"><span data-stu-id="cac48-106">+45 38 48 70 67</span></span>
+## <a name="phone-number"></a><span data-ttu-id="ee625-105">Numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="ee625-105">Phone number</span></span>
+<span data-ttu-id="ee625-106">+45 38 48 70 67</span><span class="sxs-lookup"><span data-stu-id="ee625-106">+45 38 48 70 67</span></span>
 
-## <a name="hours"></a><span data-ttu-id="cac48-107">Heures</span><span class="sxs-lookup"><span data-stu-id="cac48-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="cac48-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="cac48-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="ee625-107">Heures</span><span class="sxs-lookup"><span data-stu-id="ee625-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="ee625-108">Support de facturation :</span><span class="sxs-lookup"><span data-stu-id="ee625-108">Billing Support:</span></span>
 
-<span data-ttu-id="cac48-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="cac48-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="ee625-109">Anglais : Lun.-ven. 9H-17h</span><span class="sxs-lookup"><span data-stu-id="ee625-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="cac48-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="cac48-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="ee625-110">Support technique :</span><span class="sxs-lookup"><span data-stu-id="ee625-110">Technical Support:</span></span>
 
-<span data-ttu-id="cac48-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="cac48-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="ee625-111">Anglais : 24h/24, 7j/7</span><span class="sxs-lookup"><span data-stu-id="ee625-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="cac48-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="cac48-112">International call charges apply</span></span>
+<span data-ttu-id="ee625-112">Les frais d’appels internationaux s’appliquent</span><span class="sxs-lookup"><span data-stu-id="ee625-112">International call charges apply</span></span>

@@ -34,9 +34,9 @@ summary: >
 
   - [Exchange Online Protection](exchange-online-protection-overview.md)
 
-  - [Microsoft Defender pour Office 365 : offre 1 et offre 2](defender-for-office-365.md)
+  - [Microsoft Defender pour Office 365 : offre 1 et offre 2](defender-for-office-365.md)
 
-  - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+  - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
   Cet article fournit des questions fréquemment posées et des réponses sur la protection contre l’usurpation d’Microsoft 365 pour les organisations avec des boîtes aux lettres en Exchange Online ou les organisations Exchange Online Protection autonomes (EOP) sans boîtes aux lettres Exchange Online données.
@@ -45,7 +45,7 @@ summary: >
   Pour obtenir des questions et des réponses sur la protection anti-courrier indésirable, consultez la faq sur la [protection anti-courrier indésirable.](anti-spam-protection-faq.yml)
 
 
-  Pour obtenir des questions et des réponses sur la protection anti-programme malveillant, consultez la [faq sur la protection anti-programme malveillant.](anti-malware-protection-faq-eop.yml)
+  Pour obtenir des questions et des réponses sur la protection anti-programme malveillant, consultez la faq sur la [protection anti-programme malveillant.](anti-malware-protection-faq-eop.yml)
 sections:
 - name: Ignoré
   questions:
@@ -90,7 +90,7 @@ sections:
   - question: >
       Dois-je toujours activer le paramètre De filtrage avancé du courrier indésirable « Enregistrement SPF : échec en dur » ('MarkAsSpamSpfRecordHardFail') si j’active la détection d’usurpation d’adresses ?
     answer: >
-      Non. Ce paramètre ASF n’est plus requis. La protection contre l’usurpation d’usurpation considère à la fois les pannes de SPF et un ensemble de critères beaucoup plus large. Si vous avez activé la détection d’usurpation d’identité et l’option **Enregistrement SPF : échec sévère** (_MarkAsSpamSpfRecordHardFail_), vous obtiendrez probablement davantage de faux positifs.
+      Non. Ce paramètre ASF n’est plus requis. La protection contre l’usurpation d’usurpation tient compte à la fois des pannes de SPF et d’un ensemble de critères beaucoup plus large. Si vous avez activé la détection d’usurpation d’identité et l’option **Enregistrement SPF : échec sévère** (_MarkAsSpamSpfRecordHardFail_), vous obtiendrez probablement davantage de faux positifs.
 
 
       Nous vous recommandons de désactiver cette fonctionnalité, car elle n’offre pratiquement aucun avantage supplémentaire pour la détection du courrier indésirable ou du hameçonnage, et générerait à la place principalement des faux positifs. Pour plus d’informations, consultez les paramètres de filtrage avancé du courrier indésirable [(ASF) dans EOP.](advanced-spam-filtering-asf-options.md)
