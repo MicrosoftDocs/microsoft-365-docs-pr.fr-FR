@@ -26,49 +26,49 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52572800"
 ---
-# <a name="investigate-users-in-microsoft-365-defender"></a><span data-ttu-id="9f548-104">Examiner les utilisateurs dans Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="9f548-104">Investigate users in Microsoft 365 Defender</span></span>
+# <a name="investigate-users-in-microsoft-365-defender"></a><span data-ttu-id="f95c8-104">Examiner les utilisateurs dans Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="f95c8-104">Investigate users in Microsoft 365 Defender</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-<span data-ttu-id="9f548-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="9f548-105">**Applies to:**</span></span>
+<span data-ttu-id="f95c8-105">**S’applique à :**</span><span class="sxs-lookup"><span data-stu-id="f95c8-105">**Applies to:**</span></span>
 
-- <span data-ttu-id="9f548-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="9f548-106">Microsoft 365 Defender</span></span>
+- <span data-ttu-id="f95c8-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="f95c8-106">Microsoft 365 Defender</span></span>
 
-<span data-ttu-id="9f548-107">Une partie de votre enquête sur les incidents peut inclure des comptes d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="9f548-107">Part of your incident investigation can include user accounts.</span></span> <span data-ttu-id="9f548-108">Commencez par **l’onglet Utilisateurs** pour un incident à partir d’incidents **& alertes >** incident *>* **utilisateurs.**</span><span class="sxs-lookup"><span data-stu-id="9f548-108">Start with the **Users** tab for an incident from **Incidents & alerts >** *incident* **> Users**.</span></span> 
+<span data-ttu-id="f95c8-107">Une partie de votre enquête sur les incidents peut inclure des comptes d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="f95c8-107">Part of your incident investigation can include user accounts.</span></span> <span data-ttu-id="f95c8-108">Commencez par **l’onglet Utilisateurs** pour un incident à partir d’incidents **& alertes >** incident *>* **utilisateurs.**</span><span class="sxs-lookup"><span data-stu-id="f95c8-108">Start with the **Users** tab for an incident from **Incidents & alerts >** *incident* **> Users**.</span></span> 
 
 :::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="Exemple de page Utilisateurs pour un incident":::
 
-<span data-ttu-id="9f548-110">Pour obtenir un résumé rapide d’un compte d’utilisateur pour l’incident, cochez la coche en regard du nom du compte d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="9f548-110">To get a quick summary of a user account for the incident, select the check mark next to the user account name.</span></span> <span data-ttu-id="9f548-111">Voici un exemple.</span><span class="sxs-lookup"><span data-stu-id="9f548-111">Here's an example.</span></span>
+<span data-ttu-id="f95c8-110">Pour obtenir un résumé rapide d’un compte d’utilisateur pour l’incident, cochez la coche en regard du nom du compte d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="f95c8-110">To get a quick summary of a user account for the incident, select the check mark next to the user account name.</span></span> <span data-ttu-id="f95c8-111">Voici un exemple.</span><span class="sxs-lookup"><span data-stu-id="f95c8-111">Here's an example.</span></span>
 
 :::image type="content" source="../../media/investigate-users/incidents-ss-user-pane.png" alt-text="Exemple de volet récapitulatif du compte d’utilisateur pour un incident dans le centre Microsoft 365 de sécurité":::
 
 > [!NOTE]
-> <span data-ttu-id="9f548-113">La page Utilisateur affiche Azure Active Directory organisation (Azure AD) ainsi que des groupes, vous aidant à comprendre les groupes et les autorisations associés à un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="9f548-113">The User page shows Azure Active Directory (Azure AD) organization as well as groups, helping you understand the groups and permissions associated with a user.</span></span>
+> <span data-ttu-id="f95c8-113">La page Utilisateur affiche Azure Active Directory organisation (Azure AD) ainsi que des groupes, vous aidant à comprendre les groupes et les autorisations associés à un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="f95c8-113">The User page shows Azure Active Directory (Azure AD) organization as well as groups, helping you understand the groups and permissions associated with a user.</span></span>
 
-<span data-ttu-id="9f548-114">Dans cette page volante, vous pouvez passer en revue les informations sur les menaces des utilisateurs, notamment les incidents actuels, les alertes actives et le niveau de risque, ainsi que l’exposition des utilisateurs, les comptes, les appareils, etc.</span><span class="sxs-lookup"><span data-stu-id="9f548-114">In this fly-out page, you can review user threat information, including any current incidents, active alerts, and risk level as well as user exposure, accounts, devices, and more.</span></span>
+<span data-ttu-id="f95c8-114">Dans cette page volante, vous pouvez passer en revue les informations sur les menaces des utilisateurs, notamment les incidents actuels, les alertes actives et le niveau de risque, ainsi que l’exposition des utilisateurs, les comptes, les appareils, etc.</span><span class="sxs-lookup"><span data-stu-id="f95c8-114">In this fly-out page, you can review user threat information, including any current incidents, active alerts, and risk level as well as user exposure, accounts, devices, and more.</span></span>
 
-<span data-ttu-id="9f548-115">En outre, vous pouvez agir directement dans le Centre de sécurité Microsoft 365 pour traiter un utilisateur compromis, en confirmant que l’utilisateur est compromis ou en exigeant qu’il se connecte à nouveau.</span><span class="sxs-lookup"><span data-stu-id="9f548-115">In addition, you can take action directly in the Microsoft 365 security center to address a compromised user, confirming the user is compromised or requiring them to sign in again.</span></span>
+<span data-ttu-id="f95c8-115">En outre, vous pouvez agir directement dans le Centre de sécurité Microsoft 365 pour traiter un utilisateur compromis, en confirmant que l’utilisateur est compromis ou en exigeant qu’il se connecte à nouveau.</span><span class="sxs-lookup"><span data-stu-id="f95c8-115">In addition, you can take action directly in the Microsoft 365 security center to address a compromised user, confirming the user is compromised or requiring them to sign in again.</span></span>
 
-<span data-ttu-id="9f548-116">À partir de là, vous pouvez sélectionner La page d’accès à **l’utilisateur** pour voir les détails d’un compte d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="9f548-116">From here, you can select **Go to user page** to see the details of a user account.</span></span> <span data-ttu-id="9f548-117">Voici un exemple.</span><span class="sxs-lookup"><span data-stu-id="9f548-117">Here's an example.</span></span>
+<span data-ttu-id="f95c8-116">À partir de là, vous pouvez sélectionner La page d’accès à **l’utilisateur** pour voir les détails d’un compte d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="f95c8-116">From here, you can select **Go to user page** to see the details of a user account.</span></span> <span data-ttu-id="f95c8-117">Voici un exemple.</span><span class="sxs-lookup"><span data-stu-id="f95c8-117">Here's an example.</span></span>
 
 :::image type="content" source="../../media/investigate-users/incidents-ss-user-details.png" alt-text="Exemple de page de compte d’utilisateur pour un incident dans le centre Microsoft 365 sécurité":::
 
-<span data-ttu-id="9f548-119">Vous pouvez également voir cette page en sélectionnant le nom du compte d’utilisateur dans la liste de la page **Utilisateurs.**</span><span class="sxs-lookup"><span data-stu-id="9f548-119">You can also see this page by selecting the name of the user account from the list on the **Users** page.</span></span>
+<span data-ttu-id="f95c8-119">Vous pouvez également voir cette page en sélectionnant le nom du compte d’utilisateur dans la liste de la page **Utilisateurs.**</span><span class="sxs-lookup"><span data-stu-id="f95c8-119">You can also see this page by selecting the name of the user account from the list on the **Users** page.</span></span>
 
-<span data-ttu-id="9f548-120">La page utilisateur du centre de sécurité Microsoft 365 combine les informations de Microsoft Defender pour le point de terminaison, Microsoft Defender pour l’identité et Microsoft Cloud App Security (en fonction des licences dont vous avez la licence).</span><span class="sxs-lookup"><span data-stu-id="9f548-120">The Microsoft 365 security center user page combines information from Microsoft Defender for Endpoint, Microsoft Defender for Identity, and Microsoft Cloud App Security (depending on what licenses you have).</span></span> 
+<span data-ttu-id="f95c8-120">La page utilisateur du centre de sécurité Microsoft 365 combine les informations de Microsoft Defender pour endpoint, Microsoft Defender pour identité et Microsoft Cloud App Security (en fonction des licences dont vous avez la licence).</span><span class="sxs-lookup"><span data-stu-id="f95c8-120">The Microsoft 365 security center user page combines information from Microsoft Defender for Endpoint, Microsoft Defender for Identity, and Microsoft Cloud App Security (depending on what licenses you have).</span></span> 
 
-<span data-ttu-id="9f548-121">Cette page affiche des informations spécifiques au risque de sécurité d’un compte d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="9f548-121">This page shows information specific to the security risk of a user account.</span></span> <span data-ttu-id="9f548-122">Cela inclut un score qui permet d’évaluer les risques et les événements et alertes récents qui ont contribué au risque global de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="9f548-122">This includes a score that helps assess risk and recent events and alerts that contributed to the overall risk of the user.</span></span>
+<span data-ttu-id="f95c8-121">Cette page affiche des informations spécifiques au risque de sécurité d’un compte d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="f95c8-121">This page shows information specific to the security risk of a user account.</span></span> <span data-ttu-id="f95c8-122">Cela inclut un score qui permet d’évaluer les risques et les événements et alertes récents qui ont contribué au risque global de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="f95c8-122">This includes a score that helps assess risk and recent events and alerts that contributed to the overall risk of the user.</span></span>
 
-<span data-ttu-id="9f548-123">À partir de cette page, vous pouvez faire les actions supplémentaires suivantes :</span><span class="sxs-lookup"><span data-stu-id="9f548-123">From this page, you can do these additional actions:</span></span> 
+<span data-ttu-id="f95c8-123">À partir de cette page, vous pouvez faire les actions supplémentaires suivantes :</span><span class="sxs-lookup"><span data-stu-id="f95c8-123">From this page, you can do these additional actions:</span></span> 
 
-- <span data-ttu-id="9f548-124">Marquer le compte d’utilisateur comme compromis</span><span class="sxs-lookup"><span data-stu-id="9f548-124">Mark the user account as compromised</span></span>
-- <span data-ttu-id="9f548-125">Exiger que l’utilisateur se connecte à nouveau</span><span class="sxs-lookup"><span data-stu-id="9f548-125">Require the user to sign in again</span></span>
-- <span data-ttu-id="9f548-126">Suspendre le compte d’utilisateur</span><span class="sxs-lookup"><span data-stu-id="9f548-126">Suspend the user account</span></span>
-- <span data-ttu-id="9f548-127">Voir les Azure Active Directory de compte d’utilisateur (Azure AD)</span><span class="sxs-lookup"><span data-stu-id="9f548-127">See the Azure Active Directory (Azure AD) user account settings</span></span>
-- <span data-ttu-id="9f548-128">Afficher les fichiers du compte d’utilisateur</span><span class="sxs-lookup"><span data-stu-id="9f548-128">View the files owned by the user account</span></span>
-- <span data-ttu-id="9f548-129">Afficher les fichiers partagés avec cet utilisateur.</span><span class="sxs-lookup"><span data-stu-id="9f548-129">View files shared with this user.</span></span> 
+- <span data-ttu-id="f95c8-124">Marquer le compte d’utilisateur comme compromis</span><span class="sxs-lookup"><span data-stu-id="f95c8-124">Mark the user account as compromised</span></span>
+- <span data-ttu-id="f95c8-125">Exiger que l’utilisateur se connecte à nouveau</span><span class="sxs-lookup"><span data-stu-id="f95c8-125">Require the user to sign in again</span></span>
+- <span data-ttu-id="f95c8-126">Suspendre le compte d’utilisateur</span><span class="sxs-lookup"><span data-stu-id="f95c8-126">Suspend the user account</span></span>
+- <span data-ttu-id="f95c8-127">Voir les paramètres Azure Active Directory compte d’utilisateur (Azure AD)</span><span class="sxs-lookup"><span data-stu-id="f95c8-127">See the Azure Active Directory (Azure AD) user account settings</span></span>
+- <span data-ttu-id="f95c8-128">Afficher les fichiers du compte d’utilisateur</span><span class="sxs-lookup"><span data-stu-id="f95c8-128">View the files owned by the user account</span></span>
+- <span data-ttu-id="f95c8-129">Afficher les fichiers partagés avec cet utilisateur.</span><span class="sxs-lookup"><span data-stu-id="f95c8-129">View files shared with this user.</span></span> 
 
-<span data-ttu-id="9f548-130">Voici un exemple.</span><span class="sxs-lookup"><span data-stu-id="9f548-130">Here's an example.</span></span>
+<span data-ttu-id="f95c8-130">Voici un exemple.</span><span class="sxs-lookup"><span data-stu-id="f95c8-130">Here's an example.</span></span>
 
 :::image type="content" source="../../media/investigate-users/incidents-ss-user-details-actions.png" alt-text="Exemple d’actions sur un compte d’utilisateur pour un incident dans le centre Microsoft 365 sécurité":::
 
@@ -80,12 +80,12 @@ Learn more about how to investigate users and potential risk [in this Cloud App 
 
 --> 
 
-## <a name="next-steps"></a><span data-ttu-id="9f548-132">Prochaines étapes</span><span class="sxs-lookup"><span data-stu-id="9f548-132">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="f95c8-132">Prochaines étapes</span><span class="sxs-lookup"><span data-stu-id="f95c8-132">Next steps</span></span>
 
-<span data-ttu-id="9f548-133">Si nécessaire pour les incidents in-process, poursuivez votre [enquête.](investigate-incidents.md)</span><span class="sxs-lookup"><span data-stu-id="9f548-133">As needed for in-process incidents, continue your [investigation](investigate-incidents.md).</span></span>
+<span data-ttu-id="f95c8-133">Si nécessaire pour les incidents in-process, poursuivez votre [enquête.](investigate-incidents.md)</span><span class="sxs-lookup"><span data-stu-id="f95c8-133">As needed for in-process incidents, continue your [investigation](investigate-incidents.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="9f548-134">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9f548-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f95c8-134">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f95c8-134">See also</span></span>
 
-- [<span data-ttu-id="9f548-135">Vue d’ensemble des incidents</span><span class="sxs-lookup"><span data-stu-id="9f548-135">Incidents overview</span></span>](incidents-overview.md)
-- [<span data-ttu-id="9f548-136">Hiérarchiser les incidents</span><span class="sxs-lookup"><span data-stu-id="9f548-136">Prioritize incidents</span></span>](incident-queue.md)
-- [<span data-ttu-id="9f548-137">Gérer les incidents</span><span class="sxs-lookup"><span data-stu-id="9f548-137">Manage incidents</span></span>](manage-incidents.md)
+- [<span data-ttu-id="f95c8-135">Vue d’ensemble des incidents</span><span class="sxs-lookup"><span data-stu-id="f95c8-135">Incidents overview</span></span>](incidents-overview.md)
+- [<span data-ttu-id="f95c8-136">Hiérarchiser les incidents</span><span class="sxs-lookup"><span data-stu-id="f95c8-136">Prioritize incidents</span></span>](incident-queue.md)
+- [<span data-ttu-id="f95c8-137">Gérer les incidents</span><span class="sxs-lookup"><span data-stu-id="f95c8-137">Manage incidents</span></span>](manage-incidents.md)

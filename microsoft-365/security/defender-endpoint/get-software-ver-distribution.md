@@ -23,13 +23,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 06/08/2021
 ms.locfileid: "52845005"
 ---
-# <a name="list-software-version-distribution"></a><span data-ttu-id="566ca-104">Répertorier la distribution de versions du logiciel</span><span class="sxs-lookup"><span data-stu-id="566ca-104">List software version distribution</span></span> 
+# <a name="list-software-version-distribution"></a><span data-ttu-id="26458-104">Répertorier la distribution de versions du logiciel</span><span class="sxs-lookup"><span data-stu-id="26458-104">List software version distribution</span></span> 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="566ca-105">**S’applique à :** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="566ca-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
+<span data-ttu-id="26458-105">**S’applique à :** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="26458-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
 
-- <span data-ttu-id="566ca-106">Vous souhaitez découvrir Microsoft Defender pour le point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="566ca-106">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="566ca-107">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="566ca-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- <span data-ttu-id="26458-106">Vous souhaitez découvrir Microsoft Defender pour le point de terminaison ?</span><span class="sxs-lookup"><span data-stu-id="26458-106">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="26458-107">Inscrivez-vous à un essai gratuit.</span><span class="sxs-lookup"><span data-stu-id="26458-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -37,47 +37,47 @@ ms.locfileid: "52845005"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-<span data-ttu-id="566ca-108">Extrait la liste de la distribution des versions des logiciels de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="566ca-108">Retrieves a list of your organization's software version distribution.</span></span> 
+<span data-ttu-id="26458-108">Extrait la liste de la distribution des versions des logiciels de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="26458-108">Retrieves a list of your organization's software version distribution.</span></span> 
 
-## <a name="permissions"></a><span data-ttu-id="566ca-109">Autorisations</span><span class="sxs-lookup"><span data-stu-id="566ca-109">Permissions</span></span>
-<span data-ttu-id="566ca-110">L’une des autorisations suivantes est nécessaire pour appeler cette API.</span><span class="sxs-lookup"><span data-stu-id="566ca-110">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="566ca-111">Pour plus d’informations, notamment sur le choix des autorisations, voir [Utiliser Microsoft Defender pour les API de point](apis-intro.md) de terminaison pour plus d’informations.</span><span class="sxs-lookup"><span data-stu-id="566ca-111">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md) for details.</span></span>
+## <a name="permissions"></a><span data-ttu-id="26458-109">Autorisations</span><span class="sxs-lookup"><span data-stu-id="26458-109">Permissions</span></span>
+<span data-ttu-id="26458-110">L’une des autorisations suivantes est nécessaire pour appeler cette API.</span><span class="sxs-lookup"><span data-stu-id="26458-110">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="26458-111">Pour plus d’informations, notamment sur le choix des autorisations, voir [Utiliser Microsoft Defender pour les API de point](apis-intro.md) de terminaison pour plus d’informations.</span><span class="sxs-lookup"><span data-stu-id="26458-111">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md) for details.</span></span>
 
-<span data-ttu-id="566ca-112">Type d’autorisation</span><span class="sxs-lookup"><span data-stu-id="566ca-112">Permission type</span></span> |   <span data-ttu-id="566ca-113">Autorisation</span><span class="sxs-lookup"><span data-stu-id="566ca-113">Permission</span></span>  |   <span data-ttu-id="566ca-114">Nom d’affichage de l’autorisation</span><span class="sxs-lookup"><span data-stu-id="566ca-114">Permission display name</span></span>
+<span data-ttu-id="26458-112">Type d’autorisation</span><span class="sxs-lookup"><span data-stu-id="26458-112">Permission type</span></span> |   <span data-ttu-id="26458-113">Autorisation</span><span class="sxs-lookup"><span data-stu-id="26458-113">Permission</span></span>  |   <span data-ttu-id="26458-114">Nom d’affichage de l’autorisation</span><span class="sxs-lookup"><span data-stu-id="26458-114">Permission display name</span></span>
 :---|:---|:---
-<span data-ttu-id="566ca-115">Application</span><span class="sxs-lookup"><span data-stu-id="566ca-115">Application</span></span> | <span data-ttu-id="566ca-116">Software.Read.All</span><span class="sxs-lookup"><span data-stu-id="566ca-116">Software.Read.All</span></span> | <span data-ttu-id="566ca-117">« Lire les informations sur les logiciels de gestion des menaces et des vulnérabilités »</span><span class="sxs-lookup"><span data-stu-id="566ca-117">'Read Threat and Vulnerability Management Software information'</span></span>
-<span data-ttu-id="566ca-118">Déléguée (compte professionnel ou scolaire)</span><span class="sxs-lookup"><span data-stu-id="566ca-118">Delegated (work or school account)</span></span> | <span data-ttu-id="566ca-119">Software.Read</span><span class="sxs-lookup"><span data-stu-id="566ca-119">Software.Read</span></span> | <span data-ttu-id="566ca-120">« Lire les informations sur les logiciels de gestion des menaces et des vulnérabilités »</span><span class="sxs-lookup"><span data-stu-id="566ca-120">'Read Threat and Vulnerability Management Software information'</span></span>
+<span data-ttu-id="26458-115">Application</span><span class="sxs-lookup"><span data-stu-id="26458-115">Application</span></span> | <span data-ttu-id="26458-116">Software.Read.All</span><span class="sxs-lookup"><span data-stu-id="26458-116">Software.Read.All</span></span> | <span data-ttu-id="26458-117">« Lire les informations sur les logiciels de gestion des menaces et des vulnérabilités »</span><span class="sxs-lookup"><span data-stu-id="26458-117">'Read Threat and Vulnerability Management Software information'</span></span>
+<span data-ttu-id="26458-118">Déléguée (compte professionnel ou scolaire)</span><span class="sxs-lookup"><span data-stu-id="26458-118">Delegated (work or school account)</span></span> | <span data-ttu-id="26458-119">Software.Read</span><span class="sxs-lookup"><span data-stu-id="26458-119">Software.Read</span></span> | <span data-ttu-id="26458-120">« Lire les informations sur les logiciels de gestion des menaces et des vulnérabilités »</span><span class="sxs-lookup"><span data-stu-id="26458-120">'Read Threat and Vulnerability Management Software information'</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="566ca-121">Requête HTTP</span><span class="sxs-lookup"><span data-stu-id="566ca-121">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="26458-121">Requête HTTP</span><span class="sxs-lookup"><span data-stu-id="26458-121">HTTP request</span></span>
 ```
 GET /api/Software/{Id}/distributions
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="566ca-122">En-têtes de demande</span><span class="sxs-lookup"><span data-stu-id="566ca-122">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="26458-122">En-têtes de demande</span><span class="sxs-lookup"><span data-stu-id="26458-122">Request headers</span></span>
 
-| <span data-ttu-id="566ca-123">Nom</span><span class="sxs-lookup"><span data-stu-id="566ca-123">Name</span></span>        | <span data-ttu-id="566ca-124">Type</span><span class="sxs-lookup"><span data-stu-id="566ca-124">Type</span></span> | <span data-ttu-id="566ca-125">Description</span><span class="sxs-lookup"><span data-stu-id="566ca-125">Description</span></span>
+| <span data-ttu-id="26458-123">Nom</span><span class="sxs-lookup"><span data-stu-id="26458-123">Name</span></span>        | <span data-ttu-id="26458-124">Type</span><span class="sxs-lookup"><span data-stu-id="26458-124">Type</span></span> | <span data-ttu-id="26458-125">Description</span><span class="sxs-lookup"><span data-stu-id="26458-125">Description</span></span>
 |:--------------|:-------|:--------------|
-| <span data-ttu-id="566ca-126">Autorisation</span><span class="sxs-lookup"><span data-stu-id="566ca-126">Authorization</span></span> | <span data-ttu-id="566ca-127">String</span><span class="sxs-lookup"><span data-stu-id="566ca-127">String</span></span> | <span data-ttu-id="566ca-128">Porteur {token}. **Obligatoire**.</span><span class="sxs-lookup"><span data-stu-id="566ca-128">Bearer {token}.**Required**.</span></span>
+| <span data-ttu-id="26458-126">Autorisation</span><span class="sxs-lookup"><span data-stu-id="26458-126">Authorization</span></span> | <span data-ttu-id="26458-127">String</span><span class="sxs-lookup"><span data-stu-id="26458-127">String</span></span> | <span data-ttu-id="26458-128">Porteur {token}. **Obligatoire**.</span><span class="sxs-lookup"><span data-stu-id="26458-128">Bearer {token}.**Required**.</span></span>
 
-## <a name="request-body"></a><span data-ttu-id="566ca-129">Corps de la demande</span><span class="sxs-lookup"><span data-stu-id="566ca-129">Request body</span></span>
-<span data-ttu-id="566ca-130">Vide</span><span class="sxs-lookup"><span data-stu-id="566ca-130">Empty</span></span>
+## <a name="request-body"></a><span data-ttu-id="26458-129">Corps de la demande</span><span class="sxs-lookup"><span data-stu-id="26458-129">Request body</span></span>
+<span data-ttu-id="26458-130">Vide</span><span class="sxs-lookup"><span data-stu-id="26458-130">Empty</span></span>
 
-## <a name="response"></a><span data-ttu-id="566ca-131">Réponse</span><span class="sxs-lookup"><span data-stu-id="566ca-131">Response</span></span>
-<span data-ttu-id="566ca-132">Si elle réussit, cette méthode renvoie 200 OK avec une liste de données de distribution de logiciels dans le corps.</span><span class="sxs-lookup"><span data-stu-id="566ca-132">If successful, this method returns 200 OK with a list of software distributions data in the body.</span></span> 
+## <a name="response"></a><span data-ttu-id="26458-131">Réponse</span><span class="sxs-lookup"><span data-stu-id="26458-131">Response</span></span>
+<span data-ttu-id="26458-132">Si elle réussit, cette méthode renvoie 200 OK avec une liste de données de distribution de logiciels dans le corps.</span><span class="sxs-lookup"><span data-stu-id="26458-132">If successful, this method returns 200 OK with a list of software distributions data in the body.</span></span> 
 
 
-## <a name="example"></a><span data-ttu-id="566ca-133">Exemple</span><span class="sxs-lookup"><span data-stu-id="566ca-133">Example</span></span>
+## <a name="example"></a><span data-ttu-id="26458-133">Exemple</span><span class="sxs-lookup"><span data-stu-id="26458-133">Example</span></span>
 
-<span data-ttu-id="566ca-134">**Demande**</span><span class="sxs-lookup"><span data-stu-id="566ca-134">**Request**</span></span>
+<span data-ttu-id="26458-134">**Demande**</span><span class="sxs-lookup"><span data-stu-id="26458-134">**Request**</span></span>
 
-<span data-ttu-id="566ca-135">Voici un exemple de demande.</span><span class="sxs-lookup"><span data-stu-id="566ca-135">Here is an example of the request.</span></span>
+<span data-ttu-id="26458-135">Voici un exemple de demande.</span><span class="sxs-lookup"><span data-stu-id="26458-135">Here is an example of the request.</span></span>
 
 ```
 GET https://api.securitycenter.microsoft.com/api/Software/microsoft-_-edge/distributions
 ```
 
-<span data-ttu-id="566ca-136">**Réponse**</span><span class="sxs-lookup"><span data-stu-id="566ca-136">**Response**</span></span>
+<span data-ttu-id="26458-136">**Réponse**</span><span class="sxs-lookup"><span data-stu-id="26458-136">**Response**</span></span>
 
-<span data-ttu-id="566ca-137">Voici un exemple de réponse.</span><span class="sxs-lookup"><span data-stu-id="566ca-137">Here is an example of the response.</span></span>
+<span data-ttu-id="26458-137">Voici un exemple de réponse.</span><span class="sxs-lookup"><span data-stu-id="26458-137">Here is an example of the response.</span></span>
 
 ```json
 
@@ -99,6 +99,6 @@ GET https://api.securitycenter.microsoft.com/api/Software/microsoft-_-edge/distr
 }
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="566ca-138">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="566ca-138">Related topics</span></span>
-- [<span data-ttu-id="566ca-139">Gestion des menaces & vulnérabilité basée sur les risques</span><span class="sxs-lookup"><span data-stu-id="566ca-139">Risk-based Threat & Vulnerability Management</span></span>](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [<span data-ttu-id="566ca-140">Inventaire des logiciels de vulnérabilité & menace</span><span class="sxs-lookup"><span data-stu-id="566ca-140">Threat & Vulnerability software inventory</span></span>](/microsoft-365/security/defender-endpoint/tvm-software-inventory)
+## <a name="related-topics"></a><span data-ttu-id="26458-138">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="26458-138">Related topics</span></span>
+- [<span data-ttu-id="26458-139">Gestion des menaces & vulnérabilité basée sur les risques</span><span class="sxs-lookup"><span data-stu-id="26458-139">Risk-based Threat & Vulnerability Management</span></span>](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [<span data-ttu-id="26458-140">Inventaire des logiciels de vulnérabilité & menace</span><span class="sxs-lookup"><span data-stu-id="26458-140">Threat & Vulnerability software inventory</span></span>](/microsoft-365/security/defender-endpoint/tvm-software-inventory)
