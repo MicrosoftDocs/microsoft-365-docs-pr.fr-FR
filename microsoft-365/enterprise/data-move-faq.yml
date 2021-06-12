@@ -1,0 +1,111 @@
+### YamlMime:FAQ
+metadata:
+  title: FAQ général relatif au déplacement de données
+  ms.author: josephd
+  author: JoeDavies-MSFT
+  manager: laurawi
+  audience: ITPro
+  ms.topic: article
+  ms.service: o365-administration
+  localization_priority: Normal
+  search.appverid:
+  - MET150
+  ms.assetid: 1f01bc6f-5d37-4d14-bdd3-9d94a1e23e14
+  f1.keywords:
+  - NOCSH
+  description: Trouvez des réponses aux questions fréquemment posées sur le déplacement des données de base vers une nouvelle Office 365 de centres de données.
+  ms.custom: seo-marvel-mar2020
+  ms.openlocfilehash: 05ffdc8ea774bab1aee3aaad79df2f2532132aa3
+  ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 06/11/2021
+  ms.locfileid: "52908401"
+title: FAQ général relatif au déplacement de données
+summary: Voici des réponses aux questions générales sur le déplacement des données client essentielles au repos vers une nouvelle géo de centres de données.
+sections:
+- name: Ignoré
+  questions:
+  - question: >
+      Quels clients peuvent demander un déplacement ?
+    answer: "Les Microsoft 365 commerciaux qui ont sélectionné un pays éligible pour la nouvelle région de centres de données pourront demander un déplacement. Le programme existe uniquement pour les clients avec un code de pays éligible affecté au client Microsoft 365 pour migrer les données client essentielles au repos pour les charges de travail éligibles vers la région de centre de données Microsoft 365 correspondante. Reportez-vous à la page [Comment demander votre](request-your-data-move.md) déplacement de données pour confirmer l’éligibilité du pays.   \n"
+  - question: >
+      Comment définir les données client principales ?
+    answer: "Les données client essentielles sont un terme qui fait référence à un sous-ensemble de données client définies dans [les conditions Microsoft Online Services :](https://aka.ms/ost) \n- Exchange Online de boîte aux lettres (corps du courrier électronique, entrées de calendrier et contenu des pièces jointes)\n- SharePoint Contenu du site en ligne et fichiers stockés dans ce site\n- Fichiers téléchargés vers OneDrive Entreprise \n"
+  - question: >
+      Quelle est la portée de la migration Teams migration ?
+    answer: "En plus de Exchange Online, SharePoint Online et OneDrive Entreprise ; Microsoft migrera Teams données vers le centre de données local. \n- Teams messages de conversation, y compris les messages privés et les messages de canal. \n- Teams images utilisées dans les conversations. \n\nTeams fichiers sont stockés dans SharePoint Online et Teams de conversation sont stockés dans OneDrive Entreprise. La messagerie vocale, le calendrier et les contacts sont stockés dans Exchange Online. Dans de nombreux cas, Exchange Online, SharePoint Online et OneDrive Entreprise sont déjà utilisés par le client dans la région du centre de données local et font également partie du programme de migration Microsoft 365 pour les pays clients éligibles.\n"
+  - question: >
+      À quel stade ma migration est-elle terminée afin que les données client principales de mon client sont stockées au repos dans ma nouvelle géo ?
+    answer: >
+      En raison des dépendances partagées entre Exchange Online et SharePoint Online/OneDrive Entreprise, toute migration ne peut pas être considérée comme terminée tant que les deux services n’ont pas été migrés. Exchange Online et SharePoint Online/OneDrive Entreprise migrent souvent à des moments distincts et indépendamment les uns des autres. Les administrateurs client reçoivent une confirmation dans le Centre de messages lorsque chaque migration de service est terminée et peuvent afficher la carte d’emplacement des données dans le Centre d’administration à tout moment pour confirmer les données client principales au repos pour chaque service.
+  - question: >
+      Comment vous assurez-vous que mes données client sont sécurisées lors du déplacement et qu’il n’y aura pas de temps d’arrêt ?
+    answer: "Les déplacements de données sont une opération de service back-end ayant un impact minimal sur les utilisateurs finaux. Les fonctionnalités qui peuvent être impactées sont répertoriées dans [Pendant et après le déplacement de vos données.](during-and-after-your-data-move.md) Nous respectons le contrat Microsoft Online Services de niveau de [service (SLA)](https://go.microsoft.com/fwlink/p/?LinkId=523897) pour la disponibilité, de sorte que les clients n’ont rien à préparer ou à surveiller pendant le déplacement. \n  \nTous Microsoft 365 services exécutent les mêmes versions dans les centres de données, afin que vous soyez assuré de la cohérence des fonctionnalités. Votre service est entièrement pris en charge tout au long du processus.\n  \n"
+  - question: >
+      Quel est l’impact de la localisation de différents services dans différentes géos ?
+    answer: >
+      Certains des services Microsoft 365 peuvent se trouver dans des emplacements géographiques différents pour certains clients existants et pour les clients qui sont au milieu du processus de déplacement. Nos services s’exécutent indépendamment les uns des autres et n’ont aucun impact sur l’expérience utilisateur si c’est le cas.Toutefois, à des fins de résidence des données, une migration de client ne peut pas être considérée comme terminée tant que Exchange Online et SharePoint Online/OneDrive Entreprise ne sont pas migrés vers la même géodécenter.
+  - question: >
+      Où se trouvent mes données client principales ?
+    answer: "Les administrateurs client peuvent afficher la carte d’emplacement des données dans le Centre d’administration à tout moment pour confirmer les données client principales au repos pour chaque service, en particulier pour leur client.Nous publions également l’emplacement des régions de centres de données, des centres de données et de l’emplacement des données client Office 365 sur les cartes interactives du centre de données [Microsoft 365](https://office.com/datamaps) en tant que référence pour les données client essentielles par défaut actuelles aux emplacements de repos pour les nouveaux clients. Vous pouvez vérifier l’emplacement de vos données client au repos via la section Emplacement des données sous votre profil d’organisation dans Microsoft 365 d’administration.  \n \n"
+  - question: >
+      Quand pourrai-je demander un déplacement ?
+    answer: "Reportez-vous à la page [Comment demander](request-your-data-move.md) votre déplacement de données pour les délais pris en charge pour votre géo de centre de données.\n  \n"
+  - question: >
+      Comment effectuer ma demande de déplacement ?
+    answer: "Les clients éligibles voient une page dans leur [centre Microsoft 365'administration.](https://admin.microsoft.com/) Reportez-vous à la section [Procédure de demande d'un déplacement de données](request-your-data-move.md) pour obtenir des informations sur la demande de déplacement. \n  \n"
+  - question: >
+      Puis-je modifier ma sélection après avoir demandé un déplacement ?
+    answer: >
+      Nous ne pouvons pas vous enlever du processus une fois que vous avez envoyé votre demande.
+  - question: >
+      Que se passe-t-il si je ne fais pas la demande de déplacement avant la date d’échéance ?
+    answer: >
+      Nous ne pouvons pas accepter les demandes de migration après la période d’inscription ouverte.
+  - question: >
+      Que se passe-t-il si je veux déplacer mes données afin de bénéficier de meilleures performances réseau ?
+    answer: "La proximité physique d’Microsoft 365 centre de données ne garantit pas de meilleures performances réseau. De nombreux facteurs et composants affectent les performances réseau entre l’utilisateur final et le service Microsoft 365 service. Pour plus d’informations à ce sujet et sur l’optimisation des performances, voir Planification réseau et optimisation des [performances pour Microsoft 365](network-planning-and-performance.md).\n  \n"
+  - question: >
+      Les données de tous les services sont-elles déplacées le même jour ?
+    answer: >
+      Chaque service se déplace indépendamment et déplacera probablement ses données à différents moments.
+  - question: >
+      Puis-je choisir la date du déplacement de mes données ?
+    answer: >
+      Les clients ne sont pas en mesure de sélectionner une date spécifique, ils ne peuvent pas retarder leur déplacement et nous ne pouvons pas partager une date ou une période spécifique pour les déplacements.
+  - question: >
+      Pouvez-vous partager le moment où mes données seront déplacées ?
+    answer: "Les déplacements de données sont des opérations back-end ayant un impact minimal sur les utilisateurs finaux. La complexité, la précision et l’échelle à laquelle nous devons effectuer des déplacements de données dans un environnement automatisé et géré globalement nous empêchent de partager quand un déplacement de données est prévu pour votre client ou tout autre client unique. Les clients recevront une confirmation dans le centre de messages pour chaque service concerné une fois que le déplacement des données sera terminé. \n"
+  - question: >
+      Que se passe-t-il si les utilisateurs accèdent à des services lors du déplacement des données ?
+    answer: "Reportez-vous à la section [Pendant et après le déplacement de vos données](during-and-after-your-data-move.md) pour consulter la liste complète des fonctionnalités qui peuvent être limitées à certains moments du déplacement des données pour chaque service. \n  \n"
+  - question: >
+      Comment savoir que le déplacement est terminé ?
+    answer: "Regardez le Microsoft 365 Message Center pour confirmer que le déplacement des données de chaque service est terminé. Lorsque les données de chaque service sont déplacées, nous publierons un avis d’achèvement afin que vous receviez trois notifications d’achèvement : une pour Exchange Online, SharePoint Online et Skype Entreprise Online. Vous pouvez également vérifier l’emplacement de vos données client au repos via la section Emplacement des données sous votre profil d’organisation dans Microsoft 365'administration centrale.  \n  \n"
+  - question: >
+      Je suis un Microsoft 365 dans l’une des nouvelles région de centres de données, mais lorsque je me suis inscrit, j’ai sélectionné un autre pays. Comment puis-je être déplacé vers la nouvelle géo de centres de données ?
+    answer: >
+      Il n’est pas possible de modifier le pays d’inscription associé à votre client. Au lieu de cela, vous devez créer un client Microsoft 365 avec un nouvel abonnement et déplacer manuellement vos utilisateurs et données vers le nouveau client.
+  - question: >
+      Que se passe-t-il si nous sommes en train de migrer les données de messagerie vers Microsoft 365 pendant le déplacement Exchange Online’utilisateur ?
+    answer: >
+      Il s’agit d’un scénario très courant qui est entièrement pris en charge.  La migration cloud entre des centres de données géographiques n’interfère pas avec les migrations de boîtes aux lettres sur site vers le cloud.
+  - question: >
+      Puis-je piloter certains utilisateurs ?
+    answer: >
+      Vous pouvez créer un client d'évaluation distinct pour tester la connectivité, mais il ne peut pas être associé à votre client existant.
+  - question: >
+      Je ne souhaite pas attendre que Microsoft déplace mes données. Puis-je simplement créer un client et le déplacer moi-même ?
+    answer: "Oui, toutefois le processus ne sera pas aussi transparent que s’il était effectué par Microsoft.\n  \nSi vous créez un client une fois la nouvelle géo de centre de données disponible, le nouveau client sera hébergé dans la nouvelle. Ce nouveau client est complètement distinct de votre client précédent et vous devez déplacer toutes les boîtes aux lettres utilisateur, le contenu du site, les noms de domaine et toutes les autres données. Notez que vous ne pouvez pas déplacer le nom du client d’un client vers un autre. Nous vous recommandons d’attendre le programme de déplacement fourni par Microsoft, car nous nous chargerons de déplacer tous les paramètres, données et abonnements de vos utilisateurs.\n  \n"
+  - question: >
+      Mes données client ont déjà été déplacées vers une nouvelle géo de centres de données. Puis-je les déplacer vers l’ancienne région ?
+    answer: "Non, ce n’est pas possible. Les clients qui ont été déplacés vers de nouveaux centres de données géographiques ne peuvent pas être déplacés vers de nouveaux centres de données géographiques. En tant que client dans n’importe quelle situation géographique, vous aurez la même qualité de service, les mêmes performances et les mêmes contrôles de sécurité qu’auparavant. [Microsoft 365 Multi-Géo](https://aka.ms/multi-geo) est disponible pour certains clients en tant que modules de modules et permet à un seul client de créer plusieurs géos satellites et de déplacer des données utilisateur vers ces géos avec des engagements de résidence des données.\n  \n"
+  - question: >
+      Les Microsoft 365 hébergés dans les nouveaux centres de données seront-ils disponibles pour les utilisateurs extérieurs au pays ?
+    answer: >
+      Oui. Microsoft maintient un réseau mondial important avec des connexions Internet publiques dans plus de 130 emplacements dans 35 pays dans le monde entier avec des accords d’homologue avec plus de 2 700 fournisseurs de services Internet (ISP). Les utilisateurs pourront accéder aux centres de données par Internet, où qu’ils soient.
+  - question: >
+      Mon client a configuré le module add-on Multi-Géo. Puis-je toujours m’inscrire à mon client dans le programme de déplacement Microsoft 365 pour modifier ma zone géographique par défaut et déplacer tout utilisateur qui n’est pas dans une région satellite vers la nouvelle zone géographique par défaut ?
+    answer: "Oui, votre client est éligible pour s’inscrire, mais il existe des considérations importantes, car le déplacement au niveau du client n’est pas entièrement pris en charge pour les clients qui ont configuré [multigéogé](https://aka.ms/multi-geo).\n\nSharePoint Les sites en OneDrive Entreprise ne peuvent pas migrer vers la nouvelle géo de centres de données au niveau du client via ce programme. L’administrateur client peut configurer des partages OneDrive Entreprise de manière à ce qu’ils se déplacent vers n’importe quelle région disponible à l’aide de Multi-Géo, mais l’emplacement par défaut du client ne peut pas être modifié une fois que Multi-Géo a été configuré pour un client.\n\nPour les clients qui optent pour la migration : nous déplacerons toutes les boîtes aux lettres Exchange Online de votre zone géographique par défaut actuelle vers votre nouvelle région de centre de données locale et nous mettreons à jour la région Exchange Online par défaut. Nous ne déplacerons pas les boîtes aux lettres EXO configurées dans les régions satellites multigé géographiques pour continuer à respecter la résidence des données de région satellite comme prévu. \n"
+additionalContent: "\n## <a name=\"related-topics\"></a>Voir aussi\n  [Déplacement de données principales vers de nouvelles Microsoft 365 de centres de données](moving-data-to-new-datacenter-geos.md)\n        \n  [Procédure de demande d’un déplacement de données](request-your-data-move.md)\n        \n  [Microsoft 365 Multi-Géo](https://aka.ms/multi-geo)\n        \n  [Microsoft 365 de centre de données interactif](https://office.com/datamaps)\n        \n  [Microsoft 365 Prise en charge](../business-video/get-help-support.md)\n        \n  [Nouvelles régions de centres de données pour Microsoft Dynamics CRM Online](/power-platform/admin/new-datacenter-regions)\n          \n  [Services Azure par région](https://azure.microsoft.com/regions/)"
