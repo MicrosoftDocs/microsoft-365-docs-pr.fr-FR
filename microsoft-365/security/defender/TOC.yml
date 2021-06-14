@@ -1,24 +1,24 @@
-- name: "Microsoft\_365\_Defender"
+- name: Microsoft 365 Defender
   href: index.yml
   expanded: true
   items:
     - name: Vue d’ensemble
       items:
-        - name: "Qu’est-ce que Microsoft\_365\_Defender\_?"
+        - name: Qu’est-ce que Microsoft 365 Defender ?
           href: microsoft-365-defender.md
-        - name: Microsoft 365 Vue d’ensemble de Defender
+        - name: Vue d’ensemble de Microsoft 365 Defender
           href: overview-security-center.md
-        - name: "Nouveautés de Microsoft\_365 Defender"
+        - name: Nouveautés de Microsoft 365 Defender
           href: whats-new.md
-        - name: Defender pour le point de terminaison dans Microsoft 365 Defender
+        - name: Defender pour Point de terminaison dans Microsoft 365 Defender
           href: microsoft-365-security-center-mde.md
         - name: Defender pour Office 365 dans Microsoft 365 Defender
           href: microsoft-365-security-center-mdo.md
-        - name: Redirection de Defender pour le point de terminaison vers Microsoft 365 Defender
+        - name: Redirection de Defender pour Point de terminaison vers Microsoft 365 Defender
           href: microsoft-365-security-mde-redirection.md
-        - name: Redirection Office 365 centre de sécurité et conformité vers Microsoft 365 Defender
+        - name: Redirection du Centre de sécurité et conformité Office 365 vers Microsoft 365 Defender
           href: microsoft-365-security-mdo-redirection.md
-        - name: Microsoft 365 Intégration de Defender à Azure Sentinel
+        - name: intégration de Microsoft 365 Defender à Azure Sentinel
           href: microsoft-365-defender-integration-with-azure-sentinel.md
         - name: Fonctionnalités en préversion
           href: preview.md
@@ -44,7 +44,7 @@
               href: prepare-m365d-eval.md
             - name: Configuration
               href: setup-m365deval.md
-            - name: "Configurer les piliers et l’intégration de Microsoft\_365\_Defender"
+            - name: Configurer les piliers et l’intégration de Microsoft 365 Defender
               href: config-m365d-eval.md
             - name: Créer une alerte de test
               href: generate-test-alert.md
@@ -64,11 +64,11 @@
       items:
         - name: Vue d’ensemble
           href: get-started.md
-        - name: "Activer Microsoft\_365 Defender"
+        - name: Activer Microsoft 365 Defender
           href: m365d-enable.md
         - name: Déployer les services pris en charge
           href: deploy-supported-services.md
-        - name: "Activer les foires aux questions sur Microsoft\_365 Defender"
+        - name: Activer les foires aux questions sur Microsoft 365 Defender
           href: m365d-enable-faq.md
     - name: Protéger contre les menaces
       items:
@@ -88,7 +88,7 @@
           items:
             - name: Gérer les alertes de sécurité
               href: ../defender-identity/manage-security-alerts.md
-    - name: Examiner et répondre aux menaces
+    - name: Examiner les menaces et y répondre
       items:
         - name: Incidents
           items:
@@ -110,29 +110,29 @@
                   href: first-incident-overview.md
                 - name: Préparation
                   href: first-incident-prepare.md
-                - name: Étape 1. Tri et analyse
+                - name: Étape 1. Triage et analyse
                   href: first-incident-analyze.md
                 - name: Étape 2. Corriger
                   href: first-incident-remediate.md
-                - name: Étape 3. Révision
+                - name: Étape 3. Examen
                   href: first-incident-post.md
                 - name: Exemples d’incidents supplémentaires
                   items:
-                    - name: Courriers hameçons
+                    - name: Courrier d’hameçonnage
                       href: first-incident-path-phishing.md
                     - name: Identité
                       href: first-incident-path-identity.md
-            - name: Manuels de réponse aux incidents
+            - name: Playbooks de réponse aux incidents
               href: /security/compass/incident-response-playbooks
             - name: Notifications par e-mail
               href: get-incident-notifications.md
         - name: Analyses de menaces
           items:
-            - name: Suivre les menaces émergentes et y répondre
+            - name: Suivre et répondre aux menaces émergentes
               href: threat-analytics.md
             - name: Comprendre le rapport d’analyste
               href: threat-analytics-analyst-reports.md
-        - name: Enquêtes et réponses automatisées
+        - name: Examen et réponse automatisés
           items:
             - name: Vue d’ensemble
               href: m365d-autoir.md
@@ -146,7 +146,7 @@
               href: m365d-autoir-actions.md
             - name: Afficher les détails et les résultats
               href: m365d-autoir-results.md
-            - name: Corriger les faux positifs et les négatifs
+            - name: Résoudre les faux positifs et les négatifs
               href: m365d-autoir-report-false-positives-negatives.md
         - name: Repérage avancé
           items:
@@ -292,19 +292,19 @@
               items:
                 - name: Présentation de l’intégration de ServiceNow
                   href: ./tickets.md
-        - name: "API Microsoft\_365 Defender (préversion)"
+        - name: API Microsoft 365 Defender (préversion)
           items:
-            - name: "Vue d’ensemble des API Microsoft\_365 Defender (préversion)"
+            - name: Vue d’ensemble des API Microsoft 365 Defender (préversion)
               href: api-overview.md
-            - name: "API Microsoft\_365 Defender prises en charge"
+            - name: API Microsoft 365 Defender prises en charge
               href: api-supported.md
-            - name: "Prise en main des API Microsoft\_365 Defender (préversion)"
+            - name: Prise en main des API Microsoft 365 Defender (préversion)
               items:
-                - name: "Licence et conditions d’utilisation de l’API Microsoft\_365 Defender"
+                - name: Licence et conditions d’utilisation de l’API Microsoft 365 Defender
                   href: api-terms.md
-                - name: "Accéder aux API Microsoft\_365 Defender"
+                - name: Accéder aux API Microsoft 365 Defender
                   href: api-access.md
-                - name: "Exemple Hello\_World"
+                - name: Exemple Hello World
                   href: api-hello-world.md
                 - name: Accédez au contexte de l’application
                   href: api-create-app-web.md
@@ -314,13 +314,13 @@
                   href: api-partner-access.md
                 - name: Autres ressources API
                   href: api-articles.md
-            - name: "API et schéma de Microsoft\_365 Defender (préversion)"
+            - name: API et schéma de Microsoft 365 Defender (préversion)
               items:
                 - name: Codes d’erreur courants de l’API REST
                   href: api-error-codes.md
                 - name: API de diffusion en continu
                   items:
-                    - name: Microsoft 365 API de diffusion en continu
+                    - name: API de diffusion en continu Microsoft 365
                       href: streaming-api.md
                     - name: Événements de repérage avancé Stream vers le hub Événements Azure
                       href: streaming-api-event-hub.md
@@ -328,7 +328,7 @@
                       href: streaming-api-storage.md
                 - name: API de recherche avancée de menaces
                   href: api-advanced-hunting.md
-                - name: API Incidents
+                - name: API d’incidents
                   items:
                     - name: Méthodes et propriétés des incidents
                       href: api-incident.md
@@ -336,11 +336,11 @@
                       href: api-list-incidents.md
                     - name: Mettre à jour les incidents
                       href: api-update-incidents.md
-                    - name: Obtenir un incident
+                    - name: Obtenir l’incident
                       href: api-get-incident.md
-    - name: "Microsoft\_Defender pour Office\_365"
+    - name: Microsoft Defender pour Office 365
       href: ../office-365-security/index.yml
-    - name: "Microsoft\_Defender pour point de terminaison"
+    - name: Microsoft Defender pour point de terminaison
       href: ../defender-endpoint/index.yml
     - name: Microsoft Defender pour l’identité
       href: /defender-for-identity
