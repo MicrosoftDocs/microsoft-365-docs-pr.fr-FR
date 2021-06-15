@@ -212,7 +212,7 @@
 #### [Configurer des paramètres de fuseau horaire du Centre de sécurité Microsoft Defender](time-settings.md)
 
 ## [Détecter des menaces et protéger des points de terminaison]()
-### [Gestion des menaces et des vulnérabilités]().
+### [Gestion des menaces et des vulnérabilités]()
 #### [Vue d’ensemble](next-gen-threat-and-vuln-mgt.md)
 #### [Prise en main]()
 ##### [Conditions préalables et autorisations](tvm-prerequisites.md)
@@ -303,7 +303,7 @@
 ##### [Signaler sur l’antivirus Microsoft Defender](report-monitor-microsoft-defender-antivirus.md)
 
 #### [Analyses et correction](review-scan-results-microsoft-defender-antivirus.md)
-##### [Configurer et exécuter des analyses à la demande avec l’antivirus Microsoft Defender](run-scan-microsoft-defender-antivirus.md).
+##### [Configurer et exécuter des analyses à la demande avec l’antivirus Microsoft Defender](run-scan-microsoft-defender-antivirus.md)
 ##### [Exécuter et examiner les résultats d’une analyse en mode Microsoft Defender hors ligne](microsoft-defender-offline.md)
 ##### [Configurer les options d’analyse de l’antivirus Microsoft Defender](configure-advanced-scan-types-microsoft-defender-antivirus.md)
 ##### [Restaurer des fichiers mis en quarantaine dans l’antivirus Microsoft Defender](restore-quarantined-files-microsoft-defender-antivirus.md)
@@ -463,18 +463,18 @@
 ### [Gestion et API]()
 #### [Vue d’ensemble de la gestion et des API](management-apis.md)
 #### [Notes de publication de l’API](api-release-notes.md)
-#### [API Microsoft Defender pour point de terminaison]()
+#### [API Microsoft Defender pour point de terminaison]()
 ##### [Prise en main]()
-###### [Licence et conditions de l’API Microsoft Defender pour point de terminaison](api-terms-of-use.md)
-###### [Accéder aux API Microsoft Defender pour point de terminaison](apis-intro.md).
+###### [Licence et conditions de l’API Microsoft Defender pour point de terminaison](api-terms-of-use.md)
+###### [Accéder aux API Microsoft Defender pour point de terminaison](apis-intro.md)
 ###### [Hello World](api-hello-world.md)
 ###### [Obtenir l’accès avec le contexte de l’application](exposed-apis-create-app-webapp.md)
 ###### [Obtenir l’accès avec le contexte utilisateur](exposed-apis-create-app-nativeapp.md)
 ###### [Obtenir l’accès de l’application partenaire](exposed-apis-create-app-partners.md)
 
 
-##### [Schéma de l’API Microsoft Defender pour point de terminaison]()
-###### [API prises en charge Microsoft Defender pour point de terminaison](exposed-apis-list.md).
+##### [Schéma de l’API Microsoft Defender pour point de terminaison]()
+###### [API prises en charge Microsoft Defender pour point de terminaison](exposed-apis-list.md)
 ###### [Codes d’erreur courants de l’API REST](common-errors.md)
 ###### [Repérage avancé](run-advanced-query-api.md)
 
@@ -661,7 +661,7 @@
 
 ### [Ressources utiles](helpful-resources.md)
 
-### [Résoudre des problèmes avec Microsoft Defender pour point de terminaison]()
+### [Résoudre des problèmes avec Microsoft Defender pour point de terminaison]()
 #### [Résoudre des problèmes avec l’état du capteur]()
 ##### [Vérifier l’état du capteur](check-sensor-status.md)
 ##### [Corriger les capteurs défectueux](fix-unhealthy-sensors.md)
@@ -669,9 +669,9 @@
 ##### [Appareils mal configurés](fix-unhealthy-sensors.md#misconfigured-devices)
 ##### [Évaluer les erreurs et événements du capteur sur des ordinateurs avec Event Viewer](event-error-codes.md)
   
-#### [Résoudre des problèmes de service avec Microsoft Defender pour point de terminaison]()
+#### [Résoudre des problèmes de service avec Microsoft Defender pour point de terminaison]()
 ##### [Résoudre des problèmes de service](troubleshoot-mdatp.md)
-##### [Vérifier l’état du service](service-status.md).
+##### [Vérifier l’état du service](service-status.md)
 ##### [Contacter le support Microsoft Defender pour point de terminaison](contact-support.md)
 
 #### [Résoudre des problèmes de réponse en direct](troubleshoot-live-response.md)
