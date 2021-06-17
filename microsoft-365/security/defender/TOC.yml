@@ -164,6 +164,8 @@
                   href: advanced-hunting-query-emails-devices.md
                 - name: Repérer des menaces de ransomware
                   href: advanced-hunting-find-ransomware.md
+                - name: Exemple de repérage avancé
+                  href: advanced-hunting-example.md
                 - name: Transition à partir de Microsoft Defender pour point de terminaison
                   href: advanced-hunting-migrate-from-mde.md
             - name: Travailler avec les résultats de la requête
