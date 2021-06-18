@@ -255,7 +255,7 @@
           href: manage/pin-apps-to-app-launcher.md
         - name: Mettre à niveau les utilisateurs vers les applications les plus récentes
           href: setup/upgrade-users-to-latest-office-client.md
-        - name: Tester et déployer les applications Microsoft 365 dans le Centre d’administration Microsoft 365
+        - name: Applications intégrées
           href: manage/test-and-deploy-microsoft-365-apps.md
         - name: Déploiement centralisé des compléments
           items:

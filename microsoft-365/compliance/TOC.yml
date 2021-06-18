@@ -1,11 +1,11 @@
 - name: Conformité Microsoft 365
   href: index.yml
+- name: Nouveautés dans la conformité Microsoft 365
+  href: whats-new.md
 - name: Prise en main
   items:
     - name: Tâches rapides pour la prise en main de la conformité
       href: compliance-quick-tasks.md
-    - name: Nouveautés dans la conformité Microsoft 365
-      href: whats-new.md
     - name: Catalogue de solutions Microsoft 365
       href: microsoft-365-solution-catalog.md
     - name: Centre de conformité Microsoft 365

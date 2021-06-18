@@ -328,6 +328,8 @@
                       href: streaming-api-event-hub.md
                     - name: Événements de repérage avancé Stream vers votre compte de stockage
                       href: streaming-api-storage.md
+                    - name: Configurer votre hub d’événements
+                      href: configure-event-hub.md
                 - name: API de recherche avancée de menaces
                   href: api-advanced-hunting.md
                 - name: API d’incidents

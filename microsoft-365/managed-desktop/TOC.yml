@@ -34,6 +34,8 @@
           href: service-description/device-services.md
         - name: Profils d’appareil
           href: service-description/profiles.md
+        - name: Groupes de déploiement d’appareils
+          href: service-description/deployment-groups.md
         - name: Configuration des appareils
           href: service-description/device-policies.md
         - name: Technologies de sécurité
@@ -157,6 +159,8 @@
           href: working-with-managed-desktop/work-with-app-control.md
         - name: Modifier un profil d’appareil
           href: working-with-managed-desktop/change-device-profile.md
+        - name: Affecter des appareils au déploiement
+          href: working-with-managed-desktop/assign-deployment-group.md
         - name: Supprimer des appareils
           href: working-with-managed-desktop/remove-devices.md
         - name: Paramètres configurables
