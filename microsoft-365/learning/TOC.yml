@@ -1,14 +1,14 @@
-- name: Microsoft Learning (prévisualisation)
+- name: Formations Microsoft Viva (préversion)
   href: index.md
-- name: Commencer à travailler avec Learning (prévisualisation)
+- name: Démarrage avec Formations Microsoft Viva (préversion)
   items:
-    - name: Vue d'ensemble d'Learning (prévisualisation)
+    - name: Vue d’ensemble de Formations Microsoft Viva (préversion)
       href: overview-viva-learning.md
 - name: Configuration et administration
   items:
-    - name: Configurer dans le Centre d'administration Teams de gestion
+    - name: Configurer dans le Centre d’administration Teams
       href: set-up-teams-admin-center.md
-    - name: Configurer les sources de contenu d'apprentissage
+    - name: Configurer des sources de contenu d’apprentissage
       href: content-sources-365-admin-center.md
     - name: Configurer SharePoint comme source de contenu
       href: configure-sharepoint-content-source.md
