@@ -530,6 +530,8 @@
 ####### [Rechercher des ordinateurs par balise](find-machines-by-tag.md)
 ####### [Obtenir des Ko manquants](get-missing-kbs-machine.md)
 ####### [Définir la valeur de l’appareil](set-device-value.md)
+####### [Mettre à jour l’ordinateur](update-machine-method.md)
+
 
 
 ###### [Action de l’ordinateur]()
