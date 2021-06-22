@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Microsoft 365 Defender
-summary: Découvrez les solutions de sécurité robustes de Microsoft 365 Defender afin de mieux protéger votre entreprise sur les surfaces d’attaque.
+summary: Découvrez les solutions de sécurité robustes dans Microsoft 365 Defender afin de mieux protéger votre entreprise sur les surfaces d’attaque.
 metadata:
-  title: Microsoft 365 Documentation defender
-  description: Découvrez les solutions de sécurité robustes de Microsoft 365 Defender afin de mieux protéger votre entreprise sur les surfaces d’attaque.
+  title: Microsoft 365 Defender documentation
+  description: Découvrez les solutions de sécurité robustes dans Microsoft 365 Defender afin de mieux protéger votre entreprise sur les surfaces d’attaque.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -13,22 +13,24 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 68909caf8844b5ea4d20029a04d1b7d81ca25e66
-  ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+  ms.openlocfilehash: d4fa7ecef5bb132ca23084b5f46af230a3d181aa
+  ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 06/10/2021
-  ms.locfileid: "52878447"
+  ms.lasthandoff: 06/22/2021
+  ms.locfileid: "53053130"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
   - linkListType: overview
     links:
     - text: Qu’est-ce que Microsoft 365 Defender ?
-      url: ../defender/microsoft-365-defender.md
+      url: microsoft-365-defender.md
+    - text: Vue d’ensemble Microsoft 365 Defender
+      url: overview-security-center.md
   - linkListType: whats-new
     links:
-    - text: Nouveautés de Microsoft 365 Defender
+    - text: Nouveautés de la Microsoft 365 Defender
       url: ../defender/whats-new.md
   - linkListType: video
     links:
@@ -50,7 +52,7 @@ landingContent:
       url: get-started.md
   - linkListType: deploy
     links:
-    - text: Activer Microsoft 365 Defender
+    - text: Activer Microsoft 365 Defender
       url: m365d-enable.md
     - text: Déployer les services pris en charge
       url: deploy-supported-services.md
@@ -80,20 +82,10 @@ landingContent:
     links:
     - text: Qu’est-ce que Microsoft Defender pour point de terminaison ?
       url: ../defender-endpoint/microsoft-defender-endpoint.md
-    - text: Defender pour le point de terminaison dans Microsoft 365 Defender
+    - text: Defender pour Point de terminaison dans Microsoft 365 Defender
       url: microsoft-365-security-center-mde.md
     - text: Redirection de Defender pour le point de terminaison dans Microsoft 365 Defender
       url: ../defender/microsoft-365-security-mde-redirection.md
-- title: Centre de sécurité Microsoft 365
-  linkLists:
-  - linkListType: overview
-    links:
-    - text: Présentation du Centre de sécurité Microsoft 365
-      url: overview-security-center.md
-    - text: Microsoft Defender pour le point de terminaison dans le centre Microsoft 365 sécurité
-      url: microsoft-365-security-center-mde.md
-    - text: Microsoft Defender pour Office 365 dans le centre de sécurité Microsoft 365
-      url: ../defender/microsoft-365-security-center-mdo.md
 - title: Microsoft Cloud App Security
   linkLists:
   - linkListType: overview
@@ -108,9 +100,9 @@ landingContent:
     links:
     - text: Enquêter sur des incidents
       url: investigate-incidents.md
-    - text: Suivre les menaces émergentes et y répondre
+    - text: Suivre et répondre aux menaces émergentes
       url: threat-analytics.md
-    - text: Enquêtes et réponses automatisées
+    - text: Examen et réponse automatisés
       url: m365d-autoir.md
     - text: Recherche des menaces
       url: advanced-hunting-overview.md
@@ -118,5 +110,5 @@ landingContent:
   linkLists:
   - linkListType: reference
     links:
-    - text: Microsoft 365 API Defender (prévisualisation)
+    - text: Microsoft 365 Defender API (aperçu)
       url: api-overview.md

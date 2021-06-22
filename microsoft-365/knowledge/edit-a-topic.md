@@ -1,8 +1,7 @@
 ---
-title: 'Modifier une rubrique existante dans les rubriques microsoft '
-description: Modification d’une rubrique existante dans Microsoft Topics.
-author: efrene
-ms.author: efrene
+title: Modifier une rubrique existante dans les rubriques microsoft
+author: chuckedmonson
+ms.author: chucked
 manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
@@ -14,14 +13,15 @@ ms.collection:
 - m365initiative-viva-topics
 ms.service: ''
 localization_priority: Normal
-ms.openlocfilehash: 23c870826261a85aee23af82bb177825f55f4eb2
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+description: Découvrez comment modifier une rubrique existante dans Microsoft Topics.
+ms.openlocfilehash: 6e1f85737298736a3aafcb30cfe103c28654d1c1
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165392"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053204"
 ---
-# <a name="edit-an-existing-topic-in-microsoft-viva-topics"></a><span data-ttu-id="e47e7-103">Modifier une rubrique existante dans les rubriques microsoft</span><span class="sxs-lookup"><span data-stu-id="e47e7-103">Edit an existing topic in Microsoft Viva Topics</span></span> 
+# <a name="edit-an-existing-topic-in-microsoft-viva-topics"></a><span data-ttu-id="d79c9-103">Modifier une rubrique existante dans les rubriques microsoft</span><span class="sxs-lookup"><span data-stu-id="d79c9-103">Edit an existing topic in Microsoft Viva Topics</span></span> 
 
 </br>
 
@@ -29,107 +29,125 @@ ms.locfileid: "51165392"
 
 </br>
 
-<span data-ttu-id="e47e7-104">Dans Rubriques de Rubriques, vous pouvez modifier une rubrique existante.</span><span class="sxs-lookup"><span data-stu-id="e47e7-104">In Viva Topics, you can edit an existing topic.</span></span> <span data-ttu-id="e47e7-105">Vous devrez peut-être le faire si vous souhaitez corriger ou ajouter des informations supplémentaires à une page de rubrique existante.</span><span class="sxs-lookup"><span data-stu-id="e47e7-105">You may need to do this if you want to correct or add additional information to an existing topic page.</span></span> 
+<span data-ttu-id="d79c9-104">Dans Rubriques de Rubriques, vous pouvez modifier une rubrique existante.</span><span class="sxs-lookup"><span data-stu-id="d79c9-104">In Viva Topics, you can edit an existing topic.</span></span> <span data-ttu-id="d79c9-105">Vous devrez peut-être le faire si vous souhaitez corriger ou ajouter des informations supplémentaires à une page de rubrique existante.</span><span class="sxs-lookup"><span data-stu-id="d79c9-105">You might need to do this if you want to correct or add additional information to an existing topic page.</span></span> 
 
 > [!Note] 
-> <span data-ttu-id="e47e7-106">Alors que les informations d’une rubrique qui sont rassemblées par l’IA sont découpées en matière de [sécurité,](topic-experiences-security-trimming.md)notez que la description de la rubrique et les informations de personnes que vous ajoutez manuellement lors de la modification d’une rubrique existante sont visibles pour tous les utilisateurs qui sont autorisés à afficher des rubriques.</span><span class="sxs-lookup"><span data-stu-id="e47e7-106">While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), note that topic description and people information that you manually add when editing an existing topic is visible to all users who have permissions to view topics.</span></span> 
+> <span data-ttu-id="d79c9-106">Alors que les informations d’une rubrique qui sont rassemblées par l’IA sont découpées en matière de [sécurité,](topic-experiences-security-trimming.md)la description de la rubrique et les informations de personnes que vous ajoutez manuellement lors de la modification d’une rubrique existante sont visibles pour tous les utilisateurs qui ont l’autorisation d’afficher les rubriques.</span><span class="sxs-lookup"><span data-stu-id="d79c9-106">While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), the topic description and people information that you manually add when editing an existing topic is visible to all users who have permissions to view topics.</span></span> 
 
-## <a name="requirements"></a><span data-ttu-id="e47e7-107">Conditions requises</span><span class="sxs-lookup"><span data-stu-id="e47e7-107">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="d79c9-107">Conditions requises</span><span class="sxs-lookup"><span data-stu-id="d79c9-107">Requirements</span></span>
 
-<span data-ttu-id="e47e7-108">Pour modifier une rubrique existante, vous devez :</span><span class="sxs-lookup"><span data-stu-id="e47e7-108">To edit an existing topic, you need to:</span></span>
-- <span data-ttu-id="e47e7-109">avoir une licence Rubriques Viva.</span><span class="sxs-lookup"><span data-stu-id="e47e7-109">Have a Viva Topics license.</span></span>
-- <span data-ttu-id="e47e7-110">Avoir des autorisations [**pour Qui pouvez créer ou modifier des rubriques.**](./topic-experiences-user-permissions.md)</span><span class="sxs-lookup"><span data-stu-id="e47e7-110">Have permissions to [**Who can create or edit topics**](./topic-experiences-user-permissions.md).</span></span> <span data-ttu-id="e47e7-111">Les administrateurs d'informations peuvent accorder cette autorisation aux utilisateurs dans les paramètres d'autorisation Rubriques Viva.</span><span class="sxs-lookup"><span data-stu-id="e47e7-111">Knowledge admins can give users this permission in the Viva Topics topic permissions settings.</span></span> 
+<span data-ttu-id="d79c9-108">Pour modifier une rubrique existante, vous devez :</span><span class="sxs-lookup"><span data-stu-id="d79c9-108">To edit an existing topic, you need to:</span></span>
+- <span data-ttu-id="d79c9-109">avoir une licence Rubriques Viva.</span><span class="sxs-lookup"><span data-stu-id="d79c9-109">Have a Viva Topics license.</span></span>
+- <span data-ttu-id="d79c9-110">Avoir des autorisations pour [créer ou modifier des rubriques.](./topic-experiences-user-permissions.md)</span><span class="sxs-lookup"><span data-stu-id="d79c9-110">Have permissions to [create or edit topics](./topic-experiences-user-permissions.md).</span></span> <span data-ttu-id="d79c9-111">Les administrateurs d'informations peuvent accorder cette autorisation aux utilisateurs dans les paramètres d'autorisation Rubriques Viva.</span><span class="sxs-lookup"><span data-stu-id="d79c9-111">Knowledge admins can give users this permission in the Viva Topics topic permissions settings.</span></span> 
 
 > [!Note] 
-> <span data-ttu-id="e47e7-112">Les utilisateurs qui sont autorisés à gérer des rubriques dans le centre de rubriques (gestionnaires de connaissances) sont déjà autorisés à créer et modifier des rubriques.</span><span class="sxs-lookup"><span data-stu-id="e47e7-112">Users who have permission to manage topics in the Topic center (knowledge managers) already have permissions to create and edit topics.</span></span>
+> <span data-ttu-id="d79c9-112">Les utilisateurs qui sont autorisés à gérer des rubriques dans le centre de rubriques (gestionnaires de connaissances) sont déjà autorisés à créer et modifier des rubriques.</span><span class="sxs-lookup"><span data-stu-id="d79c9-112">Users who have permission to manage topics in the topic center (knowledge managers) already have permissions to create and edit topics.</span></span>
 
-## <a name="how-to-edit-a-topic-page"></a><span data-ttu-id="e47e7-113">Comment modifier une page de rubrique</span><span class="sxs-lookup"><span data-stu-id="e47e7-113">How to edit a topic page</span></span>
+## <a name="how-to-edit-a-topic-page"></a><span data-ttu-id="d79c9-113">Comment modifier une page de rubrique</span><span class="sxs-lookup"><span data-stu-id="d79c9-113">How to edit a topic page</span></span>
 
-<span data-ttu-id="e47e7-114">Les utilisateurs qui ont l’autorisation Qui peuvent créer ou modifier des **rubriques** en ouvrant une <b></b> page de rubrique à partir d’une rubrique mise en surbrillation, puis en sélectionnant le bouton Modifier en haut à droite de la page de rubrique.</span><span class="sxs-lookup"><span data-stu-id="e47e7-114">Users who have the **Who can create or edit topics** permission can edit a topic by opening the topic page from a topic highlight, and then selecting the <b>Edit</b> button on the top right of the topic page.</span></span> <span data-ttu-id="e47e7-115">La page de rubrique peut également être ouverte à partir de la page d’accueil du centre de rubriques où vous pouvez trouver toutes les rubriques à laquelle vous êtes en relation.</span><span class="sxs-lookup"><span data-stu-id="e47e7-115">The topic page can also be opened from the topic center home page where you can find all the topics that you have a connection to.</span></span>
+<span data-ttu-id="d79c9-114">Les utilisateurs qui ont l’autorisation Qui peuvent créer ou modifier des *rubriques* en ouvrant une  page de rubrique à partir d’une rubrique mise en surbrillation, puis en sélectionnant le bouton Modifier en haut à droite de la page de rubrique.</span><span class="sxs-lookup"><span data-stu-id="d79c9-114">Users who have the *Who can create or edit topics* permission can edit a topic by opening the topic page from a topic highlight, and then selecting the **Edit** button on the top right of the topic page.</span></span> <span data-ttu-id="d79c9-115">La page de rubrique peut également être ouverte à partir de la page d’accueil du centre de rubriques où vous pouvez trouver toutes les rubriques à laquelle vous êtes en relation.</span><span class="sxs-lookup"><span data-stu-id="d79c9-115">The topic page can also be opened from the topic center home page where you can find all the topics that you have a connection to.</span></span>
 
-   ![Bouton Modifier](../media/knowledge-management/edit-button.png) </br> 
+   ![Capture d’écran montrant le bouton Modifier.](../media/knowledge-management/edit-button.png) </br> 
 
-<span data-ttu-id="e47e7-117">Les gestionnaires de connaissances peuvent également modifier des rubriques directement à partir <b></b> de la page Gérer les rubriques en sélectionnant la rubrique, puis en sélectionnant Modifier dans la barre d’outils.</span><span class="sxs-lookup"><span data-stu-id="e47e7-117">Knowledge managers can also edit topics directly from the Manage Topics page by selecting the topic, and then selecting <b>Edit</b> in the toolbar.</span></span>
+<span data-ttu-id="d79c9-117">Les gestionnaires de connaissances peuvent également modifier des rubriques directement à partir  de la page Gérer les **rubriques** en sélectionnant la rubrique, puis en sélectionnant Modifier dans la barre d’outils.</span><span class="sxs-lookup"><span data-stu-id="d79c9-117">Knowledge managers can also edit topics directly from the **Manage topics** page by selecting the topic, and then selecting **Edit** in the toolbar.</span></span>
 
-   ![Modifier la rubrique dans Gérer les rubriques](../media/knowledge-management/manage-topics-edit.png) </br> 
+   ![Capture d’écran montrant la rubrique Modifier sur la page Gérer les rubriques.](../media/knowledge-management/manage-topics-edit.png)
 
-### <a name="to-edit-a-topic-page"></a><span data-ttu-id="e47e7-119">Pour modifier une page de rubrique</span><span class="sxs-lookup"><span data-stu-id="e47e7-119">To edit a topic page</span></span>
+### <a name="to-edit-a-topic-page"></a><span data-ttu-id="d79c9-119">Pour modifier une page de rubrique</span><span class="sxs-lookup"><span data-stu-id="d79c9-119">To edit a topic page</span></span>
 
-1. <span data-ttu-id="e47e7-120">Dans la page de rubrique, sélectionnez **Modifier.**</span><span class="sxs-lookup"><span data-stu-id="e47e7-120">On the topic page, select **Edit**.</span></span> <span data-ttu-id="e47e7-121">Cela vous permet d’apporter des modifications à la page thématique si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="e47e7-121">This lets you make changes as needed to the topic page.</span></span>
+1. <span data-ttu-id="d79c9-120">Dans la page de rubrique, sélectionnez **Modifier.**</span><span class="sxs-lookup"><span data-stu-id="d79c9-120">On the topic page, select **Edit**.</span></span> <span data-ttu-id="d79c9-121">Cela vous permet d’apporter des modifications à la page thématique si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="d79c9-121">This lets you make changes as needed to the topic page.</span></span>
 
-   ![Contrôle d’édition](../media/knowledge-management/topic-page-edit.png) </br>  
+   ![Capture d’écran montrant le bouton Modifier sur la page de rubrique.](../media/knowledge-management/topic-page-edit.png)  
 
 
-2. <span data-ttu-id="e47e7-123">Dans la section <b>Autres noms</b>, tapez les autres noms que vous pourriez faire référence à la rubrique.</span><span class="sxs-lookup"><span data-stu-id="e47e7-123">In the <b>Alternate Names</b> section, type any other names that the topic might be referred to.</span></span> 
+2. <span data-ttu-id="d79c9-123">Dans la section **Autres noms,** tapez les autres noms que la rubrique peut faire référence.</span><span class="sxs-lookup"><span data-stu-id="d79c9-123">In the **Alternate names** section, type any other names that the topic might be referred to.</span></span> 
 
-    ![Autres noms](../media/knowledge-management/alt-names.png) </br> 
-3. <span data-ttu-id="e47e7-125">Dans la section<b>Description</b> , tapez quelques phrases qui décrivent la rubrique.</span><span class="sxs-lookup"><span data-stu-id="e47e7-125">In the <b>Description</b> section, type a couple of sentences that describes the topic.</span></span> <span data-ttu-id="e47e7-126">Si une description existe déjà, mettez-la à jour si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="e47e7-126">Or if a description already exists, update it if needed.</span></span>
+    ![Capture d’écran montrant la section Autres noms.](../media/knowledge-management/alt-names.png)
 
-    ![Section Description](../media/knowledge-management/description.png)</br>
+3. <span data-ttu-id="d79c9-125">Dans la section **Description** , tapez quelques phrases qui décrivent la rubrique.</span><span class="sxs-lookup"><span data-stu-id="d79c9-125">In the **Description** section, type a couple of sentences that describes the topic.</span></span> <span data-ttu-id="d79c9-126">Si une description existe déjà, mettez-la à jour si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="d79c9-126">Or if a description already exists, update it if needed.</span></span>
 
-4. <span data-ttu-id="e47e7-128">Dans la section <b>Contacts épinglés</b>, vous pouvez « épingler » une personne pour l’afficher comme ayant une connexion à la rubrique (par exemple, le propriétaire d’une ressource connectée).</span><span class="sxs-lookup"><span data-stu-id="e47e7-128">In the <b>Pinned people</b> section, you can "pin" a person to show them as having a connection the topic (for example, an owner of a connected resource).</span></span> <span data-ttu-id="e47e7-129">Commencez par taper son nom ou <b></b> son adresse de messagerie dans la zone Ajouter un nouvel utilisateur, puis sélectionnez l’utilisateur à ajouter dans les résultats de la recherche.</span><span class="sxs-lookup"><span data-stu-id="e47e7-129">Begin by typing their name or email address in the <b>Add a new user</b> box, and then selecting the user you want to add from the search results.</span></span> <span data-ttu-id="e47e7-130">Vous pouvez également les « désépiner » en sélectionnant l’icône Supprimer <b>de</b> la liste sur la carte utilisateur.</span><span class="sxs-lookup"><span data-stu-id="e47e7-130">You can also "unpin" them by selecting the <b>Remove from list</b> icon on the user card.</span></span>
+    ![Capture d’écran montrant la section Description.](../media/knowledge-management/description.png)</br>
+
+4. <span data-ttu-id="d79c9-128">Dans la section **Contacts épinglés**, vous pouvez « épingler » une personne pour l’afficher comme ayant une connexion à la rubrique (par exemple, le propriétaire d’une ressource connectée).</span><span class="sxs-lookup"><span data-stu-id="d79c9-128">In the **Pinned people** section, you can "pin" a person to show them as having a connection the topic (for example, an owner of a connected resource).</span></span> <span data-ttu-id="d79c9-129">Commencez par taper son nom ou  son adresse de messagerie dans la zone Ajouter un nouvel utilisateur, puis sélectionnez l’utilisateur à ajouter dans les résultats de la recherche.</span><span class="sxs-lookup"><span data-stu-id="d79c9-129">Begin by typing their name or email address in the **Add a new user** box, and then selecting the user you want to add from the search results.</span></span> <span data-ttu-id="d79c9-130">Vous pouvez également les « désépiner » en sélectionnant l’icône Supprimer **de** la liste sur la carte utilisateur.</span><span class="sxs-lookup"><span data-stu-id="d79c9-130">You can also "unpin" them by selecting the **Remove from list** icon on the user card.</span></span>
  
-    ![Ajouter des personnes épinglées](../media/knowledge-management/pinned-people.png)</br>
+    ![Capture d’écran montrant la section Ajouter des personnes épinglées.](../media/knowledge-management/pinned-people.png)</br>
 
-    <span data-ttu-id="e47e7-132">La section <b>Contacts suggérés</b> montre les utilisateurs que l'IA pense être en rapport avec la rubrique à partir de leur connexion à des ressources sur la rubrique.</span><span class="sxs-lookup"><span data-stu-id="e47e7-132">The <b>Suggested people</b> section shows users that AI thinks might be connected to the topic from their connection to resources about the topic.</span></span> <span data-ttu-id="e47e7-133">Vous pouvez modifier leur état de Suggéré en Épinglé en sélectionnant l’icône en forme d’épingle sur la carte utilisateur.</span><span class="sxs-lookup"><span data-stu-id="e47e7-133">You can change their status from Suggested to Pinned by selecting the pin icon on the user card.</span></span>
+    <span data-ttu-id="d79c9-132">La section **Contacts suggérés** montre les utilisateurs que l'IA pense être en rapport avec la rubrique à partir de leur connexion à des ressources sur la rubrique.</span><span class="sxs-lookup"><span data-stu-id="d79c9-132">The **Suggested people** section shows users that AI thinks might be connected to the topic from their connection to resources about the topic.</span></span> <span data-ttu-id="d79c9-133">Vous pouvez modifier leur état de Suggéré en Épinglé en sélectionnant l’icône en forme d’épingle sur la carte utilisateur.</span><span class="sxs-lookup"><span data-stu-id="d79c9-133">You can change their status from Suggested to Pinned by selecting the pin icon on the user card.</span></span>
 
-   ![Épingler une personne suggérée](../media/knowledge-management/suggested-people.png)</br>
+   ![Capture d’écran montrant l’épinglage de personnes suggérées.](../media/knowledge-management/suggested-people.png)
 
-5. <span data-ttu-id="e47e7-135">Dans la section <b>Fichiers et pages épinglés</b>, vous pouvez ajouter ou « épingler » un fichier ou une page de site SharePoint associé à la rubrique.</span><span class="sxs-lookup"><span data-stu-id="e47e7-135">In the <b>Pinned files and pages</b> section, you can add or "pin" a file or SharePoint site page that is associated to the topic.</span></span>
+5. <span data-ttu-id="d79c9-135">Dans la section **Fichiers et pages épinglés**, vous pouvez ajouter ou « épingler » un fichier ou une page de site SharePoint associé à la rubrique.</span><span class="sxs-lookup"><span data-stu-id="d79c9-135">In the **Pinned files and pages** section, you can add or "pin" a file or SharePoint site page that is associated to the topic.</span></span>
 
-   ![Section Fichiers et pages épinglés](../media/knowledge-management/pinned-files-and-pages.png)</br>
+   ![Capture d’écran montrant la section Des fichiers et des pages épinglés.](../media/knowledge-management/pinned-files-and-pages.png)
  
-    <span data-ttu-id="e47e7-137">Pour ajouter un nouveau <b></b>fichier, sélectionnez Ajouter, sélectionnez le site SharePoint à partir de vos sites fréquents ou suivis, puis sélectionnez le fichier dans la bibliothèque de documents du site.</span><span class="sxs-lookup"><span data-stu-id="e47e7-137">To add a new file, select <b>Add</b>, select the SharePoint site from your Frequent or Followed sites, and then select the file from the site's document library.</span></span>
+    <span data-ttu-id="d79c9-137">Pour ajouter un nouveau fichier, sélectionnez Ajouter, sélectionnez le site SharePoint à partir de vos sites fréquents ou suivis, puis sélectionnez le fichier dans la bibliothèque de documents du site.</span><span class="sxs-lookup"><span data-stu-id="d79c9-137">To add a new file, select **Add**, select the SharePoint site from your Frequent or Followed sites, and then select the file from the site's document library.</span></span>
 
-    <span data-ttu-id="e47e7-138">Vous pouvez également utiliser l'option <b>À partir d'un lien</b> pour ajouter un fichier ou une page en fournissant l'URL.</span><span class="sxs-lookup"><span data-stu-id="e47e7-138">You can also use the <b>From a link</b> option to add a file or page by providing the URL.</span></span> 
+    <span data-ttu-id="d79c9-138">Vous pouvez également utiliser l'option **À partir d'un lien** pour ajouter un fichier ou une page en fournissant l'URL.</span><span class="sxs-lookup"><span data-stu-id="d79c9-138">You can also use the **From a link** option to add a file or page by providing the URL.</span></span> 
 
    > [!Note] 
-   > <span data-ttu-id="e47e7-139">Les fichiers et les pages que vous ajoutez doivent se trouver dans le même Microsoft 365 client.</span><span class="sxs-lookup"><span data-stu-id="e47e7-139">Files and pages that you add must be located within the same Microsoft 365 tenant.</span></span> <span data-ttu-id="e47e7-140">Si vous souhaitez ajouter un lien vers une ressource externe dans la rubrique, vous pouvez l’ajouter via l’icône de zone de dessin à l’étape 9.</span><span class="sxs-lookup"><span data-stu-id="e47e7-140">If you want to add a link to an external resource in the topic, you can add it through the canvas icon in step 9.</span></span>
+   > <span data-ttu-id="d79c9-139">Les fichiers et les pages que vous ajoutez doivent se trouver dans le même Microsoft 365 client.</span><span class="sxs-lookup"><span data-stu-id="d79c9-139">Files and pages that you add must be located within the same Microsoft 365 tenant.</span></span> <span data-ttu-id="d79c9-140">Si vous souhaitez ajouter un lien vers une ressource externe dans la rubrique, vous pouvez l’ajouter via l’icône de zone de dessin à l’étape 9.</span><span class="sxs-lookup"><span data-stu-id="d79c9-140">If you want to add a link to an external resource in the topic, you can add it through the canvas icon in step 9.</span></span>
 
-6. <span data-ttu-id="e47e7-141">La section <b>Fichiers suggérés et pages</b> affiche les fichiers et les pages que l’IA suggère d’associer à la rubrique.</span><span class="sxs-lookup"><span data-stu-id="e47e7-141">The <b>Suggested files and pages</b> section shows files and pages that AI suggests to be associated to the topic.</span></span>
+6. <span data-ttu-id="d79c9-141">La section **Fichiers suggérés et pages** affiche les fichiers et les pages que l’IA suggère d’associer à la rubrique.</span><span class="sxs-lookup"><span data-stu-id="d79c9-141">The **Suggested files and pages** section shows files and pages that AI suggests to be associated to the topic.</span></span>
 
-   ![Section Fichiers et pages suggérés](../media/knowledge-management/suggested-files-and-pages.png)</br>
+   ![Capture d’écran montrant la section Fichiers et pages suggérés.](../media/knowledge-management/suggested-files-and-pages.png)
 
-    <span data-ttu-id="e47e7-143">Vous pouvez modifier un fichier ou une page suggérés en fichier ou page épinglé en sélectionnant l’icône épinglée.</span><span class="sxs-lookup"><span data-stu-id="e47e7-143">You can change a suggested file or page to a pinned file or page by selecting the pinned icon.</span></span>
+    <span data-ttu-id="d79c9-143">Vous pouvez modifier un fichier ou une page suggérés en fichier ou page épinglé en sélectionnant l’icône épinglée.</span><span class="sxs-lookup"><span data-stu-id="d79c9-143">You can change a suggested file or page to a pinned file or page by selecting the pinned icon.</span></span>
 
-7.  <span data-ttu-id="e47e7-144">La section <b>Sites connexes</b> sites qui ont des informations sur la rubrique.</span><span class="sxs-lookup"><span data-stu-id="e47e7-144">The <b>Related sites</b> section shows sites that have information about the topic.</span></span> 
+7.  <span data-ttu-id="d79c9-144">Dans la section **Sites épinglés,** vous pouvez ajouter ou « épingler » un site associé à la rubrique.</span><span class="sxs-lookup"><span data-stu-id="d79c9-144">In the **Pinned sites** section, you can add or “pin” a site that is associated to the topic.</span></span> 
 
-    ![Section Sites associés](../media/knowledge-management/related-sites.png)</br>
+    ![Capture d’écran montrant la section Sites épinglés.](../media/knowledge-management/pinned-sites-section.png)
 
-    <span data-ttu-id="e47e7-146">Vous pouvez ajouter un site <b></b> associé en sélectionnant Ajouter, puis en recherchant le site, ou en le sélectionnant dans votre liste de sites fréquents ou récents.</span><span class="sxs-lookup"><span data-stu-id="e47e7-146">You can add a related site by selecting <b>Add</b> and then either searching for the site, or selecting it from your list of Frequent or Recent sites.</span></span></br>
+    <span data-ttu-id="d79c9-146">Pour ajouter un nouveau  site, sélectionnez Ajouter, puis recherchez le site, ou sélectionnez-le dans votre liste de sites fréquents ou récents.</span><span class="sxs-lookup"><span data-stu-id="d79c9-146">To add a new site, select **Add** and then either search for the site, or select it from your list of Frequent or Recent sites.</span></span>
     
-    ![Sélection d’un site](../media/knowledge-management/sites.png)</br>
+    ![Capture d’écran montrant ajouter ou supprimer une section de site épinglée.](../media/knowledge-management/add-or-remove-pinned-sites.png)
 
-8. <span data-ttu-id="e47e7-148">La <b>section Rubriques connexes</b> présente les connexions qui existent entre les rubriques.</span><span class="sxs-lookup"><span data-stu-id="e47e7-148">The <b>Related topics</b> section shows connections that exists between topics.</span></span> <span data-ttu-id="e47e7-149">Vous pouvez ajouter une connexion à une autre rubrique en sélectionnant le <b>Connecter</b> à un bouton de rubrique associé, puis en tapant le nom de la rubrique associée et en le sélectionnant dans les résultats de la recherche.</span><span class="sxs-lookup"><span data-stu-id="e47e7-149">You can add a connection to a different topic by selecting the <b>Connect to a related topic</b> button, and then typing the name of the related topic, and selecting it from the search results.</span></span> 
+8. <span data-ttu-id="d79c9-148">La section **Sites suggérés** présente les sites que l’IA suggère d’associer à la rubrique.</span><span class="sxs-lookup"><span data-stu-id="d79c9-148">The **Suggested sites** section shows the sites that AI suggests to be associated to the topic.</span></span> 
 
-   ![Section Rubriques connexes](../media/knowledge-management/related-topic.png)</br>  
+   ![Capture d’écran de la section Sites suggérés](../media/knowledge-management/suggested-sites-section.png)  
 
-    <span data-ttu-id="e47e7-151">Vous pouvez ensuite donner une description de la façon dont les rubriques sont liées, puis sélectionner <b>Mettre à jour.</b></span><span class="sxs-lookup"><span data-stu-id="e47e7-151">You can then give a description of how the topics are related, and select <b>Update</b>.</span></span></br>
+    <span data-ttu-id="d79c9-150">Vous pouvez modifier un site suggéré en site épinglé en sélectionnant l’icône épinglée.</span><span class="sxs-lookup"><span data-stu-id="d79c9-150">You can change a suggested site to a pinned site by selecting the pinned icon.</span></span>
 
-   ![Description des rubriques connexes](../media/knowledge-management/related-topics-update.png)</br> 
 
-   <span data-ttu-id="e47e7-153">La rubrique connexe que vous avez ajoutée s’affiche sous la nom d’une rubrique connectée.</span><span class="sxs-lookup"><span data-stu-id="e47e7-153">The related topic you added will display as a connected topic.</span></span>
+<!---
 
-   ![Rubriques connexes connectées](../media/knowledge-management/related-topics-final.png)</br> 
+7.  The <b>Related sites</b> section shows sites that have information about the topic. 
 
-   <span data-ttu-id="e47e7-155">Pour supprimer une rubrique associée, sélectionnez la rubrique à supprimer, puis sélectionnez l’icône Supprimer <b>la rubrique.</b></span><span class="sxs-lookup"><span data-stu-id="e47e7-155">To remove a related topic, select the topic you want to remove, then select the <b>Remove topic</b> icon.</span></span></br>
+    ![Related sites section](../media/knowledge-management/related-sites.png)</br>
+
+    You can add a related site by selecting <b>Add</b> and then either searching for the site, or selecting it from your list of Frequent or Recent sites.</br>
+    
+    ![Select a site](../media/knowledge-management/sites.png)</br>
+
+8. The <b>Related topics</b> section shows connections that exists between topics. You can add a connection to a different topic by selecting the <b>Connect to a related topic</b> button, and then typing the name of the related topic, and selecting it from the search results. 
+
+   ![Related topics section](../media/knowledge-management/related-topic.png)</br>  
+
+    You can then give a description of how the topics are related, and select <b>Update</b>.</br>
+
+   ![Related topics description](../media/knowledge-management/related-topics-update.png)</br> 
+
+   The related topic you added will display as a connected topic.
+
+   ![Related topics connected](../media/knowledge-management/related-topics-final.png)</br> 
+
+   To remove a related topic, select the topic you want to remove, then select the <b>Remove topic</b> icon.</br>
  
-   ![Supprimer une rubrique connexe](../media/knowledge-management/remove-related.png)</br>  
+   ![Remove related topic](../media/knowledge-management/remove-related.png)</br>  
 
-   <span data-ttu-id="e47e7-157">Ensuite, <b>sélectionnez Supprimer.</b></span><span class="sxs-lookup"><span data-stu-id="e47e7-157">Then select <b>Remove</b>.</span></span></br>
+   Then select <b>Remove</b>.</br>
 
-   ![Confirmer la suppression](../media/knowledge-management/remove-related-confirm.png)</br> 
+   ![Confirm remove](../media/knowledge-management/remove-related-confirm.png)</br> 
 
+--->
 
-9. <span data-ttu-id="e47e7-159">Vous pouvez également ajouter des éléments statiques à la page (tels que du texte, des images ou des liens) en sélectionnant l’icône de la zone de dessin, que vous trouverez sous la courte description.</span><span class="sxs-lookup"><span data-stu-id="e47e7-159">You can also add static items to the page — such as text, images, or links - by selecting the canvas icon, which you can find below the short description.</span></span> <span data-ttu-id="e47e7-160">Si vous la sélectionnez, SharePoint boîte à outils dans laquelle vous pouvez choisir l’élément que vous souhaitez ajouter à la page.</span><span class="sxs-lookup"><span data-stu-id="e47e7-160">Selecting it will open the SharePoint toolbox from which you can choose the item you want to add to the page.</span></span>
+9. <span data-ttu-id="d79c9-151">Vous pouvez également ajouter des éléments statiques à la page (tels que du texte, des images ou des liens) en sélectionnant l’icône de la zone de dessin, que vous trouverez sous la courte description.</span><span class="sxs-lookup"><span data-stu-id="d79c9-151">You can also add static items to the page — such as text, images, or links - by selecting the canvas icon, which you can find below the short description.</span></span> <span data-ttu-id="d79c9-152">Si vous la sélectionnez, SharePoint boîte à outils dans laquelle vous pouvez choisir l’élément que vous souhaitez ajouter à la page.</span><span class="sxs-lookup"><span data-stu-id="d79c9-152">Selecting it will open the SharePoint toolbox from which you can choose the item you want to add to the page.</span></span>
 
-   ![Icône Canvas](../media/knowledge-management/webpart-library.png)</br> 
-
-
-10. <span data-ttu-id="e47e7-162">Sélectionnez **Publier** ou **Republier** pour enregistrer vos modifications.</span><span class="sxs-lookup"><span data-stu-id="e47e7-162">Select **Publish** or **Republish** to save your changes.</span></span> <span data-ttu-id="e47e7-163">**La publication sera** votre option disponible si la rubrique a été publiée précédemment.</span><span class="sxs-lookup"><span data-stu-id="e47e7-163">**Republish** will be your available option if the topic has been published previously.</span></span>
+   ![Capture d’écran montrant l’icône Canvas.](../media/knowledge-management/webpart-library.png)
 
 
-## <a name="see-also"></a><span data-ttu-id="e47e7-164">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e47e7-164">See also</span></span>
+10. <span data-ttu-id="d79c9-154">Sélectionnez **Publier** ou **Republier** pour enregistrer vos modifications.</span><span class="sxs-lookup"><span data-stu-id="d79c9-154">Select **Publish** or **Republish** to save your changes.</span></span> <span data-ttu-id="d79c9-155">**La publication sera** votre option disponible si la rubrique a été publiée précédemment.</span><span class="sxs-lookup"><span data-stu-id="d79c9-155">**Republish** will be your available option if the topic has been published previously.</span></span>
+
+
 
 
 
