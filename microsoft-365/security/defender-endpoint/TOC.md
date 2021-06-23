@@ -241,7 +241,7 @@
 #### [Évaluer les règles de réduction de la surface d’attaque](evaluate-attack-surface-reduction.md)
 #### [Activer les règles de réduction de la surface d’attaque](enable-attack-surface-reduction.md)
 #### [Personnaliser les règles de réduction de la surface d’attaque](customize-attack-surface-reduction.md)
-#### [FAQ sur la réduction de la surface d’attaque](attack-surface-reduction-faq.md)
+#### [FAQ sur la réduction de la surface d’attaque](attack-surface-reduction-faq.yml)
 #### [Afficher les événements de la réduction de la surface d’attaque](event-views.md)
 #### [Utiliser le mode audit pour la réduction de la surface d’attaque](audit-windows-defender.md)
 

@@ -20,12 +20,12 @@ metadata:
   ms.custom: seo-marvel-apr2020
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: 42e848309589fa8786346b5921d1cade0ed074b9
-  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+  ms.openlocfilehash: c8f821381d8e51b843f3a213d8daec5ef6ffaf5f
+  ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 05/24/2021
-  ms.locfileid: "52625412"
+  ms.lasthandoff: 06/23/2021
+  ms.locfileid: "53083643"
 title: FAQ sur les messages mis en quarantaine
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -82,20 +82,20 @@ sections:
   - question: >
       Est-ce que je peux libérer ou signaler plusieurs messages mis en quarantaine à la fois ?
     answer: >
-      Dans le Centre de sécurité & conformité, vous pouvez sélectionner et publier jusqu’à 100 messages à la fois.
+      Dans le Microsoft 365 Defender, vous pouvez sélectionner et libérer jusqu’à 100 messages à la fois.
 
 
       Les administrateurs peuvent utiliser les cmdlets [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) et [Release-QuarantineMessage](/powershell/module/exchange/release-quarantinemessage) dans Exchange Online PowerShell ou EOP PowerShell autonome pour rechercher et libérer les messages mis en quarantaine en bloc et signaler les faux positifs en bloc.
   - question: >
       Les caractères génériques sont-ils pris en charge lors de la recherche de messages mis en quarantaine ? Puis-je rechercher des messages mis en quarantaine pour un domaine spécifique ?
     answer: >-
-      Les caractères génériques ne sont pas pris en charge dans le Centre de sécurité & conformité. Par exemple, lorsque vous recherchez un expéditeur, vous devez spécifier l’adresse de messagerie complète. Toutefois, vous pouvez utiliser des caractères génériques dans Exchange Online PowerShell ou EOP PowerShell autonome.
+      Les caractères génériques ne sont pas pris en charge dans Microsoft 365 Defender portail. Par exemple, lorsque vous recherchez un expéditeur, vous devez spécifier l’adresse de messagerie complète. Toutefois, vous pouvez utiliser des caractères génériques dans Exchange Online PowerShell ou EOP PowerShell autonome.
 
 
       Par exemple, copiez le code PowerShell suivant dans le Bloc-notes et enregistrez le fichier en tant que .ps1 à un emplacement facile à trouver (par exemple, C:\Data\QuarantineRelease.ps1).
 
 
-      Ensuite, après vous être connecté [à Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) ou [Exchange Online Protection PowerShell,](/powershell/exchange/connect-to-exchange-online-protection-powershell)exécutez la commande suivante pour exécuter le script :
+      Ensuite, après vous être connecté [à Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) [ou Exchange Online Protection PowerShell,](/powershell/exchange/connect-to-exchange-online-protection-powershell)exécutez la commande suivante pour exécuter le script :
 
 
       ```powershell
