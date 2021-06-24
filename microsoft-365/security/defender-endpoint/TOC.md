@@ -273,6 +273,8 @@
 #### [Obtenir votre antivirus et vos mises à jour anti-programmes malveillants](manage-updates-baselines-microsoft-defender-antivirus.md)
 ##### [Gérer les sources des mises à jour de la protection antivirus Microsoft Defender](manage-protection-updates-microsoft-defender-antivirus.md)
 ##### [Gérer le calendrier de téléchargement et d’application des mises à jour de protection](manage-protection-update-schedule-microsoft-defender-antivirus.md)
+##### [Gérer le processus de déploiement progressif pour les mises à jour Microsoft Defender](manage-gradual-rollout.md)
+##### [Configurer le processus de déploiement progressif pour les mises à jour de Microsoft Defender](configure-updates.md)
 ##### [Gérer les mises à jour de l'antivirus Microsoft Defender et les analyses des points de terminaison qui ne sont pas à jour](manage-outdated-endpoints-microsoft-defender-antivirus.md)
 ##### [Gérer les mises à jour forcées en fonction des événements](manage-event-based-updates-microsoft-defender-antivirus.md)
 ##### [Gérer les mises à jour pour les appareils mobiles et les machines virtuelles](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
@@ -309,7 +311,6 @@
 ##### [Résoudre des problèmes de performance](troubleshoot-performance-issues.md)
 ##### [Consulter les journaux d'événements et les codes d'erreur pour résoudre les problèmes liés à l'antivirus Microsoft Defender.](troubleshoot-microsoft-defender-antivirus.md)
 ##### [Résoudre des problèmes de l’antivirus Microsoft Defender lors de la migration à partir d’une solution tierce](troubleshoot-microsoft-defender-antivirus-when-migrating.md)
-
 
 #### [Isolation basée sur le matériel]()
 ##### [Isolation basée sur le matériel dans Windows 10](overview-hardware-based-isolation.md)
