@@ -11,85 +11,104 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Utilisez l’API REST pour supprimer un modèle appliqué de compréhension de document à partir d’une ou plusieurs bibliothèques.
-ms.openlocfilehash: 8c7aeb449da161fe49050631643c63c93268a13f
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: e95c0583b1b0e2f5de08228afbf161c339544047
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904209"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177236"
 ---
-# <a name="batchdelete"></a><span data-ttu-id="45e88-103">BatchDelete</span><span class="sxs-lookup"><span data-stu-id="45e88-103">BatchDelete</span></span>
+# <a name="batchdelete"></a><span data-ttu-id="b9899-103">BatchDelete</span><span class="sxs-lookup"><span data-stu-id="b9899-103">BatchDelete</span></span>
 
-<span data-ttu-id="45e88-104">Supprime un modèle appliqué de compréhension de document à partir d’une ou plusieurs bibliothèques.</span><span class="sxs-lookup"><span data-stu-id="45e88-104">Removes an applied document understanding model from one or more libraries.</span></span> <span data-ttu-id="45e88-105">Notez qu’un modèle doit être supprimé de toutes les bibliothèques avant de pouvoir le supprimer (voir [exemple](rest-batchdelete-method.md#examples)).</span><span class="sxs-lookup"><span data-stu-id="45e88-105">Note that a model must be removed from all libraries before it can be deleted (see [example](rest-batchdelete-method.md#examples)).</span></span>
+<span data-ttu-id="b9899-104">Supprime un modèle appliqué de compréhension de document à partir d’une ou plusieurs bibliothèques.</span><span class="sxs-lookup"><span data-stu-id="b9899-104">Removes an applied document understanding model from one or more libraries.</span></span> <span data-ttu-id="b9899-105">Notez qu’un modèle doit être supprimé de toutes les bibliothèques avant de pouvoir le supprimer (voir [exemple](rest-batchdelete-method.md#examples)).</span><span class="sxs-lookup"><span data-stu-id="b9899-105">Note that a model must be removed from all libraries before it can be deleted (see [example](rest-batchdelete-method.md#examples)).</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="45e88-106">Requête HTTP</span><span class="sxs-lookup"><span data-stu-id="45e88-106">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="b9899-106">Requête HTTP</span><span class="sxs-lookup"><span data-stu-id="b9899-106">HTTP request</span></span>
 
 ```HTTP
 POST /_api/machinelearning/publications/batchdelete HTTP/1.1
 ```
 
-## <a name="uri-parameters"></a><span data-ttu-id="45e88-107">Paramètres d’URI</span><span class="sxs-lookup"><span data-stu-id="45e88-107">URI parameters</span></span>
+## <a name="uri-parameters"></a><span data-ttu-id="b9899-107">Paramètres d’URI</span><span class="sxs-lookup"><span data-stu-id="b9899-107">URI parameters</span></span>
 
-<span data-ttu-id="45e88-108">Aucun</span><span class="sxs-lookup"><span data-stu-id="45e88-108">None</span></span>
+<span data-ttu-id="b9899-108">Aucun</span><span class="sxs-lookup"><span data-stu-id="b9899-108">None</span></span>
 
-## <a name="request-headers"></a><span data-ttu-id="45e88-109">En-têtes de demande</span><span class="sxs-lookup"><span data-stu-id="45e88-109">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="b9899-109">En-têtes de demande</span><span class="sxs-lookup"><span data-stu-id="b9899-109">Request headers</span></span>
 
-| <span data-ttu-id="45e88-110">En-tête</span><span class="sxs-lookup"><span data-stu-id="45e88-110">Header</span></span> | <span data-ttu-id="45e88-111">Valeur</span><span class="sxs-lookup"><span data-stu-id="45e88-111">Value</span></span> |
+| <span data-ttu-id="b9899-110">En-tête</span><span class="sxs-lookup"><span data-stu-id="b9899-110">Header</span></span> | <span data-ttu-id="b9899-111">Valeur</span><span class="sxs-lookup"><span data-stu-id="b9899-111">Value</span></span> |
 |--------|-------|
-|<span data-ttu-id="45e88-112">Accepter</span><span class="sxs-lookup"><span data-stu-id="45e88-112">Accept</span></span>|<span data-ttu-id="45e88-113">application/json;odata=verbose</span><span class="sxs-lookup"><span data-stu-id="45e88-113">application/json;odata=verbose</span></span>|
-|<span data-ttu-id="45e88-114">Content-Type</span><span class="sxs-lookup"><span data-stu-id="45e88-114">Content-Type</span></span>|<span data-ttu-id="45e88-115">application/json;odata=verbose;charset=utf-8</span><span class="sxs-lookup"><span data-stu-id="45e88-115">application/json;odata=verbose;charset=utf-8</span></span>|
-|<span data-ttu-id="45e88-116">x-requestdigest</span><span class="sxs-lookup"><span data-stu-id="45e88-116">x-requestdigest</span></span>|<span data-ttu-id="45e88-117">Résumé approprié pour le site actuel.</span><span class="sxs-lookup"><span data-stu-id="45e88-117">The appropriate digest for current site.</span></span>|
+|<span data-ttu-id="b9899-112">Accepter</span><span class="sxs-lookup"><span data-stu-id="b9899-112">Accept</span></span>|<span data-ttu-id="b9899-113">application/json;odata=verbose</span><span class="sxs-lookup"><span data-stu-id="b9899-113">application/json;odata=verbose</span></span>|
+|<span data-ttu-id="b9899-114">Content-Type</span><span class="sxs-lookup"><span data-stu-id="b9899-114">Content-Type</span></span>|<span data-ttu-id="b9899-115">application/json;odata=verbose;charset=utf-8</span><span class="sxs-lookup"><span data-stu-id="b9899-115">application/json;odata=verbose;charset=utf-8</span></span>|
+|<span data-ttu-id="b9899-116">x-requestdigest</span><span class="sxs-lookup"><span data-stu-id="b9899-116">x-requestdigest</span></span>|<span data-ttu-id="b9899-117">Résumé approprié pour le site actuel.</span><span class="sxs-lookup"><span data-stu-id="b9899-117">The appropriate digest for current site.</span></span>|
 
-## <a name="request-body"></a><span data-ttu-id="45e88-118">Corps de la demande</span><span class="sxs-lookup"><span data-stu-id="45e88-118">Request body</span></span>
+## <a name="request-body"></a><span data-ttu-id="b9899-118">Corps de la demande</span><span class="sxs-lookup"><span data-stu-id="b9899-118">Request body</span></span>
 
-| <span data-ttu-id="45e88-119">Nom</span><span class="sxs-lookup"><span data-stu-id="45e88-119">Name</span></span> | <span data-ttu-id="45e88-120">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="45e88-120">Required</span></span> | <span data-ttu-id="45e88-121">Type</span><span class="sxs-lookup"><span data-stu-id="45e88-121">Type</span></span> | <span data-ttu-id="45e88-122">Description</span><span class="sxs-lookup"><span data-stu-id="45e88-122">Description</span></span> |
+| <span data-ttu-id="b9899-119">Nom</span><span class="sxs-lookup"><span data-stu-id="b9899-119">Name</span></span> | <span data-ttu-id="b9899-120">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="b9899-120">Required</span></span> | <span data-ttu-id="b9899-121">Type</span><span class="sxs-lookup"><span data-stu-id="b9899-121">Type</span></span> | <span data-ttu-id="b9899-122">Description</span><span class="sxs-lookup"><span data-stu-id="b9899-122">Description</span></span> |
 |--------|-------|--------|------------|
-|<span data-ttu-id="45e88-123">ModelUniqueId</span><span class="sxs-lookup"><span data-stu-id="45e88-123">ModelUniqueId</span></span>|<span data-ttu-id="45e88-124">oui</span><span class="sxs-lookup"><span data-stu-id="45e88-124">yes</span></span>|<span data-ttu-id="45e88-125">chaîne</span><span class="sxs-lookup"><span data-stu-id="45e88-125">string</span></span>|<span data-ttu-id="45e88-126">L'ID unique du fichier modèle.</span><span class="sxs-lookup"><span data-stu-id="45e88-126">The unique ID of the model file.</span></span>|
-<span data-ttu-id="45e88-127">TargetSiteUrl</span><span class="sxs-lookup"><span data-stu-id="45e88-127">TargetSiteUrl</span></span>|<span data-ttu-id="45e88-128">oui</span><span class="sxs-lookup"><span data-stu-id="45e88-128">yes</span></span>|<span data-ttu-id="45e88-129">chaîne</span><span class="sxs-lookup"><span data-stu-id="45e88-129">string</span></span>|<span data-ttu-id="45e88-130">L’URL complète du site cible de bibliothèque.</span><span class="sxs-lookup"><span data-stu-id="45e88-130">The full URL of the target library site.</span></span>|
-<span data-ttu-id="45e88-131">TargetWebServerRelativeUrl</span><span class="sxs-lookup"><span data-stu-id="45e88-131">TargetWebServerRelativeUrl</span></span>|<span data-ttu-id="45e88-132">oui</span><span class="sxs-lookup"><span data-stu-id="45e88-132">yes</span></span>|<span data-ttu-id="45e88-133">chaîne</span><span class="sxs-lookup"><span data-stu-id="45e88-133">string</span></span>|<span data-ttu-id="45e88-134">L’URL du web relative au serveur pour la bibliothèque cible.</span><span class="sxs-lookup"><span data-stu-id="45e88-134">The server relative URL of the web for the target library.</span></span>|
-<span data-ttu-id="45e88-135">TargetLibraryServerRelativeUrl</span><span class="sxs-lookup"><span data-stu-id="45e88-135">TargetLibraryServerRelativeUrl</span></span>|<span data-ttu-id="45e88-136">oui</span><span class="sxs-lookup"><span data-stu-id="45e88-136">yes</span></span>|<span data-ttu-id="45e88-137">chaîne</span><span class="sxs-lookup"><span data-stu-id="45e88-137">string</span></span>|<span data-ttu-id="45e88-138">L’URL relative au serveur pour la bibliothèque cible.</span><span class="sxs-lookup"><span data-stu-id="45e88-138">The server relative URL of the target library.</span></span>|
-<span data-ttu-id="45e88-139">ViewOption</span><span class="sxs-lookup"><span data-stu-id="45e88-139">ViewOption</span></span>|<span data-ttu-id="45e88-140">Non</span><span class="sxs-lookup"><span data-stu-id="45e88-140">no</span></span>|<span data-ttu-id="45e88-141">string</span><span class="sxs-lookup"><span data-stu-id="45e88-141">string</span></span>|<span data-ttu-id="45e88-142">Spécifie s’il faut définir l’affichage du nouveau modèle comme bibliothèque par défaut.</span><span class="sxs-lookup"><span data-stu-id="45e88-142">Specifies whether to set new model view as the library default.</span></span>|
+|<span data-ttu-id="b9899-123">Publications</span><span class="sxs-lookup"><span data-stu-id="b9899-123">Publications</span></span>|<span data-ttu-id="b9899-124">oui</span><span class="sxs-lookup"><span data-stu-id="b9899-124">yes</span></span>|<span data-ttu-id="b9899-125">MachineLearningPublicationEntityData[]</span><span class="sxs-lookup"><span data-stu-id="b9899-125">MachineLearningPublicationEntityData[]</span></span>|<span data-ttu-id="b9899-126">La collection de chaque MachineLearningPublicationEntityData qui spécifie le modèle et la bibliothèque de documents cible.</span><span class="sxs-lookup"><span data-stu-id="b9899-126">The collection of MachineLearningPublicationEntityData each of which specifies the model and target document library.</span></span>|
 
-## <a name="response"></a><span data-ttu-id="45e88-143">Réponse</span><span class="sxs-lookup"><span data-stu-id="45e88-143">Response</span></span>
+### <a name="machinelearningpublicationentitydata"></a><span data-ttu-id="b9899-127">MachineLearningPublicationEntityData</span><span class="sxs-lookup"><span data-stu-id="b9899-127">MachineLearningPublicationEntityData</span></span>
+| <span data-ttu-id="b9899-128">Nom</span><span class="sxs-lookup"><span data-stu-id="b9899-128">Name</span></span> | <span data-ttu-id="b9899-129">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="b9899-129">Required</span></span> | <span data-ttu-id="b9899-130">Type</span><span class="sxs-lookup"><span data-stu-id="b9899-130">Type</span></span> | <span data-ttu-id="b9899-131">Description</span><span class="sxs-lookup"><span data-stu-id="b9899-131">Description</span></span> |
+|--------|-------|--------|------------|
+|<span data-ttu-id="b9899-132">ModelUniqueId</span><span class="sxs-lookup"><span data-stu-id="b9899-132">ModelUniqueId</span></span>|<span data-ttu-id="b9899-133">oui</span><span class="sxs-lookup"><span data-stu-id="b9899-133">yes</span></span>|<span data-ttu-id="b9899-134">chaîne</span><span class="sxs-lookup"><span data-stu-id="b9899-134">string</span></span>|<span data-ttu-id="b9899-135">L'ID unique du fichier modèle.</span><span class="sxs-lookup"><span data-stu-id="b9899-135">The unique ID of the model file.</span></span>|
+|<span data-ttu-id="b9899-136">TargetSiteUrl</span><span class="sxs-lookup"><span data-stu-id="b9899-136">TargetSiteUrl</span></span>|<span data-ttu-id="b9899-137">oui</span><span class="sxs-lookup"><span data-stu-id="b9899-137">yes</span></span>|<span data-ttu-id="b9899-138">chaîne</span><span class="sxs-lookup"><span data-stu-id="b9899-138">string</span></span>|<span data-ttu-id="b9899-139">L’URL complète du site cible de bibliothèque.</span><span class="sxs-lookup"><span data-stu-id="b9899-139">The full URL of the target library site.</span></span>|
+|<span data-ttu-id="b9899-140">TargetWebServerRelativeUrl</span><span class="sxs-lookup"><span data-stu-id="b9899-140">TargetWebServerRelativeUrl</span></span>|<span data-ttu-id="b9899-141">oui</span><span class="sxs-lookup"><span data-stu-id="b9899-141">yes</span></span>|<span data-ttu-id="b9899-142">chaîne</span><span class="sxs-lookup"><span data-stu-id="b9899-142">string</span></span>|<span data-ttu-id="b9899-143">L’URL du web relative au serveur pour la bibliothèque cible.</span><span class="sxs-lookup"><span data-stu-id="b9899-143">The server relative URL of the web for the target library.</span></span>|
+|<span data-ttu-id="b9899-144">TargetLibraryServerRelativeUrl</span><span class="sxs-lookup"><span data-stu-id="b9899-144">TargetLibraryServerRelativeUrl</span></span>|<span data-ttu-id="b9899-145">oui</span><span class="sxs-lookup"><span data-stu-id="b9899-145">yes</span></span>|<span data-ttu-id="b9899-146">chaîne</span><span class="sxs-lookup"><span data-stu-id="b9899-146">string</span></span>|<span data-ttu-id="b9899-147">L’URL relative au serveur pour la bibliothèque cible.</span><span class="sxs-lookup"><span data-stu-id="b9899-147">The server relative URL of the target library.</span></span>|
 
-| <span data-ttu-id="45e88-144">Nom</span><span class="sxs-lookup"><span data-stu-id="45e88-144">Name</span></span>   | <span data-ttu-id="45e88-145">Type</span><span class="sxs-lookup"><span data-stu-id="45e88-145">Type</span></span>  | <span data-ttu-id="45e88-146">Description</span><span class="sxs-lookup"><span data-stu-id="45e88-146">Description</span></span>|
+## <a name="response"></a><span data-ttu-id="b9899-148">Réponse</span><span class="sxs-lookup"><span data-stu-id="b9899-148">Response</span></span>
+
+| <span data-ttu-id="b9899-149">Nom</span><span class="sxs-lookup"><span data-stu-id="b9899-149">Name</span></span>   | <span data-ttu-id="b9899-150">Type</span><span class="sxs-lookup"><span data-stu-id="b9899-150">Type</span></span>  | <span data-ttu-id="b9899-151">Description</span><span class="sxs-lookup"><span data-stu-id="b9899-151">Description</span></span>|
 |--------|-------|------------|
-|<span data-ttu-id="45e88-147">200 OK</span><span class="sxs-lookup"><span data-stu-id="45e88-147">200 OK</span></span>| |<span data-ttu-id="45e88-148">Opération réussie</span><span class="sxs-lookup"><span data-stu-id="45e88-148">Success</span></span>|
+|<span data-ttu-id="b9899-152">200 OK</span><span class="sxs-lookup"><span data-stu-id="b9899-152">200 OK</span></span>||<span data-ttu-id="b9899-153">Il s’agit d’une API personnalisée pour prendre en charge la suppression d’un modèle de plusieurs bibliothèques de documents.</span><span class="sxs-lookup"><span data-stu-id="b9899-153">This is a customized API to support removing a model from multi document libraries.</span></span> <span data-ttu-id="b9899-154">Dans le cas d’une réussite partielle, 200 OK créé peut encore être renvoyé et l’appelant doit inspecter le corps de la réponse pour savoir si le modèle a été correctement supprimé d’une bibliothèque de documents.</span><span class="sxs-lookup"><span data-stu-id="b9899-154">In the case of partial success, 200 OK could still be returned and the caller needs to inspect the response body to understand if the model has been successfully removed from a document library.</span></span>|
 
+## <a name="response-body"></a><span data-ttu-id="b9899-155">Corps de la réponse</span><span class="sxs-lookup"><span data-stu-id="b9899-155">Response Body</span></span>
+| <span data-ttu-id="b9899-156">Nom</span><span class="sxs-lookup"><span data-stu-id="b9899-156">Name</span></span>   | <span data-ttu-id="b9899-157">Type</span><span class="sxs-lookup"><span data-stu-id="b9899-157">Type</span></span>  | <span data-ttu-id="b9899-158">Description</span><span class="sxs-lookup"><span data-stu-id="b9899-158">Description</span></span>|
+|--------|-------|------------|
+|<span data-ttu-id="b9899-159">TotalSuccesses</span><span class="sxs-lookup"><span data-stu-id="b9899-159">TotalSuccesses</span></span>|<span data-ttu-id="b9899-160">int</span><span class="sxs-lookup"><span data-stu-id="b9899-160">int</span></span>|<span data-ttu-id="b9899-161">Le nombre total de suppressions réussies d’un modèle dans une bibliothèque de documents.</span><span class="sxs-lookup"><span data-stu-id="b9899-161">The total number of a model being successfully removed from a document library.</span></span>|
+|<span data-ttu-id="b9899-162">TotalFailures</span><span class="sxs-lookup"><span data-stu-id="b9899-162">TotalFailures</span></span>|<span data-ttu-id="b9899-163">int</span><span class="sxs-lookup"><span data-stu-id="b9899-163">int</span></span>|<span data-ttu-id="b9899-164">Le nombre total de suppressions défaillantes d’un modèle dans une bibliothèque de documents.</span><span class="sxs-lookup"><span data-stu-id="b9899-164">The total number of a model failing to be removed from a document library.</span></span>|
+|<span data-ttu-id="b9899-165">Détails</span><span class="sxs-lookup"><span data-stu-id="b9899-165">Details</span></span>|<span data-ttu-id="b9899-166">MachineLearningPublicationResult[]</span><span class="sxs-lookup"><span data-stu-id="b9899-166">MachineLearningPublicationResult[]</span></span>|<span data-ttu-id="b9899-167">La collection de chaque MachineLearningPublicationResult qui spécifie le résultat détaillé de la suppression du modèle dans une bibliothèque de documents.</span><span class="sxs-lookup"><span data-stu-id="b9899-167">The collection of MachineLearningPublicationResult each of which specifies the detailed result of removing the model from a document library.</span></span>|
 
-## <a name="examples"></a><span data-ttu-id="45e88-149">Exemples</span><span class="sxs-lookup"><span data-stu-id="45e88-149">Examples</span></span>
+### <a name="machinelearningpublicationresult"></a><span data-ttu-id="b9899-168">MachineLearningPublicationResult</span><span class="sxs-lookup"><span data-stu-id="b9899-168">MachineLearningPublicationResult</span></span>
+| <span data-ttu-id="b9899-169">Nom</span><span class="sxs-lookup"><span data-stu-id="b9899-169">Name</span></span>   | <span data-ttu-id="b9899-170">Type</span><span class="sxs-lookup"><span data-stu-id="b9899-170">Type</span></span>  | <span data-ttu-id="b9899-171">Description</span><span class="sxs-lookup"><span data-stu-id="b9899-171">Description</span></span>|
+|--------|-------|------------|
+|<span data-ttu-id="b9899-172">StatusCode (lecture seule)</span><span class="sxs-lookup"><span data-stu-id="b9899-172">StatusCode</span></span>|<span data-ttu-id="b9899-173">int</span><span class="sxs-lookup"><span data-stu-id="b9899-173">int</span></span>|<span data-ttu-id="b9899-174">Le code d’état HTTP.</span><span class="sxs-lookup"><span data-stu-id="b9899-174">The HTTP status code.</span></span>|
+|<span data-ttu-id="b9899-175">ErrorMessage</span><span class="sxs-lookup"><span data-stu-id="b9899-175">ErrorMessage</span></span>|<span data-ttu-id="b9899-176">chaîne</span><span class="sxs-lookup"><span data-stu-id="b9899-176">string</span></span>|<span data-ttu-id="b9899-177">Le message d’erreur indiquant le problème lors de l’application du modèle à la bibliothèque de documents.</span><span class="sxs-lookup"><span data-stu-id="b9899-177">The error message which tells what's wrong when apply the model to the document library.</span></span>|
+|<span data-ttu-id="b9899-178">Publication</span><span class="sxs-lookup"><span data-stu-id="b9899-178">Publication</span></span>|<span data-ttu-id="b9899-179">MachineLearningPublicationEntityData</span><span class="sxs-lookup"><span data-stu-id="b9899-179">MachineLearningPublicationEntityData</span></span>|<span data-ttu-id="b9899-180">Il s’agit des informations sur le modèle et la bibliothèque de documents cible.</span><span class="sxs-lookup"><span data-stu-id="b9899-180">It specifies the model info and the target document library.</span></span>| 
 
-### <a name="remove-a-model-from-the-contracts-document-library-in-the-repository-site"></a><span data-ttu-id="45e88-150">Supprimer un modèle de la bibliothèque de documents concernant les contrats dans le site du référentiel</span><span class="sxs-lookup"><span data-stu-id="45e88-150">Remove a model from the contracts document library in the repository site</span></span>
+### <a name="machinelearningpublicationentitydata"></a><span data-ttu-id="b9899-181">MachineLearningPublicationEntityData</span><span class="sxs-lookup"><span data-stu-id="b9899-181">MachineLearningPublicationEntityData</span></span>
+| <span data-ttu-id="b9899-182">Nom</span><span class="sxs-lookup"><span data-stu-id="b9899-182">Name</span></span> | <span data-ttu-id="b9899-183">Type</span><span class="sxs-lookup"><span data-stu-id="b9899-183">Type</span></span> | <span data-ttu-id="b9899-184">Description</span><span class="sxs-lookup"><span data-stu-id="b9899-184">Description</span></span> |
+|--------|--------|------------|
+|<span data-ttu-id="b9899-185">ModelUniqueId</span><span class="sxs-lookup"><span data-stu-id="b9899-185">ModelUniqueId</span></span>|<span data-ttu-id="b9899-186">chaîne</span><span class="sxs-lookup"><span data-stu-id="b9899-186">string</span></span>|<span data-ttu-id="b9899-187">L'ID unique du fichier modèle.</span><span class="sxs-lookup"><span data-stu-id="b9899-187">The unique ID of the model file.</span></span>|
+|<span data-ttu-id="b9899-188">TargetSiteUrl</span><span class="sxs-lookup"><span data-stu-id="b9899-188">TargetSiteUrl</span></span>|<span data-ttu-id="b9899-189">chaîne</span><span class="sxs-lookup"><span data-stu-id="b9899-189">string</span></span>|<span data-ttu-id="b9899-190">L’URL complète du site cible de bibliothèque.</span><span class="sxs-lookup"><span data-stu-id="b9899-190">The full URL of the target library site.</span></span>|
+|<span data-ttu-id="b9899-191">TargetWebServerRelativeUrl</span><span class="sxs-lookup"><span data-stu-id="b9899-191">TargetWebServerRelativeUrl</span></span>|<span data-ttu-id="b9899-192">chaîne</span><span class="sxs-lookup"><span data-stu-id="b9899-192">string</span></span>|<span data-ttu-id="b9899-193">L’URL du web relative au serveur pour la bibliothèque cible.</span><span class="sxs-lookup"><span data-stu-id="b9899-193">The server relative URL of the web for the target library.</span></span>|
+|<span data-ttu-id="b9899-194">TargetLibraryServerRelativeUrl</span><span class="sxs-lookup"><span data-stu-id="b9899-194">TargetLibraryServerRelativeUrl</span></span>|<span data-ttu-id="b9899-195">chaîne</span><span class="sxs-lookup"><span data-stu-id="b9899-195">string</span></span>|<span data-ttu-id="b9899-196">L’URL relative au serveur pour la bibliothèque cible.</span><span class="sxs-lookup"><span data-stu-id="b9899-196">The server relative URL of the target library.</span></span>|
 
-<span data-ttu-id="45e88-151">Dans cet exemple, l’ID du modèle de compréhension de document du Contrat Contoso est `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span><span class="sxs-lookup"><span data-stu-id="45e88-151">In this sample, the ID of the Contoso Contract document understanding model is `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span></span>
+## <a name="examples"></a><span data-ttu-id="b9899-197">Exemples</span><span class="sxs-lookup"><span data-stu-id="b9899-197">Examples</span></span>
 
-#### <a name="sample-request"></a><span data-ttu-id="45e88-152">Exemple de demande</span><span class="sxs-lookup"><span data-stu-id="45e88-152">Sample request</span></span>
+### <a name="remove-a-model-from-the-contracts-document-library-in-the-repository-site"></a><span data-ttu-id="b9899-198">Supprimer un modèle de la bibliothèque de documents concernant les contrats dans le site du référentiel</span><span class="sxs-lookup"><span data-stu-id="b9899-198">Remove a model from the contracts document library in the repository site</span></span>
+
+<span data-ttu-id="b9899-199">Dans cet exemple, l’ID du modèle de compréhension de document du Contrat Contoso est `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span><span class="sxs-lookup"><span data-stu-id="b9899-199">In this sample, the ID of the Contoso Contract document understanding model is `7645e69d-21fb-4a24-a17a-9bdfa7cb63dc`.</span></span>
+
+#### <a name="sample-request"></a><span data-ttu-id="b9899-200">Exemple de demande</span><span class="sxs-lookup"><span data-stu-id="b9899-200">Sample request</span></span>
 
 ```HTTP
-{
-    "__metadata": {
-        "type": "Microsoft.Office.Server.ContentCenter.SPMachineLearningPublicationsEntityData"
-    },
-    "Publications": {
-        "results": [
-            {
-                "ModelUniqueId": "7645e69d-21fb-4a24-a17a-9bdfa7cb63dc",
-                "TargetSiteUrl": "https://contoso.sharepoint.com/sites/repository/",
-                "TargetWebServerRelativeUrl": "/sites/repository",
-                "TargetLibraryServerRelativeUrl": "/sites/repository/contracts",
-                "ViewOption": "NewViewAsDefault"
-            }
-        ]
-    }
-}
+{ 
+    "publications": [ 
+        { 
+            "ModelUniqueId": "7645e69d-21fb-4a24-a17a-9bdfa7cb63dc", 
+            "TargetSiteUrl": "https://constco.sharepoint-df.com/sites/docsite", 
+            "TargetWebServerRelativeUrl": "/sites/docsite ", 
+            "TargetLibraryServerRelativeUrl": "/sites/dcocsite/joedcos" 
+        } 
+    ] 
+} 
 ```
 
 
-#### <a name="sample-response"></a><span data-ttu-id="45e88-153">Exemple de réponse</span><span class="sxs-lookup"><span data-stu-id="45e88-153">Sample response</span></span>
+#### <a name="sample-response"></a><span data-ttu-id="b9899-201">Exemple de réponse</span><span class="sxs-lookup"><span data-stu-id="b9899-201">Sample response</span></span>
 
-<span data-ttu-id="45e88-154">Dans la réponse, TotalFailures et TotalSuccesses font référence au nombre d’échecs et de réussite du modèle qui s’applique aux bibliothèques spécifiées.</span><span class="sxs-lookup"><span data-stu-id="45e88-154">In the response, TotalFailures and TotalSuccesses refer to the number of failures and successes of the model being applies to the specified libraries.</span></span>
+<span data-ttu-id="b9899-202">Dans la réponse, TotalFailures et TotalSuccesses font référence au nombre d’échecs et de réussites de la suppression du modèle dans les bibliothèques spécifiées.</span><span class="sxs-lookup"><span data-stu-id="b9899-202">In the response, TotalFailures and TotalSuccesses refer to the number of failures and successes of the model being removed from the specified libraries.</span></span>
 
-<span data-ttu-id="45e88-155">**Code d’état :** 200</span><span class="sxs-lookup"><span data-stu-id="45e88-155">**Status code:** 200</span></span>
+<span data-ttu-id="b9899-203">**Code d’état :** 200</span><span class="sxs-lookup"><span data-stu-id="b9899-203">**Status code:** 200</span></span>
 
 ```JSON
 {
@@ -111,6 +130,6 @@ POST /_api/machinelearning/publications/batchdelete HTTP/1.1
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="45e88-156">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="45e88-156">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b9899-204">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b9899-204">See also</span></span>
 
-[<span data-ttu-id="45e88-157">API REST du modèle de compréhension de document Syntex</span><span class="sxs-lookup"><span data-stu-id="45e88-157">Syntex document understanding model REST API</span></span>](syntex-model-rest-api.md)
+[<span data-ttu-id="b9899-205">API REST du modèle de compréhension de document Syntex</span><span class="sxs-lookup"><span data-stu-id="b9899-205">Syntex document understanding model REST API</span></span>](syntex-model-rest-api.md)
