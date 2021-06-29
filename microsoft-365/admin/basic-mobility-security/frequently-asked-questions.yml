@@ -1,0 +1,76 @@
+### YamlMime:FAQ
+metadata:
+  title: Questions fréquemment posées sur la mobilité et la sécurité de base (FAQ)
+  f1.keywords:
+  - NOCSH
+  ms.author: kwekua
+  author: kwekua
+  manager: scotv
+  audience: Admin
+  ms.topic: reference
+  ms.service: o365-administration
+  localization_priority: Normal
+  ms.collection:
+  - M365-subscription-management
+  - Adm_O365
+  - Adm_TOC
+  ms.custom:
+  - AdminSurgePortfolio
+  search.appverid:
+  - MET150
+  description: Questions fréquemment posées sur basic Mobility and Security.
+  ms.openlocfilehash: 4d57b1fce05329b294aade2806400e343f7f6ad7
+  ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 06/29/2021
+  ms.locfileid: "53177659"
+title: Questions fréquemment posées sur la mobilité et la sécurité de base (FAQ)
+summary: Cet article contient des questions fréquemment posées sur Basic Mobility and Security, une fonctionnalité qui vous aide à gérer et sécuriser les appareils mobiles dans Microsoft 365. Si vous ne trouvez pas de réponse à votre question, faites-le nous savoir en laissant un commentaire sur la page afin que nous pouvons envisager d’ajouter votre question à cet article.
+sections:
+- name: Ignoré
+  questions:
+  - question: >
+      Comment puis-je obtenir la mobilité et la sécurité de base ? Je ne le vois pas dans la Centre d’administration Microsoft 365
+    answer: >
+      1.  Activez La mobilité et la sécurité de base en allant sur la page [Office 365 sécurité & conformité.](https://protection.office.com/)
+
+
+      2.  Go to Data loss prevention > Device management.
+  - question: >
+      Comment puis-je commencer à gérer les appareils dans Basic Mobility and Security ?
+    answer: "La mise en place de la mobilité et de la sécurité de base se fait en quatre étapes : \n\n1. Activez La mobilité et la sécurité de base en allant à la [Office 365 sécurité & conformité.](https://protection.office.com/)\n\n2. Go to Data loss prevention > Device management > Device policies.\n    \n3. Créez des stratégies de gestion des appareils et appliquez-les à des groupes d’utilisateurs qui sont configurer dans des groupes de sécurité. Nous vous recommandons de commencer par déployer les stratégies dans un petit groupe de test. Pour plus d’informations, voir [Créer des stratégies de sécurité des appareils dans Basic Mobility and Security.](create-device-security-policies.md)\n\n4. Les utilisateurs qui ont appliqué une stratégie sont invités à inscrire leurs appareils lorsqu’ils tentent d’accéder Microsoft 365 données. Pour plus d’informations, voir [Inscrire votre appareil mobile à l’aide de Basic Mobility and Security](enroll-your-mobile-device.md).\n\nPour plus d’informations, voir [Set up Basic Mobility and Security](set-up.md).\n"
+  - question: >
+      J’essaie de configurer la mobilité et la sécurité de base, mais elle semble bloquée. L Microsoft 365 l’état du service affiche la « mise en service » depuis un certain temps. Que puis-je faire ?
+    answer: >
+      La préparation du service peut prendre un certain temps. Une fois l’approvisionnement terminé, vous verrez la page Mobilité et sécurité de base. Si vous avez attendu 24 heures et que l’état est toujours en cours d’approvisionnement, contactez le support technique et nous vous aiderons à déterminer le problème.
+  - question: >
+      Que puis-je faire en cas d’échec de l’inscription des appareils ?
+    answer: "Si vous avez des difficultés à obtenir l’enregistrement d’un appareil, vérifiez d’abord les étapes suivantes :\n\n- Assurez-vous que l’appareil n’est pas déjà inscrit auprès d’un autre fournisseur de gestion d’appareils mobiles, tel qu’Intune.\n\n- Assurez-vous que la date et l’heure de l’appareil sont correctes.\n\n- Basculez vers un autre réseau WIFI ou cellulaire sur l’appareil.\n\n- Pour les appareils Android ou iOS, désinstallez et réinstallez l’Portail d’entreprise Intune sur l’appareil.\n    \nSi l’inscription ne fonctionne toujours pas, voir [Résoudre les problèmes de mobilité et de sécurité de base.](troubleshoot.md)\n"
+  - question: >
+      Quelle est la différence entre Intune et Basic Mobility and Security ?
+    answer: >
+      Basic Mobility and Security est hébergé par le service Intune. Il s’agit d’un sous-ensemble de services Intune fournis en tant qu’avantage supplémentaire pour Microsoft 365 et d’une solution informatique intégrée pour la gestion des appareils de votre organisation. Pour obtenir une comparaison côte à côte des deux services pour vous aider à déterminer si l’utilisation d’Intune ou de Basic Mobility and Security pour Microsoft 365 vous convient le mieux, voir Choisir entre Basic Mobility Security et [Intune.](choose-between-basic-mobility-and-security-and-intune.md)
+  - question: >
+      Comment fonctionnent les stratégies pour la mobilité et la sécurité de base ? Comment les configurer ? Les désactiver ?
+    answer: >
+      Une fois la configuration initiale de Basic Mobility and Security terminée, vous créez des stratégies et les appliquez à des groupes d’utilisateurs dans le Centre de sécurité & conformité. Les stratégies exigent que les utilisateurs des stratégies inscrivent leurs appareils dans Basic Mobility and Security avant que l’appareil puisse être utilisé pour accéder Microsoft 365 données. Les stratégies que vous avez définies déterminent les paramètres des appareils mobiles, par exemple, la fréquence de réinitialisation des mots de passe ou la nécessité d’un chiffrement des données. Pour plus d’informations, voir [Créer des stratégies de sécurité des](create-device-security-policies.md)appareils dans Basic Mobility and Security et   [Centre de conformité Microsoft 365](../../compliance/microsoft-365-compliance-center.md).
+
+
+      Pour obtenir des instructions détaillées sur la création et le déploiement de stratégies d’appareil, voir Créer des stratégies de sécurité d’appareil [dans Basic Mobility and Security](create-device-security-policies.md).
+
+
+      Si vous souhaitez exclure un groupe spécifique d’utilisateurs de l’impact des stratégies, vous pouvez ajouter un groupe au groupe d’exclusions.
+  - question: >
+      Puis-je passer de la gestion Exchange ActiveSync des appareils à la mobilité et à la sécurité de base pour Microsoft 365 ?
+    answer: >
+      Si vous utilisez déjà des stratégies Exchange ActiveSync pour gérer les appareils mobiles, vous pouvez commencer à utiliser Basic Mobility and Security en suivant les étapes de la procédure de mise en place de Basic Mobility and Security. Pour plus d’informations, voir [Protéger l’accès](../../compliance/protect-access-to-data-and-services.md) des utilisateurs et des appareils et [Configurer la mobilité et la sécurité de base.](set-up.md)
+
+
+      Lorsque vous appliquez les stratégies que vous créez dans Basic Mobility and Security à des groupes d’utilisateurs Exchange ActiveSync, ces stratégies remplacent les stratégies de boîte aux lettres d’appareil mobile et les règles d’accès aux appareils que vous avez précédemment créées dans le Centre d’administration Exchange pour ces utilisateurs.
+
+
+      Une fois qu’un appareil est inscrit à Basic Mobility and Security, toute stratégie de boîte aux lettres ou règle d’accès Exchange ActiveSync’appareil mobile appliquée à l’appareil est ignorée.
+  - question: >
+      J’ai installé Basic Mobility and Security, mais je veux maintenant le supprimer. Quelles sont les étapes ?
+    answer: Malheureusement, vous ne pouvez pas simplement « mettre en service » Basic Mobility and Security après l’avoir installé. Toutefois, vous pouvez le supprimer pour des groupes d’utilisateurs en supprimant des groupes de sécurité d’utilisateurs des stratégies d’appareil que vous avez créées. Vous pouvez également la désactiver pour tout le monde en supprimant les stratégies d’appareil afin qu’elles ne soient pas en place et ne soient pas appliquées. Pour plus d’informations, voir [Désactiver la mobilité et la sécurité de base.](turn-off.md)
