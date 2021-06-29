@@ -14,12 +14,12 @@ metadata:
   audience: ITPro
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: c71ba6628ed858311db3d58c144295ff617679dc
-  ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+  ms.openlocfilehash: 053a20e65859fedbd91c9357ccdbd98bdb5109b3
+  ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 06/06/2021
-  ms.locfileid: "52789206"
+  ms.lasthandoff: 06/29/2021
+  ms.locfileid: "53177392"
 landingContent:
 - title: Guides des solutions de base
   linkLists:
@@ -33,6 +33,8 @@ landingContent:
       url: deploy-threat-protection.md
     - text: Déployer la protection des informations pour la confidentialité des données
       url: information-protection-deploy.md
+    - text: Microsoft 365 pour les petites entreprises et les campagnes
+      url: ../campaigns/index.md
 - title: Illustrations d'architecture et principes de conception
   linkLists:
   - linkListType: architecture
@@ -41,46 +43,50 @@ landingContent:
       url: cloud-architecture-models.md
     - text: Illustrations de productivité Microsoft 365
       url: productivity-illustrations.md
-    - text: Affiches sur l’architecture Teams
-      url: /MicrosoftTeams/teams-architecture-solutions-posters?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
     - text: Principes de conception
       url: design-principles.md
-- title: Ressources pour la charge de travail
+    - text: Infographies pour vos utilisateurs
+      url: infographics-for-users.md
+    - text: Modèles et icônes Architecture
+      url: architecture-icons-templates.md
+- title: Guides de solution d’administration et de migration
   linkLists:
-  - linkListType: reference
+  - linkListType: how-to-guide
     links:
-    - text: Études de cas Contoso
-      url: contoso-case-study-solutions.md
-  - linkListType: tutorial
-    links:
-    - text: Guides de laboratoire de test
-      url: test-lab-guides-overview-solutions.md
+    - text: Gestion des clients
+      url: tenant-management-overview.md
+    - text: Supprimer un ancien employé
+      url: ../admin/add-users/remove-former-employee.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+    - text: Migrer vos partages de fichiers vers Microsoft 365
+      url: /sharepointmigration/mm-get-started.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
 - title: Guides de solutions pour le travail en équipe et la collaboration
   linkLists:
   - linkListType: deploy
     links:
     - text: Planifier et déployer une solution vocale Teams
       url: deploy-voice.md
+    - text: Gérer les contrats pour votre entreprise
+      url: ../contentunderstanding/solution-manage-contracts-in-microsoft-365.md
   - linkListType: overview
     links:
+    - text: Intranet intelligent
+      url: /sharepoint/intelligent-internet-overview.md
     - text: Gouvernance de la collaboration
       url: collaboration-governance-overview.md
     - text: Collaboration sur fichier
       url: /sharepoint/deploy-file-collaboration?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
-    - text: Intranet intelligent
-      url: /sharepoint/intelligent-internet-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
     - text: Guide OneDrive pour les entreprises
       url: /onedrive/plan-onedrive-enterprise?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
-- title: Guides de solutions de sécurité et conformité
+- title: Guides de solution de conformité
   linkLists:
   - linkListType: deploy
     links:
-    - text: Principales tâches pour les équipes de sécurité qui prennent en charge le travail à domicile
-      url: ../security/top-security-tasks-for-remote-work.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
-    - text: Sécurité Microsoft 365 pour les décideurs d’entreprise (BDM)
-      url: ../security/microsoft-365-security-for-bdm.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
-    - text: Déployer Microsoft Defender pour point de terminaison
-      url: /windows/security/threat-protection/microsoft-defender-atp/deployment-phases?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+    - text: Solutions aux risques internes
+      url: ../compliance/insider-risk-solution-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+    - text: Solutions d’audit
+      url: ../compliance/auditing-solutions-overview.md
+    - text: Microsoft 365 advanced eDiscovery
+      url: ../compliance/overview-ediscovery-20.md
   - linkListType: reference
     links:
     - text: ISO – Plan d’action recommandé
@@ -91,6 +97,44 @@ landingContent:
       url: /compliance/regulatory/ccpa-faq?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
     - text: 'RGPD : Plan d’action recommandé'
       url: /compliance/regulatory/gdpr?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+- title: Guide des solutions de sécurité
+  linkLists:
+  - linkListType: deploy
+    links:
+    - text: Principales tâches pour les équipes de sécurité qui prennent en charge le travail à domicile
+      url: ../security/top-security-tasks-for-remote-work.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+    - text: Sécurité Microsoft 365 pour les décideurs d’entreprise (BDM)
+      url: ../security/microsoft-365-security-for-bdm.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+    - text: Configurations des identités et de l’accès aux appareils
+      url: ../security/office-365-security/microsoft-365-policies-configurations.md
+    - text: Déployer Microsoft Defender pour point de terminaison
+      url: /windows/security/threat-protection/microsoft-defender-atp/deployment-phases.md
+    - text: Évaluer Microsoft 365 Defender
+      url: ../security/defender-endpoint/deployment-phases.md
+    - text: Recommandations de sécurité pour les comptes prioritaires
+      url: ../security/office-365-security/security-recommendations-for-priority-accounts.md
+    - text: Évaluer Microsoft 365 Defender
+      url: ../security/defender-endpoint/deployment-phases.md
+    - text: Résoudre les faux positifs/négatifs dans Microsoft Defender pour point de terminaison
+      url: ../security/defender-endpoint/defender-endpoint-false-positives-negatives.md
+  - linkListType: how-to-guide
+    links:
+    - text: Migrer de Symantec vers Microsoft Defender pour point de terminaison
+      url: ../security/defender-endpoint/symantec-to-microsoft-defender-endpoint-migration.md
+    - text: Passer de McAfee à Microsoft Defender pour point de terminaison
+      url: ../security/defender-endpoint/mcafee-to-microsoft-defender-migration.md
+    - text: Passer d’une protection de point de terminaison non-Microsoft à Microsoft Defender pour point de terminaison
+      url: ../security/defender-endpoint/switch-to-microsoft-defender-migration.md
+- title: Ressources pour la charge de travail
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Études de cas Contoso
+      url: contoso-case-study-solutions.md
+  - linkListType: tutorial
+    links:
+    - text: Guides de laboratoire de test
+      url: test-lab-guides-overview-solutions.md
 - title: Conseils spécifiques par secteurs
   linkLists:
   - linkListType: overview

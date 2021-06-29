@@ -393,7 +393,7 @@
             - name: Confidentialité et sécurité
               href: basic-mobility-security/privacy-and-security.md
             - name: Foire aux questions
-              href: basic-mobility-security/frequently-asked-questions.md
+              href: basic-mobility-security/frequently-asked-questions.yml
             - name: Effacer des appareils mobiles
               href: basic-mobility-security/wipe-mobile-device.md
             - name: Désactiver l’option Mobility et Security de base
