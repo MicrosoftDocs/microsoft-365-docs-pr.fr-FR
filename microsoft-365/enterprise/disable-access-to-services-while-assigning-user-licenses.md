@@ -18,36 +18,36 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: bb003bdb-3c22-4141-ae3b-f0656fc23b9c
 description: Découvrez comment attribuer des licences à des comptes d’utilisateurs et désactiver des plans de service spécifiques en même temps à l’aide de PowerShell pour Microsoft 365.
-ms.openlocfilehash: 7486968f6f4822047a1697ee1e05129277fd11a8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ca5becb8709eeab7b5c535747ac93d36fefa0da8
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929431"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228902"
 ---
-# <a name="disable-access-to-microsoft-365-services-while-assigning-user-licenses"></a><span data-ttu-id="c0830-103">Désactiver l’accès aux services Microsoft 365 tout en attribuant des licences utilisateur</span><span class="sxs-lookup"><span data-stu-id="c0830-103">Disable access to Microsoft 365 services while assigning user licenses</span></span>
+# <a name="disable-access-to-microsoft-365-services-while-assigning-user-licenses"></a><span data-ttu-id="c6cb4-103">Désactiver l’accès aux services Microsoft 365 tout en attribuant des licences utilisateur</span><span class="sxs-lookup"><span data-stu-id="c6cb4-103">Disable access to Microsoft 365 services while assigning user licenses</span></span>
 
-<span data-ttu-id="c0830-104">*Cet article est valable pour Microsoft 365 Entreprise et Office 365 Entreprise.*</span><span class="sxs-lookup"><span data-stu-id="c0830-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
+<span data-ttu-id="c6cb4-104">*Cet article est valable pour Microsoft 365 Entreprise et Office 365 Entreprise.*</span><span class="sxs-lookup"><span data-stu-id="c6cb4-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
 
-<span data-ttu-id="c0830-105">Microsoft 365 abonnements sont offerts avec des plans de service pour des services individuels.</span><span class="sxs-lookup"><span data-stu-id="c0830-105">Microsoft 365 subscriptions come with service plans for individual services.</span></span> <span data-ttu-id="c0830-106">Microsoft 365 administrateurs doivent souvent désactiver certains plans lors de l’attribution de licences aux utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="c0830-106">Microsoft 365 administrators often need to disable certain plans when assigning licenses to users.</span></span> <span data-ttu-id="c0830-107">Avec les instructions de cet article, vous pouvez attribuer une licence Microsoft 365 tout en désactivant des plans de service spécifiques à l’aide de PowerShell pour un compte d’utilisateur individuel ou plusieurs comptes d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="c0830-107">With the instructions in this article, you can assign a Microsoft 365 license while disabling specific service plans using PowerShell for an individual user account or multiple user accounts.</span></span>
+<span data-ttu-id="c6cb4-105">Microsoft 365 abonnements sont offerts avec des plans de service pour des services individuels.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-105">Microsoft 365 subscriptions come with service plans for individual services.</span></span> <span data-ttu-id="c6cb4-106">Microsoft 365 administrateurs doivent souvent désactiver certains plans lors de l’attribution de licences aux utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-106">Microsoft 365 administrators often need to disable certain plans when assigning licenses to users.</span></span> <span data-ttu-id="c6cb4-107">Avec les instructions de cet article, vous pouvez attribuer une licence Microsoft 365 tout en désactivant des plans de service spécifiques à l’aide de PowerShell pour un compte d’utilisateur individuel ou plusieurs comptes d’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-107">With the instructions in this article, you can assign a Microsoft 365 license while disabling specific service plans using PowerShell for an individual user account or multiple user accounts.</span></span>
 
-## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="c0830-108">Utilisation du module Azure Active Directory PowerShell pour Graph</span><span class="sxs-lookup"><span data-stu-id="c0830-108">Use the Azure Active Directory PowerShell for Graph module</span></span>
+## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="c6cb4-108">Utilisation du module Azure Active Directory PowerShell pour Graph</span><span class="sxs-lookup"><span data-stu-id="c6cb4-108">Use the Azure Active Directory PowerShell for Graph module</span></span>
 
-<span data-ttu-id="c0830-109">Tout [d’abord, connectez-vous à Microsoft 365 client.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)</span><span class="sxs-lookup"><span data-stu-id="c0830-109">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
-  
+<span data-ttu-id="c6cb4-109">Tout [d’abord, connectez-vous à Microsoft 365 client.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)</span><span class="sxs-lookup"><span data-stu-id="c6cb4-109">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).</span></span>
 
-<span data-ttu-id="c0830-110">Ensuite, listez les plans de licence pour votre client avec cette commande.</span><span class="sxs-lookup"><span data-stu-id="c0830-110">Next, list the license plans for your tenant with this command.</span></span>
+
+<span data-ttu-id="c6cb4-110">Ensuite, listez les plans de licence pour votre client avec cette commande.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-110">Next, list the license plans for your tenant with this command.</span></span>
 
 ```powershell
 Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
-<span data-ttu-id="c0830-111">Ensuite, obtenez le nom de la signature du compte auquel vous souhaitez ajouter une licence, également appelée nom d’utilisateur principal (UPN).</span><span class="sxs-lookup"><span data-stu-id="c0830-111">Next, get the sign-in name of the account to which you want add a license, also known as the user principal name (UPN).</span></span>
+<span data-ttu-id="c6cb4-111">Ensuite, obtenez le nom de la signature du compte auquel vous souhaitez ajouter une licence, également appelée nom d’utilisateur principal (UPN).</span><span class="sxs-lookup"><span data-stu-id="c6cb4-111">Next, get the sign-in name of the account to which you want add a license, also known as the user principal name (UPN).</span></span>
 
-<span data-ttu-id="c0830-112">Ensuite, compilez une liste de services à activer.</span><span class="sxs-lookup"><span data-stu-id="c0830-112">Next, compile a list of services to enable.</span></span> <span data-ttu-id="c0830-113">Pour obtenir la liste complète des plans de licence (également appelés noms de produits), leurs plans de service inclus et leurs noms convivial correspondants, voir Noms de produits et identificateurs de plan de service pour la [gestion des licences.](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)</span><span class="sxs-lookup"><span data-stu-id="c0830-113">For a complete list of license plans (also known as product names), their included service plans, and their corresponding friendly names, see [Product names and service plan identifiers for licensing](/azure/active-directory/users-groups-roles/licensing-service-plan-reference).</span></span>
+<span data-ttu-id="c6cb4-112">Ensuite, compilez une liste de services à activer.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-112">Next, compile a list of services to enable.</span></span> <span data-ttu-id="c6cb4-113">Pour obtenir la liste complète des plans de licence (également appelés noms de produits), leurs plans de service inclus et leurs noms convivial correspondants, voir Noms de produits et identificateurs de plan de service pour la [gestion des licences.](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)</span><span class="sxs-lookup"><span data-stu-id="c6cb4-113">For a complete list of license plans (also known as product names), their included service plans, and their corresponding friendly names, see [Product names and service plan identifiers for licensing](/azure/active-directory/users-groups-roles/licensing-service-plan-reference).</span></span>
 
-<span data-ttu-id="c0830-114">Pour le bloc de commandes ci-dessous, remplissez le nom d’utilisateur principal du compte d’utilisateur, le numéro de partie SKU et la liste des plans de service pour activer et supprimer le texte explicatif et les \< and > caractères.</span><span class="sxs-lookup"><span data-stu-id="c0830-114">For the command block below, fill in the user principal name of the user account, the SKU part number, and the list of service plans to enable and remove the explanatory text and the \< and > characters.</span></span> <span data-ttu-id="c0830-115">Ensuite, exécutez les commandes qui en résultent à l’invite de commande PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c0830-115">Then, run the resulting commands at the PowerShell command prompt.</span></span>
-  
+<span data-ttu-id="c6cb4-114">Pour le bloc de commandes ci-dessous, remplissez le nom d’utilisateur principal du compte d’utilisateur, le numéro de partie SKU et la liste des plans de service pour activer et supprimer le texte explicatif et les \< and > caractères.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-114">For the command block below, fill in the user principal name of the user account, the SKU part number, and the list of service plans to enable and remove the explanatory text and the \< and > characters.</span></span> <span data-ttu-id="c6cb4-115">Ensuite, exécutez les commandes qui en résultent à l’invite de commande PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-115">Then, run the resulting commands at the PowerShell command prompt.</span></span>
+
 ```powershell
 $userUPN="<user account UPN>"
 $skuPart="<SKU part number>"
@@ -65,64 +65,64 @@ $LicensesToAssign.AddLicenses = $License
 Set-AzureADUserLicense -ObjectId $user.ObjectId -AssignedLicenses $LicensesToAssign
 ```
 
-## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a><span data-ttu-id="c0830-116">Utilisez le module Microsoft Azure Active Directory pour Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c0830-116">Use the Microsoft Azure Active Directory Module for Windows PowerShell</span></span>
+## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a><span data-ttu-id="c6cb4-116">Utilisez le module Microsoft Azure Active Directory pour Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-116">Use the Microsoft Azure Active Directory Module for Windows PowerShell</span></span>
 
-<span data-ttu-id="c0830-117">Tout [d’abord, connectez-vous à Microsoft 365 client.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)</span><span class="sxs-lookup"><span data-stu-id="c0830-117">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
+<span data-ttu-id="c6cb4-117">Tout [d’abord, connectez-vous à Microsoft 365 client.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)</span><span class="sxs-lookup"><span data-stu-id="c6cb4-117">First, [connect to your Microsoft 365 tenant](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
 
-<span data-ttu-id="c0830-118">Ensuite, exécutez cette commande pour voir vos abonnements actuels :</span><span class="sxs-lookup"><span data-stu-id="c0830-118">Next, run this command to see your current subscriptions:</span></span>
-  
+<span data-ttu-id="c6cb4-118">Ensuite, exécutez cette commande pour voir vos abonnements actuels :</span><span class="sxs-lookup"><span data-stu-id="c6cb4-118">Next, run this command to see your current subscriptions:</span></span>
+
 ```powershell
 Get-MsolAccountSku
 ```
 
 >[!Note]
-><span data-ttu-id="c0830-119">PowerShell Core ne prend pas en charge le module Microsoft Azure Active Directory pour Windows PowerShell et les applets de commande incluant **Msol** dans leur nom.</span><span class="sxs-lookup"><span data-stu-id="c0830-119">PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name.</span></span> <span data-ttu-id="c0830-120">Pour continuer à utiliser ces applets de commande, vous devez les exécuter à partir de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c0830-120">To continue using these cmdlets, you must run them from Windows PowerShell.</span></span>
+><span data-ttu-id="c6cb4-119">PowerShell Core ne prend pas en charge le module Microsoft Azure Active Directory pour Windows PowerShell et les applets de commande incluant **Msol** dans leur nom.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-119">PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name.</span></span> <span data-ttu-id="c6cb4-120">Pour continuer à utiliser ces applets de commande, vous devez les exécuter à partir de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-120">To continue using these cmdlets, you must run them from Windows PowerShell.</span></span>
 >
 
-<span data-ttu-id="c0830-121">Dans l'affichage de la commande  `Get-MsolAccountSku` :</span><span class="sxs-lookup"><span data-stu-id="c0830-121">In the display of the  `Get-MsolAccountSku` command:</span></span>
-  
-- <span data-ttu-id="c0830-122">**AccountSkuId est** un abonnement pour votre organisation au \<OrganizationName> format : \<Subscription> .</span><span class="sxs-lookup"><span data-stu-id="c0830-122">**AccountSkuId** is a subscription for your organization in \<OrganizationName>:\<Subscription> format.</span></span> <span data-ttu-id="c0830-123">Il s’agit de la valeur que vous avez fournie lorsque vous vous êtes inscrit à \<OrganizationName> Microsoft 365 et est unique pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="c0830-123">The \<OrganizationName> is the value that you provided when you enrolled in Microsoft 365, and is unique for your organization.</span></span> <span data-ttu-id="c0830-124">La \<Subscription> valeur est pour un abonnement spécifique.</span><span class="sxs-lookup"><span data-stu-id="c0830-124">The \<Subscription> value is for a specific subscription.</span></span> <span data-ttu-id="c0830-125">Par exemple, pour litwareinc:ENTERPRISEPACK, le nom de l’organisation est litwareinc, et le nom de l’abonnement est ENTERPRISEPACK (Office 365 Entreprise E3).</span><span class="sxs-lookup"><span data-stu-id="c0830-125">For example, for litwareinc:ENTERPRISEPACK, the organization name is litwareinc, and the subscription name is ENTERPRISEPACK (Office 365 Enterprise E3).</span></span>
-    
-- <span data-ttu-id="c0830-126">**ActiveUnits** représente le nombre de licences que vous avez achetées pour l'abonnement.</span><span class="sxs-lookup"><span data-stu-id="c0830-126">**ActiveUnits** is the number of licenses that you've purchased for the subscription.</span></span>
-    
-- <span data-ttu-id="c0830-127">**WarningUnits** représente le nombre de licences dans un abonnement que vous n'avez pas renouvelées et qui expireront après la période de grâce de 30 jours.</span><span class="sxs-lookup"><span data-stu-id="c0830-127">**WarningUnits** is the number of licenses in a subscription that you haven't renewed, and that will expire after the 30-day grace period.</span></span>
-    
-- <span data-ttu-id="c0830-128">**ConsumedUnits** représente le nombre de licences que vous avez affectées à des utilisateurs de l'abonnement.</span><span class="sxs-lookup"><span data-stu-id="c0830-128">**ConsumedUnits** is the number of licenses that you've assigned to users for the subscription.</span></span>
-    
-<span data-ttu-id="c0830-129">Notez le AccountSkuId de votre abonnement Microsoft 365 qui contient les utilisateurs que vous souhaitez obtenir une licence.</span><span class="sxs-lookup"><span data-stu-id="c0830-129">Note the AccountSkuId for your Microsoft 365 subscription that contains the users you want to license.</span></span> <span data-ttu-id="c0830-130">Assurez-vous également qu’il y a suffisamment de licences à attribuer (soustraire **ConsumedUnits** **d’ActiveUnits).**</span><span class="sxs-lookup"><span data-stu-id="c0830-130">Also, ensure that there are enough licenses to assign (subtract **ConsumedUnits** from **ActiveUnits** ).</span></span>
-  
-<span data-ttu-id="c0830-131">Ensuite, exécutez cette commande pour voir les détails des plans de service Microsoft 365 disponibles dans tous vos abonnements :</span><span class="sxs-lookup"><span data-stu-id="c0830-131">Next, run this command to see the details about the Microsoft 365 service plans that are available in all your subscriptions:</span></span>
-  
+<span data-ttu-id="c6cb4-121">Dans l'affichage de la commande  `Get-MsolAccountSku` :</span><span class="sxs-lookup"><span data-stu-id="c6cb4-121">In the display of the  `Get-MsolAccountSku` command:</span></span>
+
+- <span data-ttu-id="c6cb4-122">**AccountSkuId est** un abonnement pour votre organisation au \<OrganizationName> format : \<Subscription> .</span><span class="sxs-lookup"><span data-stu-id="c6cb4-122">**AccountSkuId** is a subscription for your organization in \<OrganizationName>:\<Subscription> format.</span></span> <span data-ttu-id="c6cb4-123">Il s’agit de la valeur que vous avez fournie lorsque vous vous êtes inscrit à \<OrganizationName> Microsoft 365 et est unique pour votre organisation.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-123">The \<OrganizationName> is the value that you provided when you enrolled in Microsoft 365, and is unique for your organization.</span></span> <span data-ttu-id="c6cb4-124">La \<Subscription> valeur est pour un abonnement spécifique.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-124">The \<Subscription> value is for a specific subscription.</span></span> <span data-ttu-id="c6cb4-125">Par exemple, pour litwareinc:ENTERPRISEPACK, le nom de l’organisation est litwareinc, et le nom de l’abonnement est ENTERPRISEPACK (Office 365 Entreprise E3).</span><span class="sxs-lookup"><span data-stu-id="c6cb4-125">For example, for litwareinc:ENTERPRISEPACK, the organization name is litwareinc, and the subscription name is ENTERPRISEPACK (Office 365 Enterprise E3).</span></span>
+
+- <span data-ttu-id="c6cb4-126">**ActiveUnits** représente le nombre de licences que vous avez achetées pour l'abonnement.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-126">**ActiveUnits** is the number of licenses that you've purchased for the subscription.</span></span>
+
+- <span data-ttu-id="c6cb4-127">**WarningUnits** représente le nombre de licences dans un abonnement que vous n'avez pas renouvelées et qui expireront après la période de grâce de 30 jours.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-127">**WarningUnits** is the number of licenses in a subscription that you haven't renewed, and that will expire after the 30-day grace period.</span></span>
+
+- <span data-ttu-id="c6cb4-128">**ConsumedUnits** représente le nombre de licences que vous avez affectées à des utilisateurs de l'abonnement.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-128">**ConsumedUnits** is the number of licenses that you've assigned to users for the subscription.</span></span>
+
+<span data-ttu-id="c6cb4-129">Notez le AccountSkuId de votre abonnement Microsoft 365 qui contient les utilisateurs que vous souhaitez obtenir une licence.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-129">Note the AccountSkuId for your Microsoft 365 subscription that contains the users you want to license.</span></span> <span data-ttu-id="c6cb4-130">En outre, assurez-vous qu’il y a suffisamment de licences à attribuer (soustraire **ConsumedUnits** de **ActiveUnits**).</span><span class="sxs-lookup"><span data-stu-id="c6cb4-130">Also, ensure that there are enough licenses to assign (subtract **ConsumedUnits** from **ActiveUnits**).</span></span>
+
+<span data-ttu-id="c6cb4-131">Ensuite, exécutez cette commande pour voir les détails des plans de service Microsoft 365 disponibles dans tous vos abonnements :</span><span class="sxs-lookup"><span data-stu-id="c6cb4-131">Next, run this command to see the details about the Microsoft 365 service plans that are available in all your subscriptions:</span></span>
+
 ```powershell
 Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 ```
 
-<span data-ttu-id="c0830-132">À partir de l’affichage de cette commande, déterminez les plans de service que vous souhaitez désactiver lorsque vous attribuez des licences aux utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="c0830-132">From the display of this command, determine which service plans you would like to disable when you assign licenses to users.</span></span>
-  
-<span data-ttu-id="c0830-133">Voici une liste partielle des plans de service et leurs services de Microsoft 365 correspondants.</span><span class="sxs-lookup"><span data-stu-id="c0830-133">Here is a partial list of service plans and their corresponding Microsoft 365 services.</span></span>
+<span data-ttu-id="c6cb4-132">À partir de l’affichage de cette commande, déterminez les plans de service que vous souhaitez désactiver lorsque vous attribuez des licences aux utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-132">From the display of this command, determine which service plans you would like to disable when you assign licenses to users.</span></span>
 
-<span data-ttu-id="c0830-134">Le tableau suivant présente les plans Microsoft 365 service et leurs noms convivial pour les services les plus courants.</span><span class="sxs-lookup"><span data-stu-id="c0830-134">The following table shows the Microsoft 365 service plans and their friendly names for the most common services.</span></span> <span data-ttu-id="c0830-135">La liste de vos plans de services peut être différente.</span><span class="sxs-lookup"><span data-stu-id="c0830-135">Your list of service plans might be different.</span></span> 
-  
-|<span data-ttu-id="c0830-136">**Plan de services**</span><span class="sxs-lookup"><span data-stu-id="c0830-136">**Service plan**</span></span>|<span data-ttu-id="c0830-137">**Description**</span><span class="sxs-lookup"><span data-stu-id="c0830-137">**Description**</span></span>|
+<span data-ttu-id="c6cb4-133">Voici une liste partielle des plans de service et leurs services de Microsoft 365 correspondants.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-133">Here is a partial list of service plans and their corresponding Microsoft 365 services.</span></span>
+
+<span data-ttu-id="c6cb4-134">Le tableau suivant présente les plans Microsoft 365 service et leurs noms convivial pour les services les plus courants.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-134">The following table shows the Microsoft 365 service plans and their friendly names for the most common services.</span></span> <span data-ttu-id="c6cb4-135">La liste de vos plans de services peut être différente.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-135">Your list of service plans might be different.</span></span>
+
+|<span data-ttu-id="c6cb4-136">**Plan de services**</span><span class="sxs-lookup"><span data-stu-id="c6cb4-136">**Service plan**</span></span>|<span data-ttu-id="c6cb4-137">**Description**</span><span class="sxs-lookup"><span data-stu-id="c6cb4-137">**Description**</span></span>|
 |:-----|:-----|
-| `SWAY` <br/> |<span data-ttu-id="c0830-138">Sway</span><span class="sxs-lookup"><span data-stu-id="c0830-138">Sway</span></span>  <br/> |
-| `TEAMS1` <br/> |<span data-ttu-id="c0830-139">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c0830-139">Microsoft Teams</span></span>  <br/> |
-| `YAMMER_ENTERPRISE` <br/> |<span data-ttu-id="c0830-140">Yammer</span><span class="sxs-lookup"><span data-stu-id="c0830-140">Yammer</span></span>  <br/> |
-| `RMS_S_ENTERPRISE` <br/> |<span data-ttu-id="c0830-141">Azure Rights Management (RMS)</span><span class="sxs-lookup"><span data-stu-id="c0830-141">Azure Rights Management (RMS)</span></span>  <br/> |
-| `OFFICESUBSCRIPTION` <br/> |<span data-ttu-id="c0830-142">Applications Microsoft 365 pour les grandes entreprises *(précédemment Office 365 ProPlus)*</span><span class="sxs-lookup"><span data-stu-id="c0830-142">Microsoft 365 Apps for enterprise *(previously named Office 365 ProPlus)*</span></span>  <br/> |
-| `MCOSTANDARD` <br/> |<span data-ttu-id="c0830-143">Skype Entreprise Online</span><span class="sxs-lookup"><span data-stu-id="c0830-143">Skype for Business Online</span></span>  <br/> |
-| `SHAREPOINTWAC` <br/> |<span data-ttu-id="c0830-144">Office</span><span class="sxs-lookup"><span data-stu-id="c0830-144">Office</span></span>   <br/> |
-| `SHAREPOINTENTERPRISE` <br/> |<span data-ttu-id="c0830-145">SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="c0830-145">SharePoint Online</span></span>  <br/> |
-| `EXCHANGE_S_ENTERPRISE` <br/> |<span data-ttu-id="c0830-146">Exchange Online (plan 2)</span><span class="sxs-lookup"><span data-stu-id="c0830-146">Exchange Online Plan 2</span></span>  <br/> |
-   
-<span data-ttu-id="c0830-147">Pour obtenir la liste complète des plans de licence (également appelés noms de produits), leurs plans de service inclus et leurs noms convivial correspondants, voir Noms de produits et identificateurs de plan de service pour la [gestion des licences.](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)</span><span class="sxs-lookup"><span data-stu-id="c0830-147">For a complete list of license plans (also known as product names), their included service plans, and their corresponding friendly names, see [Product names and service plan identifiers for licensing](/azure/active-directory/users-groups-roles/licensing-service-plan-reference).</span></span>
-   
-<span data-ttu-id="c0830-148">Maintenant que vous avez le paramètre AccountSkuId et les plans de service à désactiver, vous pouvez attribuer des licences pour un utilisateur ou plusieurs utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="c0830-148">Now that you have the AccountSkuId and the service plans to disable, you can assign licenses for an individual user or for multiple users.</span></span>
-  
-### <a name="for-a-single-user"></a><span data-ttu-id="c0830-149">Pour un utilisateur unique</span><span class="sxs-lookup"><span data-stu-id="c0830-149">For a single user</span></span>
+| `SWAY` <br/> |<span data-ttu-id="c6cb4-138">Sway</span><span class="sxs-lookup"><span data-stu-id="c6cb4-138">Sway</span></span>  <br/> |
+| `TEAMS1` <br/> |<span data-ttu-id="c6cb4-139">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c6cb4-139">Microsoft Teams</span></span>  <br/> |
+| `YAMMER_ENTERPRISE` <br/> |<span data-ttu-id="c6cb4-140">Yammer</span><span class="sxs-lookup"><span data-stu-id="c6cb4-140">Yammer</span></span>  <br/> |
+| `RMS_S_ENTERPRISE` <br/> |<span data-ttu-id="c6cb4-141">Azure Rights Management (RMS)</span><span class="sxs-lookup"><span data-stu-id="c6cb4-141">Azure Rights Management (RMS)</span></span>  <br/> |
+| `OFFICESUBSCRIPTION` <br/> |<span data-ttu-id="c6cb4-142">Applications Microsoft 365 pour les grandes entreprises *(précédemment Office 365 ProPlus)*</span><span class="sxs-lookup"><span data-stu-id="c6cb4-142">Microsoft 365 Apps for enterprise *(previously named Office 365 ProPlus)*</span></span>  <br/> |
+| `MCOSTANDARD` <br/> |<span data-ttu-id="c6cb4-143">Skype Entreprise Online</span><span class="sxs-lookup"><span data-stu-id="c6cb4-143">Skype for Business Online</span></span>  <br/> |
+| `SHAREPOINTWAC` <br/> |<span data-ttu-id="c6cb4-144">Bureau</span><span class="sxs-lookup"><span data-stu-id="c6cb4-144">Office</span></span>   <br/> |
+| `SHAREPOINTENTERPRISE` <br/> |<span data-ttu-id="c6cb4-145">SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="c6cb4-145">SharePoint Online</span></span>  <br/> |
+| `EXCHANGE_S_ENTERPRISE` <br/> |<span data-ttu-id="c6cb4-146">Exchange Online (plan 2)</span><span class="sxs-lookup"><span data-stu-id="c6cb4-146">Exchange Online Plan 2</span></span>  <br/> |
 
-<span data-ttu-id="c0830-150">Pour un utilisateur unique, remplissez le nom d’utilisateur principal du compte d’utilisateur, le AccountSkuId et la liste des plans de service à désactiver et supprimer le texte explicatif et les \< and > caractères.</span><span class="sxs-lookup"><span data-stu-id="c0830-150">For a single user, fill in the user principal name of the user account, the AccountSkuId, and the list of service plans to disable and remove the explanatory text and the \< and > characters.</span></span> <span data-ttu-id="c0830-151">Ensuite, exécutez les commandes qui en résultent à l’invite de commande PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c0830-151">Then, run the resulting commands at the PowerShell command prompt.</span></span>
-  
+<span data-ttu-id="c6cb4-147">Pour obtenir la liste complète des plans de licence (également appelés noms de produits), leurs plans de service inclus et leurs noms convivial correspondants, voir Noms de produits et identificateurs de plan de service pour la [gestion des licences.](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)</span><span class="sxs-lookup"><span data-stu-id="c6cb4-147">For a complete list of license plans (also known as product names), their included service plans, and their corresponding friendly names, see [Product names and service plan identifiers for licensing](/azure/active-directory/users-groups-roles/licensing-service-plan-reference).</span></span>
+
+<span data-ttu-id="c6cb4-148">Maintenant que vous avez le paramètre AccountSkuId et les plans de service à désactiver, vous pouvez attribuer des licences pour un utilisateur ou plusieurs utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-148">Now that you have the AccountSkuId and the service plans to disable, you can assign licenses for an individual user or for multiple users.</span></span>
+
+### <a name="for-a-single-user"></a><span data-ttu-id="c6cb4-149">Pour un utilisateur unique</span><span class="sxs-lookup"><span data-stu-id="c6cb4-149">For a single user</span></span>
+
+<span data-ttu-id="c6cb4-150">Pour un utilisateur unique, remplissez le nom d’utilisateur principal du compte d’utilisateur, le AccountSkuId et la liste des plans de service à désactiver et supprimer le texte explicatif et les \< and > caractères.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-150">For a single user, fill in the user principal name of the user account, the AccountSkuId, and the list of service plans to disable and remove the explanatory text and the \< and > characters.</span></span> <span data-ttu-id="c6cb4-151">Ensuite, exécutez les commandes qui en résultent à l’invite de commande PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-151">Then, run the resulting commands at the PowerShell command prompt.</span></span>
+
 ```powershell
 $userUPN="<the user's account name in email format>"
 $accountSkuId="<the AccountSkuId from the Get-MsolAccountSku command>"
@@ -133,8 +133,8 @@ Sleep -Seconds 5
 Set-MsolUserLicense -UserPrincipalName $userUpn -LicenseOptions $licenseOptions -ErrorAction SilentlyContinue
 ```
 
-<span data-ttu-id="c0830-152">Voici un exemple de bloc de commande pour le compte nommé belindan@contoso.com, pour la licence contoso:ENTERPRISEPACK, et les plans de service à désactiver sont RMS_S_ENTERPRISE, SWAY, INTUNE_O365 et YAMMER_ENTERPRISE :</span><span class="sxs-lookup"><span data-stu-id="c0830-152">Here is an example command block for the account named belindan@contoso.com, for the contoso:ENTERPRISEPACK license, and the service plans to disable are RMS_S_ENTERPRISE, SWAY, INTUNE_O365, and YAMMER_ENTERPRISE:</span></span>
-  
+<span data-ttu-id="c6cb4-152">Voici un exemple de bloc de commande pour le compte nommé belindan@contoso.com, pour la licence contoso:ENTERPRISEPACK, et les plans de service à désactiver sont RMS_S_ENTERPRISE, SWAY, INTUNE_O365 et YAMMER_ENTERPRISE :</span><span class="sxs-lookup"><span data-stu-id="c6cb4-152">Here is an example command block for the account named belindan@contoso.com, for the contoso:ENTERPRISEPACK license, and the service plans to disable are RMS_S_ENTERPRISE, SWAY, INTUNE_O365, and YAMMER_ENTERPRISE:</span></span>
+
 ```powershell
 $userUPN="belindan@contoso.com"
 $accountSkuId="contoso:ENTERPRISEPACK"
@@ -145,10 +145,10 @@ Sleep -Seconds 5
 Set-MsolUserLicense -UserPrincipalName $userUpn -LicenseOptions $licenseOptions -ErrorAction SilentlyContinue
 ```
 
-### <a name="for-multiple-users"></a><span data-ttu-id="c0830-153">Pour plusieurs utilisateurs</span><span class="sxs-lookup"><span data-stu-id="c0830-153">For multiple users</span></span>
+### <a name="for-multiple-users"></a><span data-ttu-id="c6cb4-153">Pour plusieurs utilisateurs</span><span class="sxs-lookup"><span data-stu-id="c6cb4-153">For multiple users</span></span>
 
-<span data-ttu-id="c0830-p109">Pour effectuer cette tâche d'administration pour plusieurs utilisateurs, créez un fichier texte de valeurs séparées par des virgules (CSV) qui contient les champs UserPrincipalName et UsageLocation. Voici un exemple :</span><span class="sxs-lookup"><span data-stu-id="c0830-p109">To perform this administration task for multiple users, create a comma-separated value (CSV) text file that contains the UserPrincipalName and UsageLocation fields. Here is an example:</span></span>
-  
+<span data-ttu-id="c6cb4-p109">Pour effectuer cette tâche d'administration pour plusieurs utilisateurs, créez un fichier texte de valeurs séparées par des virgules (CSV) qui contient les champs UserPrincipalName et UsageLocation. Voici un exemple :</span><span class="sxs-lookup"><span data-stu-id="c6cb4-p109">To perform this administration task for multiple users, create a comma-separated value (CSV) text file that contains the UserPrincipalName and UsageLocation fields. Here is an example:</span></span>
+
 ```powershell
 UserPrincipalName,UsageLocation
 ClaudeL@contoso.onmicrosoft.com,FR
@@ -156,8 +156,8 @@ LynneB@contoso.onmicrosoft.com,US
 ShawnM@contoso.onmicrosoft.com,US
 ```
 
-<span data-ttu-id="c0830-156">Ensuite, remplissez l’emplacement des fichiers CSV d’entrée et de sortie, l’ID de référence du compte et la liste des plans de service à désactiver, puis exécutez les commandes qui en résultent à l’invite de commande PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c0830-156">Next, fill in the location of the input and output CSV files, the account SKU ID, and the list of service plans to disable, and then run the resulting commands at the PowerShell command prompt.</span></span>
-  
+<span data-ttu-id="c6cb4-156">Ensuite, remplissez l’emplacement des fichiers CSV d’entrée et de sortie, l’ID de référence du compte et la liste des plans de service à désactiver, puis exécutez les commandes qui en résultent à l’invite de commande PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-156">Next, fill in the location of the input and output CSV files, the account SKU ID, and the list of service plans to disable, and then run the resulting commands at the PowerShell command prompt.</span></span>
+
 ```powershell
 $inFileName="<path and file name of the input CSV file that contains the users, example: C:\admin\Users2License.CSV>"
 $outFileName="<path and file name of the output CSV file that records the results, example: C:\admin\Users2License-Done.CSV>"
@@ -176,20 +176,20 @@ $users | Get-MsolUser | Select UserPrincipalName, Islicensed,Usagelocation | Exp
 }
 ```
 
-<span data-ttu-id="c0830-157">Ce bloc de commande PowerShell :</span><span class="sxs-lookup"><span data-stu-id="c0830-157">This PowerShell command block:</span></span>
-  
-- <span data-ttu-id="c0830-158">affiche le nom d’utilisateur principal de chaque utilisateur ;</span><span class="sxs-lookup"><span data-stu-id="c0830-158">Displays the user principal name of each user.</span></span>
-    
-- <span data-ttu-id="c0830-159">attribue des licences personnalisées à chaque utilisateur ;</span><span class="sxs-lookup"><span data-stu-id="c0830-159">Assigns customized licenses to each user.</span></span>
-    
-- <span data-ttu-id="c0830-160">crée un fichier CSV avec tous les utilisateurs qui ont été traités et affiche l’état de leur licence.</span><span class="sxs-lookup"><span data-stu-id="c0830-160">Creates a CSV file with all the users that were processed and shows their license status.</span></span>
-    
-## <a name="see-also"></a><span data-ttu-id="c0830-161">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c0830-161">See also</span></span>
+<span data-ttu-id="c6cb4-157">Ce bloc de commande PowerShell :</span><span class="sxs-lookup"><span data-stu-id="c6cb4-157">This PowerShell command block:</span></span>
 
-[<span data-ttu-id="c0830-162">Désactiver l’accès aux services Microsoft 365 avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="c0830-162">Disable access to Microsoft 365 services with PowerShell</span></span>](disable-access-to-services-with-microsoft-365-powershell.md)
-  
-[<span data-ttu-id="c0830-163">Désactiver l’accès à Sway avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="c0830-163">Disable access to Sway with PowerShell</span></span>](disable-access-to-sway-with-microsoft-365-powershell.md)
-  
-[<span data-ttu-id="c0830-164">Gérer les comptes d’utilisateurs, les licences et les groupes Microsoft 365 avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="c0830-164">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
-  
-[<span data-ttu-id="c0830-165">Gestion de Microsoft 365 à l’aide de PowerShell</span><span class="sxs-lookup"><span data-stu-id="c0830-165">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
+- <span data-ttu-id="c6cb4-158">affiche le nom d’utilisateur principal de chaque utilisateur ;</span><span class="sxs-lookup"><span data-stu-id="c6cb4-158">Displays the user principal name of each user.</span></span>
+
+- <span data-ttu-id="c6cb4-159">attribue des licences personnalisées à chaque utilisateur ;</span><span class="sxs-lookup"><span data-stu-id="c6cb4-159">Assigns customized licenses to each user.</span></span>
+
+- <span data-ttu-id="c6cb4-160">crée un fichier CSV avec tous les utilisateurs qui ont été traités et affiche l’état de leur licence.</span><span class="sxs-lookup"><span data-stu-id="c6cb4-160">Creates a CSV file with all the users that were processed and shows their license status.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="c6cb4-161">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c6cb4-161">See also</span></span>
+
+[<span data-ttu-id="c6cb4-162">Désactiver l’accès aux services Microsoft 365 avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="c6cb4-162">Disable access to Microsoft 365 services with PowerShell</span></span>](disable-access-to-services-with-microsoft-365-powershell.md)
+
+[<span data-ttu-id="c6cb4-163">Désactiver l’accès à Sway avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="c6cb4-163">Disable access to Sway with PowerShell</span></span>](disable-access-to-sway-with-microsoft-365-powershell.md)
+
+[<span data-ttu-id="c6cb4-164">Gérer les comptes d’utilisateurs, les licences et les groupes Microsoft 365 avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="c6cb4-164">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+
+[<span data-ttu-id="c6cb4-165">Gestion de Microsoft 365 à l’aide de PowerShell</span><span class="sxs-lookup"><span data-stu-id="c6cb4-165">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
