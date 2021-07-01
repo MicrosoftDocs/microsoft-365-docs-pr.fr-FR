@@ -9,12 +9,12 @@ metadata:
   ms.service: bookings
   localization_priority: Normal
   description: Questions fréquemment posées sur Microsoft Bookings.
-  ms.openlocfilehash: e9617710b70c0b79f855284e789c58b3f1124515
-  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.openlocfilehash: 956d423ef89454fa87524ce15165ffd3c8b59507
+  ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 05/12/2021
-  ms.locfileid: "52333938"
+  ms.lasthandoff: 06/30/2021
+  ms.locfileid: "53227702"
 title: Questions fréquemment posées sur Microsoft Bookings
 summary: ''
 sections:
@@ -23,11 +23,11 @@ sections:
   - question: >
       Qu’est-ce que Microsoft Bookings ?
     answer: >
-      Microsoft Bookings est une application Microsoft 365 qui facilite la planification et la gestion des rendez-vous. Bookings inclut un calendrier de réservation basé sur le Web et s’intègre à Outlook pour optimiser le calendrier de votre personnel, offrant ainsi à vos clients la flexibilité nécessaire pour réserver un temps qui leur est le mieux réservé. Les e-mails de notification automatisés réduisent les absences de shows et les organisations gagnent du temps avec une réduction des tâches de planification répétitives. Bookings vous aide à effectuer facilement des rendez-vous virtuels via Skype ou Microsoft Teams, et vous permet de gérer la planification quotidienne via l’application Bookings dans Teams. Avec la possibilité intégrée de personnaliser, Bookings est conçu pour répondre aux besoins de plusieurs parties de n’importe quelle organisation.
+      Microsoft Bookings est une application Microsoft 365 qui facilite la planification et la gestion des rendez-vous. Bookings inclut un calendrier de réservation basé sur le Web et s’intègre à Outlook pour optimiser le calendrier de votre personnel, offrant ainsi à vos clients la flexibilité nécessaire pour réserver un temps qui leur est le mieux réservé. Les e-mails de notification automatisés réduisent les absences de shows et les organisations gagnent du temps avec une réduction des tâches de planification répétitives. Bookings vous permet de prendre facilement des rendez-vous virtuels via Skype ou Microsoft Teams, et vous permet de gérer la planification quotidienne via l’application Bookings dans Teams. Avec la possibilité intégrée de personnaliser, Bookings est conçu pour répondre aux besoins de plusieurs parties de n’importe quelle organisation.
   - question: >
       Comment utiliser Microsoft Bookings ?
     answer: >
-      Bookings est un service en ligne, vous n’avez donc rien à télécharger. Il vous suffit d’aller au sériateur d’application Microsoft 365 expérience Web. Les administrateurs peuvent également utiliser l’application complémentaire Bookings pour rester à jour avec les dernières informations sur les clients et leurs rendez-vous.
+      Bookings est un service en ligne, vous n’avez donc rien à télécharger. Il vous suffit d’aller au s’il s’Microsoft 365 l’expérience Web. Les administrateurs peuvent également utiliser l’application complémentaire Bookings pour rester à jour avec les dernières informations sur les clients et leurs rendez-vous.
   - question: >
       Qui avez accès à Microsoft Bookings ?
     answer: >
@@ -47,7 +47,7 @@ sections:
   - question: >
       Puis-je utiliser Bookings dans mon propre site Web ?
     answer: >
-      Oui. Nous vous fournissons un moyen d’incorporer votre calendrier Bookings dans votre site via un iFrame. Le code d’incorporation de lien se trouve dans **l’onglet de la page Réservations** dans l’application Bookings.
+      Oui. Nous vous fournissons un moyen d’incorporer votre calendrier Bookings dans votre site via un iFrame. Le code d’incorporation de lien se trouve dans l’onglet **de la page Réservations** de l’application Bookings.
   - question: >
       Puis-je utiliser Bookings même si je n’ai pas de page Web pour mon entreprise ?
     answer: >
@@ -148,10 +148,10 @@ sections:
       Dans cet exemple, les employés du siège social titulaires d’une licence M365 E3 ont un accès complet à Bookings, ce qui signifie qu’ils peuvent créer de nouveaux calendriers, modifier des paramètres, ajouter du personnel, publier une page de réservation, créer et gérer des rendez-vous dans le calendrier, et tirer des rapports.
 
 
-      Ces employés du magasin avec des licences E1/F1/F3, ou sans licence, peuvent toujours être ajoutés en tant que membres du personnel aux calendriers dans un rôle invité, puis réservé à des rendez-vous, et ils reçoivent des e-mails de confirmation lorsqu’ils sont bookés. Elles peuvent toujours être réservées pendant leurs heures disponibles/prévues, comme indiqué dans l’onglet Du personnel. La disponibilité du calendrier Bookings limite les heures de réservation en fonction des heures définies et des heures de service.
+      Ces employés du magasin avec des licences E1/F1/F3, ou sans licence, peuvent toujours être ajoutés en tant que membres du personnel aux calendriers dans un rôle invité, puis réservé à des rendez-vous, et ils reçoivent des e-mails de confirmation lorsqu’ils sont bookés. Elles peuvent toujours être réservées pendant les heures disponibles/prévues, comme indiqué dans l’onglet Du personnel. La disponibilité du calendrier Bookings limite les heures de réservation en fonction des heures définies et des heures de service.
 
 
-      Les employés du Store s’affichent également comme indisponibles dans Bookings si un rendez-vous a déjà été programmé à ce moment-là via l’application Web Bookings. Les rendez-vous bookés via Bookings seront reflétés comme étant occupés sur le calendrier d’un membre du personnel dans Bookings. Les employés titulaires d’une licence non-bookings peuvent toujours avoir un impact sur leur calendrier personnel dans Bookings, à condition qu’ils se trouveront dans le même client.
+      Les employés du Store s’affichent également comme indisponibles dans Bookings si un rendez-vous a déjà été programmé à ce moment-là via l’application Web Bookings. Les rendez-vous bookés via Bookings seront reflétés comme étant occupés dans le calendrier d’un membre du personnel dans Bookings. Les employés titulaires d’une licence non-bookings peuvent toujours avoir un impact sur leur calendrier personnel dans Bookings, à condition qu’ils se trouveront dans le même client.
 
 
       Les personnes dans le rôle Invités peuvent afficher les informations fournies par le client lors de la création initiale du rendez-vous. Par exemple, si le représentant du magasin qui est réservé au rendez-vous doit appeler le client avant le rendez-vous, il aura accès aux informations qu’il fournit pendant le processus de planification. Le membre du personnel qui est réservé aura accès à toutes les informations qui apparaissent dans l’e-mail de confirmation et à l’événement de calendrier .ics (par exemple, le numéro de téléphone du client s’il a été entré).
@@ -201,9 +201,9 @@ sections:
     answer: >
       Les adresses de messagerie sont contrôlées et gérées au niveau des Microsoft 365 et dépendent des paramètres de configuration de domaine. Vous pouvez trouver plus d’informations [ici.](/powershell/module/exchange/get-accepteddomain)
   - question: >
-      La possibilité d’envoyer SMS messages dépend-elle d’un service différent ou d’une configuration spécifique ?
+      La possibilité d’envoyer des messages SMS dépend-elle d’un service différent ou d’une configuration spécifique ?
     answer: >
-      SMS messages sont actuellement disponibles en Amérique du Nord et un compte Skype ou Twilio sera utilisé pour SMS remise.
+      Les messages SMS sont actuellement disponibles en Amérique du Nord et un compte Skype ou Twilio sera utilisé pour la remise des SMS.
   - question: >
       Comment les rendez-vous Bookings peuvent-ils s’afficher dans le calendrier d’une personne ?
     answer: >
@@ -277,7 +277,7 @@ sections:
     answer: >
       Oui, étant donné que Bookings fait partie de Exchange, nous permettons aux API Graph et aux API Exchange Web Services (EWS) pour les clients de télécharger leurs propres données à laquelle ils ont accès.
   - question: >
-      Est-il possible de personnaliser les adresses e-mail pour les réponses des clients ?
+      Y a-t-il la possibilité de personnaliser les adresses de messagerie pour les réponses des clients ?
     answer: >
       Il est possible de définir l’adresse de messagerie à laquelle le client envoie ses réponses. Ce paramètre se trouve sous **l’onglet Informations** professionnelles. Le nom de la boîte aux lettres Bookings lui-même peut également être modifié dans Exchange, par le biais de processus Exchange de changement de nom de boîte aux lettres.
   - question: >
@@ -299,15 +299,15 @@ sections:
   - question: >
       Si un utilisateur planifiera un rendez-vous pour un service constitué d’une réunion en ligne, comment recevoir le lien Microsoft Teams vers la réunion s’il laisse le champ d’adresse de messagerie facultatif vide ?
     answer: >
-      Si le système ne comprend pas les informations de courrier du client, il n’y a aucun moyen de remettre le message de confirmation au client et, par conséquent, il ne reçoit pas de lien Teams de confirmation. La solution consiste à définir l’adresse de messagerie comme champ obligatoire, ce que vous pouvez faire sous l’onglet Services de Bookings. Notez que chaque fois que vous créez un service dans Bookings, le champ courrier du client est définie comme champ obligatoire par défaut.
+      Si le système ne comprend pas les informations de courrier du client, il n’y a aucun moyen de remettre le message de confirmation au client et, par conséquent, il ne recevra pas de lien Teams de confirmation. La solution consiste à définir l’adresse de messagerie comme champ obligatoire, ce que vous pouvez faire sous l’onglet Services de Bookings. Notez que chaque fois que vous créez un service dans Bookings, le champ courrier du client est définie comme champ obligatoire par défaut.
   - question: >
       Comment le personnel est-il affecté aux rendez-vous lorsque « Tout le monde » est sélectionné ou lorsque les clients n’ont pas la possibilité de choisir un membre du personnel pour le rendez-vous ?
     answer: >
       Le personnel est affecté de manière aléatoire dans ces scénarios, en dehors de tous les membres du personnel disponibles au moment de la réservation du rendez-vous. Il n’existe actuellement aucun moyen de garantir une répartition égale des rendez-vous affectés de manière aléatoire entre tous les membres du personnel, ni de chiffrer le nombre de rendez-vous affectés à chaque membre du personnel. Si un équilibrage de charge doit être effectué au sein de votre personnel après un certain nombre d’affectations aléatoires, il peut être effectué manuellement dans l’onglet Calendrier de la page Réservations.
   - question: >
-      Comment les utilisateurs peuvent-ils refuser de recevoir SMS messages s’ils l’ont déjà fait ?
+      Comment les utilisateurs peuvent-ils refuser de recevoir des messages SMS s’ils l’ont déjà fait ?
     answer: >
-      Lorsque vous rendez-vous avec SMS messages texte activés, les clients sont invités à cocher la case à cocher chaque fois qu’ils signent. Les clients peuvent également répondre directement au message SMS (le fournisseur SMS) indiquant qu’ils souhaitent que les messages cessent, puis aucun texte supplémentaire n’est envoyé à ce numéro de téléphone. Si le client ne reçoit plus de messages texte du fournisseur, et non de Bookings lui-même, il ne recevra plus de messages SMS à l’avenir, même si vous optez pour la page Bookings.
+      Lorsque vous rendez-vous avec des SMS activés, les clients sont invités à cocher la case à cocher chaque fois qu’ils signent. Les clients peuvent également répondre directement au message SMS (le fournisseur de SMS) indiquant qu’ils souhaitent que les messages cessent, puis aucun texte supplémentaire n’est envoyé à ce numéro de téléphone. Si le client ne reçoit plus de messages texte du fournisseur, et non de Bookings lui-même, il ne recevra plus de SMS à l’avenir, même si vous avez choisi de le faire à partir de la page Bookings.
 - name: Résolution des problèmes
   questions:
   - question: >
@@ -318,7 +318,7 @@ sections:
 
       > [!NOTE]
 
-      > Les réservations sont désactivées par défaut pour les clients qui Microsoft 365 Business Standard, Microsoft 365 A3 ou Microsoft 365 abonnements A5. Bookings est également disponible pour les clients qui ont Office 365 Entreprise E3 et Office 365 Entreprise E5, mais il est désactivé par défaut. To get started, see [Get access to Microsoft Bookings](get-access.md). Pour activer ou désactiver bookings, voir [Activer ou désactiver bookings pour votre organisation.](turn-bookings-on-or-off.md)
+      > Les réservations sont désactivées par défaut pour les clients qui ont Microsoft 365 Business Standard, Microsoft 365 A3 ou Microsoft 365 A5 abonnements. Bookings est également disponible pour les clients qui ont Office 365 Entreprise E3 et Office 365 Entreprise E5, mais il est désactivé par défaut. To get started, see [Get access to Microsoft Bookings](get-access.md). Pour activer ou désactiver bookings, voir Activer ou [désactiver bookings pour votre organisation.](turn-bookings-on-or-off.md)
 
 
       Si vous recherchez des informations sur la synchronisation du calendrier de votre personnel, voir [Ajouter du personnel à Bookings.](add-staff.md) Dans la page **Détails** du personnel, les événements du calendrier affectent **la disponibilité.**
@@ -355,7 +355,7 @@ sections:
       1. Connectez-vous Microsoft 365, puis **rendez-vous** dans le personnel \> **Bookings.**
 
 
-      1. Placez le curseur de la souris sur le nom du membre du personnel. **Les** **icônes** de modification et de suppression apparaissent à droite de la **Téléphone** colonne.
+      1. Placez le curseur de la souris sur le nom du membre du personnel. **Les** **icônes** modifier et supprimer apparaissent à droite de la **colonne Téléphone** de données.
 
 
       1. Sélectionnez **l’icône** Supprimer.
@@ -380,4 +380,4 @@ sections:
 
 
       Si vous voyez toujours cette erreur après une période prolongée ou si vous la voyez souvent, contactez le support technique.
-additionalContent: "\n## <a name=\"additional-resources\"></a>Ressources supplémentaires\n\n- [Microsoft Bookings développe la disponibilité dans le blog des entreprises](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-expands-availability-in-enterprises/ba-p/1214065)\n\n- [Vidéo sur microsoft Bookings Works](https://support.office.com/article/microsoft-bookings-69c45b78-6de4-4f28-9449-cdcc18b7ae45)\n\n- [Commencer à utiliser Microsoft Bookings](get-access.md)\n\n- [Activer ou désactiver Microsoft bookings](turn-bookings-on-or-off.md)\n\n- [Ajouter des utilisateurs individuellement ou en bloc](../admin/add-users/add-users.md?view=o365-worldwide.)\n\n- [Ajouter du personnel aux réservations](add-staff.md)\n\n- [Composants d’API à automatiser après la définition du modèle](/graph/api/bookingbusiness-post-bookingbusinesses)\n\n- [URL du calendrier Bookings pour l’affichage](https://outlook.office.com/bookings/calendar)\n\n- [Stratégies de conformité Bookings](/compliance/regulatory/gdpr-dsr-Office365?view=o365-worldwide#bookings)\n\n- [Personnaliser et publier votre page de réservation](customize-booking-page.md)\n\n- [Configuration de la boîte aux lettres du client](/powershell/module/exchange/get-accepteddomain)\n\n- [Réservations de groupes](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-now-supports-online-meetings-and-group/ba-p/1214120)\n\n- [Mesures bookings et suivi de l’activité](metrics-and-activity-tracking.md)\n\n- [Feuille de route publique M365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=bookings)\n\n- Envoyer des commentaires via [UserVoice](https://outlook.uservoice.com/forums/314907-microsoft-bookings/suggestions/39505261-365-admins-should-have-full-access-to-all-bookings)"
+additionalContent: "\n## <a name=\"additional-resources\"></a>Ressources supplémentaires\n\n- [Microsoft Bookings développe la disponibilité dans le blog des entreprises](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-expands-availability-in-enterprises/ba-p/1214065)\n\n- [Vidéo sur microsoft Bookings Works](https://support.office.com/article/microsoft-bookings-69c45b78-6de4-4f28-9449-cdcc18b7ae45)\n\n- [Commencer à utiliser Microsoft Bookings](get-access.md)\n\n- [Activer ou désactiver Microsoft bookings](turn-bookings-on-or-off.md)\n\n- [Ajouter des utilisateurs individuellement ou en bloc](../admin/add-users/add-users.md)\n\n- [Ajouter du personnel aux réservations](add-staff.md)\n\n- [Composants d’API à automatiser après la définition du modèle](/graph/api/bookingbusiness-post-bookingbusinesses)\n\n- [URL du calendrier Bookings pour l’affichage](https://outlook.office.com/bookings/calendar)\n\n- [Stratégies de conformité Bookings](/compliance/regulatory/gdpr-dsr-Office365#bookings)\n\n- [Personnaliser et publier votre page de réservation](customize-booking-page.md)\n\n- [Configuration de la boîte aux lettres du client](/powershell/module/exchange/get-accepteddomain)\n\n- [Réservations de groupes](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-now-supports-online-meetings-and-group/ba-p/1214120)\n\n- [Mesures bookings et suivi de l’activité](metrics-and-activity-tracking.md)\n\n- [Feuille de route publique M365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=bookings)\n\n- Envoyer des commentaires via [UserVoice](https://outlook.uservoice.com/forums/314907-microsoft-bookings/suggestions/39505261-365-admins-should-have-full-access-to-all-bookings)"
