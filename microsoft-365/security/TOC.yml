@@ -1,4 +1,4 @@
-- name: "Sécurité Microsoft\_365"
+- name: Sécurité Microsoft 365
   href: index.yml
   expanded: true
   items:
@@ -28,17 +28,17 @@
           href: ./office-365-security/sharepoint-file-access-policies.md
         - name: Stratégies MCAS recommandées pour les applications SaaS
           href: ./office-365-security/mcas-saas-access-policies.md
-    - name: "Microsoft\_365\_Defender"
+    - name: Microsoft 365 Defender
       href: ./defender/index.yml
-    - name: "Microsoft\_Defender pour Office\_365"
+    - name: Microsoft Defender pour Office 365
       href: ./office-365-security/index.yml
-    - name: "Microsoft\_Defender pour point de terminaison"
+    - name: Microsoft Defender pour point de terminaison
       href: ./defender-endpoint/index.yml
-    - name: "Microsoft\_Defender pour l’identité"
-      href: 'https://docs.microsoft.com/defender-for-identity'
+    - name: Microsoft Defender pour l’identité
+      href: /defender-for-identity
     - name: Microsoft 365 pour entreprise
       href: ../enterprise/index.yml
-    - name: "Microsoft\_365\_Business"
+    - name: Microsoft 365 Business
       href: ./index.yml
     - name: Conformité Microsoft 365
       href: ../compliance/index.yml
