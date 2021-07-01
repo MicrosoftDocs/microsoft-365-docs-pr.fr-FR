@@ -66,7 +66,7 @@
 #### [Microsoft Defender pour point de terminaison macOS]()
 ##### [Vue d’ensemble de Microsoft Defender pour point de terminaison macOS](microsoft-defender-endpoint-mac.md)
 ##### [Nouveautés](mac-whatsnew.md)
- 
+
 ##### [Déployer]()
 ###### [Déploiement basé sur Microsoft Intune](mac-install-with-intune.md)
 ###### [Déploiement basé sur JAMF Pro]()
@@ -75,11 +75,11 @@
 ####### [Configurer des groupes d’appareils](mac-jamfpro-device-groups.md)
 ####### [Configurer des stratégies](mac-jamfpro-policies.md)
 ####### [Inscrire des appareils](mac-jamfpro-enroll-devices.md)
- 
+
 ###### [Déploiement avec un autre système de Gestion des appareils mobiles (MDM)](mac-install-with-other-mdm.md)
 ###### [Déploiement manuel](mac-install-manually.md)
 ##### [Mettre à jour](mac-updates.md)
- 
+
 ##### [Configurer]()
 ###### [Configurer et valider des exclusions](mac-exclusions.md)
 ###### [Définir des préférences](mac-preferences.md)
@@ -89,14 +89,14 @@
 ####### [Exemples JAMF](mac-device-control-jamf.md)
 ####### [Exemples Intune](mac-device-control-intune.md)
 ###### [Planifier des analyses](mac-schedule-scan.md)
- 
+
 ##### [Résoudre des problèmes]()
 ###### [Résoudre des problèmes d’installation](mac-support-install.md)
 ###### [Résoudre des problèmes de performance](mac-support-perf.md)
 ###### [Résoudre des problèmes de connectivité cloud](troubleshoot-cloud-connect-mdemac.md)
 ###### [Résoudre des problèmes d’extension de kernel](mac-support-kext.md)
 ###### [Résoudre des problèmes de licence](mac-support-license.md)
- 
+
 ##### [Confidentialité](mac-privacy.md)
 ##### [Resources](mac-resources.md)
 
@@ -104,10 +104,10 @@
 #### [Microsoft Defender pour point de terminaison iOS]()
 ##### [Vue d’ensemble de Microsoft Defender pour point de terminaison iOS](microsoft-defender-endpoint-ios.md)
 ##### [Nouveautés](ios-whatsnew.md)
- 
+
 ##### [Déployer]()
 ###### [Déployer Microsoft Defender pour point de terminaison iOS via Intune](ios-install.md)
- 
+
 ##### [Configurer]()
 ###### [Configurer des fonctionnalités iOS](ios-configure-features.md)
 
@@ -115,8 +115,8 @@
 ###### [FAQs et résolution de problèmes](ios-troubleshoot.md)
 
 ##### [Confidentialité](ios-privacy.md)
- 
- 
+
+
 #### [Microsoft Defender pour point de terminaison Linux]()
 ##### [Vue d’ensemble de Microsoft Defender pour point de terminaison Linux](microsoft-defender-endpoint-linux.md)
 ##### [Nouveautés](linux-whatsnew.md)
@@ -127,7 +127,7 @@
 ###### [Microsoft Defender pour point de terminaison Linux](linux-deploy-defender-for-endpoint-with-chef.md)
 
 ##### [Mettre à jour](linux-updates.md)
- 
+
 ##### [Configurer]()
 ###### [Configurer et valider des exclusions](linux-exclusions.md)
 ###### [Configuration du proxy statique](linux-static-proxy-configuration.md)
@@ -136,29 +136,29 @@
 ###### [Planifier des analyses avec Microsoft Defender pour point de terminaison Linux](linux-schedule-scan-atp.md)
 ###### [Planifier une mise à jour de Microsoft Defender pour point de terminaison (Linux)](linux-update-MDE-Linux.md)
 
- 
+
 ##### [Résoudre des problèmes]()
 ###### [Résoudre des problèmes d’installation](linux-support-install.md)
 ###### [Rechercher les problèmes d’état d’intégrité de l’agent](health-status.md)
 ###### [Résoudre des problèmes de connectivité cloud](linux-support-connectivity.md)
 ###### [Résoudre des problèmes de performance](linux-support-perf.md)
 ###### [Résoudre des problèmes d’événements manquants](linux-support-events.md)
- 
+
 ##### [Confidentialité](linux-privacy.md)
 ##### [Resources](linux-resources.md)
- 
+
 #### [Microsoft Defender pour point de terminaison Android]()
 ##### [Vue d’ensemble de Microsoft Defender pour point de terminaison Android](microsoft-defender-endpoint-android.md)
- 
+
 ##### [Déployer]()
 ###### [Déployer Microsoft Defender pour point de terminaison Android via Microsoft Intune](android-intune.md)
- 
+
 ##### [Configurer]()
 ###### [Configurer Microsoft Defender pour point de terminaison pour des fonctionnalités Android](android-configure.md)
- 
+
 ##### [Confidentialité]()
 ###### [Microsoft Defender pour point de terminaison Android : informations sur la confidentialité](android-privacy.md)
- 
+
 ##### [Résoudre des problèmes]()
 ###### [Difficultés avec la résolution de problèmes](android-support-signin.md)
 
@@ -321,13 +321,13 @@
 ##### [Activer la protection la protection contre les codes malveillants exploitant une faille de sécurité](enable-exploit-protection.md)
 ##### [Personnaliser la protection contre les codes malveillants exploitant une faille de sécurité](customize-exploit-protection.md)
 ##### [Importer, exporter et déployer des configurations de protection contre les codes malveillants exploitant une faille de sécurité](import-export-exploit-protection-emet-xml.md)
-##### [Référence de protection contre les codes malveillants exploitant une faille de sécurité](exploit-protection-reference.md )
+##### [Référence de protection contre les codes malveillants exploitant une faille de sécurité](exploit-protection-reference.md)
 
 #### [Protection du réseau]()
 ##### [Protéger votre réseau](network-protection.md)
 ##### [Évaluer la protection du réseau](evaluate-network-protection.md)
 ##### [Activer la protection du réseau](enable-network-protection.md)
- 
+
 #### [Protection web]()
 ##### [Vue d’ensemble de la protection web](web-protection-overview.md)
 ##### [Protection contre les menaces web]()
@@ -335,7 +335,7 @@
 ###### [Surveiller la sécurité web](web-protection-monitoring.md)
 ###### [Répondre aux menaces web](web-protection-response.md)
 ##### [Filtrage du contenu web](web-content-filtering.md)
- 
+
 #### [Accès contrôlé aux dossiers]()
 ##### [Protéger les dossiers](controlled-folders.md)
 ##### [Évaluer l’accès contrôlé aux dossiers](evaluate-controlled-folder-access.md)
@@ -371,7 +371,7 @@
 ##### [Afficher et organiser la file d’attente des incidents](view-incidents-queue.md)
 ##### [Gérer des incidents](manage-incidents.md)
 ##### [Examiner des incidents](investigate-incidents.md)
- 
+
 #### [File d’attente des alertes]()
 ##### [Afficher et organiser la file d’attente des alertes](alerts-queue.md)
 ##### [Évaluer des alertes](review-alerts.md)
@@ -383,12 +383,12 @@
 ##### [Examiner un domaine](investigate-domain.md)
 ###### [Examiner des événements de connexion qui se produisent d’arrière vers l’avant des proxys](investigate-behind-proxy.md)
 ##### [Examiner un compte d’utilisateur](investigate-user.md)
- 
+
 #### [Liste des appareils]()
 ##### [Afficher et organiser la liste des appareils](machines-view-overview.md)
 ##### [Marqueurs d’événement de la chronologie d’appareil](device-timeline-event-flag.md)
 ##### [Gérer des balises et un groupe d’appareils](machine-tags.md)
- 
+
 #### [Prendre des mesures de réponse]()
 ##### [Prendre des mesures de réponse sur un appareil]()
 ###### [Actions de réponse sur des appareils](respond-machine-alerts.md)
@@ -547,7 +547,7 @@
 ####### [Restreindre l’exécution des applications](restrict-code-execution.md)
 ####### [Supprimer la restriction des applications](unrestrict-code-execution.md)
 ####### [Exécuter une analyse antivirus](run-av-scan.md)
-####### [Exécuter la réponse en direct](run-live-response.md) 
+####### [Exécuter la réponse en direct](run-live-response.md)
 ####### [Retirer un ordinateur](offboard-machine-api.md)
 ####### [Arrêt et fichier mis en quarantaine](stop-and-quarantine-file.md)
 ####### [Annuler l’action de l’ordinateur](cancel-machine-action.md)
@@ -661,7 +661,7 @@
 ##### [Appareils inactifs](fix-unhealthy-sensors.md#inactive-devices)
 ##### [Appareils mal configurés](fix-unhealthy-sensors.md#misconfigured-devices)
 ##### [Évaluer les erreurs et événements du capteur sur des ordinateurs avec Event Viewer](event-error-codes.md)
-  
+
 #### [Résoudre des problèmes de service avec Microsoft Defender pour point de terminaison]()
 ##### [Résoudre des problèmes de service](troubleshoot-mdatp.md)
 ##### [Vérifier l’état du service](service-status.md)
@@ -670,7 +670,7 @@
 #### [Résoudre des problèmes de réponse en direct](troubleshoot-live-response.md)
 
 #### [Collecter les journaux du support à l’aide de Live Analyzer](troubleshoot-collect-support-log.md)
- 
+
 #### [Résoudre des problèmes de réduction de la surface d'attaque]()
 ##### [Protection du réseau](troubleshoot-np.md)
 ##### [Règles de réduction de la surface d’attaque](troubleshoot-asr.md)
@@ -678,4 +678,4 @@
 
 # [Microsoft 365 Defender](../defender/index.yml)
 # [Defender pour Office 365](../office-365-security/index.yml)
-# [Defender pour l’identité](https://docs.microsoft.com/defender-for-identity/)
+# [Defender pour l’identité](/defender-for-identity/)
