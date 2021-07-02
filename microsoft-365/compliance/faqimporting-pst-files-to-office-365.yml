@@ -17,13 +17,13 @@ metadata:
   - MET150
   ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
   ms.custom: seo-marvel-apr2020
-  description: Cet article contient des réponses à certaines questions fréquemment posées aux administrateurs sur l’importation de fichiers PST dans Microsoft 365 l’aide Office 365 Import Service.
-  ms.openlocfilehash: 27fa3b93b53a497fcff63524b04f427049bac412
-  ms.sourcegitcommit: ddb1bf56bcba4f03c803f79492e8cd0dc41a3d7a
+  description: Cet article contient des réponses à certaines questions fréquemment posées aux administrateurs sur l’importation de fichiers PST Microsoft 365 l’aide Office 365 Import Service.
+  ms.openlocfilehash: 4340285e6c7cff857e3f3de771ec6e67d4ce010c
+  ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 04/28/2021
-  ms.locfileid: "52090630"
+  ms.lasthandoff: 07/02/2021
+  ms.locfileid: "53276940"
 title: FAQ sur l’importation de fichiers PST
 summary: "**Cet article est réservé aux administrateurs. Voulez-vous importer des fichiers PST dans votre propre boîte aux lettres ? Voir Importer le courrier électronique, les contacts et le calendrier à partir [Outlook fichier .pst](https://go.microsoft.com/fwlink/p/?LinkID=785075)**\n\nVoici quelques questions fréquemment posées sur l’utilisation du service d’importation Office 365 pour importer en bloc des fichiers PST dans Microsoft 365 boîtes aux lettres. Pour plus d’informations sur l’importation de fichiers PST, voir Vue d’ensemble de l’importation de fichiers [PST dans Office 365](./importing-pst-files-to-office-365.md).\n  \n## <a name=\"using-network-upload-to-import-pst-files\"></a>Utilisation du chargement réseau pour importer des fichiers PST\n\nPour obtenir des instructions détaillées, voir Utiliser le chargement réseau pour importer des [fichiers PST dans Office 365](use-network-upload-to-import-pst-files.md).\n"
 sections:
@@ -74,12 +74,9 @@ sections:
       Puis-je utiliser le chargement réseau pour importer des fichiers PST dans des dossiers publics dans Exchange Online ?
     answer: >
       Non, vous ne pouvez pas importer des fichiers PST dans des dossiers publics.
-
-
-      ## <a name="using-drive-shipping-to-import-pst-files"></a>Utilisation de l’expédition de disque pour importer des fichiers PST
-
-
-      Pour obtenir des instructions détaillées, voir Utiliser l’expédition de disque pour importer des [fichiers PST dans Office 365](use-drive-shipping-to-import-pst-files-to-office-365.md).
+  - question: >
+      Existe-t-il des exigences de résolution d’écran lorsque je crée une tâche d’importation de chargement réseau ?
+    answer: "Si la résolution d’écran sur votre ordinateur local est définie sur 1366 x 768, vous pouvez avoir des problèmes lors de la création d’une tâche d’importation. Si tel est le cas, nous vous recommandons de modifier la résolution de l’écran à un autre paramètre, puis de créer une tâche d’importation. Nous travaillons pour résoudre ce problème.     \n\n\n\n## <a name=\"using-drive-shipping-to-import-pst-files\"></a>Utilisation de l’expédition de disque pour importer des fichiers PST\n\nPour obtenir des instructions détaillées, voir Utiliser l’expédition de disque pour importer des [fichiers PST dans Office 365](use-drive-shipping-to-import-pst-files-to-office-365.md).\n"
   - question: >
       De quelles autorisations a-t-on besoin pour créer des tâches d’importation dans le Service d’importation Office 365 ?
     answer: "Le rôle Importation/Exportation de boîtes aux lettres doit vous avoir été attribué pour pouvoir importer des fichiers PST dans des boîtes aux lettres Microsoft 365. Par défaut, ce rôle n’est affecté à aucun groupe de rôles dans Exchange Online. Vous pouvez ajouter le rôle Importation/Exportation de boîte aux lettres au groupe de rôles Gestion de l’organisation. Vous pouvez aussi créer un nouveau groupe de rôles, lui attribuer le rôle Importation/Exportation de boîtes aux lettres, puis vous ajouter, vous ou d’autres utilisateurs, en tant que membre. Pour plus d’informations, consultez les sections « Ajouter un rôle à un groupe de rôles » ou « Créer un groupe de rôles » dans [Gérer les groupes de rôles dans Exchange Online](/Exchange/permissions-exo/role-groups).\n  \nEn outre, pour créer des tâches d’importation dans le Centre de sécurité et de conformité, une des conditions suivantes doit être remplie :\n  \n- Vous devez avoir le rôle de destinataire de courrier dans Exchange Online. Par défaut, ce rôle est assigné aux groupes de rôles Gestion de l’organisation et Gestion des destinataires.\n    \n    Ou\n    \n- Vous devez être un administrateur général au sein de votre organisation.\n    \n> [!TIP]\n> Envisagez de créer un nouveau groupe de rôles dans Exchange Online spécialement conçu pour importer les fichiers PST dans Office 365. Pour obtenir le niveau minimum de privilèges requis pour importer des fichiers PST, affectez les rôles d’importation/exportation de boîte aux lettres et de destinataire de courrier au nouveau groupe de rôles et ajoutez ensuite les membres. \n  \n"
@@ -166,4 +163,8 @@ sections:
       Oui.
   - question: >
       If I have to ship my hard drive to another country, is there anything I need to do?
-    answer: The hard drive that you ship to Microsoft might have to cross international borders. Dans ce cas, vous avez la responsabilité de l’importation et ou de l’exportation du disque dur et des données qu’il contient, conformément à la législation en vigueur. Before shipping a hard drive, check with your advisors to verify that your drive and data can legally be shipped to the specified Microsoft data center. This will help to ensure that it reaches Microsoft in a timely manner.
+    answer: >
+      The hard drive that you ship to Microsoft might have to cross international borders. Dans ce cas, vous avez la responsabilité de l’importation et ou de l’exportation du disque dur et des données qu’il contient, conformément à la législation en vigueur. Before shipping a hard drive, check with your advisors to verify that your drive and data can legally be shipped to the specified Microsoft data center. This will help to ensure that it reaches Microsoft in a timely manner.
+  - question: >
+      Existe-t-il des exigences de résolution d’écran lorsque je crée une tâche d’importation pour l’expédition de disque ?
+    answer: Si la résolution d’écran sur votre ordinateur local est définie sur 1366 x 768, vous pouvez avoir des problèmes lors de la création d’une tâche d’importation. Si tel est le cas, nous vous recommandons de modifier la résolution de l’écran à un autre paramètre, puis de créer une tâche d’importation. Nous travaillons pour résoudre ce problème.
