@@ -11,66 +11,66 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Utilisez l’API REST pour recevoir ou mettre à jour les informations sur un modèle de compréhension de document SharePoint Syntex à l’aide du titre du modèle.
-ms.openlocfilehash: b50849d0dc1c9deefa55a5c92303d18f251e2f8b
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 1c9c9728b7f26883ebe219e723917b14e35b11c0
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177128"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288766"
 ---
-# <a name="getbytitle"></a><span data-ttu-id="f7363-103">GetByTitle</span><span class="sxs-lookup"><span data-stu-id="f7363-103">GetByTitle</span></span>
+# <a name="getbytitle"></a><span data-ttu-id="da0a4-103">GetByTitle</span><span class="sxs-lookup"><span data-stu-id="da0a4-103">GetByTitle</span></span>
 
-<span data-ttu-id="f7363-104">Reçoit ou met à jour les informations sur un modèle de compréhension de document SharePoint Syntex à l’aide du titre du modèle (voir [exemple](rest-getbytitle-method.md#examples)).</span><span class="sxs-lookup"><span data-stu-id="f7363-104">Gets or updates information about a SharePoint Syntex document understanding model using the model title (see [example](rest-getbytitle-method.md#examples)).</span></span>
+<span data-ttu-id="da0a4-104">Reçoit ou met à jour les informations sur un modèle de compréhension de document SharePoint Syntex à l’aide du titre du modèle (voir [exemple](rest-getbytitle-method.md#examples)).</span><span class="sxs-lookup"><span data-stu-id="da0a4-104">Gets or updates information about a SharePoint Syntex document understanding model using the model title (see [example](rest-getbytitle-method.md#examples)).</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="f7363-105">Requête HTTP</span><span class="sxs-lookup"><span data-stu-id="f7363-105">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="da0a4-105">Requête HTTP</span><span class="sxs-lookup"><span data-stu-id="da0a4-105">HTTP request</span></span>
 
 ```HTTP
 GET /_api/machinelearning/models/getbytitle('{modelFileName}') HTTP/1.1
 ```
 
-<span data-ttu-id="f7363-106">Vous pouvez également utiliser la même méthode pour supprimer un modèle.</span><span class="sxs-lookup"><span data-stu-id="f7363-106">This same method can be used for deleting a model, too.</span></span>
+<span data-ttu-id="da0a4-106">Vous pouvez également utiliser la même méthode pour supprimer un modèle.</span><span class="sxs-lookup"><span data-stu-id="da0a4-106">This same method can be used for deleting a model, too.</span></span>
 
 ```HTTP
 DELETE /_api/machinelearning/models/getbytitle('{modelFileName}') HTTP/1.1
 ```
 
-## <a name="uri-parameters"></a><span data-ttu-id="f7363-107">Paramètres d’URI</span><span class="sxs-lookup"><span data-stu-id="f7363-107">URI parameters</span></span>
+## <a name="uri-parameters"></a><span data-ttu-id="da0a4-107">Paramètres d’URI</span><span class="sxs-lookup"><span data-stu-id="da0a4-107">URI parameters</span></span>
 
-|<span data-ttu-id="f7363-108">Nom</span><span class="sxs-lookup"><span data-stu-id="f7363-108">Name</span></span> |<span data-ttu-id="f7363-109">Dans le paramètre</span><span class="sxs-lookup"><span data-stu-id="f7363-109">In</span></span> |<span data-ttu-id="f7363-110">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="f7363-110">Required</span></span>|<span data-ttu-id="f7363-111">Type</span><span class="sxs-lookup"><span data-stu-id="f7363-111">Type</span></span>|<span data-ttu-id="f7363-112">Description</span><span class="sxs-lookup"><span data-stu-id="f7363-112">Description</span></span>|
+|<span data-ttu-id="da0a4-108">Nom</span><span class="sxs-lookup"><span data-stu-id="da0a4-108">Name</span></span> |<span data-ttu-id="da0a4-109">Dans le paramètre</span><span class="sxs-lookup"><span data-stu-id="da0a4-109">In</span></span> |<span data-ttu-id="da0a4-110">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="da0a4-110">Required</span></span>|<span data-ttu-id="da0a4-111">Type</span><span class="sxs-lookup"><span data-stu-id="da0a4-111">Type</span></span>|<span data-ttu-id="da0a4-112">Description</span><span class="sxs-lookup"><span data-stu-id="da0a4-112">Description</span></span>|
 |-----|---|--------|----|-----------|
-|<span data-ttu-id="f7363-113">modelFileName</span><span class="sxs-lookup"><span data-stu-id="f7363-113">modelFileName</span></span>|<span data-ttu-id="f7363-114">requête</span><span class="sxs-lookup"><span data-stu-id="f7363-114">query</span></span>|<span data-ttu-id="f7363-115">True</span><span class="sxs-lookup"><span data-stu-id="f7363-115">True</span></span>|<span data-ttu-id="f7363-116">string</span><span class="sxs-lookup"><span data-stu-id="f7363-116">string</span></span>|<span data-ttu-id="f7363-117">Nom du fichier de modèle Syntex.</span><span class="sxs-lookup"><span data-stu-id="f7363-117">Name of the Syntex model file.</span></span>|
+|<span data-ttu-id="da0a4-113">modelFileName</span><span class="sxs-lookup"><span data-stu-id="da0a4-113">modelFileName</span></span>|<span data-ttu-id="da0a4-114">requête</span><span class="sxs-lookup"><span data-stu-id="da0a4-114">query</span></span>|<span data-ttu-id="da0a4-115">True</span><span class="sxs-lookup"><span data-stu-id="da0a4-115">True</span></span>|<span data-ttu-id="da0a4-116">string</span><span class="sxs-lookup"><span data-stu-id="da0a4-116">string</span></span>|<span data-ttu-id="da0a4-117">Nom du fichier de modèle Syntex.</span><span class="sxs-lookup"><span data-stu-id="da0a4-117">Name of the Syntex model file.</span></span>|
 
-## <a name="request-headers"></a><span data-ttu-id="f7363-118">En-têtes de demande</span><span class="sxs-lookup"><span data-stu-id="f7363-118">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="da0a4-118">En-têtes de demande</span><span class="sxs-lookup"><span data-stu-id="da0a4-118">Request headers</span></span>
 
-| <span data-ttu-id="f7363-119">En-tête</span><span class="sxs-lookup"><span data-stu-id="f7363-119">Header</span></span> | <span data-ttu-id="f7363-120">Valeur</span><span class="sxs-lookup"><span data-stu-id="f7363-120">Value</span></span> |
+| <span data-ttu-id="da0a4-119">En-tête</span><span class="sxs-lookup"><span data-stu-id="da0a4-119">Header</span></span> | <span data-ttu-id="da0a4-120">Valeur</span><span class="sxs-lookup"><span data-stu-id="da0a4-120">Value</span></span> |
 |--------|-------|
-|<span data-ttu-id="f7363-121">Accepter</span><span class="sxs-lookup"><span data-stu-id="f7363-121">Accept</span></span>|<span data-ttu-id="f7363-122">application/json;odata=verbose</span><span class="sxs-lookup"><span data-stu-id="f7363-122">application/json;odata=verbose</span></span>|
+|<span data-ttu-id="da0a4-121">Accepter</span><span class="sxs-lookup"><span data-stu-id="da0a4-121">Accept</span></span>|<span data-ttu-id="da0a4-122">application/json;odata=verbose</span><span class="sxs-lookup"><span data-stu-id="da0a4-122">application/json;odata=verbose</span></span>|
 
-## <a name="request-body"></a><span data-ttu-id="f7363-123">Corps de la demande</span><span class="sxs-lookup"><span data-stu-id="f7363-123">Request body</span></span>
+## <a name="request-body"></a><span data-ttu-id="da0a4-123">Corps de la demande</span><span class="sxs-lookup"><span data-stu-id="da0a4-123">Request body</span></span>
 
-<span data-ttu-id="f7363-124">Pour la méthode GET, le corps de demande n’est pas nécessaire.</span><span class="sxs-lookup"><span data-stu-id="f7363-124">For GET, no request body is needed.</span></span>
+<span data-ttu-id="da0a4-124">Pour la méthode GET, le corps de demande n’est pas nécessaire.</span><span class="sxs-lookup"><span data-stu-id="da0a4-124">For GET, no request body is needed.</span></span>
 
-## <a name="responses"></a><span data-ttu-id="f7363-125">Réponses</span><span class="sxs-lookup"><span data-stu-id="f7363-125">Responses</span></span>
+## <a name="responses"></a><span data-ttu-id="da0a4-125">Réponses</span><span class="sxs-lookup"><span data-stu-id="da0a4-125">Responses</span></span>
 
-| <span data-ttu-id="f7363-126">Nom</span><span class="sxs-lookup"><span data-stu-id="f7363-126">Name</span></span>   | <span data-ttu-id="f7363-127">Type</span><span class="sxs-lookup"><span data-stu-id="f7363-127">Type</span></span>  | <span data-ttu-id="f7363-128">Description</span><span class="sxs-lookup"><span data-stu-id="f7363-128">Description</span></span>|
+| <span data-ttu-id="da0a4-126">Nom</span><span class="sxs-lookup"><span data-stu-id="da0a4-126">Name</span></span>   | <span data-ttu-id="da0a4-127">Type</span><span class="sxs-lookup"><span data-stu-id="da0a4-127">Type</span></span>  | <span data-ttu-id="da0a4-128">Description</span><span class="sxs-lookup"><span data-stu-id="da0a4-128">Description</span></span>|
 |--------|-------|------------|
-|<span data-ttu-id="f7363-129">200 OK</span><span class="sxs-lookup"><span data-stu-id="f7363-129">200 OK</span></span>| |<span data-ttu-id="f7363-130">Opération réussie</span><span class="sxs-lookup"><span data-stu-id="f7363-130">Success</span></span>|
+|<span data-ttu-id="da0a4-129">200 OK</span><span class="sxs-lookup"><span data-stu-id="da0a4-129">200 OK</span></span>| |<span data-ttu-id="da0a4-130">Opération réussie</span><span class="sxs-lookup"><span data-stu-id="da0a4-130">Success</span></span>|
 
-## <a name="examples"></a><span data-ttu-id="f7363-131">Exemples</span><span class="sxs-lookup"><span data-stu-id="f7363-131">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="da0a4-131">Exemples</span><span class="sxs-lookup"><span data-stu-id="da0a4-131">Examples</span></span>
 
-### <a name="get-information-about-the-contoso-contract-model"></a><span data-ttu-id="f7363-132">Obtenir des informations sur le modèle Contrat Contoso</span><span class="sxs-lookup"><span data-stu-id="f7363-132">Get information about the Contoso Contract model</span></span>
+### <a name="get-information-about-the-contoso-contract-model"></a><span data-ttu-id="da0a4-132">Obtenir des informations sur le modèle Contrat Contoso</span><span class="sxs-lookup"><span data-stu-id="da0a4-132">Get information about the Contoso Contract model</span></span>
 
-<span data-ttu-id="f7363-133">Dans cet exemple, le nom du modèle de compréhension de document Syntex est `Contoso Contract`.</span><span class="sxs-lookup"><span data-stu-id="f7363-133">In this sample, the name of the Syntex document understanding model is `Contoso Contract`.</span></span>
+<span data-ttu-id="da0a4-133">Dans cet exemple, le nom du modèle de compréhension de document Syntex est `Contoso Contract`.</span><span class="sxs-lookup"><span data-stu-id="da0a4-133">In this sample, the name of the Syntex document understanding model is `Contoso Contract`.</span></span>
 
-#### <a name="sample-request"></a><span data-ttu-id="f7363-134">Exemple de demande</span><span class="sxs-lookup"><span data-stu-id="f7363-134">Sample request</span></span>
+#### <a name="sample-request"></a><span data-ttu-id="da0a4-134">Exemple de demande</span><span class="sxs-lookup"><span data-stu-id="da0a4-134">Sample request</span></span>
 
 ```HTTP
 GET /_api/machinelearning/models/getbytitle('Contoso Contract') HTTP/1.1
 ```
 
-#### <a name="sample-response"></a><span data-ttu-id="f7363-135">Exemple de réponse</span><span class="sxs-lookup"><span data-stu-id="f7363-135">Sample response</span></span>
+#### <a name="sample-response"></a><span data-ttu-id="da0a4-135">Exemple de réponse</span><span class="sxs-lookup"><span data-stu-id="da0a4-135">Sample response</span></span>
 
-<span data-ttu-id="f7363-136">**Code d’état :** 200</span><span class="sxs-lookup"><span data-stu-id="f7363-136">**Status code:** 200</span></span>
+<span data-ttu-id="da0a4-136">**Code d’état :** 200</span><span class="sxs-lookup"><span data-stu-id="da0a4-136">**Status code:** 200</span></span>
 
 ```HTTP
 {
@@ -102,16 +102,16 @@ GET /_api/machinelearning/models/getbytitle('Contoso Contract') HTTP/1.1
 }
 ```
 
-### <a name="get-and-delete-the-contoso-contract-model-by-name"></a><span data-ttu-id="f7363-137">Obtenir et supprimer le modèle Contrat Contoso par le nom</span><span class="sxs-lookup"><span data-stu-id="f7363-137">Get and delete the Contoso Contract model by name</span></span>
+### <a name="get-and-delete-the-contoso-contract-model-by-name"></a><span data-ttu-id="da0a4-137">Obtenir et supprimer le modèle Contrat Contoso par le nom</span><span class="sxs-lookup"><span data-stu-id="da0a4-137">Get and delete the Contoso Contract model by name</span></span>
 
-<span data-ttu-id="f7363-138">Dans cet exemple, le nom du modèle de compréhension de document du Contrat Contoso est `Contoso Contract`.</span><span class="sxs-lookup"><span data-stu-id="f7363-138">In this sample, the name of the Contoso Contract document understanding model is `Contoso Contract`.</span></span>
+<span data-ttu-id="da0a4-138">Dans cet exemple, le nom du modèle de compréhension de document du Contrat Contoso est `Contoso Contract`.</span><span class="sxs-lookup"><span data-stu-id="da0a4-138">In this sample, the name of the Contoso Contract document understanding model is `Contoso Contract`.</span></span>
 
-##### <a name="sample-request"></a><span data-ttu-id="f7363-139">Exemple de demande</span><span class="sxs-lookup"><span data-stu-id="f7363-139">Sample request</span></span>
+##### <a name="sample-request"></a><span data-ttu-id="da0a4-139">Exemple de demande</span><span class="sxs-lookup"><span data-stu-id="da0a4-139">Sample request</span></span>
 
 ```HTTP
 DELETE /_api/machinelearning/models/getbytitle('Contoso Contract') HTTP/1.1
 ```
 
-## <a name="see-also"></a><span data-ttu-id="f7363-140">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f7363-140">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="da0a4-140">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="da0a4-140">See also</span></span>
 
-[<span data-ttu-id="f7363-141">API REST du modèle de compréhension de document Syntex</span><span class="sxs-lookup"><span data-stu-id="f7363-141">Syntex document understanding model REST API</span></span>](syntex-model-rest-api.md)
+[<span data-ttu-id="da0a4-141">API REST du modèle de compréhension de document Syntex</span><span class="sxs-lookup"><span data-stu-id="da0a4-141">Syntex document understanding model REST API</span></span>](syntex-model-rest-api.md)

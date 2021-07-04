@@ -20,33 +20,33 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: Dans cet article, recherchez des procédures d’utilisation de PowerShell pour Microsoft 365 gérer SharePoint groupes de sites En ligne.
-ms.openlocfilehash: bcc7a00a6114a6fa2ba8aa02520267bd03a0abf5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 383536a6ad5ac5742cf1e38081a9be984ce4806b
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909537"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289078"
 ---
-# <a name="manage-sharepoint-online-site-groups-with-powershell"></a><span data-ttu-id="cfba9-103">Gestion des groupes de sites SharePoint Online avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="cfba9-103">Manage SharePoint Online site groups with PowerShell</span></span>
+# <a name="manage-sharepoint-online-site-groups-with-powershell"></a><span data-ttu-id="c045f-103">Gestion des groupes de sites SharePoint Online avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="c045f-103">Manage SharePoint Online site groups with PowerShell</span></span>
 
-<span data-ttu-id="cfba9-104">*Cet article est valable pour Microsoft 365 Entreprise et Office 365 Entreprise.*</span><span class="sxs-lookup"><span data-stu-id="cfba9-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
+<span data-ttu-id="c045f-104">*Cet article est valable pour Microsoft 365 Entreprise et Office 365 Entreprise.*</span><span class="sxs-lookup"><span data-stu-id="c045f-104">*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
 
-<span data-ttu-id="cfba9-105">Bien que vous pouvez utiliser Microsoft 365 d’administration, vous pouvez également utiliser PowerShell pour Microsoft 365 gérer vos groupes de sites SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="cfba9-105">Although you can use the Microsoft 365 admin center, you can also use PowerShell for Microsoft 365 to manage your SharePoint Online site groups.</span></span>
+<span data-ttu-id="c045f-105">Bien que vous pouvez utiliser le Centre d’administration Microsoft 365, vous pouvez également utiliser PowerShell pour Microsoft 365 gérer vos groupes de sites SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="c045f-105">Although you can use the Microsoft 365 admin center, you can also use PowerShell for Microsoft 365 to manage your SharePoint Online site groups.</span></span>
 
-## <a name="before-you-begin"></a><span data-ttu-id="cfba9-106">Avant de commencer</span><span class="sxs-lookup"><span data-stu-id="cfba9-106">Before you begin</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="c045f-106">Avant de commencer</span><span class="sxs-lookup"><span data-stu-id="c045f-106">Before you begin</span></span>
 
-<span data-ttu-id="cfba9-107">Les procédures de cet article exigent que vous vous connectiez à SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="cfba9-107">The procedures in this article require you to connect to SharePoint Online.</span></span> <span data-ttu-id="cfba9-108">Pour plus d’informations, voir [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).</span><span class="sxs-lookup"><span data-stu-id="cfba9-108">For instructions, see [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).</span></span>
+<span data-ttu-id="c045f-107">Les procédures de cet article exigent que vous vous connectiez à SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="c045f-107">The procedures in this article require you to connect to SharePoint Online.</span></span> <span data-ttu-id="c045f-108">Pour plus d’informations, voir [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).</span><span class="sxs-lookup"><span data-stu-id="c045f-108">For instructions, see [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).</span></span>
 
-## <a name="view-sharepoint-online-with-powershell-for-microsoft-365"></a><span data-ttu-id="cfba9-109">Afficher SharePoint Online avec PowerShell pour Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="cfba9-109">View SharePoint Online with PowerShell for Microsoft 365</span></span>
+## <a name="view-sharepoint-online-with-powershell-for-microsoft-365"></a><span data-ttu-id="c045f-109">Afficher SharePoint Online avec PowerShell pour Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="c045f-109">View SharePoint Online with PowerShell for Microsoft 365</span></span>
 
-<span data-ttu-id="cfba9-110">Le SharePoint d’administration SharePoint Online propose des méthodes simples d’utilisation pour la gestion des groupes de sites.</span><span class="sxs-lookup"><span data-stu-id="cfba9-110">The SharePoint Online admin center has some easy-to-use methods for managing site groups.</span></span> <span data-ttu-id="cfba9-111">Par exemple, supposons que vous vouliez examiner les groupes et les membres du groupe pour le `https://litwareinc.sharepoint.com/sites/finance` site.</span><span class="sxs-lookup"><span data-stu-id="cfba9-111">For example, suppose you want to look at the groups, and the group members, for the `https://litwareinc.sharepoint.com/sites/finance` site.</span></span> <span data-ttu-id="cfba9-112">Voici ce que vous devez faire :</span><span class="sxs-lookup"><span data-stu-id="cfba9-112">Here's what you have to do to:</span></span>
+<span data-ttu-id="c045f-110">Le SharePoint d’administration SharePoint Online propose des méthodes simples d’utilisation pour la gestion des groupes de sites.</span><span class="sxs-lookup"><span data-stu-id="c045f-110">The SharePoint Online admin center has some easy-to-use methods for managing site groups.</span></span> <span data-ttu-id="c045f-111">Par exemple, supposons que vous vouliez examiner les groupes et les membres du groupe pour le `https://litwareinc.sharepoint.com/sites/finance` site.</span><span class="sxs-lookup"><span data-stu-id="c045f-111">For example, suppose you want to look at the groups, and the group members, for the `https://litwareinc.sharepoint.com/sites/finance` site.</span></span> <span data-ttu-id="c045f-112">Voici ce que vous devez faire :</span><span class="sxs-lookup"><span data-stu-id="c045f-112">Here's what you have to do to:</span></span>
 
-1. <span data-ttu-id="cfba9-113">Dans le SharePoint d’administration, cliquez sur **Sites actifs,** puis sur l’URL du site.</span><span class="sxs-lookup"><span data-stu-id="cfba9-113">From the SharePoint admin center, click **Active sites**, and then click the URL of the site.</span></span>
-2. <span data-ttu-id="cfba9-114">Dans la page du site, cliquez sur **Paramètres** icône (située dans le coin supérieur droit de la page), puis cliquez sur **Autorisations du site.**</span><span class="sxs-lookup"><span data-stu-id="cfba9-114">On the site page, click the **Settings** icon (located in the upper right-hand corner of the page), and then click **Site permissions**.</span></span>
+1. <span data-ttu-id="c045f-113">Dans le SharePoint d’administration, cliquez sur **Sites actifs,** puis sur l’URL du site.</span><span class="sxs-lookup"><span data-stu-id="c045f-113">From the SharePoint admin center, click **Active sites**, and then click the URL of the site.</span></span>
+2. <span data-ttu-id="c045f-114">Dans la page du site, cliquez sur **Paramètres** icône (située dans le coin supérieur droit de la page), puis cliquez sur **Autorisations du site.**</span><span class="sxs-lookup"><span data-stu-id="c045f-114">On the site page, click the **Settings** icon (located in the upper right-hand corner of the page), and then click **Site permissions**.</span></span>
 
-<span data-ttu-id="cfba9-115">Répétez ensuite ce processus pour le prochain site que vous souhaitez consulter.</span><span class="sxs-lookup"><span data-stu-id="cfba9-115">And then repeat the process for the next site you want to look at.</span></span>
+<span data-ttu-id="c045f-115">Répétez ensuite ce processus pour le prochain site que vous souhaitez consulter.</span><span class="sxs-lookup"><span data-stu-id="c045f-115">And then repeat the process for the next site you want to look at.</span></span>
 
-<span data-ttu-id="cfba9-116">Pour obtenir la liste des groupes avec PowerShell pour Microsoft 365, vous pouvez utiliser les commandes suivantes :</span><span class="sxs-lookup"><span data-stu-id="cfba9-116">To get a list of the groups with PowerShell for Microsoft 365, you can use the following commands:</span></span>
+<span data-ttu-id="c045f-116">Pour obtenir la liste des groupes avec PowerShell pour Microsoft 365, vous pouvez utiliser les commandes suivantes :</span><span class="sxs-lookup"><span data-stu-id="c045f-116">To get a list of the groups with PowerShell for Microsoft 365, you can use the following commands:</span></span>
 
 ```powershell
 $siteURL = "https://litwareinc.sharepoint.com/sites/finance"
@@ -59,22 +59,22 @@ foreach ($y in $x)
     }
 ```
 
-<span data-ttu-id="cfba9-117">Il existe deux façons d’exécuter ce jeu de commandes dans l’invite de commandes SharePoint Online Management Shell :</span><span class="sxs-lookup"><span data-stu-id="cfba9-117">There are two ways to run this command set in the SharePoint Online Management Shell command prompt:</span></span>
+<span data-ttu-id="c045f-117">Il existe deux façons d’exécuter ce jeu de commandes dans l’invite de commandes SharePoint Online Management Shell :</span><span class="sxs-lookup"><span data-stu-id="c045f-117">There are two ways to run this command set in the SharePoint Online Management Shell command prompt:</span></span>
 
-- <span data-ttu-id="cfba9-118">Copiez les commandes dans Bloc-notes (ou un autre éditeur de texte), modifiez la valeur de la variable **$siteURL,** sélectionnez les commandes, puis collez-les dans l’invite de commandes SharePoint Online Management Shell.</span><span class="sxs-lookup"><span data-stu-id="cfba9-118">Copy the commands into Notepad (or another text editor), modify the value of the **$siteURL** variable, select the commands, and then paste them into the SharePoint Online Management Shell command prompt.</span></span> <span data-ttu-id="cfba9-119">Lorsque vous le faites, PowerShell s’arrête à une **>>** invite.</span><span class="sxs-lookup"><span data-stu-id="cfba9-119">When you do, PowerShell will stop at a **>>** prompt.</span></span> <span data-ttu-id="cfba9-120">Appuyez sur Entrée pour exécuter la `foreach` commande.</span><span class="sxs-lookup"><span data-stu-id="cfba9-120">Press Enter to execute the `foreach` command.</span></span><br/>
-- <span data-ttu-id="cfba9-121">Copiez les commandes dans le Bloc-notes (ou un autre éditeur de texte), modifiez la valeur de la variable **$siteURL** et enregistrez ce fichier texte avec un nom et l’extension .ps1 dans un dossier approprié.</span><span class="sxs-lookup"><span data-stu-id="cfba9-121">Copy the commands into Notepad (or another text editor), modify the value of the **$siteURL** variable, and then save this text file with a name and the .ps1 extension in a suitable folder.</span></span> <span data-ttu-id="cfba9-122">Ensuite, exécutez le script à partir de l’invite de commandes SharePoint Online Management Shell en spécifiant son chemin d’accès et son nom de fichier.</span><span class="sxs-lookup"><span data-stu-id="cfba9-122">Next, run the script from the SharePoint Online Management Shell command prompt by specifying its path and file name.</span></span> <span data-ttu-id="cfba9-123">Voici un exemple de commande :</span><span class="sxs-lookup"><span data-stu-id="cfba9-123">Here is an example command:</span></span>
+- <span data-ttu-id="c045f-118">Copiez les commandes dans Bloc-notes (ou un autre éditeur de texte), modifiez la valeur de la variable **$siteURL,** sélectionnez les commandes, puis collez-les dans l’invite de commandes SharePoint Online Management Shell.</span><span class="sxs-lookup"><span data-stu-id="c045f-118">Copy the commands into Notepad (or another text editor), modify the value of the **$siteURL** variable, select the commands, and then paste them into the SharePoint Online Management Shell command prompt.</span></span> <span data-ttu-id="c045f-119">Lorsque vous le faites, PowerShell s’arrête à une **>>** invite.</span><span class="sxs-lookup"><span data-stu-id="c045f-119">When you do, PowerShell will stop at a **>>** prompt.</span></span> <span data-ttu-id="c045f-120">Appuyez sur Entrée pour exécuter la `foreach` commande.</span><span class="sxs-lookup"><span data-stu-id="c045f-120">Press Enter to execute the `foreach` command.</span></span><br/>
+- <span data-ttu-id="c045f-121">Copiez les commandes dans le Bloc-notes (ou un autre éditeur de texte), modifiez la valeur de la variable **$siteURL** et enregistrez ce fichier texte avec un nom et l’extension .ps1 dans un dossier approprié.</span><span class="sxs-lookup"><span data-stu-id="c045f-121">Copy the commands into Notepad (or another text editor), modify the value of the **$siteURL** variable, and then save this text file with a name and the .ps1 extension in a suitable folder.</span></span> <span data-ttu-id="c045f-122">Ensuite, exécutez le script à partir de l’invite de commandes SharePoint Online Management Shell en spécifiant son chemin d’accès et son nom de fichier.</span><span class="sxs-lookup"><span data-stu-id="c045f-122">Next, run the script from the SharePoint Online Management Shell command prompt by specifying its path and file name.</span></span> <span data-ttu-id="c045f-123">Voici un exemple de commande :</span><span class="sxs-lookup"><span data-stu-id="c045f-123">Here is an example command:</span></span>
 
 ```powershell
 C:\Scripts\SiteGroupsAndUsers.ps1
 ```
 
-<span data-ttu-id="cfba9-124">Dans les deux cas, quelque chose de ce type doit apparaître :</span><span class="sxs-lookup"><span data-stu-id="cfba9-124">In both cases, you should see something similar to this:</span></span>
+<span data-ttu-id="c045f-124">Dans les deux cas, quelque chose de ce type doit apparaître :</span><span class="sxs-lookup"><span data-stu-id="c045f-124">In both cases, you should see something similar to this:</span></span>
 
 ![SharePoint Groupes de sites en ligne](../media/SPO-site-groups.png)
 
-<span data-ttu-id="cfba9-126">Ce sont tous les groupes qui ont été créés pour le site et tous les utilisateurs `https://litwareinc.sharepoint.com/sites/finance` affectés à ces groupes.</span><span class="sxs-lookup"><span data-stu-id="cfba9-126">These are all the groups that have been created for the site `https://litwareinc.sharepoint.com/sites/finance`, and all the users assigned to those groups.</span></span> <span data-ttu-id="cfba9-127">Les noms de groupes apparaissent en jaune pour que vous puissiez distinguer les noms de groupes de leurs membres.</span><span class="sxs-lookup"><span data-stu-id="cfba9-127">The group names are in yellow to help you separate group names from their members.</span></span>
+<span data-ttu-id="c045f-126">Ce sont tous les groupes qui ont été créés pour le site et tous les utilisateurs `https://litwareinc.sharepoint.com/sites/finance` affectés à ces groupes.</span><span class="sxs-lookup"><span data-stu-id="c045f-126">These are all the groups that have been created for the site `https://litwareinc.sharepoint.com/sites/finance`, and all the users assigned to those groups.</span></span> <span data-ttu-id="c045f-127">Les noms de groupes apparaissent en jaune pour que vous puissiez distinguer les noms de groupes de leurs membres.</span><span class="sxs-lookup"><span data-stu-id="c045f-127">The group names are in yellow to help you separate group names from their members.</span></span>
 
-<span data-ttu-id="cfba9-128">Autre exemple : voici un jeu de commandes qui répertorie les groupes et toutes les appartenances aux groupes pour tous vos sites SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="cfba9-128">As another example, here is a command set that lists the groups, and all the group memberships, for all of your SharePoint Online sites.</span></span>
+<span data-ttu-id="c045f-128">Voici un autre exemple de jeu de commandes qui répertorie les groupes et toutes les appartenances aux groupes pour tous vos sites SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="c045f-128">As another example, here is a command set that lists the groups, and all the group memberships, for all of your SharePoint Online sites.</span></span>
 
 ```powershell
 $x = Get-SPOSite
@@ -84,22 +84,22 @@ foreach ($y in $x)
         $z = Get-SPOSiteGroup -Site $y.Url
         foreach ($a in $z)
             {
-                 $b = Get-SPOSiteGroup -Site $y.Url -Group $a.Title 
+                 $b = Get-SPOSiteGroup -Site $y.Url -Group $a.Title
                  Write-Host $b.Title -ForegroundColor "Cyan"
                  $b | Select-Object -ExpandProperty Users
                  Write-Host
             }
     }
 ```
-    
-## <a name="see-also"></a><span data-ttu-id="cfba9-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="cfba9-129">See also</span></span>
 
-[<span data-ttu-id="cfba9-130">Connexion à SharePoint Online PowerShell</span><span class="sxs-lookup"><span data-stu-id="cfba9-130">Connect to SharePoint Online PowerShell</span></span>](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+## <a name="see-also"></a><span data-ttu-id="c045f-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c045f-129">See also</span></span>
 
-[<span data-ttu-id="cfba9-131">Création de sites SharePoint Online et ajout d’utilisateurs avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="cfba9-131">Create SharePoint Online sites and add users with PowerShell</span></span>](create-sharepoint-sites-and-add-users-with-powershell.md)
+[<span data-ttu-id="c045f-130">Connexion à SharePoint Online PowerShell</span><span class="sxs-lookup"><span data-stu-id="c045f-130">Connect to SharePoint Online PowerShell</span></span>](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
-[<span data-ttu-id="cfba9-132">Gestion des utilisateurs et des groupes SharePoint Online avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="cfba9-132">Manage SharePoint Online users and groups with PowerShell</span></span>](manage-sharepoint-users-and-groups-with-powershell.md)
+[<span data-ttu-id="c045f-131">Création de sites SharePoint Online et ajout d’utilisateurs avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="c045f-131">Create SharePoint Online sites and add users with PowerShell</span></span>](create-sharepoint-sites-and-add-users-with-powershell.md)
 
-[<span data-ttu-id="cfba9-133">Gestion de Microsoft 365 à l’aide de PowerShell</span><span class="sxs-lookup"><span data-stu-id="cfba9-133">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
-  
-[<span data-ttu-id="cfba9-134">Prise en main de PowerShell pour Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="cfba9-134">Getting started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
+[<span data-ttu-id="c045f-132">Gestion des utilisateurs et des groupes SharePoint Online avec PowerShell</span><span class="sxs-lookup"><span data-stu-id="c045f-132">Manage SharePoint Online users and groups with PowerShell</span></span>](manage-sharepoint-users-and-groups-with-powershell.md)
+
+[<span data-ttu-id="c045f-133">Gestion de Microsoft 365 à l’aide de PowerShell</span><span class="sxs-lookup"><span data-stu-id="c045f-133">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
+
+[<span data-ttu-id="c045f-134">Prise en main de PowerShell pour Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="c045f-134">Getting started with PowerShell for Microsoft 365</span></span>](getting-started-with-microsoft-365-powershell.md)
