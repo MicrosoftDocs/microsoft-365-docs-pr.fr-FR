@@ -1,0 +1,38 @@
+- name: Documentation de base de test
+  href: index.yml
+- name: Présentation
+  items:
+    - name: Qu’est-ce que la base de test ?
+      href: overview.md
+- name: Démarrages rapides
+  items:
+    - name: Créer un compte de base de test
+      href: createAccount.md
+    - name: Téléchargement d’un package
+      href: uploadApplication.md
+    - name: Télécharger Dépendances de & binaires
+      href: binaries.md
+    - name: Définir les tâches de test
+      href: testtask.md
+    - name: Définir les options de test
+      href: testoptions.md
+    - name: Révision
+      href: review.md
+    - name: Recommandations sur le package
+      href: contentguideline.md
+- name: Guides pratiques
+  items:
+    - name: Test d’application serveur
+      href: server.md
+    - name: Test fonctionnel
+      href: functional.md
+    - name: Validation de la mise à jour des fonctionnalités
+      href: feature.md
+    - name: Analyse de la régression de la mémoire
+      href: memory.md
+    - name: Analyse de la régression de l’UC
+      href: cpu.md
+- name: Référence
+  items:
+    - name: Forum Aux Questions
+      href: faq.md

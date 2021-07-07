@@ -1,0 +1,62 @@
+### YamlMime:Landing
+title: Base de test pour la documentation Microsoft 365 documentation
+summary: La base de test Microsoft 365 est un service Azure qui facilite les tests d’applications pilotés par les données. Grâce à la puissance des données et du cloud, il permet aux professionnels de l’informatique de tirer parti de tests intelligents de n’importe où dans le monde. Il vous aidera à tester vos applications sans vous soucier de la difficulté, de l’engagement en temps et de la dépense de configuration et de maintenance d’environnements de test complexes. Plus important encore, il vous permettra d’accéder aux mises à jour Windows pré-publiées sur des machines virtuelles sécurisées (VM) et à l’intelligence de premier niveau pour vos applications.
+metadata:
+  title: Base de test pour la documentation M365
+  description: La base de test Microsoft 365 est un service Azure qui facilite les tests d’applications pilotés par les données. Grâce à la puissance des données et du cloud, il permet aux professionnels de l’informatique de tirer parti de tests intelligents de n’importe où dans le monde.
+  ms.service: service
+  ms.subservice: subservice
+  ms.topic: landing-page
+  ms.collection: collection
+  author: v-zhifufeng
+  ms.author: v-zhifufeng
+  ms.date: 03/29/2021
+  ms.openlocfilehash: 3833e05eea8f8598d228e261734fedb1b0cf2647
+  ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 07/07/2021
+  ms.locfileid: "53322755"
+landingContent:
+- title: À propos de la base de test
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Qu’est-ce que la base de test ?
+      url: overview.md
+  - linkListType: get-started
+    links:
+    - text: Créer un compte de base de test
+      url: createAccount.md
+  - linkListType: tutorial
+    links:
+    - text: ressources supplémentaires
+      url: faq.md
+- title: Prise en main
+  linkLists:
+  - linkListType: quickstart
+    links:
+    - text: Créer un compte de base de test
+      url: createAccount.md
+    - text: Télécharger votre application
+      url: uploadApplication.md
+    - text: Télécharger vos binaires
+      url: binaries.md
+    - text: Définir vos tâches de test
+      url: testtask.md
+    - text: Choisir vos options de test
+      url: testoptions.md
+    - text: Passer en revue vos sélections
+      url: review.md
+    - text: Recommandations en matière de package de test
+      url: contentguideline.md
+    - text: Analyse de la régression de la mémoire
+      url: memory.md
+    - text: Analyse de la régression de l’UC
+      url: cpu.md
+- title: Obtenir des références
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Forum Aux Questions
+      url: faq.md
