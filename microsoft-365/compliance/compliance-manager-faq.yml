@@ -1,0 +1,120 @@
+### YamlMime:FAQ
+metadata:
+  title: FAQ sur le Gestionnaire de conformité Microsoft
+  f1.keywords:
+  - NOCSH
+  ms.author: chvukosw
+  author: chvukosw
+  manager: laurawi
+  audience: Admin
+  ms.topic: article
+  ms.service: O365-seccomp
+  localization_priority: Normal
+  ms.collection: M365-security-compliance
+  search.appverid:
+  - MOE150
+  - MET150
+  description: Trouvez des réponses aux questions fréquemment posées sur le Gestionnaire de conformité Microsoft, qui permet aux organisations de simplifier et d’automatiser les évaluations des risques.
+  ms.openlocfilehash: 85a059accd390bd21cd48d728fb76e183251e097
+  ms.sourcegitcommit: 48e50a5445c63d397197af2bb7549cbec0bce790
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 07/08/2021
+  ms.locfileid: "53331454"
+title: Questions fréquemment posées par le Gestionnaire de conformité
+summary: ''
+sections:
+- name: Ignoré
+  questions:
+  - question: >
+      Le Gestionnaire de conformité et le Score de conformité sont-ils identiques ou sont-ils différents ?
+    answer: >
+      Il n’existe désormais qu’une seule solution : le Gestionnaire de conformité. Cette section vous présente la transition, en commençant par une vue d’ensemble de base ci-dessous. Il peut également vous être utile de passer directement à l’une des sections suivantes :
+
+
+      - [Votre organisation a principalement utilisé le Gestionnaire de conformité (versions classiques ou publiques de la prévisualisation), situé dans le portail d’confiance des services Microsoft.](#your-organization-regularly-used-compliance-manager-in-the-service-trust-portal)
+
+
+      - [Votre organisation a principalement utilisé le Score de conformité (prévisualisation publique), situé dans le Centre de conformité Microsoft 365](#your-organization-used-compliance-score-public-preview-in-the-microsoft-365-compliance-center)
+
+
+      - [Votre organisation est nouvelle dans le Gestionnaire de conformité](#youre-new-to-compliance-manager
+
+      )
+
+      ### <a name="the-basics"></a>Principes de base
+
+
+      Le Gestionnaire de conformité Microsoft a commencé en tant que solution de gestion de la conformité à l’intérieur du portail d’confiance des services Microsoft.  À mesure que les solutions de conformité sont entrées dans Centre de conformité Microsoft 365, nous avons développé une nouvelle expérience avec une conception plus conviviale pour cet emplacement. La prévisualisation publique du Score de conformité a été publiée dans le Centre de conformité Microsoft 365 novembre 2019. Le Score de conformité a partagé le même back-end que le Gestionnaire de conformité, ce qui permet aux clients de travailler aux deux endroits. Depuis novembre 2019, nous avons publié plusieurs mises à jour, car nous avons créé de nouvelles fonctionnalités et répondu aux commentaires des clients.
+
+
+      La disponibilité générale du Gestionnaire de conformité dans le Centre de conformité Microsoft 365 septembre 2020 termine cette évolution. Le Gestionnaire de conformité est la solution de conformité unifiée de bout en bout. Votre score de conformité reste un composant clé du Gestionnaire de conformité.
+
+
+      Lisez ce [billet de blog](https://aka.ms/compliancemanager/GAblog) pour en savoir plus sur les nouveautés de la version GA du Gestionnaire de conformité.
+
+
+      ### <a name="your-organization-regularly-used-compliance-manager-in-the-service-trust-portal"></a>Votre organisation a régulièrement utilisé le Gestionnaire de conformité dans le portail d’confiance des services
+
+
+      Si vous avez utilisé le Gestionnaire de conformité dans le portail d’confiance des services, toutes les données de votre organisation existent désormais dans le Gestionnaire de conformité dans le Centre de conformité Microsoft 365 à https://compliance.microsoft.com/compliancemanager . Vous n’avez rien à faire pour reprendre le travail de votre Gestionnaire de conformité dans son nouvel emplacement, autrement pour mettre à jour les signets dont vous avez besoin à son emplacement précédent. Toutes vos évaluations et autres données ont été apportées à votre place.
+
+
+      Notez que le Gestionnaire de conformité (prévisualisation) n’est plus accessible dans le portail d’confiance des services et que tous les liens vers celui-ci vous redirigent vers son nouvel emplacement dans le Centre de conformité Microsoft 365. Le Gestionnaire de conformité (classique) reste dans le portail d’confiance des services, même si son utilisation est déconseillée.
+
+
+      Tout ce que vous utilisiez dans les versions précédentes du Gestionnaire de conformité, comme l’exécution d’actions (désormais appelées « actions d’amélioration ») et la création d’évaluations, peut être effectué dans le nouveau Gestionnaire de conformité. Nous avons ajouté plus de 150 nouveaux modèles d’évaluation et amélioré le processus de création des modèles. Nous ajouterons d’autres améliorations dans les prochaines publication.
+
+
+      Voici quelques ressources utiles :
+
+
+      - [Familiarisez-vous avec votre nouvelle expérience du Gestionnaire de conformité](compliance-manager-setup.md#understand-the-compliance-manager-dashboard)
+
+      - [Trouver des autorisations et d’autres informations d’installation pour le Gestionnaire de conformité dans son nouveau domicile](compliance-manager-setup.md#who-can-access-compliance-manager)
+
+      - [En savoir plus sur les Centre de conformité Microsoft 365](microsoft-365-compliance-center.md)
+
+
+      ### <a name="your-organization-used-compliance-score-public-preview-in-the-microsoft-365-compliance-center"></a>Votre organisation a utilisé le Score de conformité (prévisualisation publique) dans le Centre de conformité Microsoft 365
+
+
+      Si vous avez utilisé le Score de conformité dans la prévisualisation publique, vous remarquerez que le Gestionnaire de conformité se présente en grande partie de la même façon, votre score est bien visible dans votre tableau de bord. Avec la version GA, vous n’avez plus besoin de quitter le Centre de conformité Microsoft 365 pour effectuer certaines fonctions de gestion des évaluations, telles que la création et la modification de modèles pour les évaluations. Toutes les fonctionnalités résident désormais au même endroit. Toutes les données que vous aviez dans la version préliminaire du Score de conformité restent dans la version GA du Gestionnaire de conformité.
+
+
+      Notez que si vous avez filtré votre affichage du tableau de bord du Score de conformité, ces filtres ont été réinitialisés lors du déploiement du nouveau Gestionnaire de conformité en septembre. Vous devrez réappliquer les filtres dont vous avez eu besoin.
+
+
+      Le Gestionnaire de conformité dispose également de nouveaux termes de licence. Consultez la question ci-dessous sur la gestion des licences.
+
+
+      ### <a name="youre-new-to-compliance-manager"></a>Vous êtes nouveau dans le Gestionnaire de conformité
+
+
+      Le Gestionnaire de conformité est une solution de bout en bout dans le Centre de conformité Microsoft 365 gestion et le suivi des activités de conformité. C’est un excellent endroit pour commencer votre parcours de conformité, car il vous donne une évaluation initiale de votre posture de conformité la première fois que vous visitez. Vous trouverez ci-dessous de bons endroits pour commencer à apprendre davantage :
+
+
+      - [Obtenir une vue d’ensemble du Gestionnaire de conformité](compliance-manager.md)
+
+      - [Utilisez notre guide de démarrage rapide pour vous aider à monter en puissance par étapes](compliance-manager-quickstart.md)
+
+      - [En savoir plus sur les Centre de conformité Microsoft 365](microsoft-365-compliance-center.md)
+  - question: >
+      Existe-t-il des exigences de licence pour l’utilisation du Gestionnaire de conformité ?
+    answer: >
+      Oui. La version GA du Gestionnaire de conformité contient de nouveaux termes de licence. Toutes les organisations titulaires de licences Office 365 et Microsoft 365 et les clients modérés, Cloud de la communauté du secteur public élevés et du département de la Défense (DoD) du gouvernement américain Community (Cloud de la communauté du secteur public) ont accès au Gestionnaire de conformité. Toutefois, les évaluations disponibles pour votre organisation et la façon dont vous gérez les modèles d’évaluation dépendent de votre contrat de licence. Consultez les [conseils Microsoft 365 licences pour la sécurité et la conformité](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) pour plus d’informations.
+  - question: >
+      Si j’ai un score élevé, cela signifie-t-il que je suis entièrement conforme ?
+    answer: >
+      Non. Votre score de conformité mesure votre progression dans l’exécution des actions recommandées qui permettent de réduire les risques liés à la protection des données et aux normes réglementaires. Elle n’exprime pas une mesure absolue de conformité organisationnelle en ce qui concerne une norme ou une réglementation particulière. Le Gestionnaire de conformité et votre score de conformité ne doivent en aucun cas être interprétés comme une garantie.
+  - question: >
+      Puis-je utiliser le Gestionnaire de conformité pour les produits autres que Microsoft ?
+    answer: >
+      Bien que le Gestionnaire de conformité offre une surveillance continue et des actions recommandées uniquement pour les services cloud de Microsoft, vous pouvez ajouter des évaluations personnalisées dans le Gestionnaire de conformité pour vos services tiers. De cette façon, vous pouvez utiliser le Gestionnaire de conformité Microsoft en tant qu’outil de gestion de la conformité SaaS pour vous aider à gérer tous les contrôles de vos biens numériques.
+  - question: >
+      Que se passe-t-il avec le Gestionnaire de conformité (classique) dans le portail d’confiance des services ?
+    answer: >-
+      La version classique du Gestionnaire de conformité, qui réside dans le portail d’confiance des services Microsoft, sera bientôt retirée. Une Microsoft 365 du Centre de messages sortants sort au moins 60 jours avant le retrait final du Gestionnaire de conformité (classique). Les clients qui gèrent leurs activités de conformité dans le Gestionnaire de conformité (classique) doivent déplacer leurs données, y compris les évaluations et les contrôles, vers la nouvelle solution du Gestionnaire de conformité dans le Centre de conformité Microsoft 365. Les données client ne sont pas automatiquement transférés vers le Gestionnaire de conformité dans le Centre de conformité Microsoft 365 lorsque le Gestionnaire de conformité (classique) est retiré.
+
+
+      Pour savoir comment configurer rapidement le nouveau Gestionnaire de conformité, lisez notre guide de démarrage rapide du Gestionnaire [de conformité.](compliance-manager-quickstart.md)
