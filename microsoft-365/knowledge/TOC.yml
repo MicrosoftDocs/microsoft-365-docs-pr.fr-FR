@@ -1,6 +1,6 @@
 - name: Rubriques de Microsoft Viva
   href: index.md
-- name: "Prise en main des rubriques de Microsoft\_Viva"
+- name: Prise en main des rubriques de Microsoft Viva
   items:
     - name: Vue d’ensemble des rubriques de Microsoft Viva
       href: topic-experiences-overview.md
@@ -48,3 +48,5 @@
   items:
     - name: Prise en main de l’adoption
       href: topics-adoption-getstarted.md
+    - name: Exécuter une version d’évaluation
+      href: trial-topics.md
