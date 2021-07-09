@@ -4,7 +4,7 @@
 
 Toute personne intéressée peut contribuer aux rubriques. Lorsque vous contribuez, votre travail est directement placé dans l’ensemble de contenu après la fusion. Il s’affiche ensuite sur docs.microsoft.com et vous êtes répertorié en tant que collaborateur à <https://github.com/MicrosoftDocs/microsoft-365-docs/graphs/contributors> l':.
 
-### <a name="quickly-update-an-article-using-githubcom"></a>Mettre à jour rapidement un article à l’GitHub.com
+### <a name="quickly-update-an-article-using-githubcom"></a>Mettre à jour rapidement un article sur GitHub.com
 
 Les collaborateurs qui ne font que des mises à jour rares ou de petite taille peuvent modifier le fichier directement sur GitHub.com sans avoir à installer de logiciels supplémentaires. Cet article vous montre comment faire. [Cette vidéo de deux minutes vous](https://www.microsoft.com/videoplayer/embed/RE1XQTG) montre également comment contribuer.
 
