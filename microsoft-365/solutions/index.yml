@@ -14,12 +14,12 @@ metadata:
   audience: ITPro
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 053a20e65859fedbd91c9357ccdbd98bdb5109b3
-  ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+  ms.openlocfilehash: 686216d3fc0fab740231b7c383e01f8197e12e6e
+  ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 06/29/2021
-  ms.locfileid: "53177392"
+  ms.lasthandoff: 07/08/2021
+  ms.locfileid: "53338588"
 landingContent:
 - title: Guides des solutions de base
   linkLists:
@@ -58,7 +58,7 @@ landingContent:
     - text: Supprimer un ancien employé
       url: ../admin/add-users/remove-former-employee.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
     - text: Migrer vos partages de fichiers vers Microsoft 365
-      url: /sharepointmigration/mm-get-started.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+      url: /sharepointmigration/mm-get-started?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
 - title: Guides de solutions pour le travail en équipe et la collaboration
   linkLists:
   - linkListType: deploy
@@ -70,7 +70,7 @@ landingContent:
   - linkListType: overview
     links:
     - text: Intranet intelligent
-      url: /sharepoint/intelligent-internet-overview.md
+      url: /sharepoint/intelligent-internet-overview
     - text: Gouvernance de la collaboration
       url: collaboration-governance-overview.md
     - text: Collaboration sur fichier
@@ -108,7 +108,7 @@ landingContent:
     - text: Configurations des identités et de l’accès aux appareils
       url: ../security/office-365-security/microsoft-365-policies-configurations.md
     - text: Déployer Microsoft Defender pour point de terminaison
-      url: /windows/security/threat-protection/microsoft-defender-atp/deployment-phases.md
+      url: /windows/security/threat-protection/microsoft-defender-atp/deployment-phases
     - text: Évaluer Microsoft 365 Defender
       url: ../security/defender-endpoint/deployment-phases.md
     - text: Recommandations de sécurité pour les comptes prioritaires

@@ -134,13 +134,13 @@
         - name: Migration de partages de fichiers vers Microsoft 365
           items:
             - name: Présentation
-              href: /sharepointmigration/mm-get-started.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /sharepointmigration/mm-get-started?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: 'Étape 1 : configurer des agents'
-              href: /sharepointmigration/mm-setup-clients.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /sharepointmigration/mm-setup-clients?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: 'Étape 2 : créer une tâche de migration'
-              href: /sharepointmigration/mm-how-to-use.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /sharepointmigration/mm-how-to-use?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: 'Étape 3 : surveiller et signaler'
-              href: /sharepointmigration/mm-reports.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /sharepointmigration/mm-reports?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
     - name: Travail en équipe et collaboration
       items:
         - name: Déployer la voix Teams dans Microsoft 365
@@ -148,17 +148,17 @@
             - name: Vue d’ensemble
               href: deploy-voice.md
             - name: 'Étape 1. Choisissez votre solution vocale :'
-              href: /MicrosoftTeams/cloud-voice-landing-page.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /MicrosoftTeams/cloud-voice-landing-page?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: Étape 2. - Configurer le système téléphonique
-              href: /MicrosoftTeams/setting-up-your-phone-system.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /MicrosoftTeams/setting-up-your-phone-system?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: Étape 3. - Configurer la connectivité RTC
               items:
                 - name: L’option du forfait d'appels
-                  href: /MicrosoftTeams/set-up-calling-plans.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                  href: /MicrosoftTeams/set-up-calling-plans?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
                 - name: L’option du routage direct
-                  href: /MicrosoftTeams/direct-routing-configure.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                  href: /MicrosoftTeams/direct-routing-configure?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: Etude de cas pour les entreprises multinationales
-              href: /MicrosoftTeams/voice-case-study-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /MicrosoftTeams/voice-case-study-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
         - name: Gérer les contrats pour votre entreprise
           items:
             - name: Vue d’ensemble
@@ -172,19 +172,19 @@
         - name: Créer un intranet SharePoint intelligent
           items:
             - name: Présentation
-              href: /sharepoint/intelligent-internet-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+              href: /sharepoint/intelligent-internet-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
             - name: Comment envisager votre intranet intelligent ?
-              href: /sharepoint/itrad-vs-modern-intranet.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+              href: /sharepoint/itrad-vs-modern-intranet?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
             - name: Feuille de route intranet
-              href: /sharepoint/iintranet-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+              href: /sharepoint/iintranet-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
             - name: Planifier votre intranet
-              href: /sharepoint/iplan-intranet.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+              href: /sharepoint/iplan-intranet?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
             - name: Considérations relatives à la planification d’un intranet global
-              href: /sharepoint/iset-up-global-intranet.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+              href: /sharepoint/iset-up-global-intranet?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
             - name: Gouvernance de l’Intranet
-              href: /sharepoint/iintranet-governance.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+              href: /sharepoint/iintranet-governance?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
             - name: Communication sur le lieu de travail
-              href: /sharepoint/iworkplace-communications.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+              href: /sharepoint/iworkplace-communications?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
         - name: Gouvernance de la collaboration
           items:
             - name: Vue d’ensemble
@@ -238,13 +238,13 @@
         - name: Plans d’action de conformité aux réglementations
           items:
             - name: ISO – Plan d’action recommandé
-              href: /compliance/regulatory/iso-action-plan.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /compliance/regulatory/iso-action-plan?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: NIST – Plan d’action recommandé
-              href: /compliance/regulatory/nist-action-plan.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /compliance/regulatory/nist-action-plan?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: CCPA – Questions fréquentes
-              href: /compliance/regulatory/ccpa-faq.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /compliance/regulatory/ccpa-faq?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: 'RGPD : Plan d’action recommandé'
-              href: /compliance/regulatory/gdpr.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /compliance/regulatory/gdpr?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
     - name: Sécurité
       items:
         - name: Principales tâches pour les équipes de sécurité qui prennent en charge le travail à domicile
@@ -270,7 +270,7 @@
         - name: Équipe isolée pour un projet top secret
           href: contoso-team-for-top-secret-project.md
         - name: Migration de la voix Teams
-          href: /MicrosoftTeams/voice-case-study-overview.md
+          href: /MicrosoftTeams/voice-case-study-overview
         - name: Étude de cas sur la conformité Contoso
           href: ../compliance/communication-compliance-case-study.md
     - name: Guides pour les laboratoires de tests
@@ -292,17 +292,17 @@
     - name: Santé
       items:
         - name: Teams pour la santé publique
-          href: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc.md
+          href: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc
     - name: Éducation
       items:
         - name: Teams pour l’éducation
-          href: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page.md
+          href: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page
     - name: Administration
       items:
         - name: Teams pour le secteur public
-          href: /MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page.md
+          href: /MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page
         - name: Prise en charge des employés du secteur public travaillant à distance avec Teams
-          href: /MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams.md
+          href: /MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams
 - name: Principes de conception de l’architecture d’entreprise
   items:
     - name: Vue d’ensemble
