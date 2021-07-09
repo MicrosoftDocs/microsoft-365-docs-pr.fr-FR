@@ -4,12 +4,12 @@
 
 Toute personne intéressée peut contribuer aux rubriques. Lorsque vous contribuez, votre travail est directement placé dans l’ensemble de contenu après la fusion. Il s’affiche ensuite sur docs.microsoft.com et vous êtes répertorié en tant que collaborateur à <https://github.com/MicrosoftDocs/microsoft-365-docs/graphs/contributors> l':.
 
-### <a name="quickly-update-an-article-using-githubcom"></a>Mettre à jour rapidement un article à l’GitHub.com
+### <a name="quickly-update-an-article-using-githubcom"></a>Mettre à jour rapidement un article sur GitHub.com
 
 Les collaborateurs qui ne font que des mises à jour rares ou de petite taille peuvent modifier le fichier directement sur GitHub.com sans avoir à installer de logiciels supplémentaires. Cet article vous montre comment faire. [Cette vidéo de deux minutes vous](https://www.microsoft.com/videoplayer/embed/RE1XQTG) montre également comment contribuer.
 
 1. Assurez-vous que vous êtes GitHub.com avec votre compte GitHub client.
-2. Go to the page you want to edit on docs.microsoft.com.
+2. Accédez à la page que vous souhaitez modifier sur docs.microsoft.com.
 3. Sur le côté droit de la page, cliquez sur **Modifier** (icône de crayon).
 
    ![Bouton Modifier sur docs.microsoft.com](microsoft-365/media/quick-update-edit.png)
@@ -60,8 +60,8 @@ Microsoft et tous les collaborateurs vous accordent une licence pour la document
 
 Microsoft, Windows, Microsoft Azure et/ou d’autres produits et services Microsoft référencés dans la documentation peuvent être des marques ou des marques déposées de Microsoft aux États-Unis et/ou dans d’autres pays.
 
-Les licences de ce projet ne vous accordent pas le droit d’utiliser des noms, des logos ou des marques Microsoft. Microsoft’s general trademark guidelines can be found at <https://go.microsoft.com/fwlink/?LinkID=254653> .
+Les licences de ce projet ne vous accordent pas le droit d’utiliser des noms, des logos ou des marques Microsoft. Les directives générales sur les marques de Microsoft sont disponibles sur <https://go.microsoft.com/fwlink/?LinkID=254653> .
 
-Les informations de confidentialité sont disponibles à l' <https://privacy.microsoft.com/>
+Les informations de confidentialité sont disponibles à l'adresse <https://privacy.microsoft.com/>
 
 Microsoft et les collaborateurs se réservent tous les autres droits, que ce soit sous leurs droits d’auteur, brevets ou marques respectives, que ce soit par implication, par défaut ou autrement.
