@@ -9,7 +9,7 @@ Toute personne intéressée peut contribuer aux rubriques. Lorsque vous contribu
 Les collaborateurs qui ne font que des mises à jour rares ou de petite taille peuvent modifier le fichier directement sur GitHub.com sans avoir à installer de logiciels supplémentaires. Cet article vous montre comment faire. [Cette vidéo de deux minutes vous](https://www.microsoft.com/videoplayer/embed/RE1XQTG) montre également comment contribuer.
 
 1. Assurez-vous que vous êtes GitHub.com avec votre compte GitHub client.
-2. Go to the page you want to edit on docs.microsoft.com.
+2. Accédez à la page que vous souhaitez modifier sur docs.microsoft.com.
 3. Sur le côté droit de la page, cliquez sur **Modifier** (icône de crayon).
 
    ![Bouton Modifier sur docs.microsoft.com](microsoft-365/media/quick-update-edit.png)
