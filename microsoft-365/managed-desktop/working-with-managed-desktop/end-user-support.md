@@ -1,5 +1,5 @@
 ---
-title: Obtenir la prise en charge des utilisateurs pour Bureau géré Microsoft
+title: Obtenir la prise en charge des utilisateurs pour Microsoft Manged Desktop
 description: Comment les utilisateurs peuvent obtenir de l’aide sur le service et les appareils
 keywords: Bureau géré Microsoft, Microsoft 365, service, documentation
 ms.service: m365-md
@@ -9,69 +9,67 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: abd1b681f3d5900f846fde7922f2f4a2ca5821ef
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 2eea02b0a891f65ccd7e4e993ca719b0f3aa1b8b
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841362"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362605"
 ---
-# <a name="getting-help-for-users"></a><span data-ttu-id="c253d-104">Obtenir de l’aide pour les utilisateurs</span><span class="sxs-lookup"><span data-stu-id="c253d-104">Getting help for users</span></span>
+# <a name="getting-help-for-users"></a><span data-ttu-id="a8946-104">Obtenir de l’aide pour les utilisateurs</span><span class="sxs-lookup"><span data-stu-id="a8946-104">Getting help for users</span></span>
 
-<span data-ttu-id="c253d-105">Il existe deux façons pour les utilisateurs de votre organisation d’obtenir de l’aide sur leurs appareils Bureau géré Microsoft réseau **:** Aide application ou le support téléphonique.</span><span class="sxs-lookup"><span data-stu-id="c253d-105">There are two ways that users in your organization can get help with their Microsoft Managed Desktop devices: **Get Help** app, or phone support.</span></span> <span data-ttu-id="c253d-106">Ces deux options de support sont disponibles pour les utilisateurs 24 heures sur 24, 7 jours sur 7.</span><span class="sxs-lookup"><span data-stu-id="c253d-106">Both of these support options are available to users 24 hours a day, 7 days a week.</span></span>
+<span data-ttu-id="a8946-105">Si vous avez atteint le [](../service-description/user-support.md) point dans le flux de travail où vous devez demander l’accès ou l’escalade d’appareil élevé à Microsoft, suivez les étapes suivantes :</span><span class="sxs-lookup"><span data-stu-id="a8946-105">If you've reached the point in the [workflow](../service-description/user-support.md) where you need to request elevated device access or escalation to Microsoft, follow these steps:</span></span>
  
 >[!NOTE]
-><span data-ttu-id="c253d-107">Ces options de prise en charge ne sont pas disponibles pour les appareils du groupe Test.</span><span class="sxs-lookup"><span data-stu-id="c253d-107">These support options are not available for devices in the Test group.</span></span>
+><span data-ttu-id="a8946-106">Ces options de prise en charge ne sont pas disponibles pour les appareils du groupe Test.</span><span class="sxs-lookup"><span data-stu-id="a8946-106">These support options are not available for devices in the Test group.</span></span>
 
-## <a name="get-help-app"></a><span data-ttu-id="c253d-108">Aide application</span><span class="sxs-lookup"><span data-stu-id="c253d-108">Get Help app</span></span>
+## <a name="elevation-requests"></a><span data-ttu-id="a8946-107">Demandes d’élévation</span><span class="sxs-lookup"><span data-stu-id="a8946-107">Elevation requests</span></span>
 
-<span data-ttu-id="c253d-109">La méthode préférée pour assurer la prise en charge de vos utilisateurs **est Aide,** une interface facile à utiliser intégrée à l’appareil utilisateur.</span><span class="sxs-lookup"><span data-stu-id="c253d-109">The preferred method for providing support to your users is **Get Help**, an easy-to-use interface built into the user device.</span></span>  
+<span data-ttu-id="a8946-108">Avant de demander un accès élevé à un appareil, il est préférable de passer en revue les actions les mieux adaptées.</span><span class="sxs-lookup"><span data-stu-id="a8946-108">Before you request elevated access to a device, it's best to review which actions are best suited.</span></span>
 
-![Aide’application](../../media/get-help.png)
+- <span data-ttu-id="a8946-109">**Ce processus** est généralement destiné à des actions qui seraient effectuées régulièrement lors de la résolution des problèmes liés Microsoft Manged Desktop appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="a8946-109">**Typical actions** are what this process is intended for and would be performed routinely while troubleshooting problems with Microsoft Managed Desktop devices.</span></span> <span data-ttu-id="a8946-110">Les exemples incluent :</span><span class="sxs-lookup"><span data-stu-id="a8946-110">Examples include:</span></span>
+    - <span data-ttu-id="a8946-111">Élévation des niveaux des dépannages du système intégrés, de l’invite de commandes ou des Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="a8946-111">Elevating built-in system troubleshooters, the command prompt, or Windows PowerShell</span></span>
+    - <span data-ttu-id="a8946-112">Résolution des problèmes des applications métier</span><span class="sxs-lookup"><span data-stu-id="a8946-112">Troubleshooting line-of-business applications</span></span>
+    - <span data-ttu-id="a8946-113">Utilisation d’une solution de contournement pour corriger quelque chose qui doit fonctionner par conception (par exemple, l’activation de BitLocker ou le temps système non mis à jour)</span><span class="sxs-lookup"><span data-stu-id="a8946-113">Using a workaround to correct something that should function by design (such as BitLocker activation or system time not updating)</span></span>
+    - <span data-ttu-id="a8946-114">Élévation de la fonction Gestionnaire de périphériques pour faire des opérations telles que les pilotes de mise à jour, désinstaller un appareil ou analyser les nouvelles modifications</span><span class="sxs-lookup"><span data-stu-id="a8946-114">Elevating Device Manager to do things like update drivers, uninstall a device, or scan for new changes</span></span>
 
-<span data-ttu-id="c253d-111">Aide est une application installée sur tous les appareils Bureau géré Microsoft et épinglée à la barre des tâches.</span><span class="sxs-lookup"><span data-stu-id="c253d-111">Get Help is an application that’s installed on all Microsoft Managed Desktop devices and is pinned to the task bar.</span></span> 
+- <span data-ttu-id="a8946-115">**Les actions qui ne sont pas recommandées sont** les suivantes :</span><span class="sxs-lookup"><span data-stu-id="a8946-115">**Actions that aren't recommended** include the following:</span></span>
+    - <span data-ttu-id="a8946-116">Installation de logiciels ou de navigateurs</span><span class="sxs-lookup"><span data-stu-id="a8946-116">Installing software or browsers</span></span>
+    - <span data-ttu-id="a8946-117">Installation de pilotes en dehors des paramètres Windows, y compris ceux des périphériques</span><span class="sxs-lookup"><span data-stu-id="a8946-117">Installing drivers outside of Windows settings, including those for peripherals</span></span>
+    - <span data-ttu-id="a8946-118">Installation de .msi ou de .exe fichiers</span><span class="sxs-lookup"><span data-stu-id="a8946-118">Installing .msi or .exe files</span></span>
+    - <span data-ttu-id="a8946-119">Installation de Windows fonctionnalités</span><span class="sxs-lookup"><span data-stu-id="a8946-119">Installing Windows features</span></span>
 
-- <span data-ttu-id="c253d-112">Les utilisateurs peuvent demander un rappel à un numéro de téléphone fourni ou discuter en ligne avec un représentant du service.</span><span class="sxs-lookup"><span data-stu-id="c253d-112">Users can request a callback to a provided phone number, or chat online with a service rep.</span></span>
-- <span data-ttu-id="c253d-113">Les demandes qui ne font pas partie de Bureau géré Microsoft prise en charge sont redirigées vers le support technique local via un appel téléphonique.</span><span class="sxs-lookup"><span data-stu-id="c253d-113">Requests that fall outside of Microsoft Managed Desktop support scope are redirected to the local IT helpdesk via phone call.</span></span>
+- <span data-ttu-id="a8946-120">**Les actions qui ne sont pas prises en charge sont** les suivantes :</span><span class="sxs-lookup"><span data-stu-id="a8946-120">**Actions that aren't supported** include the following:</span></span>
+    - <span data-ttu-id="a8946-121">Installation de logiciels ou de fonctionnalités en conflit avec Microsoft Manged Desktop de sécurité ou de gestion ou des opérations</span><span class="sxs-lookup"><span data-stu-id="a8946-121">Installing software or features that conflict with Microsoft Managed Desktop security or management capabilities or operations</span></span>
+    - <span data-ttu-id="a8946-122">Désactivation d’une Windows requise pour les Microsoft Manged Desktop, telle que BitLocker</span><span class="sxs-lookup"><span data-stu-id="a8946-122">Disabling a Windows feature that is required for Microsoft Managed Desktop, such as BitLocker</span></span>
+    - <span data-ttu-id="a8946-123">Modification des paramètres gérés par votre organisation</span><span class="sxs-lookup"><span data-stu-id="a8946-123">Modifying settings managed by your org</span></span>
+
+### <a name="to-request-elevation"></a><span data-ttu-id="a8946-124">Pour demander une élévation</span><span class="sxs-lookup"><span data-stu-id="a8946-124">To request elevation</span></span>
+
+1. <span data-ttu-id="a8946-125">Go to the portal at [https://aka.ms/mmdelevationrequest](https://aka.ms/mmdelevationrequest) and sign in with your Azure Active Directory credentials.</span><span class="sxs-lookup"><span data-stu-id="a8946-125">Go to the portal at [https://aka.ms/mmdelevationrequest](https://aka.ms/mmdelevationrequest) and sign in with your Azure Active Directory credentials.</span></span>
+2. <span data-ttu-id="a8946-126">Sélectionnez **Nouvelle demande d’élévation.**</span><span class="sxs-lookup"><span data-stu-id="a8946-126">Select **New elevation request**.</span></span>
+3. <span data-ttu-id="a8946-127">Fournissez les détails ci-après :</span><span class="sxs-lookup"><span data-stu-id="a8946-127">Provide these details:</span></span>
+    - <span data-ttu-id="a8946-128">**ID de ticket de support** à partir de votre propre système de tickets de support.</span><span class="sxs-lookup"><span data-stu-id="a8946-128">**Support ticket ID** from your own support ticketing system.</span></span>
+    - <span data-ttu-id="a8946-129">**Nom de l’appareil**: entrez le numéro de série de l’appareil, puis sélectionnez l’appareil dans le menu.</span><span class="sxs-lookup"><span data-stu-id="a8946-129">**Device name**: enter the device serial number and then select the device from the menu.</span></span>
+    - <span data-ttu-id="a8946-130">**Catégorie**: sélectionnez la catégorie qui correspond le mieux à votre problème.</span><span class="sxs-lookup"><span data-stu-id="a8946-130">**Category**: Select the category that best fits your issue.</span></span> <span data-ttu-id="a8946-131">Si aucune option ne semble proche, sélectionnez **Autre** et fournissez plus d’informations dans les **champs** Titre et Plan **d’action.**</span><span class="sxs-lookup"><span data-stu-id="a8946-131">If no option seems close, then select **Other** and provide more info in the **Title** and **Plan of action** fields.</span></span> <span data-ttu-id="a8946-132">Il est préférable de sélectionner une catégorie si possible.</span><span class="sxs-lookup"><span data-stu-id="a8946-132">It's best to select a category if at all possible.</span></span>
+    - <span data-ttu-id="a8946-133">**Sous-catégorie :** sélectionnez celle qui répond le mieux au problème.</span><span class="sxs-lookup"><span data-stu-id="a8946-133">**Subcategory**: Select the one that best fits the issue.</span></span> <span data-ttu-id="a8946-134">Si aucune option ne semble proche, sélectionnez **Autre** et fournissez une brève description dans **titre**.</span><span class="sxs-lookup"><span data-stu-id="a8946-134">If no option seems close, then select **Other** and provide a short description in **Title**.</span></span> <span data-ttu-id="a8946-135">Dans **le plan d’action,** fournissez les étapes de résolution des problèmes que vous prévoyez d’suivre une fois l’élévation accordée.</span><span class="sxs-lookup"><span data-stu-id="a8946-135">In **Plan of action**, provide the troubleshooting steps you plan to take once elevation is granted.</span></span>
+4. <span data-ttu-id="a8946-136">Sélectionnez **Envoyer**.</span><span class="sxs-lookup"><span data-stu-id="a8946-136">Select **Submit**.</span></span>
+
+
+## <a name="escalation-requests"></a><span data-ttu-id="a8946-137">Demandes d’escalade</span><span class="sxs-lookup"><span data-stu-id="a8946-137">Escalation requests</span></span>
+
+
+<span data-ttu-id="a8946-138">Si vous devez faire [une escalade d’un](../service-description/user-support.md#escalation-portal) problème à Microsoft, suivez les étapes suivantes :</span><span class="sxs-lookup"><span data-stu-id="a8946-138">If you need to [escalate](../service-description/user-support.md#escalation-portal) an issue to Microsoft, follow these steps:</span></span>
+
+1. <span data-ttu-id="a8946-139">Go to the portal at [https://aka.ms/mmdelevationrequest](https://aka.ms/mmdelevationrequest) and sign in with your Azure Active Directory credentials.</span><span class="sxs-lookup"><span data-stu-id="a8946-139">Go to the portal at [https://aka.ms/mmdelevationrequest](https://aka.ms/mmdelevationrequest) and sign in with your Azure Active Directory credentials.</span></span>
+2. <span data-ttu-id="a8946-140">Sélectionnez **Demandes d’escalade,** puis Nouvelle **demande d’escalade.**</span><span class="sxs-lookup"><span data-stu-id="a8946-140">Select **Escalation requests**, and then select **New escalation request**.</span></span>
+3. <span data-ttu-id="a8946-141">Fournissez les détails ci-après :</span><span class="sxs-lookup"><span data-stu-id="a8946-141">Provide these details:</span></span>
+    - <span data-ttu-id="a8946-142">**Catégorie**: sélectionnez la catégorie qui correspond le mieux à votre problème.</span><span class="sxs-lookup"><span data-stu-id="a8946-142">**Category**: Select the category that best fits your issue.</span></span>
+    - <span data-ttu-id="a8946-143">**Titre**: fournissez une brève description.</span><span class="sxs-lookup"><span data-stu-id="a8946-143">**Title**: Provide a very brief description.</span></span>
+    - <span data-ttu-id="a8946-144">**Description**: ajoutez tous les détails supplémentaires qui pourraient aider notre équipe à comprendre le problème.</span><span class="sxs-lookup"><span data-stu-id="a8946-144">**Description**: Add any additional details that could help our team understand the problem.</span></span> <span data-ttu-id="a8946-145">Si vous devez joindre des fichiers, vous pouvez le faire en revenir à la demande après l’avoir soumis.</span><span class="sxs-lookup"><span data-stu-id="a8946-145">If you need to attach files, you can do that by coming back to the request after you submit it.</span></span>
+    - <span data-ttu-id="a8946-146">**Informations de contact principales**: fournissez des informations sur la façon de contacter la personne principale responsable de l’collaboration avec notre équipe.</span><span class="sxs-lookup"><span data-stu-id="a8946-146">**Primary contact information**: Provide info about how to contact the main person responsible for working with our team.</span></span>
+4. <span data-ttu-id="a8946-147">Sélectionnez **Envoyer**.</span><span class="sxs-lookup"><span data-stu-id="a8946-147">Select **Submit**.</span></span>
+5. <span data-ttu-id="a8946-148">Revenir sur le ticket dans le même portail pour interagir avec notre équipe.</span><span class="sxs-lookup"><span data-stu-id="a8946-148">Revisit the ticket in the same portal to interact with our team.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c253d-114">La langue d’affichage de l’application Aide est l’anglais uniquement, même si un utilisateur a sélectionné une autre langue lors de la configuration de son appareil ou dans les paramètres de l’appareil.</span><span class="sxs-lookup"><span data-stu-id="c253d-114">The display language for the Get Help app is English only, even if a user has selected a different language when setting up their device or in device settings.</span></span> 
-
-### <a name="prerequisites"></a><span data-ttu-id="c253d-115">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="c253d-115">Prerequisites</span></span>
-<span data-ttu-id="c253d-116">Pour que vos utilisateurs puissent obtenir de l’aide via l’application, assurez-vous que ces conditions préalables sont remplies :</span><span class="sxs-lookup"><span data-stu-id="c253d-116">For your users to be able to get help through the app, make sure these prerequisites are met:</span></span>
-
-- <span data-ttu-id="c253d-117">L’appareil doit être inscrit auprès Bureau géré Microsoft l’aide de l’une des méthodes de l’outil [Bureau géré Microsoft,](../get-started/set-up-devices.md)telles que Inscrire de nouveaux [appareils vous-même.](../get-started/register-devices-self.md)</span><span class="sxs-lookup"><span data-stu-id="c253d-117">The device must be registered with Microsoft Managed Desktop using one of the methods in [Set up Microsoft Managed Desktop devices](../get-started/set-up-devices.md), such as [Register new devices yourself](../get-started/register-devices-self.md).</span></span>
-- <span data-ttu-id="c253d-118">La langue d’affichage de l’appareil doit être définie sur l’un de ces paramètres régionaux en anglais : en-us, en-gb, en-au, en-nz ou en-ca.</span><span class="sxs-lookup"><span data-stu-id="c253d-118">The display language for the device must be set to any of these English-language locales: en-us, en-gb, en-au, en-nz, or en-ca.</span></span>
-- <span data-ttu-id="c253d-119">L Aide de l’application doit être à jour.</span><span class="sxs-lookup"><span data-stu-id="c253d-119">The Get Help app should be up to date.</span></span> <span data-ttu-id="c253d-120">Pour confirmer son état, recherchez les mises à jour d’application dans le Microsoft Store.</span><span class="sxs-lookup"><span data-stu-id="c253d-120">To confirm its status, check for app updates in the Microsoft Store.</span></span>
-- <span data-ttu-id="c253d-121">Certains [points de terminaison](../get-ready/network.md#endpoints-allowed-that-are-necessary-for-microsoft-managed-desktop) doivent être accessibles à partir de l’appareil.</span><span class="sxs-lookup"><span data-stu-id="c253d-121">Certain [endpoints](../get-ready/network.md#endpoints-allowed-that-are-necessary-for-microsoft-managed-desktop) must be accessible from the device.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="c253d-122">L Aide’application peut prendre jusqu’à une heure après le déploiement d’un appareil pour fonctionner entièrement.</span><span class="sxs-lookup"><span data-stu-id="c253d-122">The Get Help app can take up to one hour after a device is deployed to fully function.</span></span>
-
-<span data-ttu-id="c253d-123">Si vous avez vérifié ces conditions préalables et que l’application Aide ne fonctionne toujours pas, en tant qu’administrateur informatique, vous devez déposer une demande [de support.](admin-support.md)</span><span class="sxs-lookup"><span data-stu-id="c253d-123">If you've checked these prerequisites and the Get Help app still isn't working, you as an IT admin should file a [support request](admin-support.md).</span></span>
-
-## <a name="phone-support"></a><span data-ttu-id="c253d-124">Support téléphonique</span><span class="sxs-lookup"><span data-stu-id="c253d-124">Phone support</span></span>
-
-<span data-ttu-id="c253d-125">Les utilisateurs Bureau géré Microsoft appareils mobiles ont également accès aux numéros de téléphone gratuits qu’ils peuvent appeler.</span><span class="sxs-lookup"><span data-stu-id="c253d-125">Users with Microsoft Managed Desktop devices also have access to toll-free phone numbers they can call.</span></span> <span data-ttu-id="c253d-126">Les numéros sont destinés à être utilisés lorsque Aide n’est pas disponible.</span><span class="sxs-lookup"><span data-stu-id="c253d-126">The numbers are meant to be used when Get Help isn’t available.</span></span> <span data-ttu-id="c253d-127">Par exemple, s’ils ne peuvent pas se connectent à l’appareil ou si l’appareil est rompu.</span><span class="sxs-lookup"><span data-stu-id="c253d-127">For example, if they can’t sign in to the device, or the device is broken.</span></span> <span data-ttu-id="c253d-128">Voici les numéros de téléphone du support téléphonique :</span><span class="sxs-lookup"><span data-stu-id="c253d-128">Here are the phone numbers for phone support:</span></span>
-
-- <span data-ttu-id="c253d-129">États-Unis : +1 855 425 0216</span><span class="sxs-lookup"><span data-stu-id="c253d-129">United States: +1 855 425 0216</span></span>
-- <span data-ttu-id="c253d-130">Canada (à l’exception de Région) : +1 855 425 0216</span><span class="sxs-lookup"><span data-stu-id="c253d-130">Canada (excluding Quebec): +1 855 425 0216</span></span>
-- <span data-ttu-id="c253d-131">Royaume-Uni : +44 800 026 0698</span><span class="sxs-lookup"><span data-stu-id="c253d-131">United Kingdom: +44 800 026 0698</span></span>
-- <span data-ttu-id="c253d-132">Belgique : +32 800 58533</span><span class="sxs-lookup"><span data-stu-id="c253d-132">Belgium: +32 800 58533</span></span>
-- <span data-ttu-id="c253d-133">Luxembourg : +352 800 40119</span><span class="sxs-lookup"><span data-stu-id="c253d-133">Luxembourg: +352 800 40119</span></span>
-- <span data-ttu-id="c253d-134">Australie : +61 180 037 0619</span><span class="sxs-lookup"><span data-stu-id="c253d-134">Australia: +61 180 037 0619</span></span>
-- <span data-ttu-id="c253d-135">Nouvelle-Zélande : +64 988 44380</span><span class="sxs-lookup"><span data-stu-id="c253d-135">New Zealand: +64 988 44380</span></span>
-- <span data-ttu-id="c253d-136">Suède : +46 20 120 3554</span><span class="sxs-lookup"><span data-stu-id="c253d-136">Sweden: +46 20 120 3554</span></span>
-- <span data-ttu-id="c253d-137">Norvège : +47 800 62584</span><span class="sxs-lookup"><span data-stu-id="c253d-137">Norway: +47 800 62584</span></span>
-- <span data-ttu-id="c253d-138">Islande : +354 800 9006</span><span class="sxs-lookup"><span data-stu-id="c253d-138">Iceland: +354 800 9006</span></span>
-- <span data-ttu-id="c253d-139">Irlande : +353 1 800 832272</span><span class="sxs-lookup"><span data-stu-id="c253d-139">Ireland: +353 1 800 832272</span></span>
-- <span data-ttu-id="c253d-140">Danemark : +45 80 40 04 01</span><span class="sxs-lookup"><span data-stu-id="c253d-140">Denmark: +45 80 40 04 01</span></span>
-- <span data-ttu-id="c253d-141">Finlande : +358 800 525088</span><span class="sxs-lookup"><span data-stu-id="c253d-141">Finland: +358 800 525088</span></span>
-
->[!NOTE]
-><span data-ttu-id="c253d-142">Vous devez avoir votre adresse de messagerie d’organisation prête lorsque vous appelez pour vérifier votre identité.</span><span class="sxs-lookup"><span data-stu-id="c253d-142">You'll need to have your organizational email address ready when you call to verify your identity.</span></span> 
-
-## <a name="more-resources"></a><span data-ttu-id="c253d-143">Plus de ressources</span><span class="sxs-lookup"><span data-stu-id="c253d-143">More resources</span></span>
-- <span data-ttu-id="c253d-144">[Prise en charge par l’administrateur Bureau géré Microsoft](admin-support.md).</span><span class="sxs-lookup"><span data-stu-id="c253d-144">[Admin support for Microsoft Managed Desktop](admin-support.md).</span></span> 
-- <span data-ttu-id="c253d-145">[Prise en charge Bureau géré Microsoft](../service-description/support.md).</span><span class="sxs-lookup"><span data-stu-id="c253d-145">[Support for Microsoft Managed Desktop](../service-description/support.md).</span></span>
-- <span data-ttu-id="c253d-146">Si vous vous abonnez déjà à Bureau géré Microsoft, vous trouverez des procédures détaillées, des flux de processus,  des instructions de travail et des FAQ dans le Guide d’administration Bureau géré Microsoft dans les ressources en ligne sous la section Bureau géré Microsoft du menu **d’administration** des locataires dans [Microsoft Endpoint Manager](https://endpoint.microsoft.com/).</span><span class="sxs-lookup"><span data-stu-id="c253d-146">If you already subscribe to Microsoft Managed Desktop, you can find detailed procedures, process flows, work instructions, and FAQs in the Microsoft Managed Desktop Admin Guide in the **Online resources** under the Microsoft Managed Desktop section of the **Tenant administration** menu in [Microsoft Endpoint Manager](https://endpoint.microsoft.com/).</span></span>
+> <span data-ttu-id="a8946-149">Seuls les problèmes de gravité C peuvent être escalades via ce chemin d’accès.</span><span class="sxs-lookup"><span data-stu-id="a8946-149">Only Severity C issues can be escalated through this path.</span></span> <span data-ttu-id="a8946-150">Pour d’autres problèmes, contactez votre administrateur informatique pour déposer la demande via le portail d’administration.</span><span class="sxs-lookup"><span data-stu-id="a8946-150">For other issues, contact your IT admin to file the request through the Admin portal.</span></span>

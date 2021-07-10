@@ -211,6 +211,8 @@
       items:
         - name: Microsoft 365 Multigéographie
           href: microsoft-365-multi-geo.md
+        - name: Teams multigéographique
+          href: multi-geo-capabilities-in-teams-in-microsoft-365.md
         - name: OneDrive et SharePoint Multi-Géo
           href: multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md
         - name: Exchange multigéographique

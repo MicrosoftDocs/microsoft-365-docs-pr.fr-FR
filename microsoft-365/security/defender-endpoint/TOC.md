@@ -174,6 +174,7 @@
 #### [Général]()
 ##### [Vérifier l’emplacement du stockage de données et mettre à jour les paramètres de conservation des données](data-retention-settings.md)
 ##### [Configurer des notifications d’alerte](configure-email-notifications.md)
+##### [Configurer les notifications par e-mail de vulnérabilité](configure-vulnerability-email-notifications.md)
 ##### [Configurer des fonctionnalités avancées](advanced-features.md)
 
 #### [Autorisations]()

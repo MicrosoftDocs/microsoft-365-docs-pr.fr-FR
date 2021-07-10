@@ -41,8 +41,10 @@
           href: service-description/privacy-personal-data.md
         - name: Mises à jour
           href: service-description/updates.md
-        - name: Support
+        - name: Support pour les administrateurs
           href: service-description/support.md
+        - name: Support pour les utilisateurs
+          href: service-description/user-support.md
         - name: Opérations et analyse
           href: service-description/operations-and-monitoring.md
         - name: Journaux de diagnostic
@@ -115,6 +117,8 @@
                   href: get-started/register-devices-partner.md
             - name: Inscrivez vous-même les appareils existant
               href: get-started/register-reused-devices-self.md
+        - name: Activer les fonctionnalités de support utilisateur
+          href: get-started/enable-support.md
         - name: Préparer vos utilisateurs à l’utilisation des appareils
           href: get-started/get-started-devices.md
         - name: Expérience de première exécution avec le pilote automatique et la page état d’inscription

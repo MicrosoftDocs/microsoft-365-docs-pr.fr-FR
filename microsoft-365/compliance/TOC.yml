@@ -429,7 +429,7 @@
               href: archive-salesforcechatter-data.md
             - name: ServiceNow
               href: archive-servicenow-data.md
-            - name: Skype Entreprise (préversion)
+            - name: Skype Entreprise
               href: archive-skypeforbusiness-data.md
             - name: Découverte électronique de marge
               href: archive-slack-data.md
@@ -463,9 +463,9 @@
               href: archive-enterprise-number-data.md
             - name: Archiveur de réseau vocal et SMS O2 Telefonica
               href: archive-o2-network-data.md
-            - name: Signal (préversion)
+            - name: Archiveur de signal
               href: archive-signal-archiver-data.md
-            - name: Telegram (préversion)
+            - name: Archiveur de télégramme
               href: archive-telegram-archiver-data.md
             - name: Réseau TELUS
               href: archive-telus-network-data.md
